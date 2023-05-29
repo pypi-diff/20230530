@@ -969,3 +969,65 @@
 [2023-05-30 01:36:40] INFO root fetch - main [MainThread]: End processing [honeybee-idaice]: success
 [2023-05-30 01:36:41] INFO root fetch - main [MainThread]: End processing [q2rad]: success
 [2023-05-30 01:36:41] INFO root fetch - main [MainThread]: Store serial: [18295325]
+[2023-05-30 01:41:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18295325]
+[2023-05-30 01:41:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 01:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: q2rad
+[2023-05-30 01:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: printnanny-api-client
+[2023-05-30 01:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: regis
+[2023-05-30 01:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text2text
+[2023-05-30 01:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whisper-autosrt
+[2023-05-30 01:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lytekit
+[2023-05-30 01:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cfr
+[2023-05-30 01:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asynciomultiplexer
+[2023-05-30 01:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gdsfactory
+[2023-05-30 01:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gravitas
+[2023-05-30 01:41:49] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-30 01:41:49] INFO root fetch - processPackages [cfr]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-30 01:41:49] INFO root fetch - processPackages [lytekit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-30 01:41:49] INFO root fetch - processPackages [whisper-autosrt]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-30 01:41:49] INFO root fetch - processPackages [printnanny-api-client]: New version: [0.99.9] Old Version: [0.99.8]
+[2023-05-30 01:41:49] INFO root fetch - processPackages [text2text]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-30 01:41:49] INFO root fetch - processPackages [asynciomultiplexer]: New version: [1.0.1] Old Version: [1.0]
+[2023-05-30 01:41:49] INFO root fetch - processPackages [gravitas]: New version: [0.1.1] Old Version: [0.0.9]
+[2023-05-30 01:41:50] INFO root fetch - processPackages [regis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 01:41:50] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-05-30 01:41:50] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-05-30 01:41:50] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230530/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-05-30 01:41:50] INFO root fetch - processPackages [lytekit]: Downloading https://files.pythonhosted.org/packages/48/cd/6a788f7e7d3a2c6402e6960b97f9026ea7e521c6e6245a58cfb4fc6efb4f/lytekit-0.9.0.tar.gz
+[2023-05-30 01:41:50] INFO root fetch - processPackages [asynciomultiplexer]: Downloading https://files.pythonhosted.org/packages/1f/d6/400b924b1011e73b61f952cc59905d0fb2ad7fddc083ba7b94ebe64d5eb5/asynciomultiplexer-1.0.tar.gz
+[2023-05-30 01:41:50] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/dd/bc/0d76b7edda99d3f7ead835d94c080c8b050c2feebd706fa7fd9e20c9bb88/text2text-1.0.0.tar.gz
+[2023-05-30 01:41:50] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-05-30 01:41:50] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230530/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-30 01:41:50] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/2f/22/1911563971930a9a0b5167a326d9baa861b9d32ebddc8c095c5d8c76849c/whisper_autosrt-0.0.4.tar.gz
+[2023-05-30 01:41:50] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/ad/0a/484a47dab3c25309bdd41d8bb44e2f23c9a91c540fc5952a014ab4b81265/cfr-0.5.3.tar.gz
+[2023-05-30 01:41:50] INFO root fetch - processPackages [cfr]: executing diffoscope
+[2023-05-30 01:41:50] INFO root fetch - processPackages [cfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfr-0.5.2.tar.gz tmp/cfr-0.5.3.tar.gz --markdown 20230530/c/cfr/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-30 01:41:50] INFO root fetch - processPackages [gravitas]: Downloading https://files.pythonhosted.org/packages/46/68/48280f143bfef886f8287832b252d7d4cbe89d316c571d116a71eb8a9b33/gravitas-0.1.1-pp38-pypy38_pp73-macosx_10_9_x86_64.whl
+[2023-05-30 01:41:50] INFO root fetch - processPackages [asynciomultiplexer]: Downloading https://files.pythonhosted.org/packages/92/0b/8fdb9c3c6f86ad57bd40a99b443e3a1af877c70a7cc031b24ca5b470cb16/asynciomultiplexer-1.0.1.tar.gz
+[2023-05-30 01:41:50] INFO root fetch - processPackages [regis]: executing diffoscope
+[2023-05-30 01:41:50] INFO root fetch - processPackages [regis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regis-0.1.8.tar.gz tmp/regis-0.1.9.tar.gz --markdown 20230530/r/regis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 01:41:50] INFO root fetch - processPackages [whisper-autosrt]: executing diffoscope
+[2023-05-30 01:41:50] INFO root fetch - processPackages [whisper-autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_autosrt-0.0.2.tar.gz tmp/whisper_autosrt-0.0.4.tar.gz --markdown 20230530/w/whisper-autosrt/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 01:41:50] INFO root fetch - processPackages [asynciomultiplexer]: executing diffoscope
+[2023-05-30 01:41:50] INFO root fetch - processPackages [asynciomultiplexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asynciomultiplexer-1.0.tar.gz tmp/asynciomultiplexer-1.0.1.tar.gz --markdown 20230530/a/asynciomultiplexer/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 01:41:50] INFO root fetch - processPackages [lytekit]: Downloading https://files.pythonhosted.org/packages/be/b6/90e266a6c058766bec4ce41653490f4b504a5be53aea11f1ff7873bb8d07/lytekit-0.9.1.tar.gz
+[2023-05-30 01:41:50] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/6a/e7/ad61158ec136b3ff2ee5317b3d2fb382d397a2bf117f9ee51a05769aa39a/text2text-1.0.1.tar.gz
+[2023-05-30 01:41:50] INFO root fetch - processPackages [printnanny-api-client]: executing diffoscope
+[2023-05-30 01:41:50] INFO root fetch - processPackages [printnanny-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/printnanny-api-client-0.99.8.tar.gz tmp/printnanny-api-client-0.99.9.tar.gz --markdown 20230530/p/printnanny-api-client/0.99.8-0.99.9/diff.md --exclude *.pyd
+[2023-05-30 01:41:50] INFO root fetch - processPackages [lytekit]: executing diffoscope
+[2023-05-30 01:41:50] INFO root fetch - processPackages [lytekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytekit-0.9.0.tar.gz tmp/lytekit-0.9.1.tar.gz --markdown 20230530/l/lytekit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-30 01:41:50] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-05-30 01:41:50] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.0.0.tar.gz tmp/text2text-1.0.1.tar.gz --markdown 20230530/t/text2text/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 01:41:52] INFO root fetch - main [MainThread]: End processing [asynciomultiplexer]: success
+[2023-05-30 01:41:52] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-05-30 01:41:52] INFO root fetch - main [MainThread]: End processing [whisper-autosrt]: success
+[2023-05-30 01:41:52] INFO root fetch - main [MainThread]: End processing [regis]: success
+[2023-05-30 01:41:52] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-05-30 01:41:52] INFO root fetch - processPackages [gravitas]: executing diffoscope
+[2023-05-30 01:41:52] INFO root fetch - processPackages [gravitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitas-0.0.9.tar.gz tmp/gravitas-0.1.1-pp38-pypy38_pp73-macosx_10_9_x86_64.whl.zip --markdown 20230530/g/gravitas/0.0.9-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 01:41:52] INFO root fetch - main [MainThread]: End processing [cfr]: success
+[2023-05-30 01:41:54] INFO root fetch - main [MainThread]: End processing [gravitas]: success
+[2023-05-30 01:41:54] INFO root fetch - main [MainThread]: End processing [lytekit]: success
+[2023-05-30 01:41:56] INFO root fetch - main [MainThread]: End processing [printnanny-api-client]: success
+[2023-05-30 01:41:57] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-05-30 01:41:57] INFO root fetch - main [MainThread]: Store serial: [18295358]
