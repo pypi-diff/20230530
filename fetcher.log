@@ -79,3 +79,73 @@
 [2023-05-30 00:06:01] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-05-30 00:06:07] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-30 00:06:07] INFO root fetch - main [MainThread]: Store serial: [18294799]
+[2023-05-30 00:11:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18294799]
+[2023-05-30 00:11:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-30 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-oasis4
+[2023-05-30 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maisaedu-utilities-prefect
+[2023-05-30 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maisaedu-poormans-dms
+[2023-05-30 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apigratis
+[2023-05-30 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-oasis4-auth
+[2023-05-30 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-regex
+[2023-05-30 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stylebase
+[2023-05-30 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sonoff-ewelink-cube-client-api
+[2023-05-30 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-30 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jesth
+[2023-05-30 00:11:16] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 00:11:16] WARNING root fetch - processPackages [apigratis]: Skipping, unable to determine old version
+[2023-05-30 00:11:16] INFO root fetch - processPackages [apigratis]: Start processing: std-daq-client
+[2023-05-30 00:11:16] INFO root fetch - main [MainThread]: End processing [apigratis] error
+[2023-05-30 00:11:16] INFO root fetch - processPackages [django-oasis4]: New version: [1.1.1a2] Old Version: [1.1.1a1]
+[2023-05-30 00:11:16] INFO root fetch - processPackages [pytest-regex]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-30 00:11:16] INFO root fetch - processPackages [sonoff-ewelink-cube-client-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 00:11:16] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 00:11:16] INFO root fetch - processPackages [jesth]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-30 00:11:16] INFO root fetch - processPackages [django-oasis4-auth]: New version: [1.0.9b0] Old Version: [1.0.9]
+[2023-05-30 00:11:16] INFO root fetch - processPackages [stylebase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 00:11:16] INFO root fetch - processPackages [std-daq-client]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-30 00:11:16] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 00:11:16] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-05-30 00:11:16] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230530/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 00:11:16] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-05-30 00:11:16] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230530/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 00:11:16] INFO root fetch - processPackages [sonoff-ewelink-cube-client-api]: Downloading https://files.pythonhosted.org/packages/5e/bf/a56dff9be820852665de6b98705179df29cc4ef4b94be93d06cb2dea71f6/sonoff-ewelink-cube-client-api-0.0.1.tar.gz
+[2023-05-30 00:11:16] INFO root fetch - processPackages [std-daq-client]: Downloading https://files.pythonhosted.org/packages/50/5c/b84e0849aab7d0022b10d532dea012bdf9a8015da30d06a8f4eb526b2876/std_daq_client-1.3.4.tar.gz
+[2023-05-30 00:11:16] INFO root fetch - processPackages [pytest-regex]: Downloading https://files.pythonhosted.org/packages/b3/67/b28317dbb3533c935e9717bc786191264a861344f8db8fbe6caebaa5a8f1/pytest-regex-0.1.0.tar.gz
+[2023-05-30 00:11:16] INFO root fetch - processPackages [stylebase]: Downloading https://files.pythonhosted.org/packages/71/1f/3d04c3d1b6fca5f518b5c48c3bbfd5a7ebf92c38268978421bc8bbef8764/stylebase-0.0.8.tar.gz
+[2023-05-30 00:11:16] INFO root fetch - processPackages [jesth]: Downloading https://files.pythonhosted.org/packages/0e/76/b5c8b0c890e114e34095ef0274009c362a1b983209d3dba89e3bf76da12e/jesth-0.0.7.tar.gz
+[2023-05-30 00:11:16] INFO root fetch - processPackages [std-daq-client]: executing diffoscope
+[2023-05-30 00:11:16] INFO root fetch - processPackages [std-daq-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/std_daq_client-1.3.3.tar.gz tmp/std_daq_client-1.3.4.tar.gz --markdown 20230530/s/std-daq-client/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-30 00:11:16] INFO root fetch - processPackages [django-oasis4]: executing diffoscope
+[2023-05-30 00:11:16] INFO root fetch - processPackages [django-oasis4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oasis4-1.1.1a1.tar.gz tmp/django-oasis4-1.1.1a2.tar.gz --markdown 20230530/d/django-oasis4/1.1.1a1-1.1.1a2/diff.md --exclude *.pyd
+[2023-05-30 00:11:16] INFO root fetch - processPackages [sonoff-ewelink-cube-client-api]: Downloading https://files.pythonhosted.org/packages/27/c0/deea46ed62c07b0f6e8804ac6b76499ff1a132005f68325e24ca94698e2f/sonoff-ewelink-cube-client-api-0.0.2.tar.gz
+[2023-05-30 00:11:16] INFO root fetch - processPackages [django-oasis4-auth]: executing diffoscope
+[2023-05-30 00:11:16] INFO root fetch - processPackages [django-oasis4-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oasis4-auth-1.0.9.tar.gz tmp/django-oasis4-auth-1.0.9b0.tar.gz --markdown 20230530/d/django-oasis4-auth/1.0.9-1.0.9b0/diff.md --exclude *.pyd
+[2023-05-30 00:11:16] INFO root fetch - processPackages [pytest-regex]: Downloading https://files.pythonhosted.org/packages/73/67/e3f3700e8f95fc9e80ab83d589346c117de4e6d01e6b922f7300282e7fc9/pytest-regex-0.2.0.tar.gz
+[2023-05-30 00:11:16] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-30 00:11:16] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 00:11:16] INFO root fetch - processPackages [jesth]: Downloading https://files.pythonhosted.org/packages/11/c7/c64522c338bdba38d99805df883dab4b814cae87291ed14722f7a0fdce6b/jesth-0.0.8.tar.gz
+[2023-05-30 00:11:16] INFO root fetch - processPackages [sonoff-ewelink-cube-client-api]: executing diffoscope
+[2023-05-30 00:11:16] INFO root fetch - processPackages [sonoff-ewelink-cube-client-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonoff-ewelink-cube-client-api-0.0.1.tar.gz tmp/sonoff-ewelink-cube-client-api-0.0.2.tar.gz --markdown 20230530/s/sonoff-ewelink-cube-client-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 00:11:16] INFO root fetch - processPackages [pytest-regex]: executing diffoscope
+[2023-05-30 00:11:16] INFO root fetch - processPackages [pytest-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-regex-0.1.0.tar.gz tmp/pytest-regex-0.2.0.tar.gz --markdown 20230530/p/pytest-regex/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 00:11:16] INFO root fetch - processPackages [stylebase]: Downloading https://files.pythonhosted.org/packages/fa/f1/1618847c8a1ee661955f3254cb058dfb959ed9e16934ff9e1832e0d72e88/stylebase-0.0.9.tar.gz
+[2023-05-30 00:11:16] INFO root fetch - processPackages [jesth]: executing diffoscope
+[2023-05-30 00:11:16] INFO root fetch - processPackages [jesth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jesth-0.0.7.tar.gz tmp/jesth-0.0.8.tar.gz --markdown 20230530/j/jesth/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 00:11:16] INFO root fetch - processPackages [stylebase]: executing diffoscope
+[2023-05-30 00:11:16] INFO root fetch - processPackages [stylebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stylebase-0.0.8.tar.gz tmp/stylebase-0.0.9.tar.gz --markdown 20230530/s/stylebase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 00:11:17] INFO root fetch - processPackages [maisaedu-poormans-dms]: Start processing: shared
+[2023-05-30 00:11:17] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-05-30 00:11:17] INFO root fetch - processPackages [shared]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 00:11:17] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-05-30 00:11:18] INFO root fetch - main [MainThread]: End processing [std-daq-client]: success
+[2023-05-30 00:11:18] INFO root fetch - processPackages [shared]: executing diffoscope
+[2023-05-30 00:11:18] INFO root fetch - processPackages [shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared-0.0.8.tar.gz tmp/shared-0.0.9.tar.gz --markdown 20230530/s/shared/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 00:11:18] INFO root fetch - main [MainThread]: End processing [sonoff-ewelink-cube-client-api]: success
+[2023-05-30 00:11:18] INFO root fetch - main [MainThread]: End processing [pytest-regex]: success
+[2023-05-30 00:11:18] INFO root fetch - main [MainThread]: End processing [stylebase]: success
+[2023-05-30 00:11:18] INFO root fetch - main [MainThread]: End processing [django-oasis4-auth]: success
+[2023-05-30 00:11:18] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-30 00:11:19] INFO root fetch - main [MainThread]: End processing [jesth]: success
+[2023-05-30 00:11:19] INFO root fetch - main [MainThread]: End processing [shared]: success
+[2023-05-30 00:11:20] INFO root fetch - main [MainThread]: End processing [django-oasis4]: success
+[2023-05-30 00:11:20] INFO root fetch - main [MainThread]: Store serial: [18294837]
