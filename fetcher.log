@@ -470,3 +470,33 @@
 [2023-05-30 00:48:27] INFO root fetch - main [MainThread]: End processing [github-backup]: success
 [2023-05-30 00:48:30] INFO root fetch - main [MainThread]: End processing [parsl]: success
 [2023-05-30 00:48:30] INFO root fetch - main [MainThread]: Store serial: [18295032]
+[2023-05-30 00:53:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18295032]
+[2023-05-30 00:53:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-30 00:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: steganodf
+[2023-05-30 00:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openseries
+[2023-05-30 00:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: injective-py
+[2023-05-30 00:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abdal-net-py
+[2023-05-30 00:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vscode-task-runner
+[2023-05-30 00:53:38] WARNING root fetch - processPackages [steganodf]: Skipping, unable to determine old version
+[2023-05-30 00:53:38] INFO root fetch - main [MainThread]: End processing [steganodf] error
+[2023-05-30 00:53:38] INFO root fetch - processPackages [openseries]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 00:53:38] INFO root fetch - processPackages [vscode-task-runner]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 00:53:38] INFO root fetch - processPackages [abdal-net-py]: New version: [2.6] Old Version: [2.2]
+[2023-05-30 00:53:38] INFO root fetch - processPackages [injective-py]: New version: [0.6.2.9] Old Version: [0.6.2.8]
+[2023-05-30 00:53:39] INFO root fetch - processPackages [vscode-task-runner]: Downloading https://files.pythonhosted.org/packages/d5/65/0e6022755904790905df2ae946690df2ca8167cfa7d8d3d0e63e13bcd3a4/vscode_task_runner-0.1.4.tar.gz
+[2023-05-30 00:53:39] INFO root fetch - processPackages [abdal-net-py]: Downloading https://files.pythonhosted.org/packages/62/4b/1461128d02ba4af1889e1683217e2aee2d9653f4a09027db4456e173f695/abdal_net_py-2.2.tar.gz
+[2023-05-30 00:53:39] INFO root fetch - processPackages [vscode-task-runner]: executing diffoscope
+[2023-05-30 00:53:39] INFO root fetch - processPackages [vscode-task-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vscode_task_runner-0.1.3.tar.gz tmp/vscode_task_runner-0.1.4.tar.gz --markdown 20230530/v/vscode-task-runner/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 00:53:39] INFO root fetch - processPackages [openseries]: executing diffoscope
+[2023-05-30 00:53:39] INFO root fetch - processPackages [openseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openseries-0.9.8.tar.gz tmp/openseries-0.9.9.tar.gz --markdown 20230530/o/openseries/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 00:53:39] INFO root fetch - processPackages [injective-py]: Downloading https://files.pythonhosted.org/packages/1f/3f/9d85c4e18a78acbbd3831c243ba8362dae2093b1bfa0046b98d83e0c4fc5/injective-py-0.6.2.9.tar.gz
+[2023-05-30 00:53:39] INFO root fetch - processPackages [injective-py]: executing diffoscope
+[2023-05-30 00:53:39] INFO root fetch - processPackages [injective-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injective-py-0.6.2.8.tar.gz tmp/injective-py-0.6.2.9.tar.gz --markdown 20230530/i/injective-py/0.6.2.8-0.6.2.9/diff.md --exclude *.pyd
+[2023-05-30 00:53:39] INFO root fetch - processPackages [abdal-net-py]: Downloading https://files.pythonhosted.org/packages/37/ee/fa0698c48d59dae9e1ea3ac43e4b6d56d00000a7c40d31bc7a0ccf284381/abdal_net_py-2.6.tar.gz
+[2023-05-30 00:53:39] INFO root fetch - processPackages [abdal-net-py]: executing diffoscope
+[2023-05-30 00:53:39] INFO root fetch - processPackages [abdal-net-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abdal_net_py-2.2.tar.gz tmp/abdal_net_py-2.6.tar.gz --markdown 20230530/a/abdal-net-py/2.2-2.6/diff.md --exclude *.pyd
+[2023-05-30 00:53:40] INFO root fetch - main [MainThread]: End processing [vscode-task-runner]: success
+[2023-05-30 00:53:40] INFO root fetch - main [MainThread]: End processing [openseries]: success
+[2023-05-30 00:53:40] INFO root fetch - main [MainThread]: End processing [abdal-net-py]: success
+[2023-05-30 00:53:42] INFO root fetch - main [MainThread]: End processing [injective-py]: success
+[2023-05-30 00:53:42] INFO root fetch - main [MainThread]: Store serial: [18295061]
