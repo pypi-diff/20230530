@@ -556,3 +556,76 @@
 [2023-05-30 00:58:54] INFO root fetch - main [MainThread]: End processing [fortranformat]: success
 [2023-05-30 00:58:55] INFO root fetch - main [MainThread]: End processing [skip-django-security-logger]: success
 [2023-05-30 00:58:55] INFO root fetch - main [MainThread]: Store serial: [18295088]
+[2023-05-30 01:04:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18295088]
+[2023-05-30 01:04:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-30 01:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-base
+[2023-05-30 01:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raindancers-network.raindancers-cdk
+[2023-05-30 01:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talk-codebase
+[2023-05-30 01:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inventree-kom2
+[2023-05-30 01:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mb-base
+[2023-05-30 01:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmnt-cu101
+[2023-05-30 01:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flwr-nightly
+[2023-05-30 01:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tree-of-thoughts
+[2023-05-30 01:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: andreani-aa-testing
+[2023-05-30 01:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tmnt
+[2023-05-30 01:04:05] INFO root fetch - processPackages [mb-base]: New version: [1.0.202305292300] Old Version: [1.0.202305292259]
+[2023-05-30 01:04:05] INFO root fetch - processPackages [talk-codebase]: New version: [0.1.24] Old Version: [0.1.23]
+[2023-05-30 01:04:05] INFO root fetch - processPackages [mb-base]: New version: [1.0.202305292300] Old Version: [1.0.202305292259]
+[2023-05-30 01:04:05] INFO root fetch - processPackages [andreani-aa-testing]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-05-30 01:04:05] INFO root fetch - processPackages [tree-of-thoughts]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-30 01:04:05] INFO root fetch - processPackages [inventree-kom2]: New version: [1.0a0] Old Version: [1.0]
+[2023-05-30 01:04:05] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-30 01:04:05] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230529] Old Version: [0.7.0b20230528]
+[2023-05-30 01:04:05] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230529] Old Version: [0.7.0b20230528]
+[2023-05-30 01:04:05] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230529] Old Version: [1.5.0.dev20230527]
+[2023-05-30 01:04:05] INFO root fetch - processPackages [mb-base]: Downloading https://files.pythonhosted.org/packages/b7/03/101ea0f64d338534a9ea81bd963cb06c30dce2d0a96339ba3e641299f29c/mb_base-1.0.202305292259-py3-none-any.whl
+[2023-05-30 01:04:05] INFO root fetch - processPackages [mb-base]: Downloading https://files.pythonhosted.org/packages/b7/03/101ea0f64d338534a9ea81bd963cb06c30dce2d0a96339ba3e641299f29c/mb_base-1.0.202305292259-py3-none-any.whl
+[2023-05-30 01:04:05] INFO root fetch - processPackages [inventree-kom2]: Downloading https://files.pythonhosted.org/packages/df/e6/f04d4c3bfa12a08c31f7bef57e672b8591dee4187e468d235ef952bbb189/inventree-kom2-1.0.tar.gz
+[2023-05-30 01:04:05] INFO root fetch - processPackages [andreani-aa-testing]: Downloading https://files.pythonhosted.org/packages/c9/fd/a16a0e65311f787715cd92a489a4cd8442e5b907db220c8deee50976af05/andreani_aa_testing-0.0.20.tar.gz
+[2023-05-30 01:04:05] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/aa/7b/638feb655e84b560ba2f95673a30e29a3488148bf471fff976c584b9595a/tree-of-thoughts-0.2.8.tar.gz
+[2023-05-30 01:04:05] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/64/ba/6c403156960f38aa01e06c6b5d757dd4ac6360d0a7728b06ec39bc80d485/talk_codebase-0.1.24.tar.gz
+[2023-05-30 01:04:05] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/d5/c0/e2c8edbd1ac01f95fc4cf489ade5c89362ba768e2f7256fa4fb781712446/tmnt-cu101-0.7.0b20230529.tar.gz
+[2023-05-30 01:04:05] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/a4/61/5c4262ddb36b46bed2a7dcdbfece5b82ad45685c9e00e5101a8b9e26dd2c/tmnt-0.7.0b20230529.tar.gz
+[2023-05-30 01:04:05] INFO root fetch - processPackages [talk-codebase]: executing diffoscope
+[2023-05-30 01:04:05] INFO root fetch - processPackages [talk-codebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talk_codebase-0.1.23.tar.gz tmp/talk_codebase-0.1.24.tar.gz --markdown 20230530/t/talk-codebase/0.1.23-0.1.24/diff.md --exclude *.pyd
+[2023-05-30 01:04:05] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/88/4e/13a2df2db2154a624b4e1e215bafadb4f9e97f65acea72377e52fab1e9ff/flwr_nightly-1.5.0.dev20230527.tar.gz
+[2023-05-30 01:04:05] INFO root fetch - processPackages [inventree-kom2]: Downloading https://files.pythonhosted.org/packages/6f/42/ceb32c0b4937ad256ed27b50d11a26f355c5562d48d00dc8f4c81d242b3e/inventree-kom2-1.0a0.tar.gz
+[2023-05-30 01:04:05] INFO root fetch - processPackages [tree-of-thoughts]: executing diffoscope
+[2023-05-30 01:04:05] INFO root fetch - processPackages [tree-of-thoughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-of-thoughts-0.2.7.tar.gz tmp/tree-of-thoughts-0.2.8.tar.gz --markdown 20230530/t/tree-of-thoughts/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-30 01:04:05] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-30 01:04:05] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230528.tar.gz tmp/tmnt-cu101-0.7.0b20230529.tar.gz --markdown 20230530/t/tmnt-cu101/0.7.0b20230528-0.7.0b20230529/diff.md --exclude *.pyd
+[2023-05-30 01:04:05] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-05-30 01:04:05] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230530/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-30 01:04:05] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-30 01:04:05] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230528.tar.gz tmp/tmnt-0.7.0b20230529.tar.gz --markdown 20230530/t/tmnt/0.7.0b20230528-0.7.0b20230529/diff.md --exclude *.pyd
+[2023-05-30 01:04:06] INFO root fetch - processPackages [mb-base]: Downloading https://files.pythonhosted.org/packages/89/d5/3147625e659ddd325f36565df9801ae11f174cc7e06ab75d4004be6d7330/mb_base-1.0.202305292300-py3-none-any.whl
+[2023-05-30 01:04:06] INFO root fetch - processPackages [mb-base]: Downloading https://files.pythonhosted.org/packages/89/d5/3147625e659ddd325f36565df9801ae11f174cc7e06ab75d4004be6d7330/mb_base-1.0.202305292300-py3-none-any.whl
+[2023-05-30 01:04:06] INFO root fetch - processPackages [andreani-aa-testing]: Downloading https://files.pythonhosted.org/packages/d2/50/ddd798ddfcf4be1208bc628bd955edebe1ac13fe4623c434926980493dbc/andreani_aa_testing-0.0.21.tar.gz
+[2023-05-30 01:04:06] INFO root fetch - processPackages [inventree-kom2]: executing diffoscope
+[2023-05-30 01:04:06] INFO root fetch - processPackages [inventree-kom2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventree-kom2-1.0.tar.gz tmp/inventree-kom2-1.0a0.tar.gz --markdown 20230530/i/inventree-kom2/1.0-1.0a0/diff.md --exclude *.pyd
+[2023-05-30 01:04:06] INFO root fetch - processPackages [mb-base]: executing diffoscope
+[2023-05-30 01:04:06] INFO root fetch - processPackages [mb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_base-1.0.202305292259-py3-none-any.whl.zip tmp/mb_base-1.0.202305292300-py3-none-any.whl.zip --markdown 20230530/m/mb-base/1.0.202305292259-1.0.202305292300/diff.md --exclude *.pyd
+[2023-05-30 01:04:06] INFO root fetch - processPackages [mb-base]: executing diffoscope
+[2023-05-30 01:04:06] INFO root fetch - processPackages [mb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_base-1.0.202305292259-py3-none-any.whl.zip tmp/mb_base-1.0.202305292300-py3-none-any.whl.zip --markdown 20230530/m/mb-base/1.0.202305292259-1.0.202305292300/diff.md --exclude *.pyd
+[2023-05-30 01:04:06] INFO root fetch - processPackages [andreani-aa-testing]: executing diffoscope
+[2023-05-30 01:04:06] INFO root fetch - processPackages [andreani-aa-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andreani_aa_testing-0.0.20.tar.gz tmp/andreani_aa_testing-0.0.21.tar.gz --markdown 20230530/a/andreani-aa-testing/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-05-30 01:04:06] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/d9/fd/f4e9767524ec4336312293199922bee3b837c0f067f2a848b1079fb7f7cc/flwr_nightly-1.5.0.dev20230529.tar.gz
+[2023-05-30 01:04:06] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-05-30 01:04:06] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230527.tar.gz tmp/flwr_nightly-1.5.0.dev20230529.tar.gz --markdown 20230530/f/flwr-nightly/1.5.0.dev20230527-1.5.0.dev20230529/diff.md --exclude *.pyd
+[2023-05-30 01:04:07] INFO root fetch - processPackages [talk-codebase]: Start processing: hiddifypanel
+[2023-05-30 01:04:07] INFO root fetch - main [MainThread]: End processing [talk-codebase]: success
+[2023-05-30 01:04:07] INFO root fetch - processPackages [hiddifypanel]: New version: [7.0.3] Old Version: [7.0.2]
+[2023-05-30 01:04:07] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts]: success
+[2023-05-30 01:04:07] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/c7/10/f27b137b4d66dc65a0fabf87faf3e8b934663c79e5aef50be0385c3284e8/hiddifypanel-7.0.3-cp39-cp39-manylinux2014_aarch64.whl
+[2023-05-30 01:04:07] INFO root fetch - main [MainThread]: End processing [andreani-aa-testing]: success
+[2023-05-30 01:04:07] INFO root fetch - main [MainThread]: End processing [inventree-kom2]: success
+[2023-05-30 01:04:07] INFO root fetch - main [MainThread]: End processing [mb-base]: success
+[2023-05-30 01:04:08] INFO root fetch - main [MainThread]: End processing [mb-base]: success
+[2023-05-30 01:04:08] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-30 01:04:08] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.0.2-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-7.0.3-cp39-cp39-manylinux2014_aarch64.whl.zip --markdown 20230530/h/hiddifypanel/7.0.2-7.0.3/diff.md --exclude *.pyd
+[2023-05-30 01:04:08] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-30 01:04:08] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-05-30 01:04:09] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-30 01:04:09] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-05-30 01:04:27] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-30 01:04:27] INFO root fetch - main [MainThread]: Store serial: [18295120]
