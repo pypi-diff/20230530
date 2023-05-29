@@ -500,3 +500,59 @@
 [2023-05-30 00:53:40] INFO root fetch - main [MainThread]: End processing [abdal-net-py]: success
 [2023-05-30 00:53:42] INFO root fetch - main [MainThread]: End processing [injective-py]: success
 [2023-05-30 00:53:42] INFO root fetch - main [MainThread]: Store serial: [18295061]
+[2023-05-30 00:58:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18295061]
+[2023-05-30 00:58:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-30 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SplatStats
+[2023-05-30 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: latch-asgi
+[2023-05-30 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mb-base
+[2023-05-30 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abdal-net-py
+[2023-05-30 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lab-partner
+[2023-05-30 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lab-partner-utils
+[2023-05-30 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: andreani-aa-testing
+[2023-05-30 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skip-django-security-logger
+[2023-05-30 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fortranformat
+[2023-05-30 00:58:51] INFO root fetch - processPackages [mb-base]: New version: [1.0.202305292254] Old Version: [1.0.202305291142]
+[2023-05-30 00:58:51] INFO root fetch - processPackages [latch-asgi]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 00:58:51] INFO root fetch - processPackages [fortranformat]: New version: [2.0.0] Old Version: [1.2.2]
+[2023-05-30 00:58:51] INFO root fetch - processPackages [SplatStats]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-30 00:58:51] INFO root fetch - processPackages [abdal-net-py]: New version: [2.7] Old Version: [2.6]
+[2023-05-30 00:58:51] INFO root fetch - processPackages [lab-partner]: New version: [0.7.42] Old Version: [0.7.41]
+[2023-05-30 00:58:51] INFO root fetch - processPackages [lab-partner-utils]: New version: [0.7.42] Old Version: [0.7.41]
+[2023-05-30 00:58:51] INFO root fetch - processPackages [skip-django-security-logger]: New version: [1.5.15.2] Old Version: [1.5.15.1]
+[2023-05-30 00:58:51] WARNING root fetch - processPackages [andreani-aa-testing]: Skipping, unable to determine old version
+[2023-05-30 00:58:51] INFO root fetch - main [MainThread]: End processing [andreani-aa-testing] error
+[2023-05-30 00:58:51] INFO root fetch - processPackages [mb-base]: Downloading https://files.pythonhosted.org/packages/e8/8c/872a9138ee2fddf60c7a8540e66898f70e32f3e60fb0942c8e77e779b436/mb_base-1.0.202305292254-py3-none-any.whl
+[2023-05-30 00:58:51] INFO root fetch - processPackages [fortranformat]: Downloading https://files.pythonhosted.org/packages/ea/e8/1a2ca38d412e2a2318b9ed99809b01eb5ad2c1ac16e2501d668d947a4f35/fortranformat-1.2.2.tar.gz
+[2023-05-30 00:58:51] INFO root fetch - processPackages [abdal-net-py]: Downloading https://files.pythonhosted.org/packages/f4/f8/8fbf2a2410125ae6c5d6769f09727b1e6622fb4f4909240520a0763c95d1/abdal_net_py-2.7.tar.gz
+[2023-05-30 00:58:51] INFO root fetch - processPackages [skip-django-security-logger]: Downloading https://files.pythonhosted.org/packages/48/cc/d4bc6e339a9bd8e4269387b0d9569606779b0c4c393e5ceab3c5d5c345df/skip-django-security-logger-1.5.15.1.tar.gz
+[2023-05-30 00:58:51] INFO root fetch - processPackages [lab-partner]: Downloading https://files.pythonhosted.org/packages/6b/2c/b2d11a5c98ec1276f6b81181dfc7f5b7e372e03d980880632efea1c62525/lab-partner-0.7.42.tar.gz
+[2023-05-30 00:58:51] INFO root fetch - processPackages [SplatStats]: Downloading https://files.pythonhosted.org/packages/59/fe/c1baf6ace5299512e57b565e9d6ea9ba0c43f3ece51606dd2bd4315eb3ae/SplatStats-2.0.6.tar.gz
+[2023-05-30 00:58:51] INFO root fetch - processPackages [latch-asgi]: Downloading https://files.pythonhosted.org/packages/be/29/be6a6e87bbb6c921011346c8d5659fd01be82a1e7a328a50d74f62aa2e91/latch_asgi-0.1.3.tar.gz
+[2023-05-30 00:58:51] INFO root fetch - processPackages [lab-partner-utils]: Downloading https://files.pythonhosted.org/packages/c0/b3/b20f5abbeb61f6156d507bef3042a9280b605890928efa2285a02abd5982/lab-partner-utils-0.7.42.tar.gz
+[2023-05-30 00:58:51] INFO root fetch - processPackages [abdal-net-py]: executing diffoscope
+[2023-05-30 00:58:51] INFO root fetch - processPackages [abdal-net-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abdal_net_py-2.6.tar.gz tmp/abdal_net_py-2.7.tar.gz --markdown 20230530/a/abdal-net-py/2.6-2.7/diff.md --exclude *.pyd
+[2023-05-30 00:58:51] INFO root fetch - processPackages [lab-partner-utils]: executing diffoscope
+[2023-05-30 00:58:51] INFO root fetch - processPackages [lab-partner-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-utils-0.7.41.tar.gz tmp/lab-partner-utils-0.7.42.tar.gz --markdown 20230530/l/lab-partner-utils/0.7.41-0.7.42/diff.md --exclude *.pyd
+[2023-05-30 00:58:51] INFO root fetch - processPackages [latch-asgi]: executing diffoscope
+[2023-05-30 00:58:51] INFO root fetch - processPackages [latch-asgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_asgi-0.1.2.tar.gz tmp/latch_asgi-0.1.3.tar.gz --markdown 20230530/l/latch-asgi/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 00:58:51] INFO root fetch - processPackages [SplatStats]: executing diffoscope
+[2023-05-30 00:58:51] INFO root fetch - processPackages [SplatStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SplatStats-2.0.5.tar.gz tmp/SplatStats-2.0.6.tar.gz --markdown 20230530/S/SplatStats/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-30 00:58:51] INFO root fetch - processPackages [mb-base]: executing diffoscope
+[2023-05-30 00:58:51] INFO root fetch - processPackages [mb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_base-1.0.202305291142-py3-none-any.whl.zip tmp/mb_base-1.0.202305292254-py3-none-any.whl.zip --markdown 20230530/m/mb-base/1.0.202305291142-1.0.202305292254/diff.md --exclude *.pyd
+[2023-05-30 00:58:52] INFO root fetch - processPackages [lab-partner]: executing diffoscope
+[2023-05-30 00:58:52] INFO root fetch - processPackages [lab-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-0.7.41.tar.gz tmp/lab-partner-0.7.42.tar.gz --markdown 20230530/l/lab-partner/0.7.41-0.7.42/diff.md --exclude *.pyd
+[2023-05-30 00:58:52] INFO root fetch - processPackages [fortranformat]: Downloading https://files.pythonhosted.org/packages/91/b8/12298bdd8516eb81d012267b270fd0c3850528204d3021af0ea72503b9db/fortranformat-2.0.0.tar.gz
+[2023-05-30 00:58:52] INFO root fetch - processPackages [fortranformat]: executing diffoscope
+[2023-05-30 00:58:52] INFO root fetch - processPackages [fortranformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortranformat-1.2.2.tar.gz tmp/fortranformat-2.0.0.tar.gz --markdown 20230530/f/fortranformat/1.2.2-2.0.0/diff.md --exclude *.pyd
+[2023-05-30 00:58:52] INFO root fetch - processPackages [skip-django-security-logger]: Downloading https://files.pythonhosted.org/packages/8e/a9/08c3a87a6b96eb0b72bfd00cebc128be00c15a7693663515e0cf20a7f717/skip-django-security-logger-1.5.15.2.tar.gz
+[2023-05-30 00:58:52] INFO root fetch - processPackages [skip-django-security-logger]: executing diffoscope
+[2023-05-30 00:58:52] INFO root fetch - processPackages [skip-django-security-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-django-security-logger-1.5.15.1.tar.gz tmp/skip-django-security-logger-1.5.15.2.tar.gz --markdown 20230530/s/skip-django-security-logger/1.5.15.1-1.5.15.2/diff.md --exclude *.pyd
+[2023-05-30 00:58:53] INFO root fetch - main [MainThread]: End processing [abdal-net-py]: success
+[2023-05-30 00:58:53] INFO root fetch - main [MainThread]: End processing [latch-asgi]: success
+[2023-05-30 00:58:53] INFO root fetch - main [MainThread]: End processing [mb-base]: success
+[2023-05-30 00:58:53] INFO root fetch - main [MainThread]: End processing [SplatStats]: success
+[2023-05-30 00:58:53] INFO root fetch - main [MainThread]: End processing [lab-partner-utils]: success
+[2023-05-30 00:58:53] INFO root fetch - main [MainThread]: End processing [lab-partner]: success
+[2023-05-30 00:58:54] INFO root fetch - main [MainThread]: End processing [fortranformat]: success
+[2023-05-30 00:58:55] INFO root fetch - main [MainThread]: End processing [skip-django-security-logger]: success
+[2023-05-30 00:58:55] INFO root fetch - main [MainThread]: Store serial: [18295088]
