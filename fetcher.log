@@ -149,3 +149,54 @@
 [2023-05-30 00:11:19] INFO root fetch - main [MainThread]: End processing [shared]: success
 [2023-05-30 00:11:20] INFO root fetch - main [MainThread]: End processing [django-oasis4]: success
 [2023-05-30 00:11:20] INFO root fetch - main [MainThread]: Store serial: [18294837]
+[2023-05-30 00:16:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18294837]
+[2023-05-30 00:16:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-30 00:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-cruddy-framework
+[2023-05-30 00:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vessel
+[2023-05-30 00:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loophost
+[2023-05-30 00:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-30 00:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: talk-codebase
+[2023-05-30 00:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gdshoplib
+[2023-05-30 00:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-tetris-stats
+[2023-05-30 00:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: maisaedu-utilities-prefect
+[2023-05-30 00:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: maisaedu-poormans-dms
+[2023-05-30 00:16:28] INFO root fetch - processPackages [fastapi-cruddy-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 00:16:28] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-30 00:16:28] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 00:16:28] INFO root fetch - processPackages [vessel]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-05-30 00:16:28] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [0.4.0] Old Version: [0.3.3.post1]
+[2023-05-30 00:16:28] INFO root fetch - processPackages [talk-codebase]: New version: [0.1.23] Old Version: [0.1.22]
+[2023-05-30 00:16:28] INFO root fetch - processPackages [loophost]: New version: [1.0.3] Old Version: [0.3.0]
+[2023-05-30 00:16:28] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 00:16:28] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 00:16:28] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-05-30 00:16:28] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-30 00:16:28] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230530/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 00:16:28] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 00:16:28] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-05-30 00:16:28] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230530/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 00:16:28] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: executing diffoscope
+[2023-05-30 00:16:28] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tetris_stats-0.3.3.post1.tar.gz tmp/nonebot_plugin_tetris_stats-0.4.0.tar.gz --markdown 20230530/n/nonebot-plugin-tetris-stats/0.3.3.post1-0.4.0/diff.md --exclude *.pyd
+[2023-05-30 00:16:28] INFO root fetch - processPackages [fastapi-cruddy-framework]: executing diffoscope
+[2023-05-30 00:16:28] INFO root fetch - processPackages [fastapi-cruddy-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cruddy_framework-0.0.8.tar.gz tmp/fastapi_cruddy_framework-0.0.9.tar.gz --markdown 20230530/f/fastapi-cruddy-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 00:16:29] INFO root fetch - processPackages [vessel]: Downloading https://files.pythonhosted.org/packages/29/17/881599b759568888906fec5a2dc161d81142008a1cf34cf98da0870dc2c6/vessel-4.1.1.tar.gz
+[2023-05-30 00:16:29] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/3e/3e/583e96c6425d78e3eac83dc31775c2bf7b6459530f280469aec47cf3a66a/talk_codebase-0.1.23.tar.gz
+[2023-05-30 00:16:29] INFO root fetch - processPackages [talk-codebase]: executing diffoscope
+[2023-05-30 00:16:29] INFO root fetch - processPackages [talk-codebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talk_codebase-0.1.22.tar.gz tmp/talk_codebase-0.1.23.tar.gz --markdown 20230530/t/talk-codebase/0.1.22-0.1.23/diff.md --exclude *.pyd
+[2023-05-30 00:16:29] INFO root fetch - processPackages [vessel]: executing diffoscope
+[2023-05-30 00:16:29] INFO root fetch - processPackages [vessel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessel-4.1.0.tar.gz tmp/vessel-4.1.1.tar.gz --markdown 20230530/v/vessel/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-05-30 00:16:29] INFO root fetch - processPackages [loophost]: Downloading https://files.pythonhosted.org/packages/59/16/e60ac11f44551a8b8011c1f3003ef84125896aef80d6b644aeb1e6119408/loophost-1.0.3.tar.gz
+[2023-05-30 00:16:29] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-05-30 00:16:29] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230530/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-30 00:16:29] INFO root fetch - processPackages [loophost]: executing diffoscope
+[2023-05-30 00:16:29] INFO root fetch - processPackages [loophost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loophost-0.3.0.tar.gz tmp/loophost-1.0.3.tar.gz --markdown 20230530/l/loophost/0.3.0-1.0.3/diff.md --exclude *.pyd
+[2023-05-30 00:16:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
+[2023-05-30 00:16:30] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-05-30 00:16:30] INFO root fetch - main [MainThread]: End processing [fastapi-cruddy-framework]: success
+[2023-05-30 00:16:30] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-05-30 00:16:30] INFO root fetch - main [MainThread]: End processing [vessel]: success
+[2023-05-30 00:16:30] INFO root fetch - main [MainThread]: End processing [talk-codebase]: success
+[2023-05-30 00:16:31] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-30 00:16:31] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-05-30 00:16:39] INFO root fetch - main [MainThread]: End processing [loophost]: success
+[2023-05-30 00:16:39] INFO root fetch - main [MainThread]: Store serial: [18294864]
