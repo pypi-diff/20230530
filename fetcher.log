@@ -272,3 +272,64 @@
 [2023-05-30 00:27:13] INFO root fetch - main [MainThread]: End processing [webint]: success
 [2023-05-30 00:27:25] INFO root fetch - main [MainThread]: End processing [numpy]: success
 [2023-05-30 00:27:25] INFO root fetch - main [MainThread]: Store serial: [18294913]
+[2023-05-30 00:32:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18294913]
+[2023-05-30 00:32:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-30 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apigratis
+[2023-05-30 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upgini
+[2023-05-30 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prometheus-flux
+[2023-05-30 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-ketchersa
+[2023-05-30 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clubscore
+[2023-05-30 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-30 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: visier-connector
+[2023-05-30 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-large-image
+[2023-05-30 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apigratis
+[2023-05-30 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-cruddy-framework
+[2023-05-30 00:32:34] WARNING root fetch - processPackages [apigratis]: Skipping, unable to determine old version
+[2023-05-30 00:32:34] INFO root fetch - processPackages [apigratis]: Start processing: openseries
+[2023-05-30 00:32:34] INFO root fetch - main [MainThread]: End processing [apigratis] error
+[2023-05-30 00:32:34] WARNING root fetch - processPackages [prometheus-flux]: Skipping, unable to determine old version
+[2023-05-30 00:32:34] INFO root fetch - processPackages [streamlit-ketchersa]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 00:32:34] INFO root fetch - main [MainThread]: End processing [prometheus-flux] error
+[2023-05-30 00:32:34] INFO root fetch - processPackages [clubscore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 00:32:34] WARNING root fetch - processPackages [apigratis]: Skipping, unable to determine old version
+[2023-05-30 00:32:34] INFO root fetch - main [MainThread]: End processing [apigratis] error
+[2023-05-30 00:32:34] INFO root fetch - processPackages [visier-connector]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-30 00:32:34] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-30 00:32:34] INFO root fetch - processPackages [django-large-image]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-30 00:32:34] INFO root fetch - processPackages [fastapi-cruddy-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 00:32:34] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 00:32:34] INFO root fetch - processPackages [openseries]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 00:32:34] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-30 00:32:34] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230530/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-30 00:32:34] INFO root fetch - processPackages [fastapi-cruddy-framework]: executing diffoscope
+[2023-05-30 00:32:34] INFO root fetch - processPackages [fastapi-cruddy-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cruddy_framework-0.0.8.tar.gz tmp/fastapi_cruddy_framework-0.0.9.tar.gz --markdown 20230530/f/fastapi-cruddy-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 00:32:34] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-30 00:32:34] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 00:32:34] INFO root fetch - processPackages [django-large-image]: Downloading https://files.pythonhosted.org/packages/8f/b8/6158a8589aa13fc4b30e13a90c9ef1b9bc2dc3664f77714481ae3d8e89aa/django-large-image-0.8.2.tar.gz
+[2023-05-30 00:32:34] INFO root fetch - processPackages [streamlit-ketchersa]: Downloading https://files.pythonhosted.org/packages/ec/00/cd2029c602dfe48e5e691ad712d403b42e0e19920d06b09c599c4dad7002/streamlit_ketchersa-0.0.1.tar.gz
+[2023-05-30 00:32:34] INFO root fetch - processPackages [visier-connector]: Downloading https://files.pythonhosted.org/packages/b6/3e/ea0ebca8384f0f5b66a094b2dd555d09ca5e3d48786cc4719c388d276c1a/visier-connector-0.9.4.tar.gz
+[2023-05-30 00:32:34] INFO root fetch - processPackages [clubscore]: Downloading https://files.pythonhosted.org/packages/05/5f/cf2272d82138014207199c2c8e0878acc5d1af046d9146cb3238fe7b052f/clubscore-0.1.9.tar.gz
+[2023-05-30 00:32:34] INFO root fetch - processPackages [openseries]: Downloading https://files.pythonhosted.org/packages/27/3e/819db6fcba649d5baa8f79545d9962310fa76f8627349aedf3a09302a1ce/openseries-0.9.8.tar.gz
+[2023-05-30 00:32:34] INFO root fetch - processPackages [clubscore]: executing diffoscope
+[2023-05-30 00:32:34] INFO root fetch - processPackages [clubscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clubscore-0.1.8.tar.gz tmp/clubscore-0.1.9.tar.gz --markdown 20230530/c/clubscore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 00:32:34] INFO root fetch - processPackages [django-large-image]: Downloading https://files.pythonhosted.org/packages/d2/d5/f0c4aa991041bbd57c0cb915d7f47ed53e43705cbef2648f7a1a6a3388e5/django-large-image-0.9.0.tar.gz
+[2023-05-30 00:32:34] INFO root fetch - processPackages [streamlit-ketchersa]: Downloading https://files.pythonhosted.org/packages/a6/00/a4a08361077defa88ca1433262a769114ffa61c3cd0cc74c58d225420672/streamlit_ketchersa-0.0.2.tar.gz
+[2023-05-30 00:32:34] INFO root fetch - processPackages [visier-connector]: Downloading https://files.pythonhosted.org/packages/5d/28/d11d35232e8ba6dc7e0a218a3996b8f5cc55d0188169fc49d2e142f63ca7/visier-connector-0.9.5.tar.gz
+[2023-05-30 00:32:34] INFO root fetch - processPackages [django-large-image]: executing diffoscope
+[2023-05-30 00:32:34] INFO root fetch - processPackages [django-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-large-image-0.8.2.tar.gz tmp/django-large-image-0.9.0.tar.gz --markdown 20230530/d/django-large-image/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 00:32:34] INFO root fetch - processPackages [openseries]: Downloading https://files.pythonhosted.org/packages/f3/c1/0164029540ca70576138c3893424e40bb88eede48177ef628e0ae3e107cc/openseries-0.9.9.tar.gz
+[2023-05-30 00:32:34] INFO root fetch - processPackages [streamlit-ketchersa]: executing diffoscope
+[2023-05-30 00:32:34] INFO root fetch - processPackages [streamlit-ketchersa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_ketchersa-0.0.1.tar.gz tmp/streamlit_ketchersa-0.0.2.tar.gz --markdown 20230530/s/streamlit-ketchersa/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 00:32:34] INFO root fetch - processPackages [visier-connector]: executing diffoscope
+[2023-05-30 00:32:34] INFO root fetch - processPackages [visier-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visier-connector-0.9.4.tar.gz tmp/visier-connector-0.9.5.tar.gz --markdown 20230530/v/visier-connector/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-30 00:32:35] INFO root fetch - processPackages [openseries]: executing diffoscope
+[2023-05-30 00:32:35] INFO root fetch - processPackages [openseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openseries-0.9.8.tar.gz tmp/openseries-0.9.9.tar.gz --markdown 20230530/o/openseries/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 00:32:35] INFO root fetch - main [MainThread]: End processing [clubscore]: success
+[2023-05-30 00:32:35] INFO root fetch - main [MainThread]: End processing [fastapi-cruddy-framework]: success
+[2023-05-30 00:32:36] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-30 00:32:36] INFO root fetch - main [MainThread]: End processing [django-large-image]: success
+[2023-05-30 00:32:36] INFO root fetch - main [MainThread]: End processing [visier-connector]: success
+[2023-05-30 00:32:36] INFO root fetch - main [MainThread]: End processing [openseries]: success
+[2023-05-30 00:32:37] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-30 00:32:41] INFO root fetch - main [MainThread]: End processing [streamlit-ketchersa]: success
+[2023-05-30 00:32:41] INFO root fetch - main [MainThread]: Store serial: [18294961]
