@@ -709,3 +709,68 @@
 [2023-05-30 01:09:40] INFO root fetch - main [MainThread]: End processing [django-linear-migrations]: success
 [2023-05-30 01:09:41] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
 [2023-05-30 01:09:41] INFO root fetch - main [MainThread]: Store serial: [18295179]
+[2023-05-30 01:14:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18295179]
+[2023-05-30 01:14:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apigratis
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talk-codebase
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai-shell-craft
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: latch
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: random-math-rmaiaaaa
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ryvencore
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mb-base
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-portfolio-index
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: q2gui
+[2023-05-30 01:14:51] INFO root fetch - processPackages [apigratis]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-30 01:14:51] INFO root fetch - processPackages [openai-shell-craft]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-30 01:14:51] INFO root fetch - processPackages [random-math-rmaiaaaa]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-05-30 01:14:51] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.340] Old Version: [0.3.339]
+[2023-05-30 01:14:51] INFO root fetch - processPackages [talk-codebase]: New version: [0.1.25] Old Version: [0.1.24]
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ryvencore]: New version: [0.4.0a9] Old Version: [0.4.0a7]
+[2023-05-30 01:14:51] INFO root fetch - processPackages [py-portfolio-index]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 01:14:51] INFO root fetch - processPackages [mb-base]: New version: [1.0.202305292313] Old Version: [1.0.202305292304]
+[2023-05-30 01:14:51] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-05-30 01:14:51] INFO root fetch - processPackages [q2gui]: New version: [0.1.9] Old Version: [0.1.88]
+[2023-05-30 01:14:51] INFO root fetch - processPackages [apigratis]: Downloading https://files.pythonhosted.org/packages/b7/99/d5d16385301d62ff1857e3475df84d07dd647032e7b83d706f71118a6f1a/apigratis-0.0.7.tar.gz
+[2023-05-30 01:14:51] INFO root fetch - processPackages [mb-base]: Downloading https://files.pythonhosted.org/packages/cc/4d/dd98987262db872615dea58c3da92d14a205737f7ab8af0c6267b2c05c3d/mb_base-1.0.202305292313-py3-none-any.whl
+[2023-05-30 01:14:51] INFO root fetch - processPackages [random-math-rmaiaaaa]: Downloading https://files.pythonhosted.org/packages/5c/a4/52c40ef545fe2d0fb8beda78e50f0cc980b13bad7560ecacf3e2a4e9d7e7/random_math_rmaiaaaa-0.0.16.tar.gz
+[2023-05-30 01:14:51] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/15/85/6f93c45d94545cd2338dcafa557a6ef435645479b77795ef10cc2975eaaa/talk_codebase-0.1.25.tar.gz
+[2023-05-30 01:14:51] INFO root fetch - processPackages [openai-shell-craft]: Downloading https://files.pythonhosted.org/packages/f8/37/7abd6f94abc7e814586e012ea493fff9c077f316c4205293b94e00f58ad1/openai_shell_craft-1.0.1.tar.gz
+[2023-05-30 01:14:51] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/55/b8/ce1e96afd61a04083150c441bf978951d0539fe6a456fd4aa428661eae92/q2gui-0.1.88.tar.gz
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ryvencore]: Downloading https://files.pythonhosted.org/packages/72/37/6b2fa8a4524b825354a4371ab7dd1246e69153c4e3f459872e0af3f0beea/ryvencore-0.4.0a7.tar.gz
+[2023-05-30 01:14:51] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/ad/4a/5f47673e56206a81c2a527505828f79c1378315c68e68982dcce9c557743/py-portfolio-index-0.0.1.tar.gz
+[2023-05-30 01:14:51] INFO root fetch - processPackages [random-math-rmaiaaaa]: executing diffoscope
+[2023-05-30 01:14:51] INFO root fetch - processPackages [random-math-rmaiaaaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/random_math_rmaiaaaa-0.0.15.tar.gz tmp/random_math_rmaiaaaa-0.0.16.tar.gz --markdown 20230530/r/random-math-rmaiaaaa/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-05-30 01:14:51] INFO root fetch - processPackages [mb-base]: executing diffoscope
+[2023-05-30 01:14:51] INFO root fetch - processPackages [mb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_base-1.0.202305292304-py3-none-any.whl.zip tmp/mb_base-1.0.202305292313-py3-none-any.whl.zip --markdown 20230530/m/mb-base/1.0.202305292304-1.0.202305292313/diff.md --exclude *.pyd
+[2023-05-30 01:14:51] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/fa/cf/482f9a2332b65a3ea364d3f9cd9a245d0d9e698160df164f028b4576d3da/pepperize.cdk-ses-smtp-credentials-0.3.340.tar.gz
+[2023-05-30 01:14:51] INFO root fetch - processPackages [talk-codebase]: executing diffoscope
+[2023-05-30 01:14:51] INFO root fetch - processPackages [talk-codebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talk_codebase-0.1.24.tar.gz tmp/talk_codebase-0.1.25.tar.gz --markdown 20230530/t/talk-codebase/0.1.24-0.1.25/diff.md --exclude *.pyd
+[2023-05-30 01:14:51] INFO root fetch - processPackages [openai-shell-craft]: executing diffoscope
+[2023-05-30 01:14:51] INFO root fetch - processPackages [openai-shell-craft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_shell_craft-1.0.0.tar.gz tmp/openai_shell_craft-1.0.1.tar.gz --markdown 20230530/o/openai-shell-craft/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 01:14:51] INFO root fetch - processPackages [apigratis]: Downloading https://files.pythonhosted.org/packages/b7/62/ce1290fa7b34d7705477342b2ff890a5a999f469f3e55fd42a08ecb73762/apigratis-0.0.9.tar.gz
+[2023-05-30 01:14:51] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-30 01:14:51] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.339.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.340.tar.gz --markdown 20230530/p/pepperize.cdk-ses-smtp-credentials/0.3.339-0.3.340/diff.md --exclude *.pyd
+[2023-05-30 01:14:51] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-05-30 01:14:51] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230530/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-05-30 01:14:51] INFO root fetch - processPackages [apigratis]: executing diffoscope
+[2023-05-30 01:14:51] INFO root fetch - processPackages [apigratis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apigratis-0.0.7.tar.gz tmp/apigratis-0.0.9.tar.gz --markdown 20230530/a/apigratis/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 01:14:51] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/6e/ac/bd28ceca4ebfeb70b523189f8f6bde2f1c881bb1c3726772afbf9d7e6243/py-portfolio-index-0.0.2.tar.gz
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ryvencore]: Downloading https://files.pythonhosted.org/packages/d6/10/745972793c9237a07d5d0e171ff9fec3d50b68ddf26d27e793f18492a234/ryvencore-0.4.0a9.tar.gz
+[2023-05-30 01:14:51] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-05-30 01:14:51] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.88.tar.gz tmp/q2gui-0.1.9.tar.gz --markdown 20230530/q/q2gui/0.1.88-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 01:14:51] INFO root fetch - processPackages [py-portfolio-index]: executing diffoscope
+[2023-05-30 01:14:51] INFO root fetch - processPackages [py-portfolio-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-portfolio-index-0.0.1.tar.gz tmp/py-portfolio-index-0.0.2.tar.gz --markdown 20230530/p/py-portfolio-index/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ryvencore]: executing diffoscope
+[2023-05-30 01:14:51] INFO root fetch - processPackages [ryvencore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryvencore-0.4.0a7.tar.gz tmp/ryvencore-0.4.0a9.tar.gz --markdown 20230530/r/ryvencore/0.4.0a7-0.4.0a9/diff.md --exclude *.pyd
+[2023-05-30 01:14:52] INFO root fetch - main [MainThread]: End processing [random-math-rmaiaaaa]: success
+[2023-05-30 01:14:53] INFO root fetch - main [MainThread]: End processing [mb-base]: success
+[2023-05-30 01:14:53] INFO root fetch - main [MainThread]: End processing [talk-codebase]: success
+[2023-05-30 01:14:53] INFO root fetch - main [MainThread]: End processing [apigratis]: success
+[2023-05-30 01:14:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-30 01:14:53] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-05-30 01:14:53] INFO root fetch - main [MainThread]: End processing [openai-shell-craft]: success
+[2023-05-30 01:14:54] INFO root fetch - main [MainThread]: End processing [ryvencore]: success
+[2023-05-30 01:14:54] INFO root fetch - main [MainThread]: End processing [py-portfolio-index]: success
+[2023-05-30 01:14:54] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-05-30 01:14:54] INFO root fetch - main [MainThread]: Store serial: [18295209]
