@@ -24,3 +24,58 @@
 [2023-05-30 00:00:50] INFO root fetch - main [MainThread]: End processing [cfr]: success
 [2023-05-30 00:00:50] INFO root fetch - main [MainThread]: End processing [namer]: success
 [2023-05-30 00:00:50] INFO root fetch - main [MainThread]: Store serial: [18294770]
+[2023-05-30 00:05:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18294770]
+[2023-05-30 00:05:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-30 00:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blaster-server
+[2023-05-30 00:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: std-daq-client
+[2023-05-30 00:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalkpy
+[2023-05-30 00:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apigratis-sdk-python
+[2023-05-30 00:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tipsy
+[2023-05-30 00:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: random-math-rmaiaaaa
+[2023-05-30 00:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: db2ixf
+[2023-05-30 00:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xklb
+[2023-05-30 00:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vessel
+[2023-05-30 00:05:59] INFO root fetch - processPackages [blaster-server]: New version: [0.0.433] Old Version: [0.0.432b0]
+[2023-05-30 00:05:59] INFO root fetch - processPackages [tipsy]: New version: [0.7.1] Old Version: [0.7]
+[2023-05-30 00:05:59] WARNING root fetch - processPackages [db2ixf]: Skipping, unable to determine old version
+[2023-05-30 00:05:59] INFO root fetch - main [MainThread]: End processing [db2ixf] error
+[2023-05-30 00:05:59] INFO root fetch - processPackages [apigratis-sdk-python]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 00:05:59] INFO root fetch - processPackages [random-math-rmaiaaaa]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-05-30 00:05:59] INFO root fetch - processPackages [std-daq-client]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-30 00:05:59] INFO root fetch - processPackages [chalkpy]: New version: [2.4.6] Old Version: [2.4.5]
+[2023-05-30 00:05:59] INFO root fetch - processPackages [xklb]: New version: [1.29.5] Old Version: [1.29.4]
+[2023-05-30 00:05:59] INFO root fetch - processPackages [vessel]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-05-30 00:05:59] INFO root fetch - processPackages [apigratis-sdk-python]: Downloading https://files.pythonhosted.org/packages/a8/cf/dec544f865d3736d402f8e3ed118fbbfeae933a47020a095ff73c3d620fc/apigratis-sdk-python-0.0.3.tar.gz
+[2023-05-30 00:05:59] INFO root fetch - processPackages [std-daq-client]: Downloading https://files.pythonhosted.org/packages/4d/0e/b07cc3b90532d3156b95fce8c56f6c1932903cf0a8b154e5ac038d4aa149/std_daq_client-1.3.3.tar.gz
+[2023-05-30 00:05:59] INFO root fetch - processPackages [tipsy]: Downloading https://files.pythonhosted.org/packages/5c/19/8bcf6a5326e526d5eb6ce2dc2513623985ac73a257284a3dfe28507ba5ec/tipsy-0.7.1-py3-none-any.whl
+[2023-05-30 00:05:59] INFO root fetch - processPackages [random-math-rmaiaaaa]: Downloading https://files.pythonhosted.org/packages/27/f5/4751fb1f9327addb23e3444040cffe7d993af01a2d29cbdcf0a2b54b47a2/random_math_rmaiaaaa-0.0.14.tar.gz
+[2023-05-30 00:05:59] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/5d/b0/39799b478939bf6773c2c35eb0f40a910b14544b77180dc280d1d18c8f56/chalkpy-2.4.6.tar.gz
+[2023-05-30 00:05:59] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/11/24/9bd923470549cd804f1bcf6d840a3dd3497bee4ad042b0a9a1e02d722d2b/xklb-1.29.5.tar.gz
+[2023-05-30 00:05:59] INFO root fetch - processPackages [std-daq-client]: executing diffoscope
+[2023-05-30 00:05:59] INFO root fetch - processPackages [std-daq-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/std_daq_client-1.3.2.tar.gz tmp/std_daq_client-1.3.3.tar.gz --markdown 20230530/s/std-daq-client/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-30 00:05:59] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/aa/95/e849098fef21f0d35215a30622639883cd04c78ea0f7b84f5882f33f1b7d/blaster-server-0.0.433.tar.gz
+[2023-05-30 00:05:59] INFO root fetch - processPackages [random-math-rmaiaaaa]: executing diffoscope
+[2023-05-30 00:05:59] INFO root fetch - processPackages [random-math-rmaiaaaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/random_math_rmaiaaaa-0.0.13.tar.gz tmp/random_math_rmaiaaaa-0.0.14.tar.gz --markdown 20230530/r/random-math-rmaiaaaa/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-05-30 00:05:59] INFO root fetch - processPackages [tipsy]: executing diffoscope
+[2023-05-30 00:05:59] INFO root fetch - processPackages [tipsy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tipsy-0.7-py3-none-any.whl.zip tmp/tipsy-0.7.1-py3-none-any.whl.zip --markdown 20230530/t/tipsy/0.7-0.7.1/diff.md --exclude *.pyd
+[2023-05-30 00:05:59] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-30 00:05:59] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.4.5.tar.gz tmp/chalkpy-2.4.6.tar.gz --markdown 20230530/c/chalkpy/2.4.5-2.4.6/diff.md --exclude *.pyd
+[2023-05-30 00:05:59] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-05-30 00:05:59] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.29.4.tar.gz tmp/xklb-1.29.5.tar.gz --markdown 20230530/x/xklb/1.29.4-1.29.5/diff.md --exclude *.pyd
+[2023-05-30 00:05:59] INFO root fetch - processPackages [vessel]: Downloading https://files.pythonhosted.org/packages/9c/3c/579ccac300573c83b54444b496c3bb3d55f3e487391a6e3f73bcef6b4c20/vessel-4.1.0.tar.gz
+[2023-05-30 00:05:59] INFO root fetch - processPackages [apigratis-sdk-python]: Downloading https://files.pythonhosted.org/packages/4a/c3/cc8bfcc7e09e24d455de250f88c1e3c43491e63c99fd1ffc0c94e7981e13/apigratis-sdk-python-0.0.4.tar.gz
+[2023-05-30 00:05:59] INFO root fetch - processPackages [blaster-server]: executing diffoscope
+[2023-05-30 00:05:59] INFO root fetch - processPackages [blaster-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaster-server-0.0.432b0.tar.gz tmp/blaster-server-0.0.433.tar.gz --markdown 20230530/b/blaster-server/0.0.432b0-0.0.433/diff.md --exclude *.pyd
+[2023-05-30 00:05:59] INFO root fetch - processPackages [apigratis-sdk-python]: executing diffoscope
+[2023-05-30 00:05:59] INFO root fetch - processPackages [apigratis-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apigratis-sdk-python-0.0.3.tar.gz tmp/apigratis-sdk-python-0.0.4.tar.gz --markdown 20230530/a/apigratis-sdk-python/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 00:05:59] INFO root fetch - processPackages [vessel]: executing diffoscope
+[2023-05-30 00:05:59] INFO root fetch - processPackages [vessel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessel-4.0.0.tar.gz tmp/vessel-4.1.0.tar.gz --markdown 20230530/v/vessel/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-05-30 00:06:01] INFO root fetch - main [MainThread]: End processing [std-daq-client]: success
+[2023-05-30 00:06:01] INFO root fetch - main [MainThread]: End processing [random-math-rmaiaaaa]: success
+[2023-05-30 00:06:01] INFO root fetch - main [MainThread]: End processing [tipsy]: success
+[2023-05-30 00:06:01] INFO root fetch - main [MainThread]: End processing [apigratis-sdk-python]: success
+[2023-05-30 00:06:01] INFO root fetch - main [MainThread]: End processing [vessel]: success
+[2023-05-30 00:06:01] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
+[2023-05-30 00:06:01] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-05-30 00:06:07] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-30 00:06:07] INFO root fetch - main [MainThread]: Store serial: [18294799]
