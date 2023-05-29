@@ -870,3 +870,75 @@
 [2023-05-30 01:25:25] INFO root fetch - main [MainThread]: End processing [ryven]: success
 [2023-05-30 01:25:28] INFO root fetch - main [MainThread]: End processing [ellar]: success
 [2023-05-30 01:25:28] INFO root fetch - main [MainThread]: Store serial: [18295257]
+[2023-05-30 01:30:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18295257]
+[2023-05-30 01:30:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-30 01:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: q2report
+[2023-05-30 01:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cursesplus
+[2023-05-30 01:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyMieSim
+[2023-05-30 01:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gkligo
+[2023-05-30 01:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emailcrawl1
+[2023-05-30 01:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydae
+[2023-05-30 01:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mb-base
+[2023-05-30 01:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lp-ap-tools
+[2023-05-30 01:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finqual
+[2023-05-30 01:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lab-partner
+[2023-05-30 01:30:37] INFO root fetch - processPackages [cursesplus]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-05-30 01:30:37] INFO root fetch - processPackages [gkligo]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-30 01:30:37] WARNING root fetch - processPackages [emailcrawl1]: Skipping, unable to determine old version
+[2023-05-30 01:30:37] INFO root fetch - processPackages [emailcrawl1]: Start processing: lab-partner-utils
+[2023-05-30 01:30:37] INFO root fetch - main [MainThread]: End processing [emailcrawl1] error
+[2023-05-30 01:30:37] INFO root fetch - processPackages [q2report]: New version: [0.1.27] Old Version: [0.1.26]
+[2023-05-30 01:30:37] INFO root fetch - processPackages [lp-ap-tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 01:30:37] INFO root fetch - processPackages [lab-partner]: New version: [0.7.44] Old Version: [0.7.43]
+[2023-05-30 01:30:37] INFO root fetch - processPackages [finqual]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 01:30:37] INFO root fetch - processPackages [mb-base]: New version: [1.0.202305292328] Old Version: [1.0.202305292313]
+[2023-05-30 01:30:37] INFO root fetch - processPackages [lab-partner-utils]: New version: [0.7.44] Old Version: [0.7.43]
+[2023-05-30 01:30:37] INFO root fetch - processPackages [PyMieSim]: New version: [0.10.9] Old Version: [0.10.8]
+[2023-05-30 01:30:37] INFO root fetch - processPackages [pydae]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-30 01:30:37] INFO root fetch - processPackages [pydae]: Downloading https://files.pythonhosted.org/packages/7d/df/18fbeeac68b8076a40737405fc9638efb381a7dae1ccdfa520fe3810b1cd/pydae-0.8.0.tar.gz
+[2023-05-30 01:30:37] INFO root fetch - processPackages [q2report]: Downloading https://files.pythonhosted.org/packages/dc/94/229308da9d0df943b859153163509c0970c8840b61d047d801516852417c/q2report-0.1.26.tar.gz
+[2023-05-30 01:30:37] WARNING root fetch - processPackages [pydae]: Skipping package: exceeds size limit 76279170>=10485760
+[2023-05-30 01:30:37] INFO root fetch - processPackages [pydae]: Start processing: eolymp
+[2023-05-30 01:30:37] INFO root fetch - main [MainThread]: End processing [pydae] error
+[2023-05-30 01:30:37] INFO root fetch - processPackages [cursesplus]: Downloading https://files.pythonhosted.org/packages/23/8c/fe42d7478d5752a7c393dfdec2914269096572bd521e5664b73459e9b034/cursesplus-2.3.1.tar.gz
+[2023-05-30 01:30:37] INFO root fetch - processPackages [eolymp]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-30 01:30:37] INFO root fetch - processPackages [lab-partner]: Downloading https://files.pythonhosted.org/packages/ff/39/0323dbd6f8109409d6524a20970ae2673f994115283b682cbc94df29f6a5/lab-partner-0.7.44.tar.gz
+[2023-05-30 01:30:37] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/f0/78/253a08839e9fa7faa2751c740cd032b20a18eb9e8e900171974a57204119/finqual-0.1.4.tar.gz
+[2023-05-30 01:30:37] INFO root fetch - processPackages [gkligo]: Downloading https://files.pythonhosted.org/packages/15/c1/11a6c81c60f277219016f4460c0e7b9356285da58fccafab62d0517e120d/gkligo-0.1.5.tar.gz
+[2023-05-30 01:30:37] INFO root fetch - processPackages [lp-ap-tools]: Downloading https://files.pythonhosted.org/packages/b8/43/0f47442d9229fcae2eb8f349f36921f698768bce26c6cce14ce8e5df2024/lp_ap_tools-0.1.0.tar.gz
+[2023-05-30 01:30:37] INFO root fetch - processPackages [mb-base]: Downloading https://files.pythonhosted.org/packages/33/c6/510897cfb4f13f7a88db77912c027b6f4decc2b620dd007226de35298874/mb_base-1.0.202305292328-py3-none-any.whl
+[2023-05-30 01:30:37] INFO root fetch - processPackages [PyMieSim]: Downloading https://files.pythonhosted.org/packages/36/c7/259c052d8f798048c7bab1fcee0c05f081a89241bb9bfcb8c9cfc38e7d98/PyMieSim-0.10.8-cp39-cp39-win_amd64.whl
+[2023-05-30 01:30:37] INFO root fetch - processPackages [lab-partner-utils]: Downloading https://files.pythonhosted.org/packages/01/87/b4e2a9c8c93a990fbbd53f20733282316e18273dd6e7085aa050addbcacb/lab-partner-utils-0.7.44.tar.gz
+[2023-05-30 01:30:37] INFO root fetch - processPackages [lab-partner-utils]: executing diffoscope
+[2023-05-30 01:30:37] INFO root fetch - processPackages [lab-partner-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-utils-0.7.43.tar.gz tmp/lab-partner-utils-0.7.44.tar.gz --markdown 20230530/l/lab-partner-utils/0.7.43-0.7.44/diff.md --exclude *.pyd
+[2023-05-30 01:30:37] INFO root fetch - processPackages [cursesplus]: executing diffoscope
+[2023-05-30 01:30:37] INFO root fetch - processPackages [cursesplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cursesplus-2.3.0.tar.gz tmp/cursesplus-2.3.1.tar.gz --markdown 20230530/c/cursesplus/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-05-30 01:30:37] INFO root fetch - processPackages [mb-base]: executing diffoscope
+[2023-05-30 01:30:37] INFO root fetch - processPackages [mb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_base-1.0.202305292313-py3-none-any.whl.zip tmp/mb_base-1.0.202305292328-py3-none-any.whl.zip --markdown 20230530/m/mb-base/1.0.202305292313-1.0.202305292328/diff.md --exclude *.pyd
+[2023-05-30 01:30:37] INFO root fetch - processPackages [lab-partner]: executing diffoscope
+[2023-05-30 01:30:37] INFO root fetch - processPackages [lab-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-0.7.43.tar.gz tmp/lab-partner-0.7.44.tar.gz --markdown 20230530/l/lab-partner/0.7.43-0.7.44/diff.md --exclude *.pyd
+[2023-05-30 01:30:37] INFO root fetch - processPackages [finqual]: executing diffoscope
+[2023-05-30 01:30:37] INFO root fetch - processPackages [finqual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finqual-0.1.3.tar.gz tmp/finqual-0.1.4.tar.gz --markdown 20230530/f/finqual/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 01:30:37] INFO root fetch - processPackages [q2report]: Downloading https://files.pythonhosted.org/packages/4a/63/4e4b96b97670b9a8b07cf018bc5d64afc664b82aeb634caee28d37c15946/q2report-0.1.27.tar.gz
+[2023-05-30 01:30:38] INFO root fetch - processPackages [lp-ap-tools]: Downloading https://files.pythonhosted.org/packages/10/f5/500071d7f61e50aa512bfdfe11279b3f0a0c95909676c2633164b5bd1bca/lp_ap_tools-0.1.1.tar.gz
+[2023-05-30 01:30:38] INFO root fetch - processPackages [gkligo]: Downloading https://files.pythonhosted.org/packages/b4/d1/0d0167978990173c7eae9af609821db1f7d655ca9bee1a78fdee99545c2a/gkligo-0.1.6.tar.gz
+[2023-05-30 01:30:38] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2023-05-30 01:30:38] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.7.8.tar.gz tmp/eolymp-0.7.9.tar.gz --markdown 20230530/e/eolymp/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-30 01:30:38] INFO root fetch - processPackages [q2report]: executing diffoscope
+[2023-05-30 01:30:38] INFO root fetch - processPackages [q2report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2report-0.1.26.tar.gz tmp/q2report-0.1.27.tar.gz --markdown 20230530/q/q2report/0.1.26-0.1.27/diff.md --exclude *.pyd
+[2023-05-30 01:30:38] INFO root fetch - processPackages [lp-ap-tools]: executing diffoscope
+[2023-05-30 01:30:38] INFO root fetch - processPackages [lp-ap-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lp_ap_tools-0.1.0.tar.gz tmp/lp_ap_tools-0.1.1.tar.gz --markdown 20230530/l/lp-ap-tools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 01:30:38] INFO root fetch - processPackages [gkligo]: executing diffoscope
+[2023-05-30 01:30:38] INFO root fetch - processPackages [gkligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gkligo-0.1.5.tar.gz tmp/gkligo-0.1.6.tar.gz --markdown 20230530/g/gkligo/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-30 01:30:38] WARNING root fetch - processPackages [PyMieSim]: Skipping package: exceeds size limit 32113006>=10485760
+[2023-05-30 01:30:38] INFO root fetch - main [MainThread]: End processing [PyMieSim] error
+[2023-05-30 01:30:39] INFO root fetch - main [MainThread]: End processing [lab-partner-utils]: success
+[2023-05-30 01:30:39] INFO root fetch - main [MainThread]: End processing [cursesplus]: success
+[2023-05-30 01:30:39] INFO root fetch - main [MainThread]: End processing [mb-base]: success
+[2023-05-30 01:30:39] INFO root fetch - main [MainThread]: End processing [finqual]: success
+[2023-05-30 01:30:39] INFO root fetch - main [MainThread]: End processing [lp-ap-tools]: success
+[2023-05-30 01:30:39] INFO root fetch - main [MainThread]: End processing [q2report]: success
+[2023-05-30 01:30:40] INFO root fetch - main [MainThread]: End processing [gkligo]: success
+[2023-05-30 01:30:43] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2023-05-30 01:31:29] INFO root fetch - main [MainThread]: End processing [lab-partner]: success
+[2023-05-30 01:31:29] INFO root fetch - main [MainThread]: Store serial: [18295306]
