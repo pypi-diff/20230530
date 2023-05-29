@@ -220,3 +220,55 @@
 [2023-05-30 00:21:58] INFO root fetch - main [MainThread]: End processing [apigratis]: success
 [2023-05-30 00:21:58] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
 [2023-05-30 00:21:58] INFO root fetch - main [MainThread]: Store serial: [18294875]
+[2023-05-30 00:27:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18294875]
+[2023-05-30 00:27:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-30 00:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartgpt
+[2023-05-30 00:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: numpy
+[2023-05-30 00:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pciSeq
+[2023-05-30 00:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webint
+[2023-05-30 00:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Hunabku-scienti
+[2023-05-30 00:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvxsimulator
+[2023-05-30 00:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pySecDec
+[2023-05-30 00:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scikit-gpt
+[2023-05-30 00:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skgpt
+[2023-05-30 00:27:06] INFO root fetch - processPackages [Hunabku-scienti]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-30 00:27:06] INFO root fetch - processPackages [webint]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 00:27:06] INFO root fetch - processPackages [pySecDec]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-05-30 00:27:06] INFO root fetch - processPackages [cvxsimulator]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-30 00:27:06] INFO root fetch - processPackages [smartgpt]: New version: [0.1.3] Old Version: [0.1.2.1]
+[2023-05-30 00:27:06] INFO root fetch - processPackages [pciSeq]: New version: [0.0.51] Old Version: [0.0.50]
+[2023-05-30 00:27:06] INFO root fetch - processPackages [numpy]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-30 00:27:06] WARNING root fetch - processPackages [scikit-gpt]: Skipping, unable to determine old version
+[2023-05-30 00:27:06] INFO root fetch - main [MainThread]: End processing [scikit-gpt] error
+[2023-05-30 00:27:06] WARNING root fetch - processPackages [skgpt]: Skipping, unable to determine old version
+[2023-05-30 00:27:06] INFO root fetch - main [MainThread]: End processing [skgpt] error
+[2023-05-30 00:27:06] INFO root fetch - processPackages [Hunabku-scienti]: Downloading https://files.pythonhosted.org/packages/6a/b1/0ee5ddee566883c5b40344e49cdb951cc2e3957d33967fa2f37ee05bffad/Hunabku_scienti-0.0.4.tar.gz
+[2023-05-30 00:27:06] INFO root fetch - processPackages [pySecDec]: Downloading https://files.pythonhosted.org/packages/17/ab/1b8bd08eadd3f39ddac0c69856ec50c285f18ed26c7d4c9f9f662ed23772/pySecDec-1.5.5.tar.gz
+[2023-05-30 00:27:07] INFO root fetch - processPackages [smartgpt]: Downloading https://files.pythonhosted.org/packages/18/2a/b768665ce02794204c4a8a5bd145cf05401ac4841949f3be120b69ae8495/smartgpt-0.1.2.1.tar.gz
+[2023-05-30 00:27:07] INFO root fetch - processPackages [numpy]: Downloading https://files.pythonhosted.org/packages/bb/b1/5a87c6cc7ab5201ad0552a5f84e194f822693ea59b0b97dc77a18f04554a/numpy-1.9.2.zip
+[2023-05-30 00:27:07] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/e2/ee/045adb28dde55577b1f191796b2890393709559a6b36a9ef80e3522057c2/pciSeq-0.0.51-py3-none-any.whl
+[2023-05-30 00:27:07] INFO root fetch - processPackages [webint]: executing diffoscope
+[2023-05-30 00:27:07] INFO root fetch - processPackages [webint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint-0.1.8.tar.gz tmp/webint-0.1.9.tar.gz --markdown 20230530/w/webint/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 00:27:07] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/0c/63/ac8e8ab8417fbf2c804a88ca4a66841c04b6161a6d38f2bbdae6069fb2ec/cvxsimulator-0.3.5.tar.gz
+[2023-05-30 00:27:07] INFO root fetch - processPackages [Hunabku-scienti]: Downloading https://files.pythonhosted.org/packages/c8/b9/99d64f64f87bf63b74835686acd26e6ea97911db0c8f79a1e003badb33ee/Hunabku_scienti-0.0.5.tar.gz
+[2023-05-30 00:27:07] INFO root fetch - processPackages [smartgpt]: Downloading https://files.pythonhosted.org/packages/fc/60/271d00bcda6ada36a743665d27ef45fc53f2bd563b023ffbd9c30778a979/smartgpt-0.1.3.tar.gz
+[2023-05-30 00:27:07] INFO root fetch - processPackages [pciSeq]: executing diffoscope
+[2023-05-30 00:27:07] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-05-30 00:27:07] INFO root fetch - processPackages [pciSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pciSeq-0.0.50-py3-none-any.whl.zip tmp/pciSeq-0.0.51-py3-none-any.whl.zip --markdown 20230530/p/pciSeq/0.0.50-0.0.51/diff.md --exclude *.pyd
+[2023-05-30 00:27:07] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.3.4.tar.gz tmp/cvxsimulator-0.3.5.tar.gz --markdown 20230530/c/cvxsimulator/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-30 00:27:07] INFO root fetch - processPackages [Hunabku-scienti]: executing diffoscope
+[2023-05-30 00:27:07] INFO root fetch - processPackages [Hunabku-scienti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hunabku_scienti-0.0.4.tar.gz tmp/Hunabku_scienti-0.0.5.tar.gz --markdown 20230530/H/Hunabku-scienti/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 00:27:07] INFO root fetch - processPackages [smartgpt]: executing diffoscope
+[2023-05-30 00:27:07] INFO root fetch - processPackages [smartgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartgpt-0.1.2.1.tar.gz tmp/smartgpt-0.1.3.tar.gz --markdown 20230530/s/smartgpt/0.1.2.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 00:27:07] INFO root fetch - processPackages [numpy]: Downloading https://files.pythonhosted.org/packages/d9/da/8f6fa7d5d76fc78c11fb56a48dfb51d6321bc1e7631e5ad32c228284005f/numpy-1.9.3.zip
+[2023-05-30 00:27:07] WARNING root fetch - processPackages [pySecDec]: Skipping package: exceeds size limit 13514005>=10485760
+[2023-05-30 00:27:07] INFO root fetch - main [MainThread]: End processing [pySecDec] error
+[2023-05-30 00:27:07] INFO root fetch - processPackages [numpy]: executing diffoscope
+[2023-05-30 00:27:07] INFO root fetch - processPackages [numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpy-1.9.2.zip tmp/numpy-1.9.3.zip --markdown 20230530/n/numpy/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-30 00:27:08] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-05-30 00:27:08] INFO root fetch - main [MainThread]: End processing [Hunabku-scienti]: success
+[2023-05-30 00:27:09] INFO root fetch - main [MainThread]: End processing [smartgpt]: success
+[2023-05-30 00:27:09] INFO root fetch - main [MainThread]: End processing [pciSeq]: success
+[2023-05-30 00:27:13] INFO root fetch - main [MainThread]: End processing [webint]: success
+[2023-05-30 00:27:25] INFO root fetch - main [MainThread]: End processing [numpy]: success
+[2023-05-30 00:27:25] INFO root fetch - main [MainThread]: Store serial: [18294913]
