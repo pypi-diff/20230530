@@ -1031,3 +1031,65 @@
 [2023-05-30 01:41:56] INFO root fetch - main [MainThread]: End processing [printnanny-api-client]: success
 [2023-05-30 01:41:57] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-05-30 01:41:57] INFO root fetch - main [MainThread]: Store serial: [18295358]
+[2023-05-30 01:47:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18295358]
+[2023-05-30 01:47:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 01:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: latch
+[2023-05-30 01:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydoxtools
+[2023-05-30 01:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-cruddy-framework
+[2023-05-30 01:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdforest
+[2023-05-30 01:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipd
+[2023-05-30 01:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udc
+[2023-05-30 01:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: v7e-utils
+[2023-05-30 01:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grai-client
+[2023-05-30 01:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: redco
+[2023-05-30 01:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skulk
+[2023-05-30 01:47:06] INFO root fetch - processPackages [mdforest]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-05-30 01:47:06] INFO root fetch - processPackages [pydoxtools]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-30 01:47:06] INFO root fetch - processPackages [udc]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-30 01:47:06] INFO root fetch - processPackages [pipd]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-30 01:47:06] INFO root fetch - processPackages [fastapi-cruddy-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 01:47:06] INFO root fetch - processPackages [grai-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 01:47:06] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-05-30 01:47:06] INFO root fetch - processPackages [v7e-utils]: New version: [0.6.1] Old Version: [0.5.1]
+[2023-05-30 01:47:06] INFO root fetch - processPackages [redco]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-30 01:47:06] INFO root fetch - processPackages [skulk]: New version: [1.4.6rc7] Old Version: [1.4.5]
+[2023-05-30 01:47:06] INFO root fetch - processPackages [fastapi-cruddy-framework]: executing diffoscope
+[2023-05-30 01:47:06] INFO root fetch - processPackages [fastapi-cruddy-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cruddy_framework-0.0.8.tar.gz tmp/fastapi_cruddy_framework-0.0.9.tar.gz --markdown 20230530/f/fastapi-cruddy-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 01:47:06] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-05-30 01:47:06] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230530/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-05-30 01:47:06] INFO root fetch - processPackages [mdforest]: Downloading https://files.pythonhosted.org/packages/8a/86/3573c951ca7b8bd81438713bd526ef79423b5180613e5ccd796119023239/mdforest-1.5.5.tar.gz
+[2023-05-30 01:47:06] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/5a/d1/ede53482e590eb371dee57dfce54e8ee475f90c0fe3c77bc8fb228ba20fb/pipd-0.0.5.tar.gz
+[2023-05-30 01:47:06] INFO root fetch - processPackages [v7e-utils]: Downloading https://files.pythonhosted.org/packages/46/70/f7a2984897f76c6214887ec36884492dd931d2c3baf687d2e89db7cd1633/v7e_utils-0.6.1.tar.gz
+[2023-05-30 01:47:06] INFO root fetch - processPackages [skulk]: Downloading https://files.pythonhosted.org/packages/9a/7b/2601169385330c8d0ff1e0b8b8dcf7b61c0adc1596fd704df33b5d6990cd/skulk-1.4.5-py2.py3-none-any.whl
+[2023-05-30 01:47:06] INFO root fetch - processPackages [v7e-utils]: executing diffoscope
+[2023-05-30 01:47:06] INFO root fetch - processPackages [v7e-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v7e_utils-0.5.1.tar.gz tmp/v7e_utils-0.6.1.tar.gz --markdown 20230530/v/v7e-utils/0.5.1-0.6.1/diff.md --exclude *.pyd
+[2023-05-30 01:47:06] INFO root fetch - processPackages [udc]: Downloading https://files.pythonhosted.org/packages/b5/78/9eb36a71441e0ac1dcbc2e432399679365af2ff3a4205998109942e3ae73/udc-0.2.5.tar.gz
+[2023-05-30 01:47:06] INFO root fetch - processPackages [pydoxtools]: Downloading https://files.pythonhosted.org/packages/2a/fa/4f34d6c6fa0acc69ae66cdda66610a18046ffc54d67cc5e29864a4684753/pydoxtools-0.6.3.tar.gz
+[2023-05-30 01:47:06] INFO root fetch - processPackages [grai-client]: executing diffoscope
+[2023-05-30 01:47:06] INFO root fetch - processPackages [grai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_client-0.2.8.tar.gz tmp/grai_client-0.2.9.tar.gz --markdown 20230530/g/grai-client/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 01:47:06] INFO root fetch - processPackages [pipd]: executing diffoscope
+[2023-05-30 01:47:06] INFO root fetch - processPackages [pipd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipd-0.0.4.tar.gz tmp/pipd-0.0.5.tar.gz --markdown 20230530/p/pipd/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 01:47:06] INFO root fetch - processPackages [mdforest]: Downloading https://files.pythonhosted.org/packages/28/e6/710c79b0a619460269f2633438650341656adb06ee1c8e47163dccf6f57b/mdforest-1.5.6.tar.gz
+[2023-05-30 01:47:07] INFO root fetch - processPackages [udc]: executing diffoscope
+[2023-05-30 01:47:07] INFO root fetch - processPackages [udc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udc-0.2.4.tar.gz tmp/udc-0.2.5.tar.gz --markdown 20230530/u/udc/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-30 01:47:07] INFO root fetch - processPackages [redco]: Downloading https://files.pythonhosted.org/packages/34/d3/de9bf7feed543003f78f97b875e7e4eeb95ee2ddb67d3f2ffa93a88eda38/redco-0.4.3.tar.gz
+[2023-05-30 01:47:07] INFO root fetch - processPackages [pydoxtools]: executing diffoscope
+[2023-05-30 01:47:07] INFO root fetch - processPackages [pydoxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoxtools-0.6.2.tar.gz tmp/pydoxtools-0.6.3.tar.gz --markdown 20230530/p/pydoxtools/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-30 01:47:07] INFO root fetch - processPackages [mdforest]: executing diffoscope
+[2023-05-30 01:47:07] INFO root fetch - processPackages [mdforest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdforest-1.5.5.tar.gz tmp/mdforest-1.5.6.tar.gz --markdown 20230530/m/mdforest/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-05-30 01:47:07] INFO root fetch - processPackages [skulk]: Downloading https://files.pythonhosted.org/packages/47/3a/a045e675619ae34418b0923843325040e9bdb40a659a140ce72c120362aa/skulk-1.4.6rc7-py2.py3-none-any.whl
+[2023-05-30 01:47:07] INFO root fetch - processPackages [redco]: executing diffoscope
+[2023-05-30 01:47:07] INFO root fetch - processPackages [redco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redco-0.4.2.tar.gz tmp/redco-0.4.3.tar.gz --markdown 20230530/r/redco/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-30 01:47:07] INFO root fetch - processPackages [skulk]: executing diffoscope
+[2023-05-30 01:47:07] INFO root fetch - processPackages [skulk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skulk-1.4.5-py2.py3-none-any.whl.zip tmp/skulk-1.4.6rc7-py2.py3-none-any.whl.zip --markdown 20230530/s/skulk/1.4.5-1.4.6rc7/diff.md --exclude *.pyd
+[2023-05-30 01:47:08] INFO root fetch - main [MainThread]: End processing [fastapi-cruddy-framework]: success
+[2023-05-30 01:47:08] INFO root fetch - main [MainThread]: End processing [v7e-utils]: success
+[2023-05-30 01:47:08] INFO root fetch - main [MainThread]: End processing [pipd]: success
+[2023-05-30 01:47:08] INFO root fetch - main [MainThread]: End processing [grai-client]: success
+[2023-05-30 01:47:09] INFO root fetch - main [MainThread]: End processing [udc]: success
+[2023-05-30 01:47:09] INFO root fetch - main [MainThread]: End processing [pydoxtools]: success
+[2023-05-30 01:47:09] INFO root fetch - main [MainThread]: End processing [skulk]: success
+[2023-05-30 01:47:09] INFO root fetch - main [MainThread]: End processing [mdforest]: success
+[2023-05-30 01:47:09] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-05-30 01:47:09] INFO root fetch - main [MainThread]: End processing [redco]: success
+[2023-05-30 01:47:09] INFO root fetch - main [MainThread]: Store serial: [18295391]
