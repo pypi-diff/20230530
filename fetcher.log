@@ -1,0 +1,26 @@
+[2023-05-30 00:00:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18294752]
+[2023-05-30 00:00:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-30 00:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: namer
+[2023-05-30 00:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scikit-chat
+[2023-05-30 00:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cfr
+[2023-05-30 00:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skchat
+[2023-05-30 00:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inventree-kom2
+[2023-05-30 00:00:48] WARNING root fetch - processPackages [inventree-kom2]: Skipping, unable to determine old version
+[2023-05-30 00:00:48] INFO root fetch - processPackages [cfr]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-30 00:00:48] INFO root fetch - main [MainThread]: End processing [inventree-kom2] error
+[2023-05-30 00:00:48] WARNING root fetch - processPackages [skchat]: Skipping, unable to determine old version
+[2023-05-30 00:00:48] WARNING root fetch - processPackages [scikit-chat]: Skipping, unable to determine old version
+[2023-05-30 00:00:48] INFO root fetch - main [MainThread]: End processing [skchat] error
+[2023-05-30 00:00:48] INFO root fetch - main [MainThread]: End processing [scikit-chat] error
+[2023-05-30 00:00:48] INFO root fetch - processPackages [namer]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-05-30 00:00:48] INFO root fetch - processPackages [namer]: Downloading https://files.pythonhosted.org/packages/13/04/79d5b1d7c32bd69fa2f6b689030b844e992c35bb3a8907ea9f944a76e29d/namer-1.9.7.tar.gz
+[2023-05-30 00:00:48] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/09/19/c0f2231084623747c5cbf0f8bc2c4e3b44b02b6f6179ab88a4b6d977f796/cfr-0.5.1.tar.gz
+[2023-05-30 00:00:48] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/ac/a1/144d78dd15611230bc5f76c1963e38744255b76f1879b6d9261129891d57/cfr-0.5.2.tar.gz
+[2023-05-30 00:00:48] INFO root fetch - processPackages [namer]: Downloading https://files.pythonhosted.org/packages/4c/f1/c49c428124090401e22593a3d7f5c99a317c54dbe00b5c67957b784e0dd0/namer-1.9.8.tar.gz
+[2023-05-30 00:00:49] INFO root fetch - processPackages [cfr]: executing diffoscope
+[2023-05-30 00:00:49] INFO root fetch - processPackages [cfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfr-0.5.1.tar.gz tmp/cfr-0.5.2.tar.gz --markdown 20230530/c/cfr/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-30 00:00:49] INFO root fetch - processPackages [namer]: executing diffoscope
+[2023-05-30 00:00:49] INFO root fetch - processPackages [namer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namer-1.9.7.tar.gz tmp/namer-1.9.8.tar.gz --markdown 20230530/n/namer/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-05-30 00:00:50] INFO root fetch - main [MainThread]: End processing [cfr]: success
+[2023-05-30 00:00:50] INFO root fetch - main [MainThread]: End processing [namer]: success
+[2023-05-30 00:00:50] INFO root fetch - main [MainThread]: Store serial: [18294770]
