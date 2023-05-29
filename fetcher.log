@@ -417,3 +417,56 @@
 [2023-05-30 00:43:03] INFO root fetch - main [MainThread]: End processing [django-oasis4-auth]: success
 [2023-05-30 00:43:16] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-05-30 00:43:16] INFO root fetch - main [MainThread]: Store serial: [18295006]
+[2023-05-30 00:48:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18295006]
+[2023-05-30 00:48:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-30 00:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parsl
+[2023-05-30 00:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libpythonpro-mlpdf
+[2023-05-30 00:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ProphetLite
+[2023-05-30 00:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartgpt
+[2023-05-30 00:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: github-backup
+[2023-05-30 00:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: github-backup
+[2023-05-30 00:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flojoy
+[2023-05-30 00:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: decentralizedroutines
+[2023-05-30 00:48:25] INFO root fetch - processPackages [parsl]: New version: [2023.5.8] Old Version: [2023.5.29]
+[2023-05-30 00:48:25] INFO root fetch - processPackages [ProphetLite]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 00:48:25] INFO root fetch - processPackages [smartgpt]: New version: [0.1.3.1] Old Version: [0.1.3]
+[2023-05-30 00:48:25] INFO root fetch - processPackages [libpythonpro-mlpdf]: New version: [0.2] Old Version: [0.1]
+[2023-05-30 00:48:25] INFO root fetch - processPackages [github-backup]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-30 00:48:25] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-05-30 00:48:25] INFO root fetch - processPackages [github-backup]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-30 00:48:25] INFO root fetch - processPackages [decentralizedroutines]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-05-30 00:48:25] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/f2/23/b36dd03752d8dd7993fb523943a76b16321aba5e6e5ef6259b1ae5058e68/parsl-2023.5.29.tar.gz
+[2023-05-30 00:48:25] INFO root fetch - processPackages [ProphetLite]: Downloading https://files.pythonhosted.org/packages/49/3b/bfcaaf829f0ff7db047b1975fa7edda587d6f391d58be38296fba412a0ee/ProphetLite-0.0.1-py3-none-any.whl
+[2023-05-30 00:48:25] INFO root fetch - processPackages [github-backup]: Downloading https://files.pythonhosted.org/packages/19/35/0df94042ffc570470c651e2d4c03da41732e7da4bc248534cacda506a708/github-backup-0.8.0.tar.gz
+[2023-05-30 00:48:25] INFO root fetch - processPackages [smartgpt]: Downloading https://files.pythonhosted.org/packages/e6/69/5ce88c9ce6ff3a54744286893c11d600e6dbac604313278286d26a3980a2/smartgpt-0.1.3.1.tar.gz
+[2023-05-30 00:48:25] INFO root fetch - processPackages [github-backup]: Downloading https://files.pythonhosted.org/packages/19/35/0df94042ffc570470c651e2d4c03da41732e7da4bc248534cacda506a708/github-backup-0.8.0.tar.gz
+[2023-05-30 00:48:25] INFO root fetch - processPackages [libpythonpro-mlpdf]: Downloading https://files.pythonhosted.org/packages/0e/c8/55423bad31b00d4c60ac6046d9803d359652fdd4369a27316ff4c7d22c50/libpythonpro_mlpdf-0.1.tar.gz
+[2023-05-30 00:48:25] INFO root fetch - processPackages [smartgpt]: executing diffoscope
+[2023-05-30 00:48:25] INFO root fetch - processPackages [smartgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartgpt-0.1.3.tar.gz tmp/smartgpt-0.1.3.1.tar.gz --markdown 20230530/s/smartgpt/0.1.3-0.1.3.1/diff.md --exclude *.pyd
+[2023-05-30 00:48:25] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-05-30 00:48:25] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230530/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-05-30 00:48:25] INFO root fetch - processPackages [ProphetLite]: Downloading https://files.pythonhosted.org/packages/c0/07/31416c20b92a9524f1bf4d82397d0dd11ed2f528114ff0804cc6fbaf08ff/ProphetLite-0.0.2-py3-none-any.whl
+[2023-05-30 00:48:25] INFO root fetch - processPackages [decentralizedroutines]: executing diffoscope
+[2023-05-30 00:48:25] INFO root fetch - processPackages [decentralizedroutines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentralizedroutines-2.0.6.tar.gz tmp/decentralizedroutines-2.0.7.tar.gz --markdown 20230530/d/decentralizedroutines/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-05-30 00:48:25] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2023-05-30 00:48:25] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2023.5.29.tar.gz tmp/parsl-2023.5.8.tar.gz --markdown 20230530/p/parsl/2023.5.29-2023.5.8/diff.md --exclude *.pyd
+[2023-05-30 00:48:25] INFO root fetch - processPackages [libpythonpro-mlpdf]: Downloading https://files.pythonhosted.org/packages/cd/6b/7085017ec96a703d6e6e73c1858650172bb0d0efcea2e0042ba12a6ac171/libpythonpro_mlpdf-0.2.tar.gz
+[2023-05-30 00:48:25] INFO root fetch - processPackages [ProphetLite]: executing diffoscope
+[2023-05-30 00:48:25] INFO root fetch - processPackages [ProphetLite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProphetLite-0.0.1-py3-none-any.whl.zip tmp/ProphetLite-0.0.2-py3-none-any.whl.zip --markdown 20230530/P/ProphetLite/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 00:48:25] INFO root fetch - processPackages [github-backup]: Downloading https://files.pythonhosted.org/packages/3d/c3/9934cf872e9de64ee706c7eaee1332041584cd8015280da90472411f29ec/github-backup-0.9.0.tar.gz
+[2023-05-30 00:48:25] INFO root fetch - processPackages [libpythonpro-mlpdf]: executing diffoscope
+[2023-05-30 00:48:25] INFO root fetch - processPackages [libpythonpro-mlpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libpythonpro_mlpdf-0.1.tar.gz tmp/libpythonpro_mlpdf-0.2.tar.gz --markdown 20230530/l/libpythonpro-mlpdf/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-30 00:48:25] INFO root fetch - processPackages [github-backup]: Downloading https://files.pythonhosted.org/packages/3d/c3/9934cf872e9de64ee706c7eaee1332041584cd8015280da90472411f29ec/github-backup-0.9.0.tar.gz
+[2023-05-30 00:48:26] INFO root fetch - processPackages [github-backup]: executing diffoscope
+[2023-05-30 00:48:26] INFO root fetch - processPackages [github-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github-backup-0.8.0.tar.gz tmp/github-backup-0.9.0.tar.gz --markdown 20230530/g/github-backup/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 00:48:26] INFO root fetch - processPackages [github-backup]: executing diffoscope
+[2023-05-30 00:48:26] INFO root fetch - processPackages [github-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github-backup-0.8.0.tar.gz tmp/github-backup-0.9.0.tar.gz --markdown 20230530/g/github-backup/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 00:48:27] INFO root fetch - main [MainThread]: End processing [decentralizedroutines]: success
+[2023-05-30 00:48:27] INFO root fetch - main [MainThread]: End processing [ProphetLite]: success
+[2023-05-30 00:48:27] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-05-30 00:48:27] INFO root fetch - main [MainThread]: End processing [libpythonpro-mlpdf]: success
+[2023-05-30 00:48:27] INFO root fetch - main [MainThread]: End processing [smartgpt]: success
+[2023-05-30 00:48:27] INFO root fetch - main [MainThread]: End processing [github-backup]: success
+[2023-05-30 00:48:27] INFO root fetch - main [MainThread]: End processing [github-backup]: success
+[2023-05-30 00:48:30] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2023-05-30 00:48:30] INFO root fetch - main [MainThread]: Store serial: [18295032]
