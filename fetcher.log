@@ -1093,3 +1093,37 @@
 [2023-05-30 01:47:09] INFO root fetch - main [MainThread]: End processing [latch]: success
 [2023-05-30 01:47:09] INFO root fetch - main [MainThread]: End processing [redco]: success
 [2023-05-30 01:47:09] INFO root fetch - main [MainThread]: Store serial: [18295391]
+[2023-05-30 01:52:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18295391]
+[2023-05-30 01:52:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-30 01:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BatchParse
+[2023-05-30 01:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loophost
+[2023-05-30 01:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biblioteka
+[2023-05-30 01:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esse
+[2023-05-30 01:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abdal-net-py
+[2023-05-30 01:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IMDBTraktSyncer
+[2023-05-30 01:52:18] WARNING root fetch - processPackages [BatchParse]: Skipping, unable to determine old version
+[2023-05-30 01:52:18] INFO root fetch - main [MainThread]: End processing [BatchParse] error
+[2023-05-30 01:52:18] INFO root fetch - processPackages [abdal-net-py]: New version: [2.7] Old Version: [2.6]
+[2023-05-30 01:52:18] INFO root fetch - processPackages [loophost]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-05-30 01:52:18] INFO root fetch - processPackages [abdal-net-py]: executing diffoscope
+[2023-05-30 01:52:18] INFO root fetch - processPackages [abdal-net-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abdal_net_py-2.6.tar.gz tmp/abdal_net_py-2.7.tar.gz --markdown 20230530/a/abdal-net-py/2.6-2.7/diff.md --exclude *.pyd
+[2023-05-30 01:52:18] WARNING root fetch - processPackages [biblioteka]: Skipping, unable to determine old version
+[2023-05-30 01:52:18] INFO root fetch - main [MainThread]: End processing [biblioteka] error
+[2023-05-30 01:52:18] INFO root fetch - processPackages [esse]: New version: [2023.5.29.post0] Old Version: [2022.9.6.post0]
+[2023-05-30 01:52:18] INFO root fetch - processPackages [IMDBTraktSyncer]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-30 01:52:18] INFO root fetch - processPackages [loophost]: Downloading https://files.pythonhosted.org/packages/ce/55/de203fccf5158e5d48135d4c06611064d7c315519f72dcb6b8988a864f1d/loophost-1.1.0.tar.gz
+[2023-05-30 01:52:18] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/97/7e/2c1c37e3d7b9cb19d46eccfc99e82c56fcdd23aa79f9a2d714c3021920e3/IMDBTraktSyncer-1.3.5.tar.gz
+[2023-05-30 01:52:18] INFO root fetch - processPackages [loophost]: executing diffoscope
+[2023-05-30 01:52:18] INFO root fetch - processPackages [loophost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loophost-1.0.3.tar.gz tmp/loophost-1.1.0.tar.gz --markdown 20230530/l/loophost/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 01:52:18] INFO root fetch - processPackages [esse]: Downloading https://files.pythonhosted.org/packages/e6/19/d9dc2db561e0a56a97530c6b0424a6ecd4e311ab08b142a75c7adae90706/esse-2022.9.6.post0.tar.gz
+[2023-05-30 01:52:18] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/b0/98/bb695b4c627a35857993d0345438dae0edac7de012ec48f1f8af3c0a6d2a/IMDBTraktSyncer-1.3.6.tar.gz
+[2023-05-30 01:52:18] INFO root fetch - processPackages [esse]: Downloading https://files.pythonhosted.org/packages/12/c3/ad49d119dfb83c80b01dbdb552f80ae3b80be19a2b342f1a624e41624d36/esse-2023.5.29.post0.tar.gz
+[2023-05-30 01:52:19] INFO root fetch - processPackages [IMDBTraktSyncer]: executing diffoscope
+[2023-05-30 01:52:19] INFO root fetch - processPackages [IMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDBTraktSyncer-1.3.5.tar.gz tmp/IMDBTraktSyncer-1.3.6.tar.gz --markdown 20230530/I/IMDBTraktSyncer/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-30 01:52:19] INFO root fetch - processPackages [esse]: executing diffoscope
+[2023-05-30 01:52:19] INFO root fetch - processPackages [esse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esse-2022.9.6.post0.tar.gz tmp/esse-2023.5.29.post0.tar.gz --markdown 20230530/e/esse/2022.9.6.post0-2023.5.29.post0/diff.md --exclude *.pyd
+[2023-05-30 01:52:19] INFO root fetch - main [MainThread]: End processing [abdal-net-py]: success
+[2023-05-30 01:52:20] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
+[2023-05-30 01:52:20] INFO root fetch - main [MainThread]: End processing [loophost]: success
+[2023-05-30 01:52:29] INFO root fetch - main [MainThread]: End processing [esse]: success
+[2023-05-30 01:52:29] INFO root fetch - main [MainThread]: Store serial: [18295410]
