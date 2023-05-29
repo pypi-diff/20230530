@@ -379,3 +379,41 @@
 [2023-05-30 00:37:52] INFO root fetch - main [MainThread]: End processing [radioplayer-dataclasses]: success
 [2023-05-30 00:37:52] INFO root fetch - main [MainThread]: End processing [radioplayer-dataclasses]: success
 [2023-05-30 00:37:52] INFO root fetch - main [MainThread]: Store serial: [18294984]
+[2023-05-30 00:42:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18294984]
+[2023-05-30 00:43:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-30 00:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windmill-api
+[2023-05-30 00:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wmill
+[2023-05-30 00:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wmill-pg
+[2023-05-30 00:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-oasis4-auth
+[2023-05-30 00:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: random-math-rmaiaaaa
+[2023-05-30 00:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: latch-asgi
+[2023-05-30 00:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ProphetLite
+[2023-05-30 00:43:01] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-30 00:43:01] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-30 00:43:01] INFO root fetch - processPackages [random-math-rmaiaaaa]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-05-30 00:43:01] INFO root fetch - processPackages [django-oasis4-auth]: New version: [1.0.9b0] Old Version: [1.0.9]
+[2023-05-30 00:43:01] INFO root fetch - processPackages [latch-asgi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 00:43:01] WARNING root fetch - processPackages [ProphetLite]: Skipping, unable to determine old version
+[2023-05-30 00:43:01] INFO root fetch - main [MainThread]: End processing [ProphetLite] error
+[2023-05-30 00:43:01] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-30 00:43:01] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-05-30 00:43:01] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230530/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-30 00:43:01] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-05-30 00:43:01] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230530/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-30 00:43:01] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-05-30 00:43:01] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230530/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-30 00:43:01] INFO root fetch - processPackages [latch-asgi]: Downloading https://files.pythonhosted.org/packages/41/e6/1fdc496a915a1567649732b95c3fbacdf285b1961cf05b74cd75e3c573a7/latch_asgi-0.1.2.tar.gz
+[2023-05-30 00:43:01] INFO root fetch - processPackages [random-math-rmaiaaaa]: Downloading https://files.pythonhosted.org/packages/bf/18/c5da8ad00d28ece12ef83b49c07d5adafed3fb7426ed7fff897d26c0d692/random_math_rmaiaaaa-0.0.15.tar.gz
+[2023-05-30 00:43:01] INFO root fetch - processPackages [django-oasis4-auth]: executing diffoscope
+[2023-05-30 00:43:01] INFO root fetch - processPackages [django-oasis4-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oasis4-auth-1.0.9.tar.gz tmp/django-oasis4-auth-1.0.9b0.tar.gz --markdown 20230530/d/django-oasis4-auth/1.0.9-1.0.9b0/diff.md --exclude *.pyd
+[2023-05-30 00:43:01] INFO root fetch - processPackages [random-math-rmaiaaaa]: executing diffoscope
+[2023-05-30 00:43:01] INFO root fetch - processPackages [random-math-rmaiaaaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/random_math_rmaiaaaa-0.0.14.tar.gz tmp/random_math_rmaiaaaa-0.0.15.tar.gz --markdown 20230530/r/random-math-rmaiaaaa/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-05-30 00:43:01] INFO root fetch - processPackages [latch-asgi]: executing diffoscope
+[2023-05-30 00:43:01] INFO root fetch - processPackages [latch-asgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_asgi-0.1.1.tar.gz tmp/latch_asgi-0.1.2.tar.gz --markdown 20230530/l/latch-asgi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 00:43:02] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-05-30 00:43:02] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-05-30 00:43:02] INFO root fetch - main [MainThread]: End processing [latch-asgi]: success
+[2023-05-30 00:43:03] INFO root fetch - main [MainThread]: End processing [random-math-rmaiaaaa]: success
+[2023-05-30 00:43:03] INFO root fetch - main [MainThread]: End processing [django-oasis4-auth]: success
+[2023-05-30 00:43:16] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-05-30 00:43:16] INFO root fetch - main [MainThread]: Store serial: [18295006]
