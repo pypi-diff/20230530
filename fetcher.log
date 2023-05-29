@@ -942,3 +942,30 @@
 [2023-05-30 01:30:43] INFO root fetch - main [MainThread]: End processing [eolymp]: success
 [2023-05-30 01:31:29] INFO root fetch - main [MainThread]: End processing [lab-partner]: success
 [2023-05-30 01:31:29] INFO root fetch - main [MainThread]: Store serial: [18295306]
+[2023-05-30 01:36:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18295306]
+[2023-05-30 01:36:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-30 01:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyMieSim
+[2023-05-30 01:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-idaice
+[2023-05-30 01:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Telegant
+[2023-05-30 01:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: q2rad
+[2023-05-30 01:36:38] INFO root fetch - processPackages [honeybee-idaice]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-30 01:36:38] INFO root fetch - processPackages [Telegant]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-30 01:36:38] INFO root fetch - processPackages [PyMieSim]: New version: [0.11.0] Old Version: [0.10.9]
+[2023-05-30 01:36:38] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-30 01:36:38] INFO root fetch - processPackages [PyMieSim]: Downloading https://files.pythonhosted.org/packages/18/21/a8dc1a2f1171dc549ab0345ad7bb3401d9d2686854d5881795b02d7cc044/PyMieSim-0.10.9-cp39-cp39-macosx_10_13_x86_64.whl
+[2023-05-30 01:36:38] INFO root fetch - processPackages [honeybee-idaice]: Downloading https://files.pythonhosted.org/packages/f5/1f/df721f9969a4a09422be29ad6c42c4f15f0fa1ec6364afc9fdedfdc9d59b/honeybee-idaice-0.2.2.tar.gz
+[2023-05-30 01:36:38] INFO root fetch - processPackages [Telegant]: Downloading https://files.pythonhosted.org/packages/71/3e/96c827326bf2384101d47b5d14664a2640339e40622c7a6b634ccb7692bb/Telegant-0.2.1.tar.gz
+[2023-05-30 01:36:39] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-05-30 01:36:39] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230530/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-30 01:36:39] INFO root fetch - processPackages [honeybee-idaice]: Downloading https://files.pythonhosted.org/packages/5f/88/2f14ad50135b2fe77a436ef96da76922fb2d4e2de308b061a4af02d262ca/honeybee-idaice-0.3.0.tar.gz
+[2023-05-30 01:36:39] INFO root fetch - processPackages [Telegant]: Downloading https://files.pythonhosted.org/packages/9d/ec/d71389c19435cc1268bcad9f8eb55f5bb33dcd1feff2a57a9b93c09e5ba2/Telegant-0.2.2.tar.gz
+[2023-05-30 01:36:39] INFO root fetch - processPackages [honeybee-idaice]: executing diffoscope
+[2023-05-30 01:36:39] INFO root fetch - processPackages [honeybee-idaice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-idaice-0.2.2.tar.gz tmp/honeybee-idaice-0.3.0.tar.gz --markdown 20230530/h/honeybee-idaice/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 01:36:39] INFO root fetch - processPackages [Telegant]: executing diffoscope
+[2023-05-30 01:36:39] INFO root fetch - processPackages [Telegant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Telegant-0.2.1.tar.gz tmp/Telegant-0.2.2.tar.gz --markdown 20230530/T/Telegant/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-30 01:36:39] WARNING root fetch - processPackages [PyMieSim]: Skipping package: exceeds size limit 32393913>=10485760
+[2023-05-30 01:36:39] INFO root fetch - main [MainThread]: End processing [PyMieSim] error
+[2023-05-30 01:36:40] INFO root fetch - main [MainThread]: End processing [Telegant]: success
+[2023-05-30 01:36:40] INFO root fetch - main [MainThread]: End processing [honeybee-idaice]: success
+[2023-05-30 01:36:41] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-05-30 01:36:41] INFO root fetch - main [MainThread]: Store serial: [18295325]
