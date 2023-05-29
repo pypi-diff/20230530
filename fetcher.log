@@ -629,3 +629,83 @@
 [2023-05-30 01:04:09] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
 [2023-05-30 01:04:27] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-30 01:04:27] INFO root fetch - main [MainThread]: Store serial: [18295120]
+[2023-05-30 01:09:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18295120]
+[2023-05-30 01:09:37] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-30 01:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-base
+[2023-05-30 01:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asynciomultiplexer
+[2023-05-30 01:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emailcrawl1
+[2023-05-30 01:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-service-client
+[2023-05-30 01:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-service-server
+[2023-05-30 01:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-ui
+[2023-05-30 01:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-v4-service
+[2023-05-30 01:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline
+[2023-05-30 01:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-core
+[2023-05-30 01:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-linear-migrations
+[2023-05-30 01:09:37] WARNING root fetch - processPackages [asynciomultiplexer]: Skipping, unable to determine old version
+[2023-05-30 01:09:37] INFO root fetch - processPackages [asynciomultiplexer]: Start processing: openai-shell-craft
+[2023-05-30 01:09:37] INFO root fetch - main [MainThread]: End processing [asynciomultiplexer] error
+[2023-05-30 01:09:37] WARNING root fetch - processPackages [emailcrawl1]: Skipping, unable to determine old version
+[2023-05-30 01:09:37] INFO root fetch - processPackages [emailcrawl1]: Start processing: ebeer
+[2023-05-30 01:09:37] INFO root fetch - main [MainThread]: End processing [emailcrawl1] error
+[2023-05-30 01:09:37] INFO root fetch - processPackages [mb-base]: New version: [1.0.202305292304] Old Version: [1.0.202305292300]
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev98] Old Version: [4.4.1.dev97]
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev98] Old Version: [4.4.1.dev97]
+[2023-05-30 01:09:37] INFO root fetch - processPackages [django-linear-migrations]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-30 01:09:37] INFO root fetch - processPackages [ebeer]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-05-30 01:09:37] INFO root fetch - processPackages [openai-shell-craft]: New version: [1.0.0] Old Version: [0.8.5]
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev97.tar.gz tmp/assemblyline-4.4.1.dev98.tar.gz --markdown 20230530/a/assemblyline/4.4.1.dev97-4.4.1.dev98/diff.md --exclude *.pyd
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev97.tar.gz tmp/assemblyline-core-4.4.1.dev98.tar.gz --markdown 20230530/a/assemblyline-core/4.4.1.dev97-4.4.1.dev98/diff.md --exclude *.pyd
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-05-30 01:09:37] INFO root fetch - processPackages [django-linear-migrations]: Downloading https://files.pythonhosted.org/packages/45/1c/47dde8c8b880db74b4b75d66ded509ae190359aefdbf8d1805fe33b45320/django_linear_migrations-2.7.0.tar.gz
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-05-30 01:09:37] INFO root fetch - processPackages [mb-base]: Downloading https://files.pythonhosted.org/packages/c6/8e/42fbd947e50b529b518cde8abfce6656b8af5ee76609e7e2c1615e423e01/mb_base-1.0.202305292304-py3-none-any.whl
+[2023-05-30 01:09:37] INFO root fetch - processPackages [openai-shell-craft]: Downloading https://files.pythonhosted.org/packages/a5/b0/11f4e74db4ac00a2431e7e584a57b829e4d7d0869908b4f42c80f737a82d/openai_shell_craft-0.8.5.tar.gz
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230530/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-30 01:09:37] INFO root fetch - processPackages [mb-base]: executing diffoscope
+[2023-05-30 01:09:37] INFO root fetch - processPackages [mb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_base-1.0.202305292300-py3-none-any.whl.zip tmp/mb_base-1.0.202305292304-py3-none-any.whl.zip --markdown 20230530/m/mb-base/1.0.202305292300-1.0.202305292304/diff.md --exclude *.pyd
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230530/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-30 01:09:37] INFO root fetch - processPackages [ebeer]: Downloading https://files.pythonhosted.org/packages/6e/b9/1e5bf0dc3920bfb5bae0f8fedc519ecae468ccd9bd876ecfceae6b81570a/ebeer-0.0.20.tar.gz
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230530/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-30 01:09:37] INFO root fetch - processPackages [django-linear-migrations]: Downloading https://files.pythonhosted.org/packages/90/e1/4e40cc5e89ffd639a76edc08aae7dd6132f6ab8be27b6d0333fe66182fce/django_linear_migrations-2.8.0.tar.gz
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-05-30 01:09:37] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230530/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-30 01:09:37] INFO root fetch - processPackages [openai-shell-craft]: Downloading https://files.pythonhosted.org/packages/56/42/37f3c6329425c0ed2efc0b0afe9d3d41fbdb168b142a59b98b89a8bd764c/openai_shell_craft-1.0.0.tar.gz
+[2023-05-30 01:09:37] INFO root fetch - processPackages [django-linear-migrations]: executing diffoscope
+[2023-05-30 01:09:37] INFO root fetch - processPackages [django-linear-migrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_linear_migrations-2.7.0.tar.gz tmp/django_linear_migrations-2.8.0.tar.gz --markdown 20230530/d/django-linear-migrations/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-05-30 01:09:37] INFO root fetch - processPackages [ebeer]: executing diffoscope
+[2023-05-30 01:09:37] INFO root fetch - processPackages [ebeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebeer-0.0.19.tar.gz tmp/ebeer-0.0.20.tar.gz --markdown 20230530/e/ebeer/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-05-30 01:09:37] INFO root fetch - processPackages [openai-shell-craft]: executing diffoscope
+[2023-05-30 01:09:37] INFO root fetch - processPackages [openai-shell-craft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_shell_craft-0.8.5.tar.gz tmp/openai_shell_craft-1.0.0.tar.gz --markdown 20230530/o/openai-shell-craft/0.8.5-1.0.0/diff.md --exclude *.pyd
+[2023-05-30 01:09:39] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: scikit-chatgpt
+[2023-05-30 01:09:39] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-05-30 01:09:39] INFO root fetch - processPackages [assemblyline-core]: Start processing: skchatgpt
+[2023-05-30 01:09:39] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-05-30 01:09:39] INFO root fetch - processPackages [mb-base]: Start processing: pydae
+[2023-05-30 01:09:39] INFO root fetch - main [MainThread]: End processing [mb-base]: success
+[2023-05-30 01:09:39] WARNING root fetch - processPackages [scikit-chatgpt]: Skipping, unable to determine old version
+[2023-05-30 01:09:39] INFO root fetch - main [MainThread]: End processing [scikit-chatgpt] error
+[2023-05-30 01:09:39] INFO root fetch - processPackages [pydae]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-30 01:09:39] INFO root fetch - processPackages [pydae]: Downloading https://files.pythonhosted.org/packages/7d/df/18fbeeac68b8076a40737405fc9638efb381a7dae1ccdfa520fe3810b1cd/pydae-0.8.0.tar.gz
+[2023-05-30 01:09:39] WARNING root fetch - processPackages [skchatgpt]: Skipping, unable to determine old version
+[2023-05-30 01:09:39] INFO root fetch - main [MainThread]: End processing [skchatgpt] error
+[2023-05-30 01:09:39] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-05-30 01:09:39] WARNING root fetch - processPackages [pydae]: Skipping package: exceeds size limit 76279170>=10485760
+[2023-05-30 01:09:39] INFO root fetch - main [MainThread]: End processing [pydae] error
+[2023-05-30 01:09:40] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-05-30 01:09:40] INFO root fetch - main [MainThread]: End processing [openai-shell-craft]: success
+[2023-05-30 01:09:40] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-05-30 01:09:40] INFO root fetch - main [MainThread]: End processing [ebeer]: success
+[2023-05-30 01:09:40] INFO root fetch - main [MainThread]: End processing [django-linear-migrations]: success
+[2023-05-30 01:09:41] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-05-30 01:09:41] INFO root fetch - main [MainThread]: Store serial: [18295179]
