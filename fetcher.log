@@ -774,3 +774,33 @@
 [2023-05-30 01:14:54] INFO root fetch - main [MainThread]: End processing [py-portfolio-index]: success
 [2023-05-30 01:14:54] INFO root fetch - main [MainThread]: End processing [latch]: success
 [2023-05-30 01:14:54] INFO root fetch - main [MainThread]: Store serial: [18295209]
+[2023-05-30 01:19:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18295209]
+[2023-05-30 01:20:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-30 01:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voir
+[2023-05-30 01:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ryvencore-qt
+[2023-05-30 01:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-30 01:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aioesphomeapi
+[2023-05-30 01:20:04] INFO root fetch - processPackages [ryvencore-qt]: New version: [0.4.0a2] Old Version: [0.3.1.4]
+[2023-05-30 01:20:04] INFO root fetch - processPackages [voir]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 01:20:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.341] Old Version: [0.3.340]
+[2023-05-30 01:20:04] INFO root fetch - processPackages [aioesphomeapi]: New version: [9.1.5] Old Version: [9.1.4]
+[2023-05-30 01:20:04] INFO root fetch - processPackages [ryvencore-qt]: Downloading https://files.pythonhosted.org/packages/13/bf/b8a29a2176783d1ae9b269b885cfd5f150304d635bfe94946af7c173b566/ryvencore-qt-0.3.1.4.tar.gz
+[2023-05-30 01:20:04] INFO root fetch - processPackages [voir]: Downloading https://files.pythonhosted.org/packages/87/85/a656af13c08f293112659653d76da1d70b6cd02ddadaf42b85be52723503/voir-0.2.8.tar.gz
+[2023-05-30 01:20:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/ac/56/45e967feea2faf044ad3702828cf71c780a8880928c09884ab66816c7b49/pepperize.cdk-ses-smtp-credentials-0.3.341.tar.gz
+[2023-05-30 01:20:04] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/62/7f/d2cc3b95dfe936bbad8f3956f274147389d6625de031d1105261491bffd9/aioesphomeapi-9.1.4.tar.gz
+[2023-05-30 01:20:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-30 01:20:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.340.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.341.tar.gz --markdown 20230530/p/pepperize.cdk-ses-smtp-credentials/0.3.340-0.3.341/diff.md --exclude *.pyd
+[2023-05-30 01:20:05] INFO root fetch - processPackages [ryvencore-qt]: Downloading https://files.pythonhosted.org/packages/d2/42/f93f93b8d6d150c0776e358351906c3ed99257e7553f07564c0faadfdb6e/ryvencore-qt-0.4.0a2.tar.gz
+[2023-05-30 01:20:05] INFO root fetch - processPackages [voir]: Downloading https://files.pythonhosted.org/packages/0b/58/dac430dd543eda2c8b93452ca10f332b955fd3d514dccd063546f92440f4/voir-0.2.9.tar.gz
+[2023-05-30 01:20:05] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/95/57/381c894380ec58a8c891a923696dc0d97d7af266921f326f942ec3332685/aioesphomeapi-9.1.5.tar.gz
+[2023-05-30 01:20:05] INFO root fetch - processPackages [voir]: executing diffoscope
+[2023-05-30 01:20:05] INFO root fetch - processPackages [voir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voir-0.2.8.tar.gz tmp/voir-0.2.9.tar.gz --markdown 20230530/v/voir/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 01:20:05] INFO root fetch - processPackages [aioesphomeapi]: executing diffoscope
+[2023-05-30 01:20:05] INFO root fetch - processPackages [aioesphomeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioesphomeapi-9.1.4.tar.gz tmp/aioesphomeapi-9.1.5.tar.gz --markdown 20230530/a/aioesphomeapi/9.1.4-9.1.5/diff.md --exclude *.pyd
+[2023-05-30 01:20:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-30 01:20:06] INFO root fetch - processPackages [ryvencore-qt]: executing diffoscope
+[2023-05-30 01:20:06] INFO root fetch - processPackages [ryvencore-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryvencore-qt-0.3.1.4.tar.gz tmp/ryvencore-qt-0.4.0a2.tar.gz --markdown 20230530/r/ryvencore-qt/0.3.1.4-0.4.0a2/diff.md --exclude *.pyd
+[2023-05-30 01:20:06] INFO root fetch - main [MainThread]: End processing [voir]: success
+[2023-05-30 01:20:06] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
+[2023-05-30 01:20:09] INFO root fetch - main [MainThread]: End processing [ryvencore-qt]: success
+[2023-05-30 01:20:09] INFO root fetch - main [MainThread]: Store serial: [18295222]
