@@ -200,3 +200,23 @@
 [2023-05-30 00:16:31] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
 [2023-05-30 00:16:39] INFO root fetch - main [MainThread]: End processing [loophost]: success
 [2023-05-30 00:16:39] INFO root fetch - main [MainThread]: Store serial: [18294864]
+[2023-05-30 00:21:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18294864]
+[2023-05-30 00:21:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-30 00:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver-files-aws-s3
+[2023-05-30 00:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver-folders-aws-s3
+[2023-05-30 00:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apigratis
+[2023-05-30 00:21:56] INFO root fetch - processPackages [apigratis]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-30 00:21:56] INFO root fetch - processPackages [heaserver-files-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-30 00:21:56] INFO root fetch - processPackages [heaserver-folders-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-30 00:21:56] INFO root fetch - processPackages [apigratis]: Downloading https://files.pythonhosted.org/packages/e7/19/7af98046dd1554378ea68da38927f417dcfa3b589584631df7d9bf7d82f9/apigratis-0.0.5.tar.gz
+[2023-05-30 00:21:56] INFO root fetch - processPackages [heaserver-files-aws-s3]: Downloading https://files.pythonhosted.org/packages/4b/9b/73f33a94f4aff25bff8a0100e7c9f7d239d27c6bb47e91c553f03fccfde2/heaserver-files-aws-s3-1.0.0a8.tar.gz
+[2023-05-30 00:21:56] WARNING root fetch - processPackages [heaserver-files-aws-s3]: Skipping package: exceeds size limit 18398734>=10485760
+[2023-05-30 00:21:56] INFO root fetch - main [MainThread]: End processing [heaserver-files-aws-s3] error
+[2023-05-30 00:21:56] INFO root fetch - processPackages [apigratis]: Downloading https://files.pythonhosted.org/packages/4f/e1/4b3991a0316beba940d3db490ef92812bd881efc72f189f0ab7c6f20b02d/apigratis-0.0.6.tar.gz
+[2023-05-30 00:21:56] INFO root fetch - processPackages [heaserver-folders-aws-s3]: executing diffoscope
+[2023-05-30 00:21:56] INFO root fetch - processPackages [heaserver-folders-aws-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz --markdown 20230530/h/heaserver-folders-aws-s3/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-30 00:21:57] INFO root fetch - processPackages [apigratis]: executing diffoscope
+[2023-05-30 00:21:57] INFO root fetch - processPackages [apigratis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apigratis-0.0.5.tar.gz tmp/apigratis-0.0.6.tar.gz --markdown 20230530/a/apigratis/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-30 00:21:58] INFO root fetch - main [MainThread]: End processing [apigratis]: success
+[2023-05-30 00:21:58] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
+[2023-05-30 00:21:58] INFO root fetch - main [MainThread]: Store serial: [18294875]
