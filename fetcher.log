@@ -3783,3 +3783,18 @@
 [2023-05-30 03:49:29] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-05-30 03:50:05] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-05-30 03:50:05] INFO root fetch - main [MainThread]: Store serial: [18296806]
+[2023-05-30 03:55:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296806]
+[2023-05-30 03:55:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-30 03:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pautobot
+[2023-05-30 03:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yog
+[2023-05-30 03:55:13] INFO root fetch - processPackages [pautobot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-30 03:55:13] INFO root fetch - processPackages [yog]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-30 03:55:14] INFO root fetch - processPackages [pautobot]: Downloading https://files.pythonhosted.org/packages/9d/98/fec55130ea3b709fafa0e04abd1ae4f054e9099b372f8dc1ef956a41aeb5/pautobot-0.0.6.tar.gz
+[2023-05-30 03:55:14] INFO root fetch - processPackages [yog]: Downloading https://files.pythonhosted.org/packages/0d/6b/210a1eacc9e05232ce66f86fd36ddfda9bf1d1c159001ef3c73d6a77acc0/yog-2.2.3.tar.gz
+[2023-05-30 03:55:14] INFO root fetch - processPackages [pautobot]: executing diffoscope
+[2023-05-30 03:55:14] INFO root fetch - processPackages [pautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pautobot-0.0.5.tar.gz tmp/pautobot-0.0.6.tar.gz --markdown 20230530/p/pautobot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-30 03:55:14] INFO root fetch - processPackages [yog]: executing diffoscope
+[2023-05-30 03:55:14] INFO root fetch - processPackages [yog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yog-2.2.2.tar.gz tmp/yog-2.2.3.tar.gz --markdown 20230530/y/yog/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-30 03:55:15] INFO root fetch - main [MainThread]: End processing [yog]: success
+[2023-05-30 03:55:16] INFO root fetch - main [MainThread]: End processing [pautobot]: success
+[2023-05-30 03:55:16] INFO root fetch - main [MainThread]: Store serial: [18296814]
