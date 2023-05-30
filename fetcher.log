@@ -5122,3 +5122,51 @@
 [2023-05-30 06:06:38] INFO root fetch - main [MainThread]: End processing [pypdfium2]: success
 [2023-05-30 06:06:39] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
 [2023-05-30 06:06:39] INFO root fetch - main [MainThread]: Store serial: [18297648]
+[2023-05-30 06:11:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297648]
+[2023-05-30 06:11:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-30 06:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oneai
+[2023-05-30 06:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hrin-msb
+[2023-05-30 06:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-mrp-component-operation-scrap-reason
+[2023-05-30 06:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-mrp-production-picking-type-from-route
+[2023-05-30 06:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-mysql-distill
+[2023-05-30 06:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ora
+[2023-05-30 06:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-package-test
+[2023-05-30 06:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snk
+[2023-05-30 06:11:49] INFO root fetch - processPackages [odoo14-addon-mrp-production-picking-type-from-route]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev3]
+[2023-05-30 06:11:49] INFO root fetch - processPackages [oneai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 06:11:49] WARNING root fetch - processPackages [py-mysql-distill]: Skipping, unable to determine old version
+[2023-05-30 06:11:49] INFO root fetch - main [MainThread]: End processing [py-mysql-distill] error
+[2023-05-30 06:11:49] INFO root fetch - processPackages [py-package-test]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-30 06:11:49] INFO root fetch - processPackages [ora]: New version: [0.8.2] Old Version: [0.8.0]
+[2023-05-30 06:11:49] INFO root fetch - processPackages [oneai]: executing diffoscope
+[2023-05-30 06:11:49] INFO root fetch - processPackages [oneai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneai-0.9.8.tar.gz tmp/oneai-0.9.9.tar.gz --markdown 20230530/o/oneai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 06:11:49] INFO root fetch - processPackages [odoo14-addon-mrp-production-picking-type-from-route]: Downloading https://files.pythonhosted.org/packages/ea/38/591f50e54e287bb6f8f23c35225ac9fcb580c2a33893e0cd926bf53f7ff1/odoo14_addon_mrp_production_picking_type_from_route-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-05-30 06:11:49] INFO root fetch - processPackages [snk]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-30 06:11:49] INFO root fetch - processPackages [py-package-test]: Downloading https://files.pythonhosted.org/packages/49/89/690b30e2950d20bbe0bbf33124ee45e60e0ef209887232350b41407074e9/py_package_test-0.0.3.tar.gz
+[2023-05-30 06:11:49] INFO root fetch - processPackages [odoo14-addon-mrp-production-picking-type-from-route]: Downloading https://files.pythonhosted.org/packages/0e/80/f8b408f5a6bbbbd34417c4ea2a7f655e275acb649516feea237043af29df/odoo14_addon_mrp_production_picking_type_from_route-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-30 06:11:49] INFO root fetch - processPackages [py-package-test]: executing diffoscope
+[2023-05-30 06:11:49] INFO root fetch - processPackages [py-package-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_package_test-0.0.2.tar.gz tmp/py_package_test-0.0.3.tar.gz --markdown 20230530/p/py-package-test/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-30 06:11:49] INFO root fetch - processPackages [odoo14-addon-mrp-production-picking-type-from-route]: executing diffoscope
+[2023-05-30 06:11:49] INFO root fetch - processPackages [odoo14-addon-mrp-production-picking-type-from-route]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_production_picking_type_from_route-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_mrp_production_picking_type_from_route-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-mrp-production-picking-type-from-route/14.0.1.0.1.dev3-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-30 06:11:49] INFO root fetch - processPackages [ora]: Downloading https://files.pythonhosted.org/packages/8c/28/baa5fcf642e1bb0afcc7736fa8a5ff58e70f522872a84dbd929ef06e74c5/ora-0.8.0.tar.gz
+[2023-05-30 06:11:50] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/8b/12/3e1145f3813fbf5c66a4ebc05796653e951b443bc3fb85a862ac0798c19f/snk-0.6.5.tar.gz
+[2023-05-30 06:11:50] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-05-30 06:11:50] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.6.4.tar.gz tmp/snk-0.6.5.tar.gz --markdown 20230530/s/snk/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-30 06:11:50] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation-scrap-reason]: New version: [14.0.1.1.1.dev2] Old Version: [14.0.1.1.1.dev1]
+[2023-05-30 06:11:50] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 06:11:50] INFO root fetch - processPackages [ora]: Downloading https://files.pythonhosted.org/packages/3b/a2/13590abf5b73364bddf98533deb0b0ae51c7a0a33f1f907df3697cea4e4d/ora-0.8.2.tar.gz
+[2023-05-30 06:11:50] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-05-30 06:11:50] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230530/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 06:11:50] INFO root fetch - processPackages [ora]: executing diffoscope
+[2023-05-30 06:11:50] INFO root fetch - processPackages [ora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ora-0.8.0.tar.gz tmp/ora-0.8.2.tar.gz --markdown 20230530/o/ora/0.8.0-0.8.2/diff.md --exclude *.pyd
+[2023-05-30 06:11:50] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation-scrap-reason]: Downloading https://files.pythonhosted.org/packages/5e/9b/6a1c6ce01b837c913781bb9596d3fe7104213343e69876829dd43be180de/odoo14_addon_mrp_component_operation_scrap_reason-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-05-30 06:11:50] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation-scrap-reason]: executing diffoscope
+[2023-05-30 06:11:50] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation-scrap-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_component_operation_scrap_reason-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_mrp_component_operation_scrap_reason-14.0.1.1.1.dev2-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-mrp-component-operation-scrap-reason/14.0.1.1.1.dev1-14.0.1.1.1.dev2/diff.md --exclude *.pyd
+[2023-05-30 06:11:50] INFO root fetch - main [MainThread]: End processing [oneai]: success
+[2023-05-30 06:11:51] INFO root fetch - main [MainThread]: End processing [py-package-test]: success
+[2023-05-30 06:11:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-production-picking-type-from-route]: success
+[2023-05-30 06:11:51] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-05-30 06:11:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-component-operation-scrap-reason]: success
+[2023-05-30 06:11:52] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-05-30 06:11:56] INFO root fetch - main [MainThread]: End processing [ora]: success
+[2023-05-30 06:11:56] INFO root fetch - main [MainThread]: Store serial: [18297678]
