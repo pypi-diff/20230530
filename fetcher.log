@@ -19129,3 +19129,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 20:14:30] INFO root fetch - main [MainThread]: End processing [ovos-stt-http-server]: success
 [2023-05-30 20:14:36] INFO root fetch - main [MainThread]: End processing [metricflow]: success
 [2023-05-30 20:14:36] INFO root fetch - main [MainThread]: Store serial: [18306103]
+[2023-05-30 20:19:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18306103]
+[2023-05-30 20:19:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-30 20:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-delivery-auto-refresh
+[2023-05-30 20:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidpro-flow-tools
+[2023-05-30 20:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finqual
+[2023-05-30 20:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-extensions
+[2023-05-30 20:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyezviz
+[2023-05-30 20:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alexdlbrain2
+[2023-05-30 20:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reactord
+[2023-05-30 20:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-snowflake
+[2023-05-30 20:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: consulta-ufv-bolivia
+[2023-05-30 20:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: djangoldp-energiepartagee
+[2023-05-30 20:19:45] INFO root fetch - processPackages [finqual]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 20:19:45] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-05-30 20:19:45] INFO root fetch - processPackages [reactord]: New version: [0.0.1b1] Old Version: [0.0.1a2]
+[2023-05-30 20:19:45] INFO root fetch - processPackages [finqual]: executing diffoscope
+[2023-05-30 20:19:45] INFO root fetch - processPackages [finqual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finqual-0.1.3.tar.gz tmp/finqual-0.1.4.tar.gz --markdown 20230530/f/finqual/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 20:19:45] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-05-30 20:19:45] INFO root fetch - processPackages [rapidpro-flow-tools]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-30 20:19:45] WARNING root fetch - processPackages [alexdlbrain2]: Skipping, unable to determine old version
+[2023-05-30 20:19:45] INFO root fetch - processPackages [alexdlbrain2]: Start processing: ata-db-models
+[2023-05-30 20:19:45] INFO root fetch - main [MainThread]: End processing [alexdlbrain2] error
+[2023-05-30 20:19:45] WARNING root fetch - processPackages [consulta-ufv-bolivia]: Skipping, unable to determine old version
+[2023-05-30 20:19:45] INFO root fetch - processPackages [consulta-ufv-bolivia]: Start processing: wellmet
+[2023-05-30 20:19:45] INFO root fetch - main [MainThread]: End processing [consulta-ufv-bolivia] error
+[2023-05-30 20:19:45] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-05-30 20:19:45] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230530/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-05-30 20:19:45] INFO root fetch - processPackages [reactord]: executing diffoscope
+[2023-05-30 20:19:45] INFO root fetch - processPackages [cdk-extensions]: New version: [0.0.70] Old Version: [0.0.69]
+[2023-05-30 20:19:45] INFO root fetch - processPackages [reactord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactord-0.0.1a2.tar.gz tmp/reactord-0.0.1b1.tar.gz --markdown 20230530/r/reactord/0.0.1a2-0.0.1b1/diff.md --exclude *.pyd
+[2023-05-30 20:19:45] INFO root fetch - processPackages [pyezviz]: New version: [0.2.0.9] Old Version: [0.2.0.8]
+[2023-05-30 20:19:45] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 20:19:46] INFO root fetch - processPackages [rapidpro-flow-tools]: Downloading https://files.pythonhosted.org/packages/58/57/03c57861d38902e6e71054964423348f51434bdbfce729fe48db584bde69/rapidpro_flow_tools-2.0.2.tar.gz
+[2023-05-30 20:19:46] INFO root fetch - processPackages [ata-db-models]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 20:19:46] INFO root fetch - processPackages [wellmet]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-30 20:19:46] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: Downloading https://files.pythonhosted.org/packages/06/83/93263c23c0499f732a78182ba183166b57c4bc00adb76ff941170fc5b9f6/odoo_addon_delivery_auto_refresh-15.0.1.0.1-py3-none-any.whl
+[2023-05-30 20:19:46] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/32/ee/ad4808ff92356e8e5f5562dac02609016db12ac625f8b1aaaa8a2383573c/cdk-extensions-0.0.69.tar.gz
+[2023-05-30 20:19:46] INFO root fetch - processPackages [wellmet]: Downloading https://files.pythonhosted.org/packages/b6/3f/2d3714a41e8ca738cf32b8360ca243087886eb09f2345d17b1db87771901/wellmet-0.9.5.tar.gz
+[2023-05-30 20:19:46] INFO root fetch - processPackages [pyezviz]: executing diffoscope
+[2023-05-30 20:19:46] INFO root fetch - processPackages [pyezviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyezviz-0.2.0.8.tar.gz tmp/pyezviz-0.2.0.9.tar.gz --markdown 20230530/p/pyezviz/0.2.0.8-0.2.0.9/diff.md --exclude *.pyd
+[2023-05-30 20:19:46] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2023-05-30 20:19:46] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-0.0.8.tar.gz tmp/djangoldp_energiepartagee-0.0.9.tar.gz --markdown 20230530/d/djangoldp-energiepartagee/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 20:19:46] INFO root fetch - processPackages [rapidpro-flow-tools]: Downloading https://files.pythonhosted.org/packages/90/3d/a8564bd0f0f32ee99d290348ad777b59ac430329f7977302fa2fafe4933b/rapidpro_flow_tools-2.0.3.tar.gz
+[2023-05-30 20:19:46] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/bc/ad/2aa3da6f02d8d3ad7b2d13fba740a346394820d7813ba7fbdc9c3dbe9452/cdk-extensions-0.0.70.tar.gz
+[2023-05-30 20:19:46] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: Downloading https://files.pythonhosted.org/packages/f3/ba/131189a6801cf336f5f702ddba93ed35cdd04a9a35ea4ca3b547e0ca9722/odoo_addon_delivery_auto_refresh-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-30 20:19:46] INFO root fetch - processPackages [ata-db-models]: executing diffoscope
+[2023-05-30 20:19:46] INFO root fetch - processPackages [ata-db-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ata-db-models-0.0.8.tar.gz tmp/ata-db-models-0.0.9.tar.gz --markdown 20230530/a/ata-db-models/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 20:19:46] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: executing diffoscope
+[2023-05-30 20:19:46] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_auto_refresh-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_delivery_auto_refresh-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230530/o/odoo-addon-delivery-auto-refresh/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-30 20:19:46] INFO root fetch - processPackages [cdk-extensions]: executing diffoscope
+[2023-05-30 20:19:46] INFO root fetch - processPackages [cdk-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-extensions-0.0.69.tar.gz tmp/cdk-extensions-0.0.70.tar.gz --markdown 20230530/c/cdk-extensions/0.0.69-0.0.70/diff.md --exclude *.pyd
+[2023-05-30 20:19:46] INFO root fetch - processPackages [rapidpro-flow-tools]: executing diffoscope
+[2023-05-30 20:19:46] INFO root fetch - processPackages [rapidpro-flow-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpro_flow_tools-2.0.2.tar.gz tmp/rapidpro_flow_tools-2.0.3.tar.gz --markdown 20230530/r/rapidpro-flow-tools/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-30 20:19:46] INFO root fetch - processPackages [wellmet]: Downloading https://files.pythonhosted.org/packages/7d/f3/72e5c3b273baad5db291119cd1759588ffc07a6ea9b266f76fb5412e5f55/wellmet-0.9.6.tar.gz
+[2023-05-30 20:19:47] INFO root fetch - main [MainThread]: End processing [finqual]: success
+[2023-05-30 20:19:47] INFO root fetch - processPackages [wellmet]: executing diffoscope
+[2023-05-30 20:19:47] INFO root fetch - processPackages [wellmet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wellmet-0.9.5.tar.gz tmp/wellmet-0.9.6.tar.gz --markdown 20230530/w/wellmet/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-30 20:19:48] INFO root fetch - main [MainThread]: End processing [reactord]: success
+[2023-05-30 20:19:48] INFO root fetch - main [MainThread]: End processing [pyezviz]: success
+[2023-05-30 20:19:48] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2023-05-30 20:19:48] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-05-30 20:19:48] INFO root fetch - main [MainThread]: End processing [ata-db-models]: success
+[2023-05-30 20:19:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-auto-refresh]: success
+[2023-05-30 20:19:48] INFO root fetch - main [MainThread]: End processing [rapidpro-flow-tools]: success
+[2023-05-30 20:19:49] INFO root fetch - main [MainThread]: End processing [wellmet]: success
+[2023-05-30 20:19:50] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
+[2023-05-30 20:19:50] INFO root fetch - main [MainThread]: Store serial: [18306137]
