@@ -12543,3 +12543,129 @@
 [2023-05-30 14:31:38] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2023-05-30 14:32:53] INFO root fetch - main [MainThread]: End processing [habana-horovod]: success
 [2023-05-30 14:32:53] INFO root fetch - main [MainThread]: Store serial: [18302181]
+[2023-05-30 14:37:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18302181]
+[2023-05-30 14:38:03] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-30 14:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parse-it
+[2023-05-30 14:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xztrainer
+[2023-05-30 14:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coderfastapi
+[2023-05-30 14:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discord-token-joiner.py
+[2023-05-30 14:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-pyvmomi
+[2023-05-30 14:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taipy-gui
+[2023-05-30 14:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tiledb-jupyter-bioimg
+[2023-05-30 14:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discord-token-joiner.py
+[2023-05-30 14:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jsonxmlsatsiuk
+[2023-05-30 14:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oking
+[2023-05-30 14:38:03] INFO root fetch - processPackages [discord-token-joiner.py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-30 14:38:03] INFO root fetch - processPackages [types-pyvmomi]: New version: [8.0.0.5] Old Version: [8.0.0.4]
+[2023-05-30 14:38:03] INFO root fetch - processPackages [coderfastapi]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-30 14:38:03] INFO root fetch - processPackages [taipy-gui]: New version: [2.3.0.dev1] Old Version: [2.3.0.dev0]
+[2023-05-30 14:38:03] INFO root fetch - processPackages [xztrainer]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-30 14:38:03] INFO root fetch - processPackages [discord-token-joiner.py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-30 14:38:03] WARNING root fetch - processPackages [jsonxmlsatsiuk]: Skipping, unable to determine old version
+[2023-05-30 14:38:03] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: New version: [0.1.1a3] Old Version: [0.1.1a2]
+[2023-05-30 14:38:03] INFO root fetch - processPackages [jsonxmlsatsiuk]: Start processing: pytorch-partial-tagger
+[2023-05-30 14:38:03] INFO root fetch - main [MainThread]: End processing [jsonxmlsatsiuk] error
+[2023-05-30 14:38:03] INFO root fetch - processPackages [parse-it]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-05-30 14:38:03] INFO root fetch - processPackages [oking]: New version: [4.1.89] Old Version: [4.1.88]
+[2023-05-30 14:38:03] WARNING root fetch - processPackages [pytorch-partial-tagger]: Skipping, unable to determine old version
+[2023-05-30 14:38:03] INFO root fetch - processPackages [pytorch-partial-tagger]: Start processing: debloat
+[2023-05-30 14:38:03] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger] error
+[2023-05-30 14:38:03] INFO root fetch - processPackages [debloat]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-30 14:38:03] INFO root fetch - processPackages [discord-token-joiner.py]: Downloading https://files.pythonhosted.org/packages/ee/e1/e0f438cfcd3f13ed7ebbe47a5cd78fa165b3946e5b89dcc817c203c3984a/discord-token-joiner.py-1.0.1.tar.gz
+[2023-05-30 14:38:03] INFO root fetch - processPackages [discord-token-joiner.py]: Downloading https://files.pythonhosted.org/packages/ee/e1/e0f438cfcd3f13ed7ebbe47a5cd78fa165b3946e5b89dcc817c203c3984a/discord-token-joiner.py-1.0.1.tar.gz
+[2023-05-30 14:38:03] INFO root fetch - processPackages [types-pyvmomi]: Downloading https://files.pythonhosted.org/packages/fd/9f/e954dc47a6c2905e715c3d8a0ca47a0a3a9bee0a882e7d1ea18b87bc2b76/types-pyvmomi-8.0.0.4.tar.gz
+[2023-05-30 14:38:03] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/ae/30/1e6fff9e86b5e80317cab043f7c3baac37c9a05e3747796a28bfbcd55e4d/oking-4.1.88.tar.gz
+[2023-05-30 14:38:03] INFO root fetch - processPackages [taipy-gui]: Downloading https://files.pythonhosted.org/packages/ae/ab/9e3c6bfdd443b7193777ef37bd5b338e164f8f96820258b782e7b93b2cc9/taipy-gui-2.3.0.dev0.tar.gz
+[2023-05-30 14:38:03] INFO root fetch - processPackages [debloat]: Downloading https://files.pythonhosted.org/packages/f2/a1/fb57551acc89b7867ef342977c6d21f14bb1735dfbd82e37da2b004cb6ce/debloat-1.4.1.tar.gz
+[2023-05-30 14:38:03] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/4b/88/e4050ce0f12e14948b984632c91bd10756af6d9dd9a968a078fba148f35c/tiledb_jupyter_bioimg-0.1.1a3.tar.gz
+[2023-05-30 14:38:03] INFO root fetch - processPackages [discord-token-joiner.py]: Downloading https://files.pythonhosted.org/packages/f1/58/09357cc94c02f6ea6ed3d80cc33f74d93eaec6a88dfba0e25ea53a613c8e/discord-token-joiner.py-1.0.2.tar.gz
+[2023-05-30 14:38:03] INFO root fetch - processPackages [discord-token-joiner.py]: Downloading https://files.pythonhosted.org/packages/f1/58/09357cc94c02f6ea6ed3d80cc33f74d93eaec6a88dfba0e25ea53a613c8e/discord-token-joiner.py-1.0.2.tar.gz
+[2023-05-30 14:38:03] INFO root fetch - processPackages [debloat]: executing diffoscope
+[2023-05-30 14:38:03] INFO root fetch - processPackages [debloat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debloat-1.4.0.tar.gz tmp/debloat-1.4.1.tar.gz --markdown 20230530/d/debloat/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-30 14:38:03] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: executing diffoscope
+[2023-05-30 14:38:03] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_jupyter_bioimg-0.1.1a2.tar.gz tmp/tiledb_jupyter_bioimg-0.1.1a3.tar.gz --markdown 20230530/t/tiledb-jupyter-bioimg/0.1.1a2-0.1.1a3/diff.md --exclude *.pyd
+[2023-05-30 14:38:03] INFO root fetch - processPackages [types-pyvmomi]: Downloading https://files.pythonhosted.org/packages/c5/02/a65e9bf709d4db2fb505684fb4c6b97f344ca87eb9562816e03ccdbb53c4/types-pyvmomi-8.0.0.5.tar.gz
+[2023-05-30 14:38:03] INFO root fetch - processPackages [discord-token-joiner.py]: executing diffoscope
+[2023-05-30 14:38:03] INFO root fetch - processPackages [discord-token-joiner.py]: executing diffoscope
+[2023-05-30 14:38:03] INFO root fetch - processPackages [discord-token-joiner.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-token-joiner.py-1.0.1.tar.gz tmp/discord-token-joiner.py-1.0.2.tar.gz --markdown 20230530/d/discord-token-joiner.py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-30 14:38:03] INFO root fetch - processPackages [discord-token-joiner.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-token-joiner.py-1.0.1.tar.gz tmp/discord-token-joiner.py-1.0.2.tar.gz --markdown 20230530/d/discord-token-joiner.py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-30 14:38:03] INFO root fetch - processPackages [types-pyvmomi]: executing diffoscope
+[2023-05-30 14:38:03] INFO root fetch - processPackages [types-pyvmomi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyvmomi-8.0.0.4.tar.gz tmp/types-pyvmomi-8.0.0.5.tar.gz --markdown 20230530/t/types-pyvmomi/8.0.0.4-8.0.0.5/diff.md --exclude *.pyd
+[2023-05-30 14:38:03] INFO root fetch - processPackages [coderfastapi]: Downloading https://files.pythonhosted.org/packages/7e/57/ed94a72fad0f7a88f3671ca8abe1d9d45b5d91f4e92ba1458d93ec378701/coderfastapi-1.8.0.tar.gz
+[2023-05-30 14:38:03] INFO root fetch - processPackages [parse-it]: executing diffoscope
+[2023-05-30 14:38:03] INFO root fetch - processPackages [parse-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_it-3.7.0.tar.gz tmp/parse_it-3.8.0.tar.gz --markdown 20230530/p/parse-it/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-05-30 14:38:03] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82454860>=10485760
+[2023-05-30 14:38:03] INFO root fetch - processPackages [oking]: Start processing: zero-3rdparty
+[2023-05-30 14:38:03] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-30 14:38:03] INFO root fetch - processPackages [xztrainer]: executing diffoscope
+[2023-05-30 14:38:03] INFO root fetch - processPackages [xztrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xztrainer-0.9.6.tar.gz tmp/xztrainer-0.9.7.tar.gz --markdown 20230530/x/xztrainer/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-30 14:38:04] INFO root fetch - processPackages [zero-3rdparty]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 14:38:04] INFO root fetch - processPackages [coderfastapi]: Downloading https://files.pythonhosted.org/packages/a3/33/ee1cc3807c2fc3fb38757758ce0b7fa2d0592f96b037149e596a3e54da9f/coderfastapi-1.9.0.tar.gz
+[2023-05-30 14:38:04] INFO root fetch - processPackages [taipy-gui]: Downloading https://files.pythonhosted.org/packages/2b/e0/ebb7be340a6600d1cc1095506c9bdc59d919177d730193c096ea29dc7da2/taipy-gui-2.3.0.dev1.tar.gz
+[2023-05-30 14:38:04] INFO root fetch - processPackages [coderfastapi]: executing diffoscope
+[2023-05-30 14:38:04] INFO root fetch - processPackages [coderfastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coderfastapi-1.8.0.tar.gz tmp/coderfastapi-1.9.0.tar.gz --markdown 20230530/c/coderfastapi/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-30 14:38:04] INFO root fetch - processPackages [taipy-gui]: executing diffoscope
+[2023-05-30 14:38:04] INFO root fetch - processPackages [taipy-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-gui-2.3.0.dev0.tar.gz tmp/taipy-gui-2.3.0.dev1.tar.gz --markdown 20230530/t/taipy-gui/2.3.0.dev0-2.3.0.dev1/diff.md --exclude *.pyd
+[2023-05-30 14:38:04] INFO root fetch - processPackages [zero-3rdparty]: Downloading https://files.pythonhosted.org/packages/02/77/9b25da26d84e860f91f7869dd90591c0aec5e456c230be79db7208e01a37/zero_3rdparty-0.0.8-py3-none-any.whl
+[2023-05-30 14:38:04] INFO root fetch - processPackages [zero-3rdparty]: Downloading https://files.pythonhosted.org/packages/ac/57/d5880eac743d0a1370807895ce1e784289fd0b2bd6cbcba1b3fb57043af3/zero_3rdparty-0.0.9-py3-none-any.whl
+[2023-05-30 14:38:04] INFO root fetch - processPackages [debloat]: Start processing: data-flow-diagram
+[2023-05-30 14:38:04] INFO root fetch - main [MainThread]: End processing [debloat]: success
+[2023-05-30 14:38:04] INFO root fetch - processPackages [data-flow-diagram]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-30 14:38:04] INFO root fetch - processPackages [data-flow-diagram]: executing diffoscope
+[2023-05-30 14:38:04] INFO root fetch - processPackages [data-flow-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-flow-diagram-1.9.0.tar.gz tmp/data-flow-diagram-1.9.1.tar.gz --markdown 20230530/d/data-flow-diagram/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-30 14:38:04] INFO root fetch - processPackages [zero-3rdparty]: executing diffoscope
+[2023-05-30 14:38:04] INFO root fetch - processPackages [zero-3rdparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zero_3rdparty-0.0.8-py3-none-any.whl.zip tmp/zero_3rdparty-0.0.9-py3-none-any.whl.zip --markdown 20230530/z/zero-3rdparty/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 14:38:05] INFO root fetch - processPackages [discord-token-joiner.py]: Start processing: model-lib
+[2023-05-30 14:38:05] INFO root fetch - main [MainThread]: End processing [discord-token-joiner.py]: success
+[2023-05-30 14:38:05] INFO root fetch - processPackages [discord-token-joiner.py]: Start processing: teemi
+[2023-05-30 14:38:05] INFO root fetch - main [MainThread]: End processing [discord-token-joiner.py]: success
+[2023-05-30 14:38:05] INFO root fetch - processPackages [types-pyvmomi]: Start processing: docker-compose-parser
+[2023-05-30 14:38:05] INFO root fetch - main [MainThread]: End processing [types-pyvmomi]: success
+[2023-05-30 14:38:05] INFO root fetch - processPackages [model-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 14:38:05] INFO root fetch - processPackages [teemi]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-05-30 14:38:05] INFO root fetch - processPackages [docker-compose-parser]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-05-30 14:38:05] INFO root fetch - processPackages [model-lib]: Downloading https://files.pythonhosted.org/packages/3a/37/f439fc46ad12d47c469a89b962f6930daa6f1af9319dce3ed5f398a5b0f2/model_lib-0.0.8-py3-none-any.whl
+[2023-05-30 14:38:05] INFO root fetch - processPackages [teemi]: Downloading https://files.pythonhosted.org/packages/b5/d1/202085a51bd85ebd2ff684b090102f3fd2439dc1f3a99be759bbf21789f9/teemi-0.1.4.tar.gz
+[2023-05-30 14:38:05] INFO root fetch - processPackages [docker-compose-parser]: Downloading https://files.pythonhosted.org/packages/a8/fd/14ef148350066d96bad435f4eeeda8860b76a38f43cdda6094f4b1c2b2c5/docker_compose_parser-0.0.17-py3-none-any.whl
+[2023-05-30 14:38:06] INFO root fetch - processPackages [docker-compose-parser]: Downloading https://files.pythonhosted.org/packages/f9/ed/76967a22a724f0f6fe2228a7b4a432789a950804c9fff2d1891c02824c0c/docker_compose_parser-0.0.18-py3-none-any.whl
+[2023-05-30 14:38:06] INFO root fetch - processPackages [teemi]: Downloading https://files.pythonhosted.org/packages/7a/9b/20392f8d68a377ccb41f6a3b218d594db05b29eb2a852115715fbbf8cdd8/teemi-0.2.0.tar.gz
+[2023-05-30 14:38:06] INFO root fetch - processPackages [xztrainer]: Start processing: apigratis
+[2023-05-30 14:38:06] INFO root fetch - main [MainThread]: End processing [xztrainer]: success
+[2023-05-30 14:38:06] WARNING root fetch - processPackages [apigratis]: Skipping, unable to determine old version
+[2023-05-30 14:38:06] INFO root fetch - processPackages [parse-it]: Start processing: compose-chart-export
+[2023-05-30 14:38:06] INFO root fetch - main [MainThread]: End processing [parse-it]: success
+[2023-05-30 14:38:06] INFO root fetch - processPackages [apigratis]: Start processing: pants-py-deploy
+[2023-05-30 14:38:06] INFO root fetch - main [MainThread]: End processing [apigratis] error
+[2023-05-30 14:38:06] INFO root fetch - processPackages [docker-compose-parser]: executing diffoscope
+[2023-05-30 14:38:06] INFO root fetch - processPackages [docker-compose-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_compose_parser-0.0.17-py3-none-any.whl.zip tmp/docker_compose_parser-0.0.18-py3-none-any.whl.zip --markdown 20230530/d/docker-compose-parser/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-05-30 14:38:06] INFO root fetch - processPackages [teemi]: executing diffoscope
+[2023-05-30 14:38:06] INFO root fetch - processPackages [teemi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teemi-0.1.4.tar.gz tmp/teemi-0.2.0.tar.gz --markdown 20230530/t/teemi/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 14:38:06] INFO root fetch - processPackages [pants-py-deploy]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-05-30 14:38:06] INFO root fetch - processPackages [compose-chart-export]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-05-30 14:38:06] INFO root fetch - processPackages [coderfastapi]: Start processing: api-console-solver
+[2023-05-30 14:38:06] INFO root fetch - main [MainThread]: End processing [coderfastapi]: success
+[2023-05-30 14:38:06] INFO root fetch - processPackages [model-lib]: Downloading https://files.pythonhosted.org/packages/0e/81/219c8c28610fddb4410a4cb595f3323d27988d35dd0ab098737ad0d8b598/model_lib-0.0.9-py3-none-any.whl
+[2023-05-30 14:38:06] INFO root fetch - processPackages [api-console-solver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 14:38:06] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/ce/35/a793f6f877935ed9c8703f4e9ecf7b2f233d6a0ca9ecaeee64bbc4480730/pants_py_deploy-0.0.17-py3-none-any.whl
+[2023-05-30 14:38:06] INFO root fetch - processPackages [compose-chart-export]: Downloading https://files.pythonhosted.org/packages/ec/d8/eb913660e16e8cd0fde35b1d0ad9ab052f5a86d3aea7f98090ca6da462bc/compose_chart_export-0.0.18-py3-none-any.whl
+[2023-05-30 14:38:06] INFO root fetch - processPackages [compose-chart-export]: Downloading https://files.pythonhosted.org/packages/9c/df/af0525fba8ca9b8d7da9af064645ae24e515b494979d90490a7f450f0dcb/compose_chart_export-0.0.19-py3-none-any.whl
+[2023-05-30 14:38:06] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/f9/27/78865382606b8538e655884346e15f20c28119319e315203beb993d9c4ac/pants_py_deploy-0.0.18-py3-none-any.whl
+[2023-05-30 14:38:06] INFO root fetch - processPackages [compose-chart-export]: executing diffoscope
+[2023-05-30 14:38:06] INFO root fetch - processPackages [compose-chart-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compose_chart_export-0.0.18-py3-none-any.whl.zip tmp/compose_chart_export-0.0.19-py3-none-any.whl.zip --markdown 20230530/c/compose-chart-export/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-05-30 14:38:06] INFO root fetch - processPackages [api-console-solver]: executing diffoscope
+[2023-05-30 14:38:06] INFO root fetch - processPackages [api-console-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-console-solver-0.0.8.tar.gz tmp/api-console-solver-0.0.9.tar.gz --markdown 20230530/a/api-console-solver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 14:38:06] INFO root fetch - processPackages [pants-py-deploy]: executing diffoscope
+[2023-05-30 14:38:06] INFO root fetch - processPackages [pants-py-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants_py_deploy-0.0.17-py3-none-any.whl.zip tmp/pants_py_deploy-0.0.18-py3-none-any.whl.zip --markdown 20230530/p/pants-py-deploy/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-05-30 14:38:06] INFO root fetch - main [MainThread]: End processing [zero-3rdparty]: success
+[2023-05-30 14:38:07] INFO root fetch - main [MainThread]: End processing [data-flow-diagram]: success
+[2023-05-30 14:38:07] INFO root fetch - processPackages [model-lib]: executing diffoscope
+[2023-05-30 14:38:07] INFO root fetch - processPackages [model-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_lib-0.0.8-py3-none-any.whl.zip tmp/model_lib-0.0.9-py3-none-any.whl.zip --markdown 20230530/m/model-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 14:38:07] INFO root fetch - main [MainThread]: End processing [docker-compose-parser]: success
+[2023-05-30 14:38:07] INFO root fetch - main [MainThread]: End processing [teemi]: success
+[2023-05-30 14:38:08] INFO root fetch - main [MainThread]: End processing [pants-py-deploy]: success
+[2023-05-30 14:38:08] INFO root fetch - main [MainThread]: End processing [api-console-solver]: success
+[2023-05-30 14:38:08] INFO root fetch - main [MainThread]: End processing [compose-chart-export]: success
+[2023-05-30 14:38:08] INFO root fetch - main [MainThread]: End processing [model-lib]: success
+[2023-05-30 14:38:18] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
+[2023-05-30 14:40:55] INFO root fetch - main [MainThread]: End processing [taipy-gui]: success
+[2023-05-30 14:40:55] INFO root fetch - main [MainThread]: Store serial: [18302246]
