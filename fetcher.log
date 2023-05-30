@@ -20600,3 +20600,89 @@ EOFError: EOF read where object expected
 [2023-05-30 21:43:51] INFO root fetch - main [MainThread]: End processing [substrait]: success
 [2023-05-30 21:43:53] INFO root fetch - main [MainThread]: End processing [eulith-trezor]: success
 [2023-05-30 21:43:53] INFO root fetch - main [MainThread]: Store serial: [18306929]
+[2023-05-30 21:48:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18306929]
+[2023-05-30 21:49:02] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-30 21:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cgap-higlass-data
+[2023-05-30 21:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deephaven-plugin-plotly-express
+[2023-05-30 21:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: v7e-utils
+[2023-05-30 21:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jet-bridge-base
+[2023-05-30 21:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anvil-ml
+[2023-05-30 21:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jet-bridge
+[2023-05-30 21:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jet-django
+[2023-05-30 21:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neon-skill-user-settings
+[2023-05-30 21:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: triclustering
+[2023-05-30 21:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: actoolkit
+[2023-05-30 21:49:02] INFO root fetch - processPackages [v7e-utils]: New version: [0.7.1] Old Version: [0.6.1]
+[2023-05-30 21:49:02] INFO root fetch - processPackages [deephaven-plugin-plotly-express]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-30 21:49:02] WARNING root fetch - processPackages [anvil-ml]: Skipping, unable to determine old version
+[2023-05-30 21:49:02] INFO root fetch - processPackages [cgap-higlass-data]: New version: [0.3.0b0] Old Version: [0.2.0]
+[2023-05-30 21:49:02] INFO root fetch - processPackages [anvil-ml]: Start processing: thoughtspot-rest-api-v1
+[2023-05-30 21:49:02] INFO root fetch - main [MainThread]: End processing [anvil-ml] error
+[2023-05-30 21:49:02] INFO root fetch - processPackages [triclustering]: New version: [2023.5.31.1] Old Version: [2023.5.31.0]
+[2023-05-30 21:49:02] INFO root fetch - processPackages [neon-skill-user-settings]: New version: [0.5.1a1] Old Version: [0.5.0]
+[2023-05-30 21:49:02] INFO root fetch - processPackages [jet-bridge]: New version: [1.7.9] Old Version: [1.7.5]
+[2023-05-30 21:49:02] INFO root fetch - processPackages [actoolkit]: New version: [2.6.5b1] Old Version: [2.6.5]
+[2023-05-30 21:49:02] INFO root fetch - processPackages [jet-bridge-base]: New version: [1.7.9] Old Version: [1.7.5]
+[2023-05-30 21:49:02] INFO root fetch - processPackages [jet-django]: New version: [1.7.9] Old Version: [1.7.5]
+[2023-05-30 21:49:02] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-30 21:49:02] INFO root fetch - processPackages [triclustering]: Downloading https://files.pythonhosted.org/packages/58/08/b43a888a53a54e1cd16bd5c22491ef9d8e93fc838707a83d7916645db23f/triclustering-2023.5.31.0.tar.gz
+[2023-05-30 21:49:02] INFO root fetch - processPackages [actoolkit]: Downloading https://files.pythonhosted.org/packages/cf/2c/034f57f30e7d7e08c91f9e8746b097cd1155abf52c03c6af7bf4b8a3503f/actoolkit-2.6.5-py3-none-any.whl
+[2023-05-30 21:49:02] INFO root fetch - processPackages [cgap-higlass-data]: Downloading https://files.pythonhosted.org/packages/ab/1a/d61e3a6a5018e1fb980dbbd4dd8e6ba602831db26018cdc5b018fc1c9f29/cgap_higlass_data-0.2.0.tar.gz
+[2023-05-30 21:49:02] INFO root fetch - processPackages [v7e-utils]: Downloading https://files.pythonhosted.org/packages/84/e2/4ae26fcd95c3efa079d1df8027e3398edb58c96fd8277a7ca3e7636d0aa2/v7e_utils-0.7.1.tar.gz
+[2023-05-30 21:49:02] INFO root fetch - processPackages [neon-skill-user-settings]: Downloading https://files.pythonhosted.org/packages/e7/e2/dd8e33fe17b7b861b01bb08a20a2e4b76460b0de22c483e6cf03a3882ea3/neon_skill_user_settings-0.5.0-py3-none-any.whl
+[2023-05-30 21:49:02] INFO root fetch - processPackages [jet-bridge]: Downloading https://files.pythonhosted.org/packages/77/ec/984e729b116b97310eaf4ce632a9b6b30e461b346e2c7f78d38fb48abf7c/jet-bridge-1.7.5.tar.gz
+[2023-05-30 21:49:02] INFO root fetch - processPackages [jet-django]: Downloading https://files.pythonhosted.org/packages/00/b5/509ab1f4ae5bcb5ffc1b2403b51288e330bc9a9a3517eb810fd16fd76f6f/jet-django-1.7.5.tar.gz
+[2023-05-30 21:49:02] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: Downloading https://files.pythonhosted.org/packages/2e/ef/e736ced19c8d11e6bfd72abbe733f6f387424f40417941efeadd7302d862/thoughtspot_rest_api_v1-1.5.0.tar.gz
+[2023-05-30 21:49:02] INFO root fetch - processPackages [jet-bridge-base]: Downloading https://files.pythonhosted.org/packages/6a/6f/050b6c68483efe4b9313afaba0dfc180a77b6e249f84cbcc1bbe01627b57/jet-bridge-base-1.7.5.tar.gz
+[2023-05-30 21:49:02] INFO root fetch - processPackages [v7e-utils]: executing diffoscope
+[2023-05-30 21:49:02] INFO root fetch - processPackages [v7e-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v7e_utils-0.6.1.tar.gz tmp/v7e_utils-0.7.1.tar.gz --markdown 20230530/v/v7e-utils/0.6.1-0.7.1/diff.md --exclude *.pyd
+[2023-05-30 21:49:02] INFO root fetch - processPackages [deephaven-plugin-plotly-express]: Downloading https://files.pythonhosted.org/packages/94/bf/6bc37d6dd6d732a1d5d88747c0624048d9fc3b2cfdaa65e8dc93d7c6aee3/deephaven-plugin-plotly-express-0.0.5.tar.gz
+[2023-05-30 21:49:02] INFO root fetch - processPackages [triclustering]: Downloading https://files.pythonhosted.org/packages/bb/1a/e3fcf8277863ba415802332ed2156ebc66af73054edd15ca329722234825/triclustering-2023.5.31.1.tar.gz
+[2023-05-30 21:49:02] INFO root fetch - processPackages [cgap-higlass-data]: Downloading https://files.pythonhosted.org/packages/3b/be/817cfabbf804a6e7f2829af0a17859827dfb11443dda002b91a654764fe0/cgap_higlass_data-0.3.0b0.tar.gz
+[2023-05-30 21:49:02] INFO root fetch - processPackages [deephaven-plugin-plotly-express]: executing diffoscope
+[2023-05-30 21:49:02] INFO root fetch - processPackages [deephaven-plugin-plotly-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deephaven-plugin-plotly-express-0.0.4.tar.gz tmp/deephaven-plugin-plotly-express-0.0.5.tar.gz --markdown 20230530/d/deephaven-plugin-plotly-express/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 21:49:02] INFO root fetch - processPackages [neon-skill-user-settings]: Downloading https://files.pythonhosted.org/packages/15/a0/e5c543e6f688118211380453d7bbad9db0373cde1b5ce7beeb45d402d142/neon_skill_user_settings-0.5.1a1-py3-none-any.whl
+[2023-05-30 21:49:02] INFO root fetch - processPackages [actoolkit]: executing diffoscope
+[2023-05-30 21:49:02] INFO root fetch - processPackages [actoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actoolkit-2.6.5-py3-none-any.whl.zip tmp/actoolkit-2.6.5b1-py3-none-any.whl.zip --markdown 20230530/a/actoolkit/2.6.5-2.6.5b1/diff.md --exclude *.pyd
+[2023-05-30 21:49:02] INFO root fetch - processPackages [cgap-higlass-data]: executing diffoscope
+[2023-05-30 21:49:02] INFO root fetch - processPackages [cgap-higlass-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgap_higlass_data-0.2.0.tar.gz tmp/cgap_higlass_data-0.3.0b0.tar.gz --markdown 20230530/c/cgap-higlass-data/0.2.0-0.3.0b0/diff.md --exclude *.pyd
+[2023-05-30 21:49:02] INFO root fetch - processPackages [jet-bridge]: Downloading https://files.pythonhosted.org/packages/5b/4b/714381e9d087c652b9bb8f031fe2214d3ccd553cfbdeb98ff62bdbc8735d/jet-bridge-1.7.9.tar.gz
+[2023-05-30 21:49:02] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: Downloading https://files.pythonhosted.org/packages/ea/66/bdbbc87af3d7a7fc84ca4cf508cb43292a94d0816d49ecfdc6b4192cd2eb/thoughtspot_rest_api_v1-1.5.1.tar.gz
+[2023-05-30 21:49:02] INFO root fetch - processPackages [neon-skill-user-settings]: executing diffoscope
+[2023-05-30 21:49:02] INFO root fetch - processPackages [neon-skill-user-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_user_settings-0.5.0-py3-none-any.whl.zip tmp/neon_skill_user_settings-0.5.1a1-py3-none-any.whl.zip --markdown 20230530/n/neon-skill-user-settings/0.5.0-0.5.1a1/diff.md --exclude *.pyd
+[2023-05-30 21:49:02] INFO root fetch - processPackages [jet-django]: Downloading https://files.pythonhosted.org/packages/62/88/814c0029b2e35f343f1f1e3ed6a963523255a4cb150364247feeb6cf892c/jet-django-1.7.9.tar.gz
+[2023-05-30 21:49:02] INFO root fetch - processPackages [triclustering]: executing diffoscope
+[2023-05-30 21:49:02] INFO root fetch - processPackages [triclustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triclustering-2023.5.31.0.tar.gz tmp/triclustering-2023.5.31.1.tar.gz --markdown 20230530/t/triclustering/2023.5.31.0-2023.5.31.1/diff.md --exclude *.pyd
+[2023-05-30 21:49:02] INFO root fetch - processPackages [jet-bridge]: executing diffoscope
+[2023-05-30 21:49:02] INFO root fetch - processPackages [jet-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-bridge-1.7.5.tar.gz tmp/jet-bridge-1.7.9.tar.gz --markdown 20230530/j/jet-bridge/1.7.5-1.7.9/diff.md --exclude *.pyd
+[2023-05-30 21:49:02] INFO root fetch - processPackages [jet-bridge-base]: Downloading https://files.pythonhosted.org/packages/95/e2/605beb8cd0fb1a160ddc0bd28151cc8d3510e8df5db0f63089d6b59777ef/jet-bridge-base-1.7.9.tar.gz
+[2023-05-30 21:49:03] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: executing diffoscope
+[2023-05-30 21:49:03] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thoughtspot_rest_api_v1-1.5.0.tar.gz tmp/thoughtspot_rest_api_v1-1.5.1.tar.gz --markdown 20230530/t/thoughtspot-rest-api-v1/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-30 21:49:03] INFO root fetch - processPackages [jet-django]: executing diffoscope
+[2023-05-30 21:49:03] INFO root fetch - processPackages [jet-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-django-1.7.5.tar.gz tmp/jet-django-1.7.9.tar.gz --markdown 20230530/j/jet-django/1.7.5-1.7.9/diff.md --exclude *.pyd
+[2023-05-30 21:49:03] INFO root fetch - processPackages [jet-bridge-base]: executing diffoscope
+[2023-05-30 21:49:03] INFO root fetch - processPackages [jet-bridge-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-bridge-base-1.7.5.tar.gz tmp/jet-bridge-base-1.7.9.tar.gz --markdown 20230530/j/jet-bridge-base/1.7.5-1.7.9/diff.md --exclude *.pyd
+[2023-05-30 21:49:04] INFO root fetch - processPackages [v7e-utils]: Start processing: lanarky
+[2023-05-30 21:49:04] INFO root fetch - main [MainThread]: End processing [v7e-utils]: success
+[2023-05-30 21:49:04] INFO root fetch - processPackages [lanarky]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-30 21:49:04] INFO root fetch - processPackages [lanarky]: Downloading https://files.pythonhosted.org/packages/d0/8d/e173b0a83fe13eba5f47e6e1b7dded490899d9a3c1f1f945de50a998e965/lanarky-0.7.4.tar.gz
+[2023-05-30 21:49:04] INFO root fetch - processPackages [lanarky]: executing diffoscope
+[2023-05-30 21:49:04] INFO root fetch - processPackages [lanarky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanarky-0.7.3.tar.gz tmp/lanarky-0.7.4.tar.gz --markdown 20230530/l/lanarky/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-30 21:49:04] INFO root fetch - processPackages [cgap-higlass-data]: Start processing: jsonschema
+[2023-05-30 21:49:04] INFO root fetch - main [MainThread]: End processing [cgap-higlass-data]: success
+[2023-05-30 21:49:04] INFO root fetch - processPackages [jsonschema]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-05-30 21:49:04] INFO root fetch - main [MainThread]: End processing [deephaven-plugin-plotly-express]: success
+[2023-05-30 21:49:04] INFO root fetch - processPackages [jsonschema]: Downloading https://files.pythonhosted.org/packages/02/96/901e5735f16cb438eccff95b534d0bdd058237dab1ae4731b5e1e1ddc9b4/jsonschema-4.9.0.tar.gz
+[2023-05-30 21:49:05] INFO root fetch - main [MainThread]: End processing [actoolkit]: success
+[2023-05-30 21:49:05] INFO root fetch - processPackages [jsonschema]: Downloading https://files.pythonhosted.org/packages/e6/a9/569ad03b90093c956bd396a6b3151c17e6005d8ac139d9419e89339c02df/jsonschema-4.9.1.tar.gz
+[2023-05-30 21:49:05] INFO root fetch - main [MainThread]: End processing [triclustering]: success
+[2023-05-30 21:49:05] INFO root fetch - main [MainThread]: End processing [jet-bridge]: success
+[2023-05-30 21:49:05] INFO root fetch - processPackages [jsonschema]: executing diffoscope
+[2023-05-30 21:49:05] INFO root fetch - processPackages [jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema-4.9.0.tar.gz tmp/jsonschema-4.9.1.tar.gz --markdown 20230530/j/jsonschema/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-05-30 21:49:05] INFO root fetch - main [MainThread]: End processing [thoughtspot-rest-api-v1]: success
+[2023-05-30 21:49:05] INFO root fetch - main [MainThread]: End processing [jet-django]: success
+[2023-05-30 21:49:06] INFO root fetch - main [MainThread]: End processing [neon-skill-user-settings]: success
+[2023-05-30 21:49:06] INFO root fetch - main [MainThread]: End processing [lanarky]: success
+[2023-05-30 21:49:08] INFO root fetch - main [MainThread]: End processing [jet-bridge-base]: success
+[2023-05-30 21:49:10] INFO root fetch - main [MainThread]: End processing [jsonschema]: success
+[2023-05-30 21:49:10] INFO root fetch - main [MainThread]: Store serial: [18306987]
