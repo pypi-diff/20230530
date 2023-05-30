@@ -7176,3 +7176,115 @@
 [2023-05-30 09:22:11] INFO root fetch - main [MainThread]: End processing [hackle-sdk]: success
 [2023-05-30 09:22:29] INFO root fetch - main [MainThread]: End processing [avwx-engine]: success
 [2023-05-30 09:22:29] INFO root fetch - main [MainThread]: Store serial: [18298802]
+[2023-05-30 09:27:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298802]
+[2023-05-30 09:27:54] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-30 09:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: methodism
+[2023-05-30 09:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quant23rg
+[2023-05-30 09:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talk-codebase
+[2023-05-30 09:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abuscom-libs
+[2023-05-30 09:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: async-payok
+[2023-05-30 09:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bohrium-sdk
+[2023-05-30 09:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-al
+[2023-05-30 09:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: troncos
+[2023-05-30 09:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: glance-store
+[2023-05-30 09:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bohrium-sdk
+[2023-05-30 09:27:54] INFO root fetch - processPackages [methodism]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 09:27:54] INFO root fetch - processPackages [glance-store]: New version: [4.5.0] Old Version: [4.4.0]
+[2023-05-30 09:27:54] INFO root fetch - processPackages [quant23rg]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 09:27:54] INFO root fetch - processPackages [talk-codebase]: New version: [0.1.26] Old Version: [0.1.25]
+[2023-05-30 09:27:54] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 09:27:54] INFO root fetch - processPackages [troncos]: New version: [4.0.0b7] Old Version: [4.0.0b6]
+[2023-05-30 09:27:54] WARNING root fetch - processPackages [nonebot-plugin-al]: Skipping, unable to determine old version
+[2023-05-30 09:27:54] INFO root fetch - processPackages [abuscom-libs]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-30 09:27:54] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 09:27:54] INFO root fetch - processPackages [nonebot-plugin-al]: Start processing: py-Ayiin
+[2023-05-30 09:27:54] INFO root fetch - processPackages [async-payok]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-30 09:27:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-al] error
+[2023-05-30 09:27:54] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.4.dev1] Old Version: [0.4.3]
+[2023-05-30 09:27:54] INFO root fetch - processPackages [quant23rg]: Downloading https://files.pythonhosted.org/packages/05/a8/a20628616f17df89637412bc0eccb4eebc8c8a22f746c472363b98e1a666/quant23rg-0.0.4.tar.gz
+[2023-05-30 09:27:54] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/39/10/430018b61e296f32c1387c46c529128ff9d797bb665d9cb14e0039d047f5/bohrium-sdk-0.1.3.tar.gz
+[2023-05-30 09:27:54] INFO root fetch - processPackages [async-payok]: Downloading https://files.pythonhosted.org/packages/56/c4/86d4adf464f96fb1ccf3218eec59ee2117d449a76c63de42411705296d02/async-payok-0.1.7.tar.gz
+[2023-05-30 09:27:54] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/52/c1/ab09ab420e2ad598b84643e2daf149396841f9d824e1aed699f6abe2bb7a/talk_codebase-0.1.26.tar.gz
+[2023-05-30 09:27:54] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/39/10/430018b61e296f32c1387c46c529128ff9d797bb665d9cb14e0039d047f5/bohrium-sdk-0.1.3.tar.gz
+[2023-05-30 09:27:54] INFO root fetch - processPackages [methodism]: Downloading https://files.pythonhosted.org/packages/70/37/99eba880ee3b640f6c905923c0f4fb942856ffa7c9d32fb55881153f63fc/methodism-0.1.1.tar.gz
+[2023-05-30 09:27:54] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/dd/47/c0c4d3c12ce1b349c2b3b65a1d7e57b368e9c023b40250d2c1bc9e1e6d7b/py-Ayiin-0.4.4.dev1.tar.gz
+[2023-05-30 09:27:54] INFO root fetch - processPackages [quant23rg]: executing diffoscope
+[2023-05-30 09:27:54] INFO root fetch - processPackages [quant23rg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant23rg-0.0.3.tar.gz tmp/quant23rg-0.0.4.tar.gz --markdown 20230530/q/quant23rg/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 09:27:54] INFO root fetch - processPackages [talk-codebase]: executing diffoscope
+[2023-05-30 09:27:54] INFO root fetch - processPackages [talk-codebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talk_codebase-0.1.25.tar.gz tmp/talk_codebase-0.1.26.tar.gz --markdown 20230530/t/talk-codebase/0.1.25-0.1.26/diff.md --exclude *.pyd
+[2023-05-30 09:27:54] INFO root fetch - processPackages [methodism]: executing diffoscope
+[2023-05-30 09:27:54] INFO root fetch - processPackages [methodism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/methodism-0.1.0.tar.gz tmp/methodism-0.1.1.tar.gz --markdown 20230530/m/methodism/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 09:27:54] INFO root fetch - processPackages [glance-store]: Downloading https://files.pythonhosted.org/packages/60/72/14692002e1245a2341e617ee2302005aedaf743d8e9e169646868bed0911/glance_store-4.5.0.tar.gz
+[2023-05-30 09:27:54] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/90/23/776e0f5dfd595a717e8643823f2ba6691753bf9d5ee9a6f57872af0fbaca/troncos-4.0.0b7.tar.gz
+[2023-05-30 09:27:54] INFO root fetch - processPackages [abuscom-libs]: Downloading https://files.pythonhosted.org/packages/c8/10/a8cb91d24fe5db748522fac82fb3d13771262b0f19535ed979cc154b73ab/abuscom-libs-0.1.8.tar.gz
+[2023-05-30 09:27:55] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/a2/53/98d05e487499105ab5e5e82f63f83081793ee26e6bb8ae6692d37b5be227/bohrium-sdk-0.1.4.tar.gz
+[2023-05-30 09:27:55] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/a2/53/98d05e487499105ab5e5e82f63f83081793ee26e6bb8ae6692d37b5be227/bohrium-sdk-0.1.4.tar.gz
+[2023-05-30 09:27:55] INFO root fetch - processPackages [glance-store]: executing diffoscope
+[2023-05-30 09:27:55] INFO root fetch - processPackages [glance-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glance_store-4.4.0.tar.gz tmp/glance_store-4.5.0.tar.gz --markdown 20230530/g/glance-store/4.4.0-4.5.0/diff.md --exclude *.pyd
+[2023-05-30 09:27:55] INFO root fetch - processPackages [async-payok]: Downloading https://files.pythonhosted.org/packages/0c/0d/b863cdef1dbb271acf4cabf7605a126aeebb0a783198ce8df7c36acdffc3/async-payok-0.1.8.tar.gz
+[2023-05-30 09:27:55] INFO root fetch - processPackages [troncos]: executing diffoscope
+[2023-05-30 09:27:55] INFO root fetch - processPackages [troncos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troncos-4.0.0b6.tar.gz tmp/troncos-4.0.0b7.tar.gz --markdown 20230530/t/troncos/4.0.0b6-4.0.0b7/diff.md --exclude *.pyd
+[2023-05-30 09:27:55] INFO root fetch - processPackages [abuscom-libs]: executing diffoscope
+[2023-05-30 09:27:55] INFO root fetch - processPackages [abuscom-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abuscom-libs-0.1.7.tar.gz tmp/abuscom-libs-0.1.8.tar.gz --markdown 20230530/a/abuscom-libs/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-30 09:27:55] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-05-30 09:27:55] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-05-30 09:27:55] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.1.3.tar.gz tmp/bohrium-sdk-0.1.4.tar.gz --markdown 20230530/b/bohrium-sdk/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 09:27:55] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.1.3.tar.gz tmp/bohrium-sdk-0.1.4.tar.gz --markdown 20230530/b/bohrium-sdk/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 09:27:55] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-05-30 09:27:55] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.3.tar.gz tmp/py-Ayiin-0.4.4.dev1.tar.gz --markdown 20230530/p/py-Ayiin/0.4.3-0.4.4.dev1/diff.md --exclude *.pyd
+[2023-05-30 09:27:55] INFO root fetch - processPackages [async-payok]: executing diffoscope
+[2023-05-30 09:27:55] INFO root fetch - processPackages [async-payok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async-payok-0.1.7.tar.gz tmp/async-payok-0.1.8.tar.gz --markdown 20230530/a/async-payok/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-30 09:27:56] INFO root fetch - processPackages [quant23rg]: Start processing: satellighte
+[2023-05-30 09:27:56] INFO root fetch - main [MainThread]: End processing [quant23rg]: success
+[2023-05-30 09:27:56] INFO root fetch - processPackages [satellighte]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-30 09:27:56] INFO root fetch - processPackages [satellighte]: Downloading https://files.pythonhosted.org/packages/97/a9/2754591198d20da87d48050f9efba73ead1654383a6b324ee866b736fba1/satellighte-0.2.4.tar.gz
+[2023-05-30 09:27:56] INFO root fetch - processPackages [talk-codebase]: Start processing: amhhandler
+[2023-05-30 09:27:56] INFO root fetch - main [MainThread]: End processing [talk-codebase]: success
+[2023-05-30 09:27:56] INFO root fetch - processPackages [amhhandler]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-30 09:27:56] INFO root fetch - processPackages [methodism]: Start processing: airscript
+[2023-05-30 09:27:56] INFO root fetch - main [MainThread]: End processing [methodism]: success
+[2023-05-30 09:27:56] INFO root fetch - processPackages [airscript]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 09:27:56] INFO root fetch - processPackages [amhhandler]: Downloading https://files.pythonhosted.org/packages/e7/24/5f3ba9d167bf46dd7bb31f62b7f4b018bf2915b421266d3f2ac9394387b2/amhhandler-1.2.4.tar.gz
+[2023-05-30 09:27:56] INFO root fetch - processPackages [airscript]: Downloading https://files.pythonhosted.org/packages/9c/70/25d14c0f1d5de5b7561bf8d2c7887d2740e2b1d2ff04ab5dc209b00689c4/airscript-0.0.1.tar.gz
+[2023-05-30 09:27:56] INFO root fetch - processPackages [satellighte]: Downloading https://files.pythonhosted.org/packages/fe/f9/b7c78ef29b24adb925bea488e36ed75a189db5ed72a09a796765374a5f0a/satellighte-0.2.5.tar.gz
+[2023-05-30 09:27:56] INFO root fetch - processPackages [abuscom-libs]: Start processing: async-payok
+[2023-05-30 09:27:56] INFO root fetch - main [MainThread]: End processing [abuscom-libs]: success
+[2023-05-30 09:27:56] INFO root fetch - processPackages [satellighte]: executing diffoscope
+[2023-05-30 09:27:56] INFO root fetch - processPackages [satellighte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satellighte-0.2.4.tar.gz tmp/satellighte-0.2.5.tar.gz --markdown 20230530/s/satellighte/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-30 09:27:56] INFO root fetch - processPackages [async-payok]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-30 09:27:56] INFO root fetch - processPackages [amhhandler]: Downloading https://files.pythonhosted.org/packages/a5/e4/1badce818f24a60efc54b45e60cc33f6d2778a025eff1d48a7253f9954e5/amhhandler-1.2.5.tar.gz
+[2023-05-30 09:27:57] INFO root fetch - processPackages [airscript]: Downloading https://files.pythonhosted.org/packages/84/0a/21830bec021d9f6b9f498e958da9da1a6f0d4f2b8c714c76f127ba2ba67b/airscript-0.0.2.tar.gz
+[2023-05-30 09:27:57] INFO root fetch - processPackages [async-payok]: executing diffoscope
+[2023-05-30 09:27:57] INFO root fetch - processPackages [async-payok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async-payok-0.1.7.tar.gz tmp/async-payok-0.1.8.tar.gz --markdown 20230530/a/async-payok/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-30 09:27:57] INFO root fetch - processPackages [amhhandler]: executing diffoscope
+[2023-05-30 09:27:57] INFO root fetch - processPackages [amhhandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amhhandler-1.2.4.tar.gz tmp/amhhandler-1.2.5.tar.gz --markdown 20230530/a/amhhandler/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-30 09:27:57] INFO root fetch - processPackages [airscript]: executing diffoscope
+[2023-05-30 09:27:57] INFO root fetch - processPackages [airscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airscript-0.0.1.tar.gz tmp/airscript-0.0.2.tar.gz --markdown 20230530/a/airscript/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 09:27:57] INFO root fetch - processPackages [bohrium-sdk]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-30 09:27:57] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-05-30 09:27:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-30 09:27:57] INFO root fetch - processPackages [troncos]: Start processing: pgmini
+[2023-05-30 09:27:57] INFO root fetch - main [MainThread]: End processing [troncos]: success
+[2023-05-30 09:27:57] INFO root fetch - processPackages [pgmini]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 09:27:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-30 09:27:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 09:27:57] INFO root fetch - processPackages [bohrium-sdk]: Start processing: bomf
+[2023-05-30 09:27:57] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-05-30 09:27:57] INFO root fetch - processPackages [bomf]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-30 09:27:57] INFO root fetch - main [MainThread]: End processing [async-payok]: success
+[2023-05-30 09:27:57] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/50/93/532643afb75002e3147db783fb29263135a1911d1ca35685acfb4a8a8abe/bomf-0.4.4.tar.gz
+[2023-05-30 09:27:57] INFO root fetch - processPackages [pgmini]: Downloading https://files.pythonhosted.org/packages/da/32/e4990134815da44faff6baa49293941873a0062d2bc72e67349a8dca69ee/pgmini-0.1.9.tar.gz
+[2023-05-30 09:27:57] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-05-30 09:27:57] INFO root fetch - processPackages [pgmini]: executing diffoscope
+[2023-05-30 09:27:57] INFO root fetch - processPackages [pgmini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgmini-0.1.8.tar.gz tmp/pgmini-0.1.9.tar.gz --markdown 20230530/p/pgmini/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 09:27:57] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-05-30 09:27:57] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.4.3.tar.gz tmp/bomf-0.4.4.tar.gz --markdown 20230530/b/bomf/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-30 09:27:58] INFO root fetch - main [MainThread]: End processing [satellighte]: success
+[2023-05-30 09:27:59] INFO root fetch - main [MainThread]: End processing [async-payok]: success
+[2023-05-30 09:27:59] INFO root fetch - main [MainThread]: End processing [airscript]: success
+[2023-05-30 09:27:59] INFO root fetch - main [MainThread]: End processing [amhhandler]: success
+[2023-05-30 09:27:59] INFO root fetch - main [MainThread]: End processing [pgmini]: success
+[2023-05-30 09:27:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-30 09:27:59] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-05-30 09:28:00] INFO root fetch - main [MainThread]: End processing [glance-store]: success
+[2023-05-30 09:28:00] INFO root fetch - main [MainThread]: Store serial: [18298860]
