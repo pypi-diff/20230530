@@ -9056,3 +9056,82 @@
 [2023-05-30 11:15:41] INFO root fetch - main [MainThread]: End processing [pysjtu]: success
 [2023-05-30 11:15:57] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2023-05-30 11:15:57] INFO root fetch - main [MainThread]: Store serial: [18299875]
+[2023-05-30 11:21:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18299875]
+[2023-05-30 11:21:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-30 11:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lana
+[2023-05-30 11:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dgopy
+[2023-05-30 11:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nwebclient
+[2023-05-30 11:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fedora-test-auth
+[2023-05-30 11:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lamindb
+[2023-05-30 11:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apysc
+[2023-05-30 11:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airflow-provider-vineyard
+[2023-05-30 11:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vineyard
+[2023-05-30 11:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prompthub-py
+[2023-05-30 11:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meilisearchdsl
+[2023-05-30 11:21:06] INFO root fetch - processPackages [lana]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 11:21:06] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-05-30 11:21:06] INFO root fetch - processPackages [meilisearchdsl]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-30 11:21:06] WARNING root fetch - processPackages [fedora-test-auth]: Skipping, unable to determine old version
+[2023-05-30 11:21:06] INFO root fetch - processPackages [fedora-test-auth]: Start processing: spanishconjugator
+[2023-05-30 11:21:06] INFO root fetch - main [MainThread]: End processing [fedora-test-auth] error
+[2023-05-30 11:21:06] INFO root fetch - processPackages [airflow-provider-vineyard]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-05-30 11:21:06] WARNING root fetch - processPackages [dgopy]: Skipping, unable to determine old version
+[2023-05-30 11:21:06] INFO root fetch - processPackages [dgopy]: Start processing: dms-collector
+[2023-05-30 11:21:06] INFO root fetch - main [MainThread]: End processing [dgopy] error
+[2023-05-30 11:21:06] INFO root fetch - processPackages [prompthub-py]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-30 11:21:06] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-05-30 11:21:06] INFO root fetch - processPackages [vineyard]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-05-30 11:21:06] INFO root fetch - processPackages [apysc]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-05-30 11:21:06] INFO root fetch - processPackages [dms-collector]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-30 11:21:06] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-30 11:21:06] INFO root fetch - processPackages [meilisearchdsl]: Downloading https://files.pythonhosted.org/packages/5c/9e/66fa7c5d191ddc76cc426599669663d968dcf31374a1bc8e7e963aa98d86/meilisearchdsl-0.1.5.tar.gz
+[2023-05-30 11:21:06] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-05-30 11:21:06] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230530/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-05-30 11:21:06] INFO root fetch - processPackages [dms-collector]: Downloading https://files.pythonhosted.org/packages/10/f4/52670c4b9797406ea3d8c396fedf2e4933b0c35b2c7b74f94712bc4e1c79/dms-collector-2.0.2.tar.gz
+[2023-05-30 11:21:06] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-30 11:21:06] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230530/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-30 11:21:06] INFO root fetch - processPackages [lana]: Downloading https://files.pythonhosted.org/packages/fa/45/f338e639e82cac0d536fcbdef58ac67a9122bc0e7f0932584fefc3535c10/lana-0.1.2.tar.gz
+[2023-05-30 11:21:06] INFO root fetch - processPackages [airflow-provider-vineyard]: executing diffoscope
+[2023-05-30 11:21:06] INFO root fetch - processPackages [airflow-provider-vineyard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_provider_vineyard-0.8.6-py3-none-any.whl.zip tmp/airflow_provider_vineyard-0.9.0-py3-none-any.whl.zip --markdown 20230530/a/airflow-provider-vineyard/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 11:21:06] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/36/d8/0af02669facbf159982c62659ac70ae2e85a59db8f2154877864d0ad3c46/apysc-2.8.1.tar.gz
+[2023-05-30 11:21:06] INFO root fetch - processPackages [vineyard]: executing diffoscope
+[2023-05-30 11:21:06] INFO root fetch - processPackages [vineyard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard-0.8.6-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230530/v/vineyard/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 11:21:06] INFO root fetch - processPackages [meilisearchdsl]: Downloading https://files.pythonhosted.org/packages/af/21/5313f704e6c365c390b18ecde63f5a750bc69c69f53711a08c397c00e7e4/meilisearchdsl-0.1.6.tar.gz
+[2023-05-30 11:21:06] INFO root fetch - processPackages [dms-collector]: Downloading https://files.pythonhosted.org/packages/fb/ab/ce57a30847be76c985788a7a4191079826e6967a87b525cc0e24f436750f/dms-collector-2.0.3.tar.gz
+[2023-05-30 11:21:06] INFO root fetch - processPackages [lana]: executing diffoscope
+[2023-05-30 11:21:06] INFO root fetch - processPackages [lana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lana-0.1.1.tar.gz tmp/lana-0.1.2.tar.gz --markdown 20230530/l/lana/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 11:21:06] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-05-30 11:21:06] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-2.8.0.tar.gz tmp/apysc-2.8.1.tar.gz --markdown 20230530/a/apysc/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-05-30 11:21:06] INFO root fetch - processPackages [meilisearchdsl]: executing diffoscope
+[2023-05-30 11:21:06] INFO root fetch - processPackages [meilisearchdsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearchdsl-0.1.5.tar.gz tmp/meilisearchdsl-0.1.6.tar.gz --markdown 20230530/m/meilisearchdsl/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-30 11:21:06] INFO root fetch - processPackages [dms-collector]: executing diffoscope
+[2023-05-30 11:21:06] INFO root fetch - processPackages [dms-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dms-collector-2.0.2.tar.gz tmp/dms-collector-2.0.3.tar.gz --markdown 20230530/d/dms-collector/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-30 11:21:08] INFO root fetch - processPackages [spanishconjugator]: Start processing: spanishconjugator
+[2023-05-30 11:21:08] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-30 11:21:08] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-30 11:21:08] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-30 11:21:08] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230530/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-30 11:21:08] INFO root fetch - processPackages [lamindb]: Start processing: duptextfinder
+[2023-05-30 11:21:08] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-05-30 11:21:08] WARNING root fetch - processPackages [duptextfinder]: Skipping, unable to determine old version
+[2023-05-30 11:21:08] INFO root fetch - processPackages [duptextfinder]: Start processing: odoo14-addon-ddmrp
+[2023-05-30 11:21:08] INFO root fetch - main [MainThread]: End processing [duptextfinder] error
+[2023-05-30 11:21:08] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-05-30 11:21:08] INFO root fetch - main [MainThread]: End processing [airflow-provider-vineyard]: success
+[2023-05-30 11:21:08] INFO root fetch - main [MainThread]: End processing [lana]: success
+[2023-05-30 11:21:08] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-30 11:21:08] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230530/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-05-30 11:21:08] INFO root fetch - main [MainThread]: End processing [meilisearchdsl]: success
+[2023-05-30 11:21:08] INFO root fetch - processPackages [prompthub-py]: Downloading https://files.pythonhosted.org/packages/83/bc/d8b2d23da41526ca85b41d3ebaf70016286c7138998089c56347122e6073/prompthub_py-3.0.1.tar.gz
+[2023-05-30 11:21:08] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2023-05-30 11:21:08] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-05-30 11:21:08] INFO root fetch - processPackages [prompthub-py]: executing diffoscope
+[2023-05-30 11:21:08] INFO root fetch - processPackages [prompthub-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompthub_py-3.0.0.tar.gz tmp/prompthub_py-3.0.1.tar.gz --markdown 20230530/p/prompthub-py/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-30 11:21:09] INFO root fetch - main [MainThread]: End processing [dms-collector]: success
+[2023-05-30 11:21:10] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-30 11:21:10] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-30 11:21:10] INFO root fetch - main [MainThread]: End processing [prompthub-py]: success
+[2023-05-30 11:21:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2023-05-30 11:21:13] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-05-30 11:24:01] INFO root fetch - main [MainThread]: End processing [vineyard]: success
+[2023-05-30 11:24:01] INFO root fetch - main [MainThread]: Store serial: [18299959]
