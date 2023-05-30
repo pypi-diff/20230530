@@ -13081,3 +13081,117 @@
 [2023-05-30 15:03:08] INFO root fetch - main [MainThread]: End processing [PyCosmo]: success
 [2023-05-30 15:03:15] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-30 15:03:15] INFO root fetch - main [MainThread]: Store serial: [18302493]
+[2023-05-30 15:08:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18302493]
+[2023-05-30 15:08:24] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-30 15:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: interval-sdk
+[2023-05-30 15:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mysql-oop
+[2023-05-30 15:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shepherd-core
+[2023-05-30 15:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shepherd-data
+[2023-05-30 15:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ckanext-toolbelt
+[2023-05-30 15:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simplerabbit
+[2023-05-30 15:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-05-30 15:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dl2050nn
+[2023-05-30 15:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: salure-helpers-ftp
+[2023-05-30 15:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: onnx2tf
+[2023-05-30 15:08:24] INFO root fetch - processPackages [interval-sdk]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-30 15:08:24] INFO root fetch - processPackages [simplerabbit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 15:08:24] INFO root fetch - processPackages [dl2050nn]: New version: [1.0.8] Old Version: [1.0.78]
+[2023-05-30 15:08:24] INFO root fetch - processPackages [shepherd-core]: New version: [2023.5.6] Old Version: [2023.5.5]
+[2023-05-30 15:08:24] INFO root fetch - processPackages [salure-helpers-ftp]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-30 15:08:24] INFO root fetch - processPackages [mysql-oop]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-30 15:08:24] INFO root fetch - processPackages [shepherd-data]: New version: [2023.5.6] Old Version: [2023.5.5]
+[2023-05-30 15:08:24] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.5.29] Old Version: [2023.5.28]
+[2023-05-30 15:08:24] INFO root fetch - processPackages [ckanext-toolbelt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-30 15:08:24] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-30 15:08:24] INFO root fetch - processPackages [interval-sdk]: executing diffoscope
+[2023-05-30 15:08:24] INFO root fetch - processPackages [interval-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interval_sdk-1.3.0.tar.gz tmp/interval_sdk-1.3.1.tar.gz --markdown 20230530/i/interval-sdk/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-30 15:08:24] INFO root fetch - processPackages [shepherd-core]: Downloading https://files.pythonhosted.org/packages/b8/af/6976f0ab5c5dae47400a71f8566ff6d01e5f6ac9f99904b8779aa9cb3b5c/shepherd_core-2023.5.5.tar.gz
+[2023-05-30 15:08:24] INFO root fetch - processPackages [dl2050nn]: Downloading https://files.pythonhosted.org/packages/9c/8d/a7e476193e854969383edc615e26e7612f3d3de6341eb92d09bd5586a489/dl2050nn-1.0.78.tar.gz
+[2023-05-30 15:08:24] INFO root fetch - processPackages [simplerabbit]: Downloading https://files.pythonhosted.org/packages/2e/83/ff9b3ec05d22a7a074f2443a809d336b5f81a0082471f187f975ce6ece2c/simplerabbit-0.0.8.tar.gz
+[2023-05-30 15:08:24] INFO root fetch - processPackages [shepherd-data]: Downloading https://files.pythonhosted.org/packages/d6/3f/ab387d775e5dc1145ad2abea597efe861b72891b5c56ee314a55e0f93ce4/shepherd_data-2023.5.5.tar.gz
+[2023-05-30 15:08:24] INFO root fetch - processPackages [salure-helpers-ftp]: Downloading https://files.pythonhosted.org/packages/44/a4/04813caf6b67148e06028319172face2e23f9009c4751894ddfceae7a02f/salure_helpers_ftp-1.5.1.tar.gz
+[2023-05-30 15:08:24] INFO root fetch - processPackages [ckanext-toolbelt]: Downloading https://files.pythonhosted.org/packages/9a/59/103205e9985367b4bc6bc151e81cbde40d5538b6757b7917e0576a460b8e/ckanext-toolbelt-0.3.8.tar.gz
+[2023-05-30 15:08:24] INFO root fetch - processPackages [salure-helpers-ftp]: executing diffoscope
+[2023-05-30 15:08:24] INFO root fetch - processPackages [salure-helpers-ftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_ftp-1.5.0.tar.gz tmp/salure_helpers_ftp-1.5.1.tar.gz --markdown 20230530/s/salure-helpers-ftp/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-30 15:08:24] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f7/09/d86347973da4afc3c35c7687763f8303c4b6f8df982b3105ad8727cad70b/fbgemm_gpu_nightly_cpu-2023.5.29-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-30 15:08:24] INFO root fetch - processPackages [dl2050nn]: executing diffoscope
+[2023-05-30 15:08:24] INFO root fetch - processPackages [dl2050nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050nn-1.0.78.tar.gz tmp/dl2050nn-1.0.8.tar.gz --markdown 20230530/d/dl2050nn/1.0.78-1.0.8/diff.md --exclude *.pyd
+[2023-05-30 15:08:24] INFO root fetch - processPackages [mysql-oop]: Downloading https://files.pythonhosted.org/packages/93/51/7ae76d9d5c336368da23cfb3942326c2a686abb12ae96dc2ce195d4a610d/mysql-oop-0.1.6.tar.gz
+[2023-05-30 15:08:24] INFO root fetch - processPackages [shepherd-data]: Downloading https://files.pythonhosted.org/packages/1f/0d/c1ba497a67b628d4972512b81830fc15f555a0e9675cdc60babd5e39c104/shepherd_data-2023.5.6.tar.gz
+[2023-05-30 15:08:24] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-05-30 15:08:24] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.5.28-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.5.29-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230530/f/fbgemm-gpu-nightly-cpu/2023.5.28-2023.5.29/diff.md --exclude *.pyd
+[2023-05-30 15:08:24] INFO root fetch - processPackages [mysql-oop]: executing diffoscope
+[2023-05-30 15:08:24] INFO root fetch - processPackages [mysql-oop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-oop-0.1.5.tar.gz tmp/mysql-oop-0.1.6.tar.gz --markdown 20230530/m/mysql-oop/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-30 15:08:24] INFO root fetch - processPackages [shepherd-core]: Downloading https://files.pythonhosted.org/packages/1c/f6/66def92f5b3ebdbd9bbfccf83f5deee5276f8020f44aa055eeff68a02208/shepherd_core-2023.5.6.tar.gz
+[2023-05-30 15:08:24] INFO root fetch - processPackages [shepherd-data]: executing diffoscope
+[2023-05-30 15:08:24] INFO root fetch - processPackages [simplerabbit]: Downloading https://files.pythonhosted.org/packages/47/7a/7dc5049b920a917322132e41a0bd586312d7501a23cb4de9f30639f920f1/simplerabbit-0.0.9.tar.gz
+[2023-05-30 15:08:24] INFO root fetch - processPackages [shepherd-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shepherd_data-2023.5.5.tar.gz tmp/shepherd_data-2023.5.6.tar.gz --markdown 20230530/s/shepherd-data/2023.5.5-2023.5.6/diff.md --exclude *.pyd
+[2023-05-30 15:08:25] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-30 15:08:25] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230530/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-30 15:08:25] INFO root fetch - processPackages [shepherd-core]: executing diffoscope
+[2023-05-30 15:08:25] INFO root fetch - processPackages [shepherd-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shepherd_core-2023.5.5.tar.gz tmp/shepherd_core-2023.5.6.tar.gz --markdown 20230530/s/shepherd-core/2023.5.5-2023.5.6/diff.md --exclude *.pyd
+[2023-05-30 15:08:25] INFO root fetch - processPackages [ckanext-toolbelt]: Downloading https://files.pythonhosted.org/packages/eb/7c/3edf6399fb36f1bc509d50bc2bc4955f8fc471744e72e8cf233a24b6e95b/ckanext-toolbelt-0.3.9.tar.gz
+[2023-05-30 15:08:25] INFO root fetch - processPackages [simplerabbit]: executing diffoscope
+[2023-05-30 15:08:25] INFO root fetch - processPackages [simplerabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplerabbit-0.0.8.tar.gz tmp/simplerabbit-0.0.9.tar.gz --markdown 20230530/s/simplerabbit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 15:08:25] INFO root fetch - processPackages [ckanext-toolbelt]: executing diffoscope
+[2023-05-30 15:08:25] INFO root fetch - processPackages [ckanext-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-toolbelt-0.3.8.tar.gz tmp/ckanext-toolbelt-0.3.9.tar.gz --markdown 20230530/c/ckanext-toolbelt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-30 15:08:26] INFO root fetch - processPackages [interval-sdk]: Start processing: api-limit
+[2023-05-30 15:08:26] INFO root fetch - main [MainThread]: End processing [interval-sdk]: success
+[2023-05-30 15:08:26] INFO root fetch - processPackages [api-limit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 15:08:26] INFO root fetch - processPackages [salure-helpers-ftp]: Start processing: talisman-dm
+[2023-05-30 15:08:26] INFO root fetch - main [MainThread]: End processing [salure-helpers-ftp]: success
+[2023-05-30 15:08:26] INFO root fetch - processPackages [talisman-dm]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-30 15:08:26] INFO root fetch - processPackages [api-limit]: Downloading https://files.pythonhosted.org/packages/5d/18/ede14007525222faad3dd923c4793f3098bf78f1f3289978cbbba404c9e0/api_limit-0.0.1.tar.gz
+[2023-05-30 15:08:26] INFO root fetch - processPackages [dl2050nn]: Start processing: eodc
+[2023-05-30 15:08:26] INFO root fetch - main [MainThread]: End processing [dl2050nn]: success
+[2023-05-30 15:08:26] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/bd/ef/0d2809d6ed2c72eee47f846077380162aecf867d99c7289e3fbcb3a223f9/talisman-dm-1.0.0a9.tar.gz
+[2023-05-30 15:08:26] INFO root fetch - processPackages [eodc]: New version: [2023.5.1] Old Version: [2023.5.0rc1]
+[2023-05-30 15:08:26] INFO root fetch - processPackages [api-limit]: Downloading https://files.pythonhosted.org/packages/34/d6/021f1814f961fef268a368d6ce080a0be6cd8abadb6f602fc41c1b5a586c/api_limit-0.0.2.tar.gz
+[2023-05-30 15:08:26] INFO root fetch - processPackages [talisman-dm]: executing diffoscope
+[2023-05-30 15:08:26] INFO root fetch - processPackages [talisman-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talisman-dm-1.0.0a8.tar.gz tmp/talisman-dm-1.0.0a9.tar.gz --markdown 20230530/t/talisman-dm/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-30 15:08:26] INFO root fetch - processPackages [api-limit]: executing diffoscope
+[2023-05-30 15:08:26] INFO root fetch - processPackages [api-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_limit-0.0.1.tar.gz tmp/api_limit-0.0.2.tar.gz --markdown 20230530/a/api-limit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 15:08:26] INFO root fetch - processPackages [mysql-oop]: Start processing: moto
+[2023-05-30 15:08:26] INFO root fetch - main [MainThread]: End processing [mysql-oop]: success
+[2023-05-30 15:08:26] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-30 15:08:26] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/65/28/a5fcca0737bac218f2a7d22bc5ca44fc86fa2e47a1e18d7d6fa6329bce91/eodc-2023.5.1.tar.gz
+[2023-05-30 15:08:27] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-30 15:08:27] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230530/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-30 15:08:27] INFO root fetch - processPackages [shepherd-data]: Start processing: playmolecule
+[2023-05-30 15:08:27] INFO root fetch - main [MainThread]: End processing [shepherd-data]: success
+[2023-05-30 15:08:27] INFO root fetch - processPackages [playmolecule]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-05-30 15:08:27] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2023-05-30 15:08:27] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2023.5.0rc1.tar.gz tmp/eodc-2023.5.1.tar.gz --markdown 20230530/e/eodc/2023.5.0rc1-2023.5.1/diff.md --exclude *.pyd
+[2023-05-30 15:08:27] INFO root fetch - processPackages [simplerabbit]: Start processing: onlinepayments-sdk-python2
+[2023-05-30 15:08:27] INFO root fetch - main [MainThread]: End processing [simplerabbit]: success
+[2023-05-30 15:08:27] INFO root fetch - processPackages [onlinepayments-sdk-python2]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-30 15:08:27] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/3c/11/876edd2ab71c9e6832c6f22abcf3aabb82eb489902f8c22257f50ea12771/playmolecule-1.8.4.tar.gz
+[2023-05-30 15:08:27] INFO root fetch - processPackages [onlinepayments-sdk-python2]: Downloading https://files.pythonhosted.org/packages/43/c7/7ad08f50743b8a1bcdcbeec11af7b20b4393a657c09a98069fd77af21b4c/onlinepayments-sdk-python2-4.8.0.zip
+[2023-05-30 15:08:27] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-05-30 15:08:27] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.8.3.tar.gz tmp/playmolecule-1.8.4.tar.gz --markdown 20230530/p/playmolecule/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-05-30 15:08:27] INFO root fetch - processPackages [ckanext-toolbelt]: Start processing: openqtsim
+[2023-05-30 15:08:27] INFO root fetch - main [MainThread]: End processing [ckanext-toolbelt]: success
+[2023-05-30 15:08:27] INFO root fetch - processPackages [openqtsim]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-30 15:08:27] INFO root fetch - processPackages [onlinepayments-sdk-python2]: Downloading https://files.pythonhosted.org/packages/cc/33/2f415c744846f4834d26c13b66ec4921a450327e503ec7dac50ae61999de/onlinepayments-sdk-python2-4.9.0.zip
+[2023-05-30 15:08:27] INFO root fetch - processPackages [openqtsim]: Downloading https://files.pythonhosted.org/packages/b4/f0/164af4fef83bdb108fc9edc6bbe71c10fcb828e22c39aaf04841bfa224db/OpenQTSim-0.5.0.tar.gz
+[2023-05-30 15:08:27] INFO root fetch - processPackages [onlinepayments-sdk-python2]: executing diffoscope
+[2023-05-30 15:08:27] INFO root fetch - processPackages [onlinepayments-sdk-python2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onlinepayments-sdk-python2-4.8.0.zip tmp/onlinepayments-sdk-python2-4.9.0.zip --markdown 20230530/o/onlinepayments-sdk-python2/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-30 15:08:28] INFO root fetch - processPackages [openqtsim]: Downloading https://files.pythonhosted.org/packages/59/62/7e5e57fdaf19064d50261f3c51b546a81baa1a04d6433dd4996a87ca31e8/openqtsim-0.5.1.tar.gz
+[2023-05-30 15:08:28] INFO root fetch - processPackages [openqtsim]: executing diffoscope
+[2023-05-30 15:08:28] INFO root fetch - processPackages [openqtsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenQTSim-0.5.0.tar.gz tmp/openqtsim-0.5.1.tar.gz --markdown 20230530/o/openqtsim/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-30 15:08:28] INFO root fetch - processPackages [api-limit]: Start processing: nbdev-stdlib
+[2023-05-30 15:08:28] INFO root fetch - main [MainThread]: End processing [api-limit]: success
+[2023-05-30 15:08:28] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-30 15:08:28] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 15:08:28] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-30 15:08:28] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230530/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 15:08:28] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2023-05-30 15:08:29] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-05-30 15:08:29] INFO root fetch - main [MainThread]: End processing [talisman-dm]: success
+[2023-05-30 15:08:29] INFO root fetch - main [MainThread]: End processing [shepherd-core]: success
+[2023-05-30 15:08:29] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-05-30 15:08:30] INFO root fetch - main [MainThread]: End processing [openqtsim]: success
+[2023-05-30 15:08:30] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-30 15:08:31] INFO root fetch - main [MainThread]: End processing [onlinepayments-sdk-python2]: success
+[2023-05-30 15:08:58] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-30 15:08:58] INFO root fetch - main [MainThread]: Store serial: [18302546]
