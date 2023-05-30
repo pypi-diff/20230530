@@ -5778,3 +5778,78 @@
 [2023-05-30 07:09:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sky]: success
 [2023-05-30 07:12:43] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-05-30 07:12:43] INFO root fetch - main [MainThread]: Store serial: [18298009]
+[2023-05-30 07:17:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298009]
+[2023-05-30 07:17:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-30 07:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jxdb
+[2023-05-30 07:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-mail-tracking
+[2023-05-30 07:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meowerbot
+[2023-05-30 07:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FlyBrainLab
+[2023-05-30 07:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gisting
+[2023-05-30 07:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jxdb
+[2023-05-30 07:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: akshare
+[2023-05-30 07:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyParallelPipe
+[2023-05-30 07:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gravitas
+[2023-05-30 07:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: woolworths-ml-engineering-challenge-zhiduo
+[2023-05-30 07:17:52] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: New version: [12.0.3.1.0.99.dev3] Old Version: [12.0.3.1.0.99.dev2]
+[2023-05-30 07:17:52] INFO root fetch - processPackages [gisting]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-30 07:17:52] WARNING root fetch - processPackages [jxdb]: Skipping, unable to determine old version
+[2023-05-30 07:17:52] INFO root fetch - processPackages [jxdb]: Start processing: nonebot-plugin-sky
+[2023-05-30 07:17:52] INFO root fetch - processPackages [PyParallelPipe]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-30 07:17:52] INFO root fetch - main [MainThread]: End processing [jxdb] error
+[2023-05-30 07:17:52] WARNING root fetch - processPackages [woolworths-ml-engineering-challenge-zhiduo]: Skipping, unable to determine old version
+[2023-05-30 07:17:52] INFO root fetch - processPackages [meowerbot]: New version: [2.5.7] Old Version: [2.5.5]
+[2023-05-30 07:17:52] INFO root fetch - processPackages [woolworths-ml-engineering-challenge-zhiduo]: Start processing: KingdomsAndWarfare
+[2023-05-30 07:17:52] INFO root fetch - main [MainThread]: End processing [woolworths-ml-engineering-challenge-zhiduo] error
+[2023-05-30 07:17:52] WARNING root fetch - processPackages [jxdb]: Skipping, unable to determine old version
+[2023-05-30 07:17:52] INFO root fetch - processPackages [jxdb]: Start processing: odoo12-addon-stock-request
+[2023-05-30 07:17:52] INFO root fetch - main [MainThread]: End processing [jxdb] error
+[2023-05-30 07:17:52] INFO root fetch - processPackages [FlyBrainLab]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-30 07:17:52] INFO root fetch - processPackages [gravitas]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 07:17:52] INFO root fetch - processPackages [nonebot-plugin-sky]: New version: [2.2.9.post1] Old Version: [2.2.9]
+[2023-05-30 07:17:52] INFO root fetch - processPackages [KingdomsAndWarfare]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-30 07:17:52] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-05-30 07:17:52] INFO root fetch - processPackages [odoo12-addon-stock-request]: New version: [12.0.1.5.0.99.dev9] Old Version: [12.0.1.5.0.99.dev8]
+[2023-05-30 07:17:52] INFO root fetch - processPackages [PyParallelPipe]: Downloading https://files.pythonhosted.org/packages/56/7f/590e46744830567725ec5778b4d6c10531f8525e4c308bbf0d57c9700c70/PyParallelPipe-0.0.1.tar.gz
+[2023-05-30 07:17:52] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-30 07:17:52] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230530/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-05-30 07:17:52] INFO root fetch - processPackages [gisting]: Downloading https://files.pythonhosted.org/packages/6d/0e/d634253b752865a7e3b936fe40d4de34f84ca1365869f47c3149d22575c7/gisting-1.3.0.tar.gz
+[2023-05-30 07:17:52] INFO root fetch - processPackages [nonebot-plugin-sky]: Downloading https://files.pythonhosted.org/packages/f2/09/52a7fd843dfcee3bc994606a6d94baf85d1921205fd8d0c5408c37f6d104/nonebot-plugin-sky-2.2.9.post1.tar.gz
+[2023-05-30 07:17:52] INFO root fetch - processPackages [FlyBrainLab]: Downloading https://files.pythonhosted.org/packages/34/47/4c7ecccbce6f0e3962cf6cca00547b42f0ade1fba3594bbc4b65a79b3b4e/FlyBrainLab-1.1.8.tar.gz
+[2023-05-30 07:17:52] INFO root fetch - processPackages [KingdomsAndWarfare]: Downloading https://files.pythonhosted.org/packages/eb/13/46e70c0a741707ad21018848718e5c85ac7d547ebbe775565b0c03647ba1/KingdomsAndWarfare-0.1.0-py3-none-any.whl
+[2023-05-30 07:17:52] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/32/31/c1487c5a68ca27eac0ac0dc815530a482a08f3f2e76528191e6981d0c71c/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev2-py3-none-any.whl
+[2023-05-30 07:17:52] INFO root fetch - processPackages [meowerbot]: Downloading https://files.pythonhosted.org/packages/e4/7e/68a080351677bd7cd911af6e5741515fa60c6609519b26d3cd712b1fffd0/meowerbot-2.5.7.tar.gz
+[2023-05-30 07:17:53] INFO root fetch - processPackages [nonebot-plugin-sky]: executing diffoscope
+[2023-05-30 07:17:53] INFO root fetch - processPackages [nonebot-plugin-sky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sky-2.2.9.tar.gz tmp/nonebot-plugin-sky-2.2.9.post1.tar.gz --markdown 20230530/n/nonebot-plugin-sky/2.2.9-2.2.9.post1/diff.md --exclude *.pyd
+[2023-05-30 07:17:53] INFO root fetch - processPackages [gravitas]: Downloading https://files.pythonhosted.org/packages/9a/ad/9ff2a946c554e29c5b5395ba31a440058e3dcb238f5875c1689a310c2a83/gravitas-0.1.3.tar.gz
+[2023-05-30 07:17:53] INFO root fetch - processPackages [PyParallelPipe]: Downloading https://files.pythonhosted.org/packages/34/69/de48b47eae8758cd3aff7e13c9ad085081b1600e23a107024419ead2920c/PyParallelPipe-1.0.0.tar.gz
+[2023-05-30 07:17:53] INFO root fetch - processPackages [meowerbot]: executing diffoscope
+[2023-05-30 07:17:53] INFO root fetch - processPackages [meowerbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meowerbot-2.5.5.tar.gz tmp/meowerbot-2.5.7.tar.gz --markdown 20230530/m/meowerbot/2.5.5-2.5.7/diff.md --exclude *.pyd
+[2023-05-30 07:17:53] INFO root fetch - processPackages [gisting]: Downloading https://files.pythonhosted.org/packages/12/1b/07389b53a1a68a923e93dcd7a5b59fb6690537f1ffd57c53ce6a55dd0fba/gisting-1.3.1.tar.gz
+[2023-05-30 07:17:53] INFO root fetch - processPackages [PyParallelPipe]: executing diffoscope
+[2023-05-30 07:17:53] INFO root fetch - processPackages [PyParallelPipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyParallelPipe-0.0.1.tar.gz tmp/PyParallelPipe-1.0.0.tar.gz --markdown 20230530/P/PyParallelPipe/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-30 07:17:53] INFO root fetch - processPackages [KingdomsAndWarfare]: Downloading https://files.pythonhosted.org/packages/3b/b3/cf3be3a933a91def8cc9f47fe95c90b30edbdab2cc01c52cd1a668684b40/KingdomsAndWarfare-0.2.0.tar.gz
+[2023-05-30 07:17:53] INFO root fetch - processPackages [odoo12-addon-stock-request]: executing diffoscope
+[2023-05-30 07:17:53] INFO root fetch - processPackages [odoo12-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl.zip --markdown 20230530/o/odoo12-addon-stock-request/12.0.1.5.0.99.dev8-12.0.1.5.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-30 07:17:53] INFO root fetch - processPackages [gravitas]: executing diffoscope
+[2023-05-30 07:17:53] INFO root fetch - processPackages [gravitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitas-0.1.2.tar.gz tmp/gravitas-0.1.3.tar.gz --markdown 20230530/g/gravitas/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 07:17:53] INFO root fetch - processPackages [FlyBrainLab]: Downloading https://files.pythonhosted.org/packages/cf/6d/122445005ec69222661d770ed129ec41feb5c2cddbf9fdaeb45ee5c5d6e2/FlyBrainLab-1.1.9.tar.gz
+[2023-05-30 07:17:53] INFO root fetch - processPackages [KingdomsAndWarfare]: executing diffoscope
+[2023-05-30 07:17:53] INFO root fetch - processPackages [KingdomsAndWarfare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KingdomsAndWarfare-0.1.0-py3-none-any.whl.zip tmp/KingdomsAndWarfare-0.2.0.tar.gz --markdown 20230530/K/KingdomsAndWarfare/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 07:17:53] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/bf/f7/ecd562c5a2c12b83a0e1d4a34a5751d9571ff4fc9dec7580931cd0720486/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev3-py3-none-any.whl
+[2023-05-30 07:17:53] INFO root fetch - processPackages [FlyBrainLab]: executing diffoscope
+[2023-05-30 07:17:53] INFO root fetch - processPackages [FlyBrainLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyBrainLab-1.1.8.tar.gz tmp/FlyBrainLab-1.1.9.tar.gz --markdown 20230530/F/FlyBrainLab/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-30 07:17:53] INFO root fetch - processPackages [gisting]: executing diffoscope
+[2023-05-30 07:17:53] INFO root fetch - processPackages [gisting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gisting-1.3.0.tar.gz tmp/gisting-1.3.1.tar.gz --markdown 20230530/g/gisting/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-30 07:17:53] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: executing diffoscope
+[2023-05-30 07:17:53] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev3-py3-none-any.whl.zip --markdown 20230530/o/odoo12-addon-mail-tracking/12.0.3.1.0.99.dev2-12.0.3.1.0.99.dev3/diff.md --exclude *.pyd
+[2023-05-30 07:17:54] INFO root fetch - main [MainThread]: End processing [meowerbot]: success
+[2023-05-30 07:17:55] INFO root fetch - main [MainThread]: End processing [PyParallelPipe]: success
+[2023-05-30 07:17:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sky]: success
+[2023-05-30 07:17:55] INFO root fetch - main [MainThread]: End processing [KingdomsAndWarfare]: success
+[2023-05-30 07:17:55] INFO root fetch - main [MainThread]: End processing [gravitas]: success
+[2023-05-30 07:17:55] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-request]: success
+[2023-05-30 07:17:55] INFO root fetch - main [MainThread]: End processing [gisting]: success
+[2023-05-30 07:17:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-mail-tracking]: success
+[2023-05-30 07:17:56] INFO root fetch - main [MainThread]: End processing [FlyBrainLab]: success
+[2023-05-30 07:17:57] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-30 07:17:57] INFO root fetch - main [MainThread]: Store serial: [18298054]
