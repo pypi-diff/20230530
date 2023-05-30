@@ -5090,3 +5090,35 @@
 [2023-05-30 06:01:26] INFO root fetch - main [MainThread]: End processing [doodleverse-utils]: success
 [2023-05-30 06:01:27] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
 [2023-05-30 06:01:27] INFO root fetch - main [MainThread]: Store serial: [18297626]
+[2023-05-30 06:06:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297626]
+[2023-05-30 06:06:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-30 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-05-30 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dhint
+[2023-05-30 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zcmds
+[2023-05-30 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ipghrms-leave
+[2023-05-30 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypdfium2
+[2023-05-30 06:06:35] INFO root fetch - processPackages [dhint]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-30 06:06:35] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-30 06:06:35] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.6] Old Version: [0.19.5]
+[2023-05-30 06:06:35] INFO root fetch - processPackages [django-ipghrms-leave]: New version: [1.2] Old Version: [1.1]
+[2023-05-30 06:06:35] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2023-05-30 06:06:35] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20230530/z/zcmds/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-30 06:06:36] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/8a/6f/5d6ab11a39f77c65df3904c0401e10a65564f7b9e22031c15889de17723e/django-ipghrms-leave-1.1.tar.gz
+[2023-05-30 06:06:36] INFO root fetch - processPackages [dhint]: Downloading https://files.pythonhosted.org/packages/85/05/0da7674a1cf10efdcc029447a8afb06f186bbfa691ac07ad330ad9b983fa/dhint-0.0.8.tar.gz
+[2023-05-30 06:06:36] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/47/b2/62347586947b9eb6149bc4a141bf40daafa1e7f4d961a266fa9731e501c5/aws_prototyping_sdk.type_safe_api-0.19.6.tar.gz
+[2023-05-30 06:06:36] INFO root fetch - processPackages [dhint]: executing diffoscope
+[2023-05-30 06:06:36] INFO root fetch - processPackages [dhint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhint-0.0.7.tar.gz tmp/dhint-0.0.8.tar.gz --markdown 20230530/d/dhint/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 06:06:36] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/16/74/b1ace87f2a1c8e3bed55f89784f83a816df5a1a8ab842e7ee2225e111419/django-ipghrms-leave-1.2.tar.gz
+[2023-05-30 06:06:36] INFO root fetch - processPackages [django-ipghrms-leave]: executing diffoscope
+[2023-05-30 06:06:36] INFO root fetch - processPackages [django-ipghrms-leave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-leave-1.1.tar.gz tmp/django-ipghrms-leave-1.2.tar.gz --markdown 20230530/d/django-ipghrms-leave/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-30 06:06:36] INFO root fetch - processPackages [pypdfium2]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-30 06:06:36] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-05-30 06:06:36] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.5.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.6.tar.gz --markdown 20230530/a/aws-prototyping-sdk.type-safe-api/0.19.5-0.19.6/diff.md --exclude *.pyd
+[2023-05-30 06:06:36] INFO root fetch - processPackages [pypdfium2]: executing diffoscope
+[2023-05-30 06:06:36] INFO root fetch - processPackages [pypdfium2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfium2-4.8.0.tar.gz tmp/pypdfium2-4.9.0.tar.gz --markdown 20230530/p/pypdfium2/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-30 06:06:37] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2023-05-30 06:06:37] INFO root fetch - main [MainThread]: End processing [dhint]: success
+[2023-05-30 06:06:38] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-05-30 06:06:38] INFO root fetch - main [MainThread]: End processing [pypdfium2]: success
+[2023-05-30 06:06:39] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
+[2023-05-30 06:06:39] INFO root fetch - main [MainThread]: Store serial: [18297648]
