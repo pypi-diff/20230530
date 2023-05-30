@@ -4340,3 +4340,26 @@
 [2023-05-30 04:52:37] INFO root fetch - main [MainThread]: End processing [tcp-over-websocket]: success
 [2023-05-30 04:52:37] INFO root fetch - main [MainThread]: End processing [mpyl]: success
 [2023-05-30 04:52:37] INFO root fetch - main [MainThread]: Store serial: [18297199]
+[2023-05-30 04:57:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297199]
+[2023-05-30 04:57:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-30 04:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyArrShow
+[2023-05-30 04:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roboco
+[2023-05-30 04:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: corpus-judge
+[2023-05-30 04:57:46] INFO root fetch - processPackages [roboco]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 04:57:46] INFO root fetch - processPackages [PyArrShow]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-30 04:57:46] INFO root fetch - processPackages [corpus-judge]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 04:57:46] INFO root fetch - processPackages [roboco]: Downloading https://files.pythonhosted.org/packages/e3/d3/44ae882cbac013cb54542329842376f49ad0e1dbd6eae168ac6ef07900a0/roboco-0.0.3.tar.gz
+[2023-05-30 04:57:46] INFO root fetch - processPackages [corpus-judge]: Downloading https://files.pythonhosted.org/packages/c3/f2/6d0727c6a542a5ec86b9d4a2870cd75f028d411a78d85a59806f5c6e1384/corpus_judge-0.0.4.tar.gz
+[2023-05-30 04:57:46] INFO root fetch - processPackages [PyArrShow]: Downloading https://files.pythonhosted.org/packages/20/b2/7100e10e26021072351a38802f4ccb187762f97858d59cf2341b8e6291eb/PyArrShow-1.0.3.tar.gz
+[2023-05-30 04:57:46] INFO root fetch - processPackages [corpus-judge]: executing diffoscope
+[2023-05-30 04:57:46] INFO root fetch - processPackages [corpus-judge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corpus_judge-0.0.3.tar.gz tmp/corpus_judge-0.0.4.tar.gz --markdown 20230530/c/corpus-judge/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 04:57:46] INFO root fetch - processPackages [roboco]: Downloading https://files.pythonhosted.org/packages/9e/a8/bca4c0cf78fc5404ce3bda658a9dd3200dde6097e6835f327cf9ee955e2c/roboco-0.0.4.tar.gz
+[2023-05-30 04:57:46] INFO root fetch - processPackages [PyArrShow]: Downloading https://files.pythonhosted.org/packages/20/ee/1cf8a7d66d4d162e038fc19f7481ae9dd0d8b30c3b3641c373a75c7111b9/PyArrShow-1.0.4.tar.gz
+[2023-05-30 04:57:46] INFO root fetch - processPackages [PyArrShow]: executing diffoscope
+[2023-05-30 04:57:46] INFO root fetch - processPackages [PyArrShow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyArrShow-1.0.3.tar.gz tmp/PyArrShow-1.0.4.tar.gz --markdown 20230530/P/PyArrShow/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-30 04:57:46] INFO root fetch - processPackages [roboco]: executing diffoscope
+[2023-05-30 04:57:46] INFO root fetch - processPackages [roboco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboco-0.0.3.tar.gz tmp/roboco-0.0.4.tar.gz --markdown 20230530/r/roboco/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 04:57:47] INFO root fetch - main [MainThread]: End processing [corpus-judge]: success
+[2023-05-30 04:57:47] INFO root fetch - main [MainThread]: End processing [PyArrShow]: success
+[2023-05-30 04:57:48] INFO root fetch - main [MainThread]: End processing [roboco]: success
+[2023-05-30 04:57:48] INFO root fetch - main [MainThread]: Store serial: [18297207]
