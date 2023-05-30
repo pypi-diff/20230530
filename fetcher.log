@@ -11808,3 +11808,101 @@
 [2023-05-30 13:48:14] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2023-05-30 13:48:15] INFO root fetch - main [MainThread]: End processing [buteo]: success
 [2023-05-30 13:48:15] INFO root fetch - main [MainThread]: Store serial: [18301654]
+[2023-05-30 13:53:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18301654]
+[2023-05-30 13:53:24] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-30 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LumosWeb
+[2023-05-30 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: su6
+[2023-05-30 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: questdb-connect
+[2023-05-30 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansible-compat
+[2023-05-30 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orbit-component-zerodocs
+[2023-05-30 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libcnmc
+[2023-05-30 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vat-utils
+[2023-05-30 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-dllib-spark3
+[2023-05-30 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: piwaterflow
+[2023-05-30 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mlops-ai
+[2023-05-30 13:53:24] INFO root fetch - processPackages [LumosWeb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 13:53:24] INFO root fetch - processPackages [su6]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-05-30 13:53:24] INFO root fetch - processPackages [questdb-connect]: New version: [1.0.6] Old Version: [0.0.54]
+[2023-05-30 13:53:24] WARNING root fetch - processPackages [orbit-component-zerodocs]: Skipping, unable to determine old version
+[2023-05-30 13:53:24] INFO root fetch - processPackages [orbit-component-zerodocs]: Start processing: bigdl-orca-spark3
+[2023-05-30 13:53:24] INFO root fetch - main [MainThread]: End processing [orbit-component-zerodocs] error
+[2023-05-30 13:53:24] INFO root fetch - processPackages [vat-utils]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-05-30 13:53:24] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-30 13:53:24] INFO root fetch - processPackages [piwaterflow]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-30 13:53:24] INFO root fetch - processPackages [ansible-compat]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-05-30 13:53:24] WARNING root fetch - processPackages [mlops-ai]: Skipping, unable to determine old version
+[2023-05-30 13:53:24] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230529]
+[2023-05-30 13:53:24] INFO root fetch - processPackages [mlops-ai]: Start processing: bigdl-friesian-spark3
+[2023-05-30 13:53:24] INFO root fetch - main [MainThread]: End processing [mlops-ai] error
+[2023-05-30 13:53:24] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230528]
+[2023-05-30 13:53:24] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230528]
+[2023-05-30 13:53:24] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-30 13:53:24] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230530/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-30 13:53:24] INFO root fetch - processPackages [vat-utils]: Downloading https://files.pythonhosted.org/packages/c0/3c/804e361b105f5529c381f9010e60d6deaca83cea06274919e6e0ca15c1ab/vat_utils-0.1.8-py2.py3-none-any.whl
+[2023-05-30 13:53:24] INFO root fetch - processPackages [LumosWeb]: Downloading https://files.pythonhosted.org/packages/d6/a9/f1833f55d9607904eed7b5113bee661f5e138f7df5d2f2fc6a43199e01cf/LumosWeb-0.0.9.tar.gz
+[2023-05-30 13:53:24] INFO root fetch - processPackages [piwaterflow]: Downloading https://files.pythonhosted.org/packages/66/df/85ac908888229e2fd0e73e4714ca152cbccd22e30fb695175410863ca90c/piwaterflow-0.5.8.tar.gz
+[2023-05-30 13:53:24] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/b1/7f/88274140e838298f1ac4f345a2732e0784e90bacc9b04523c479db2d75d6/questdb-connect-0.0.54.tar.gz
+[2023-05-30 13:53:24] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/bc/25/e63726bcca74f6701ecd1ed24a88834ac2d0ae42b1de850d62716ba50fcf/su6-0.6.0.tar.gz
+[2023-05-30 13:53:24] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/ee/56/bcbe0f6255ad1de0a1e3bbc63d9711ff3fbcbed2d37cabc7412311636307/bigdl_dllib_spark3-2.4.0b20230529-py3-none-manylinux1_x86_64.whl
+[2023-05-30 13:53:24] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/92/c8/5c4c375cd521532e768c899b8f85340b0a2681233e34d56a090e6a7b57b6/bigdl_orca_spark3-2.4.0b20230528-py3-none-manylinux1_x86_64.whl
+[2023-05-30 13:53:24] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61368759>=10485760
+[2023-05-30 13:53:24] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: bigdl-chronos-spark3
+[2023-05-30 13:53:24] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-05-30 13:53:24] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207685>=10485760
+[2023-05-30 13:53:24] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: geonode-importer
+[2023-05-30 13:53:24] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-05-30 13:53:24] INFO root fetch - processPackages [LumosWeb]: executing diffoscope
+[2023-05-30 13:53:24] INFO root fetch - processPackages [LumosWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LumosWeb-0.0.8.tar.gz tmp/LumosWeb-0.0.9.tar.gz --markdown 20230530/L/LumosWeb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 13:53:25] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230528]
+[2023-05-30 13:53:25] INFO root fetch - processPackages [geonode-importer]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-30 13:53:25] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-05-30 13:53:25] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-0.5.3.tar.gz tmp/su6-0.6.0.tar.gz --markdown 20230530/s/su6/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-05-30 13:53:25] INFO root fetch - processPackages [ansible-compat]: Downloading https://files.pythonhosted.org/packages/4c/bd/da3a8a432147c77eb9f6624760454a54caeb18e19fff7d327c41cc8202c6/ansible-compat-4.1.1.tar.gz
+[2023-05-30 13:53:25] INFO root fetch - processPackages [piwaterflow]: executing diffoscope
+[2023-05-30 13:53:25] INFO root fetch - processPackages [piwaterflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwaterflow-0.5.7.tar.gz tmp/piwaterflow-0.5.8.tar.gz --markdown 20230530/p/piwaterflow/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-30 13:53:25] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/7c/ab/4aa5d5b7112f77a26113a947504b80c2114aaa659946f4c530d1ca2ff81a/bigdl_friesian_spark3-2.4.0b20230530-py3-none-manylinux1_x86_64.whl
+[2023-05-30 13:53:25] INFO root fetch - processPackages [vat-utils]: Downloading https://files.pythonhosted.org/packages/4c/42/dcf68e8107485a41604ad882ac889873293611e097f72c8536cd36c58289/vat_utils-0.2.0-py2.py3-none-any.whl
+[2023-05-30 13:53:25] INFO root fetch - processPackages [ansible-compat]: executing diffoscope
+[2023-05-30 13:53:25] INFO root fetch - processPackages [ansible-compat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-compat-4.1.0.tar.gz tmp/ansible-compat-4.1.1.tar.gz --markdown 20230530/a/ansible-compat/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-05-30 13:53:25] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-05-30 13:53:25] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230528-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip --markdown 20230530/b/bigdl-friesian-spark3/2.4.0b20230528-2.4.0b20230530/diff.md --exclude *.pyd
+[2023-05-30 13:53:25] INFO root fetch - processPackages [vat-utils]: executing diffoscope
+[2023-05-30 13:53:25] INFO root fetch - processPackages [vat-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vat_utils-0.1.8-py2.py3-none-any.whl.zip tmp/vat_utils-0.2.0-py2.py3-none-any.whl.zip --markdown 20230530/v/vat-utils/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 13:53:25] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-30 13:53:25] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.54.tar.gz tmp/questdb-connect-1.0.6.tar.gz --markdown 20230530/q/questdb-connect/0.0.54-1.0.6/diff.md --exclude *.pyd
+[2023-05-30 13:53:25] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/6f/08/3e17d6ad585cd8b036568552eb426c4418bc8757c2dae1a6f20f77e65f80/bigdl_chronos_spark3-2.4.0b20230530-py3-none-manylinux1_x86_64.whl
+[2023-05-30 13:53:25] INFO root fetch - processPackages [geonode-importer]: Downloading https://files.pythonhosted.org/packages/4b/9d/e2c4ae32386741260432fda2ea4cfb321999ea466cede04010f77375a8a3/geonode_importer-1.0.3-py3-none-any.whl
+[2023-05-30 13:53:25] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-05-30 13:53:25] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230528-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip --markdown 20230530/b/bigdl-chronos-spark3/2.4.0b20230528-2.4.0b20230530/diff.md --exclude *.pyd
+[2023-05-30 13:53:25] INFO root fetch - processPackages [geonode-importer]: executing diffoscope
+[2023-05-30 13:53:25] INFO root fetch - processPackages [geonode-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geonode_importer-1.0.2-py3-none-any.whl.zip tmp/geonode_importer-1.0.3-py3-none-any.whl.zip --markdown 20230530/g/geonode-importer/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-30 13:53:26] INFO root fetch - processPackages [LumosWeb]: Start processing: bigdl-spark3
+[2023-05-30 13:53:26] INFO root fetch - main [MainThread]: End processing [LumosWeb]: success
+[2023-05-30 13:53:26] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230528]
+[2023-05-30 13:53:27] INFO root fetch - processPackages [piwaterflow]: Start processing: hyperthought-transfer
+[2023-05-30 13:53:27] INFO root fetch - main [MainThread]: End processing [piwaterflow]: success
+[2023-05-30 13:53:27] INFO root fetch - processPackages [hyperthought-transfer]: New version: [0.2.1] Old Version: [0.2]
+[2023-05-30 13:53:27] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/37/f1/7830a0bae39074ca9808f69b2214b4c4cf6fccf83838576a84f86395b98a/bigdl_spark3-2.4.0b20230530-py3-none-manylinux1_x86_64.whl
+[2023-05-30 13:53:27] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-05-30 13:53:27] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230528-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip --markdown 20230530/b/bigdl-spark3/2.4.0b20230528-2.4.0b20230530/diff.md --exclude *.pyd
+[2023-05-30 13:53:27] INFO root fetch - processPackages [hyperthought-transfer]: Downloading https://files.pythonhosted.org/packages/f5/c1/340f8b857725b79ea221f60a64aa1f7ddec667edf72fae7704eba262b153/hyperthought-transfer-0.2.tar.gz
+[2023-05-30 13:53:27] INFO root fetch - processPackages [vat-utils]: Start processing: questdb-connect
+[2023-05-30 13:53:27] INFO root fetch - main [MainThread]: End processing [vat-utils]: success
+[2023-05-30 13:53:27] INFO root fetch - processPackages [questdb-connect]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-05-30 13:53:27] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-05-30 13:53:27] INFO root fetch - processPackages [hyperthought-transfer]: Downloading https://files.pythonhosted.org/packages/d4/96/179e3255abd5d3a8d975518f65187ec3bc89beb13353503ae1d56dc4c93e/hyperthought-transfer-0.2.1.tar.gz
+[2023-05-30 13:53:27] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/22/62/10b5017eb58989a2ed96ad46dcb6687ed293f96eb753c958408deb13e9fe/questdb-connect-1.0.8.tar.gz
+[2023-05-30 13:53:27] INFO root fetch - processPackages [hyperthought-transfer]: executing diffoscope
+[2023-05-30 13:53:27] INFO root fetch - processPackages [hyperthought-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperthought-transfer-0.2.tar.gz tmp/hyperthought-transfer-0.2.1.tar.gz --markdown 20230530/h/hyperthought-transfer/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-05-30 13:53:27] INFO root fetch - main [MainThread]: End processing [ansible-compat]: success
+[2023-05-30 13:53:27] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-30 13:53:27] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-1.0.6.tar.gz tmp/questdb-connect-1.0.8.tar.gz --markdown 20230530/q/questdb-connect/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-05-30 13:53:27] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-30 13:53:28] INFO root fetch - main [MainThread]: End processing [geonode-importer]: success
+[2023-05-30 13:53:28] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-30 13:53:28] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-05-30 13:53:28] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-05-30 13:53:29] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-30 13:53:29] INFO root fetch - main [MainThread]: End processing [hyperthought-transfer]: success
+[2023-05-30 13:53:45] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-05-30 13:53:45] INFO root fetch - main [MainThread]: Store serial: [18301713]
