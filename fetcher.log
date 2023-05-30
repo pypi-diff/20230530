@@ -21199,3 +21199,58 @@ EOFError: EOF read where object expected
 [2023-05-30 22:24:17] INFO root fetch - main [MainThread]: End processing [klaviyo-api]: success
 [2023-05-30 22:24:18] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-30 22:24:18] INFO root fetch - main [MainThread]: Store serial: [18307288]
+[2023-05-30 22:29:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18307288]
+[2023-05-30 22:29:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-30 22:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lamindb
+[2023-05-30 22:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tupa123
+[2023-05-30 22:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalk-harness
+[2023-05-30 22:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yt-fts
+[2023-05-30 22:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spida
+[2023-05-30 22:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-walt
+[2023-05-30 22:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bodo-platform-utils
+[2023-05-30 22:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyCapsid
+[2023-05-30 22:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-omnilogic-local
+[2023-05-30 22:29:29] INFO root fetch - processPackages [yt-fts]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 22:29:29] INFO root fetch - processPackages [spida]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-30 22:29:29] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-05-30 22:29:29] INFO root fetch - processPackages [python-omnilogic-local]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-30 22:29:29] INFO root fetch - processPackages [pyCapsid]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-30 22:29:29] INFO root fetch - processPackages [bodo-platform-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 22:29:29] INFO root fetch - processPackages [mkdocs-walt]: New version: [0.0.2.dev0] Old Version: [0.0.1.dev0]
+[2023-05-30 22:29:29] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 22:29:29] INFO root fetch - processPackages [tupa123]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-30 22:29:29] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-05-30 22:29:29] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230530/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 22:29:29] INFO root fetch - processPackages [yt-fts]: executing diffoscope
+[2023-05-30 22:29:29] INFO root fetch - processPackages [yt-fts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt-fts-0.1.8.tar.gz tmp/yt-fts-0.1.9.tar.gz --markdown 20230530/y/yt-fts/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 22:29:29] INFO root fetch - processPackages [spida]: Downloading https://files.pythonhosted.org/packages/f1/fc/619ac11e3b214eb8110e91a77c474fd87cb38571d37b036b4cb152a68685/spida-0.3.2.tar.gz
+[2023-05-30 22:29:29] INFO root fetch - processPackages [mkdocs-walt]: Downloading https://files.pythonhosted.org/packages/35/fd/360dd7b40ceffe63a95ca2576cd08a5b6289e91d69bad08855a9856140bf/mkdocs-walt-0.0.1.dev0.tar.gz
+[2023-05-30 22:29:29] INFO root fetch - processPackages [pyCapsid]: Downloading https://files.pythonhosted.org/packages/86/a0/a981c90eeeefe7ece7bdca317c299f70c929e391e500ce9498cb21069ec2/pyCapsid-0.2.3.tar.gz
+[2023-05-30 22:29:29] INFO root fetch - processPackages [python-omnilogic-local]: Downloading https://files.pythonhosted.org/packages/95/d9/a9279c91e963d118c9e4a4d50e41de926c0cfc70b83ee114e3640fd4addf/python_omnilogic_local-0.5.1.tar.gz
+[2023-05-30 22:29:29] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/6d/98/61582b691e16a012b8a9664c64eb81bdc4c1c3f8fbe87b0ca8ae25c6f968/tupa123-1.5.2.tar.gz
+[2023-05-30 22:29:29] WARNING root fetch - processPackages [pyCapsid]: Skipping package: exceeds size limit 52448252>=10485760
+[2023-05-30 22:29:29] INFO root fetch - main [MainThread]: End processing [pyCapsid] error
+[2023-05-30 22:29:30] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-05-30 22:29:30] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230530/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-05-30 22:29:30] INFO root fetch - processPackages [spida]: Downloading https://files.pythonhosted.org/packages/26/6b/f1bbb6bf4cb1f63c2ceb9657b587a34588359b3253f47c3b3d00c44d9775/spida-0.3.3.tar.gz
+[2023-05-30 22:29:30] INFO root fetch - processPackages [bodo-platform-utils]: executing diffoscope
+[2023-05-30 22:29:30] INFO root fetch - processPackages [bodo-platform-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bodo_platform_utils-0.0.8.tar.gz tmp/bodo_platform_utils-0.0.9.tar.gz --markdown 20230530/b/bodo-platform-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 22:29:30] INFO root fetch - processPackages [mkdocs-walt]: Downloading https://files.pythonhosted.org/packages/75/4a/de89d908224251aba1603ba0cd2bff752cda4b592828bdaf86e49bdc4b08/mkdocs-walt-0.0.2.dev0.tar.gz
+[2023-05-30 22:29:30] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-05-30 22:29:30] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.5.1.tar.gz tmp/tupa123-1.5.2.tar.gz --markdown 20230530/t/tupa123/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-30 22:29:30] INFO root fetch - processPackages [python-omnilogic-local]: Downloading https://files.pythonhosted.org/packages/a6/b7/4b266a15c2a017bf070d1d6bbb29ad730c87cec6ab4f71e347d3d4bff6ac/python_omnilogic_local-0.6.0.tar.gz
+[2023-05-30 22:29:30] INFO root fetch - processPackages [spida]: executing diffoscope
+[2023-05-30 22:29:30] INFO root fetch - processPackages [spida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spida-0.3.2.tar.gz tmp/spida-0.3.3.tar.gz --markdown 20230530/s/spida/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-30 22:29:30] INFO root fetch - processPackages [mkdocs-walt]: executing diffoscope
+[2023-05-30 22:29:30] INFO root fetch - processPackages [mkdocs-walt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-walt-0.0.1.dev0.tar.gz tmp/mkdocs-walt-0.0.2.dev0.tar.gz --markdown 20230530/m/mkdocs-walt/0.0.1.dev0-0.0.2.dev0/diff.md --exclude *.pyd
+[2023-05-30 22:29:30] INFO root fetch - processPackages [python-omnilogic-local]: executing diffoscope
+[2023-05-30 22:29:30] INFO root fetch - processPackages [python-omnilogic-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_omnilogic_local-0.5.1.tar.gz tmp/python_omnilogic_local-0.6.0.tar.gz --markdown 20230530/p/python-omnilogic-local/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-30 22:29:31] INFO root fetch - main [MainThread]: End processing [yt-fts]: success
+[2023-05-30 22:29:31] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-05-30 22:29:31] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-05-30 22:29:31] INFO root fetch - main [MainThread]: End processing [mkdocs-walt]: success
+[2023-05-30 22:29:31] INFO root fetch - main [MainThread]: End processing [spida]: success
+[2023-05-30 22:29:32] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-05-30 22:29:32] INFO root fetch - main [MainThread]: End processing [bodo-platform-utils]: success
+[2023-05-30 22:29:32] INFO root fetch - main [MainThread]: End processing [python-omnilogic-local]: success
+[2023-05-30 22:29:32] INFO root fetch - main [MainThread]: Store serial: [18307324]
