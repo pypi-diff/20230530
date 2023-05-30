@@ -8744,3 +8744,126 @@
 [2023-05-30 10:59:51] INFO root fetch - main [MainThread]: End processing [lzallright]: success
 [2023-05-30 10:59:53] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-30 10:59:53] INFO root fetch - main [MainThread]: Store serial: [18299696]
+[2023-05-30 11:04:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18299696]
+[2023-05-30 11:05:02] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-30 11:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: winmail
+[2023-05-30 11:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parse-it
+[2023-05-30 11:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2023-05-30 11:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hummuspy
+[2023-05-30 11:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: laminci
+[2023-05-30 11:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcat-ap-de-validator
+[2023-05-30 11:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ant1Interface
+[2023-05-30 11:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyterlab
+[2023-05-30 11:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prismacloud-cli
+[2023-05-30 11:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: secure-bucket-construct
+[2023-05-30 11:05:02] INFO root fetch - processPackages [winmail]: New version: [0.2.23.5] Old Version: [0.2.23]
+[2023-05-30 11:05:02] INFO root fetch - processPackages [dcat-ap-de-validator]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-30 11:05:02] INFO root fetch - processPackages [parse-it]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-05-30 11:05:02] INFO root fetch - processPackages [ant1Interface]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-30 11:05:02] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230530.9.0.837631] Old Version: [20230529.7.58.347034]
+[2023-05-30 11:05:02] INFO root fetch - processPackages [secure-bucket-construct]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-30 11:05:02] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 11:05:02] INFO root fetch - processPackages [laminci]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-30 11:05:02] INFO root fetch - processPackages [prismacloud-cli]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-30 11:05:02] INFO root fetch - processPackages [jupyterlab]: New version: [4.0.1] Old Version: [4.0.0rc1]
+[2023-05-30 11:05:02] INFO root fetch - processPackages [parse-it]: executing diffoscope
+[2023-05-30 11:05:02] INFO root fetch - processPackages [parse-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_it-3.7.0.tar.gz tmp/parse_it-3.8.0.tar.gz --markdown 20230530/p/parse-it/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-05-30 11:05:02] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-05-30 11:05:02] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230530/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 11:05:02] INFO root fetch - processPackages [secure-bucket-construct]: Downloading https://files.pythonhosted.org/packages/36/2c/4f25fb49a8dcf11725f249ceced4d4cd7915cd625d8d2f659fce27ada6a9/secure-bucket-construct-2.1.8.tar.gz
+[2023-05-30 11:05:02] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/01/d6/e855ec776d23d5a6ae855f7739497557c607dba0bdc304997aa9ed407e57/certora-cli-alpha-master-20230529.7.58.347034.tar.gz
+[2023-05-30 11:05:02] INFO root fetch - processPackages [dcat-ap-de-validator]: Downloading https://files.pythonhosted.org/packages/73/d4/eba37995c9ec930d365fed5e00706f8cfed1445e5c91d4a6324801835106/dcat_ap_de_validator-1.0.2.tar.gz
+[2023-05-30 11:05:02] INFO root fetch - processPackages [prismacloud-cli]: Downloading https://files.pythonhosted.org/packages/10/60/36cfec1b8b42bbd572ecb6e0dbd0ccec34e4de32923b122f1a19d5fe68d6/prismacloud-cli-0.6.8.tar.gz
+[2023-05-30 11:05:02] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39091113>=10485760
+[2023-05-30 11:05:02] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: ibm-watson-machine-learning
+[2023-05-30 11:05:02] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-30 11:05:03] INFO root fetch - processPackages [laminci]: Downloading https://files.pythonhosted.org/packages/cf/80/b7a6408689bd42f233a3f573bf2622f370dd25c656cb3041e73743fc472d/laminci-0.6.4.tar.gz
+[2023-05-30 11:05:03] INFO root fetch - processPackages [jupyterlab]: Downloading https://files.pythonhosted.org/packages/56/31/5bb599548c97026d79d7b4cfe0a9b68d75743d2f86ce86400f1350b84196/jupyterlab-4.0.0rc1.tar.gz
+[2023-05-30 11:05:03] INFO root fetch - processPackages [ibm-watson-machine-learning]: New version: [1.0.99] Old Version: [1.0.96]
+[2023-05-30 11:05:03] INFO root fetch - processPackages [winmail]: Downloading https://files.pythonhosted.org/packages/3f/0c/a32b918d3719dba410e65b3b5afd547529a25ba89040e4052ee1c8bdc920/winmail-0.2.23.5-py3-none-any.whl
+[2023-05-30 11:05:03] WARNING root fetch - processPackages [jupyterlab]: Skipping package: exceeds size limit 18259195>=10485760
+[2023-05-30 11:05:03] INFO root fetch - processPackages [jupyterlab]: Start processing: ellipsis
+[2023-05-30 11:05:03] INFO root fetch - main [MainThread]: End processing [jupyterlab] error
+[2023-05-30 11:05:03] INFO root fetch - processPackages [ellipsis]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-30 11:05:03] INFO root fetch - processPackages [laminci]: executing diffoscope
+[2023-05-30 11:05:03] INFO root fetch - processPackages [laminci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laminci-0.6.3.tar.gz tmp/laminci-0.6.4.tar.gz --markdown 20230530/l/laminci/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-30 11:05:03] INFO root fetch - processPackages [ant1Interface]: executing diffoscope
+[2023-05-30 11:05:03] INFO root fetch - processPackages [ant1Interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant1Interface-0.0.7-py3-none-any.whl.zip tmp/ant1Interface-0.0.9-py3-none-any.whl.zip --markdown 20230530/a/ant1Interface/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 11:05:03] INFO root fetch - processPackages [dcat-ap-de-validator]: Downloading https://files.pythonhosted.org/packages/a0/fa/a6761861525c970c9320ecd404ba7dfa795bd648c87f647a3135c8e16a4e/dcat_ap_de_validator-1.1.0.tar.gz
+[2023-05-30 11:05:03] INFO root fetch - processPackages [winmail]: executing diffoscope
+[2023-05-30 11:05:03] INFO root fetch - processPackages [winmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winmail-0.2.23-py3-none-any.whl.zip tmp/winmail-0.2.23.5-py3-none-any.whl.zip --markdown 20230530/w/winmail/0.2.23-0.2.23.5/diff.md --exclude *.pyd
+[2023-05-30 11:05:03] INFO root fetch - processPackages [dcat-ap-de-validator]: executing diffoscope
+[2023-05-30 11:05:03] INFO root fetch - processPackages [dcat-ap-de-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcat_ap_de_validator-1.0.2.tar.gz tmp/dcat_ap_de_validator-1.1.0.tar.gz --markdown 20230530/d/dcat-ap-de-validator/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 11:05:03] INFO root fetch - processPackages [secure-bucket-construct]: Downloading https://files.pythonhosted.org/packages/61/93/ae4154ba1da46576bb64b498ef477474d7f96ec26782e1df0132647afd99/secure-bucket-construct-2.1.9.tar.gz
+[2023-05-30 11:05:03] INFO root fetch - processPackages [prismacloud-cli]: Downloading https://files.pythonhosted.org/packages/af/0e/fa72b8483f8c01e8575ef6f961e2b6c4d1cdcab84f520c6f82d9d0ece079/prismacloud-cli-0.6.9.tar.gz
+[2023-05-30 11:05:03] INFO root fetch - processPackages [ibm-watson-machine-learning]: executing diffoscope
+[2023-05-30 11:05:03] INFO root fetch - processPackages [ibm-watson-machine-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_machine_learning-1.0.96.tar.gz tmp/ibm_watson_machine_learning-1.0.99.tar.gz --markdown 20230530/i/ibm-watson-machine-learning/1.0.96-1.0.99/diff.md --exclude *.pyd
+[2023-05-30 11:05:03] INFO root fetch - processPackages [prismacloud-cli]: executing diffoscope
+[2023-05-30 11:05:03] INFO root fetch - processPackages [prismacloud-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismacloud-cli-0.6.8.tar.gz tmp/prismacloud-cli-0.6.9.tar.gz --markdown 20230530/p/prismacloud-cli/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-30 11:05:03] INFO root fetch - processPackages [ellipsis]: executing diffoscope
+[2023-05-30 11:05:03] INFO root fetch - processPackages [ellipsis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ellipsis-3.1.8.tar.gz tmp/ellipsis-3.1.9.tar.gz --markdown 20230530/e/ellipsis/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-30 11:05:03] INFO root fetch - processPackages [secure-bucket-construct]: executing diffoscope
+[2023-05-30 11:05:03] INFO root fetch - processPackages [secure-bucket-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secure-bucket-construct-2.1.8.tar.gz tmp/secure-bucket-construct-2.1.9.tar.gz --markdown 20230530/s/secure-bucket-construct/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-30 11:05:04] INFO root fetch - processPackages [hummuspy]: Start processing: autogluon.common
+[2023-05-30 11:05:04] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-05-30 11:05:04] INFO root fetch - processPackages [autogluon.common]: New version: [0.7.1b20230530] Old Version: [0.7.1b20230529]
+[2023-05-30 11:05:04] INFO root fetch - processPackages [laminci]: Start processing: autogluon.core
+[2023-05-30 11:05:04] INFO root fetch - main [MainThread]: End processing [laminci]: success
+[2023-05-30 11:05:04] INFO root fetch - processPackages [autogluon.core]: New version: [0.7.1b20230529] Old Version: [0.7.1b20230528]
+[2023-05-30 11:05:04] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-05-30 11:05:04] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.7.1b20230528.tar.gz tmp/autogluon.core-0.7.1b20230529.tar.gz --markdown 20230530/a/autogluon.core/0.7.1b20230528-0.7.1b20230529/diff.md --exclude *.pyd
+[2023-05-30 11:05:04] INFO root fetch - processPackages [parse-it]: Start processing: autogluon.features
+[2023-05-30 11:05:04] INFO root fetch - main [MainThread]: End processing [parse-it]: success
+[2023-05-30 11:05:04] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/26/fe/5fdfc598705a4963ca9d4c63aae9ada6ff59215aa33cf19a16682dbaaefe/autogluon.common-0.7.1b20230530.tar.gz
+[2023-05-30 11:05:05] INFO root fetch - processPackages [winmail]: Start processing: autogluon.tabular
+[2023-05-30 11:05:05] INFO root fetch - main [MainThread]: End processing [winmail]: success
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.features]: New version: [0.7.1b20230529] Old Version: [0.7.1b20230528]
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.7.1b20230529] Old Version: [0.7.1b20230528]
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.7.1b20230529.tar.gz tmp/autogluon.common-0.7.1b20230530.tar.gz --markdown 20230530/a/autogluon.common/0.7.1b20230529-0.7.1b20230530/diff.md --exclude *.pyd
+[2023-05-30 11:05:05] INFO root fetch - processPackages [dcat-ap-de-validator]: Start processing: autogluon.multimodal
+[2023-05-30 11:05:05] INFO root fetch - main [MainThread]: End processing [dcat-ap-de-validator]: success
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/02/33/3348ee7a01d700621811b1365b85bd0e21d98b7e34a7bc1ff5e49e93461e/autogluon.features-0.7.1b20230529.tar.gz
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/e2/21/0c628155a9bb6907c9618de9152a0a7bd60c9a8b8cfea17114dc422ea302/autogluon.tabular-0.7.1b20230529.tar.gz
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.7.1b20230530] Old Version: [0.7.1b20230529]
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.7.1b20230528.tar.gz tmp/autogluon.features-0.7.1b20230529.tar.gz --markdown 20230530/a/autogluon.features/0.7.1b20230528-0.7.1b20230529/diff.md --exclude *.pyd
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.7.1b20230528.tar.gz tmp/autogluon.tabular-0.7.1b20230529.tar.gz --markdown 20230530/a/autogluon.tabular/0.7.1b20230528-0.7.1b20230529/diff.md --exclude *.pyd
+[2023-05-30 11:05:05] INFO root fetch - processPackages [ant1Interface]: Start processing: autogluon.cloud
+[2023-05-30 11:05:05] INFO root fetch - main [MainThread]: End processing [ant1Interface]: success
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230529] Old Version: [0.2.1b20230528]
+[2023-05-30 11:05:05] INFO root fetch - processPackages [secure-bucket-construct]: Start processing: autogluon.timeseries
+[2023-05-30 11:05:05] INFO root fetch - main [MainThread]: End processing [secure-bucket-construct]: success
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/0d/a2/cbfd81cbfc95484d56f711df4d3d06d1cd9c876c53fb92188a95e983f222/autogluon.multimodal-0.7.1b20230529.tar.gz
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.7.1b20230530] Old Version: [0.7.1b20230529]
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/14/8e/98f0d307c706f2f7786172eff5232329beb7b57dcc89529d8b106bd4ee54/autogluon.cloud-0.2.1b20230529.tar.gz
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/bc/16/0d013070266880fb18a42c7a439ed7ed468b38e9c2aec121fe65be261a20/autogluon.multimodal-0.7.1b20230530.tar.gz
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/88/9c/6e91d9818f9f432a89df2b87fd571e815f889c4e9ec310862e8a8db79446/autogluon.timeseries-0.7.1b20230530.tar.gz
+[2023-05-30 11:05:05] INFO root fetch - processPackages [prismacloud-cli]: Start processing: autogluon
+[2023-05-30 11:05:05] INFO root fetch - main [MainThread]: End processing [prismacloud-cli]: success
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-05-30 11:05:05] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230528.tar.gz tmp/autogluon.cloud-0.2.1b20230529.tar.gz --markdown 20230530/a/autogluon.cloud/0.2.1b20230528-0.2.1b20230529/diff.md --exclude *.pyd
+[2023-05-30 11:05:06] INFO root fetch - processPackages [autogluon]: New version: [0.7.1b20230529] Old Version: [0.7.1b20230528]
+[2023-05-30 11:05:06] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-05-30 11:05:06] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.7.1b20230529.tar.gz tmp/autogluon.multimodal-0.7.1b20230530.tar.gz --markdown 20230530/a/autogluon.multimodal/0.7.1b20230529-0.7.1b20230530/diff.md --exclude *.pyd
+[2023-05-30 11:05:06] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-05-30 11:05:06] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.7.1b20230529.tar.gz tmp/autogluon.timeseries-0.7.1b20230530.tar.gz --markdown 20230530/a/autogluon.timeseries/0.7.1b20230529-0.7.1b20230530/diff.md --exclude *.pyd
+[2023-05-30 11:05:06] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-05-30 11:05:06] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.7.1b20230528.tar.gz tmp/autogluon-0.7.1b20230529.tar.gz --markdown 20230530/a/autogluon/0.7.1b20230528-0.7.1b20230529/diff.md --exclude *.pyd
+[2023-05-30 11:05:06] INFO root fetch - processPackages [ellipsis]: Start processing: autogluon.eda
+[2023-05-30 11:05:06] INFO root fetch - main [MainThread]: End processing [ellipsis]: success
+[2023-05-30 11:05:06] INFO root fetch - processPackages [autogluon.eda]: New version: [0.7.1b20230529] Old Version: [0.7.1b20230528]
+[2023-05-30 11:05:06] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-05-30 11:05:06] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.7.1b20230528.tar.gz tmp/autogluon.eda-0.7.1b20230529.tar.gz --markdown 20230530/a/autogluon.eda/0.7.1b20230528-0.7.1b20230529/diff.md --exclude *.pyd
+[2023-05-30 11:05:07] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-05-30 11:05:07] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-05-30 11:05:08] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-05-30 11:05:08] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-05-30 11:05:08] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-05-30 11:05:08] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-05-30 11:05:08] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-05-30 11:05:08] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-05-30 11:05:09] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-05-30 11:05:13] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
+[2023-05-30 11:05:13] INFO root fetch - main [MainThread]: Store serial: [18299766]
