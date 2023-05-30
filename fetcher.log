@@ -7376,3 +7376,102 @@
 [2023-05-30 09:38:23] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
 [2023-05-30 09:38:23] INFO root fetch - main [MainThread]: End processing [msgraphy]: success
 [2023-05-30 09:38:23] INFO root fetch - main [MainThread]: Store serial: [18298927]
+[2023-05-30 09:43:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298927]
+[2023-05-30 09:43:32] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-30 09:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-select
+[2023-05-30 09:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-ro-stock-account
+[2023-05-30 09:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-ro-stock-account
+[2023-05-30 09:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blackjax-nightly
+[2023-05-30 09:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xj-invoice
+[2023-05-30 09:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-select
+[2023-05-30 09:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-nightly
+[2023-05-30 09:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: titan-iris
+[2023-05-30 09:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oakvar
+[2023-05-30 09:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: graphdisplay
+[2023-05-30 09:43:32] INFO root fetch - processPackages [pulumi-select]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-30 09:43:32] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [16.0.1.1.0] Old Version: [15.0.3.9.0]
+[2023-05-30 09:43:32] INFO root fetch - processPackages [pulumi-select]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-30 09:43:32] INFO root fetch - processPackages [graphdisplay]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-30 09:43:32] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [16.0.1.1.0] Old Version: [15.0.3.9.0]
+[2023-05-30 09:43:32] WARNING root fetch - processPackages [xj-invoice]: Skipping, unable to determine old version
+[2023-05-30 09:43:32] INFO root fetch - processPackages [xj-invoice]: Start processing: vantage6-common
+[2023-05-30 09:43:32] INFO root fetch - main [MainThread]: End processing [xj-invoice] error
+[2023-05-30 09:43:32] INFO root fetch - processPackages [blackjax-nightly]: New version: [0.9.6.post99] Old Version: [0.9.6.post98]
+[2023-05-30 09:43:32] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-30 09:43:32] INFO root fetch - processPackages [oakvar]: New version: [2.9.9] Old Version: [2.9.7]
+[2023-05-30 09:43:32] INFO root fetch - processPackages [vantage6-common]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-05-30 09:43:32] INFO root fetch - processPackages [pulumi-select]: Downloading https://files.pythonhosted.org/packages/33/d3/1adbc0643edc88178dfba7d44d7701ca2ac6f80bdd74ced307c95cecd8e7/pulumi_select-0.1.5.tar.gz
+[2023-05-30 09:43:32] INFO root fetch - processPackages [pulumi-select]: Downloading https://files.pythonhosted.org/packages/33/d3/1adbc0643edc88178dfba7d44d7701ca2ac6f80bdd74ced307c95cecd8e7/pulumi_select-0.1.5.tar.gz
+[2023-05-30 09:43:32] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-05-30 09:43:32] INFO root fetch - processPackages [graphdisplay]: executing diffoscope
+[2023-05-30 09:43:32] INFO root fetch - processPackages [graphdisplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphdisplay-0.4.0.tar.gz tmp/graphdisplay-0.4.1.tar.gz --markdown 20230530/g/graphdisplay/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-30 09:43:32] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/6a/e9/9c4948f42bc38c8a4e0c22243e61edd093a9ad16c8a5dfca8a93c9e8554e/odoo_addon_l10n_ro_stock_account-16.0.1.1.0-py3-none-any.whl
+[2023-05-30 09:43:32] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/6a/e9/9c4948f42bc38c8a4e0c22243e61edd093a9ad16c8a5dfca8a93c9e8554e/odoo_addon_l10n_ro_stock_account-16.0.1.1.0-py3-none-any.whl
+[2023-05-30 09:43:32] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-05-30 09:43:32] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-15.0.3.9.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230530/o/odoo-addon-l10n-ro-stock-account/15.0.3.9.0-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-30 09:43:32] INFO root fetch - processPackages [pulumi-select]: Downloading https://files.pythonhosted.org/packages/55/71/4ab2edad498ffb5a18ebb90ce29d5843cd3b00ddaf91cff34d2e8fd26544/pulumi_select-0.1.6.tar.gz
+[2023-05-30 09:43:32] INFO root fetch - processPackages [pulumi-select]: Downloading https://files.pythonhosted.org/packages/55/71/4ab2edad498ffb5a18ebb90ce29d5843cd3b00ddaf91cff34d2e8fd26544/pulumi_select-0.1.6.tar.gz
+[2023-05-30 09:43:32] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-30 09:43:32] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230530/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-30 09:43:32] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-05-30 09:43:32] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-15.0.3.9.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230530/o/odoo-addon-l10n-ro-stock-account/15.0.3.9.0-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-30 09:43:32] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2023-05-30 09:43:32] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.7.tar.gz tmp/oakvar-2.9.9.tar.gz --markdown 20230530/o/oakvar/2.9.7-2.9.9/diff.md --exclude *.pyd
+[2023-05-30 09:43:32] INFO root fetch - processPackages [blackjax-nightly]: executing diffoscope
+[2023-05-30 09:43:32] INFO root fetch - processPackages [blackjax-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackjax-nightly-0.9.6.post98.tar.gz tmp/blackjax-nightly-0.9.6.post99.tar.gz --markdown 20230530/b/blackjax-nightly/0.9.6.post98-0.9.6.post99/diff.md --exclude *.pyd
+[2023-05-30 09:43:32] INFO root fetch - processPackages [pulumi-select]: executing diffoscope
+[2023-05-30 09:43:32] INFO root fetch - processPackages [pulumi-select]: executing diffoscope
+[2023-05-30 09:43:32] INFO root fetch - processPackages [pulumi-select]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_select-0.1.5.tar.gz tmp/pulumi_select-0.1.6.tar.gz --markdown 20230530/p/pulumi-select/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-30 09:43:32] INFO root fetch - processPackages [pulumi-select]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_select-0.1.5.tar.gz tmp/pulumi_select-0.1.6.tar.gz --markdown 20230530/p/pulumi-select/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-30 09:43:32] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/de/cb/1239e1a102d86e002b1436632871ff11e42cf788874d124ddb97ab106a25/vantage6-common-3.9.0rc4.tar.gz
+[2023-05-30 09:43:32] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-05-30 09:43:32] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230530/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-05-30 09:43:32] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2023-05-30 09:43:32] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-3.9.0rc2.tar.gz tmp/vantage6-common-3.9.0rc4.tar.gz --markdown 20230530/v/vantage6-common/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-05-30 09:43:34] INFO root fetch - processPackages [graphdisplay]: Start processing: vantage6-client
+[2023-05-30 09:43:34] INFO root fetch - main [MainThread]: End processing [graphdisplay]: success
+[2023-05-30 09:43:34] INFO root fetch - processPackages [vantage6-client]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-05-30 09:43:34] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Start processing: mpservice
+[2023-05-30 09:43:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6-common]: Start processing: vantage6
+[2023-05-30 09:43:35] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2023-05-30 09:43:35] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-05-30 09:43:35] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Start processing: vantage6-node
+[2023-05-30 09:43:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/83/b1/52552994d80009402a91a34427a0306326f0781eaaefc933c31d687d9ae4/vantage6-client-3.9.0rc4.tar.gz
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-05-30 09:43:35] INFO root fetch - processPackages [pulumi-select]: Start processing: vantage6-server
+[2023-05-30 09:43:35] INFO root fetch - main [MainThread]: End processing [pulumi-select]: success
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-3.9.0rc2.tar.gz tmp/vantage6-client-3.9.0rc4.tar.gz --markdown 20230530/v/vantage6-client/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6-node]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-05-30 09:43:35] INFO root fetch - processPackages [titan-iris]: Start processing: spotON_sdk
+[2023-05-30 09:43:35] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-30 09:43:35] INFO root fetch - main [MainThread]: End processing [pulumi-select]: success
+[2023-05-30 09:43:35] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.5.15] Old Version: [0.0.5.14]
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6-server]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-05-30 09:43:35] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-30 09:43:35] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.5.14.tar.gz tmp/spotON_sdk-0.0.5.15.tar.gz --markdown 20230530/s/spotON_sdk/0.0.5.14-0.0.5.15/diff.md --exclude *.pyd
+[2023-05-30 09:43:35] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-05-30 09:43:35] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230530/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-05-30 09:43:35] ERROR root fetch - processPackages [spotON_sdk]: Diffoscope failed: Error: error creating container storage: the container name "boring_wing" is already in use by "2a390ed43e593be390cccdac8b9f58e70b4936d96f05fe5a8578b4939b8482a3". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-30 09:43:35] INFO root fetch - main [MainThread]: End processing [spotON_sdk] error
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/03/fa/166d5752a0abe58f0390806f65013f110f78bbde0405ad929520e326893b/vantage6-3.9.0rc4.tar.gz
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/b4/71/a610fd6c37265434474f5572b44b27ff8f5f39318b8c77af5c69bc70b067/vantage6-node-3.9.0rc4.tar.gz
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-3.9.0rc2.tar.gz tmp/vantage6-3.9.0rc4.tar.gz --markdown 20230530/v/vantage6/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-3.9.0rc2.tar.gz tmp/vantage6-node-3.9.0rc4.tar.gz --markdown 20230530/v/vantage6-node/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/b6/05/772b7c5cd3ce82d8fdf717f8697d700fae68bbe7fd79eafb5692d1a39613/vantage6-server-3.9.0rc4.tar.gz
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2023-05-30 09:43:35] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-3.9.0rc2.tar.gz tmp/vantage6-server-3.9.0rc4.tar.gz --markdown 20230530/v/vantage6-server/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-05-30 09:43:36] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-05-30 09:43:36] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2023-05-30 09:43:37] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2023-05-30 09:43:37] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2023-05-30 09:43:37] INFO root fetch - main [MainThread]: End processing [blackjax-nightly]: success
+[2023-05-30 09:43:38] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2023-05-30 09:43:38] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2023-05-30 09:43:44] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-05-30 09:43:44] INFO root fetch - main [MainThread]: Store serial: [18298977]
