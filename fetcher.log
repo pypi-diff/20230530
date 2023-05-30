@@ -3286,3 +3286,30 @@
 [2023-05-30 02:52:09] INFO root fetch - main [MainThread]: End processing [byquant]: success
 [2023-05-30 02:52:14] INFO root fetch - main [MainThread]: End processing [AaronTools]: success
 [2023-05-30 02:52:14] INFO root fetch - main [MainThread]: Store serial: [18296509]
+[2023-05-30 02:57:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296509]
+[2023-05-30 02:57:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-30 02:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-databrew-cicd
+[2023-05-30 02:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: configzen
+[2023-05-30 02:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: configzen
+[2023-05-30 02:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioversions
+[2023-05-30 02:57:23] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-05-30 02:57:23] INFO root fetch - processPackages [configzen]: New version: [0.1.43] Old Version: [0.1.42]
+[2023-05-30 02:57:23] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-30 02:57:23] INFO root fetch - processPackages [configzen]: New version: [0.1.43] Old Version: [0.1.42]
+[2023-05-30 02:57:23] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-05-30 02:57:23] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230530/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-05-30 02:57:23] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/ce/26/3b9b5df77d9cd98a9551ba72ac7f41fea844c620da8024749297c6f085ed/configzen-0.1.42.tar.gz
+[2023-05-30 02:57:23] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/ce/26/3b9b5df77d9cd98a9551ba72ac7f41fea844c620da8024749297c6f085ed/configzen-0.1.42.tar.gz
+[2023-05-30 02:57:23] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/8a/4c/2832a52706a67e4cf5d9259b7d101787dc0c78825ca403c602ce51af204a/configzen-0.1.43.tar.gz
+[2023-05-30 02:57:23] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/8a/4c/2832a52706a67e4cf5d9259b7d101787dc0c78825ca403c602ce51af204a/configzen-0.1.43.tar.gz
+[2023-05-30 02:57:23] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-05-30 02:57:23] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230530/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-30 02:57:23] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-05-30 02:57:23] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.1.42.tar.gz tmp/configzen-0.1.43.tar.gz --markdown 20230530/c/configzen/0.1.42-0.1.43/diff.md --exclude *.pyd
+[2023-05-30 02:57:23] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-05-30 02:57:23] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.1.42.tar.gz tmp/configzen-0.1.43.tar.gz --markdown 20230530/c/configzen/0.1.42-0.1.43/diff.md --exclude *.pyd
+[2023-05-30 02:57:24] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-05-30 02:57:25] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-05-30 02:57:25] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-05-30 02:57:43] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-05-30 02:57:43] INFO root fetch - main [MainThread]: Store serial: [18296527]
