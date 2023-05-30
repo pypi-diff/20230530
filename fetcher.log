@@ -1151,3 +1151,19 @@
 [2023-05-30 01:57:39] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
 [2023-05-30 01:57:39] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
 [2023-05-30 01:57:39] INFO root fetch - main [MainThread]: Store serial: [18295425]
+[2023-05-30 02:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18295425]
+[2023-05-30 02:02:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-30 02:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: citylex
+[2023-05-30 02:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ediri-scaleway
+[2023-05-30 02:02:48] INFO root fetch - processPackages [ediri-scaleway]: New version: [2.20.0] Old Version: [2.19.0]
+[2023-05-30 02:02:48] INFO root fetch - processPackages [citylex]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 02:02:48] INFO root fetch - processPackages [citylex]: Downloading https://files.pythonhosted.org/packages/88/01/b2259cf3ada94139fd50f47cec384b3d4f3ba756f245e06af36606d846d0/citylex-0.1.8.tar.gz
+[2023-05-30 02:02:48] INFO root fetch - processPackages [ediri-scaleway]: Downloading https://files.pythonhosted.org/packages/92/b5/73011061c0ffa2c3b955198f83e183809f90b03be463675d49ac08d1c736/ediri_scaleway-2.20.0.tar.gz
+[2023-05-30 02:02:48] INFO root fetch - processPackages [ediri-scaleway]: executing diffoscope
+[2023-05-30 02:02:48] INFO root fetch - processPackages [ediri-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ediri_scaleway-2.19.0.tar.gz tmp/ediri_scaleway-2.20.0.tar.gz --markdown 20230530/e/ediri-scaleway/2.19.0-2.20.0/diff.md --exclude *.pyd
+[2023-05-30 02:02:49] INFO root fetch - processPackages [citylex]: Downloading https://files.pythonhosted.org/packages/13/e7/a54fe01fab0eceb53c6745063b9ac1dfb59d917047bdf522458d896808f5/citylex-0.1.9.tar.gz
+[2023-05-30 02:02:49] INFO root fetch - processPackages [citylex]: executing diffoscope
+[2023-05-30 02:02:49] INFO root fetch - processPackages [citylex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citylex-0.1.8.tar.gz tmp/citylex-0.1.9.tar.gz --markdown 20230530/c/citylex/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 02:02:50] INFO root fetch - main [MainThread]: End processing [citylex]: success
+[2023-05-30 02:02:52] INFO root fetch - main [MainThread]: End processing [ediri-scaleway]: success
+[2023-05-30 02:02:52] INFO root fetch - main [MainThread]: Store serial: [18295430]
