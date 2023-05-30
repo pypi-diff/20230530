@@ -16625,3 +16625,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 17:40:12] INFO root fetch - main [MainThread]: End processing [pop-create-idem]: success
 [2023-05-30 17:40:12] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
 [2023-05-30 17:40:12] INFO root fetch - main [MainThread]: Store serial: [18304537]
+[2023-05-30 17:45:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18304537]
+[2023-05-30 17:45:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-30 17:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Thermobar
+[2023-05-30 17:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sshkey-tools
+[2023-05-30 17:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto
+[2023-05-30 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: everything2text4prompt
+[2023-05-30 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrad-mch
+[2023-05-30 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iotcore-api
+[2023-05-30 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jianglab
+[2023-05-30 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iotcore-api
+[2023-05-30 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2023-05-30 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: thipster
+[2023-05-30 17:45:22] INFO root fetch - processPackages [sshkey-tools]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-30 17:45:22] INFO root fetch - processPackages [everything2text4prompt]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-30 17:45:22] INFO root fetch - processPackages [Thermobar]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-05-30 17:45:22] INFO root fetch - processPackages [thipster]: New version: [0.13.2] Old Version: [0.13.1]
+[2023-05-30 17:45:22] INFO root fetch - processPackages [jianglab]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-30 17:45:22] INFO root fetch - processPackages [pyrad-mch]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-05-30 17:45:22] INFO root fetch - processPackages [iotcore-api]: New version: [1.1.41] Old Version: [1.1.4]
+[2023-05-30 17:45:22] INFO root fetch - processPackages [iotcore-api]: New version: [1.1.41] Old Version: [1.1.4]
+[2023-05-30 17:45:22] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-30 17:45:22] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.27.0.dev20230530] Old Version: [1.26.0.dev20230428]
+[2023-05-30 17:45:22] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-30 17:45:22] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230530/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-30 17:45:22] INFO root fetch - processPackages [pyrad-mch]: Downloading https://files.pythonhosted.org/packages/66/e8/1c158276d2673278f767e4fa38e613ba7e36cdccb092594a39936813b229/pyrad_mch-1.7.0.tar.gz
+[2023-05-30 17:45:22] INFO root fetch - processPackages [iotcore-api]: Downloading https://files.pythonhosted.org/packages/ad/84/db673a8ebb975a760ed1b237d81f4cc996ab6d6354b3af737bcd8e3f1aed/iotcore_api-1.1.4.tar.gz
+[2023-05-30 17:45:22] INFO root fetch - processPackages [iotcore-api]: Downloading https://files.pythonhosted.org/packages/ad/84/db673a8ebb975a760ed1b237d81f4cc996ab6d6354b3af737bcd8e3f1aed/iotcore_api-1.1.4.tar.gz
+[2023-05-30 17:45:22] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/ca/73/f0ec1e09ba0b6a120645f39bdf9e8bcd57109b7b4dacb8bdd9a54a33cf64/thipster-0.13.1.tar.gz
+[2023-05-30 17:45:22] INFO root fetch - processPackages [jianglab]: Downloading https://files.pythonhosted.org/packages/98/a5/09768e450ed2ca278905b7858bdfb3897244443b1f041da1206dd4ce9659/jianglab-0.2.4.tar.gz
+[2023-05-30 17:45:22] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/8f/3a/37664375617c1c9d7ff8503ad32afdc9ae8733e1866ed8fd9854be3319a6/nvidia-dali-tf-plugin-nightly-cuda120-1.26.0.dev20230428.tar.gz
+[2023-05-30 17:45:22] INFO root fetch - processPackages [everything2text4prompt]: Downloading https://files.pythonhosted.org/packages/fe/bf/c8ad19322eb8671cf1e62094dd97c439e4d1c530d174d0043936cfc5b610/everything2text4prompt-0.0.8.tar.gz
+[2023-05-30 17:45:22] INFO root fetch - processPackages [sshkey-tools]: Downloading https://files.pythonhosted.org/packages/1a/08/09f5cd31841fdb949f6a4b0ec7a421cec48fdfa22b4ab747bb131668cb8f/sshkey-tools-0.9.2.tar.gz
+[2023-05-30 17:45:22] INFO root fetch - processPackages [jianglab]: executing diffoscope
+[2023-05-30 17:45:22] INFO root fetch - processPackages [jianglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jianglab-0.2.3.tar.gz tmp/jianglab-0.2.4.tar.gz --markdown 20230530/j/jianglab/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-30 17:45:22] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/a5/5f/2d4b0ee9ccfd8afe4e6f7d5f1a30abc5e8d37fd4376d33be09192cff545a/thipster-0.13.2.tar.gz
+[2023-05-30 17:45:22] INFO root fetch - processPackages [Thermobar]: executing diffoscope
+[2023-05-30 17:45:22] INFO root fetch - processPackages [Thermobar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Thermobar-1.0.7.tar.gz tmp/Thermobar-1.0.9.tar.gz --markdown 20230530/T/Thermobar/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 17:45:22] INFO root fetch - processPackages [everything2text4prompt]: executing diffoscope
+[2023-05-30 17:45:22] INFO root fetch - processPackages [everything2text4prompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everything2text4prompt-0.0.7.tar.gz tmp/everything2text4prompt-0.0.8.tar.gz --markdown 20230530/e/everything2text4prompt/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 17:45:22] INFO root fetch - processPackages [iotcore-api]: Downloading https://files.pythonhosted.org/packages/ac/e8/b2572a99ae65e972218fd6bf8200b4c95d5538f5dfcf2fd0461dd1898cd2/iotcore_api-1.1.41.tar.gz
+[2023-05-30 17:45:22] INFO root fetch - processPackages [iotcore-api]: Downloading https://files.pythonhosted.org/packages/ac/e8/b2572a99ae65e972218fd6bf8200b4c95d5538f5dfcf2fd0461dd1898cd2/iotcore_api-1.1.41.tar.gz
+[2023-05-30 17:45:22] INFO root fetch - processPackages [sshkey-tools]: executing diffoscope
+[2023-05-30 17:45:22] INFO root fetch - processPackages [sshkey-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sshkey-tools-0.9.1.tar.gz tmp/sshkey-tools-0.9.2.tar.gz --markdown 20230530/s/sshkey-tools/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-30 17:45:22] INFO root fetch - processPackages [pyrad-mch]: Downloading https://files.pythonhosted.org/packages/2f/15/4a61767d2d901180811977efcc614371c9cc7ad41c1281fee21ae1a9b986/pyrad_mch-1.8.0.tar.gz
+[2023-05-30 17:45:22] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-05-30 17:45:22] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.13.1.tar.gz tmp/thipster-0.13.2.tar.gz --markdown 20230530/t/thipster/0.13.1-0.13.2/diff.md --exclude *.pyd
+[2023-05-30 17:45:22] INFO root fetch - processPackages [pyrad-mch]: executing diffoscope
+[2023-05-30 17:45:22] INFO root fetch - processPackages [pyrad-mch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrad_mch-1.7.0.tar.gz tmp/pyrad_mch-1.8.0.tar.gz --markdown 20230530/p/pyrad-mch/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-05-30 17:45:22] INFO root fetch - processPackages [iotcore-api]: executing diffoscope
+[2023-05-30 17:45:22] INFO root fetch - processPackages [iotcore-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotcore_api-1.1.4.tar.gz tmp/iotcore_api-1.1.41.tar.gz --markdown 20230530/i/iotcore-api/1.1.4-1.1.41/diff.md --exclude *.pyd
+[2023-05-30 17:45:22] INFO root fetch - processPackages [iotcore-api]: executing diffoscope
+[2023-05-30 17:45:22] INFO root fetch - processPackages [iotcore-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotcore_api-1.1.4.tar.gz tmp/iotcore_api-1.1.41.tar.gz --markdown 20230530/i/iotcore-api/1.1.4-1.1.41/diff.md --exclude *.pyd
+[2023-05-30 17:45:22] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/41/1f/057a1be6592c5cbebf358c752d40af745f3ec2fd732b6fbfb1b012098096/nvidia-dali-tf-plugin-nightly-cuda120-1.27.0.dev20230530.tar.gz
+[2023-05-30 17:45:22] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2023-05-30 17:45:22] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.26.0.dev20230428.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.27.0.dev20230530.tar.gz --markdown 20230530/n/nvidia-dali-tf-plugin-nightly-cuda120/1.26.0.dev20230428-1.27.0.dev20230530/diff.md --exclude *.pyd
+[2023-05-30 17:45:23] INFO root fetch - processPackages [jianglab]: Start processing: xdat
+[2023-05-30 17:45:23] INFO root fetch - main [MainThread]: End processing [jianglab]: success
+[2023-05-30 17:45:23] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-30 17:45:24] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-05-30 17:45:24] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230530/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-30 17:45:24] INFO root fetch - processPackages [everything2text4prompt]: Start processing: nvidia-dali-nightly-cuda120
+[2023-05-30 17:45:24] INFO root fetch - main [MainThread]: End processing [everything2text4prompt]: success
+[2023-05-30 17:45:24] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.27.0.dev20230530] Old Version: [1.26.0.dev20230428]
+[2023-05-30 17:45:24] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/34/b3/ccd8700ebbad9186f66d9177695bdd32bd1f59b02da1ac6706848311ffb5/nvidia-dali-nightly-cuda120-1.26.0.dev20230428.tar.gz
+[2023-05-30 17:45:24] INFO root fetch - processPackages [sshkey-tools]: Start processing: microgue
+[2023-05-30 17:45:24] INFO root fetch - main [MainThread]: End processing [sshkey-tools]: success
+[2023-05-30 17:45:24] INFO root fetch - processPackages [microgue]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-30 17:45:24] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/e1/e0/2f4b751b728831d0af00c6d96c6ac16fa6b307630ca5b529fa121232f20b/nvidia-dali-nightly-cuda120-1.27.0.dev20230530.tar.gz
+[2023-05-30 17:45:24] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-05-30 17:45:25] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2023-05-30 17:45:25] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda120-1.26.0.dev20230428.tar.gz tmp/nvidia-dali-nightly-cuda120-1.27.0.dev20230530.tar.gz --markdown 20230530/n/nvidia-dali-nightly-cuda120/1.26.0.dev20230428-1.27.0.dev20230530/diff.md --exclude *.pyd
+[2023-05-30 17:45:25] INFO root fetch - main [MainThread]: End processing [Thermobar]: success
+[2023-05-30 17:45:25] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2023-05-30 17:45:25] INFO root fetch - processPackages [microgue]: executing diffoscope
+[2023-05-30 17:45:25] INFO root fetch - processPackages [microgue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microgue-2.0.8.tar.gz tmp/microgue-2.0.9.tar.gz --markdown 20230530/m/microgue/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-30 17:45:25] INFO root fetch - main [MainThread]: End processing [iotcore-api]: success
+[2023-05-30 17:45:26] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2023-05-30 17:45:26] INFO root fetch - main [MainThread]: End processing [microgue]: success
+[2023-05-30 17:45:27] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-05-30 17:45:28] INFO root fetch - main [MainThread]: End processing [pyrad-mch]: success
+[2023-05-30 17:46:00] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-30 17:46:08] INFO root fetch - main [MainThread]: End processing [iotcore-api]: success
+[2023-05-30 17:46:08] INFO root fetch - main [MainThread]: Store serial: [18304578]
