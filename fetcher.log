@@ -14251,3 +14251,114 @@
 [2023-05-30 15:57:02] INFO root fetch - main [MainThread]: End processing [thipster]: success
 [2023-05-30 15:57:09] INFO root fetch - main [MainThread]: End processing [mainnet]: success
 [2023-05-30 15:57:09] INFO root fetch - main [MainThread]: Store serial: [18303162]
+[2023-05-30 16:02:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18303162]
+[2023-05-30 16:02:19] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-30 16:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: defillama3
+[2023-05-30 16:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oopt-gnpy-libyang
+[2023-05-30 16:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minikerberos
+[2023-05-30 16:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SciencePlots
+[2023-05-30 16:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: playmolecule
+[2023-05-30 16:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modular-rl
+[2023-05-30 16:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytorch-partial-tagger
+[2023-05-30 16:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ReadLog
+[2023-05-30 16:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: guanine-crystal-analysis
+[2023-05-30 16:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tiledb-jupyter-bioimg
+[2023-05-30 16:02:19] INFO root fetch - processPackages [oopt-gnpy-libyang]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-30 16:02:19] INFO root fetch - processPackages [pytorch-partial-tagger]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 16:02:19] INFO root fetch - processPackages [SciencePlots]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-05-30 16:02:19] WARNING root fetch - processPackages [defillama3]: Skipping, unable to determine old version
+[2023-05-30 16:02:19] INFO root fetch - processPackages [defillama3]: Start processing: taskAutom
+[2023-05-30 16:02:19] INFO root fetch - main [MainThread]: End processing [defillama3] error
+[2023-05-30 16:02:19] INFO root fetch - processPackages [minikerberos]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-30 16:02:19] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: New version: [0.1.1a4] Old Version: [0.1.1a3]
+[2023-05-30 16:02:19] WARNING root fetch - processPackages [ReadLog]: Skipping, unable to determine old version
+[2023-05-30 16:02:19] INFO root fetch - processPackages [modular-rl]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-30 16:02:19] INFO root fetch - processPackages [guanine-crystal-analysis]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 16:02:19] INFO root fetch - processPackages [ReadLog]: Start processing: hathorlib
+[2023-05-30 16:02:19] INFO root fetch - main [MainThread]: End processing [ReadLog] error
+[2023-05-30 16:02:19] INFO root fetch - processPackages [playmolecule]: New version: [1.8.5] Old Version: [1.8.4.2]
+[2023-05-30 16:02:19] INFO root fetch - processPackages [minikerberos]: Downloading https://files.pythonhosted.org/packages/d8/e9/4ba7ebb7b46b63ae8defa029690874fb18e8c44f8746faeb9ab25104a8d9/minikerberos-0.4.0.tar.gz
+[2023-05-30 16:02:19] INFO root fetch - processPackages [taskAutom]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-05-30 16:02:19] INFO root fetch - processPackages [hathorlib]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-30 16:02:19] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/82/fc/a2fb921023b16577c8aa677179b639f07a09f6821b34eea78678d9bd2157/pytorch_partial_tagger-0.1.1.tar.gz
+[2023-05-30 16:02:19] INFO root fetch - processPackages [SciencePlots]: Downloading https://files.pythonhosted.org/packages/a0/b7/f696584cda548b0483aae1fa0316c8ab833df055d8dfd3d3fc430dc376f9/SciencePlots-2.0.1.tar.gz
+[2023-05-30 16:02:19] INFO root fetch - processPackages [oopt-gnpy-libyang]: Downloading https://files.pythonhosted.org/packages/59/8b/f47ced8afd4bc947f44316fa005b5d08157a2f2e633cc84b5795ecaf3d2b/oopt-gnpy-libyang-0.0.6.tar.gz
+[2023-05-30 16:02:19] INFO root fetch - processPackages [modular-rl]: Downloading https://files.pythonhosted.org/packages/4b/16/9bcc008fd572a020e409ad789dfb438576e7e097ab7f24c7e6d2d648efc4/modular_rl-0.2.2.tar.gz
+[2023-05-30 16:02:20] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/b1/06/a221b000c65971a31916f215c95516d09b183fda576a403317dbece35666/tiledb_jupyter_bioimg-0.1.1a4.tar.gz
+[2023-05-30 16:02:20] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/3e/45/df2df069f9156444e541df6a1433575c47e9a87ed1df84c1bc2a505164fd/playmolecule-1.8.5.tar.gz
+[2023-05-30 16:02:20] INFO root fetch - processPackages [guanine-crystal-analysis]: Downloading https://files.pythonhosted.org/packages/e4/b5/9f99bc9ee9348edb4dd1229af36d5dcbffe2d6855b834c7e520075708610/guanine-crystal-analysis-0.0.1.tar.gz
+[2023-05-30 16:02:20] INFO root fetch - processPackages [taskAutom]: Downloading https://files.pythonhosted.org/packages/5c/ca/aa5a14ed67c3c1516fe7c9de1d1fb80293f1591ebafef8a74566c504665d/taskAutom-8.0.1.tar.gz
+[2023-05-30 16:02:20] INFO root fetch - processPackages [hathorlib]: Downloading https://files.pythonhosted.org/packages/f6/8b/15169b37deb87c1aefb3861f685c5c6d9b6adc8a87289dc1b748f5be4a2e/hathorlib-0.3.0.tar.gz
+[2023-05-30 16:02:20] INFO root fetch - processPackages [minikerberos]: Downloading https://files.pythonhosted.org/packages/4f/2a/6297503ba455c42ab90e8f3f55bca8a6595c256ee8edf4ed14c97fb87ec7/minikerberos-0.4.1.tar.gz
+[2023-05-30 16:02:20] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-05-30 16:02:20] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.8.4.2.tar.gz tmp/playmolecule-1.8.5.tar.gz --markdown 20230530/p/playmolecule/1.8.4.2-1.8.5/diff.md --exclude *.pyd
+[2023-05-30 16:02:20] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: executing diffoscope
+[2023-05-30 16:02:20] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_jupyter_bioimg-0.1.1a3.tar.gz tmp/tiledb_jupyter_bioimg-0.1.1a4.tar.gz --markdown 20230530/t/tiledb-jupyter-bioimg/0.1.1a3-0.1.1a4/diff.md --exclude *.pyd
+[2023-05-30 16:02:20] INFO root fetch - processPackages [minikerberos]: executing diffoscope
+[2023-05-30 16:02:20] INFO root fetch - processPackages [minikerberos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minikerberos-0.4.0.tar.gz tmp/minikerberos-0.4.1.tar.gz --markdown 20230530/m/minikerberos/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-30 16:02:20] INFO root fetch - processPackages [taskAutom]: executing diffoscope
+[2023-05-30 16:02:20] INFO root fetch - processPackages [taskAutom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskAutom-8.0.0.tar.gz tmp/taskAutom-8.0.1.tar.gz --markdown 20230530/t/taskAutom/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-05-30 16:02:20] INFO root fetch - processPackages [SciencePlots]: Downloading https://files.pythonhosted.org/packages/39/a0/fd0fe32f453c91ad926352a8000bfc6c898b13e86cf82bf70c33323520ea/SciencePlots-2.1.0.tar.gz
+[2023-05-30 16:02:20] INFO root fetch - processPackages [modular-rl]: Downloading https://files.pythonhosted.org/packages/1e/17/282a1e693b37d4b4c35b27537800441252e225648e6c082713849128b02f/modular_rl-0.2.3.tar.gz
+[2023-05-30 16:02:20] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/ce/04/a6038169044508047eb71211a6ae5ddbe1e58a392a8154829f41fcfc51ca/pytorch_partial_tagger-0.1.2.tar.gz
+[2023-05-30 16:02:20] INFO root fetch - processPackages [oopt-gnpy-libyang]: Downloading https://files.pythonhosted.org/packages/0e/0c/0b402ad93820008787de4f94e168e17117aaa87f5db48ba34ddb3ba6bb9b/oopt-gnpy-libyang-0.0.7.tar.gz
+[2023-05-30 16:02:20] INFO root fetch - processPackages [SciencePlots]: executing diffoscope
+[2023-05-30 16:02:20] INFO root fetch - processPackages [SciencePlots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SciencePlots-2.0.1.tar.gz tmp/SciencePlots-2.1.0.tar.gz --markdown 20230530/S/SciencePlots/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-05-30 16:02:20] INFO root fetch - processPackages [oopt-gnpy-libyang]: executing diffoscope
+[2023-05-30 16:02:20] INFO root fetch - processPackages [oopt-gnpy-libyang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oopt-gnpy-libyang-0.0.6.tar.gz tmp/oopt-gnpy-libyang-0.0.7.tar.gz --markdown 20230530/o/oopt-gnpy-libyang/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-30 16:02:20] INFO root fetch - processPackages [guanine-crystal-analysis]: Downloading https://files.pythonhosted.org/packages/67/e6/a5a3ea483603612327b98d9e8e0d6960b0db70b174b48dcd534e8fd3d2f4/guanine-crystal-analysis-0.0.2.tar.gz
+[2023-05-30 16:02:20] INFO root fetch - processPackages [pytorch-partial-tagger]: executing diffoscope
+[2023-05-30 16:02:20] INFO root fetch - processPackages [pytorch-partial-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_partial_tagger-0.1.1.tar.gz tmp/pytorch_partial_tagger-0.1.2.tar.gz --markdown 20230530/p/pytorch-partial-tagger/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 16:02:20] INFO root fetch - processPackages [modular-rl]: executing diffoscope
+[2023-05-30 16:02:20] INFO root fetch - processPackages [modular-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modular_rl-0.2.2.tar.gz tmp/modular_rl-0.2.3.tar.gz --markdown 20230530/m/modular-rl/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-30 16:02:20] INFO root fetch - processPackages [hathorlib]: Downloading https://files.pythonhosted.org/packages/13/65/c18670144d83174022b1b96beb5ba2e8809859d2341fe8a097c6f45e9f8f/hathorlib-0.4.0.tar.gz
+[2023-05-30 16:02:20] INFO root fetch - processPackages [guanine-crystal-analysis]: executing diffoscope
+[2023-05-30 16:02:20] INFO root fetch - processPackages [guanine-crystal-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guanine-crystal-analysis-0.0.1.tar.gz tmp/guanine-crystal-analysis-0.0.2.tar.gz --markdown 20230530/g/guanine-crystal-analysis/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 16:02:20] INFO root fetch - processPackages [hathorlib]: executing diffoscope
+[2023-05-30 16:02:20] INFO root fetch - processPackages [hathorlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hathorlib-0.3.0.tar.gz tmp/hathorlib-0.4.0.tar.gz --markdown 20230530/h/hathorlib/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-30 16:02:21] INFO root fetch - processPackages [playmolecule]: Start processing: jupyterlab-optumi
+[2023-05-30 16:02:21] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-05-30 16:02:21] INFO root fetch - processPackages [jupyterlab-optumi]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-05-30 16:02:21] INFO root fetch - processPackages [taskAutom]: Start processing: intel-sgx-ra
+[2023-05-30 16:02:21] INFO root fetch - main [MainThread]: End processing [taskAutom]: success
+[2023-05-30 16:02:21] INFO root fetch - processPackages [intel-sgx-ra]: New version: [2.0a7] Old Version: [2.0a6]
+[2023-05-30 16:02:22] INFO root fetch - processPackages [jupyterlab-optumi]: executing diffoscope
+[2023-05-30 16:02:22] INFO root fetch - processPackages [jupyterlab-optumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab-optumi-3.9.8.tar.gz tmp/jupyterlab-optumi-3.9.9.tar.gz --markdown 20230530/j/jupyterlab-optumi/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-05-30 16:02:22] INFO root fetch - processPackages [intel-sgx-ra]: Downloading https://files.pythonhosted.org/packages/14/72/c73db1a20ae848c72c21884a3303cc55956efbea56a4c52d2dd312aab556/intel_sgx_ra-2.0a7.tar.gz
+[2023-05-30 16:02:22] INFO root fetch - processPackages [intel-sgx-ra]: executing diffoscope
+[2023-05-30 16:02:22] INFO root fetch - processPackages [intel-sgx-ra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intel_sgx_ra-2.0a6.tar.gz tmp/intel_sgx_ra-2.0a7.tar.gz --markdown 20230530/i/intel-sgx-ra/2.0a6-2.0a7/diff.md --exclude *.pyd
+[2023-05-30 16:02:22] INFO root fetch - processPackages [SciencePlots]: Start processing: temporai
+[2023-05-30 16:02:22] INFO root fetch - main [MainThread]: End processing [SciencePlots]: success
+[2023-05-30 16:02:22] INFO root fetch - processPackages [temporai]: New version: [0.0.2] Old Version: [0.0.1.dev0]
+[2023-05-30 16:02:22] INFO root fetch - processPackages [oopt-gnpy-libyang]: Start processing: atlantisfastapi
+[2023-05-30 16:02:22] INFO root fetch - main [MainThread]: End processing [oopt-gnpy-libyang]: success
+[2023-05-30 16:02:22] INFO root fetch - processPackages [atlantisfastapi]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-05-30 16:02:22] INFO root fetch - processPackages [atlantisfastapi]: Downloading https://files.pythonhosted.org/packages/0c/00/0c2bb757f4cb16abd4d393453cb23fd7a776695037f2576bedd358d08a09/atlantisfastapi-0.3.0.tar.gz
+[2023-05-30 16:02:22] INFO root fetch - processPackages [temporai]: Downloading https://files.pythonhosted.org/packages/b9/b7/c3cbdb865c8cd19556679e524bd27bfd5475649a8466ccbbe99237def4d1/temporai-0.0.1.dev0-py3-none-any.whl
+[2023-05-30 16:02:22] INFO root fetch - processPackages [guanine-crystal-analysis]: Start processing: dit-activity-stream
+[2023-05-30 16:02:22] INFO root fetch - main [MainThread]: End processing [guanine-crystal-analysis]: success
+[2023-05-30 16:02:22] INFO root fetch - processPackages [dit-activity-stream]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-30 16:02:22] INFO root fetch - processPackages [modular-rl]: Start processing: junkpy
+[2023-05-30 16:02:22] INFO root fetch - main [MainThread]: End processing [modular-rl]: success
+[2023-05-30 16:02:22] WARNING root fetch - processPackages [junkpy]: Skipping, unable to determine old version
+[2023-05-30 16:02:22] INFO root fetch - main [MainThread]: End processing [junkpy] error
+[2023-05-30 16:02:22] INFO root fetch - processPackages [atlantisfastapi]: Downloading https://files.pythonhosted.org/packages/c1/78/861b124e69578f7878858b1694c7b25f16491b9ac7bf0d51d8705a81d2ba/atlantisfastapi-1.0.0.tar.gz
+[2023-05-30 16:02:22] INFO root fetch - processPackages [dit-activity-stream]: Downloading https://files.pythonhosted.org/packages/e6/ce/1da10a6571bf6832de698a653110d7251e2e8978b0795b43a18800a18f32/dit_activity_stream-0.2.0.tar.gz
+[2023-05-30 16:02:23] INFO root fetch - processPackages [atlantisfastapi]: executing diffoscope
+[2023-05-30 16:02:23] INFO root fetch - processPackages [atlantisfastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlantisfastapi-0.3.0.tar.gz tmp/atlantisfastapi-1.0.0.tar.gz --markdown 20230530/a/atlantisfastapi/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-30 16:02:23] INFO root fetch - processPackages [dit-activity-stream]: Downloading https://files.pythonhosted.org/packages/af/98/bcd02b302e6eab08e7e94601ffb64443c9232fdf6039d9cb2f8d2d368e16/dit_activity_stream-0.2.1.tar.gz
+[2023-05-30 16:02:23] INFO root fetch - processPackages [dit-activity-stream]: executing diffoscope
+[2023-05-30 16:02:23] INFO root fetch - processPackages [dit-activity-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dit_activity_stream-0.2.0.tar.gz tmp/dit_activity_stream-0.2.1.tar.gz --markdown 20230530/d/dit-activity-stream/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-30 16:02:23] INFO root fetch - main [MainThread]: End processing [hathorlib]: success
+[2023-05-30 16:02:23] INFO root fetch - processPackages [temporai]: Downloading https://files.pythonhosted.org/packages/61/43/648eef457ca4db2677c23b4f8459e0d04caec1d9940731f7041f96a70578/temporai-0.0.2-py3-none-any.whl
+[2023-05-30 16:02:23] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger]: success
+[2023-05-30 16:02:23] INFO root fetch - processPackages [temporai]: executing diffoscope
+[2023-05-30 16:02:23] INFO root fetch - processPackages [temporai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temporai-0.0.1.dev0-py3-none-any.whl.zip tmp/temporai-0.0.2-py3-none-any.whl.zip --markdown 20230530/t/temporai/0.0.1.dev0-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 16:02:24] INFO root fetch - main [MainThread]: End processing [minikerberos]: success
+[2023-05-30 16:02:24] INFO root fetch - main [MainThread]: End processing [intel-sgx-ra]: success
+[2023-05-30 16:02:24] INFO root fetch - main [MainThread]: End processing [atlantisfastapi]: success
+[2023-05-30 16:02:24] INFO root fetch - main [MainThread]: End processing [dit-activity-stream]: success
+[2023-05-30 16:02:25] INFO root fetch - main [MainThread]: End processing [temporai]: success
+[2023-05-30 16:02:31] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
+[2023-05-30 16:02:32] INFO root fetch - main [MainThread]: End processing [jupyterlab-optumi]: success
+[2023-05-30 16:02:32] INFO root fetch - main [MainThread]: Store serial: [18303227]
