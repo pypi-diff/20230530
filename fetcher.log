@@ -4232,3 +4232,39 @@
 [2023-05-30 04:36:57] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-05-30 04:36:59] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-05-30 04:36:59] INFO root fetch - main [MainThread]: Store serial: [18297117]
+[2023-05-30 04:42:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297117]
+[2023-05-30 04:42:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-30 04:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pigar
+[2023-05-30 04:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ProjectB-clientside-template-package
+[2023-05-30 04:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: innerverz
+[2023-05-30 04:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-nagabus
+[2023-05-30 04:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hydro-deploy
+[2023-05-30 04:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-cloudfw20171207
+[2023-05-30 04:42:10] INFO root fetch - processPackages [pigar]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-05-30 04:42:10] INFO root fetch - processPackages [ProjectB-clientside-template-package]: New version: [0.5] Old Version: [0.4]
+[2023-05-30 04:42:10] ERROR root fetch - processPackages [hydro-deploy]: Unable to get metadata: No such project 'hydro-deploy'
+[2023-05-30 04:42:10] INFO root fetch - main [MainThread]: End processing [hydro-deploy] error
+[2023-05-30 04:42:10] INFO root fetch - processPackages [innerverz]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-05-30 04:42:10] INFO root fetch - processPackages [nonebot-plugin-nagabus]: New version: [0.1.5] Old Version: [0.1.4.post1]
+[2023-05-30 04:42:10] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-30 04:42:10] INFO root fetch - processPackages [ProjectB-clientside-template-package]: Downloading https://files.pythonhosted.org/packages/ea/e4/bd5ccdc56b2e6aa06028dbf09783c258945f90bedf73b8ad2b267532c438/ProjectB_clientside_template_package-0.5.tar.gz
+[2023-05-30 04:42:10] INFO root fetch - processPackages [pigar]: Downloading https://files.pythonhosted.org/packages/64/4b/fb7d492598ded1b8f9d98d1c070fe92ee821d5d34d0f478d5fd31bf0e8c7/pigar-2.0.6.tar.gz
+[2023-05-30 04:42:10] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Downloading https://files.pythonhosted.org/packages/2d/89/56e2ba9e9131e76531289873b13248b054f6010e92001a62a2b36c23ab68/nonebot_plugin_nagabus-0.1.5.tar.gz
+[2023-05-30 04:42:10] INFO root fetch - processPackages [ProjectB-clientside-template-package]: executing diffoscope
+[2023-05-30 04:42:10] INFO root fetch - processPackages [ProjectB-clientside-template-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjectB_clientside_template_package-0.4.tar.gz tmp/ProjectB_clientside_template_package-0.5.tar.gz --markdown 20230530/P/ProjectB-clientside-template-package/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-30 04:42:10] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Downloading https://files.pythonhosted.org/packages/ed/fc/f11341da468fecaf06bc8c798171377811342fb9d8d7d38b57923b6cab02/alibabacloud_cloudfw20171207-1.2.6.tar.gz
+[2023-05-30 04:42:10] WARNING root fetch - processPackages [pigar]: Skipping package: exceeds size limit 19703110>=10485760
+[2023-05-30 04:42:10] INFO root fetch - main [MainThread]: End processing [pigar] error
+[2023-05-30 04:42:10] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/44/35/ee03a214ae361a2f6fe7f1bfcdd3a4893c9ef44b9d2e06ea39321d56cf03/innerverz-0.0.21.tar.gz
+[2023-05-30 04:42:10] INFO root fetch - processPackages [nonebot-plugin-nagabus]: executing diffoscope
+[2023-05-30 04:42:10] INFO root fetch - processPackages [nonebot-plugin-nagabus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nagabus-0.1.4.post1.tar.gz tmp/nonebot_plugin_nagabus-0.1.5.tar.gz --markdown 20230530/n/nonebot-plugin-nagabus/0.1.4.post1-0.1.5/diff.md --exclude *.pyd
+[2023-05-30 04:42:10] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-05-30 04:42:10] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.0.20.tar.gz tmp/innerverz-0.0.21.tar.gz --markdown 20230530/i/innerverz/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-05-30 04:42:11] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Downloading https://files.pythonhosted.org/packages/39/e1/7960194d377bb79e0c4d6c32a7444f3ce7677e8d9259e3d923e44e0a59f1/alibabacloud_cloudfw20171207-1.2.7.tar.gz
+[2023-05-30 04:42:11] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: executing diffoscope
+[2023-05-30 04:42:11] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudfw20171207-1.2.6.tar.gz tmp/alibabacloud_cloudfw20171207-1.2.7.tar.gz --markdown 20230530/a/alibabacloud-cloudfw20171207/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-30 04:42:11] INFO root fetch - main [MainThread]: End processing [ProjectB-clientside-template-package]: success
+[2023-05-30 04:42:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nagabus]: success
+[2023-05-30 04:42:12] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-05-30 04:42:13] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudfw20171207]: success
+[2023-05-30 04:42:13] INFO root fetch - main [MainThread]: Store serial: [18297156]
