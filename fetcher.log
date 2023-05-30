@@ -9628,3 +9628,134 @@
 [2023-05-30 11:56:09] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
 [2023-05-30 11:56:13] INFO root fetch - main [MainThread]: End processing [qlapi]: success
 [2023-05-30 11:56:13] INFO root fetch - main [MainThread]: Store serial: [18300250]
+[2023-05-30 12:01:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18300250]
+[2023-05-30 12:01:26] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-30 12:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-user-notification
+[2023-05-30 12:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tailraiders
+[2023-05-30 12:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thumbor-piliptc-engine
+[2023-05-30 12:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datagen-protocol-core
+[2023-05-30 12:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-cloudapi20160714-py2
+[2023-05-30 12:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datagen-protocol-functional
+[2023-05-30 12:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dl2050nn
+[2023-05-30 12:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datagen-validation-protocol
+[2023-05-30 12:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-cloudapi20160714
+[2023-05-30 12:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dl2050nn
+[2023-05-30 12:01:26] INFO root fetch - processPackages [django-user-notification]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-30 12:01:26] INFO root fetch - processPackages [thumbor-piliptc-engine]: New version: [7.4.7.4] Old Version: [7.4.7.3]
+[2023-05-30 12:01:26] INFO root fetch - processPackages [tailraiders]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-30 12:01:26] INFO root fetch - processPackages [datagen-protocol-functional]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-30 12:01:26] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-30 12:01:26] INFO root fetch - processPackages [datagen-validation-protocol]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-30 12:01:26] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-30 12:01:26] INFO root fetch - processPackages [dl2050nn]: New version: [1.0.8] Old Version: [1.0.76]
+[2023-05-30 12:01:26] INFO root fetch - processPackages [datagen-protocol-core]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-30 12:01:26] INFO root fetch - processPackages [dl2050nn]: New version: [1.0.8] Old Version: [1.0.76]
+[2023-05-30 12:01:26] INFO root fetch - processPackages [django-user-notification]: Downloading https://files.pythonhosted.org/packages/14/ef/e8454e7e07faed7613139c7d5bad56231d7f5890b52e09f0937590936438/django_user_notification-0.9.1.tar.gz
+[2023-05-30 12:01:26] INFO root fetch - processPackages [dl2050nn]: Downloading https://files.pythonhosted.org/packages/be/8a/7464f75393a6867a558a04442be143ede2eab9f37276f999fa6366e7872d/dl2050nn-1.0.76.tar.gz
+[2023-05-30 12:01:26] INFO root fetch - processPackages [dl2050nn]: Downloading https://files.pythonhosted.org/packages/be/8a/7464f75393a6867a558a04442be143ede2eab9f37276f999fa6366e7872d/dl2050nn-1.0.76.tar.gz
+[2023-05-30 12:01:26] INFO root fetch - processPackages [thumbor-piliptc-engine]: Downloading https://files.pythonhosted.org/packages/09/2b/5e2cb00befd283caad09525c49cb6f11d719f3d3bd3dec39704d26ab248d/thumbor-piliptc-engine-7.4.7.3.tar.gz
+[2023-05-30 12:01:26] INFO root fetch - processPackages [tailraiders]: Downloading https://files.pythonhosted.org/packages/87/e2/ff87f47faab24244d75b856f5ac6ce15d94fe913b308ac38c64e128cb5e7/tailraiders-0.1.0.tar.gz
+[2023-05-30 12:01:26] INFO root fetch - processPackages [django-user-notification]: Downloading https://files.pythonhosted.org/packages/de/d5/e89db08d167141992d14f608e830363d50a4499984fb6a409d962b434b78/django_user_notification-0.9.2.tar.gz
+[2023-05-30 12:01:26] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: executing diffoscope
+[2023-05-30 12:01:26] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudapi20160714_py2-2.2.8.tar.gz tmp/alibabacloud_cloudapi20160714_py2-2.2.9.tar.gz --markdown 20230530/a/alibabacloud-cloudapi20160714-py2/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-30 12:01:27] INFO root fetch - processPackages [datagen-validation-protocol]: executing diffoscope
+[2023-05-30 12:01:27] INFO root fetch - processPackages [datagen-validation-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_validation_protocol-0.8.3.tar.gz tmp/datagen_validation_protocol-0.9.0.tar.gz --markdown 20230530/d/datagen-validation-protocol/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 12:01:27] INFO root fetch - processPackages [datagen-protocol-functional]: executing diffoscope
+[2023-05-30 12:01:27] INFO root fetch - processPackages [datagen-protocol-functional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_protocol_functional-0.8.3.tar.gz tmp/datagen_protocol_functional-0.9.0.tar.gz --markdown 20230530/d/datagen-protocol-functional/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 12:01:27] INFO root fetch - processPackages [datagen-protocol-core]: executing diffoscope
+[2023-05-30 12:01:27] INFO root fetch - processPackages [datagen-protocol-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_protocol_core-0.8.3.tar.gz tmp/datagen_protocol_core-0.9.0.tar.gz --markdown 20230530/d/datagen-protocol-core/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 12:01:27] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: executing diffoscope
+[2023-05-30 12:01:27] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudapi20160714-2.2.8.tar.gz tmp/alibabacloud_cloudapi20160714-2.2.9.tar.gz --markdown 20230530/a/alibabacloud-cloudapi20160714/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-30 12:01:27] INFO root fetch - processPackages [dl2050nn]: Downloading https://files.pythonhosted.org/packages/e0/5a/84fbb5452696b3b82f69f9544f00ef2209e57c8e85977d1198e8610ee2b4/dl2050nn-1.0.8.tar.gz
+[2023-05-30 12:01:27] INFO root fetch - processPackages [dl2050nn]: Downloading https://files.pythonhosted.org/packages/e0/5a/84fbb5452696b3b82f69f9544f00ef2209e57c8e85977d1198e8610ee2b4/dl2050nn-1.0.8.tar.gz
+[2023-05-30 12:01:27] INFO root fetch - processPackages [thumbor-piliptc-engine]: Downloading https://files.pythonhosted.org/packages/09/ce/486230a2ac96ce7b93d4f1a5df7061edaf5e4541f50bddef8f8a228b19c7/thumbor-piliptc-engine-7.4.7.4.tar.gz
+[2023-05-30 12:01:27] INFO root fetch - processPackages [tailraiders]: executing diffoscope
+[2023-05-30 12:01:27] INFO root fetch - processPackages [tailraiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailraiders-0.0.9.tar.gz tmp/tailraiders-0.1.0.tar.gz --markdown 20230530/t/tailraiders/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-30 12:01:27] INFO root fetch - processPackages [dl2050nn]: executing diffoscope
+[2023-05-30 12:01:27] INFO root fetch - processPackages [dl2050nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050nn-1.0.76.tar.gz tmp/dl2050nn-1.0.8.tar.gz --markdown 20230530/d/dl2050nn/1.0.76-1.0.8/diff.md --exclude *.pyd
+[2023-05-30 12:01:27] INFO root fetch - processPackages [dl2050nn]: executing diffoscope
+[2023-05-30 12:01:27] INFO root fetch - processPackages [dl2050nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050nn-1.0.76.tar.gz tmp/dl2050nn-1.0.8.tar.gz --markdown 20230530/d/dl2050nn/1.0.76-1.0.8/diff.md --exclude *.pyd
+[2023-05-30 12:01:27] INFO root fetch - processPackages [django-user-notification]: executing diffoscope
+[2023-05-30 12:01:27] INFO root fetch - processPackages [django-user-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_user_notification-0.9.1.tar.gz tmp/django_user_notification-0.9.2.tar.gz --markdown 20230530/d/django-user-notification/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-30 12:01:27] INFO root fetch - processPackages [thumbor-piliptc-engine]: executing diffoscope
+[2023-05-30 12:01:27] INFO root fetch - processPackages [thumbor-piliptc-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thumbor-piliptc-engine-7.4.7.3.tar.gz tmp/thumbor-piliptc-engine-7.4.7.4.tar.gz --markdown 20230530/t/thumbor-piliptc-engine/7.4.7.3-7.4.7.4/diff.md --exclude *.pyd
+[2023-05-30 12:01:28] INFO root fetch - processPackages [datagen-validation-protocol]: Start processing: XSBCK
+[2023-05-30 12:01:28] INFO root fetch - main [MainThread]: End processing [datagen-validation-protocol]: success
+[2023-05-30 12:01:28] WARNING root fetch - processPackages [XSBCK]: Skipping, unable to determine old version
+[2023-05-30 12:01:28] INFO root fetch - processPackages [XSBCK]: Start processing: aadhilsiccalculator
+[2023-05-30 12:01:28] INFO root fetch - main [MainThread]: End processing [XSBCK] error
+[2023-05-30 12:01:28] WARNING root fetch - processPackages [aadhilsiccalculator]: Skipping, unable to determine old version
+[2023-05-30 12:01:28] INFO root fetch - processPackages [aadhilsiccalculator]: Start processing: ensenso-nxlib
+[2023-05-30 12:01:28] INFO root fetch - main [MainThread]: End processing [aadhilsiccalculator] error
+[2023-05-30 12:01:28] INFO root fetch - processPackages [ensenso-nxlib]: New version: [3.5.1375] Old Version: [3.4.743]
+[2023-05-30 12:01:29] INFO root fetch - processPackages [ensenso-nxlib]: Downloading https://files.pythonhosted.org/packages/71/de/ce310e2b4c924866fc63eeef7e9b19af129651bb95e5adc56b552732c32d/ensenso_nxlib-3.4.743.tar.gz
+[2023-05-30 12:01:29] INFO root fetch - processPackages [datagen-protocol-core]: Start processing: pointa-to-pointb
+[2023-05-30 12:01:29] INFO root fetch - main [MainThread]: End processing [datagen-protocol-core]: success
+[2023-05-30 12:01:29] WARNING root fetch - processPackages [pointa-to-pointb]: Skipping, unable to determine old version
+[2023-05-30 12:01:29] INFO root fetch - processPackages [pointa-to-pointb]: Start processing: nxlib
+[2023-05-30 12:01:29] INFO root fetch - main [MainThread]: End processing [pointa-to-pointb] error
+[2023-05-30 12:01:29] INFO root fetch - processPackages [nxlib]: New version: [3.5.1375] Old Version: [3.4.743]
+[2023-05-30 12:01:29] INFO root fetch - processPackages [tailraiders]: Start processing: underactuated
+[2023-05-30 12:01:29] INFO root fetch - main [MainThread]: End processing [tailraiders]: success
+[2023-05-30 12:01:29] INFO root fetch - processPackages [datagen-protocol-functional]: Start processing: nwebclient
+[2023-05-30 12:01:29] INFO root fetch - main [MainThread]: End processing [datagen-protocol-functional]: success
+[2023-05-30 12:01:29] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Start processing: aws-ssm-copy
+[2023-05-30 12:01:29] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714-py2]: success
+[2023-05-30 12:01:29] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-05-30 12:01:29] INFO root fetch - processPackages [underactuated]: New version: [2023.5.29] Old Version: [2023.4.17]
+[2023-05-30 12:01:29] INFO root fetch - processPackages [ensenso-nxlib]: Downloading https://files.pythonhosted.org/packages/c3/d6/62c6a4668cc2d216c0a04577d6a7ad5271bde5848cff87606f0757a6b23f/ensenso_nxlib-3.5.1375.tar.gz
+[2023-05-30 12:01:29] INFO root fetch - processPackages [aws-ssm-copy]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-30 12:01:29] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-30 12:01:29] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230530/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-05-30 12:01:29] INFO root fetch - processPackages [ensenso-nxlib]: executing diffoscope
+[2023-05-30 12:01:29] INFO root fetch - processPackages [ensenso-nxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensenso_nxlib-3.4.743.tar.gz tmp/ensenso_nxlib-3.5.1375.tar.gz --markdown 20230530/e/ensenso-nxlib/3.4.743-3.5.1375/diff.md --exclude *.pyd
+[2023-05-30 12:01:29] INFO root fetch - processPackages [nxlib]: Downloading https://files.pythonhosted.org/packages/15/a9/4ea59c75585f4a37eead9a3075ef7e39e03ac4a76ed5d832ca889fc13d6c/nxlib-3.4.743.tar.gz
+[2023-05-30 12:01:29] INFO root fetch - processPackages [underactuated]: Downloading https://files.pythonhosted.org/packages/e7/4c/61f959b15b0f894820aa8fb50c9d9f8c8c1f889f4b1cd0038417aa660266/underactuated-2023.4.17.tar.gz
+[2023-05-30 12:01:29] INFO root fetch - processPackages [aws-ssm-copy]: Downloading https://files.pythonhosted.org/packages/dc/bf/221f52222288d33e9afea514bd8750490e5f32e50d9391d7e882585ce84c/aws-ssm-copy-0.5.1.tar.gz
+[2023-05-30 12:01:29] INFO root fetch - processPackages [thumbor-piliptc-engine]: Start processing: django-user-notification
+[2023-05-30 12:01:29] INFO root fetch - main [MainThread]: End processing [thumbor-piliptc-engine]: success
+[2023-05-30 12:01:29] INFO root fetch - processPackages [django-user-notification]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-30 12:01:29] INFO root fetch - processPackages [django-user-notification]: Start processing: picked-group-fdr
+[2023-05-30 12:01:29] INFO root fetch - main [MainThread]: End processing [django-user-notification]: success
+[2023-05-30 12:01:29] INFO root fetch - processPackages [picked-group-fdr]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-05-30 12:01:29] INFO root fetch - processPackages [nxlib]: Downloading https://files.pythonhosted.org/packages/8c/a8/c15ef09253903c587840bd655adec44941d5713bee18e39e6a388791efac/nxlib-3.5.1375.tar.gz
+[2023-05-30 12:01:29] INFO root fetch - processPackages [django-user-notification]: executing diffoscope
+[2023-05-30 12:01:29] INFO root fetch - processPackages [django-user-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_user_notification-0.9.1.tar.gz tmp/django_user_notification-0.9.2.tar.gz --markdown 20230530/d/django-user-notification/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-30 12:01:29] INFO root fetch - processPackages [aws-ssm-copy]: executing diffoscope
+[2023-05-30 12:01:29] INFO root fetch - processPackages [aws-ssm-copy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-ssm-copy-0.5.0.tar.gz tmp/aws-ssm-copy-0.5.1.tar.gz --markdown 20230530/a/aws-ssm-copy/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-30 12:01:29] INFO root fetch - processPackages [dl2050nn]: Start processing: dl2050nn
+[2023-05-30 12:01:29] INFO root fetch - main [MainThread]: End processing [dl2050nn]: success
+[2023-05-30 12:01:29] INFO root fetch - processPackages [dl2050nn]: New version: [1.0.8] Old Version: [1.0.76]
+[2023-05-30 12:01:29] INFO root fetch - processPackages [nxlib]: executing diffoscope
+[2023-05-30 12:01:29] INFO root fetch - processPackages [nxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxlib-3.4.743.tar.gz tmp/nxlib-3.5.1375.tar.gz --markdown 20230530/n/nxlib/3.4.743-3.5.1375/diff.md --exclude *.pyd
+[2023-05-30 12:01:29] INFO root fetch - processPackages [underactuated]: Downloading https://files.pythonhosted.org/packages/af/82/f0db45a60eac453523793b382638dacd498f93c53c1cb1e05deeaead8bbc/underactuated-2023.5.29.tar.gz
+[2023-05-30 12:01:29] INFO root fetch - processPackages [dl2050nn]: executing diffoscope
+[2023-05-30 12:01:29] INFO root fetch - processPackages [dl2050nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050nn-1.0.76.tar.gz tmp/dl2050nn-1.0.8.tar.gz --markdown 20230530/d/dl2050nn/1.0.76-1.0.8/diff.md --exclude *.pyd
+[2023-05-30 12:01:29] INFO root fetch - processPackages [picked-group-fdr]: Downloading https://files.pythonhosted.org/packages/32/c5/6aa06d9f9029c51730c7b862a4cd57b798becfe8d7b3b05da8c190581529/picked_group_fdr-0.3.5-py3-none-any.whl
+[2023-05-30 12:01:29] INFO root fetch - processPackages [underactuated]: executing diffoscope
+[2023-05-30 12:01:29] INFO root fetch - processPackages [underactuated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/underactuated-2023.4.17.tar.gz tmp/underactuated-2023.5.29.tar.gz --markdown 20230530/u/underactuated/2023.4.17-2023.5.29/diff.md --exclude *.pyd
+[2023-05-30 12:01:29] INFO root fetch - processPackages [dl2050nn]: Start processing: gplates-ws-proxy
+[2023-05-30 12:01:29] INFO root fetch - main [MainThread]: End processing [dl2050nn]: success
+[2023-05-30 12:01:30] INFO root fetch - processPackages [picked-group-fdr]: Downloading https://files.pythonhosted.org/packages/e1/6a/3c65cc515e0ed0830cb66a4567a0003b05ea1ca25b35e076878d8ddb1b34/picked_group_fdr-0.4.0-py3-none-any.whl
+[2023-05-30 12:01:30] WARNING root fetch - processPackages [gplates-ws-proxy]: Skipping, unable to determine old version
+[2023-05-30 12:01:30] INFO root fetch - processPackages [gplates-ws-proxy]: Start processing: libcnmc
+[2023-05-30 12:01:30] INFO root fetch - main [MainThread]: End processing [gplates-ws-proxy] error
+[2023-05-30 12:01:30] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-30 12:01:30] INFO root fetch - processPackages [picked-group-fdr]: executing diffoscope
+[2023-05-30 12:01:30] INFO root fetch - processPackages [picked-group-fdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picked_group_fdr-0.3.5-py3-none-any.whl.zip tmp/picked_group_fdr-0.4.0-py3-none-any.whl.zip --markdown 20230530/p/picked-group-fdr/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-05-30 12:01:30] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-30 12:01:30] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230530/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-30 12:01:31] INFO root fetch - processPackages [ensenso-nxlib]: Start processing: check-type-hints
+[2023-05-30 12:01:31] INFO root fetch - main [MainThread]: End processing [ensenso-nxlib]: success
+[2023-05-30 12:01:31] WARNING root fetch - processPackages [check-type-hints]: Skipping, unable to determine old version
+[2023-05-30 12:01:31] INFO root fetch - main [MainThread]: End processing [check-type-hints] error
+[2023-05-30 12:01:31] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-30 12:01:31] INFO root fetch - main [MainThread]: End processing [nxlib]: success
+[2023-05-30 12:01:31] INFO root fetch - main [MainThread]: End processing [django-user-notification]: success
+[2023-05-30 12:01:31] INFO root fetch - main [MainThread]: End processing [aws-ssm-copy]: success
+[2023-05-30 12:01:32] INFO root fetch - main [MainThread]: End processing [dl2050nn]: success
+[2023-05-30 12:01:33] INFO root fetch - main [MainThread]: End processing [picked-group-fdr]: success
+[2023-05-30 12:01:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714]: success
+[2023-05-30 12:01:34] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-30 12:01:34] INFO root fetch - main [MainThread]: End processing [underactuated]: success
+[2023-05-30 12:01:34] INFO root fetch - main [MainThread]: Store serial: [18300322]
