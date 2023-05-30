@@ -5892,3 +5892,92 @@
 [2023-05-30 07:23:08] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-stock-logistics-warehouse]: success
 [2023-05-30 07:23:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request]: success
 [2023-05-30 07:23:08] INFO root fetch - main [MainThread]: Store serial: [18298071]
+[2023-05-30 07:28:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298071]
+[2023-05-30 07:28:16] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-30 07:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfsd
+[2023-05-30 07:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agv-fact
+[2023-05-30 07:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-source-collection
+[2023-05-30 07:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gisting
+[2023-05-30 07:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fossiler
+[2023-05-30 07:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-partner-survey
+[2023-05-30 07:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-survey-question-type-nps
+[2023-05-30 07:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-survey-question-type-five-star
+[2023-05-30 07:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-survey-conditional-question
+[2023-05-30 07:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-survey-xlsx
+[2023-05-30 07:28:16] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 07:28:16] INFO root fetch - processPackages [odoo12-addon-partner-survey]: New version: [12.0.1.0.0.99.dev8] Old Version: [12.0.1.0.0.99.dev7]
+[2023-05-30 07:28:16] INFO root fetch - processPackages [odoo14-addon-survey-question-type-nps]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-05-30 07:28:16] INFO root fetch - processPackages [agv-fact]: New version: [1.0.2.9] Old Version: [1.0.2.8]
+[2023-05-30 07:28:16] INFO root fetch - processPackages [odoo14-addon-survey-question-type-five-star]: New version: [14.0.1.0.2.dev3] Old Version: [14.0.1.0.2.dev2]
+[2023-05-30 07:28:16] INFO root fetch - processPackages [odoo14-addon-survey-xlsx]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-05-30 07:28:16] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.35] Old Version: [0.0.34]
+[2023-05-30 07:28:16] INFO root fetch - processPackages [fossiler]: New version: [0.0.4.4] Old Version: [0.0.4.3]
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-conditional-question]: New version: [14.0.1.0.1.dev7] Old Version: [14.0.1.0.1.dev6]
+[2023-05-30 07:28:17] INFO root fetch - processPackages [gisting]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-question-type-nps]: Downloading https://files.pythonhosted.org/packages/e5/35/7dd0138ef5194f51be1fa6246feaccba22b63a66f12d58fa1bcc4ab60110/odoo14_addon_survey_question_type_nps-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-xlsx]: Downloading https://files.pythonhosted.org/packages/81/05/1db9dc507fec95ec3d17f9c75077fc6ac7e3e581945eba94c95462821db0/odoo14_addon_survey_xlsx-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo12-addon-partner-survey]: Downloading https://files.pythonhosted.org/packages/1a/b2/9ddcb0e516b3c10dc8e356018e7fe50b24b2d493c43bd403189c45b6b646/odoo12_addon_partner_survey-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-question-type-five-star]: Downloading https://files.pythonhosted.org/packages/75/d9/43be641fc749ceea73b006832e16ac3f6c283d80bcf1954ee736c8a72de1/odoo14_addon_survey_question_type_five_star-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-conditional-question]: Downloading https://files.pythonhosted.org/packages/b3/97/019693ac974848add385809b10423ded9c75121aaaf16c345b2ec0f74ecf/odoo14_addon_survey_conditional_question-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-05-30 07:28:17] INFO root fetch - processPackages [agv-fact]: Downloading https://files.pythonhosted.org/packages/24/7b/1ab338c5f73391bc46588d7ab91ce6fce846c7d1abe333f18b9e09b7a544/agv-fact-1.0.2.8.tar.gz
+[2023-05-30 07:28:17] INFO root fetch - processPackages [gisting]: Downloading https://files.pythonhosted.org/packages/ca/ca/dc98393825a1432e2d6ed0f42c2bef73dc89b39df8748298fa37dab0ed44/gisting-1.3.5.tar.gz
+[2023-05-30 07:28:17] INFO root fetch - processPackages [fossiler]: Downloading https://files.pythonhosted.org/packages/14/45/cf79a6b2bb073d5eafc5e047bfa041bb131f7c5a735b1760b5dcee3b7307/fossiler-0.0.4.4.tar.gz
+[2023-05-30 07:28:17] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/ee/3f/b17b40d126dca8badda06c3c01e8584f32066d3386caa8886fbb7690e33f/macrometa-source-collection-0.0.35.tar.gz
+[2023-05-30 07:28:17] INFO root fetch - processPackages [gisting]: executing diffoscope
+[2023-05-30 07:28:17] INFO root fetch - processPackages [gisting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gisting-1.3.4.tar.gz tmp/gisting-1.3.5.tar.gz --markdown 20230530/g/gisting/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-05-30 07:28:17] INFO root fetch - processPackages [fossiler]: executing diffoscope
+[2023-05-30 07:28:17] INFO root fetch - processPackages [fossiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fossiler-0.0.4.3.tar.gz tmp/fossiler-0.0.4.4.tar.gz --markdown 20230530/f/fossiler/0.0.4.3-0.0.4.4/diff.md --exclude *.pyd
+[2023-05-30 07:28:17] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-05-30 07:28:17] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.34.tar.gz tmp/macrometa-source-collection-0.0.35.tar.gz --markdown 20230530/m/macrometa-source-collection/0.0.34-0.0.35/diff.md --exclude *.pyd
+[2023-05-30 07:28:17] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-05-30 07:28:17] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230530/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-xlsx]: Downloading https://files.pythonhosted.org/packages/e9/39/532f01ea123dc8c15fe0aa57a8725c77facfe75ad7579f4c98cdf037264a/odoo14_addon_survey_xlsx-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-conditional-question]: Downloading https://files.pythonhosted.org/packages/d0/97/2f725f8e2d8c7f6f8bd19fa57a8df91aabdf3e77549ad6c2eac530dfd9f9/odoo14_addon_survey_conditional_question-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-question-type-five-star]: Downloading https://files.pythonhosted.org/packages/bb/5c/195345c13cf4a99db5264e6e19bf80ca0b96abb80fd5e20a916f2b65e976/odoo14_addon_survey_question_type_five_star-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-05-30 07:28:17] INFO root fetch - processPackages [agv-fact]: Downloading https://files.pythonhosted.org/packages/9c/06/b9d76918ee656e2bbc6293ebb21a7bf2e37e117f24f385561814d0cfb07d/agv-fact-1.0.2.9.tar.gz
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-question-type-nps]: Downloading https://files.pythonhosted.org/packages/d5/75/0d6b27cd6930c90d0a5d4fbc33106bc03910ef2721aa9d8f3af6673bb7d4/odoo14_addon_survey_question_type_nps-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-xlsx]: executing diffoscope
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-xlsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_survey_xlsx-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_survey_xlsx-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-survey-xlsx/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-conditional-question]: executing diffoscope
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-conditional-question]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_survey_conditional_question-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_survey_conditional_question-14.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-survey-conditional-question/14.0.1.0.1.dev6-14.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-question-type-five-star]: executing diffoscope
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-question-type-five-star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_survey_question_type_five_star-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_survey_question_type_five_star-14.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-survey-question-type-five-star/14.0.1.0.2.dev2-14.0.1.0.2.dev3/diff.md --exclude *.pyd
+[2023-05-30 07:28:17] INFO root fetch - processPackages [agv-fact]: executing diffoscope
+[2023-05-30 07:28:17] INFO root fetch - processPackages [agv-fact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agv-fact-1.0.2.8.tar.gz tmp/agv-fact-1.0.2.9.tar.gz --markdown 20230530/a/agv-fact/1.0.2.8-1.0.2.9/diff.md --exclude *.pyd
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-question-type-nps]: executing diffoscope
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo14-addon-survey-question-type-nps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_survey_question_type_nps-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_survey_question_type_nps-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-survey-question-type-nps/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-05-30 07:28:17] INFO root fetch - processPackages [odoo12-addon-partner-survey]: Downloading https://files.pythonhosted.org/packages/4f/4d/bc2104c6f98a2b6b23125af3ce84b6f007fe8ac614fac9db0c1f86673181/odoo12_addon_partner_survey-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-05-30 07:28:18] INFO root fetch - processPackages [odoo12-addon-partner-survey]: executing diffoscope
+[2023-05-30 07:28:18] INFO root fetch - processPackages [odoo12-addon-partner-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_partner_survey-12.0.1.0.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_partner_survey-12.0.1.0.0.99.dev8-py3-none-any.whl.zip --markdown 20230530/o/odoo12-addon-partner-survey/12.0.1.0.0.99.dev7-12.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-30 07:28:18] INFO root fetch - processPackages [macrometa-source-collection]: Start processing: flowclient
+[2023-05-30 07:28:18] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-05-30 07:28:18] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-30 07:28:19] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-05-30 07:28:19] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230530/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-30 07:28:19] INFO root fetch - processPackages [fossiler]: Start processing: flowetl
+[2023-05-30 07:28:19] INFO root fetch - main [MainThread]: End processing [fossiler]: success
+[2023-05-30 07:28:19] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-30 07:28:19] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-05-30 07:28:19] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230530/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-30 07:28:19] INFO root fetch - processPackages [odoo14-addon-survey-xlsx]: Start processing: flowmachine
+[2023-05-30 07:28:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-survey-xlsx]: success
+[2023-05-30 07:28:19] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-30 07:28:19] INFO root fetch - processPackages [gisting]: Start processing: chalkpy
+[2023-05-30 07:28:19] INFO root fetch - main [MainThread]: End processing [gisting]: success
+[2023-05-30 07:28:19] INFO root fetch - processPackages [chalkpy]: New version: [2.4.7] Old Version: [2.4.6]
+[2023-05-30 07:28:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-survey-conditional-question]: success
+[2023-05-30 07:28:19] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-05-30 07:28:19] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230530/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-30 07:28:19] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/a6/cc/02f623a9b480b9876080a710d1aafe17300b5b4805b77f1204adb87517cd/chalkpy-2.4.7.tar.gz
+[2023-05-30 07:28:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-survey-question-type-five-star]: success
+[2023-05-30 07:28:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-survey-question-type-nps]: success
+[2023-05-30 07:28:20] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-30 07:28:20] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.4.6.tar.gz tmp/chalkpy-2.4.7.tar.gz --markdown 20230530/c/chalkpy/2.4.6-2.4.7/diff.md --exclude *.pyd
+[2023-05-30 07:28:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-partner-survey]: success
+[2023-05-30 07:28:20] INFO root fetch - main [MainThread]: End processing [agv-fact]: success
+[2023-05-30 07:28:20] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-05-30 07:28:20] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-05-30 07:28:21] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-05-30 07:28:22] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-05-30 07:28:25] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-30 07:28:25] INFO root fetch - main [MainThread]: Store serial: [18298106]
