@@ -8469,3 +8469,93 @@
 [2023-05-30 10:43:43] INFO root fetch - main [MainThread]: End processing [tpmstream]: success
 [2023-05-30 10:43:52] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
 [2023-05-30 10:43:52] INFO root fetch - main [MainThread]: Store serial: [18299561]
+[2023-05-30 10:48:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18299561]
+[2023-05-30 10:49:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-30 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-otbr-api
+[2023-05-30 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lyscripts
+[2023-05-30 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: O365
+[2023-05-30 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parse-it
+[2023-05-30 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangosaml2
+[2023-05-30 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-ro-stock-account
+[2023-05-30 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oc-checksumsq
+[2023-05-30 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: IntuneCD
+[2023-05-30 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: directory-components
+[2023-05-30 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uium
+[2023-05-30 10:49:02] INFO root fetch - processPackages [oc-checksumsq]: New version: [10.2.3] Old Version: [10.2.1]
+[2023-05-30 10:49:02] INFO root fetch - processPackages [lyscripts]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-05-30 10:49:02] INFO root fetch - processPackages [djangosaml2]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-05-30 10:49:02] INFO root fetch - processPackages [uium]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-30 10:49:02] INFO root fetch - processPackages [parse-it]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-05-30 10:49:02] INFO root fetch - processPackages [directory-components]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-05-30 10:49:02] INFO root fetch - processPackages [python-otbr-api]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-30 10:49:02] INFO root fetch - processPackages [O365]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-30 10:49:02] INFO root fetch - processPackages [IntuneCD]: New version: [1.4.7b1] Old Version: [1.4.7]
+[2023-05-30 10:49:02] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: New version: [14.0.8.9.0] Old Version: [14.0.8.8.0]
+[2023-05-30 10:49:02] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-05-30 10:49:02] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-l10n-ro-stock-account/14.0.8.8.0-14.0.8.9.0/diff.md --exclude *.pyd
+[2023-05-30 10:49:02] INFO root fetch - processPackages [O365]: Downloading https://files.pythonhosted.org/packages/6b/94/e6ff77152a3041bc03aab33870df3c7d4bd343e8ff797e74a57365eaa998/O365-2.0.8.tar.gz
+[2023-05-30 10:49:02] INFO root fetch - processPackages [IntuneCD]: Downloading https://files.pythonhosted.org/packages/30/71/e9c2d89eca752fb53278fe8393a311c0abfb2dd0f9e38021a29d188f6b81/IntuneCD-1.4.7.tar.gz
+[2023-05-30 10:49:02] INFO root fetch - processPackages [djangosaml2]: Downloading https://files.pythonhosted.org/packages/68/31/f71ff51ed7ae1f84f82f027ac0de175978eb5c75fdfe73982be4c830c8ab/djangosaml2-1.5.7.tar.gz
+[2023-05-30 10:49:02] INFO root fetch - processPackages [uium]: Downloading https://files.pythonhosted.org/packages/37/c3/a8c0c65a1b3430f7d420060157ddcf1db7aeac1abd126206c30d9fdaf0e6/uium-0.3.2.tar.gz
+[2023-05-30 10:49:02] INFO root fetch - processPackages [lyscripts]: Downloading https://files.pythonhosted.org/packages/3e/3f/ac3978b305f60b207148153764b4febbb0f3650211da1945287347daee58/lyscripts-0.6.8.tar.gz
+[2023-05-30 10:49:02] INFO root fetch - processPackages [parse-it]: executing diffoscope
+[2023-05-30 10:49:02] INFO root fetch - processPackages [parse-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_it-3.7.0.tar.gz tmp/parse_it-3.8.0.tar.gz --markdown 20230530/p/parse-it/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-05-30 10:49:02] INFO root fetch - processPackages [oc-checksumsq]: Downloading https://files.pythonhosted.org/packages/2c/7c/b785a44a0c096ed9b39b53a3ca3948b3861098be2ca54c4b4828b7ed1d25/oc_checksumsq-10.2.3-py3-none-any.whl
+[2023-05-30 10:49:02] INFO root fetch - processPackages [python-otbr-api]: Downloading https://files.pythonhosted.org/packages/ef/42/3c059143766849987ecb981a2dd6ccd7eb0d95e8aaede67d5d11cafa7cdb/python-otbr-api-2.1.0.tar.gz
+[2023-05-30 10:49:02] INFO root fetch - processPackages [lyscripts]: executing diffoscope
+[2023-05-30 10:49:02] INFO root fetch - processPackages [lyscripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyscripts-0.6.7.tar.gz tmp/lyscripts-0.6.8.tar.gz --markdown 20230530/l/lyscripts/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-05-30 10:49:02] INFO root fetch - processPackages [directory-components]: executing diffoscope
+[2023-05-30 10:49:02] INFO root fetch - processPackages [directory-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_components-9.8.0-py3-none-any.whl.zip tmp/directory_components-9.9.0-py3-none-any.whl.zip --markdown 20230530/d/directory-components/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-05-30 10:49:02] INFO root fetch - processPackages [oc-checksumsq]: executing diffoscope
+[2023-05-30 10:49:02] INFO root fetch - processPackages [oc-checksumsq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_checksumsq-10.2.1-py3-none-any.whl.zip tmp/oc_checksumsq-10.2.3-py3-none-any.whl.zip --markdown 20230530/o/oc-checksumsq/10.2.1-10.2.3/diff.md --exclude *.pyd
+[2023-05-30 10:49:02] INFO root fetch - processPackages [python-otbr-api]: executing diffoscope
+[2023-05-30 10:49:02] INFO root fetch - processPackages [python-otbr-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-otbr-api-2.0.0.tar.gz tmp/python-otbr-api-2.1.0.tar.gz --markdown 20230530/p/python-otbr-api/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-30 10:49:02] INFO root fetch - processPackages [O365]: Downloading https://files.pythonhosted.org/packages/cf/79/96fbce0bff7a3e1fc00d17e01d0d2297e01ab65b425e58504862004c1be6/O365-2.0.9.tar.gz
+[2023-05-30 10:49:02] INFO root fetch - processPackages [IntuneCD]: executing diffoscope
+[2023-05-30 10:49:02] INFO root fetch - processPackages [IntuneCD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IntuneCD-1.4.7.tar.gz tmp/IntuneCD-1.4.7b1.tar.gz --markdown 20230530/I/IntuneCD/1.4.7-1.4.7b1/diff.md --exclude *.pyd
+[2023-05-30 10:49:02] INFO root fetch - processPackages [uium]: Downloading https://files.pythonhosted.org/packages/47/f8/d74c9292722ec49b23ed79b91206099275405338b3cf9907ddad906a3a7f/uium-0.3.3.tar.gz
+[2023-05-30 10:49:02] INFO root fetch - processPackages [djangosaml2]: Downloading https://files.pythonhosted.org/packages/20/25/c6fb04d7874e61cc5ca516b9006a5574387409dc7ef5c1658ffb7fea5233/djangosaml2-1.5.8.tar.gz
+[2023-05-30 10:49:02] INFO root fetch - processPackages [uium]: executing diffoscope
+[2023-05-30 10:49:02] INFO root fetch - processPackages [uium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uium-0.3.2.tar.gz tmp/uium-0.3.3.tar.gz --markdown 20230530/u/uium/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-30 10:49:02] INFO root fetch - processPackages [djangosaml2]: executing diffoscope
+[2023-05-30 10:49:02] INFO root fetch - processPackages [djangosaml2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangosaml2-1.5.7.tar.gz tmp/djangosaml2-1.5.8.tar.gz --markdown 20230530/d/djangosaml2/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-05-30 10:49:02] INFO root fetch - processPackages [O365]: executing diffoscope
+[2023-05-30 10:49:02] INFO root fetch - processPackages [O365]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/O365-2.0.8.tar.gz tmp/O365-2.0.9.tar.gz --markdown 20230530/O/O365/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-30 10:49:03] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Start processing: drb-topic-sentinel2
+[2023-05-30 10:49:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-stock-account]: success
+[2023-05-30 10:49:03] INFO root fetch - processPackages [drb-topic-sentinel2]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-30 10:49:03] INFO root fetch - processPackages [parse-it]: Start processing: embedding-explorer
+[2023-05-30 10:49:03] INFO root fetch - main [MainThread]: End processing [parse-it]: success
+[2023-05-30 10:49:04] INFO root fetch - processPackages [embedding-explorer]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-30 10:49:04] INFO root fetch - processPackages [embedding-explorer]: Downloading https://files.pythonhosted.org/packages/69/31/9e0529a030a9f68f013d7ebfd56c8e91d4a004afa16d95c050f4f47a607c/embedding_explorer-0.2.2.tar.gz
+[2023-05-30 10:49:04] INFO root fetch - processPackages [embedding-explorer]: executing diffoscope
+[2023-05-30 10:49:04] INFO root fetch - processPackages [embedding-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedding_explorer-0.2.1.tar.gz tmp/embedding_explorer-0.2.2.tar.gz --markdown 20230530/e/embedding-explorer/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-30 10:49:04] INFO root fetch - processPackages [drb-topic-sentinel2]: Downloading https://files.pythonhosted.org/packages/a0/b2/1d7ec888c2b5b5e7f357bedfbfdfab7b3118d797cc99140efb391e40a97e/drb-topic-sentinel2-1.2.2.tar.gz
+[2023-05-30 10:49:04] INFO root fetch - processPackages [python-otbr-api]: Start processing: luminesce-sdk-preview
+[2023-05-30 10:49:04] INFO root fetch - main [MainThread]: End processing [python-otbr-api]: success
+[2023-05-30 10:49:04] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-30 10:49:04] INFO root fetch - processPackages [oc-checksumsq]: Start processing: musicalgestures
+[2023-05-30 10:49:04] INFO root fetch - main [MainThread]: End processing [oc-checksumsq]: success
+[2023-05-30 10:49:04] INFO root fetch - processPackages [drb-topic-sentinel2]: executing diffoscope
+[2023-05-30 10:49:04] INFO root fetch - processPackages [drb-topic-sentinel2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-topic-sentinel2-1.2.1.tar.gz tmp/drb-topic-sentinel2-1.2.2.tar.gz --markdown 20230530/d/drb-topic-sentinel2/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-30 10:49:04] INFO root fetch - processPackages [musicalgestures]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-30 10:49:04] INFO root fetch - processPackages [uium]: Start processing: django-threaded-sync-to-async
+[2023-05-30 10:49:04] INFO root fetch - main [MainThread]: End processing [uium]: success
+[2023-05-30 10:49:04] INFO root fetch - processPackages [musicalgestures]: Downloading https://files.pythonhosted.org/packages/50/99/e1c865a7db922886300af9886e264be68c204f60485565b99c5d7fc51cf6/musicalgestures-1.2.8.tar.gz
+[2023-05-30 10:49:04] INFO root fetch - processPackages [django-threaded-sync-to-async]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-30 10:49:04] INFO root fetch - processPackages [django-threaded-sync-to-async]: executing diffoscope
+[2023-05-30 10:49:04] INFO root fetch - processPackages [django-threaded-sync-to-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_threaded_sync_to_async-1.0.2.tar.gz tmp/django_threaded_sync_to_async-1.0.3.tar.gz --markdown 20230530/d/django-threaded-sync-to-async/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-30 10:49:04] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-30 10:49:04] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230530/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-30 10:49:04] WARNING root fetch - processPackages [musicalgestures]: Skipping package: exceeds size limit 44091857>=10485760
+[2023-05-30 10:49:04] INFO root fetch - main [MainThread]: End processing [musicalgestures] error
+[2023-05-30 10:49:05] INFO root fetch - main [MainThread]: End processing [embedding-explorer]: success
+[2023-05-30 10:49:06] INFO root fetch - main [MainThread]: End processing [O365]: success
+[2023-05-30 10:49:06] INFO root fetch - main [MainThread]: End processing [lyscripts]: success
+[2023-05-30 10:49:06] INFO root fetch - main [MainThread]: End processing [django-threaded-sync-to-async]: success
+[2023-05-30 10:49:06] INFO root fetch - main [MainThread]: End processing [drb-topic-sentinel2]: success
+[2023-05-30 10:49:06] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-30 10:49:07] INFO root fetch - main [MainThread]: End processing [IntuneCD]: success
+[2023-05-30 10:49:10] INFO root fetch - main [MainThread]: End processing [djangosaml2]: success
+[2023-05-30 10:49:12] INFO root fetch - main [MainThread]: End processing [directory-components]: success
+[2023-05-30 10:49:12] INFO root fetch - main [MainThread]: Store serial: [18299602]
