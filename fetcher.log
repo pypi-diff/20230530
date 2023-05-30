@@ -4432,3 +4432,83 @@
 [2023-05-30 05:03:00] INFO root fetch - main [MainThread]: End processing [automation-editor]: success
 [2023-05-30 05:03:51] INFO root fetch - main [MainThread]: End processing [zcmds]: success
 [2023-05-30 05:03:51] INFO root fetch - main [MainThread]: Store serial: [18297261]
+[2023-05-30 05:08:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297261]
+[2023-05-30 05:09:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-30 05:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-credit-control
+[2023-05-30 05:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-credit-control
+[2023-05-30 05:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zensvi
+[2023-05-30 05:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aixlab.cn
+[2023-05-30 05:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: infra-operator
+[2023-05-30 05:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vlogs
+[2023-05-30 05:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scikit-recommender
+[2023-05-30 05:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-xdrlib
+[2023-05-30 05:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: promptlayer
+[2023-05-30 05:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymangaj
+[2023-05-30 05:09:01] INFO root fetch - processPackages [odoo-addon-account-credit-control]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-05-30 05:09:01] INFO root fetch - processPackages [aixlab.cn]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 05:09:01] INFO root fetch - processPackages [scikit-recommender]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-30 05:09:01] INFO root fetch - processPackages [promptlayer]: New version: [0.1.84] Old Version: [0.1.83]
+[2023-05-30 05:09:01] INFO root fetch - processPackages [zensvi]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-30 05:09:01] INFO root fetch - processPackages [vlogs]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-30 05:09:01] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: New version: [16.0.20230529.0] Old Version: [16.0.20230308.0]
+[2023-05-30 05:09:01] WARNING root fetch - processPackages [pymangaj]: Skipping, unable to determine old version
+[2023-05-30 05:09:01] INFO root fetch - processPackages [pymangaj]: Start processing: extract-drugs
+[2023-05-30 05:09:01] INFO root fetch - main [MainThread]: End processing [pymangaj] error
+[2023-05-30 05:09:01] INFO root fetch - processPackages [py-xdrlib]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-05-30 05:09:01] INFO root fetch - processPackages [infra-operator]: New version: [1.0.23] Old Version: [1.0.22]
+[2023-05-30 05:09:01] WARNING root fetch - processPackages [extract-drugs]: Skipping, unable to determine old version
+[2023-05-30 05:09:01] INFO root fetch - processPackages [extract-drugs]: Start processing: apkupload
+[2023-05-30 05:09:01] INFO root fetch - main [MainThread]: End processing [extract-drugs] error
+[2023-05-30 05:09:01] INFO root fetch - processPackages [apkupload]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 05:09:01] INFO root fetch - processPackages [scikit-recommender]: Downloading https://files.pythonhosted.org/packages/5d/95/186c7a8d8b40678bb5641322d636005249cfc4d8aecfd383d21363b97d20/scikit_recommender-0.0.3-cp39-cp39-win_amd64.whl
+[2023-05-30 05:09:01] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Downloading https://files.pythonhosted.org/packages/23/d2/5da24cc1f93b927b1d1441e12786edb084716869cc9d05ab040e282b3d21/odoo_addons_oca_credit_control-16.0.20230308.0-py3-none-any.whl
+[2023-05-30 05:09:01] INFO root fetch - processPackages [vlogs]: Downloading https://files.pythonhosted.org/packages/92/c3/49feefb72bbf9b278c8921be9349c053f13b85d17e0d5f2ee651a9fe835c/vlogs-1.0.5.tar.gz
+[2023-05-30 05:09:01] INFO root fetch - processPackages [infra-operator]: Downloading https://files.pythonhosted.org/packages/b3/36/f118209eba4550222f643e9d6208e2f65ee7246a4e4cff414c4e1a0af6b7/infra_operator-1.0.22.tar.gz
+[2023-05-30 05:09:01] INFO root fetch - processPackages [py-xdrlib]: Downloading https://files.pythonhosted.org/packages/91/17/9dbb95f86bf5523daa1ed917c9253317694298171ee027e134e8de9ad321/py-xdrlib-4.0.0.tar.gz
+[2023-05-30 05:09:01] INFO root fetch - processPackages [aixlab.cn]: Downloading https://files.pythonhosted.org/packages/b4/39/eccf844a5480bc933f9045c3907433dd60a223ea4e38717cfa981d98abf2/aixlab.cn-0.1.1.tar.gz
+[2023-05-30 05:09:01] INFO root fetch - processPackages [vlogs]: executing diffoscope
+[2023-05-30 05:09:01] INFO root fetch - processPackages [vlogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlogs-1.0.4.tar.gz tmp/vlogs-1.0.5.tar.gz --markdown 20230530/v/vlogs/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-30 05:09:01] INFO root fetch - processPackages [scikit-recommender]: executing diffoscope
+[2023-05-30 05:09:01] INFO root fetch - processPackages [scikit-recommender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_recommender-0.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/scikit_recommender-0.0.3-cp39-cp39-win_amd64.whl.zip --markdown 20230530/s/scikit-recommender/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-30 05:09:01] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/44/4a/cd9640c2c1f2bd69eeedb9e08f86482b1d2d3ca38982854b97b0e6880799/odoo_addon_account_credit_control-16.0.1.0.0.4-py3-none-any.whl
+[2023-05-30 05:09:01] INFO root fetch - processPackages [promptlayer]: Downloading https://files.pythonhosted.org/packages/72/16/8ed74dad071877bc7b215bffb0d2404f7eb4854c35d3c7ece74dc9cf5daa/promptlayer-0.1.84.tar.gz
+[2023-05-30 05:09:01] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/9b/01/549d9dc6498a695b901dd0419039afb34b6b510207f2a0f06600a6f9225d/zensvi-0.3.0.tar.gz
+[2023-05-30 05:09:01] INFO root fetch - processPackages [promptlayer]: executing diffoscope
+[2023-05-30 05:09:01] INFO root fetch - processPackages [promptlayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptlayer-0.1.83.tar.gz tmp/promptlayer-0.1.84.tar.gz --markdown 20230530/p/promptlayer/0.1.83-0.1.84/diff.md --exclude *.pyd
+[2023-05-30 05:09:01] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-05-30 05:09:01] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.2.0.tar.gz tmp/zensvi-0.3.0.tar.gz --markdown 20230530/z/zensvi/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 05:09:01] INFO root fetch - processPackages [apkupload]: executing diffoscope
+[2023-05-30 05:09:01] INFO root fetch - processPackages [apkupload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apkupload-0.0.8.tar.gz tmp/apkupload-0.0.9.tar.gz --markdown 20230530/a/apkupload/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 05:09:01] INFO root fetch - processPackages [odoo-addon-account-credit-control]: executing diffoscope
+[2023-05-30 05:09:01] INFO root fetch - processPackages [odoo-addon-account-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_credit_control-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_credit_control-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230530/o/odoo-addon-account-credit-control/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-05-30 05:09:01] INFO root fetch - processPackages [aixlab.cn]: Downloading https://files.pythonhosted.org/packages/75/25/7aec569b7cb210656f4bdb387e085d724b58b6080dd83f5aa27004e4784c/aixlab.cn-0.1.2.tar.gz
+[2023-05-30 05:09:01] INFO root fetch - processPackages [infra-operator]: Downloading https://files.pythonhosted.org/packages/4e/ed/108b505f094856aa35ee0121b67293994e09ca8d546f963bfe5c72fd5d07/infra_operator-1.0.23.tar.gz
+[2023-05-30 05:09:01] INFO root fetch - processPackages [py-xdrlib]: Downloading https://files.pythonhosted.org/packages/f3/65/b8047b6015b702a075241bd01ec3a53f52229ffdb3151713992a1c1adc3a/py-xdrlib-4.0.1.tar.gz
+[2023-05-30 05:09:01] INFO root fetch - processPackages [aixlab.cn]: executing diffoscope
+[2023-05-30 05:09:01] INFO root fetch - processPackages [aixlab.cn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixlab.cn-0.1.1.tar.gz tmp/aixlab.cn-0.1.2.tar.gz --markdown 20230530/a/aixlab.cn/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 05:09:01] INFO root fetch - processPackages [py-xdrlib]: executing diffoscope
+[2023-05-30 05:09:01] INFO root fetch - processPackages [py-xdrlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-xdrlib-4.0.0.tar.gz tmp/py-xdrlib-4.0.1.tar.gz --markdown 20230530/p/py-xdrlib/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-05-30 05:09:01] INFO root fetch - processPackages [infra-operator]: executing diffoscope
+[2023-05-30 05:09:01] INFO root fetch - processPackages [infra-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infra_operator-1.0.22.tar.gz tmp/infra_operator-1.0.23.tar.gz --markdown 20230530/i/infra-operator/1.0.22-1.0.23/diff.md --exclude *.pyd
+[2023-05-30 05:09:01] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Downloading https://files.pythonhosted.org/packages/32/f0/0b498e3ae3cbf2185f9e953bd0a96e3eae0cea082da252472718ab3acf8f/odoo_addons_oca_credit_control-16.0.20230529.0-py3-none-any.whl
+[2023-05-30 05:09:02] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: executing diffoscope
+[2023-05-30 05:09:02] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_credit_control-16.0.20230308.0-py3-none-any.whl.zip tmp/odoo_addons_oca_credit_control-16.0.20230529.0-py3-none-any.whl.zip --markdown 20230530/o/odoo-addons-oca-credit-control/16.0.20230308.0-16.0.20230529.0/diff.md --exclude *.pyd
+[2023-05-30 05:09:03] INFO root fetch - processPackages [vlogs]: Start processing: langdash
+[2023-05-30 05:09:03] INFO root fetch - main [MainThread]: End processing [vlogs]: success
+[2023-05-30 05:09:03] WARNING root fetch - processPackages [langdash]: Skipping, unable to determine old version
+[2023-05-30 05:09:03] INFO root fetch - processPackages [langdash]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-05-30 05:09:03] INFO root fetch - main [MainThread]: End processing [langdash] error
+[2023-05-30 05:09:03] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-30 05:09:03] INFO root fetch - main [MainThread]: End processing [apkupload]: success
+[2023-05-30 05:09:03] INFO root fetch - main [MainThread]: End processing [aixlab.cn]: success
+[2023-05-30 05:09:03] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-05-30 05:09:03] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230530/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-30 05:09:03] INFO root fetch - main [MainThread]: End processing [promptlayer]: success
+[2023-05-30 05:09:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-credit-control]: success
+[2023-05-30 05:09:04] INFO root fetch - main [MainThread]: End processing [scikit-recommender]: success
+[2023-05-30 05:09:04] INFO root fetch - main [MainThread]: End processing [py-xdrlib]: success
+[2023-05-30 05:09:04] INFO root fetch - main [MainThread]: End processing [infra-operator]: success
+[2023-05-30 05:09:04] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-05-30 05:09:06] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-05-30 05:09:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control]: success
+[2023-05-30 05:09:08] INFO root fetch - main [MainThread]: Store serial: [18297317]
