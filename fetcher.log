@@ -17727,3 +17727,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 18:38:35] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2023-05-30 18:38:39] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2023-05-30 18:38:39] INFO root fetch - main [MainThread]: Store serial: [18305153]
+[2023-05-30 18:43:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18305153]
+[2023-05-30 18:43:49] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-30 18:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-gcp
+[2023-05-30 18:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stellar-sdk-mini
+[2023-05-30 18:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ds-io-utilities
+[2023-05-30 18:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peachdb
+[2023-05-30 18:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eth-erc20
+[2023-05-30 18:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flamapy
+[2023-05-30 18:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nomenklatura
+[2023-05-30 18:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pfmisc
+[2023-05-30 18:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bertopic
+[2023-05-30 18:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stellar-sdk-mini
+[2023-05-30 18:43:49] INFO root fetch - processPackages [pfmisc]: New version: [2.2.8] Old Version: [2.2.4]
+[2023-05-30 18:43:49] INFO root fetch - processPackages [bertopic]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-30 18:43:49] INFO root fetch - processPackages [peachdb]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-30 18:43:49] INFO root fetch - processPackages [ds-io-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 18:43:49] INFO root fetch - processPackages [eth-erc20]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-30 18:43:49] INFO root fetch - processPackages [flamapy]: New version: [1.1.1] Old Version: [1.0.1.dev0]
+[2023-05-30 18:43:49] WARNING root fetch - processPackages [stellar-sdk-mini]: Skipping, unable to determine old version
+[2023-05-30 18:43:49] INFO root fetch - processPackages [stellar-sdk-mini]: Start processing: gdshoplib
+[2023-05-30 18:43:49] WARNING root fetch - processPackages [stellar-sdk-mini]: Skipping, unable to determine old version
+[2023-05-30 18:43:49] INFO root fetch - main [MainThread]: End processing [stellar-sdk-mini] error
+[2023-05-30 18:43:49] INFO root fetch - processPackages [stellar-sdk-mini]: Start processing: sockettools
+[2023-05-30 18:43:49] INFO root fetch - main [MainThread]: End processing [stellar-sdk-mini] error
+[2023-05-30 18:43:49] INFO root fetch - processPackages [nomenklatura]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-05-30 18:43:50] INFO root fetch - processPackages [pulumi-gcp]: New version: [6.9.0a1643146354] Old Version: [6.9.0]
+[2023-05-30 18:43:50] INFO root fetch - processPackages [sockettools]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-30 18:43:50] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-30 18:43:50] INFO root fetch - processPackages [ds-io-utilities]: executing diffoscope
+[2023-05-30 18:43:50] INFO root fetch - processPackages [ds-io-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds-io-utilities-0.0.8.tar.gz tmp/ds-io-utilities-0.0.9.tar.gz --markdown 20230530/d/ds-io-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 18:43:50] INFO root fetch - processPackages [nomenklatura]: executing diffoscope
+[2023-05-30 18:43:50] INFO root fetch - processPackages [nomenklatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomenklatura-2.9.4.tar.gz tmp/nomenklatura-2.9.5.tar.gz --markdown 20230530/n/nomenklatura/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-05-30 18:43:50] INFO root fetch - processPackages [pfmisc]: Downloading https://files.pythonhosted.org/packages/4a/1b/ed908204244a21e1218c34203e96afcf60ae47e3d122fee9e27d06ce1af1/pfmisc-2.2.4.tar.gz
+[2023-05-30 18:43:50] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-05-30 18:43:50] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230530/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-30 18:43:50] INFO root fetch - processPackages [peachdb]: Downloading https://files.pythonhosted.org/packages/ee/73/ca820cd7b12ca593060541bcaabfcbde2408473433c8d77d4f3141d24863/peachdb-0.0.5.tar.gz
+[2023-05-30 18:43:50] INFO root fetch - processPackages [bertopic]: Downloading https://files.pythonhosted.org/packages/38/33/d2e53c116a1e7ec74a22ddfc9da03648b6f5b755c55ba5db0079424cce95/bertopic-0.9.3.tar.gz
+[2023-05-30 18:43:50] INFO root fetch - processPackages [flamapy]: Downloading https://files.pythonhosted.org/packages/e4/11/5746b5beefd45e4d9d50f2e7b2b7707d0732228c6cfbd1ae2bacd551b80e/flamapy-1.0.1.dev0.tar.gz
+[2023-05-30 18:43:50] INFO root fetch - processPackages [eth-erc20]: Downloading https://files.pythonhosted.org/packages/c5/0d/c62e328bb9abd05b7038ad4420fe4b675cc12403aeef92779fd3c9f57629/eth-erc20-0.7.3.tar.gz
+[2023-05-30 18:43:50] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2023-05-30 18:43:50] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-6.9.0.tar.gz tmp/pulumi_gcp-6.9.0a1643146354.tar.gz --markdown 20230530/p/pulumi-gcp/6.9.0-6.9.0a1643146354/diff.md --exclude *.pyd
+[2023-05-30 18:43:50] INFO root fetch - processPackages [peachdb]: executing diffoscope
+[2023-05-30 18:43:50] INFO root fetch - processPackages [peachdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peachdb-0.0.4.tar.gz tmp/peachdb-0.0.5.tar.gz --markdown 20230530/p/peachdb/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 18:43:50] INFO root fetch - processPackages [sockettools]: Downloading https://files.pythonhosted.org/packages/bc/b0/f6a0152024ee4cc6dc2e70f95a314e4a568962a38f24fdc0f571474ef5a5/sockettools-1.0.1.tar.gz
+[2023-05-30 18:43:50] INFO root fetch - processPackages [flamapy]: Downloading https://files.pythonhosted.org/packages/f7/ca/5189ed5b791b2c29a710e9b59def519d42e6df22f9b91705c784146fedb6/flamapy-1.1.1.tar.gz
+[2023-05-30 18:43:50] INFO root fetch - processPackages [pfmisc]: Downloading https://files.pythonhosted.org/packages/61/5c/44d44330b7428b3a3b851519457166ce4fdd6c6c6940c646c7b535c90b50/pfmisc-2.2.8.tar.gz
+[2023-05-30 18:43:50] INFO root fetch - processPackages [eth-erc20]: Downloading https://files.pythonhosted.org/packages/de/8b/30f93b063f0a73b263f3cc1b13e9ebcc216f3815ed40134be5d4d664d740/eth-erc20-0.7.4.tar.gz
+[2023-05-30 18:43:50] INFO root fetch - processPackages [sockettools]: executing diffoscope
+[2023-05-30 18:43:50] INFO root fetch - processPackages [sockettools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sockettools-1.0.0.tar.gz tmp/sockettools-1.0.1.tar.gz --markdown 20230530/s/sockettools/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 18:43:50] INFO root fetch - processPackages [flamapy]: executing diffoscope
+[2023-05-30 18:43:50] INFO root fetch - processPackages [flamapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamapy-1.0.1.dev0.tar.gz tmp/flamapy-1.1.1.tar.gz --markdown 20230530/f/flamapy/1.0.1.dev0-1.1.1/diff.md --exclude *.pyd
+[2023-05-30 18:43:50] INFO root fetch - processPackages [eth-erc20]: executing diffoscope
+[2023-05-30 18:43:50] INFO root fetch - processPackages [eth-erc20]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-erc20-0.7.3.tar.gz tmp/eth-erc20-0.7.4.tar.gz --markdown 20230530/e/eth-erc20/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-30 18:43:50] INFO root fetch - processPackages [pfmisc]: executing diffoscope
+[2023-05-30 18:43:50] INFO root fetch - processPackages [pfmisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfmisc-2.2.4.tar.gz tmp/pfmisc-2.2.8.tar.gz --markdown 20230530/p/pfmisc/2.2.4-2.2.8/diff.md --exclude *.pyd
+[2023-05-30 18:43:50] INFO root fetch - processPackages [bertopic]: Downloading https://files.pythonhosted.org/packages/fc/5e/ad4add5089b1fa85c3c1ad2db2cd665b23a0c765cc72529cde366f3840da/bertopic-0.9.4.tar.gz
+[2023-05-30 18:43:51] INFO root fetch - processPackages [bertopic]: executing diffoscope
+[2023-05-30 18:43:51] INFO root fetch - processPackages [bertopic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bertopic-0.9.3.tar.gz tmp/bertopic-0.9.4.tar.gz --markdown 20230530/b/bertopic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-30 18:43:51] INFO root fetch - processPackages [ds-io-utilities]: Start processing: cbu-tools
+[2023-05-30 18:43:51] INFO root fetch - main [MainThread]: End processing [ds-io-utilities]: success
+[2023-05-30 18:43:51] WARNING root fetch - processPackages [cbu-tools]: Skipping, unable to determine old version
+[2023-05-30 18:43:51] INFO root fetch - processPackages [cbu-tools]: Start processing: dfcon
+[2023-05-30 18:43:51] INFO root fetch - main [MainThread]: End processing [cbu-tools] error
+[2023-05-30 18:43:51] INFO root fetch - processPackages [dfcon]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 18:43:51] INFO root fetch - processPackages [gdshoplib]: Start processing: buildgrid-metering-client
+[2023-05-30 18:43:51] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-05-30 18:43:52] INFO root fetch - processPackages [buildgrid-metering-client]: New version: [0.0.1a3] Old Version: [0.0.1a1]
+[2023-05-30 18:43:52] INFO root fetch - processPackages [dfcon]: Downloading https://files.pythonhosted.org/packages/75/76/98368f104586f4fbb85162ec51787045dc5ce1f1bb47e06112e30b75d9df/dfcon-0.0.9.tar.gz
+[2023-05-30 18:43:52] INFO root fetch - processPackages [dfcon]: executing diffoscope
+[2023-05-30 18:43:52] INFO root fetch - processPackages [dfcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfcon-0.0.8.tar.gz tmp/dfcon-0.0.9.tar.gz --markdown 20230530/d/dfcon/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 18:43:52] INFO root fetch - processPackages [buildgrid-metering-client]: Downloading https://files.pythonhosted.org/packages/ed/fd/6ba7e90af776a14fecd0ebd8b07ae19c7502d8a607cd99e095fd27de02c9/buildgrid-metering-client-0.0.1a1.tar.gz
+[2023-05-30 18:43:52] INFO root fetch - processPackages [sockettools]: Start processing: granular-engine
+[2023-05-30 18:43:52] INFO root fetch - main [MainThread]: End processing [sockettools]: success
+[2023-05-30 18:43:52] INFO root fetch - processPackages [granular-engine]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 18:43:52] INFO root fetch - processPackages [peachdb]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2023-05-30 18:43:52] INFO root fetch - main [MainThread]: End processing [peachdb]: success
+[2023-05-30 18:43:52] INFO root fetch - processPackages [granular-engine]: executing diffoscope
+[2023-05-30 18:43:52] INFO root fetch - processPackages [granular-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granular_engine-0.2.8.tar.gz tmp/granular_engine-0.2.9.tar.gz --markdown 20230530/g/granular-engine/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 18:43:52] INFO root fetch - processPackages [buildgrid-metering-client]: Downloading https://files.pythonhosted.org/packages/0e/b0/b342b505a4cc398fad4a52cf8ac500ef6e9d503f2a628896d7b1c2084839/buildgrid-metering-client-0.0.1a3.tar.gz
+[2023-05-30 18:43:52] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.27.0.dev20230530] Old Version: [1.26.0.dev20230427]
+[2023-05-30 18:43:52] INFO root fetch - processPackages [buildgrid-metering-client]: executing diffoscope
+[2023-05-30 18:43:52] INFO root fetch - processPackages [buildgrid-metering-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildgrid-metering-client-0.0.1a1.tar.gz tmp/buildgrid-metering-client-0.0.1a3.tar.gz --markdown 20230530/b/buildgrid-metering-client/0.0.1a1-0.0.1a3/diff.md --exclude *.pyd
+[2023-05-30 18:43:52] INFO root fetch - main [MainThread]: End processing [flamapy]: success
+[2023-05-30 18:43:52] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/d8/ab/7c5ea406a062a055ec4cc05dae6633ff7ee74a4d2409e139bab26084a3cf/nvidia-dali-tf-plugin-nightly-cuda110-1.26.0.dev20230427.tar.gz
+[2023-05-30 18:43:52] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/e3/89/4b68b3964ed4f821179f6c5d397d478702f3e5b1cc12fd851814364bc583/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230530.tar.gz
+[2023-05-30 18:43:53] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2023-05-30 18:43:53] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.26.0.dev20230427.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230530.tar.gz --markdown 20230530/n/nvidia-dali-tf-plugin-nightly-cuda110/1.26.0.dev20230427-1.27.0.dev20230530/diff.md --exclude *.pyd
+[2023-05-30 18:43:53] INFO root fetch - main [MainThread]: End processing [eth-erc20]: success
+[2023-05-30 18:43:53] INFO root fetch - main [MainThread]: End processing [pfmisc]: success
+[2023-05-30 18:43:53] INFO root fetch - main [MainThread]: End processing [nomenklatura]: success
+[2023-05-30 18:43:53] INFO root fetch - main [MainThread]: End processing [bertopic]: success
+[2023-05-30 18:43:54] INFO root fetch - main [MainThread]: End processing [granular-engine]: success
+[2023-05-30 18:43:54] INFO root fetch - main [MainThread]: End processing [dfcon]: success
+[2023-05-30 18:43:54] INFO root fetch - main [MainThread]: End processing [buildgrid-metering-client]: success
+[2023-05-30 18:43:54] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2023-05-30 18:44:01] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2023-05-30 18:44:01] INFO root fetch - main [MainThread]: Store serial: [18305209]
