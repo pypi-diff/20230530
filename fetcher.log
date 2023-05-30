@@ -9340,3 +9340,107 @@
 [2023-05-30 11:34:49] INFO root fetch - main [MainThread]: End processing [temgymbasic]: success
 [2023-05-30 11:34:50] INFO root fetch - main [MainThread]: End processing [vortexasdk]: success
 [2023-05-30 11:34:50] INFO root fetch - main [MainThread]: Store serial: [18300085]
+[2023-05-30 11:39:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18300085]
+[2023-05-30 11:40:00] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-30 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skytag
+[2023-05-30 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bomf
+[2023-05-30 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dls-utilpack
+[2023-05-30 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logrich
+[2023-05-30 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zoom-python-client
+[2023-05-30 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dl2050utils
+[2023-05-30 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geotexxx
+[2023-05-30 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: udls
+[2023-05-30 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: firestone-lib
+[2023-05-30 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bosch-alarm-mode2
+[2023-05-30 11:40:00] INFO root fetch - processPackages [skytag]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-30 11:40:00] INFO root fetch - processPackages [bomf]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-30 11:40:00] INFO root fetch - processPackages [logrich]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-30 11:40:00] INFO root fetch - processPackages [firestone-lib]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-30 11:40:00] INFO root fetch - processPackages [udls]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-30 11:40:00] INFO root fetch - processPackages [geotexxx]: New version: [0.1.3] Old Version: [0.0.1]
+[2023-05-30 11:40:00] INFO root fetch - processPackages [bosch-alarm-mode2]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-30 11:40:00] INFO root fetch - processPackages [dls-utilpack]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-05-30 11:40:00] INFO root fetch - processPackages [zoom-python-client]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-05-30 11:40:00] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-30 11:40:00] INFO root fetch - processPackages [logrich]: Downloading https://files.pythonhosted.org/packages/33/8a/7d421abf9abd38113231747b7221cc78f91864c6b9030b01ba1390a1b428/logrich-0.7.2.tar.gz
+[2023-05-30 11:40:00] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-05-30 11:40:00] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230530/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-30 11:40:00] INFO root fetch - processPackages [skytag]: Downloading https://files.pythonhosted.org/packages/6a/06/cfcc56f07984a297e56e670d44ce58127738883b1a34201acb45ef0242ee/skytag-0.3.1.tar.gz
+[2023-05-30 11:40:00] INFO root fetch - processPackages [firestone-lib]: Downloading https://files.pythonhosted.org/packages/5d/e9/b9b9fe770f36e05d80fdcc64816dc0fb67129a834725e7c8ba8b9f5fabf8/firestone_lib-0.1.6.tar.gz
+[2023-05-30 11:40:00] INFO root fetch - processPackages [geotexxx]: Downloading https://files.pythonhosted.org/packages/6d/ae/d586207b81a4524567c6dfcb57e5a21cc057b2a1ea1bf03747a889b3fe20/geotexxx-0.0.1.tar.gz
+[2023-05-30 11:40:00] INFO root fetch - processPackages [skytag]: executing diffoscope
+[2023-05-30 11:40:00] INFO root fetch - processPackages [skytag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytag-0.3.0.tar.gz tmp/skytag-0.3.1.tar.gz --markdown 20230530/s/skytag/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-30 11:40:00] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/22/f1/23ae46b43743535b1da15a1810e93921609e15e233a96cb2e9d9e653b2c9/bomf-0.4.5.tar.gz
+[2023-05-30 11:40:00] INFO root fetch - processPackages [udls]: Downloading https://files.pythonhosted.org/packages/7a/33/a8a7db94f54529b58e388ffcc755eb3d39f2a5f045e22bfcea96869f77cc/udls-1.1.3.tar.gz
+[2023-05-30 11:40:00] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-05-30 11:40:00] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.4.4.tar.gz tmp/bomf-0.4.5.tar.gz --markdown 20230530/b/bomf/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-30 11:40:00] INFO root fetch - processPackages [logrich]: Downloading https://files.pythonhosted.org/packages/85/0d/5b876c91d072dc145020aca3e94767b001e0c2289c109ef1089b92f50008/logrich-0.7.3.tar.gz
+[2023-05-30 11:40:00] INFO root fetch - processPackages [logrich]: executing diffoscope
+[2023-05-30 11:40:00] INFO root fetch - processPackages [logrich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logrich-0.7.2.tar.gz tmp/logrich-0.7.3.tar.gz --markdown 20230530/l/logrich/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-30 11:40:00] INFO root fetch - processPackages [dls-utilpack]: Downloading https://files.pythonhosted.org/packages/9a/c0/238957631e1c30fdd9bafdf86d6805b974e583acd5ab039167f8c388cc96/dls-utilpack-1.5.0.tar.gz
+[2023-05-30 11:40:00] INFO root fetch - processPackages [zoom-python-client]: Downloading https://files.pythonhosted.org/packages/74/80/7be125d0ff06f3b95ee6dc77c9775aad4534ca3f502ee9a7d6b292df0bbd/zoom_python_client-0.1.0.tar.gz
+[2023-05-30 11:40:00] INFO root fetch - processPackages [bosch-alarm-mode2]: executing diffoscope
+[2023-05-30 11:40:00] INFO root fetch - processPackages [bosch-alarm-mode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch_alarm_mode2-0.3.8.tar.gz tmp/bosch_alarm_mode2-0.3.9.tar.gz --markdown 20230530/b/bosch-alarm-mode2/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-30 11:40:00] INFO root fetch - processPackages [dls-utilpack]: executing diffoscope
+[2023-05-30 11:40:00] INFO root fetch - processPackages [dls-utilpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-utilpack-1.4.1.tar.gz tmp/dls-utilpack-1.5.0.tar.gz --markdown 20230530/d/dls-utilpack/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-05-30 11:40:00] INFO root fetch - processPackages [firestone-lib]: Downloading https://files.pythonhosted.org/packages/4c/c3/eb9680dc333edf85dba675b5184791c347804784c18fd553dd7c79cbb456/firestone_lib-0.1.7.tar.gz
+[2023-05-30 11:40:00] INFO root fetch - processPackages [zoom-python-client]: executing diffoscope
+[2023-05-30 11:40:00] INFO root fetch - processPackages [zoom-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoom_python_client-0.0.6.tar.gz tmp/zoom_python_client-0.1.0.tar.gz --markdown 20230530/z/zoom-python-client/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-05-30 11:40:00] INFO root fetch - processPackages [geotexxx]: Downloading https://files.pythonhosted.org/packages/0d/f9/bfe1bd0ceaffc033b23d5476a5314dcb00f11aad9a285d7137bae531926d/geotexxx-0.1.3.tar.gz
+[2023-05-30 11:40:00] INFO root fetch - processPackages [udls]: Downloading https://files.pythonhosted.org/packages/30/61/ea42fc6c83134cec5e2d06b6fc7d6b77e95e94a5be560b6cfee39813e47d/udls-1.1.4.tar.gz
+[2023-05-30 11:40:00] INFO root fetch - processPackages [firestone-lib]: executing diffoscope
+[2023-05-30 11:40:00] INFO root fetch - processPackages [firestone-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firestone_lib-0.1.6.tar.gz tmp/firestone_lib-0.1.7.tar.gz --markdown 20230530/f/firestone-lib/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-30 11:40:00] INFO root fetch - processPackages [udls]: executing diffoscope
+[2023-05-30 11:40:00] INFO root fetch - processPackages [udls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udls-1.1.3.tar.gz tmp/udls-1.1.4.tar.gz --markdown 20230530/u/udls/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-30 11:40:00] INFO root fetch - processPackages [geotexxx]: executing diffoscope
+[2023-05-30 11:40:00] INFO root fetch - processPackages [geotexxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotexxx-0.0.1.tar.gz tmp/geotexxx-0.1.3.tar.gz --markdown 20230530/g/geotexxx/0.0.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 11:40:00] ERROR root fetch - processPackages [dls-utilpack]: Diffoscope failed: Error: error creating container storage: the container name "elastic_jones" is already in use by "48de41738c1733d24d0f543b59cb242829b8452f42ba6fd343fd608b16068fdb". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-30 11:40:00] INFO root fetch - processPackages [dls-utilpack]: Start processing: audresample
+[2023-05-30 11:40:00] INFO root fetch - main [MainThread]: End processing [dls-utilpack] error
+[2023-05-30 11:40:00] INFO root fetch - processPackages [audresample]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-30 11:40:01] INFO root fetch - processPackages [audresample]: Downloading https://files.pythonhosted.org/packages/5f/de/e5b8fcd6c6638b3b8761729538b27a1029e83ba46be5622557efd6585653/audresample-1.3.2.tar.gz
+[2023-05-30 11:40:01] INFO root fetch - processPackages [audresample]: executing diffoscope
+[2023-05-30 11:40:01] INFO root fetch - processPackages [audresample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audresample-1.3.1.tar.gz tmp/audresample-1.3.2.tar.gz --markdown 20230530/a/audresample/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-30 11:40:01] INFO root fetch - processPackages [skytag]: Start processing: shareddata
+[2023-05-30 11:40:01] INFO root fetch - main [MainThread]: End processing [skytag]: success
+[2023-05-30 11:40:02] INFO root fetch - processPackages [shareddata]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-30 11:40:02] INFO root fetch - processPackages [dl2050utils]: Start processing: Pandora-Cloud
+[2023-05-30 11:40:02] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-05-30 11:40:02] INFO root fetch - processPackages [Pandora-Cloud]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-30 11:40:02] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-05-30 11:40:02] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.0.8.tar.gz tmp/shareddata-2.0.9.tar.gz --markdown 20230530/s/shareddata/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-30 11:40:02] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/26/2e/618a0e9159edfd96623de4cb247070e2a41b06d0bd2d4f1a32f322e0b457/Pandora-Cloud-0.4.0.tar.gz
+[2023-05-30 11:40:02] INFO root fetch - processPackages [logrich]: Start processing: crabpy-pyramid
+[2023-05-30 11:40:02] INFO root fetch - main [MainThread]: End processing [logrich]: success
+[2023-05-30 11:40:02] INFO root fetch - processPackages [crabpy-pyramid]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-30 11:40:02] INFO root fetch - processPackages [Pandora-Cloud]: executing diffoscope
+[2023-05-30 11:40:02] INFO root fetch - processPackages [Pandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-Cloud-0.3.2.tar.gz tmp/Pandora-Cloud-0.4.0.tar.gz --markdown 20230530/P/Pandora-Cloud/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-30 11:40:02] INFO root fetch - processPackages [zoom-python-client]: Start processing: lavaplay.py
+[2023-05-30 11:40:02] INFO root fetch - main [MainThread]: End processing [zoom-python-client]: success
+[2023-05-30 11:40:02] WARNING root fetch - processPackages [lavaplay.py]: Skipping, unable to determine old version
+[2023-05-30 11:40:02] INFO root fetch - processPackages [lavaplay.py]: Start processing: seeFretboard
+[2023-05-30 11:40:02] INFO root fetch - main [MainThread]: End processing [lavaplay.py] error
+[2023-05-30 11:40:02] INFO root fetch - processPackages [bomf]: Start processing: unified-planning
+[2023-05-30 11:40:02] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-05-30 11:40:02] INFO root fetch - processPackages [seeFretboard]: New version: [0.1.5.1] Old Version: [0.1.5]
+[2023-05-30 11:40:02] INFO root fetch - main [MainThread]: End processing [bosch-alarm-mode2]: success
+[2023-05-30 11:40:02] INFO root fetch - processPackages [seeFretboard]: executing diffoscope
+[2023-05-30 11:40:02] INFO root fetch - processPackages [seeFretboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeFretboard-0.1.5.tar.gz tmp/seeFretboard-0.1.5.1.tar.gz --markdown 20230530/s/seeFretboard/0.1.5-0.1.5.1/diff.md --exclude *.pyd
+[2023-05-30 11:40:02] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.9.dev1] Old Version: [0.6.0.86.dev1]
+[2023-05-30 11:40:03] INFO root fetch - processPackages [crabpy-pyramid]: Downloading https://files.pythonhosted.org/packages/81/c9/8851f382ba4275f85ef285b363f9dbdfcc69f53ea75698ca1b95d358b54d/crabpy_pyramid-1.6.0.tar.gz
+[2023-05-30 11:40:03] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/78/ee/426af75347d04c2505462b4a1c9714e5a2841b3d092e65b209e29d3d70ce/unified_planning-0.6.0.86.dev1.tar.gz
+[2023-05-30 11:40:03] INFO root fetch - processPackages [crabpy-pyramid]: executing diffoscope
+[2023-05-30 11:40:03] INFO root fetch - processPackages [crabpy-pyramid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crabpy_pyramid-1.5.0.tar.gz tmp/crabpy_pyramid-1.6.0.tar.gz --markdown 20230530/c/crabpy-pyramid/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-30 11:40:03] INFO root fetch - main [MainThread]: End processing [udls]: success
+[2023-05-30 11:40:03] INFO root fetch - main [MainThread]: End processing [firestone-lib]: success
+[2023-05-30 11:40:03] INFO root fetch - main [MainThread]: End processing [geotexxx]: success
+[2023-05-30 11:40:03] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-05-30 11:40:03] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.86.dev1.tar.gz tmp/unified_planning-0.6.0.9.dev1.tar.gz --markdown 20230530/u/unified-planning/0.6.0.86.dev1-0.6.0.9.dev1/diff.md --exclude *.pyd
+[2023-05-30 11:40:03] INFO root fetch - main [MainThread]: End processing [audresample]: success
+[2023-05-30 11:40:04] INFO root fetch - main [MainThread]: End processing [crabpy-pyramid]: success
+[2023-05-30 11:40:05] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-05-30 11:40:07] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-05-30 11:40:17] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
+[2023-05-30 11:40:28] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
+[2023-05-30 11:40:28] INFO root fetch - main [MainThread]: Store serial: [18300144]
