@@ -11703,3 +11703,108 @@
 [2023-05-30 13:42:57] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
 [2023-05-30 13:42:59] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-05-30 13:42:59] INFO root fetch - main [MainThread]: Store serial: [18301519]
+[2023-05-30 13:48:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18301519]
+[2023-05-30 13:48:08] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-30 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gggdtparser
+[2023-05-30 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LumosWeb
+[2023-05-30 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rpi-reactive-gpio
+[2023-05-30 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsw-command-queue
+[2023-05-30 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsw-config
+[2023-05-30 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inputty
+[2023-05-30 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dsw-database
+[2023-05-30 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dsw-models
+[2023-05-30 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dsw-storage
+[2023-05-30 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dsw-tdk
+[2023-05-30 13:48:08] INFO root fetch - processPackages [LumosWeb]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-30 13:48:08] INFO root fetch - processPackages [rpi-reactive-gpio]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 13:48:08] INFO root fetch - processPackages [gggdtparser]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-05-30 13:48:08] INFO root fetch - processPackages [dsw-config]: New version: [3.24.0rc1] Old Version: [3.23.0]
+[2023-05-30 13:48:08] INFO root fetch - processPackages [dsw-models]: New version: [3.24.0rc1] Old Version: [3.23.0]
+[2023-05-30 13:48:08] INFO root fetch - processPackages [dsw-storage]: New version: [3.24.0rc1] Old Version: [3.23.0]
+[2023-05-30 13:48:08] INFO root fetch - processPackages [dsw-command-queue]: New version: [3.24.0rc1] Old Version: [3.23.0]
+[2023-05-30 13:48:08] INFO root fetch - processPackages [inputty]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-05-30 13:48:08] INFO root fetch - processPackages [dsw-database]: New version: [3.24.0rc1] Old Version: [3.23.0]
+[2023-05-30 13:48:08] INFO root fetch - processPackages [dsw-tdk]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-30 13:48:08] INFO root fetch - processPackages [dsw-storage]: Downloading https://files.pythonhosted.org/packages/a3/a0/3e8b72319d80c9850ef7913acdfa4cd3be27f56b02999c4feeae76f1b281/dsw-storage-3.23.0.tar.gz
+[2023-05-30 13:48:08] INFO root fetch - processPackages [LumosWeb]: Downloading https://files.pythonhosted.org/packages/76/38/a074d1ee8e919560a1451fce92602728af37346feb9a6a7de09c566854ba/LumosWeb-0.0.8.tar.gz
+[2023-05-30 13:48:08] INFO root fetch - processPackages [dsw-command-queue]: Downloading https://files.pythonhosted.org/packages/ca/c5/4ef446974eb5840098468846f5db363b5dc44854c423ed09a744d139b89c/dsw-command-queue-3.23.0.tar.gz
+[2023-05-30 13:48:08] INFO root fetch - processPackages [rpi-reactive-gpio]: Downloading https://files.pythonhosted.org/packages/37/12/42e162459ad281b9f3e0d86ad9be1fdb1a187b7506ab30696739d35a72ea/rpi_reactive_gpio-0.1.0.tar.gz
+[2023-05-30 13:48:08] INFO root fetch - processPackages [dsw-config]: Downloading https://files.pythonhosted.org/packages/40/f3/d1d72119e8dca38b2429b6aa5a234ccbb8bbfcf7a768af89201643bb46ea/dsw-config-3.23.0.tar.gz
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-database]: Downloading https://files.pythonhosted.org/packages/35/cb/6a31105ff93bfdea63be488fac398e74b4181bc434bae88969d67829f592/dsw-database-3.23.0.tar.gz
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-models]: Downloading https://files.pythonhosted.org/packages/c9/9e/6e87bb5894f2a2a88f34b8cb2ebe4e955140d9becaf1d3dd0aee51cdbf3f/dsw-models-3.23.0.tar.gz
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-tdk]: Downloading https://files.pythonhosted.org/packages/49/a5/97e62ad725a08a351055c0dec289369428ed8405344fa96af05e8d02e5ea/dsw-tdk-3.8.0.tar.gz
+[2023-05-30 13:48:09] INFO root fetch - processPackages [inputty]: Downloading https://files.pythonhosted.org/packages/b2/b9/238c5b9379977a5b06f24d0edfcd7383af335cb8a30c6635405adb3a0344/inputty-0.0.4.tar.gz
+[2023-05-30 13:48:09] INFO root fetch - processPackages [gggdtparser]: Downloading https://files.pythonhosted.org/packages/6b/bb/b00ca80794d59c34080f5350bb40d489c0e1ed3bff7afde987d943e8cdf5/gggdtparser-0.0.8.tar.gz
+[2023-05-30 13:48:09] INFO root fetch - processPackages [LumosWeb]: executing diffoscope
+[2023-05-30 13:48:09] INFO root fetch - processPackages [LumosWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LumosWeb-0.0.7.tar.gz tmp/LumosWeb-0.0.8.tar.gz --markdown 20230530/L/LumosWeb/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-storage]: Downloading https://files.pythonhosted.org/packages/61/6a/7b5ec711e5250f2e8b7f0f8ec6b4bee1c1f86294680a0711aadb6884155f/dsw-storage-3.24.0rc1.tar.gz
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-command-queue]: Downloading https://files.pythonhosted.org/packages/b9/54/7221b653547f68413b703c1b288bc5bf0dfa2eb21bdb3db604cced398f67/dsw-command-queue-3.24.0rc1.tar.gz
+[2023-05-30 13:48:09] INFO root fetch - processPackages [gggdtparser]: executing diffoscope
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-config]: Downloading https://files.pythonhosted.org/packages/1c/b1/cc4b3c7e0293f9d7fcb101ab64edb239cb0e8e15f2e69284a3b005d81008/dsw-config-3.24.0rc1.tar.gz
+[2023-05-30 13:48:09] INFO root fetch - processPackages [gggdtparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gggdtparser-0.0.6.tar.gz tmp/gggdtparser-0.0.8.tar.gz --markdown 20230530/g/gggdtparser/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 13:48:09] INFO root fetch - processPackages [rpi-reactive-gpio]: Downloading https://files.pythonhosted.org/packages/f9/4b/657099161022f443172ffb5ee3972df875d0d8e6d93f1f2f633c3c1ebf99/rpi_reactive_gpio-0.1.1.tar.gz
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-models]: Downloading https://files.pythonhosted.org/packages/4c/59/3bce46ef04803e4a0f03b7cb061f0b884097a701561727ccfcd987e823c4/dsw-models-3.24.0rc1.tar.gz
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-database]: Downloading https://files.pythonhosted.org/packages/8e/7d/fb77d9d0671e4ec01197a44aaed51b87718627ee744238cd95be6a804644/dsw-database-3.24.0rc1.tar.gz
+[2023-05-30 13:48:09] INFO root fetch - processPackages [inputty]: Downloading https://files.pythonhosted.org/packages/d2/17/40a6d87360e15973f4c719c2abc2867a69e22f1bca18df22d54f10d9b79a/inputty-1.0.0.tar.gz
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-storage]: executing diffoscope
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-storage-3.23.0.tar.gz tmp/dsw-storage-3.24.0rc1.tar.gz --markdown 20230530/d/dsw-storage/3.23.0-3.24.0rc1/diff.md --exclude *.pyd
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-tdk]: Downloading https://files.pythonhosted.org/packages/e6/22/1df5f0817ea3b3e038995c9fd42ba3152c3cef9595e173d161482976f698/dsw-tdk-3.9.0.tar.gz
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-config]: executing diffoscope
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-config-3.23.0.tar.gz tmp/dsw-config-3.24.0rc1.tar.gz --markdown 20230530/d/dsw-config/3.23.0-3.24.0rc1/diff.md --exclude *.pyd
+[2023-05-30 13:48:09] INFO root fetch - processPackages [rpi-reactive-gpio]: executing diffoscope
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-database]: executing diffoscope
+[2023-05-30 13:48:09] INFO root fetch - processPackages [rpi-reactive-gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpi_reactive_gpio-0.1.0.tar.gz tmp/rpi_reactive_gpio-0.1.1.tar.gz --markdown 20230530/r/rpi-reactive-gpio/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-database-3.23.0.tar.gz tmp/dsw-database-3.24.0rc1.tar.gz --markdown 20230530/d/dsw-database/3.23.0-3.24.0rc1/diff.md --exclude *.pyd
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-models]: executing diffoscope
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-models-3.23.0.tar.gz tmp/dsw-models-3.24.0rc1.tar.gz --markdown 20230530/d/dsw-models/3.23.0-3.24.0rc1/diff.md --exclude *.pyd
+[2023-05-30 13:48:09] INFO root fetch - processPackages [inputty]: executing diffoscope
+[2023-05-30 13:48:09] INFO root fetch - processPackages [inputty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inputty-0.0.4.tar.gz tmp/inputty-1.0.0.tar.gz --markdown 20230530/i/inputty/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-command-queue]: executing diffoscope
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-command-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-command-queue-3.23.0.tar.gz tmp/dsw-command-queue-3.24.0rc1.tar.gz --markdown 20230530/d/dsw-command-queue/3.23.0-3.24.0rc1/diff.md --exclude *.pyd
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-tdk]: executing diffoscope
+[2023-05-30 13:48:09] INFO root fetch - processPackages [dsw-tdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-tdk-3.8.0.tar.gz tmp/dsw-tdk-3.9.0.tar.gz --markdown 20230530/d/dsw-tdk/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-30 13:48:10] INFO root fetch - processPackages [LumosWeb]: Start processing: mercury-settrie
+[2023-05-30 13:48:10] INFO root fetch - main [MainThread]: End processing [LumosWeb]: success
+[2023-05-30 13:48:10] WARNING root fetch - processPackages [mercury-settrie]: Skipping, unable to determine old version
+[2023-05-30 13:48:10] INFO root fetch - processPackages [mercury-settrie]: Start processing: buteo
+[2023-05-30 13:48:10] INFO root fetch - main [MainThread]: End processing [mercury-settrie] error
+[2023-05-30 13:48:10] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 13:48:10] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-05-30 13:48:11] INFO root fetch - processPackages [gggdtparser]: Start processing: web-poet
+[2023-05-30 13:48:11] INFO root fetch - main [MainThread]: End processing [gggdtparser]: success
+[2023-05-30 13:48:11] INFO root fetch - processPackages [web-poet]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-30 13:48:11] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-05-30 13:48:11] INFO root fetch - processPackages [web-poet]: Downloading https://files.pythonhosted.org/packages/2d/32/0675884fa5cdf787f67e2a19ab228abc728f16139ab9f087f04d18a828be/web-poet-0.8.1.tar.gz
+[2023-05-30 13:48:11] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-05-30 13:48:11] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230530/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 13:48:11] INFO root fetch - processPackages [dsw-config]: Start processing: vimnote
+[2023-05-30 13:48:11] INFO root fetch - main [MainThread]: End processing [dsw-config]: success
+[2023-05-30 13:48:11] INFO root fetch - processPackages [vimnote]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-30 13:48:11] INFO root fetch - processPackages [dsw-database]: Start processing: chatllm
+[2023-05-30 13:48:11] INFO root fetch - main [MainThread]: End processing [dsw-database]: success
+[2023-05-30 13:48:11] INFO root fetch - processPackages [chatllm]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-30 13:48:11] INFO root fetch - processPackages [dsw-storage]: Start processing: typst-sympy-calculator
+[2023-05-30 13:48:11] INFO root fetch - main [MainThread]: End processing [dsw-storage]: success
+[2023-05-30 13:48:11] INFO root fetch - processPackages [typst-sympy-calculator]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-30 13:48:11] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2023-05-30 13:48:11] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230530/c/chatllm/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-30 13:48:11] INFO root fetch - processPackages [web-poet]: Downloading https://files.pythonhosted.org/packages/38/5f/56ac62f4665c5f437ba35ae603d73c10d70863562af8e6fc44acd21395f0/web-poet-0.9.0.tar.gz
+[2023-05-30 13:48:11] INFO root fetch - processPackages [vimnote]: Downloading https://files.pythonhosted.org/packages/21/b2/3b46462fe18755e75c703b168d62d50a54044bc173158f659a1ada6baea0/vimnote-1.0.7.tar.gz
+[2023-05-30 13:48:11] INFO root fetch - processPackages [vimnote]: executing diffoscope
+[2023-05-30 13:48:11] INFO root fetch - processPackages [vimnote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vimnote-1.0.6.tar.gz tmp/vimnote-1.0.7.tar.gz --markdown 20230530/v/vimnote/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-30 13:48:11] INFO root fetch - processPackages [typst-sympy-calculator]: Downloading https://files.pythonhosted.org/packages/f0/5e/70e5e7183001b0f5883feaf01ad73262acb6f74f346f96522878fc2e2a11/typst_sympy_calculator-0.4.2-py3-none-any.whl
+[2023-05-30 13:48:11] INFO root fetch - processPackages [web-poet]: executing diffoscope
+[2023-05-30 13:48:11] INFO root fetch - processPackages [web-poet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-poet-0.8.1.tar.gz tmp/web-poet-0.9.0.tar.gz --markdown 20230530/w/web-poet/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 13:48:11] INFO root fetch - processPackages [typst-sympy-calculator]: executing diffoscope
+[2023-05-30 13:48:11] INFO root fetch - processPackages [typst-sympy-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typst_sympy_calculator-0.4.1-py3-none-any.whl.zip tmp/typst_sympy_calculator-0.4.2-py3-none-any.whl.zip --markdown 20230530/t/typst-sympy-calculator/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-30 13:48:11] INFO root fetch - main [MainThread]: End processing [rpi-reactive-gpio]: success
+[2023-05-30 13:48:11] INFO root fetch - main [MainThread]: End processing [inputty]: success
+[2023-05-30 13:48:11] INFO root fetch - main [MainThread]: End processing [dsw-tdk]: success
+[2023-05-30 13:48:11] INFO root fetch - main [MainThread]: End processing [dsw-command-queue]: success
+[2023-05-30 13:48:12] INFO root fetch - main [MainThread]: End processing [dsw-models]: success
+[2023-05-30 13:48:13] INFO root fetch - main [MainThread]: End processing [vimnote]: success
+[2023-05-30 13:48:13] INFO root fetch - main [MainThread]: End processing [typst-sympy-calculator]: success
+[2023-05-30 13:48:13] INFO root fetch - main [MainThread]: End processing [web-poet]: success
+[2023-05-30 13:48:14] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2023-05-30 13:48:15] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-05-30 13:48:15] INFO root fetch - main [MainThread]: Store serial: [18301654]
