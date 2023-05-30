@@ -17441,3 +17441,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 18:21:14] INFO root fetch - main [MainThread]: End processing [rekuest]: success
 [2023-05-30 18:22:39] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-05-30 18:22:39] INFO root fetch - main [MainThread]: Store serial: [18304987]
+[2023-05-30 18:27:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18304987]
+[2023-05-30 18:27:49] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-30 18:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iceprod
+[2023-05-30 18:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: m9s-electronic-mail
+[2023-05-30 18:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: event-systems
+[2023-05-30 18:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pilot-platform-object-storage
+[2023-05-30 18:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shopcloud-serverless
+[2023-05-30 18:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: m9s-webdav
+[2023-05-30 18:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: not1mm
+[2023-05-30 18:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: src-ie-tools
+[2023-05-30 18:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-account-invoice-payment-retention
+[2023-05-30 18:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: m9s-sale-payment-gateway
+[2023-05-30 18:27:49] INFO root fetch - processPackages [iceprod]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-05-30 18:27:49] INFO root fetch - processPackages [pilot-platform-object-storage]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-30 18:27:49] INFO root fetch - processPackages [m9s-electronic-mail]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-05-30 18:27:49] INFO root fetch - processPackages [shopcloud-serverless]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-30 18:27:49] INFO root fetch - processPackages [event-systems]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-30 18:27:49] INFO root fetch - processPackages [shopcloud-serverless]: executing diffoscope
+[2023-05-30 18:27:49] INFO root fetch - processPackages [shopcloud-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud-serverless-4.8.0.tar.gz tmp/shopcloud-serverless-4.9.0.tar.gz --markdown 20230530/s/shopcloud-serverless/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-30 18:27:49] INFO root fetch - processPackages [odoo14-addon-account-invoice-payment-retention]: New version: [14.0.1.2.1.dev2] Old Version: [14.0.1.2.1.dev1]
+[2023-05-30 18:27:49] INFO root fetch - processPackages [m9s-webdav]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-05-30 18:27:49] WARNING root fetch - processPackages [src-ie-tools]: Skipping, unable to determine old version
+[2023-05-30 18:27:49] INFO root fetch - processPackages [src-ie-tools]: Start processing: odoo14-addon-account-move-post-block
+[2023-05-30 18:27:49] INFO root fetch - main [MainThread]: End processing [src-ie-tools] error
+[2023-05-30 18:27:49] INFO root fetch - processPackages [m9s-sale-payment-gateway]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-05-30 18:27:49] INFO root fetch - processPackages [not1mm]: New version: [23.5.9.2] Old Version: [23.5.9.1]
+[2023-05-30 18:27:49] INFO root fetch - processPackages [pilot-platform-object-storage]: Downloading https://files.pythonhosted.org/packages/04/b3/79e87d6bb2ab56a37b7c0a29f45a67c85f4abf3d5a9360cbd01849d3c241/pilot_platform_object_storage-1.0.0.tar.gz
+[2023-05-30 18:27:49] INFO root fetch - processPackages [m9s-electronic-mail]: Downloading https://files.pythonhosted.org/packages/7c/c7/e082e6fe10a14528a11054f5b16b2653ef15c9bdba888a9c0ad48ed22809/m9s_electronic_mail-6.0.1.tar.gz
+[2023-05-30 18:27:49] INFO root fetch - processPackages [iceprod]: Downloading https://files.pythonhosted.org/packages/63/e0/935e928c33c84460e55858c3354be2c586e6d34b4430242f1b8d22ea6f48/iceprod-2.6.8.tar.gz
+[2023-05-30 18:27:49] INFO root fetch - processPackages [event-systems]: Downloading https://files.pythonhosted.org/packages/bd/27/d922ef1c189f67873d7cf8fd16d3db25ba3a724cb46ede491bbf90b13b27/event-systems-0.0.7.tar.gz
+[2023-05-30 18:27:49] INFO root fetch - processPackages [odoo14-addon-account-move-post-block]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev2]
+[2023-05-30 18:27:49] INFO root fetch - processPackages [odoo14-addon-account-invoice-payment-retention]: Downloading https://files.pythonhosted.org/packages/39/89/1c5ff66ba8baa3b55147a688dd93cea1c032bd1f536499ad735ede71d1c7/odoo14_addon_account_invoice_payment_retention-14.0.1.2.1.dev1-py3-none-any.whl
+[2023-05-30 18:27:49] INFO root fetch - processPackages [m9s-sale-payment-gateway]: Downloading https://files.pythonhosted.org/packages/2c/ac/51d2f59d726d68c4c53aa395a6491df5b113ff8db4e528499e79481e3b22/m9s_sale_payment_gateway-6.0.2.tar.gz
+[2023-05-30 18:27:49] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-05-30 18:27:49] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.5.9.1.tar.gz tmp/not1mm-23.5.9.2.tar.gz --markdown 20230530/n/not1mm/23.5.9.1-23.5.9.2/diff.md --exclude *.pyd
+[2023-05-30 18:27:49] INFO root fetch - processPackages [pilot-platform-object-storage]: Downloading https://files.pythonhosted.org/packages/0b/5c/ebde4d2a166b842e98200858f2be0d1a8db9b7f67918552b6114c733cb48/pilot_platform_object_storage-1.1.0.tar.gz
+[2023-05-30 18:27:49] INFO root fetch - processPackages [odoo14-addon-account-move-post-block]: Downloading https://files.pythonhosted.org/packages/1c/4a/c0081b24d44f1807ebce46767350547190ee0487e8e481a26f83703e600e/odoo14_addon_account_move_post_block-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-05-30 18:27:49] INFO root fetch - processPackages [pilot-platform-object-storage]: executing diffoscope
+[2023-05-30 18:27:49] INFO root fetch - processPackages [pilot-platform-object-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pilot_platform_object_storage-1.0.0.tar.gz tmp/pilot_platform_object_storage-1.1.0.tar.gz --markdown 20230530/p/pilot-platform-object-storage/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 18:27:49] INFO root fetch - processPackages [odoo14-addon-account-invoice-payment-retention]: Downloading https://files.pythonhosted.org/packages/9b/86/a329593bef113ab406b56acd4ef3ec2b79a9e2075dc2d9fa661c61b7c515/odoo14_addon_account_invoice_payment_retention-14.0.1.2.1.dev2-py3-none-any.whl
+[2023-05-30 18:27:49] INFO root fetch - processPackages [iceprod]: Downloading https://files.pythonhosted.org/packages/70/9d/1e8571e3ed669ecd3502b2772ccb586740372aaf3ba0d76aeaecf1cc7f54/iceprod-2.6.9.tar.gz
+[2023-05-30 18:27:49] INFO root fetch - processPackages [m9s-sale-payment-gateway]: Downloading https://files.pythonhosted.org/packages/5e/39/fb6a6f60430d6f9030a8215f22ebd7f7ed2817e236fe3f0fff6e75ebe843/m9s_sale_payment_gateway-6.0.3.tar.gz
+[2023-05-30 18:27:49] INFO root fetch - processPackages [m9s-electronic-mail]: Downloading https://files.pythonhosted.org/packages/15/a6/f97697437a7d3cd8c2b6e9b313f23ee4f0880b9dd78cf7ea48dc0f4fdf95/m9s_electronic_mail-6.0.2.tar.gz
+[2023-05-30 18:27:49] INFO root fetch - processPackages [m9s-webdav]: Downloading https://files.pythonhosted.org/packages/e9/2d/36d566c48354787ca9b632769c42fd92647963a86a7b42e8ef468d9d91f1/m9s_webdav-6.0.1.tar.gz
+[2023-05-30 18:27:49] INFO root fetch - processPackages [event-systems]: Downloading https://files.pythonhosted.org/packages/ad/a3/2745e2dd555e9561ba387921283c9b3f0a36fae9ded5741112cdd2778959/event-systems-0.0.8.tar.gz
+[2023-05-30 18:27:49] INFO root fetch - processPackages [odoo14-addon-account-invoice-payment-retention]: executing diffoscope
+[2023-05-30 18:27:49] INFO root fetch - processPackages [odoo14-addon-account-invoice-payment-retention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_payment_retention-14.0.1.2.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_payment_retention-14.0.1.2.1.dev2-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-account-invoice-payment-retention/14.0.1.2.1.dev1-14.0.1.2.1.dev2/diff.md --exclude *.pyd
+[2023-05-30 18:27:49] INFO root fetch - processPackages [m9s-sale-payment-gateway]: executing diffoscope
+[2023-05-30 18:27:49] INFO root fetch - processPackages [m9s-sale-payment-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m9s_sale_payment_gateway-6.0.2.tar.gz tmp/m9s_sale_payment_gateway-6.0.3.tar.gz --markdown 20230530/m/m9s-sale-payment-gateway/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-05-30 18:27:49] INFO root fetch - processPackages [iceprod]: executing diffoscope
+[2023-05-30 18:27:49] INFO root fetch - processPackages [iceprod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iceprod-2.6.8.tar.gz tmp/iceprod-2.6.9.tar.gz --markdown 20230530/i/iceprod/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-05-30 18:27:49] INFO root fetch - processPackages [m9s-electronic-mail]: executing diffoscope
+[2023-05-30 18:27:49] INFO root fetch - processPackages [m9s-electronic-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m9s_electronic_mail-6.0.1.tar.gz tmp/m9s_electronic_mail-6.0.2.tar.gz --markdown 20230530/m/m9s-electronic-mail/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-05-30 18:27:49] INFO root fetch - processPackages [event-systems]: executing diffoscope
+[2023-05-30 18:27:49] INFO root fetch - processPackages [event-systems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event-systems-0.0.7.tar.gz tmp/event-systems-0.0.8.tar.gz --markdown 20230530/e/event-systems/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 18:27:49] INFO root fetch - processPackages [odoo14-addon-account-move-post-block]: Downloading https://files.pythonhosted.org/packages/20/fe/4aa8b47886269427089af72815ab746eb72383f4e5e7281791a5ce366417/odoo14_addon_account_move_post_block-14.0.1.0.2.dev4-py3-none-any.whl
+[2023-05-30 18:27:50] INFO root fetch - processPackages [odoo14-addon-account-move-post-block]: executing diffoscope
+[2023-05-30 18:27:50] INFO root fetch - processPackages [odoo14-addon-account-move-post-block]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_move_post_block-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_account_move_post_block-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-account-move-post-block/14.0.1.0.2.dev2-14.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-05-30 18:27:50] INFO root fetch - processPackages [m9s-webdav]: Downloading https://files.pythonhosted.org/packages/8e/82/078c84470e20d59c0bd1a2810c4846bb66343d6d02bb8e38e3078917fc51/m9s_webdav-6.0.2.tar.gz
+[2023-05-30 18:27:50] INFO root fetch - processPackages [m9s-webdav]: executing diffoscope
+[2023-05-30 18:27:50] INFO root fetch - processPackages [m9s-webdav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m9s_webdav-6.0.1.tar.gz tmp/m9s_webdav-6.0.2.tar.gz --markdown 20230530/m/m9s-webdav/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-05-30 18:27:51] INFO root fetch - processPackages [shopcloud-serverless]: Start processing: odoo14-addon-account-move-tier-validation-approver
+[2023-05-30 18:27:51] INFO root fetch - main [MainThread]: End processing [shopcloud-serverless]: success
+[2023-05-30 18:27:51] WARNING root fetch - processPackages [odoo14-addon-account-move-tier-validation-approver]: Skipping, unable to determine old version
+[2023-05-30 18:27:51] INFO root fetch - processPackages [odoo14-addon-account-move-tier-validation-approver]: Start processing: kodexa-cli
+[2023-05-30 18:27:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-tier-validation-approver] error
+[2023-05-30 18:27:51] INFO root fetch - processPackages [kodexa-cli]: New version: [6.2.25123461736] Old Version: [6.2.25123303054]
+[2023-05-30 18:27:51] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-05-30 18:27:51] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.2.25123303054.tar.gz tmp/kodexa_cli-6.2.25123461736.tar.gz --markdown 20230530/k/kodexa-cli/6.2.25123303054-6.2.25123461736/diff.md --exclude *.pyd
+[2023-05-30 18:27:51] INFO root fetch - processPackages [pilot-platform-object-storage]: Start processing: cs-models
+[2023-05-30 18:27:51] INFO root fetch - main [MainThread]: End processing [pilot-platform-object-storage]: success
+[2023-05-30 18:27:51] INFO root fetch - processPackages [odoo14-addon-account-invoice-payment-retention]: Start processing: rsocket
+[2023-05-30 18:27:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-payment-retention]: success
+[2023-05-30 18:27:51] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-05-30 18:27:51] INFO root fetch - processPackages [rsocket]: New version: [0.4.dev1] Old Version: [0.4.9]
+[2023-05-30 18:27:52] INFO root fetch - processPackages [rsocket]: Downloading https://files.pythonhosted.org/packages/c2/1a/f76ab32aa73cb08c9110a0b33797441e31e55e2c93ba8f31d69605cecfef/rsocket-0.4.9.tar.gz
+[2023-05-30 18:27:52] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-05-30 18:27:52] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230530/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-05-30 18:27:52] INFO root fetch - processPackages [odoo14-addon-account-move-post-block]: Start processing: gs-quant
+[2023-05-30 18:27:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-post-block]: success
+[2023-05-30 18:27:52] INFO root fetch - processPackages [event-systems]: Start processing: kurve
+[2023-05-30 18:27:52] INFO root fetch - main [MainThread]: End processing [event-systems]: success
+[2023-05-30 18:27:52] WARNING root fetch - processPackages [kurve]: Skipping, unable to determine old version
+[2023-05-30 18:27:52] INFO root fetch - processPackages [kurve]: Start processing: m9s-party-vcarddav
+[2023-05-30 18:27:52] INFO root fetch - main [MainThread]: End processing [kurve] error
+[2023-05-30 18:27:52] INFO root fetch - processPackages [gs-quant]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-30 18:27:52] INFO root fetch - processPackages [rsocket]: Downloading https://files.pythonhosted.org/packages/15/1e/d63ae219640e519a93d86a8a3435f9c2e1236fa7d5b4fad8502dfc910d1e/rsocket-0.4.dev1.tar.gz
+[2023-05-30 18:27:52] INFO root fetch - processPackages [m9s-party-vcarddav]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-05-30 18:27:52] INFO root fetch - processPackages [rsocket]: executing diffoscope
+[2023-05-30 18:27:52] INFO root fetch - processPackages [rsocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsocket-0.4.9.tar.gz tmp/rsocket-0.4.dev1.tar.gz --markdown 20230530/r/rsocket/0.4.9-0.4.dev1/diff.md --exclude *.pyd
+[2023-05-30 18:27:52] INFO root fetch - processPackages [m9s-party-vcarddav]: Downloading https://files.pythonhosted.org/packages/9d/34/ace99111b96a9a425318cb72370a9d8fa39a3aebb663e54be0f3d2ae4d24/m9s_party_vcarddav-6.0.2.tar.gz
+[2023-05-30 18:27:52] INFO root fetch - processPackages [gs-quant]: Downloading https://files.pythonhosted.org/packages/9c/87/c800676a5595b4004987f8c1cff84694dae524928b2d3eb099f95a806ced/gs_quant-1.0.2.tar.gz
+[2023-05-30 18:27:52] INFO root fetch - processPackages [not1mm]: Start processing: event-systems
+[2023-05-30 18:27:52] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-05-30 18:27:52] INFO root fetch - processPackages [event-systems]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 18:27:52] INFO root fetch - processPackages [gs-quant]: executing diffoscope
+[2023-05-30 18:27:52] INFO root fetch - processPackages [gs-quant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_quant-1.0.1.tar.gz tmp/gs_quant-1.0.2.tar.gz --markdown 20230530/g/gs-quant/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-30 18:27:52] INFO root fetch - processPackages [m9s-party-vcarddav]: Downloading https://files.pythonhosted.org/packages/f9/30/127015b5e56a438db1b393dca9e3c0e285711ad8f417e051ac55edb8f6c3/m9s_party_vcarddav-6.0.3.tar.gz
+[2023-05-30 18:27:53] INFO root fetch - processPackages [m9s-party-vcarddav]: executing diffoscope
+[2023-05-30 18:27:53] INFO root fetch - processPackages [m9s-party-vcarddav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m9s_party_vcarddav-6.0.2.tar.gz tmp/m9s_party_vcarddav-6.0.3.tar.gz --markdown 20230530/m/m9s-party-vcarddav/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-05-30 18:27:53] INFO root fetch - processPackages [event-systems]: Downloading https://files.pythonhosted.org/packages/9e/0b/f018936789fd3887266114c248159ea3dcb0c2eb1ed121dc48df8703ea7e/event-systems-0.0.9.tar.gz
+[2023-05-30 18:27:53] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-05-30 18:27:53] INFO root fetch - main [MainThread]: End processing [m9s-electronic-mail]: success
+[2023-05-30 18:27:53] INFO root fetch - processPackages [event-systems]: executing diffoscope
+[2023-05-30 18:27:53] INFO root fetch - processPackages [event-systems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event-systems-0.0.8.tar.gz tmp/event-systems-0.0.9.tar.gz --markdown 20230530/e/event-systems/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 18:27:53] INFO root fetch - main [MainThread]: End processing [m9s-webdav]: success
+[2023-05-30 18:27:53] INFO root fetch - main [MainThread]: End processing [m9s-sale-payment-gateway]: success
+[2023-05-30 18:27:54] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-05-30 18:27:54] INFO root fetch - main [MainThread]: End processing [iceprod]: success
+[2023-05-30 18:27:54] INFO root fetch - main [MainThread]: End processing [m9s-party-vcarddav]: success
+[2023-05-30 18:27:55] INFO root fetch - main [MainThread]: End processing [event-systems]: success
+[2023-05-30 18:27:56] INFO root fetch - main [MainThread]: End processing [rsocket]: success
+[2023-05-30 18:27:57] INFO root fetch - main [MainThread]: End processing [gs-quant]: success
+[2023-05-30 18:27:57] INFO root fetch - main [MainThread]: Store serial: [18305065]
