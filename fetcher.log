@@ -18718,3 +18718,76 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 19:37:30] INFO root fetch - main [MainThread]: End processing [AHMeD-OPs]: success
 [2023-05-30 19:37:31] INFO root fetch - main [MainThread]: End processing [biometeo]: success
 [2023-05-30 19:37:31] INFO root fetch - main [MainThread]: Store serial: [18305759]
+[2023-05-30 19:42:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18305759]
+[2023-05-30 19:42:40] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-30 19:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lifeomic-patient-ml-types
+[2023-05-30 19:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidpro-flow-tools
+[2023-05-30 19:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fleet-sdk
+[2023-05-30 19:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polyglot-piranha
+[2023-05-30 19:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qgate-perf
+[2023-05-30 19:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dojo-truant
+[2023-05-30 19:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omicslearn
+[2023-05-30 19:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: midiferenciacion
+[2023-05-30 19:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo13-addon-account-cutoff-accrual-picking
+[2023-05-30 19:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo13-addon-account-cutoff-accrual-base
+[2023-05-30 19:42:40] WARNING root fetch - processPackages [fleet-sdk]: Skipping, unable to determine old version
+[2023-05-30 19:42:40] INFO root fetch - processPackages [fleet-sdk]: Start processing: odoo13-addon-account-cutoff-base
+[2023-05-30 19:42:40] INFO root fetch - main [MainThread]: End processing [fleet-sdk] error
+[2023-05-30 19:42:40] INFO root fetch - processPackages [polyglot-piranha]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-30 19:42:40] WARNING root fetch - processPackages [omicslearn]: Skipping, unable to determine old version
+[2023-05-30 19:42:40] INFO root fetch - processPackages [omicslearn]: Start processing: odoo13-addon-account-cutoff-prepaid
+[2023-05-30 19:42:40] INFO root fetch - main [MainThread]: End processing [omicslearn] error
+[2023-05-30 19:42:40] INFO root fetch - processPackages [lifeomic-patient-ml-types]: New version: [7.6.1] Old Version: [7.6.0]
+[2023-05-30 19:42:40] INFO root fetch - processPackages [odoo13-addon-account-cutoff-base]: New version: [13.0.2.0.0] Old Version: [13.0.1.0.2.dev5]
+[2023-05-30 19:42:40] INFO root fetch - processPackages [odoo13-addon-account-cutoff-accrual-base]: New version: [13.0.2.0.0] Old Version: [13.0.1.0.2.dev1]
+[2023-05-30 19:42:40] INFO root fetch - processPackages [odoo13-addon-account-cutoff-accrual-picking]: New version: [13.0.2.0.0] Old Version: [13.0.1.0.1.dev7]
+[2023-05-30 19:42:40] INFO root fetch - processPackages [rapidpro-flow-tools]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-30 19:42:40] INFO root fetch - processPackages [qgate-perf]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-30 19:42:40] INFO root fetch - processPackages [dojo-truant]: New version: [2023.5.30.0] Old Version: [2023.4.7.3]
+[2023-05-30 19:42:40] INFO root fetch - processPackages [midiferenciacion]: New version: [0.42] Old Version: [0.41]
+[2023-05-30 19:42:40] INFO root fetch - processPackages [odoo13-addon-account-cutoff-prepaid]: New version: [13.0.2.0.0] Old Version: [13.0.1.0.2.dev3]
+[2023-05-30 19:42:40] INFO root fetch - processPackages [lifeomic-patient-ml-types]: Downloading https://files.pythonhosted.org/packages/b0/8b/3162ee1c952daae0a936c6dae7f56cef4326ce7e4741f004f4b39f7cf2d1/lifeomic_patient_ml_types-7.6.1.tar.gz
+[2023-05-30 19:42:40] INFO root fetch - processPackages [rapidpro-flow-tools]: Downloading https://files.pythonhosted.org/packages/e8/64/ca0f01b5e18915be7e33dab248ee77dc81fdef17ba02c64ae4c284074ea2/rapidpro_flow_tools-2.0.0.tar.gz
+[2023-05-30 19:42:40] INFO root fetch - processPackages [odoo13-addon-account-cutoff-accrual-picking]: Downloading https://files.pythonhosted.org/packages/01/6e/8c8753f8ff8737a30be9fa72242ead470bf262ca826cebf5e22fd1e653fd/odoo13_addon_account_cutoff_accrual_picking-13.0.1.0.1.dev7-py3-none-any.whl
+[2023-05-30 19:42:40] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/8b/8c/4e90bee43134d8adfd23ac954ab7ed69a45f840139f1968ac0269212e98b/dojo_truant-2023.4.7.3.tar.gz
+[2023-05-30 19:42:40] INFO root fetch - processPackages [odoo13-addon-account-cutoff-accrual-base]: Downloading https://files.pythonhosted.org/packages/c8/41/c1120df08ca161d1fc15bc7b741f8692dee745aa19b9a6feb19d9874bee9/odoo13_addon_account_cutoff_accrual_base-13.0.1.0.2.dev1-py3-none-any.whl
+[2023-05-30 19:42:40] INFO root fetch - processPackages [qgate-perf]: Downloading https://files.pythonhosted.org/packages/2a/ac/b2ee2b8569ac31d0d0e74424c7ef1d044c5a9888568e4dad725142c48b3b/qgate_perf-0.2.8-py3-none-any.whl
+[2023-05-30 19:42:40] INFO root fetch - processPackages [qgate-perf]: executing diffoscope
+[2023-05-30 19:42:40] INFO root fetch - processPackages [qgate-perf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_perf-0.2.7-py3-none-any.whl.zip tmp/qgate_perf-0.2.8-py3-none-any.whl.zip --markdown 20230530/q/qgate-perf/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-30 19:42:40] INFO root fetch - processPackages [midiferenciacion]: Downloading https://files.pythonhosted.org/packages/ee/9b/9750e325dc83ff183f4b5928794d67a88cb02421125524fe2fb828ae75f9/midiferenciacion-0.42.tar.gz
+[2023-05-30 19:42:40] INFO root fetch - processPackages [lifeomic-patient-ml-types]: executing diffoscope
+[2023-05-30 19:42:40] INFO root fetch - processPackages [lifeomic-patient-ml-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifeomic_patient_ml_types-7.6.0.tar.gz tmp/lifeomic_patient_ml_types-7.6.1.tar.gz --markdown 20230530/l/lifeomic-patient-ml-types/7.6.0-7.6.1/diff.md --exclude *.pyd
+[2023-05-30 19:42:40] INFO root fetch - processPackages [odoo13-addon-account-cutoff-prepaid]: Downloading https://files.pythonhosted.org/packages/0f/76/11257cebb4035c3d52c45445bf3bd108dccfcab3240afda627e12aa4d984/odoo13_addon_account_cutoff_prepaid-13.0.2.0.0-py3-none-any.whl
+[2023-05-30 19:42:40] INFO root fetch - processPackages [odoo13-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/4c/02/39e3b3094916dc8c54591abab81a044ecf141a2f82618dbbb930c810469f/odoo13_addon_account_cutoff_base-13.0.2.0.0-py3-none-any.whl
+[2023-05-30 19:42:40] INFO root fetch - processPackages [polyglot-piranha]: Downloading https://files.pythonhosted.org/packages/df/4e/6da715c4314adf9c3ab40e02eb576001bc02524973978b1a234a3398d959/polyglot_piranha-0.3.5.tar.gz
+[2023-05-30 19:42:40] INFO root fetch - processPackages [polyglot-piranha]: executing diffoscope
+[2023-05-30 19:42:40] INFO root fetch - processPackages [polyglot-piranha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyglot_piranha-0.3.4.tar.gz tmp/polyglot_piranha-0.3.5.tar.gz --markdown 20230530/p/polyglot-piranha/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-30 19:42:40] INFO root fetch - processPackages [midiferenciacion]: executing diffoscope
+[2023-05-30 19:42:40] INFO root fetch - processPackages [midiferenciacion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midiferenciacion-0.41.tar.gz tmp/midiferenciacion-0.42.tar.gz --markdown 20230530/m/midiferenciacion/0.41-0.42/diff.md --exclude *.pyd
+[2023-05-30 19:42:40] INFO root fetch - processPackages [odoo13-addon-account-cutoff-accrual-base]: Downloading https://files.pythonhosted.org/packages/59/43/44b2686c4b1919474712c4d1e1de6034036ac88fa60682c83e81e01b3989/odoo13_addon_account_cutoff_accrual_base-13.0.2.0.0-py3-none-any.whl
+[2023-05-30 19:42:40] INFO root fetch - processPackages [odoo13-addon-account-cutoff-base]: executing diffoscope
+[2023-05-30 19:42:40] INFO root fetch - processPackages [odoo13-addon-account-cutoff-prepaid]: executing diffoscope
+[2023-05-30 19:42:40] INFO root fetch - processPackages [odoo13-addon-account-cutoff-accrual-picking]: Downloading https://files.pythonhosted.org/packages/0b/8c/e29b46e2e64022e44c7c128e57ecceaf8789f4ed18deda5f205a32c8c68a/odoo13_addon_account_cutoff_accrual_picking-13.0.2.0.0-py3-none-any.whl
+[2023-05-30 19:42:40] INFO root fetch - processPackages [odoo13-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_cutoff_base-13.0.1.0.2.dev5-py3-none-any.whl.zip tmp/odoo13_addon_account_cutoff_base-13.0.2.0.0-py3-none-any.whl.zip --markdown 20230530/o/odoo13-addon-account-cutoff-base/13.0.1.0.2.dev5-13.0.2.0.0/diff.md --exclude *.pyd
+[2023-05-30 19:42:40] INFO root fetch - processPackages [odoo13-addon-account-cutoff-prepaid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_cutoff_prepaid-13.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo13_addon_account_cutoff_prepaid-13.0.2.0.0-py3-none-any.whl.zip --markdown 20230530/o/odoo13-addon-account-cutoff-prepaid/13.0.1.0.2.dev3-13.0.2.0.0/diff.md --exclude *.pyd
+[2023-05-30 19:42:40] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/8f/3f/85a9c3b0b6a8ef7f7f8c06bbba627f67ce51fc8fe82bf184ac29a12a8130/dojo_truant-2023.5.30.0.tar.gz
+[2023-05-30 19:42:40] INFO root fetch - processPackages [rapidpro-flow-tools]: Downloading https://files.pythonhosted.org/packages/57/19/4c343b60ed7250dd6651975f250aa334ec5f0cbcda79604edfafb3952f04/rapidpro_flow_tools-2.0.1.tar.gz
+[2023-05-30 19:42:41] INFO root fetch - processPackages [rapidpro-flow-tools]: executing diffoscope
+[2023-05-30 19:42:41] INFO root fetch - processPackages [rapidpro-flow-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpro_flow_tools-2.0.0.tar.gz tmp/rapidpro_flow_tools-2.0.1.tar.gz --markdown 20230530/r/rapidpro-flow-tools/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-30 19:42:41] INFO root fetch - processPackages [odoo13-addon-account-cutoff-accrual-base]: executing diffoscope
+[2023-05-30 19:42:41] INFO root fetch - processPackages [odoo13-addon-account-cutoff-accrual-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_cutoff_accrual_base-13.0.1.0.2.dev1-py3-none-any.whl.zip tmp/odoo13_addon_account_cutoff_accrual_base-13.0.2.0.0-py3-none-any.whl.zip --markdown 20230530/o/odoo13-addon-account-cutoff-accrual-base/13.0.1.0.2.dev1-13.0.2.0.0/diff.md --exclude *.pyd
+[2023-05-30 19:42:41] INFO root fetch - processPackages [dojo-truant]: executing diffoscope
+[2023-05-30 19:42:41] INFO root fetch - processPackages [dojo-truant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dojo_truant-2023.4.7.3.tar.gz tmp/dojo_truant-2023.5.30.0.tar.gz --markdown 20230530/d/dojo-truant/2023.4.7.3-2023.5.30.0/diff.md --exclude *.pyd
+[2023-05-30 19:42:41] INFO root fetch - processPackages [odoo13-addon-account-cutoff-accrual-picking]: executing diffoscope
+[2023-05-30 19:42:41] INFO root fetch - processPackages [odoo13-addon-account-cutoff-accrual-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_cutoff_accrual_picking-13.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo13_addon_account_cutoff_accrual_picking-13.0.2.0.0-py3-none-any.whl.zip --markdown 20230530/o/odoo13-addon-account-cutoff-accrual-picking/13.0.1.0.1.dev7-13.0.2.0.0/diff.md --exclude *.pyd
+[2023-05-30 19:42:42] INFO root fetch - main [MainThread]: End processing [qgate-perf]: success
+[2023-05-30 19:42:42] INFO root fetch - main [MainThread]: End processing [lifeomic-patient-ml-types]: success
+[2023-05-30 19:42:42] INFO root fetch - main [MainThread]: End processing [midiferenciacion]: success
+[2023-05-30 19:42:43] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-cutoff-prepaid]: success
+[2023-05-30 19:42:43] INFO root fetch - main [MainThread]: End processing [rapidpro-flow-tools]: success
+[2023-05-30 19:42:43] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-cutoff-base]: success
+[2023-05-30 19:42:43] INFO root fetch - main [MainThread]: End processing [polyglot-piranha]: success
+[2023-05-30 19:42:43] INFO root fetch - main [MainThread]: End processing [dojo-truant]: success
+[2023-05-30 19:42:43] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-cutoff-accrual-base]: success
+[2023-05-30 19:42:44] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-cutoff-accrual-picking]: success
+[2023-05-30 19:42:44] INFO root fetch - main [MainThread]: Store serial: [18305794]
