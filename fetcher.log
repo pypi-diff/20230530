@@ -20984,3 +20984,102 @@ EOFError: EOF read where object expected
 [2023-05-30 22:10:42] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2023-05-30 22:10:49] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-05-30 22:10:49] INFO root fetch - main [MainThread]: Store serial: [18307161]
+[2023-05-30 22:15:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18307161]
+[2023-05-30 22:15:59] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-30 22:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openqsa
+[2023-05-30 22:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aim-ui
+[2023-05-30 22:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airunner
+[2023-05-30 22:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-logikal
+[2023-05-30 22:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-stubs
+[2023-05-30 22:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kolena
+[2023-05-30 22:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aim
+[2023-05-30 22:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-eveuniverse
+[2023-05-30 22:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graphscope
+[2023-05-30 22:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bikeshed
+[2023-05-30 22:15:59] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0a3] Old Version: [4.0.0a2]
+[2023-05-30 22:15:59] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-30 22:15:59] WARNING root fetch - processPackages [openqsa]: Skipping, unable to determine old version
+[2023-05-30 22:15:59] INFO root fetch - processPackages [openqsa]: Start processing: kolena-client
+[2023-05-30 22:15:59] INFO root fetch - main [MainThread]: End processing [openqsa] error
+[2023-05-30 22:15:59] INFO root fetch - processPackages [pytest-logikal]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-05-30 22:15:59] INFO root fetch - processPackages [graphscope]: New version: [0.22.0a20230530] Old Version: [0.22.0a20230529]
+[2023-05-30 22:15:59] INFO root fetch - processPackages [kolena]: New version: [0.71.0] Old Version: [0.70.0]
+[2023-05-30 22:15:59] INFO root fetch - processPackages [django-eveuniverse]: New version: [1.0.0a3] Old Version: [1.0.0a2]
+[2023-05-30 22:15:59] INFO root fetch - processPackages [bikeshed]: New version: [3.9.0] Old Version: [3.8.2]
+[2023-05-30 22:15:59] INFO root fetch - processPackages [botocore-stubs]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-05-30 22:15:59] INFO root fetch - processPackages [kolena-client]: New version: [0.71.0] Old Version: [0.70.0]
+[2023-05-30 22:15:59] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/dc/da/0f9770abf46cf31cb2dab139d78ac5cb21c4160a35c3b8966191a77ddca2/aim-ui-4.0.0a2.tar.gz
+[2023-05-30 22:15:59] INFO root fetch - processPackages [aim]: New version: [4.0.0a3] Old Version: [4.0.0a2]
+[2023-05-30 22:15:59] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/2c/a6/8b3fe3f885ad0fd5ce7114ca933ee3218d900652f89fff3e4a2062574937/graphscope-0.22.0a20230529-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-30 22:15:59] INFO root fetch - processPackages [django-eveuniverse]: executing diffoscope
+[2023-05-30 22:15:59] INFO root fetch - processPackages [django-eveuniverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_eveuniverse-1.0.0a2.tar.gz tmp/django_eveuniverse-1.0.0a3.tar.gz --markdown 20230530/d/django-eveuniverse/1.0.0a2-1.0.0a3/diff.md --exclude *.pyd
+[2023-05-30 22:15:59] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-05-30 22:15:59] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230530/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-30 22:15:59] INFO root fetch - processPackages [bikeshed]: executing diffoscope
+[2023-05-30 22:15:59] INFO root fetch - processPackages [bikeshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bikeshed-3.8.2.tar.gz tmp/bikeshed-3.9.0.tar.gz --markdown 20230530/b/bikeshed/3.8.2-3.9.0/diff.md --exclude *.pyd
+[2023-05-30 22:15:59] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 136771387>=10485760
+[2023-05-30 22:15:59] INFO root fetch - processPackages [graphscope]: Start processing: graphscope-client
+[2023-05-30 22:15:59] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-05-30 22:15:59] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 20219851>=10485760
+[2023-05-30 22:15:59] INFO root fetch - processPackages [aim-ui]: Start processing: femedu
+[2023-05-30 22:15:59] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-05-30 22:15:59] INFO root fetch - processPackages [graphscope-client]: New version: [0.22.0a20230530] Old Version: [0.22.0a20230529]
+[2023-05-30 22:15:59] INFO root fetch - processPackages [botocore-stubs]: executing diffoscope
+[2023-05-30 22:15:59] INFO root fetch - processPackages [botocore-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_stubs-1.29.98.tar.gz tmp/botocore_stubs-1.29.99.tar.gz --markdown 20230530/b/botocore-stubs/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-05-30 22:15:59] INFO root fetch - processPackages [femedu]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 22:15:59] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/6f/31/6735e3f0252b5f2dc64a6b3246af5978908dded31c88b79ec42da7e83091/kolena-0.71.0.tar.gz
+[2023-05-30 22:15:59] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/8f/f9/e680d25cd9596dba0af064faf4d2dc3df07a03ad18a7814da34be426fb08/kolena_client-0.71.0.tar.gz
+[2023-05-30 22:15:59] INFO root fetch - processPackages [pytest-logikal]: executing diffoscope
+[2023-05-30 22:15:59] INFO root fetch - processPackages [pytest-logikal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-logikal-1.8.4.tar.gz tmp/pytest-logikal-1.9.0.tar.gz --markdown 20230530/p/pytest-logikal/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-05-30 22:15:59] INFO root fetch - processPackages [kolena]: executing diffoscope
+[2023-05-30 22:15:59] INFO root fetch - processPackages [kolena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena-0.70.0.tar.gz tmp/kolena-0.71.0.tar.gz --markdown 20230530/k/kolena/0.70.0-0.71.0/diff.md --exclude *.pyd
+[2023-05-30 22:15:59] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/d1/d3/6f77815b6d42356b8f9c423a4785d8d3aa4297d76a2da8cb9ebd79d83033/graphscope_client-0.22.0a20230529-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-30 22:15:59] INFO root fetch - processPackages [femedu]: Downloading https://files.pythonhosted.org/packages/31/60/e156b208c869ff5d786db6e7acff66cc18d5f64353be37b1b249d6bd226e/femedu-1.0.8.tar.gz
+[2023-05-30 22:15:59] INFO root fetch - processPackages [kolena-client]: executing diffoscope
+[2023-05-30 22:15:59] INFO root fetch - processPackages [kolena-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena_client-0.70.0.tar.gz tmp/kolena_client-0.71.0.tar.gz --markdown 20230530/k/kolena-client/0.70.0-0.71.0/diff.md --exclude *.pyd
+[2023-05-30 22:15:59] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 63661918>=10485760
+[2023-05-30 22:15:59] INFO root fetch - processPackages [graphscope-client]: Start processing: orb-billing
+[2023-05-30 22:15:59] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-05-30 22:15:59] INFO root fetch - processPackages [orb-billing]: New version: [1.2.0] Old Version: [0.9.4]
+[2023-05-30 22:15:59] WARNING root fetch - processPackages [femedu]: Skipping package: exceeds size limit 11027545>=10485760
+[2023-05-30 22:15:59] INFO root fetch - processPackages [femedu]: Start processing: gs-apps
+[2023-05-30 22:15:59] INFO root fetch - main [MainThread]: End processing [femedu] error
+[2023-05-30 22:15:59] INFO root fetch - processPackages [gs-apps]: New version: [0.22.0a20230530] Old Version: [0.22.0a20230529]
+[2023-05-30 22:15:59] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-05-30 22:15:59] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0a2.tar.gz tmp/aim-4.0.0a3.tar.gz --markdown 20230530/a/aim/4.0.0a2-4.0.0a3/diff.md --exclude *.pyd
+[2023-05-30 22:16:00] INFO root fetch - processPackages [orb-billing]: Downloading https://files.pythonhosted.org/packages/39/ac/aa1838ecd26a59d2219734a881db633c7396f704f72a06d3a208642f5704/orb-billing-0.9.4.tar.gz
+[2023-05-30 22:16:00] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/7f/8c/93560015fa2b4a7aefd3b2d591fc9ac55dd6fdf6780cf4456d70d1125315/gs_apps-0.22.0a20230529-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-30 22:16:00] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 47797590>=10485760
+[2023-05-30 22:16:00] INFO root fetch - processPackages [gs-apps]: Start processing: certora-cli-alpha-master
+[2023-05-30 22:16:00] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-05-30 22:16:00] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230530.9.43.768438] Old Version: [20230530.9.0.837631]
+[2023-05-30 22:16:00] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fd/b3/8fbf9a9bd2956ea700467ef90a7453c2f88ecbf61f3b73e709c656720643/certora-cli-alpha-master-20230530.9.0.837631.tar.gz
+[2023-05-30 22:16:00] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39091116>=10485760
+[2023-05-30 22:16:00] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: proton-db
+[2023-05-30 22:16:00] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-30 22:16:00] INFO root fetch - processPackages [proton-db]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 22:16:00] INFO root fetch - processPackages [orb-billing]: Downloading https://files.pythonhosted.org/packages/1a/16/86db32fce195d8e4dc9278bde16ddb94c1661295c690ac74cb06bffcefbd/orb-billing-1.2.0.tar.gz
+[2023-05-30 22:16:00] INFO root fetch - processPackages [orb-billing]: executing diffoscope
+[2023-05-30 22:16:00] INFO root fetch - processPackages [orb-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orb-billing-0.9.4.tar.gz tmp/orb-billing-1.2.0.tar.gz --markdown 20230530/o/orb-billing/0.9.4-1.2.0/diff.md --exclude *.pyd
+[2023-05-30 22:16:00] INFO root fetch - processPackages [proton-db]: Downloading https://files.pythonhosted.org/packages/07/16/ab0ba49cc0bc045f49742458b697d4f250306d9747b29dfb71596d2109b0/proton-db-0.1.4.tar.gz
+[2023-05-30 22:16:00] INFO root fetch - processPackages [proton-db]: executing diffoscope
+[2023-05-30 22:16:00] INFO root fetch - processPackages [proton-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proton-db-0.1.3.tar.gz tmp/proton-db-0.1.4.tar.gz --markdown 20230530/p/proton-db/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 22:16:01] INFO root fetch - processPackages [airunner]: Start processing: standard-transform
+[2023-05-30 22:16:01] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-05-30 22:16:01] INFO root fetch - processPackages [standard-transform]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-30 22:16:01] INFO root fetch - processPackages [standard-transform]: Downloading https://files.pythonhosted.org/packages/18/de/f1e80fbb108fa430d2a4d0ef3e660f1663c076d332e9ae423c4b41e4daa0/standard-transform-1.3.1.tar.gz
+[2023-05-30 22:16:01] INFO root fetch - processPackages [standard-transform]: Downloading https://files.pythonhosted.org/packages/62/bb/e228f82427eed10a7b7bd6d0579817d9b097bc7d1a0c7f4a1c9fa2e4c5e8/standard-transform-1.4.0.tar.gz
+[2023-05-30 22:16:01] INFO root fetch - processPackages [standard-transform]: executing diffoscope
+[2023-05-30 22:16:01] INFO root fetch - processPackages [standard-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/standard-transform-1.3.1.tar.gz tmp/standard-transform-1.4.0.tar.gz --markdown 20230530/s/standard-transform/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-30 22:16:02] INFO root fetch - main [MainThread]: End processing [django-eveuniverse]: success
+[2023-05-30 22:16:02] INFO root fetch - main [MainThread]: End processing [botocore-stubs]: success
+[2023-05-30 22:16:02] INFO root fetch - main [MainThread]: End processing [pytest-logikal]: success
+[2023-05-30 22:16:02] INFO root fetch - main [MainThread]: End processing [proton-db]: success
+[2023-05-30 22:16:02] INFO root fetch - main [MainThread]: End processing [kolena-client]: success
+[2023-05-30 22:16:03] INFO root fetch - main [MainThread]: End processing [orb-billing]: success
+[2023-05-30 22:16:03] INFO root fetch - main [MainThread]: End processing [standard-transform]: success
+[2023-05-30 22:16:03] INFO root fetch - main [MainThread]: End processing [kolena]: success
+[2023-05-30 22:16:07] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-05-30 22:18:59] ERROR root fetch - processPackages [bikeshed]: Timeout during execution of pkgdiff
+[2023-05-30 22:18:59] INFO root fetch - main [MainThread]: End processing [bikeshed] error
+[2023-05-30 22:18:59] INFO root fetch - main [MainThread]: Store serial: [18307222]
