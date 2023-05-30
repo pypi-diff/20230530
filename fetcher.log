@@ -3565,3 +3565,65 @@
 [2023-05-30 03:26:08] INFO root fetch - main [MainThread]: End processing [potato-annotation]: success
 [2023-05-30 03:26:43] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-05-30 03:26:43] INFO root fetch - main [MainThread]: Store serial: [18296674]
+[2023-05-30 03:31:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296674]
+[2023-05-30 03:31:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 03:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bqhus
+[2023-05-30 03:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scotthsieh-projen-statemachine
+[2023-05-30 03:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spei-python
+[2023-05-30 03:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hdx-data-freshness
+[2023-05-30 03:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hdx-data-freshness
+[2023-05-30 03:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yog
+[2023-05-30 03:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bioregistry
+[2023-05-30 03:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gwemopt
+[2023-05-30 03:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: parsetypes
+[2023-05-30 03:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: funtoo-metatools
+[2023-05-30 03:31:52] INFO root fetch - processPackages [bqhus]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 03:31:52] INFO root fetch - processPackages [hdx-data-freshness]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-30 03:31:52] INFO root fetch - processPackages [spei-python]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-30 03:31:52] INFO root fetch - processPackages [yog]: New version: [2.2.0] Old Version: [2.1.6]
+[2023-05-30 03:31:52] INFO root fetch - processPackages [hdx-data-freshness]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-30 03:31:52] INFO root fetch - processPackages [parsetypes]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-30 03:31:52] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-30 03:31:52] INFO root fetch - processPackages [gwemopt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 03:31:52] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 03:31:52] INFO root fetch - processPackages [gwemopt]: Downloading https://files.pythonhosted.org/packages/85/c7/673e4cbd0ec00161d6a593a335c8c574f5ba857132d3e074583fe1ae364d/gwemopt-0.1.0.tar.gz
+[2023-05-30 03:31:52] INFO root fetch - processPackages [parsetypes]: executing diffoscope
+[2023-05-30 03:31:52] INFO root fetch - processPackages [parsetypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsetypes-0.2.5.tar.gz tmp/parsetypes-0.2.6.tar.gz --markdown 20230530/p/parsetypes/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-30 03:31:52] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-05-30 03:31:52] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230530/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 03:31:52] WARNING root fetch - processPackages [gwemopt]: Skipping package: exceeds size limit 128382218>=10485760
+[2023-05-30 03:31:52] INFO root fetch - main [MainThread]: End processing [gwemopt] error
+[2023-05-30 03:31:52] INFO root fetch - processPackages [funtoo-metatools]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-30 03:31:52] INFO root fetch - processPackages [spei-python]: Downloading https://files.pythonhosted.org/packages/c8/de/9ee802547a668c5cd4c42977296a021de05b8cb58527d28a3dc647cfe32f/spei_python-0.7.1.tar.gz
+[2023-05-30 03:31:52] INFO root fetch - processPackages [hdx-data-freshness]: Downloading https://files.pythonhosted.org/packages/f2/53/16b36131de49bb7d7a82e19aed6442793b34398332e1090b19eb0e6d7435/hdx-data-freshness-1.9.8.tar.gz
+[2023-05-30 03:31:52] INFO root fetch - processPackages [hdx-data-freshness]: Downloading https://files.pythonhosted.org/packages/f2/53/16b36131de49bb7d7a82e19aed6442793b34398332e1090b19eb0e6d7435/hdx-data-freshness-1.9.8.tar.gz
+[2023-05-30 03:31:52] INFO root fetch - processPackages [yog]: Downloading https://files.pythonhosted.org/packages/15/3d/5986dcd6e81d5a643745769ce694df7543e349648ddf8370efb992c8c49d/yog-2.1.6.tar.gz
+[2023-05-30 03:31:52] INFO root fetch - processPackages [funtoo-metatools]: Downloading https://files.pythonhosted.org/packages/be/4b/5e2345e3de77f8dba942423a88fa4d4cdd17ccdb96415c2e9c7d6913c4e4/funtoo-metatools-1.2.0.tar.gz
+[2023-05-30 03:31:52] INFO root fetch - processPackages [spei-python]: executing diffoscope
+[2023-05-30 03:31:52] INFO root fetch - processPackages [spei-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spei_python-0.7.0.tar.gz tmp/spei_python-0.7.1.tar.gz --markdown 20230530/s/spei-python/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-30 03:31:52] INFO root fetch - processPackages [bqhus]: executing diffoscope
+[2023-05-30 03:31:52] INFO root fetch - processPackages [bqhus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bqhus-0.1.8.tar.gz tmp/bqhus-0.1.9.tar.gz --markdown 20230530/b/bqhus/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 03:31:52] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-05-30 03:31:52] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230530/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:31:53] INFO root fetch - processPackages [yog]: Downloading https://files.pythonhosted.org/packages/8b/9b/9830fca56fb2ddc058a2b1b89cfe9e1b4a972a5b94387f6e704eb8e89be4/yog-2.2.0.tar.gz
+[2023-05-30 03:31:53] INFO root fetch - processPackages [yog]: executing diffoscope
+[2023-05-30 03:31:53] INFO root fetch - processPackages [yog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yog-2.1.6.tar.gz tmp/yog-2.2.0.tar.gz --markdown 20230530/y/yog/2.1.6-2.2.0/diff.md --exclude *.pyd
+[2023-05-30 03:31:53] INFO root fetch - processPackages [funtoo-metatools]: Downloading https://files.pythonhosted.org/packages/7d/6d/a7a4fa5c693e1d7b65dec911d9781ac93569d3bf3273240a9f6142a1afbe/funtoo-metatools-1.3.0.tar.gz
+[2023-05-30 03:31:53] INFO root fetch - processPackages [funtoo-metatools]: executing diffoscope
+[2023-05-30 03:31:53] INFO root fetch - processPackages [funtoo-metatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funtoo-metatools-1.2.0.tar.gz tmp/funtoo-metatools-1.3.0.tar.gz --markdown 20230530/f/funtoo-metatools/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-30 03:31:53] INFO root fetch - processPackages [hdx-data-freshness]: Downloading https://files.pythonhosted.org/packages/3e/b9/856669f7bce7f41e42409e9d362651f0235e937151e8d01997b982d325a4/hdx-data-freshness-1.9.9.tar.gz
+[2023-05-30 03:31:53] INFO root fetch - processPackages [hdx-data-freshness]: Downloading https://files.pythonhosted.org/packages/3e/b9/856669f7bce7f41e42409e9d362651f0235e937151e8d01997b982d325a4/hdx-data-freshness-1.9.9.tar.gz
+[2023-05-30 03:31:54] INFO root fetch - main [MainThread]: End processing [spei-python]: success
+[2023-05-30 03:31:54] INFO root fetch - main [MainThread]: End processing [bqhus]: success
+[2023-05-30 03:31:54] INFO root fetch - processPackages [hdx-data-freshness]: executing diffoscope
+[2023-05-30 03:31:54] INFO root fetch - processPackages [hdx-data-freshness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx-data-freshness-1.9.8.tar.gz tmp/hdx-data-freshness-1.9.9.tar.gz --markdown 20230530/h/hdx-data-freshness/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-30 03:31:54] INFO root fetch - processPackages [hdx-data-freshness]: executing diffoscope
+[2023-05-30 03:31:54] INFO root fetch - processPackages [hdx-data-freshness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx-data-freshness-1.9.8.tar.gz tmp/hdx-data-freshness-1.9.9.tar.gz --markdown 20230530/h/hdx-data-freshness/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-30 03:31:54] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-05-30 03:31:54] INFO root fetch - main [MainThread]: End processing [yog]: success
+[2023-05-30 03:31:55] INFO root fetch - main [MainThread]: End processing [funtoo-metatools]: success
+[2023-05-30 03:31:55] INFO root fetch - main [MainThread]: End processing [parsetypes]: success
+[2023-05-30 03:31:56] INFO root fetch - main [MainThread]: End processing [hdx-data-freshness]: success
+[2023-05-30 03:31:56] INFO root fetch - main [MainThread]: End processing [hdx-data-freshness]: success
+[2023-05-30 03:33:50] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-05-30 03:33:50] INFO root fetch - main [MainThread]: Store serial: [18296701]
