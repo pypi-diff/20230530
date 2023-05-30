@@ -18608,3 +18608,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 19:26:26] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
 [2023-05-30 19:27:03] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-05-30 19:27:03] INFO root fetch - main [MainThread]: Store serial: [18305693]
+[2023-05-30 19:32:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18305693]
+[2023-05-30 19:32:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-30 19:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-arithmetic
+[2023-05-30 19:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2023-05-30 19:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spai
+[2023-05-30 19:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyFlyt
+[2023-05-30 19:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: titanoboa
+[2023-05-30 19:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CoLT5-attention
+[2023-05-30 19:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rframe
+[2023-05-30 19:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imessagedb
+[2023-05-30 19:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-rpautom
+[2023-05-30 19:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agamprimer
+[2023-05-30 19:32:13] INFO root fetch - processPackages [spai]: New version: [2023.5.30.post3] Old Version: [2023.5.30.post2]
+[2023-05-30 19:32:13] WARNING root fetch - processPackages [simple-arithmetic]: Skipping, unable to determine old version
+[2023-05-30 19:32:13] INFO root fetch - processPackages [simple-arithmetic]: Start processing: RIFT
+[2023-05-30 19:32:13] INFO root fetch - main [MainThread]: End processing [simple-arithmetic] error
+[2023-05-30 19:32:13] INFO root fetch - processPackages [PyFlyt]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-30 19:32:13] INFO root fetch - processPackages [imessagedb]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-30 19:32:13] INFO root fetch - processPackages [py-rpautom]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-05-30 19:32:13] INFO root fetch - processPackages [titanoboa]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-30 19:32:13] INFO root fetch - processPackages [agamprimer]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-05-30 19:32:13] INFO root fetch - processPackages [rframe]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 19:32:13] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-30 19:32:13] INFO root fetch - processPackages [RIFT]: New version: [0.0.15.9rc2] Old Version: [0.0.15.9rc1]
+[2023-05-30 19:32:13] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.9.1] Old Version: [2023.5.9.0]
+[2023-05-30 19:32:13] INFO root fetch - processPackages [py-rpautom]: executing diffoscope
+[2023-05-30 19:32:13] INFO root fetch - processPackages [py-rpautom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-rpautom-0.0.8b0.tar.gz tmp/py-rpautom-0.0.9b0.tar.gz --markdown 20230530/p/py-rpautom/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-05-30 19:32:13] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/c7/7e/3f504cd6192921cef13958b22d3a284631ed60af1d720ef65becb6da5f94/spai-2023.5.30.post3.tar.gz
+[2023-05-30 19:32:13] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/27/06/ae9138ef6190b8dc42cf7dd039fb655e041bcdadc34834adc86f6face15b/PyFlyt-0.7.2.tar.gz
+[2023-05-30 19:32:14] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-30 19:32:14] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.9.0.tar.gz tmp/crazy-thursday-2023.5.9.1.tar.gz --markdown 20230530/c/crazy-thursday/2023.5.9.0-2023.5.9.1/diff.md --exclude *.pyd
+[2023-05-30 19:32:14] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-30 19:32:14] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.8.1.tar.gz tmp/CoLT5-attention-0.9.0.tar.gz --markdown 20230530/C/CoLT5-attention/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 19:32:14] INFO root fetch - processPackages [agamprimer]: Downloading https://files.pythonhosted.org/packages/b5/fa/f7aff088460ab124c0dea45cd94b00305f9992bc6e961e935780511b2367/AgamPrimer-0.5.9.tar.gz
+[2023-05-30 19:32:14] INFO root fetch - processPackages [titanoboa]: Downloading https://files.pythonhosted.org/packages/22/4e/4755b1afb4f3cd3e601e2ccd16b806f59589aa8cd8ad85c204071ff304e9/titanoboa-0.1.6.tar.gz
+[2023-05-30 19:32:14] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-05-30 19:32:14] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2023.5.30.post2.tar.gz tmp/spai-2023.5.30.post3.tar.gz --markdown 20230530/s/spai/2023.5.30.post2-2023.5.30.post3/diff.md --exclude *.pyd
+[2023-05-30 19:32:14] INFO root fetch - processPackages [RIFT]: Downloading https://files.pythonhosted.org/packages/de/0f/169f02a84cc1eebb5420ac7e6d1a4e1f25491e85b7f5300cc9c8caf9107b/RIFT-0.0.15.9rc2.tar.gz
+[2023-05-30 19:32:14] INFO root fetch - processPackages [imessagedb]: Downloading https://files.pythonhosted.org/packages/d2/41/28ba47a4f88c86d6b95aeedfd401ac02a870437b309fe2a0918419f5c2da/imessagedb-1.4.2.tar.gz
+[2023-05-30 19:32:14] INFO root fetch - processPackages [titanoboa]: Downloading https://files.pythonhosted.org/packages/8d/e6/6430ebb90b87a90810c8b12cba2ac68d1c1b75d75d7c1431bc388ca76c91/titanoboa-0.1.7.tar.gz
+[2023-05-30 19:32:14] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/0b/63/ccfd96aa8576ba802797c3153ecd9cbdc70455ce612d1c29f3a4fc255259/PyFlyt-0.7.3.tar.gz
+[2023-05-30 19:32:14] INFO root fetch - processPackages [agamprimer]: Downloading https://files.pythonhosted.org/packages/f9/b3/309ed6a3c1a4a575d158e6d6980b4ff4f3bf2da122a40d4d249b3b197b0f/agamprimer-0.6.0.tar.gz
+[2023-05-30 19:32:14] INFO root fetch - processPackages [imessagedb]: executing diffoscope
+[2023-05-30 19:32:14] INFO root fetch - processPackages [imessagedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imessagedb-1.4.1.tar.gz tmp/imessagedb-1.4.2.tar.gz --markdown 20230530/i/imessagedb/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-30 19:32:14] INFO root fetch - processPackages [rframe]: executing diffoscope
+[2023-05-30 19:32:14] INFO root fetch - processPackages [rframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rframe-0.2.8.tar.gz tmp/rframe-0.2.9.tar.gz --markdown 20230530/r/rframe/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 19:32:14] INFO root fetch - processPackages [RIFT]: executing diffoscope
+[2023-05-30 19:32:14] INFO root fetch - processPackages [RIFT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RIFT-0.0.15.9rc1.tar.gz tmp/RIFT-0.0.15.9rc2.tar.gz --markdown 20230530/R/RIFT/0.0.15.9rc1-0.0.15.9rc2/diff.md --exclude *.pyd
+[2023-05-30 19:32:14] INFO root fetch - processPackages [titanoboa]: executing diffoscope
+[2023-05-30 19:32:14] INFO root fetch - processPackages [titanoboa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titanoboa-0.1.6.tar.gz tmp/titanoboa-0.1.7.tar.gz --markdown 20230530/t/titanoboa/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-30 19:32:14] INFO root fetch - processPackages [agamprimer]: executing diffoscope
+[2023-05-30 19:32:14] INFO root fetch - processPackages [agamprimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AgamPrimer-0.5.9.tar.gz tmp/agamprimer-0.6.0.tar.gz --markdown 20230530/a/agamprimer/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-05-30 19:32:14] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-05-30 19:32:14] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.7.2.tar.gz tmp/PyFlyt-0.7.3.tar.gz --markdown 20230530/P/PyFlyt/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-30 19:32:15] INFO root fetch - processPackages [py-rpautom]: Start processing: game-vision-targeting-model
+[2023-05-30 19:32:15] INFO root fetch - main [MainThread]: End processing [py-rpautom]: success
+[2023-05-30 19:32:15] INFO root fetch - processPackages [crazy-thursday]: Start processing: bcos
+[2023-05-30 19:32:15] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-30 19:32:15] WARNING root fetch - processPackages [game-vision-targeting-model]: Skipping, unable to determine old version
+[2023-05-30 19:32:15] INFO root fetch - processPackages [game-vision-targeting-model]: Start processing: dupechecker
+[2023-05-30 19:32:15] INFO root fetch - main [MainThread]: End processing [game-vision-targeting-model] error
+[2023-05-30 19:32:15] INFO root fetch - processPackages [bcos]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-05-30 19:32:15] INFO root fetch - processPackages [dupechecker]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-05-30 19:32:16] INFO root fetch - processPackages [dupechecker]: Downloading https://files.pythonhosted.org/packages/cc/f1/33b5e700b3e6a6ca18d8ec6a4f5c6f195696857e6fe10d7975937938b5f7/dupechecker-0.0.0.tar.gz
+[2023-05-30 19:32:16] INFO root fetch - processPackages [bcos]: Downloading https://files.pythonhosted.org/packages/06/21/61939bbcd11d7736c8200067f832bf78f43d6cf6553845b9e1538e099abe/bcos-0.0.4.tar.gz
+[2023-05-30 19:32:16] INFO root fetch - processPackages [CoLT5-attention]: Start processing: acquire-imaging
+[2023-05-30 19:32:16] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-30 19:32:16] WARNING root fetch - processPackages [acquire-imaging]: Skipping, unable to determine old version
+[2023-05-30 19:32:16] INFO root fetch - main [MainThread]: End processing [acquire-imaging] error
+[2023-05-30 19:32:16] INFO root fetch - main [MainThread]: End processing [imessagedb]: success
+[2023-05-30 19:32:16] INFO root fetch - processPackages [dupechecker]: Downloading https://files.pythonhosted.org/packages/f0/56/804fece02287e370aa9019d11ec8d9185b8a5ade780349716ac5af0a54a6/dupechecker-0.1.0.tar.gz
+[2023-05-30 19:32:16] INFO root fetch - processPackages [bcos]: Downloading https://files.pythonhosted.org/packages/e1/b7/78cb9a9c8250f56870fc4d5593d84151e4aeba012fb818c6304de47bef28/bcos-0.1.0.tar.gz
+[2023-05-30 19:32:16] INFO root fetch - processPackages [dupechecker]: executing diffoscope
+[2023-05-30 19:32:16] INFO root fetch - processPackages [dupechecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dupechecker-0.0.0.tar.gz tmp/dupechecker-0.1.0.tar.gz --markdown 20230530/d/dupechecker/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-05-30 19:32:16] INFO root fetch - processPackages [bcos]: executing diffoscope
+[2023-05-30 19:32:16] INFO root fetch - processPackages [bcos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcos-0.0.4.tar.gz tmp/bcos-0.1.0.tar.gz --markdown 20230530/b/bcos/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-05-30 19:32:16] INFO root fetch - main [MainThread]: End processing [titanoboa]: success
+[2023-05-30 19:32:16] INFO root fetch - main [MainThread]: End processing [agamprimer]: success
+[2023-05-30 19:32:16] INFO root fetch - main [MainThread]: End processing [rframe]: success
+[2023-05-30 19:32:17] INFO root fetch - main [MainThread]: End processing [RIFT]: success
+[2023-05-30 19:32:17] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-05-30 19:32:17] INFO root fetch - main [MainThread]: End processing [dupechecker]: success
+[2023-05-30 19:32:18] INFO root fetch - main [MainThread]: End processing [bcos]: success
+[2023-05-30 19:32:19] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-05-30 19:32:19] INFO root fetch - main [MainThread]: Store serial: [18305743]
