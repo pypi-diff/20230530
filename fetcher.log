@@ -13999,3 +13999,107 @@
 [2023-05-30 15:46:20] INFO root fetch - main [MainThread]: End processing [parse-emails]: success
 [2023-05-30 15:46:24] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-05-30 15:46:24] INFO root fetch - main [MainThread]: Store serial: [18303021]
+[2023-05-30 15:51:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18303021]
+[2023-05-30 15:51:33] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-30 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thipster
+[2023-05-30 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: configzen
+[2023-05-30 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssb-project-cli
+[2023-05-30 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2023-05-30 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: playmolecule
+[2023-05-30 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ragger
+[2023-05-30 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cz-ossfs
+[2023-05-30 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sym-metanet
+[2023-05-30 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymexc
+[2023-05-30 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: api-console-solver
+[2023-05-30 15:51:33] INFO root fetch - processPackages [ssb-project-cli]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-30 15:51:33] INFO root fetch - processPackages [configzen]: New version: [0.2.0] Old Version: [0.1.47]
+[2023-05-30 15:51:33] WARNING root fetch - processPackages [thipster]: Skipping, unable to determine old version
+[2023-05-30 15:51:33] INFO root fetch - processPackages [api-console-solver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 15:51:33] INFO root fetch - processPackages [cz-ossfs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 15:51:33] WARNING root fetch - processPackages [pymexc]: Skipping, unable to determine old version
+[2023-05-30 15:51:33] INFO root fetch - processPackages [thipster]: Start processing: PyAllInOne
+[2023-05-30 15:51:33] WARNING root fetch - processPackages [ragger]: Skipping, unable to determine old version
+[2023-05-30 15:51:33] INFO root fetch - main [MainThread]: End processing [thipster] error
+[2023-05-30 15:51:33] INFO root fetch - processPackages [playmolecule]: New version: [1.8.4.2] Old Version: [1.8.4.1]
+[2023-05-30 15:51:33] INFO root fetch - processPackages [pymexc]: Start processing: fauxy
+[2023-05-30 15:51:33] INFO root fetch - processPackages [ragger]: Start processing: formio-data
+[2023-05-30 15:51:33] INFO root fetch - main [MainThread]: End processing [pymexc] error
+[2023-05-30 15:51:33] INFO root fetch - main [MainThread]: End processing [ragger] error
+[2023-05-30 15:51:33] INFO root fetch - processPackages [PyAllInOne]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-30 15:51:33] INFO root fetch - processPackages [sym-metanet]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-30 15:51:33] INFO root fetch - processPackages [fauxy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 15:51:33] INFO root fetch - processPackages [cg]: New version: [33.0.4] Old Version: [33.0.3]
+[2023-05-30 15:51:33] INFO root fetch - processPackages [formio-data]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-30 15:51:33] INFO root fetch - processPackages [PyAllInOne]: Downloading https://files.pythonhosted.org/packages/73/fa/b2416d33346afe8b4307636d794e768f5f6317128c897212fb6e93ab9387/PyAllInOne-1.0.2.tar.gz
+[2023-05-30 15:51:33] INFO root fetch - processPackages [api-console-solver]: executing diffoscope
+[2023-05-30 15:51:33] INFO root fetch - processPackages [api-console-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-console-solver-0.0.8.tar.gz tmp/api-console-solver-0.0.9.tar.gz --markdown 20230530/a/api-console-solver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 15:51:33] WARNING root fetch - processPackages [PyAllInOne]: Skipping package: exceeds size limit 62997779>=10485760
+[2023-05-30 15:51:33] INFO root fetch - processPackages [PyAllInOne]: Start processing: seepeeyou
+[2023-05-30 15:51:33] INFO root fetch - main [MainThread]: End processing [PyAllInOne] error
+[2023-05-30 15:51:33] INFO root fetch - processPackages [cz-ossfs]: Downloading https://files.pythonhosted.org/packages/41/71/334f5b6f40ffc30e31fc4132b1e6d53415fa2edcc0d55b5d1e3c1302e1c5/cz-ossfs-0.0.1.tar.gz
+[2023-05-30 15:51:33] INFO root fetch - processPackages [seepeeyou]: New version: [2] Old Version: [1]
+[2023-05-30 15:51:33] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/e3/a0/8224814ea6a79d22a09d05aef822ece23bad49744ee7be3fec9e88aba349/configzen-0.2.0.tar.gz
+[2023-05-30 15:51:33] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/85/3d/d48323586ed34a05ace986400744a3177e327a8287c8ad28d8e5be98a01a/playmolecule-1.8.4.1.tar.gz
+[2023-05-30 15:51:33] INFO root fetch - processPackages [sym-metanet]: Downloading https://files.pythonhosted.org/packages/af/bb/27436598dee4fa96ce49753cefbadbd680d58124e9cf034d8c722cbc90e9/sym_metanet-1.0.5.tar.gz
+[2023-05-30 15:51:34] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/45/c8/1da3c022ca0ea0c9d31102f770d7a74f4a8655ed8021f81fb4dbd6f2b069/cg-33.0.4.tar.gz
+[2023-05-30 15:51:34] INFO root fetch - processPackages [fauxy]: Downloading https://files.pythonhosted.org/packages/de/cc/1366eaec0fdc677c0ee7d9bdc5caa85918cb650377fa966afc1d369732c4/fauxy-0.0.1.tar.gz
+[2023-05-30 15:51:34] INFO root fetch - processPackages [seepeeyou]: Downloading https://files.pythonhosted.org/packages/e6/fd/98643fab0b001b1e9b9b259ca2c6cf6db4ca97869ae52e9b7fb17c6f616b/seepeeyou-1.tar.gz
+[2023-05-30 15:51:34] INFO root fetch - processPackages [ssb-project-cli]: Downloading https://files.pythonhosted.org/packages/b6/4e/70991737b2ad8a1c08b83cb63c6a0c5a52b327c0d14da76f47d2647ef689/ssb_project_cli-1.1.2.tar.gz
+[2023-05-30 15:51:34] INFO root fetch - processPackages [cz-ossfs]: Downloading https://files.pythonhosted.org/packages/6d/ca/f4470282e401829a4b9e601f4b2342dfbf5ac445261247b0809cd34bac32/cz-ossfs-0.0.2.tar.gz
+[2023-05-30 15:51:34] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-05-30 15:51:34] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.1.47.tar.gz tmp/configzen-0.2.0.tar.gz --markdown 20230530/c/configzen/0.1.47-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 15:51:34] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-30 15:51:34] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.0.3.tar.gz tmp/cg-33.0.4.tar.gz --markdown 20230530/c/cg/33.0.3-33.0.4/diff.md --exclude *.pyd
+[2023-05-30 15:51:34] INFO root fetch - processPackages [formio-data]: executing diffoscope
+[2023-05-30 15:51:34] INFO root fetch - processPackages [formio-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formio-data-0.4.8.tar.gz tmp/formio-data-0.4.9.tar.gz --markdown 20230530/f/formio-data/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-30 15:51:34] INFO root fetch - processPackages [ssb-project-cli]: executing diffoscope
+[2023-05-30 15:51:34] INFO root fetch - processPackages [ssb-project-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_project_cli-1.1.1.tar.gz tmp/ssb_project_cli-1.1.2.tar.gz --markdown 20230530/s/ssb-project-cli/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-30 15:51:34] INFO root fetch - processPackages [sym-metanet]: Downloading https://files.pythonhosted.org/packages/7e/41/d8d710eb14aec53cb53224c98a23795d21ba26804fd405a1c78c572b461e/sym_metanet-1.0.6.tar.gz
+[2023-05-30 15:51:34] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/63/40/921cddab93468b42069a80dc5caff0dd86abc84c23b7730bc128eb7f111f/playmolecule-1.8.4.2.tar.gz
+[2023-05-30 15:51:34] INFO root fetch - processPackages [cz-ossfs]: executing diffoscope
+[2023-05-30 15:51:34] INFO root fetch - processPackages [cz-ossfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cz-ossfs-0.0.1.tar.gz tmp/cz-ossfs-0.0.2.tar.gz --markdown 20230530/c/cz-ossfs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 15:51:34] INFO root fetch - processPackages [fauxy]: Downloading https://files.pythonhosted.org/packages/f9/73/ec7ae8012ffa60bb5fae38e07a3536a5a9bc4a164da9d6e46f8ad039d024/fauxy-0.0.2.tar.gz
+[2023-05-30 15:51:34] INFO root fetch - processPackages [sym-metanet]: executing diffoscope
+[2023-05-30 15:51:34] INFO root fetch - processPackages [sym-metanet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sym_metanet-1.0.5.tar.gz tmp/sym_metanet-1.0.6.tar.gz --markdown 20230530/s/sym-metanet/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-30 15:51:34] INFO root fetch - processPackages [fauxy]: executing diffoscope
+[2023-05-30 15:51:34] INFO root fetch - processPackages [fauxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fauxy-0.0.1.tar.gz tmp/fauxy-0.0.2.tar.gz --markdown 20230530/f/fauxy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 15:51:34] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-05-30 15:51:34] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.8.4.1.tar.gz tmp/playmolecule-1.8.4.2.tar.gz --markdown 20230530/p/playmolecule/1.8.4.1-1.8.4.2/diff.md --exclude *.pyd
+[2023-05-30 15:51:34] INFO root fetch - processPackages [seepeeyou]: Downloading https://files.pythonhosted.org/packages/62/5b/959aea565642c07dd98dc5a19e8de850c70ae36561356c601f284a1a5d9f/seepeeyou-2.tar.gz
+[2023-05-30 15:51:34] INFO root fetch - processPackages [seepeeyou]: executing diffoscope
+[2023-05-30 15:51:34] INFO root fetch - processPackages [seepeeyou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seepeeyou-1.tar.gz tmp/seepeeyou-2.tar.gz --markdown 20230530/s/seepeeyou/1-2/diff.md --exclude *.pyd
+[2023-05-30 15:51:35] INFO root fetch - processPackages [api-console-solver]: Start processing: taskAutom
+[2023-05-30 15:51:35] INFO root fetch - main [MainThread]: End processing [api-console-solver]: success
+[2023-05-30 15:51:35] INFO root fetch - processPackages [taskAutom]: New version: [8.0.0] Old Version: [7.19.4]
+[2023-05-30 15:51:35] INFO root fetch - processPackages [taskAutom]: Downloading https://files.pythonhosted.org/packages/9c/64/bc0978d436bd1a280b523221ff5df45e91eddbd3b2a1b789572cf4071472/taskAutom-7.19.4.tar.gz
+[2023-05-30 15:51:35] INFO root fetch - processPackages [taskAutom]: Downloading https://files.pythonhosted.org/packages/ec/d5/f173e1529f295a8ad6255b5ce81e07d85791986fa20642db0bf25fd7c659/taskAutom-8.0.0.tar.gz
+[2023-05-30 15:51:35] INFO root fetch - processPackages [taskAutom]: executing diffoscope
+[2023-05-30 15:51:35] INFO root fetch - processPackages [taskAutom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskAutom-7.19.4.tar.gz tmp/taskAutom-8.0.0.tar.gz --markdown 20230530/t/taskAutom/7.19.4-8.0.0/diff.md --exclude *.pyd
+[2023-05-30 15:51:36] INFO root fetch - processPackages [configzen]: Start processing: tree-of-thoughts
+[2023-05-30 15:51:36] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-05-30 15:51:36] INFO root fetch - processPackages [tree-of-thoughts]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 15:51:36] INFO root fetch - processPackages [cz-ossfs]: Start processing: duckduckgo-search
+[2023-05-30 15:51:36] INFO root fetch - main [MainThread]: End processing [cz-ossfs]: success
+[2023-05-30 15:51:36] INFO root fetch - processPackages [fauxy]: Start processing: playmolecule
+[2023-05-30 15:51:36] INFO root fetch - main [MainThread]: End processing [fauxy]: success
+[2023-05-30 15:51:36] INFO root fetch - processPackages [playmolecule]: New version: [1.8.4.2] Old Version: [1.8.4.1]
+[2023-05-30 15:51:36] INFO root fetch - main [MainThread]: End processing [formio-data]: success
+[2023-05-30 15:51:36] INFO root fetch - processPackages [duckduckgo-search]: New version: [3.7.0] Old Version: [3.6.0]
+[2023-05-30 15:51:36] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-05-30 15:51:36] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.8.4.1.tar.gz tmp/playmolecule-1.8.4.2.tar.gz --markdown 20230530/p/playmolecule/1.8.4.1-1.8.4.2/diff.md --exclude *.pyd
+[2023-05-30 15:51:36] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/bf/f7/383531712f9860f854ef0cee87f8c08fa3f0163959e0f323c6c3c034cfd9/tree-of-thoughts-0.2.9.tar.gz
+[2023-05-30 15:51:36] INFO root fetch - processPackages [tree-of-thoughts]: executing diffoscope
+[2023-05-30 15:51:36] INFO root fetch - processPackages [tree-of-thoughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-of-thoughts-0.2.8.tar.gz tmp/tree-of-thoughts-0.2.9.tar.gz --markdown 20230530/t/tree-of-thoughts/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 15:51:36] INFO root fetch - processPackages [duckduckgo-search]: Downloading https://files.pythonhosted.org/packages/f5/15/a156e2a539a4d538dabd0215ac887ce2d6c92bb651d7cc61060518652edb/duckduckgo_search-3.7.0.tar.gz
+[2023-05-30 15:51:36] INFO root fetch - processPackages [duckduckgo-search]: executing diffoscope
+[2023-05-30 15:51:36] INFO root fetch - processPackages [duckduckgo-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckduckgo_search-3.6.0.tar.gz tmp/duckduckgo_search-3.7.0.tar.gz --markdown 20230530/d/duckduckgo-search/3.6.0-3.7.0/diff.md --exclude *.pyd
+[2023-05-30 15:51:36] INFO root fetch - main [MainThread]: End processing [sym-metanet]: success
+[2023-05-30 15:51:36] INFO root fetch - main [MainThread]: End processing [ssb-project-cli]: success
+[2023-05-30 15:51:37] INFO root fetch - main [MainThread]: End processing [seepeeyou]: success
+[2023-05-30 15:51:37] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-05-30 15:51:37] INFO root fetch - main [MainThread]: End processing [taskAutom]: success
+[2023-05-30 15:51:38] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts]: success
+[2023-05-30 15:51:38] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-05-30 15:51:38] INFO root fetch - main [MainThread]: End processing [duckduckgo-search]: success
+[2023-05-30 15:51:47] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-30 15:51:47] INFO root fetch - main [MainThread]: Store serial: [18303078]
