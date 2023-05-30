@@ -20906,3 +20906,81 @@ EOFError: EOF read where object expected
 [2023-05-30 22:05:03] INFO root fetch - main [MainThread]: End processing [tumourkit]: success
 [2023-05-30 22:05:07] INFO root fetch - main [MainThread]: End processing [mercury-python]: success
 [2023-05-30 22:05:07] INFO root fetch - main [MainThread]: Store serial: [18307119]
+[2023-05-30 22:10:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18307119]
+[2023-05-30 22:10:18] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-30 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aimped
+[2023-05-30 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netsuitesdk
+[2023-05-30 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: designer2
+[2023-05-30 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dxsp
+[2023-05-30 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-sdk
+[2023-05-30 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-sdk-preview
+[2023-05-30 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Shchirov-serializer
+[2023-05-30 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cgap-higlass-data
+[2023-05-30 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sumatra-client
+[2023-05-30 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proton-db
+[2023-05-30 22:10:19] INFO root fetch - processPackages [netsuitesdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-30 22:10:19] INFO root fetch - processPackages [designer2]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 22:10:19] WARNING root fetch - processPackages [Shchirov-serializer]: Skipping, unable to determine old version
+[2023-05-30 22:10:19] INFO root fetch - processPackages [aimped]: New version: [0.1.47] Old Version: [0.1.46]
+[2023-05-30 22:10:19] INFO root fetch - processPackages [Shchirov-serializer]: Start processing: cdk-sops-secrets
+[2023-05-30 22:10:19] INFO root fetch - main [MainThread]: End processing [Shchirov-serializer] error
+[2023-05-30 22:10:19] INFO root fetch - processPackages [cgap-higlass-data]: New version: [0.3.0b1] Old Version: [0.3.0b0]
+[2023-05-30 22:10:19] INFO root fetch - processPackages [proton-db]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 22:10:19] INFO root fetch - processPackages [sumatra-client]: New version: [1.3.0rc1] Old Version: [1.2.0]
+[2023-05-30 22:10:19] INFO root fetch - processPackages [dxsp]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-05-30 22:10:19] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-05-30 22:10:19] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-30 22:10:19] INFO root fetch - processPackages [designer2]: Downloading https://files.pythonhosted.org/packages/b6/ab/50b39c9b1222fe9496fd0edd02a13a1ef08a0bf95ce44f773ab42ced32fd/designer2-0.0.8.tar.gz
+[2023-05-30 22:10:19] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-30 22:10:19] WARNING root fetch - processPackages [designer2]: Skipping package: exceeds size limit 16708132>=10485760
+[2023-05-30 22:10:19] INFO root fetch - processPackages [designer2]: Start processing: pipen-board
+[2023-05-30 22:10:19] INFO root fetch - main [MainThread]: End processing [designer2] error
+[2023-05-30 22:10:19] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-30 22:10:19] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230530/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-05-30 22:10:19] INFO root fetch - processPackages [pipen-board]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 22:10:19] INFO root fetch - processPackages [proton-db]: Downloading https://files.pythonhosted.org/packages/fa/a7/348fb200834568ff4597ff637359b6b3827c676e343079a13cd027c65094/proton-db-0.1.3.tar.gz
+[2023-05-30 22:10:19] INFO root fetch - processPackages [cgap-higlass-data]: Downloading https://files.pythonhosted.org/packages/cd/5b/1cfae78448b642ebe18f0c78d28e05ad7497ca3aacfa1af857fb71a75b3b/cgap_higlass_data-0.3.0b1.tar.gz
+[2023-05-30 22:10:19] INFO root fetch - processPackages [sumatra-client]: Downloading https://files.pythonhosted.org/packages/e0/a8/72ddb4f18ebdcc22e8cf8a1ecfcf77e6354a295e8ab8d420b8ba2d4fdef1/sumatra-client-1.2.0.tar.gz
+[2023-05-30 22:10:19] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-05-30 22:10:19] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230530/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-30 22:10:19] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-05-30 22:10:19] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230530/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-30 22:10:19] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/e0/61/0bf4d80536c552bbef587f4557b46701b68ca4d411aeedfbd9ab3372150c/dxsp-2.6.3.tar.gz
+[2023-05-30 22:10:19] INFO root fetch - processPackages [proton-db]: executing diffoscope
+[2023-05-30 22:10:19] INFO root fetch - processPackages [proton-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proton-db-0.1.2.tar.gz tmp/proton-db-0.1.3.tar.gz --markdown 20230530/p/proton-db/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 22:10:19] INFO root fetch - processPackages [aimped]: Downloading https://files.pythonhosted.org/packages/68/ae/39dd505ba60c1e98ca568d4fd0c859a658dd63b1b63d20c43bab2374a4ff/aimped-0.1.47.tar.gz
+[2023-05-30 22:10:19] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-30 22:10:19] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.6.2.tar.gz tmp/dxsp-2.6.3.tar.gz --markdown 20230530/d/dxsp/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-05-30 22:10:19] INFO root fetch - processPackages [cgap-higlass-data]: executing diffoscope
+[2023-05-30 22:10:19] INFO root fetch - processPackages [cgap-higlass-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgap_higlass_data-0.3.0b0.tar.gz tmp/cgap_higlass_data-0.3.0b1.tar.gz --markdown 20230530/c/cgap-higlass-data/0.3.0b0-0.3.0b1/diff.md --exclude *.pyd
+[2023-05-30 22:10:19] INFO root fetch - processPackages [aimped]: executing diffoscope
+[2023-05-30 22:10:19] INFO root fetch - processPackages [aimped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimped-0.1.46.tar.gz tmp/aimped-0.1.47.tar.gz --markdown 20230530/a/aimped/0.1.46-0.1.47/diff.md --exclude *.pyd
+[2023-05-30 22:10:19] INFO root fetch - processPackages [netsuitesdk]: executing diffoscope
+[2023-05-30 22:10:19] INFO root fetch - processPackages [netsuitesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsuitesdk-2.8.0.tar.gz tmp/netsuitesdk-2.9.0.tar.gz --markdown 20230530/n/netsuitesdk/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-30 22:10:19] INFO root fetch - processPackages [sumatra-client]: Downloading https://files.pythonhosted.org/packages/49/68/1cce6adbd19b75cfb2e2925ff4250c358e8634354480f6a59649b64dba83/sumatra-client-1.3.0rc1.tar.gz
+[2023-05-30 22:10:19] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/f2/14/d31da748d5c640b191035bfe05b70d535d2ec59aedf53622b3ddaf740bc7/pipen_board-0.2.9.tar.gz
+[2023-05-30 22:10:19] INFO root fetch - processPackages [sumatra-client]: executing diffoscope
+[2023-05-30 22:10:19] INFO root fetch - processPackages [sumatra-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumatra-client-1.2.0.tar.gz tmp/sumatra-client-1.3.0rc1.tar.gz --markdown 20230530/s/sumatra-client/1.2.0-1.3.0rc1/diff.md --exclude *.pyd
+[2023-05-30 22:10:19] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-05-30 22:10:19] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.2.8.tar.gz tmp/pipen_board-0.2.9.tar.gz --markdown 20230530/p/pipen-board/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 22:10:21] INFO root fetch - processPackages [cdk-sops-secrets]: Start processing: aihandler
+[2023-05-30 22:10:21] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-30 22:10:21] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-30 22:10:21] INFO root fetch - processPackages [proton-db]: Start processing: aiofauna
+[2023-05-30 22:10:21] INFO root fetch - main [MainThread]: End processing [proton-db]: success
+[2023-05-30 22:10:21] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-30 22:10:21] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-05-30 22:10:21] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230530/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-30 22:10:21] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 22:10:21] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-05-30 22:10:21] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230530/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 22:10:22] INFO root fetch - main [MainThread]: End processing [sumatra-client]: success
+[2023-05-30 22:10:22] INFO root fetch - main [MainThread]: End processing [cgap-higlass-data]: success
+[2023-05-30 22:10:22] INFO root fetch - main [MainThread]: End processing [netsuitesdk]: success
+[2023-05-30 22:10:22] INFO root fetch - main [MainThread]: End processing [aimped]: success
+[2023-05-30 22:10:23] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-05-30 22:10:23] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-05-30 22:10:30] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-05-30 22:10:42] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-05-30 22:10:49] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-05-30 22:10:49] INFO root fetch - main [MainThread]: Store serial: [18307161]
