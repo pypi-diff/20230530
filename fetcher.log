@@ -4151,3 +4151,84 @@
 [2023-05-30 04:31:42] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
 [2023-05-30 04:31:44] INFO root fetch - main [MainThread]: End processing [aqimon]: success
 [2023-05-30 04:31:44] INFO root fetch - main [MainThread]: Store serial: [18297075]
+[2023-05-30 04:36:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297075]
+[2023-05-30 04:36:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-30 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiextras
+[2023-05-30 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hubtik
+[2023-05-30 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gamium
+[2023-05-30 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ProjectB-clientside-template-package
+[2023-05-30 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asyncpeegee
+[2023-05-30 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: json-np
+[2023-05-30 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iam-actions
+[2023-05-30 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-plus-26
+[2023-05-30 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-plus-24
+[2023-05-30 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-plus-25
+[2023-05-30 04:36:52] INFO root fetch - processPackages [aiextras]: New version: [2.3] Old Version: [2.2]
+[2023-05-30 04:36:52] INFO root fetch - processPackages [ProjectB-clientside-template-package]: New version: [0.4] Old Version: [0.3]
+[2023-05-30 04:36:52] INFO root fetch - processPackages [asyncpeegee]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 04:36:52] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.6] Old Version: [2.4.5]
+[2023-05-30 04:36:52] WARNING root fetch - processPackages [hubtik]: Skipping, unable to determine old version
+[2023-05-30 04:36:52] INFO root fetch - processPackages [hubtik]: Start processing: magic-class
+[2023-05-30 04:36:52] INFO root fetch - main [MainThread]: End processing [hubtik] error
+[2023-05-30 04:36:52] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.6] Old Version: [2.8.5]
+[2023-05-30 04:36:52] INFO root fetch - processPackages [json-np]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-05-30 04:36:52] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.6] Old Version: [2.8.5]
+[2023-05-30 04:36:52] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230530] Old Version: [1.2.20230529]
+[2023-05-30 04:36:52] INFO root fetch - processPackages [gamium]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 04:36:52] INFO root fetch - processPackages [magic-class]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-30 04:36:52] INFO root fetch - processPackages [asyncpeegee]: Downloading https://files.pythonhosted.org/packages/5d/d8/79d261a3e388caeab4171024bb918d86cae5e0d7f609dfc515b788b695a5/asyncpeegee-0.1.0.tar.gz
+[2023-05-30 04:36:52] INFO root fetch - processPackages [ProjectB-clientside-template-package]: Downloading https://files.pythonhosted.org/packages/a3/e7/28a2fe12023328d72788cf7103848e561b19548d4b2078801bffa9264528/ProjectB_clientside_template_package-0.3.tar.gz
+[2023-05-30 04:36:52] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/85/7e/692aed26a25f1b0d2bbe9a4159b3be00ea90ffaa297ef098e6f49c7318c9/cdk8s-plus-26-2.4.6.tar.gz
+[2023-05-30 04:36:52] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/0b/bc/c50aa293ddf669cad04ae682ef9ca57d15051063459d962b4d8f47f32087/cdk8s-plus-24-2.8.6.tar.gz
+[2023-05-30 04:36:52] INFO root fetch - processPackages [json-np]: Downloading https://files.pythonhosted.org/packages/ff/85/43aecfef9ff54e6d015956b679b1d3868147c03564325f0df467ec71a9b4/json_np-0.0.6.tar.gz
+[2023-05-30 04:36:52] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/bf/17/2f59a7dad7ec4b88fee6c5d724559057b4a53c31e77304de449d64320130/iam_actions-1.2.20230530.tar.gz
+[2023-05-30 04:36:52] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/eb/25/ea1acef93213f0e668f032e82d692b3fcae78917f386e08a036d0d31a719/cdk8s-plus-25-2.8.6.tar.gz
+[2023-05-30 04:36:52] INFO root fetch - processPackages [magic-class]: Downloading https://files.pythonhosted.org/packages/83/1d/b0ef4b928b20523da7a1f337e6b27075604fae6cb3a819b103edf7f59167/magic_class-0.7.2.tar.gz
+[2023-05-30 04:36:53] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/1e/09/900bb29b5f33716aaa1c64d200407099bf53eabdb7c2e8453576c8227c1b/aiextras-2.3.tar.gz
+[2023-05-30 04:36:53] INFO root fetch - processPackages [json-np]: executing diffoscope
+[2023-05-30 04:36:53] INFO root fetch - processPackages [json-np]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_np-0.0.4.tar.gz tmp/json_np-0.0.6.tar.gz --markdown 20230530/j/json-np/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-05-30 04:36:53] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-30 04:36:53] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-2.2.tar.gz tmp/aiextras-2.3.tar.gz --markdown 20230530/a/aiextras/2.2-2.3/diff.md --exclude *.pyd
+[2023-05-30 04:36:53] INFO root fetch - processPackages [asyncpeegee]: Downloading https://files.pythonhosted.org/packages/e0/f3/feca925939f5a44fc785a8cf749b75df8afac64b1beeebb2ac3bb580da33/asyncpeegee-0.1.1.tar.gz
+[2023-05-30 04:36:53] INFO root fetch - processPackages [gamium]: Downloading https://files.pythonhosted.org/packages/90/f1/078ca282779f51a49966cdd2124f693cbadd4864abc3fc407c8d9914bc94/gamium-0.0.1.tar.gz
+[2023-05-30 04:36:53] INFO root fetch - processPackages [asyncpeegee]: executing diffoscope
+[2023-05-30 04:36:53] INFO root fetch - processPackages [asyncpeegee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncpeegee-0.1.0.tar.gz tmp/asyncpeegee-0.1.1.tar.gz --markdown 20230530/a/asyncpeegee/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 04:36:53] INFO root fetch - processPackages [ProjectB-clientside-template-package]: Downloading https://files.pythonhosted.org/packages/2e/83/db58a3ea29cf755bb347f4585ba7fce9dbb8c7d1334ceb209f10b67fcaf8/ProjectB_clientside_template_package-0.4.tar.gz
+[2023-05-30 04:36:53] INFO root fetch - processPackages [magic-class]: executing diffoscope
+[2023-05-30 04:36:53] INFO root fetch - processPackages [magic-class]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_class-0.7.1.tar.gz tmp/magic_class-0.7.2.tar.gz --markdown 20230530/m/magic-class/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-30 04:36:53] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-30 04:36:53] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.5.tar.gz tmp/cdk8s-plus-25-2.8.6.tar.gz --markdown 20230530/c/cdk8s-plus-25/2.8.5-2.8.6/diff.md --exclude *.pyd
+[2023-05-30 04:36:53] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-30 04:36:53] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.5.tar.gz tmp/cdk8s-plus-26-2.4.6.tar.gz --markdown 20230530/c/cdk8s-plus-26/2.4.5-2.4.6/diff.md --exclude *.pyd
+[2023-05-30 04:36:53] INFO root fetch - processPackages [ProjectB-clientside-template-package]: executing diffoscope
+[2023-05-30 04:36:53] INFO root fetch - processPackages [ProjectB-clientside-template-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjectB_clientside_template_package-0.3.tar.gz tmp/ProjectB_clientside_template_package-0.4.tar.gz --markdown 20230530/P/ProjectB-clientside-template-package/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-30 04:36:53] INFO root fetch - processPackages [gamium]: Downloading https://files.pythonhosted.org/packages/b9/01/282b896f8f4a87e20c7f996892f02de8f571f96850864b776f2efe24009d/gamium-0.0.2.tar.gz
+[2023-05-30 04:36:53] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-05-30 04:36:53] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230529.tar.gz tmp/iam_actions-1.2.20230530.tar.gz --markdown 20230530/i/iam-actions/1.2.20230529-1.2.20230530/diff.md --exclude *.pyd
+[2023-05-30 04:36:53] INFO root fetch - processPackages [gamium]: executing diffoscope
+[2023-05-30 04:36:53] INFO root fetch - processPackages [gamium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamium-0.0.1.tar.gz tmp/gamium-0.0.2.tar.gz --markdown 20230530/g/gamium/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 04:36:53] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-30 04:36:53] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.5.tar.gz tmp/cdk8s-plus-24-2.8.6.tar.gz --markdown 20230530/c/cdk8s-plus-24/2.8.5-2.8.6/diff.md --exclude *.pyd
+[2023-05-30 04:36:54] INFO root fetch - processPackages [json-np]: Start processing: appa
+[2023-05-30 04:36:54] INFO root fetch - main [MainThread]: End processing [json-np]: success
+[2023-05-30 04:36:54] INFO root fetch - processPackages [appa]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-30 04:36:54] INFO root fetch - processPackages [appa]: Downloading https://files.pythonhosted.org/packages/7b/69/29cd8f1c7ec61e680003cafcd70f91b1a8c6524824f4bfa221efff088bce/appa-0.4.1.tar.gz
+[2023-05-30 04:36:54] INFO root fetch - processPackages [asyncpeegee]: Start processing: runes
+[2023-05-30 04:36:54] INFO root fetch - main [MainThread]: End processing [asyncpeegee]: success
+[2023-05-30 04:36:54] INFO root fetch - processPackages [runes]: New version: [0.6] Old Version: [0.5]
+[2023-05-30 04:36:54] INFO root fetch - processPackages [runes]: Downloading https://files.pythonhosted.org/packages/8f/33/8037789277392bfb357544b21d35a4eb7e7e8b17bcc3029f95fdf3020e02/runes-0.5.tar.gz
+[2023-05-30 04:36:54] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-30 04:36:55] INFO root fetch - processPackages [runes]: Downloading https://files.pythonhosted.org/packages/53/0d/8d2d3156780d41902630038028508bf2bc2515dd6776acbfab57e4a96245/runes-0.6.tar.gz
+[2023-05-30 04:36:55] WARNING root fetch - processPackages [appa]: Skipping package: exceeds size limit 11655147>=10485760
+[2023-05-30 04:36:55] INFO root fetch - main [MainThread]: End processing [appa] error
+[2023-05-30 04:36:55] INFO root fetch - processPackages [runes]: executing diffoscope
+[2023-05-30 04:36:55] INFO root fetch - processPackages [runes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runes-0.5.tar.gz tmp/runes-0.6.tar.gz --markdown 20230530/r/runes/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-30 04:36:55] INFO root fetch - main [MainThread]: End processing [ProjectB-clientside-template-package]: success
+[2023-05-30 04:36:55] INFO root fetch - main [MainThread]: End processing [magic-class]: success
+[2023-05-30 04:36:55] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-30 04:36:56] INFO root fetch - main [MainThread]: End processing [runes]: success
+[2023-05-30 04:36:56] INFO root fetch - main [MainThread]: End processing [gamium]: success
+[2023-05-30 04:36:56] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-30 04:36:57] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-30 04:36:59] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-05-30 04:36:59] INFO root fetch - main [MainThread]: Store serial: [18297117]
