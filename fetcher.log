@@ -11974,3 +11974,62 @@
 [2023-05-30 13:59:00] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-05-30 13:59:03] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-05-30 13:59:03] INFO root fetch - main [MainThread]: Store serial: [18301781]
+[2023-05-30 14:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18301781]
+[2023-05-30 14:04:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2023-05-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazy-testdata
+[2023-05-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meu-pacote2223334-and-more
+[2023-05-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LumosWeb
+[2023-05-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: talondoc
+[2023-05-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccxt
+[2023-05-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: obrpy
+[2023-05-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nqtgbot
+[2023-05-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-notification-sdk-preview
+[2023-05-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: api-limit
+[2023-05-30 14:04:12] WARNING root fetch - processPackages [meu-pacote2223334-and-more]: Skipping, unable to determine old version
+[2023-05-30 14:04:12] INFO root fetch - processPackages [meu-pacote2223334-and-more]: Start processing: mltlk
+[2023-05-30 14:04:12] INFO root fetch - main [MainThread]: End processing [meu-pacote2223334-and-more] error
+[2023-05-30 14:04:12] INFO root fetch - processPackages [lazy-testdata]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-30 14:04:12] INFO root fetch - processPackages [LumosWeb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 14:04:12] INFO root fetch - processPackages [chatllm]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-30 14:04:12] INFO root fetch - processPackages [mltlk]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-30 14:04:12] INFO root fetch - processPackages [nqtgbot]: New version: [1.0.0a6] Old Version: [1.0.0a5]
+[2023-05-30 14:04:12] INFO root fetch - processPackages [talondoc]: New version: [1.0.0rc5] Old Version: [1.0.0rc4]
+[2023-05-30 14:04:12] WARNING root fetch - processPackages [api-limit]: Skipping, unable to determine old version
+[2023-05-30 14:04:12] INFO root fetch - processPackages [api-limit]: Start processing: Serializer-Nz
+[2023-05-30 14:04:12] INFO root fetch - main [MainThread]: End processing [api-limit] error
+[2023-05-30 14:04:12] WARNING root fetch - processPackages [lusid-notification-sdk-preview]: Skipping, unable to determine old version
+[2023-05-30 14:04:12] INFO root fetch - processPackages [obrpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 14:04:12] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview] error
+[2023-05-30 14:04:12] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-30 14:04:12] WARNING root fetch - processPackages [Serializer-Nz]: Skipping, unable to determine old version
+[2023-05-30 14:04:12] INFO root fetch - main [MainThread]: End processing [Serializer-Nz] error
+[2023-05-30 14:04:12] INFO root fetch - processPackages [LumosWeb]: executing diffoscope
+[2023-05-30 14:04:12] INFO root fetch - processPackages [LumosWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LumosWeb-0.0.8.tar.gz tmp/LumosWeb-0.0.9.tar.gz --markdown 20230530/L/LumosWeb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 14:04:12] INFO root fetch - processPackages [obrpy]: executing diffoscope
+[2023-05-30 14:04:12] INFO root fetch - processPackages [obrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obrpy-0.0.8.tar.gz tmp/obrpy-0.0.9.tar.gz --markdown 20230530/o/obrpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 14:04:12] INFO root fetch - processPackages [lazy-testdata]: Downloading https://files.pythonhosted.org/packages/9a/b9/943088fb93d17d064f8c08c03ca8bd0c51de4a6549f3f03138f5686e6350/lazy_testdata-1.1.8.tar.gz
+[2023-05-30 14:04:12] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/61/7a/6fb895af2d7c03eaac21a85d7c0aa99e4be236ffbef9ef96e35b0df455f0/mltlk-0.1.5.tar.gz
+[2023-05-30 14:04:13] INFO root fetch - processPackages [nqtgbot]: Downloading https://files.pythonhosted.org/packages/30/04/4f3c6125f7e8f1347bd933295948073aae3d95d1aab7a7b4cf12fde76526/nqtgbot-1.0.0a6.tar.gz
+[2023-05-30 14:04:13] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-05-30 14:04:13] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.4.tar.gz tmp/mltlk-0.1.5.tar.gz --markdown 20230530/m/mltlk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-30 14:04:13] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2023-05-30 14:04:13] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230530/c/chatllm/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-30 14:04:13] INFO root fetch - processPackages [talondoc]: executing diffoscope
+[2023-05-30 14:04:13] INFO root fetch - processPackages [talondoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talondoc-1.0.0rc4.tar.gz tmp/talondoc-1.0.0rc5.tar.gz --markdown 20230530/t/talondoc/1.0.0rc4-1.0.0rc5/diff.md --exclude *.pyd
+[2023-05-30 14:04:13] INFO root fetch - processPackages [nqtgbot]: executing diffoscope
+[2023-05-30 14:04:13] INFO root fetch - processPackages [nqtgbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nqtgbot-1.0.0a5.tar.gz tmp/nqtgbot-1.0.0a6.tar.gz --markdown 20230530/n/nqtgbot/1.0.0a5-1.0.0a6/diff.md --exclude *.pyd
+[2023-05-30 14:04:13] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-30 14:04:13] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230530/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-30 14:04:13] INFO root fetch - processPackages [lazy-testdata]: Downloading https://files.pythonhosted.org/packages/b8/c4/1cc929776295c55c7fbfbda359f6434483f7c50ede33c183b14b44ac4e40/lazy_testdata-1.1.9.tar.gz
+[2023-05-30 14:04:13] INFO root fetch - processPackages [lazy-testdata]: executing diffoscope
+[2023-05-30 14:04:13] INFO root fetch - processPackages [lazy-testdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_testdata-1.1.8.tar.gz tmp/lazy_testdata-1.1.9.tar.gz --markdown 20230530/l/lazy-testdata/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-30 14:04:14] INFO root fetch - main [MainThread]: End processing [LumosWeb]: success
+[2023-05-30 14:04:14] INFO root fetch - main [MainThread]: End processing [obrpy]: success
+[2023-05-30 14:04:14] INFO root fetch - main [MainThread]: End processing [nqtgbot]: success
+[2023-05-30 14:04:14] INFO root fetch - main [MainThread]: End processing [talondoc]: success
+[2023-05-30 14:04:15] INFO root fetch - main [MainThread]: End processing [lazy-testdata]: success
+[2023-05-30 14:04:16] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2023-05-30 14:04:17] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-05-30 14:04:24] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-30 14:04:24] INFO root fetch - main [MainThread]: Store serial: [18301826]
