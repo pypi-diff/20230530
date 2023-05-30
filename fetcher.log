@@ -3743,3 +3743,43 @@
 [2023-05-30 03:44:15] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
 [2023-05-30 03:44:17] INFO root fetch - main [MainThread]: End processing [nopaths]: success
 [2023-05-30 03:44:17] INFO root fetch - main [MainThread]: Store serial: [18296775]
+[2023-05-30 03:49:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296775]
+[2023-05-30 03:49:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-30 03:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: configzen
+[2023-05-30 03:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-apl
+[2023-05-30 03:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-wget
+[2023-05-30 03:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hdx-data-freshness
+[2023-05-30 03:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audiolm-pytorch
+[2023-05-30 03:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datasette-sqlite-vss
+[2023-05-30 03:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlite-vss
+[2023-05-30 03:49:26] INFO root fetch - processPackages [configzen]: New version: [0.1.45] Old Version: [0.1.44]
+[2023-05-30 03:49:26] INFO root fetch - processPackages [audiolm-pytorch]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-05-30 03:49:26] INFO root fetch - processPackages [sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-05-30 03:49:26] INFO root fetch - processPackages [hdx-data-freshness]: New version: [2.0.0] Old Version: [1.9.9]
+[2023-05-30 03:49:26] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-05-30 03:49:26] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.803] Old Version: [0.0.802]
+[2023-05-30 03:49:26] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-30 03:49:26] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-05-30 03:49:26] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl.zip --markdown 20230530/d/datasette-sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-05-30 03:49:26] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-05-30 03:49:26] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230530/s/sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-05-30 03:49:26] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-05-30 03:49:26] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-1.0.6.tar.gz tmp/audiolm-pytorch-1.1.0.tar.gz --markdown 20230530/a/audiolm-pytorch/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 03:49:26] INFO root fetch - processPackages [hdx-data-freshness]: Downloading https://files.pythonhosted.org/packages/7c/2b/1e379fb0e5be04cfbd6803d7807b38bf78674824cc55ae5348ff6bbc66e8/hdx-data-freshness-2.0.0.tar.gz
+[2023-05-30 03:49:26] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-30 03:49:26] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230530/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:49:26] WARNING root fetch - processPackages [hdx-data-freshness]: Skipping package: exceeds size limit 12325895>=10485760
+[2023-05-30 03:49:26] INFO root fetch - main [MainThread]: End processing [hdx-data-freshness] error
+[2023-05-30 03:49:26] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/13/f4/459e7f13e2fca497da9818bb28e0f4d8ad2ace6f49c0ba66578e99dbfe4b/nbdev-apl-0.0.803.tar.gz
+[2023-05-30 03:49:26] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/a6/7a/d4212229d097b4a6eb3acc06ef9c9ed8e7e14b899be1988ae4c5686f1800/configzen-0.1.45.tar.gz
+[2023-05-30 03:49:26] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-05-30 03:49:26] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.1.44.tar.gz tmp/configzen-0.1.45.tar.gz --markdown 20230530/c/configzen/0.1.44-0.1.45/diff.md --exclude *.pyd
+[2023-05-30 03:49:26] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-30 03:49:26] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.802.tar.gz tmp/nbdev-apl-0.0.803.tar.gz --markdown 20230530/n/nbdev-apl/0.0.802-0.0.803/diff.md --exclude *.pyd
+[2023-05-30 03:49:27] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-05-30 03:49:27] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-05-30 03:49:28] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-05-30 03:49:28] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-30 03:49:29] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-30 03:50:05] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-05-30 03:50:05] INFO root fetch - main [MainThread]: Store serial: [18296806]
