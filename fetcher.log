@@ -6566,3 +6566,49 @@
 [2023-05-30 08:37:54] INFO root fetch - main [MainThread]: End processing [ggvlib]: success
 [2023-05-30 08:38:45] INFO root fetch - main [MainThread]: End processing [mkdocs-exporter]: success
 [2023-05-30 08:38:45] INFO root fetch - main [MainThread]: Store serial: [18298426]
+[2023-05-30 08:43:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298426]
+[2023-05-30 08:43:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-30 08:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kt-ds-api
+[2023-05-30 08:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Zeraora
+[2023-05-30 08:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyxllib
+[2023-05-30 08:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: doblib-legacy
+[2023-05-30 08:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: life-model
+[2023-05-30 08:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: innerverz
+[2023-05-30 08:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: infinstor-mlflow-plugin
+[2023-05-30 08:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MeUtils
+[2023-05-30 08:43:54] INFO root fetch - processPackages [Zeraora]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 08:43:54] WARNING root fetch - processPackages [kt-ds-api]: Skipping, unable to determine old version
+[2023-05-30 08:43:54] INFO root fetch - main [MainThread]: End processing [kt-ds-api] error
+[2023-05-30 08:43:54] INFO root fetch - processPackages [doblib-legacy]: New version: [0.16.3] Old Version: [0.16.2]
+[2023-05-30 08:43:54] INFO root fetch - processPackages [innerverz]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-05-30 08:43:54] INFO root fetch - processPackages [life-model]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 08:43:54] INFO root fetch - processPackages [pyxllib]: New version: [0.3.9] Old Version: [0.3.8.1]
+[2023-05-30 08:43:54] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.9.15.50.17] Old Version: [2023.5.5.13.0.43]
+[2023-05-30 08:43:54] INFO root fetch - processPackages [infinstor-mlflow-plugin]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-30 08:43:54] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-05-30 08:43:54] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.0.20.tar.gz tmp/innerverz-0.0.21.tar.gz --markdown 20230530/i/innerverz/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-05-30 08:43:55] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-30 08:43:55] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.5.13.0.43.tar.gz tmp/MeUtils-2023.5.9.15.50.17.tar.gz --markdown 20230530/M/MeUtils/2023.5.5.13.0.43-2023.5.9.15.50.17/diff.md --exclude *.pyd
+[2023-05-30 08:43:55] INFO root fetch - processPackages [life-model]: Downloading https://files.pythonhosted.org/packages/1d/b2/7aa0dca584f9da3e4989e545f5a408238200468e920962ed2e651bdfe851/life-model-0.1.2.tar.gz
+[2023-05-30 08:43:55] INFO root fetch - processPackages [infinstor-mlflow-plugin]: Downloading https://files.pythonhosted.org/packages/ed/c5/0041411d58d70d8f79bcca926562d95956961d2765552129136ef36fcf8a/infinstor-mlflow-plugin-2.0.8.tar.gz
+[2023-05-30 08:43:55] INFO root fetch - processPackages [doblib-legacy]: Downloading https://files.pythonhosted.org/packages/a9/75/d9dd102dcefcb050c63c50ee6c8de4cf800e5581c7836e98403b74e173bc/doblib_legacy-0.16.3-py2-none-any.whl
+[2023-05-30 08:43:55] INFO root fetch - processPackages [Zeraora]: executing diffoscope
+[2023-05-30 08:43:55] INFO root fetch - processPackages [Zeraora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Zeraora-0.2.8.tar.gz tmp/Zeraora-0.2.9.tar.gz --markdown 20230530/Z/Zeraora/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 08:43:55] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2023-05-30 08:43:55] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.8.1.tar.gz tmp/pyxllib-0.3.9.tar.gz --markdown 20230530/p/pyxllib/0.3.8.1-0.3.9/diff.md --exclude *.pyd
+[2023-05-30 08:43:55] INFO root fetch - processPackages [doblib-legacy]: executing diffoscope
+[2023-05-30 08:43:55] INFO root fetch - processPackages [doblib-legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doblib_legacy-0.16.2-py2-none-any.whl.zip tmp/doblib_legacy-0.16.3-py2-none-any.whl.zip --markdown 20230530/d/doblib-legacy/0.16.2-0.16.3/diff.md --exclude *.pyd
+[2023-05-30 08:43:55] INFO root fetch - processPackages [life-model]: Downloading https://files.pythonhosted.org/packages/81/b9/7cf3699fe83e1819a6f8a548a8c75770f5478fa35ae63ccb137198409b62/life-model-0.1.3.tar.gz
+[2023-05-30 08:43:55] INFO root fetch - processPackages [life-model]: executing diffoscope
+[2023-05-30 08:43:55] INFO root fetch - processPackages [life-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/life-model-0.1.2.tar.gz tmp/life-model-0.1.3.tar.gz --markdown 20230530/l/life-model/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 08:43:55] INFO root fetch - processPackages [infinstor-mlflow-plugin]: Downloading https://files.pythonhosted.org/packages/ca/a5/bc13c3afcc6ccf70f3f5e385c6f374aaab41446c31d740b77d3a7a30a40e/infinstor-mlflow-plugin-2.0.9.tar.gz
+[2023-05-30 08:43:55] INFO root fetch - processPackages [infinstor-mlflow-plugin]: executing diffoscope
+[2023-05-30 08:43:55] INFO root fetch - processPackages [infinstor-mlflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infinstor-mlflow-plugin-2.0.8.tar.gz tmp/infinstor-mlflow-plugin-2.0.9.tar.gz --markdown 20230530/i/infinstor-mlflow-plugin/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-30 08:43:56] INFO root fetch - main [MainThread]: End processing [Zeraora]: success
+[2023-05-30 08:43:56] INFO root fetch - main [MainThread]: End processing [doblib-legacy]: success
+[2023-05-30 08:43:57] INFO root fetch - main [MainThread]: End processing [life-model]: success
+[2023-05-30 08:43:57] INFO root fetch - main [MainThread]: End processing [infinstor-mlflow-plugin]: success
+[2023-05-30 08:43:57] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-05-30 08:43:58] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2023-05-30 08:44:00] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-30 08:44:00] INFO root fetch - main [MainThread]: Store serial: [18298455]
