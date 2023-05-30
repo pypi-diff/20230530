@@ -4848,3 +4848,56 @@
 [2023-05-30 05:30:03] INFO root fetch - main [MainThread]: End processing [pymangaj]: success
 [2023-05-30 05:30:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-personal-equipment-request-tier-validation]: success
 [2023-05-30 05:30:03] INFO root fetch - main [MainThread]: Store serial: [18297486]
+[2023-05-30 05:35:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297486]
+[2023-05-30 05:35:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-30 05:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llmspec
+[2023-05-30 05:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zodiax
+[2023-05-30 05:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlgame
+[2023-05-30 05:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langdash
+[2023-05-30 05:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shared-atomic-enterprise
+[2023-05-30 05:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pdocr-rpc
+[2023-05-30 05:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vector2dggs
+[2023-05-30 05:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: revChatGPT
+[2023-05-30 05:35:12] INFO root fetch - processPackages [llmspec]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-30 05:35:12] INFO root fetch - processPackages [langdash]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2023-05-30 05:35:12] INFO root fetch - processPackages [pdocr-rpc]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-30 05:35:12] INFO root fetch - processPackages [zodiax]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-30 05:35:12] INFO root fetch - processPackages [mlgame]: New version: [9.5.4.1b0] Old Version: [9.5.3.2a0]
+[2023-05-30 05:35:12] INFO root fetch - processPackages [vector2dggs]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-30 05:35:12] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!2.3.5] Old Version: [5!2.3.4]
+[2023-05-30 05:35:12] INFO root fetch - processPackages [revChatGPT]: New version: [5.3.3] Old Version: [5.3.2]
+[2023-05-30 05:35:12] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/69/af/ae5a1d5811d8ab785ef46044d5736d77e63132079cab1cd0bca8521afc50/langdash-0.0.1.dev1.tar.gz
+[2023-05-30 05:35:13] INFO root fetch - processPackages [zodiax]: Downloading https://files.pythonhosted.org/packages/4d/47/0b018c76483909879587ce8849104f4568cb97886b6e3877351ed53c551a/zodiax-0.4.0.tar.gz
+[2023-05-30 05:35:13] INFO root fetch - processPackages [mlgame]: Downloading https://files.pythonhosted.org/packages/71/dd/bd1af65e461808883c5416da4ab24ec57178a8e706431713bff64735db6d/mlgame-9.5.3.2a0.tar.gz
+[2023-05-30 05:35:13] INFO root fetch - processPackages [vector2dggs]: Downloading https://files.pythonhosted.org/packages/78/69/1f81e71785797419505d636d6260fa68fddb8e8044e8ad49635f150bc4d0/vector2dggs-0.3.4.tar.gz
+[2023-05-30 05:35:13] INFO root fetch - processPackages [pdocr-rpc]: Downloading https://files.pythonhosted.org/packages/03/39/88630493580be345583c09f4da67d053953d1246935708b0449cfd273885/pdocr-rpc-1.1.1.tar.gz
+[2023-05-30 05:35:13] INFO root fetch - processPackages [llmspec]: Downloading https://files.pythonhosted.org/packages/f1/d2/110e0322651814c465944c05ae38dfb60bf723c828dd0ac826357d161742/llmspec-0.3.6.tar.gz
+[2023-05-30 05:35:13] INFO root fetch - processPackages [vector2dggs]: executing diffoscope
+[2023-05-30 05:35:13] INFO root fetch - processPackages [vector2dggs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector2dggs-0.3.3.tar.gz tmp/vector2dggs-0.3.4.tar.gz --markdown 20230530/v/vector2dggs/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-30 05:35:13] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/2e/8b/a32a70e598753d7920dc316961a2d1b7dfda6bef5ae21bd0c1851828e112/revChatGPT-5.3.3.tar.gz
+[2023-05-30 05:35:13] INFO root fetch - processPackages [pdocr-rpc]: executing diffoscope
+[2023-05-30 05:35:13] INFO root fetch - processPackages [pdocr-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdocr-rpc-1.1.0.tar.gz tmp/pdocr-rpc-1.1.1.tar.gz --markdown 20230530/p/pdocr-rpc/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-30 05:35:13] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-05-30 05:35:13] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!2.3.4-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!2.3.5-py39-none-win_amd64.whl.zip --markdown 20230530/s/shared-atomic-enterprise/5!2.3.4-5!2.3.5/diff.md --exclude *.pyd
+[2023-05-30 05:35:13] INFO root fetch - processPackages [llmspec]: executing diffoscope
+[2023-05-30 05:35:13] INFO root fetch - processPackages [llmspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmspec-0.3.5.tar.gz tmp/llmspec-0.3.6.tar.gz --markdown 20230530/l/llmspec/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-30 05:35:13] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-05-30 05:35:13] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-5.3.2.tar.gz tmp/revChatGPT-5.3.3.tar.gz --markdown 20230530/r/revChatGPT/5.3.2-5.3.3/diff.md --exclude *.pyd
+[2023-05-30 05:35:13] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/a0/a6/3e9451b70f3b01be45d63705580d3a3afcc7f7376088385b0c61e9586eeb/langdash-0.0.1.dev2.tar.gz
+[2023-05-30 05:35:13] INFO root fetch - processPackages [zodiax]: Downloading https://files.pythonhosted.org/packages/af/54/fb3de628f684581bb2604f2488d0573e8efdb44b98d2124b5e117e9a54ed/zodiax-0.4.1.tar.gz
+[2023-05-30 05:35:13] INFO root fetch - processPackages [zodiax]: executing diffoscope
+[2023-05-30 05:35:13] INFO root fetch - processPackages [mlgame]: Downloading https://files.pythonhosted.org/packages/90/4a/24da707ffd5e5e9c58a9152027dcefaea62c8c144dec954cbf651ab38c3b/mlgame-9.5.4.1b0.tar.gz
+[2023-05-30 05:35:13] INFO root fetch - processPackages [zodiax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodiax-0.4.0.tar.gz tmp/zodiax-0.4.1.tar.gz --markdown 20230530/z/zodiax/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-30 05:35:13] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-05-30 05:35:13] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-0.0.1.dev1.tar.gz tmp/langdash-0.0.1.dev2.tar.gz --markdown 20230530/l/langdash/0.0.1.dev1-0.0.1.dev2/diff.md --exclude *.pyd
+[2023-05-30 05:35:13] INFO root fetch - processPackages [mlgame]: executing diffoscope
+[2023-05-30 05:35:13] INFO root fetch - processPackages [mlgame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlgame-9.5.3.2a0.tar.gz tmp/mlgame-9.5.4.1b0.tar.gz --markdown 20230530/m/mlgame/9.5.3.2a0-9.5.4.1b0/diff.md --exclude *.pyd
+[2023-05-30 05:35:14] INFO root fetch - main [MainThread]: End processing [pdocr-rpc]: success
+[2023-05-30 05:35:14] INFO root fetch - main [MainThread]: End processing [vector2dggs]: success
+[2023-05-30 05:35:15] INFO root fetch - main [MainThread]: End processing [llmspec]: success
+[2023-05-30 05:35:15] INFO root fetch - main [MainThread]: End processing [zodiax]: success
+[2023-05-30 05:35:15] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-05-30 05:35:16] INFO root fetch - main [MainThread]: End processing [mlgame]: success
+[2023-05-30 05:35:17] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-05-30 05:35:27] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-05-30 05:35:27] INFO root fetch - main [MainThread]: Store serial: [18297514]
