@@ -10839,3 +10839,114 @@
 [2023-05-30 12:57:13] INFO root fetch - main [MainThread]: End processing [defi-services-lib]: success
 [2023-05-30 12:57:13] INFO root fetch - main [MainThread]: End processing [dipex]: success
 [2023-05-30 12:57:13] INFO root fetch - main [MainThread]: Store serial: [18301011]
+[2023-05-30 13:02:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18301011]
+[2023-05-30 13:02:22] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selenium-youtube
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ugot
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-btripopen20220520
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: winwin
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nashbanksync
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irene-pro
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: memphis-py-beta
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ibek
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modelbase2
+[2023-05-30 13:02:22] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 13:02:22] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ugot]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 13:02:22] INFO root fetch - processPackages [winwin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 13:02:22] INFO root fetch - processPackages [modelbase2]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-05-30 13:02:22] INFO root fetch - processPackages [irene-pro]: New version: [0.0.47] Old Version: [0.0.46]
+[2023-05-30 13:02:22] INFO root fetch - processPackages [memphis-py-beta]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ibek]: New version: [0.9.5b2] Old Version: [0.9.5b1]
+[2023-05-30 13:02:22] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 13:02:22] INFO root fetch - processPackages [selenium-youtube]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ibek]: executing diffoscope
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ibek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibek-0.9.5b1.tar.gz tmp/ibek-0.9.5b2.tar.gz --markdown 20230530/i/ibek/0.9.5b1-0.9.5b2/diff.md --exclude *.pyd
+[2023-05-30 13:02:22] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-05-30 13:02:22] INFO root fetch - processPackages [winwin]: executing diffoscope
+[2023-05-30 13:02:22] INFO root fetch - processPackages [winwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winwin-0.0.8.tar.gz tmp/winwin-0.0.9.tar.gz --markdown 20230530/w/winwin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 13:02:22] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.8.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230530/n/nashbanksync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 13:02:22] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/8d/bd/b41d464497049fedd938b2379a9d639742a2655fda7fbb6407d6a924ad62/modelbase2-0.1.6.tar.gz
+[2023-05-30 13:02:22] INFO root fetch - processPackages [selenium-youtube]: Downloading https://files.pythonhosted.org/packages/34/7d/95312c7822a6eda6bf7532b796f2d35720a3de89e2a1b0a925a66ea8f2f2/selenium_youtube-2.0.8.tar.gz
+[2023-05-30 13:02:22] INFO root fetch - processPackages [memphis-py-beta]: Downloading https://files.pythonhosted.org/packages/65/e8/07dfd771f3d91efd5042456094e4c6aaf01e528a0958215d74957e8d094e/memphis-py-beta-1.0.2.tar.gz
+[2023-05-30 13:02:22] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/01/38/6a74fe963d3d72cb1a6310d0955c8312fc28de7bb2b5f866e5ac8cbb7387/irene_pro-0.0.46.tar.gz
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ugot]: Downloading https://files.pythonhosted.org/packages/0a/30/d55165846d929e258570d358978bb2f3cb2a1a90f75dba5cc8d5dc9ae908/ugot-0.1.3.tar.gz
+[2023-05-30 13:02:22] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-05-30 13:02:22] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520-1.0.9.tar.gz --markdown 20230530/a/alibabacloud-btripopen20220520/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 13:02:22] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-05-30 13:02:22] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.0.9.tar.gz --markdown 20230530/a/alibabacloud-btripopen20220520-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ugot]: executing diffoscope
+[2023-05-30 13:02:22] INFO root fetch - processPackages [ugot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ugot-0.1.2.tar.gz tmp/ugot-0.1.3.tar.gz --markdown 20230530/u/ugot/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 13:02:22] INFO root fetch - processPackages [memphis-py-beta]: Downloading https://files.pythonhosted.org/packages/3d/f2/a812aa955933b071c906d6d3b4bc4ca996f3749ac4a5b2008ff64a61632a/memphis-py-beta-1.0.3.tar.gz
+[2023-05-30 13:02:22] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/c7/90/4b902f7735faf53cacd8997568c16cc6ecb39a3b8d749caa74d6532e1b33/irene_pro-0.0.47.tar.gz
+[2023-05-30 13:02:22] INFO root fetch - processPackages [selenium-youtube]: Downloading https://files.pythonhosted.org/packages/4c/4e/7b1997e154d726fb97c8f2d21a2b9724f66442487870bbdc93b97fa33eb6/selenium_youtube-2.0.9.tar.gz
+[2023-05-30 13:02:22] INFO root fetch - processPackages [memphis-py-beta]: executing diffoscope
+[2023-05-30 13:02:22] INFO root fetch - processPackages [memphis-py-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memphis-py-beta-1.0.2.tar.gz tmp/memphis-py-beta-1.0.3.tar.gz --markdown 20230530/m/memphis-py-beta/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-30 13:02:22] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/c7/a5/defd22a8fa0611c0f23090b874a5fec8cad7478e893dcd17bc4edea068d4/modelbase2-0.1.8.tar.gz
+[2023-05-30 13:02:23] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-30 13:02:23] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.46.tar.gz tmp/irene_pro-0.0.47.tar.gz --markdown 20230530/i/irene-pro/0.0.46-0.0.47/diff.md --exclude *.pyd
+[2023-05-30 13:02:23] INFO root fetch - processPackages [selenium-youtube]: executing diffoscope
+[2023-05-30 13:02:23] INFO root fetch - processPackages [selenium-youtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_youtube-2.0.8.tar.gz tmp/selenium_youtube-2.0.9.tar.gz --markdown 20230530/s/selenium-youtube/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-30 13:02:23] INFO root fetch - processPackages [modelbase2]: executing diffoscope
+[2023-05-30 13:02:23] INFO root fetch - processPackages [modelbase2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase2-0.1.6.tar.gz tmp/modelbase2-0.1.8.tar.gz --markdown 20230530/m/modelbase2/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-05-30 13:02:24] INFO root fetch - processPackages [winwin]: Start processing: alchemyjsonschema
+[2023-05-30 13:02:24] INFO root fetch - main [MainThread]: End processing [winwin]: success
+[2023-05-30 13:02:24] INFO root fetch - processPackages [alchemyjsonschema]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-30 13:02:24] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Start processing: hue-sunrise
+[2023-05-30 13:02:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-05-30 13:02:24] INFO root fetch - processPackages [hue-sunrise]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-30 13:02:24] INFO root fetch - processPackages [alchemyjsonschema]: Downloading https://files.pythonhosted.org/packages/20/84/61afd7dc39e0b7343cca678c130c391d87fdfe819d7b5e0ea375ca45c261/alchemyjsonschema-0.7.1.tar.gz
+[2023-05-30 13:02:24] INFO root fetch - processPackages [memphis-py-beta]: Start processing: vid2info
+[2023-05-30 13:02:24] INFO root fetch - main [MainThread]: End processing [memphis-py-beta]: success
+[2023-05-30 13:02:24] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/ca/e9/540d059956f78f9c8fe289ac263b36659e46539f8aa5f3d1bed8516aceb4/hue_sunrise-0.6.8.tar.gz
+[2023-05-30 13:02:24] INFO root fetch - processPackages [vid2info]: New version: [1.99] Old Version: [1.98]
+[2023-05-30 13:02:24] INFO root fetch - processPackages [nashbanksync]: Start processing: annofabcli
+[2023-05-30 13:02:24] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-05-30 13:02:24] INFO root fetch - processPackages [alchemyjsonschema]: Downloading https://files.pythonhosted.org/packages/60/33/138a6316a6cb8910e16687f9ea9e5467012a9dea77e262619b3570729652/alchemyjsonschema-0.7.2.tar.gz
+[2023-05-30 13:02:24] INFO root fetch - processPackages [annofabcli]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-30 13:02:24] INFO root fetch - processPackages [alchemyjsonschema]: executing diffoscope
+[2023-05-30 13:02:24] INFO root fetch - processPackages [alchemyjsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchemyjsonschema-0.7.1.tar.gz tmp/alchemyjsonschema-0.7.2.tar.gz --markdown 20230530/a/alchemyjsonschema/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-30 13:02:24] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/9b/30/c4b262939f47c9a5b879fd55c593b084bfaf1bd05e70454b77ae76dc4836/annofabcli-1.9.0.tar.gz
+[2023-05-30 13:02:25] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/fa/05/26bf05e0f3613c7bb941514f32b7c545625037f03289eec39ac8cf0557c9/hue_sunrise-0.6.9.tar.gz
+[2023-05-30 13:02:25] INFO root fetch - processPackages [irene-pro]: Start processing: OpenGeode-core
+[2023-05-30 13:02:25] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-30 13:02:25] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.1.9]
+[2023-05-30 13:02:25] INFO root fetch - processPackages [vid2info]: executing diffoscope
+[2023-05-30 13:02:25] INFO root fetch - processPackages [vid2info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vid2info-1.98.tar.gz tmp/vid2info-1.99.tar.gz --markdown 20230530/v/vid2info/1.98-1.99/diff.md --exclude *.pyd
+[2023-05-30 13:02:25] INFO root fetch - processPackages [selenium-youtube]: Start processing: LumosWeb
+[2023-05-30 13:02:25] INFO root fetch - main [MainThread]: End processing [selenium-youtube]: success
+[2023-05-30 13:02:25] INFO root fetch - processPackages [ugot]: Start processing: tair
+[2023-05-30 13:02:25] INFO root fetch - main [MainThread]: End processing [ugot]: success
+[2023-05-30 13:02:25] INFO root fetch - processPackages [LumosWeb]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-30 13:02:25] INFO root fetch - processPackages [modelbase2]: Start processing: miniscutil
+[2023-05-30 13:02:25] INFO root fetch - main [MainThread]: End processing [modelbase2]: success
+[2023-05-30 13:02:25] INFO root fetch - processPackages [hue-sunrise]: executing diffoscope
+[2023-05-30 13:02:25] INFO root fetch - processPackages [hue-sunrise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hue_sunrise-0.6.8.tar.gz tmp/hue_sunrise-0.6.9.tar.gz --markdown 20230530/h/hue-sunrise/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-30 13:02:25] INFO root fetch - processPackages [LumosWeb]: executing diffoscope
+[2023-05-30 13:02:25] INFO root fetch - processPackages [LumosWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LumosWeb-0.0.4.tar.gz tmp/LumosWeb-0.0.5.tar.gz --markdown 20230530/L/LumosWeb/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 13:02:25] INFO root fetch - processPackages [tair]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-30 13:02:25] INFO root fetch - processPackages [miniscutil]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-30 13:02:25] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/ae/8f/b14e2fa709a50b6b738320502b2288bb91b1784d173b34624f3a79bea01b/OpenGeode_core-14.1.9-cp39-cp39-win_amd64.whl
+[2023-05-30 13:02:25] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/f3/65/e480a62f8a5ee129f7a4ed0ec83f6f6dcd5418f8a620d1c17c801ffb6e80/annofabcli-1.9.1.tar.gz
+[2023-05-30 13:02:25] INFO root fetch - processPackages [annofabcli]: executing diffoscope
+[2023-05-30 13:02:25] INFO root fetch - processPackages [annofabcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annofabcli-1.9.0.tar.gz tmp/annofabcli-1.9.1.tar.gz --markdown 20230530/a/annofabcli/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-30 13:02:25] INFO root fetch - processPackages [tair]: Downloading https://files.pythonhosted.org/packages/13/5e/e62f04b69e11e9a222e0db5ee6852d415c20bb57c5e6fdd9e5f4f9efabeb/tair-1.3.3.tar.gz
+[2023-05-30 13:02:25] INFO root fetch - main [MainThread]: End processing [ibek]: success
+[2023-05-30 13:02:25] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17504936>=10485760
+[2023-05-30 13:02:25] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-05-30 13:02:25] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/3d/8a/406e7d6d75f56ce137a95ede55c10abf95903b1ecea964e785c0a5f677b1/miniscutil-0.2.0.tar.gz
+[2023-05-30 13:02:25] INFO root fetch - processPackages [tair]: Downloading https://files.pythonhosted.org/packages/84/47/0a71d54f4f177b89f929e9687d05fb872987d9b57f0c03ab3b6f8672d6e5/tair-1.3.4.tar.gz
+[2023-05-30 13:02:25] INFO root fetch - processPackages [miniscutil]: executing diffoscope
+[2023-05-30 13:02:25] INFO root fetch - processPackages [miniscutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscutil-0.1.1.tar.gz tmp/miniscutil-0.2.0.tar.gz --markdown 20230530/m/miniscutil/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 13:02:26] INFO root fetch - processPackages [tair]: executing diffoscope
+[2023-05-30 13:02:26] INFO root fetch - processPackages [tair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tair-1.3.3.tar.gz tmp/tair-1.3.4.tar.gz --markdown 20230530/t/tair/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-30 13:02:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-05-30 13:02:26] INFO root fetch - main [MainThread]: End processing [alchemyjsonschema]: success
+[2023-05-30 13:02:27] INFO root fetch - main [MainThread]: End processing [hue-sunrise]: success
+[2023-05-30 13:02:27] INFO root fetch - main [MainThread]: End processing [LumosWeb]: success
+[2023-05-30 13:02:27] INFO root fetch - main [MainThread]: End processing [annofabcli]: success
+[2023-05-30 13:02:27] INFO root fetch - main [MainThread]: End processing [miniscutil]: success
+[2023-05-30 13:02:27] INFO root fetch - main [MainThread]: End processing [tair]: success
+[2023-05-30 13:02:28] INFO root fetch - main [MainThread]: End processing [vid2info]: success
+[2023-05-30 13:02:28] INFO root fetch - main [MainThread]: Store serial: [18301063]
