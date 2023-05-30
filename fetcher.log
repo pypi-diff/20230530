@@ -10316,3 +10316,93 @@
 [2023-05-30 12:35:24] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
 [2023-05-30 12:35:24] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-05-30 12:35:24] INFO root fetch - main [MainThread]: Store serial: [18300648]
+[2023-05-30 12:40:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18300648]
+[2023-05-30 12:40:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-30 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotPython
+[2023-05-30 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: z0lib
+[2023-05-30 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyxdi
+[2023-05-30 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: su6
+[2023-05-30 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: searchlogit
+[2023-05-30 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plumbum
+[2023-05-30 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mongo-manager-juan-palma-borda
+[2023-05-30 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geoenrich
+[2023-05-30 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-libsbml
+[2023-05-30 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: genomenotebook
+[2023-05-30 12:40:34] INFO root fetch - processPackages [z0lib]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-30 12:40:34] INFO root fetch - processPackages [su6]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-30 12:40:34] INFO root fetch - processPackages [geoenrich]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-30 12:40:34] INFO root fetch - processPackages [pyxdi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-30 12:40:34] INFO root fetch - processPackages [genomenotebook]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-30 12:40:34] INFO root fetch - processPackages [plumbum]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-30 12:40:34] INFO root fetch - processPackages [mongo-manager-juan-palma-borda]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-05-30 12:40:34] INFO root fetch - processPackages [spotPython]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-30 12:40:34] INFO root fetch - processPackages [python-libsbml]: New version: [5.20.1] Old Version: [5.20.0]
+[2023-05-30 12:40:34] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-30 12:40:34] INFO root fetch - processPackages [plumbum]: Downloading https://files.pythonhosted.org/packages/56/e0/bcff74e68f8b71f4b9ce9e79b533df6d1ecff33c856fb93aab7e8a7c8d82/plumbum-1.8.1.tar.gz
+[2023-05-30 12:40:34] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/cc/62/f02988f7a3936507da35b69657f87b5d423ac20a5559ea6402a98baca360/genomenotebook-0.7.1.tar.gz
+[2023-05-30 12:40:34] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/6e/08/dffb539772d6b19fd64ed8ba0412587d708371217b6836461016997d7593/su6-0.5.3.tar.gz
+[2023-05-30 12:40:34] WARNING root fetch - processPackages [genomenotebook]: Skipping package: exceeds size limit 21358629>=10485760
+[2023-05-30 12:40:34] INFO root fetch - processPackages [genomenotebook]: Start processing: PyAllInOne
+[2023-05-30 12:40:35] INFO root fetch - main [MainThread]: End processing [genomenotebook] error
+[2023-05-30 12:40:35] INFO root fetch - processPackages [python-libsbml]: Downloading https://files.pythonhosted.org/packages/d3/88/c602d83c6cd88ddbe53d49c70cd2129fbc84b3f75b426600d14778b53e94/python-libsbml-5.20.0.tar.gz
+[2023-05-30 12:40:35] WARNING root fetch - processPackages [PyAllInOne]: Skipping, unable to determine old version
+[2023-05-30 12:40:35] INFO root fetch - processPackages [PyAllInOne]: Start processing: CTADIRAC
+[2023-05-30 12:40:35] INFO root fetch - main [MainThread]: End processing [PyAllInOne] error
+[2023-05-30 12:40:35] INFO root fetch - processPackages [geoenrich]: Downloading https://files.pythonhosted.org/packages/ce/d5/45ee026cb9afb8dc919e34b3c5ea6302faaa5a2bda83eb07a5810c956043/geoenrich-0.5.7.tar.gz
+[2023-05-30 12:40:35] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/11/eb/932d6af4ada42c43a62c82a43bf31b1e037670166681f6fe13042850164d/spotPython-0.2.3.tar.gz
+[2023-05-30 12:40:35] INFO root fetch - processPackages [mongo-manager-juan-palma-borda]: Downloading https://files.pythonhosted.org/packages/c5/96/c5458f070695296a3751757d8f65836ff864e123edf65b3e91c7e71fc370/mongo-manager-juan-palma-borda-0.7.2.tar.gz
+[2023-05-30 12:40:35] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-05-30 12:40:35] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-0.5.2.tar.gz tmp/su6-0.5.3.tar.gz --markdown 20230530/s/su6/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-30 12:40:35] INFO root fetch - processPackages [CTADIRAC]: New version: [2.2a3] Old Version: [2.2.9]
+[2023-05-30 12:40:35] WARNING root fetch - processPackages [python-libsbml]: Skipping package: exceeds size limit 48788118>=10485760
+[2023-05-30 12:40:35] INFO root fetch - processPackages [python-libsbml]: Start processing: zerobug
+[2023-05-30 12:40:35] INFO root fetch - main [MainThread]: End processing [python-libsbml] error
+[2023-05-30 12:40:35] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-05-30 12:40:35] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.2.tar.gz tmp/spotPython-0.2.3.tar.gz --markdown 20230530/s/spotPython/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-30 12:40:35] INFO root fetch - processPackages [z0lib]: Downloading https://files.pythonhosted.org/packages/b9/ee/38913ccabc3ad11c3ce7017f774607181d5d3acb5d02d12f138e3cef35d4/z0lib-2.0.6.tar.gz
+[2023-05-30 12:40:35] INFO root fetch - processPackages [plumbum]: Downloading https://files.pythonhosted.org/packages/8e/3d/6bbc1b93fd394f6cc9fbe098d8e2740063d58c36dd8da876f790458ded46/plumbum-1.8.2.tar.gz
+[2023-05-30 12:40:35] INFO root fetch - processPackages [z0lib]: executing diffoscope
+[2023-05-30 12:40:35] INFO root fetch - processPackages [z0lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z0lib-2.0.5.tar.gz tmp/z0lib-2.0.6.tar.gz --markdown 20230530/z/z0lib/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-30 12:40:35] INFO root fetch - processPackages [zerobug]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-05-30 12:40:35] INFO root fetch - processPackages [plumbum]: executing diffoscope
+[2023-05-30 12:40:35] INFO root fetch - processPackages [plumbum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plumbum-1.8.1.tar.gz tmp/plumbum-1.8.2.tar.gz --markdown 20230530/p/plumbum/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-30 12:40:35] INFO root fetch - processPackages [pyxdi]: executing diffoscope
+[2023-05-30 12:40:35] INFO root fetch - processPackages [pyxdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxdi-0.8.0.tar.gz tmp/pyxdi-0.9.0.tar.gz --markdown 20230530/p/pyxdi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 12:40:35] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-05-30 12:40:35] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230530/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-30 12:40:35] INFO root fetch - processPackages [CTADIRAC]: Downloading https://files.pythonhosted.org/packages/c4/fd/863c06d80a7cb3f8b807886edd3b375bed2ee4d3a384cb8b7213479f2248/CTADIRAC-2.2.9.tar.gz
+[2023-05-30 12:40:35] INFO root fetch - processPackages [mongo-manager-juan-palma-borda]: Downloading https://files.pythonhosted.org/packages/73/51/770b4c704a539d76a57868d40cf2a07927fcbc2d9bc090e9f52ef1b07041/mongo-manager-juan-palma-borda-0.8.0.tar.gz
+[2023-05-30 12:40:35] INFO root fetch - processPackages [geoenrich]: Downloading https://files.pythonhosted.org/packages/72/79/b86c4d1d2a12c508374916f08ca8afec2baf7c5e131d7897efb626ee705c/geoenrich-0.5.8.tar.gz
+[2023-05-30 12:40:35] INFO root fetch - processPackages [mongo-manager-juan-palma-borda]: executing diffoscope
+[2023-05-30 12:40:35] INFO root fetch - processPackages [mongo-manager-juan-palma-borda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo-manager-juan-palma-borda-0.7.2.tar.gz tmp/mongo-manager-juan-palma-borda-0.8.0.tar.gz --markdown 20230530/m/mongo-manager-juan-palma-borda/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-05-30 12:40:35] INFO root fetch - processPackages [geoenrich]: executing diffoscope
+[2023-05-30 12:40:35] INFO root fetch - processPackages [geoenrich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoenrich-0.5.7.tar.gz tmp/geoenrich-0.5.8.tar.gz --markdown 20230530/g/geoenrich/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-30 12:40:35] INFO root fetch - processPackages [zerobug]: Downloading https://files.pythonhosted.org/packages/2d/df/fd363cb8442c3ceec4a9d0bb0812b098c372841f97bf3561694c47711ebc/zerobug-2.0.8.tar.gz
+[2023-05-30 12:40:35] INFO root fetch - processPackages [CTADIRAC]: Downloading https://files.pythonhosted.org/packages/b3/dc/eeb2adbd38eb21f4638e8a34f30ed6748361e02727136583e01b66570df8/CTADIRAC-2.2a3.tar.gz
+[2023-05-30 12:40:35] INFO root fetch - processPackages [zerobug]: executing diffoscope
+[2023-05-30 12:40:35] INFO root fetch - processPackages [zerobug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerobug-2.0.7.tar.gz tmp/zerobug-2.0.8.tar.gz --markdown 20230530/z/zerobug/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-05-30 12:40:35] INFO root fetch - processPackages [CTADIRAC]: executing diffoscope
+[2023-05-30 12:40:35] INFO root fetch - processPackages [CTADIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTADIRAC-2.2.9.tar.gz tmp/CTADIRAC-2.2a3.tar.gz --markdown 20230530/C/CTADIRAC/2.2.9-2.2a3/diff.md --exclude *.pyd
+[2023-05-30 12:40:37] INFO root fetch - processPackages [z0lib]: Start processing: ibek
+[2023-05-30 12:40:37] INFO root fetch - main [MainThread]: End processing [z0lib]: success
+[2023-05-30 12:40:37] INFO root fetch - processPackages [ibek]: New version: [0.9.5b2] Old Version: [0.9.5b1]
+[2023-05-30 12:40:37] INFO root fetch - processPackages [pyxdi]: Start processing: asociita
+[2023-05-30 12:40:37] INFO root fetch - main [MainThread]: End processing [pyxdi]: success
+[2023-05-30 12:40:37] INFO root fetch - processPackages [ibek]: Downloading https://files.pythonhosted.org/packages/ea/84/788852fc3424a2519604ebd8e5be394a5958215f2a932882112a54d71a1a/ibek-0.9.5b1.tar.gz
+[2023-05-30 12:40:37] INFO root fetch - processPackages [asociita]: New version: [0.1.6.9] Old Version: [0.1.6.8]
+[2023-05-30 12:40:37] INFO root fetch - processPackages [asociita]: executing diffoscope
+[2023-05-30 12:40:37] INFO root fetch - processPackages [asociita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asociita-0.1.6.8.tar.gz tmp/asociita-0.1.6.9.tar.gz --markdown 20230530/a/asociita/0.1.6.8-0.1.6.9/diff.md --exclude *.pyd
+[2023-05-30 12:40:37] INFO root fetch - main [MainThread]: End processing [mongo-manager-juan-palma-borda]: success
+[2023-05-30 12:40:37] INFO root fetch - main [MainThread]: End processing [geoenrich]: success
+[2023-05-30 12:40:37] INFO root fetch - processPackages [ibek]: Downloading https://files.pythonhosted.org/packages/6c/3e/a0300d581f4d99a9f649cc9e263977b0a8ea7846561439ae8699e3eb6346/ibek-0.9.5b2.tar.gz
+[2023-05-30 12:40:37] INFO root fetch - processPackages [ibek]: executing diffoscope
+[2023-05-30 12:40:37] INFO root fetch - processPackages [ibek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibek-0.9.5b1.tar.gz tmp/ibek-0.9.5b2.tar.gz --markdown 20230530/i/ibek/0.9.5b1-0.9.5b2/diff.md --exclude *.pyd
+[2023-05-30 12:40:38] INFO root fetch - main [MainThread]: End processing [zerobug]: success
+[2023-05-30 12:40:38] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-05-30 12:40:38] INFO root fetch - main [MainThread]: End processing [plumbum]: success
+[2023-05-30 12:40:38] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-05-30 12:40:39] INFO root fetch - main [MainThread]: End processing [CTADIRAC]: success
+[2023-05-30 12:40:39] INFO root fetch - main [MainThread]: End processing [asociita]: success
+[2023-05-30 12:40:39] INFO root fetch - main [MainThread]: End processing [ibek]: success
+[2023-05-30 12:41:06] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-05-30 12:41:06] INFO root fetch - main [MainThread]: Store serial: [18300745]
