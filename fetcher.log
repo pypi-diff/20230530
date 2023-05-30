@@ -6429,3 +6429,43 @@
 [2023-05-30 08:15:32] INFO root fetch - main [MainThread]: End processing [cpm-live]: success
 [2023-05-30 08:15:32] INFO root fetch - main [MainThread]: End processing [cpm-live]: success
 [2023-05-30 08:15:32] INFO root fetch - main [MainThread]: Store serial: [18298332]
+[2023-05-30 08:20:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298332]
+[2023-05-30 08:20:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-30 08:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: concurrent-plugin
+[2023-05-30 08:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typed-api-framework
+[2023-05-30 08:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: piwaterflow
+[2023-05-30 08:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: access-nri-intake
+[2023-05-30 08:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pretext
+[2023-05-30 08:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clevertable
+[2023-05-30 08:20:53] INFO root fetch - processPackages [concurrent-plugin]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-30 08:20:53] INFO root fetch - processPackages [typed-api-framework]: New version: [0.0.1a4] Old Version: [0.0.0]
+[2023-05-30 08:20:53] INFO root fetch - processPackages [access-nri-intake]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-30 08:20:53] INFO root fetch - processPackages [clevertable]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-30 08:20:53] INFO root fetch - processPackages [piwaterflow]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-05-30 08:20:53] INFO root fetch - processPackages [pretext]: New version: [1.5.4.dev20230530] Old Version: [1.5.4.dev20230529]
+[2023-05-30 08:20:54] INFO root fetch - processPackages [concurrent-plugin]: executing diffoscope
+[2023-05-30 08:20:54] INFO root fetch - processPackages [concurrent-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concurrent_plugin-0.5.1-py3-none-any.whl.zip tmp/concurrent_plugin-0.5.2-py3-none-any.whl.zip --markdown 20230530/c/concurrent-plugin/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-30 08:20:54] INFO root fetch - processPackages [typed-api-framework]: Downloading https://files.pythonhosted.org/packages/aa/52/d8dcb653514d5944b55cc20cbc40ad4774bff6312cbf936a486dd0b6a0c4/typed-api-framework-0.0.0.tar.gz
+[2023-05-30 08:20:54] INFO root fetch - processPackages [access-nri-intake]: Downloading https://files.pythonhosted.org/packages/05/09/b58947a73b737d9b1d7525d1c919422060dc3f47e2927499d0560c7279c8/access_nri_intake-0.0.4.tar.gz
+[2023-05-30 08:20:54] INFO root fetch - processPackages [clevertable]: Downloading https://files.pythonhosted.org/packages/00/55/2e9e6e3cc3db7475671dbc15cbb0c9dee3b641391c3e6af90c4b1350d970/clevertable-3.0.1.tar.gz
+[2023-05-30 08:20:54] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/01/c8/e8ac1932ee31c5672b2a7c795f4341f23a6d9d25850f8f12f8f24ff7f741/pretext-1.5.4.dev20230530.tar.gz
+[2023-05-30 08:20:54] INFO root fetch - processPackages [piwaterflow]: Downloading https://files.pythonhosted.org/packages/e5/8f/271f6c7f53277ed66ba72f1455673d4ec7cc895e0b8b94147978032396d3/piwaterflow-0.5.7.tar.gz
+[2023-05-30 08:20:54] INFO root fetch - processPackages [clevertable]: executing diffoscope
+[2023-05-30 08:20:54] INFO root fetch - processPackages [clevertable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clevertable-3.0.0.tar.gz tmp/clevertable-3.0.1.tar.gz --markdown 20230530/c/clevertable/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-30 08:20:54] INFO root fetch - processPackages [typed-api-framework]: Downloading https://files.pythonhosted.org/packages/8f/a7/2e01690fb8c75051e1f6c5f6d236529e9df488abd6f98a2af92d9b771a0c/typed-api-framework-0.0.1a4.tar.gz
+[2023-05-30 08:20:54] INFO root fetch - processPackages [piwaterflow]: executing diffoscope
+[2023-05-30 08:20:54] INFO root fetch - processPackages [piwaterflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwaterflow-0.5.6.tar.gz tmp/piwaterflow-0.5.7.tar.gz --markdown 20230530/p/piwaterflow/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-05-30 08:20:54] INFO root fetch - processPackages [access-nri-intake]: Downloading https://files.pythonhosted.org/packages/2d/aa/f0d577740fa3bd18a5857c99d07b7ef24dd4b78d67ceb81b96f192a83f20/access_nri_intake-0.0.5.tar.gz
+[2023-05-30 08:20:54] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-30 08:20:54] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.4.dev20230529.tar.gz tmp/pretext-1.5.4.dev20230530.tar.gz --markdown 20230530/p/pretext/1.5.4.dev20230529-1.5.4.dev20230530/diff.md --exclude *.pyd
+[2023-05-30 08:20:54] INFO root fetch - processPackages [typed-api-framework]: executing diffoscope
+[2023-05-30 08:20:54] INFO root fetch - processPackages [typed-api-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typed-api-framework-0.0.0.tar.gz tmp/typed-api-framework-0.0.1a4.tar.gz --markdown 20230530/t/typed-api-framework/0.0.0-0.0.1a4/diff.md --exclude *.pyd
+[2023-05-30 08:20:54] INFO root fetch - processPackages [access-nri-intake]: executing diffoscope
+[2023-05-30 08:20:54] INFO root fetch - processPackages [access-nri-intake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/access_nri_intake-0.0.4.tar.gz tmp/access_nri_intake-0.0.5.tar.gz --markdown 20230530/a/access-nri-intake/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 08:20:55] INFO root fetch - main [MainThread]: End processing [concurrent-plugin]: success
+[2023-05-30 08:20:55] INFO root fetch - main [MainThread]: End processing [clevertable]: success
+[2023-05-30 08:20:55] INFO root fetch - main [MainThread]: End processing [piwaterflow]: success
+[2023-05-30 08:20:56] INFO root fetch - main [MainThread]: End processing [access-nri-intake]: success
+[2023-05-30 08:20:56] INFO root fetch - main [MainThread]: End processing [typed-api-framework]: success
+[2023-05-30 08:20:59] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-30 08:20:59] INFO root fetch - main [MainThread]: Store serial: [18298349]
