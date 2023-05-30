@@ -3377,3 +3377,49 @@
 [2023-05-30 03:02:55] INFO root fetch - main [MainThread]: End processing [selenium-supporter]: success
 [2023-05-30 03:02:55] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-httpserver]: success
 [2023-05-30 03:02:55] INFO root fetch - main [MainThread]: Store serial: [18296559]
+[2023-05-30 03:07:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296559]
+[2023-05-30 03:08:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-30 03:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rayasdk
+[2023-05-30 03:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aart
+[2023-05-30 03:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blockpipe-db
+[2023-05-30 03:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tccli-intl-en
+[2023-05-30 03:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spei-python
+[2023-05-30 03:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selenium-supporter
+[2023-05-30 03:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-05-30 03:08:04] INFO root fetch - processPackages [rayasdk]: New version: [1.1.0.dev9] Old Version: [1.1.0.dev8]
+[2023-05-30 03:08:04] INFO root fetch - processPackages [blockpipe-db]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-30 03:08:04] INFO root fetch - processPackages [selenium-supporter]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-30 03:08:04] INFO root fetch - processPackages [spei-python]: New version: [0.7.0] Old Version: [0.5.37]
+[2023-05-30 03:08:04] INFO root fetch - processPackages [aart]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-30 03:08:04] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-30 03:08:04] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-05-30 03:08:04] INFO root fetch - processPackages [selenium-supporter]: Downloading https://files.pythonhosted.org/packages/01/a6/2656865dddc58147cba31c38d4ed8a882240bd7d6cff9088e715b4767b02/selenium-supporter-0.0.7.tar.gz
+[2023-05-30 03:08:04] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-05-30 03:08:04] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230530/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:08:04] WARNING root fetch - processPackages [aart]: fallback to get urls: [0.0.1]
+[2023-05-30 03:08:04] WARNING root fetch - processPackages [aart]: None
+[2023-05-30 03:08:04] INFO root fetch - processPackages [spei-python]: Downloading https://files.pythonhosted.org/packages/79/04/56e02089e79b4a6d7adec1df13795f0bfebc4ba7f264f47d58c8f0cb3cd0/spei_python-0.5.37.tar.gz
+[2023-05-30 03:08:04] INFO root fetch - processPackages [blockpipe-db]: Downloading https://files.pythonhosted.org/packages/33/7d/58efc6f4142796f2ae1e90b00001770be7d3a01f0d2fe1d601d9ace8bd74/blockpipe_db-0.1.5.tar.gz
+[2023-05-30 03:08:04] WARNING root fetch - processPackages [aart]: None
+[2023-05-30 03:08:04] WARNING root fetch - processPackages [aart]: unable to get url for both version [0.0.1]
+[2023-05-30 03:08:04] WARNING root fetch - processPackages [aart]: None
+[2023-05-30 03:08:04] INFO root fetch - main [MainThread]: End processing [aart] error
+[2023-05-30 03:08:04] INFO root fetch - processPackages [blockpipe-db]: executing diffoscope
+[2023-05-30 03:08:04] INFO root fetch - processPackages [blockpipe-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockpipe_db-0.1.4.tar.gz tmp/blockpipe_db-0.1.5.tar.gz --markdown 20230530/b/blockpipe-db/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-30 03:08:04] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-05-30 03:08:04] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230530/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-05-30 03:08:04] INFO root fetch - processPackages [selenium-supporter]: Downloading https://files.pythonhosted.org/packages/47/92/b039f9430f2d544d8bea31a52755411095eea2c5bfa49dcac1b0b8e36fa0/selenium-supporter-0.0.8.tar.gz
+[2023-05-30 03:08:05] INFO root fetch - processPackages [spei-python]: Downloading https://files.pythonhosted.org/packages/60/b8/37c9d915c5a7a53ed92a5665aa21392732361e2f6b07dd4cf29b51ba1ed3/spei_python-0.7.0.tar.gz
+[2023-05-30 03:08:05] INFO root fetch - processPackages [selenium-supporter]: executing diffoscope
+[2023-05-30 03:08:05] INFO root fetch - processPackages [selenium-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-supporter-0.0.7.tar.gz tmp/selenium-supporter-0.0.8.tar.gz --markdown 20230530/s/selenium-supporter/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 03:08:05] INFO root fetch - processPackages [spei-python]: executing diffoscope
+[2023-05-30 03:08:05] INFO root fetch - processPackages [spei-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spei_python-0.5.37.tar.gz tmp/spei_python-0.7.0.tar.gz --markdown 20230530/s/spei-python/0.5.37-0.7.0/diff.md --exclude *.pyd
+[2023-05-30 03:08:05] INFO root fetch - processPackages [rayasdk]: executing diffoscope
+[2023-05-30 03:08:05] INFO root fetch - processPackages [rayasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayasdk-1.1.0.dev8.tar.gz tmp/rayasdk-1.1.0.dev9.tar.gz --markdown 20230530/r/rayasdk/1.1.0.dev8-1.1.0.dev9/diff.md --exclude *.pyd
+[2023-05-30 03:08:06] INFO root fetch - main [MainThread]: End processing [blockpipe-db]: success
+[2023-05-30 03:08:06] INFO root fetch - main [MainThread]: End processing [selenium-supporter]: success
+[2023-05-30 03:08:06] INFO root fetch - main [MainThread]: End processing [spei-python]: success
+[2023-05-30 03:08:06] INFO root fetch - main [MainThread]: End processing [rayasdk]: success
+[2023-05-30 03:08:07] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-05-30 03:08:08] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-05-30 03:08:08] INFO root fetch - main [MainThread]: Store serial: [18296584]
