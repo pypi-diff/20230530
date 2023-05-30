@@ -19498,3 +19498,61 @@ EOFError: EOF read where object expected
 [2023-05-30 20:41:55] INFO root fetch - main [MainThread]: End processing [scenario-gym]: success
 [2023-05-30 20:41:55] INFO root fetch - main [MainThread]: End processing [linode-api4]: success
 [2023-05-30 20:41:55] INFO root fetch - main [MainThread]: Store serial: [18306267]
+[2023-05-30 20:46:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18306267]
+[2023-05-30 20:47:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-30 20:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djlint
+[2023-05-30 20:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: splight-lib
+[2023-05-30 20:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pautobot
+[2023-05-30 20:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gustaf
+[2023-05-30 20:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: txrm2tiff
+[2023-05-30 20:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shooju
+[2023-05-30 20:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymexc
+[2023-05-30 20:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: portfolio-allocation
+[2023-05-30 20:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vbpdf
+[2023-05-30 20:47:04] INFO root fetch - processPackages [pautobot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 20:47:04] INFO root fetch - processPackages [gustaf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 20:47:04] INFO root fetch - processPackages [txrm2tiff]: New version: [2.0.4] Old Version: [2.0.2]
+[2023-05-30 20:47:04] INFO root fetch - processPackages [pymexc]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-30 20:47:04] INFO root fetch - processPackages [portfolio-allocation]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-30 20:47:04] INFO root fetch - processPackages [djlint]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-30 20:47:04] INFO root fetch - processPackages [shooju]: New version: [3.8.9] Old Version: [3.8.8]
+[2023-05-30 20:47:04] INFO root fetch - processPackages [vbpdf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 20:47:04] INFO root fetch - processPackages [splight-lib]: New version: [3.0.0.dev2] Old Version: [3.0.0.dev1]
+[2023-05-30 20:47:04] INFO root fetch - processPackages [pautobot]: executing diffoscope
+[2023-05-30 20:47:04] INFO root fetch - processPackages [pautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pautobot-0.0.8.tar.gz tmp/pautobot-0.0.9.tar.gz --markdown 20230530/p/pautobot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 20:47:04] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-30 20:47:04] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-3.0.0.dev1.tar.gz tmp/splight-lib-3.0.0.dev2.tar.gz --markdown 20230530/s/splight-lib/3.0.0.dev1-3.0.0.dev2/diff.md --exclude *.pyd
+[2023-05-30 20:47:04] INFO root fetch - processPackages [txrm2tiff]: Downloading https://files.pythonhosted.org/packages/4a/89/f3f0f793a61b43c49a16ae38813b82d3399c53743492d37b3c5e55d04fa0/txrm2tiff-2.0.2.tar.gz
+[2023-05-30 20:47:04] INFO root fetch - processPackages [portfolio-allocation]: Downloading https://files.pythonhosted.org/packages/8e/1a/b3692112558abdfe2e1c4b8a52453256018863711cd117c19bb37437b9e8/portfolio_allocation-0.2.1.tar.gz
+[2023-05-30 20:47:04] INFO root fetch - processPackages [gustaf]: Downloading https://files.pythonhosted.org/packages/e0/23/236ead9189b8580affce8f81e0fd0486ce56358c10f2393d98cacb8c386a/gustaf-0.0.8.tar.gz
+[2023-05-30 20:47:04] INFO root fetch - processPackages [pymexc]: Downloading https://files.pythonhosted.org/packages/85/e0/ffb0aafbc8f5d303470a241a3fed28142ca60047cf3a9c7bf0996d0ae0e3/pymexc-1.0.1.tar.gz
+[2023-05-30 20:47:04] INFO root fetch - processPackages [vbpdf]: Downloading https://files.pythonhosted.org/packages/f7/b7/a8b54186388ae145e2a39819f469e89d56bb9dab328e0026106cd5596fb9/vbpdf-0.1.8.tar.gz
+[2023-05-30 20:47:05] INFO root fetch - processPackages [txrm2tiff]: Downloading https://files.pythonhosted.org/packages/5d/8f/4b4f72582a0922192f7fdd1f1c7888c5e7a914557cede0526d0cd1df398a/txrm2tiff-2.0.4.tar.gz
+[2023-05-30 20:47:05] INFO root fetch - processPackages [shooju]: executing diffoscope
+[2023-05-30 20:47:05] INFO root fetch - processPackages [shooju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shooju-3.8.8.tar.gz tmp/shooju-3.8.9.tar.gz --markdown 20230530/s/shooju/3.8.8-3.8.9/diff.md --exclude *.pyd
+[2023-05-30 20:47:05] INFO root fetch - processPackages [pymexc]: Downloading https://files.pythonhosted.org/packages/04/47/b38be30abdaf10d67f634195289663f59c9fad2ba4efec6e5cc6c40eda99/pymexc-1.0.2.tar.gz
+[2023-05-30 20:47:05] INFO root fetch - processPackages [djlint]: executing diffoscope
+[2023-05-30 20:47:05] INFO root fetch - processPackages [djlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djlint-1.9.4.tar.gz tmp/djlint-1.9.5.tar.gz --markdown 20230530/d/djlint/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-30 20:47:05] INFO root fetch - processPackages [gustaf]: Downloading https://files.pythonhosted.org/packages/42/2c/f93542053ad74ad73eaa4106f276e9a512744cbfe493e9e9d636e78375de/gustaf-0.0.9.tar.gz
+[2023-05-30 20:47:05] INFO root fetch - processPackages [txrm2tiff]: executing diffoscope
+[2023-05-30 20:47:05] INFO root fetch - processPackages [txrm2tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txrm2tiff-2.0.2.tar.gz tmp/txrm2tiff-2.0.4.tar.gz --markdown 20230530/t/txrm2tiff/2.0.2-2.0.4/diff.md --exclude *.pyd
+[2023-05-30 20:47:05] INFO root fetch - processPackages [pymexc]: executing diffoscope
+[2023-05-30 20:47:05] INFO root fetch - processPackages [pymexc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymexc-1.0.1.tar.gz tmp/pymexc-1.0.2.tar.gz --markdown 20230530/p/pymexc/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-30 20:47:05] INFO root fetch - processPackages [portfolio-allocation]: Downloading https://files.pythonhosted.org/packages/c9/4a/4aafdb4177407678bb2d8570a485f1f476db397ebeebecbd421cad0fc15a/portfolio_allocation-0.2.2.tar.gz
+[2023-05-30 20:47:05] INFO root fetch - processPackages [vbpdf]: Downloading https://files.pythonhosted.org/packages/0e/4d/d337142ba717c2e1c455f5028fd42b0f2eef4e75b6bb25200cae085fba3f/vbpdf-0.1.9.tar.gz
+[2023-05-30 20:47:05] INFO root fetch - processPackages [portfolio-allocation]: executing diffoscope
+[2023-05-30 20:47:05] INFO root fetch - processPackages [portfolio-allocation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portfolio_allocation-0.2.1.tar.gz tmp/portfolio_allocation-0.2.2.tar.gz --markdown 20230530/p/portfolio-allocation/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-30 20:47:05] INFO root fetch - processPackages [gustaf]: executing diffoscope
+[2023-05-30 20:47:05] INFO root fetch - processPackages [gustaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gustaf-0.0.8.tar.gz tmp/gustaf-0.0.9.tar.gz --markdown 20230530/g/gustaf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 20:47:05] INFO root fetch - processPackages [vbpdf]: executing diffoscope
+[2023-05-30 20:47:05] INFO root fetch - processPackages [vbpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpdf-0.1.8.tar.gz tmp/vbpdf-0.1.9.tar.gz --markdown 20230530/v/vbpdf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 20:47:06] INFO root fetch - main [MainThread]: End processing [pautobot]: success
+[2023-05-30 20:47:06] INFO root fetch - main [MainThread]: End processing [djlint]: success
+[2023-05-30 20:47:07] INFO root fetch - main [MainThread]: End processing [shooju]: success
+[2023-05-30 20:47:07] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-30 20:47:07] INFO root fetch - main [MainThread]: End processing [pymexc]: success
+[2023-05-30 20:47:07] INFO root fetch - main [MainThread]: End processing [portfolio-allocation]: success
+[2023-05-30 20:47:07] INFO root fetch - main [MainThread]: End processing [txrm2tiff]: success
+[2023-05-30 20:47:07] INFO root fetch - main [MainThread]: End processing [vbpdf]: success
+[2023-05-30 20:47:07] INFO root fetch - main [MainThread]: End processing [gustaf]: success
+[2023-05-30 20:47:07] INFO root fetch - main [MainThread]: Store serial: [18306292]
