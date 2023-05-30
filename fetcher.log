@@ -6770,3 +6770,39 @@
 [2023-05-30 08:54:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-30 08:54:33] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-30 08:54:33] INFO root fetch - main [MainThread]: Store serial: [18298571]
+[2023-05-30 08:59:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298571]
+[2023-05-30 08:59:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-30 08:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parquet2lance
+[2023-05-30 08:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-api
+[2023-05-30 08:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hkkang-utils
+[2023-05-30 08:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvxsimulator
+[2023-05-30 08:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt4-api
+[2023-05-30 08:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliyun-python-sdk-kms
+[2023-05-30 08:59:42] WARNING root fetch - processPackages [gpt4-api]: Skipping, unable to determine old version
+[2023-05-30 08:59:42] INFO root fetch - main [MainThread]: End processing [gpt4-api] error
+[2023-05-30 08:59:42] INFO root fetch - processPackages [parquet2lance]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-30 08:59:42] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-05-30 08:59:42] INFO root fetch - processPackages [cvxsimulator]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-30 08:59:42] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.95] Old Version: [0.1.94]
+[2023-05-30 08:59:42] INFO root fetch - processPackages [aliyun-python-sdk-kms]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-30 08:59:42] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-05-30 08:59:42] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230530/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-30 08:59:42] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/bf/a2/2412990db24a8bdc9b5b68786302dce3d2e5d0d64116fa4167eff9646055/cvxsimulator-0.3.6.tar.gz
+[2023-05-30 08:59:42] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/c0/fe/2b5904e8c17ed0909be81be5ef6ac3e3af78c14131650b5bfbaede8e356a/hkkang_utils-0.1.95.tar.gz
+[2023-05-30 08:59:42] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-05-30 08:59:42] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.3.5.tar.gz tmp/cvxsimulator-0.3.6.tar.gz --markdown 20230530/c/cvxsimulator/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-30 08:59:43] INFO root fetch - processPackages [aliyun-python-sdk-kms]: Downloading https://files.pythonhosted.org/packages/d7/cd/a708ffe449138d8eb15a2018d31f131c4d38a5befc0668348620e1398e71/aliyun-python-sdk-kms-2.8.0.tar.gz
+[2023-05-30 08:59:43] INFO root fetch - processPackages [parquet2lance]: Downloading https://files.pythonhosted.org/packages/88/da/62280b6cf707db89df42d398294b72f58be6f928e228d041a2661aa16c44/parquet2lance-0.2.0.tar.gz
+[2023-05-30 08:59:43] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-05-30 08:59:43] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.94.tar.gz tmp/hkkang_utils-0.1.95.tar.gz --markdown 20230530/h/hkkang-utils/0.1.94-0.1.95/diff.md --exclude *.pyd
+[2023-05-30 08:59:43] INFO root fetch - processPackages [parquet2lance]: executing diffoscope
+[2023-05-30 08:59:43] INFO root fetch - processPackages [parquet2lance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parquet2lance-0.1.3.tar.gz tmp/parquet2lance-0.2.0.tar.gz --markdown 20230530/p/parquet2lance/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 08:59:43] INFO root fetch - processPackages [aliyun-python-sdk-kms]: Downloading https://files.pythonhosted.org/packages/31/d9/8f7e7e0f85e158e182b45bb5479b24fb17e1c6876171c46aa02d1a1a250d/aliyun-python-sdk-kms-2.9.0.tar.gz
+[2023-05-30 08:59:43] INFO root fetch - processPackages [aliyun-python-sdk-kms]: executing diffoscope
+[2023-05-30 08:59:43] INFO root fetch - processPackages [aliyun-python-sdk-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-kms-2.8.0.tar.gz tmp/aliyun-python-sdk-kms-2.9.0.tar.gz --markdown 20230530/a/aliyun-python-sdk-kms/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-30 08:59:44] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-05-30 08:59:44] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-05-30 08:59:44] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-kms]: success
+[2023-05-30 08:59:46] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-05-30 09:00:33] INFO root fetch - main [MainThread]: End processing [parquet2lance]: success
+[2023-05-30 09:00:33] INFO root fetch - main [MainThread]: Store serial: [18298599]
