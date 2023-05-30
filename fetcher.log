@@ -3423,3 +3423,35 @@
 [2023-05-30 03:08:07] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
 [2023-05-30 03:08:08] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-05-30 03:08:08] INFO root fetch - main [MainThread]: Store serial: [18296584]
+[2023-05-30 03:13:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296584]
+[2023-05-30 03:13:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-30 03:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biblelib
+[2023-05-30 03:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-05-30 03:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: random-math-rmaiaaaa
+[2023-05-30 03:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-hugo-deploy
+[2023-05-30 03:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toolplot
+[2023-05-30 03:13:17] INFO root fetch - processPackages [random-math-rmaiaaaa]: New version: [1.0.0] Old Version: [0.0.16]
+[2023-05-30 03:13:17] INFO root fetch - processPackages [biblelib]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-30 03:13:17] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 03:13:17] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-30 03:13:17] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-05-30 03:13:17] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230530/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:13:18] INFO root fetch - processPackages [toolplot]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-30 03:13:18] INFO root fetch - processPackages [random-math-rmaiaaaa]: Downloading https://files.pythonhosted.org/packages/64/3c/19415aa09e195fac2daffdba4bb1a4a91fc10a4d7fc23f783bfc20aa8b55/random_math_rmaiaaaa-1.0.0.tar.gz
+[2023-05-30 03:13:18] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-30 03:13:18] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230530/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-30 03:13:18] INFO root fetch - processPackages [biblelib]: Downloading https://files.pythonhosted.org/packages/94/19/6d3a4a411b21b4868b2816c322ff3cf8bc014b31f0b83172f7ea4d038fcc/biblelib-0.2.8.tar.gz
+[2023-05-30 03:13:18] INFO root fetch - processPackages [toolplot]: Downloading https://files.pythonhosted.org/packages/c0/05/866c436ed74f750c11a5f7c9166e9e48be818e186fc94ff487899645d85d/toolplot-0.3.3.tar.gz
+[2023-05-30 03:13:18] INFO root fetch - processPackages [random-math-rmaiaaaa]: executing diffoscope
+[2023-05-30 03:13:18] INFO root fetch - processPackages [random-math-rmaiaaaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/random_math_rmaiaaaa-0.0.16.tar.gz tmp/random_math_rmaiaaaa-1.0.0.tar.gz --markdown 20230530/r/random-math-rmaiaaaa/0.0.16-1.0.0/diff.md --exclude *.pyd
+[2023-05-30 03:13:18] INFO root fetch - processPackages [biblelib]: executing diffoscope
+[2023-05-30 03:13:18] INFO root fetch - processPackages [biblelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biblelib-0.2.7.tar.gz tmp/biblelib-0.2.8.tar.gz --markdown 20230530/b/biblelib/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-30 03:13:18] INFO root fetch - processPackages [toolplot]: Downloading https://files.pythonhosted.org/packages/4c/1b/28f10f2deb17a65f99c8db980f8f8528446567c9fcd26d841ef425917419/toolplot-0.3.4-py3-none-any.whl
+[2023-05-30 03:13:19] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-05-30 03:13:19] INFO root fetch - processPackages [toolplot]: executing diffoscope
+[2023-05-30 03:13:19] INFO root fetch - processPackages [toolplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolplot-0.3.3.tar.gz tmp/toolplot-0.3.4-py3-none-any.whl.zip --markdown 20230530/t/toolplot/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-30 03:13:19] INFO root fetch - main [MainThread]: End processing [random-math-rmaiaaaa]: success
+[2023-05-30 03:13:19] INFO root fetch - main [MainThread]: End processing [biblelib]: success
+[2023-05-30 03:13:20] INFO root fetch - main [MainThread]: End processing [toolplot]: success
+[2023-05-30 03:13:20] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-30 03:13:20] INFO root fetch - main [MainThread]: Store serial: [18296597]
