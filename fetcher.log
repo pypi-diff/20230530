@@ -15387,3 +15387,124 @@
 [2023-05-30 16:51:18] INFO root fetch - main [MainThread]: End processing [tuxbake]: success
 [2023-05-30 16:51:19] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
 [2023-05-30 16:51:19] INFO root fetch - main [MainThread]: Store serial: [18303862]
+[2023-05-30 16:56:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18303862]
+[2023-05-30 16:56:29] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-30 16:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cx
+[2023-05-30 16:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2023-05-30 16:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mflike
+[2023-05-30 16:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ffmpeg-progress-yield
+[2023-05-30 16:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: umls-rat
+[2023-05-30 16:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sfapi-client
+[2023-05-30 16:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cliconfig
+[2023-05-30 16:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shopcloud-serverless
+[2023-05-30 16:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thipster
+[2023-05-30 16:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vid2info
+[2023-05-30 16:56:29] INFO root fetch - processPackages [cx]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-30 16:56:29] INFO root fetch - processPackages [sfapi-client]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-30 16:56:29] INFO root fetch - processPackages [umls-rat]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-30 16:56:29] INFO root fetch - processPackages [mflike]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-30 16:56:29] INFO root fetch - processPackages [ffmpeg-progress-yield]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-05-30 16:56:29] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230530.9.43.768438] Old Version: [20230530.9.0.837631]
+[2023-05-30 16:56:29] INFO root fetch - processPackages [cliconfig]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2023-05-30 16:56:29] INFO root fetch - processPackages [shopcloud-serverless]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-30 16:56:29] INFO root fetch - processPackages [vid2info]: New version: [1.99] Old Version: [1.98]
+[2023-05-30 16:56:29] WARNING root fetch - processPackages [thipster]: Skipping, unable to determine old version
+[2023-05-30 16:56:29] INFO root fetch - processPackages [thipster]: Start processing: isoCycle
+[2023-05-30 16:56:29] INFO root fetch - main [MainThread]: End processing [thipster] error
+[2023-05-30 16:56:29] INFO root fetch - processPackages [isoCycle]: New version: [0.0.71] Old Version: [0.0.70]
+[2023-05-30 16:56:29] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fd/b3/8fbf9a9bd2956ea700467ef90a7453c2f88ecbf61f3b73e709c656720643/certora-cli-alpha-master-20230530.9.0.837631.tar.gz
+[2023-05-30 16:56:29] INFO root fetch - processPackages [vid2info]: executing diffoscope
+[2023-05-30 16:56:29] INFO root fetch - processPackages [vid2info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vid2info-1.98.tar.gz tmp/vid2info-1.99.tar.gz --markdown 20230530/v/vid2info/1.98-1.99/diff.md --exclude *.pyd
+[2023-05-30 16:56:29] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39091116>=10485760
+[2023-05-30 16:56:29] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: pydtk
+[2023-05-30 16:56:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-30 16:56:29] INFO root fetch - processPackages [pydtk]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-05-30 16:56:29] INFO root fetch - processPackages [cx]: Downloading https://files.pythonhosted.org/packages/98/2b/9b04ca5b665bebd942f980e6400ba1e0f0aa785c19937456f3c4a3b7fce9/cx-0.2.1.tar.gz
+[2023-05-30 16:56:29] INFO root fetch - processPackages [mflike]: Downloading https://files.pythonhosted.org/packages/99/1d/3902afbdb900ab98cd75dba3882d867081ff13ae57d96e00f0ff0a846d7e/mflike-0.8.3.tar.gz
+[2023-05-30 16:56:29] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/87/5b/a2ec00a6b9e0fca4a0645b9de5d35070af494fff631a534c01b7b096c3a9/cliconfig-1.0.0b3.tar.gz
+[2023-05-30 16:56:29] INFO root fetch - processPackages [ffmpeg-progress-yield]: Downloading https://files.pythonhosted.org/packages/72/08/40b47b6965ef5e210d8eaa6dd9c995fa13b35567059c5f91c3208bb472c3/ffmpeg-progress-yield-0.7.7.tar.gz
+[2023-05-30 16:56:29] INFO root fetch - processPackages [umls-rat]: Downloading https://files.pythonhosted.org/packages/fe/8d/8ecedfd907829edc3108bff9620cbae81fadebca77d3c802011a41c6ff58/umls-rat-0.6.4.tar.gz
+[2023-05-30 16:56:29] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/24/94/91a9f729795db0bbd1eb448fc2203118e5fe0edcd2e0c254cb7f62147204/isoCycle-0.0.70.tar.gz
+[2023-05-30 16:56:29] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 12846395>=10485760
+[2023-05-30 16:56:29] INFO root fetch - processPackages [isoCycle]: Start processing: dexie-rewards
+[2023-05-30 16:56:29] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-30 16:56:29] INFO root fetch - processPackages [ffmpeg-progress-yield]: executing diffoscope
+[2023-05-30 16:56:29] INFO root fetch - processPackages [ffmpeg-progress-yield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg-progress-yield-0.7.6.tar.gz tmp/ffmpeg-progress-yield-0.7.7.tar.gz --markdown 20230530/f/ffmpeg-progress-yield/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-05-30 16:56:29] INFO root fetch - processPackages [sfapi-client]: Downloading https://files.pythonhosted.org/packages/f0/ec/477e9b38efcb6d62d61e23444e4817273a347d318d9141305ede2564ee75/sfapi_client-0.0.5.tar.gz
+[2023-05-30 16:56:29] INFO root fetch - processPackages [pydtk]: Downloading https://files.pythonhosted.org/packages/de/44/e4b8617d088b064e35b9cac64055a3d2acdf325b6624a89f09e8aadd71ee/pydtk-0.2.7.tar.gz
+[2023-05-30 16:56:29] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-05-30 16:56:29] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-1.0.0b2.tar.gz tmp/cliconfig-1.0.0b3.tar.gz --markdown 20230530/c/cliconfig/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2023-05-30 16:56:29] INFO root fetch - processPackages [shopcloud-serverless]: executing diffoscope
+[2023-05-30 16:56:29] INFO root fetch - processPackages [cx]: Downloading https://files.pythonhosted.org/packages/d8/99/fffa5ec5cc419855977324671e4808fa7c35bf13d58417b553378b2f8192/cx-0.2.2.tar.gz
+[2023-05-30 16:56:29] INFO root fetch - processPackages [shopcloud-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud-serverless-4.8.0.tar.gz tmp/shopcloud-serverless-4.9.0.tar.gz --markdown 20230530/s/shopcloud-serverless/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-30 16:56:29] INFO root fetch - processPackages [dexie-rewards]: New version: [1.8.0] Old Version: [0.0.8]
+[2023-05-30 16:56:29] INFO root fetch - processPackages [umls-rat]: Downloading https://files.pythonhosted.org/packages/a7/83/4a4d426a28ff2ee85c773a1ba5504c928da32870e0ca8d55883396efd5b9/umls-rat-0.6.5.tar.gz
+[2023-05-30 16:56:29] INFO root fetch - processPackages [sfapi-client]: executing diffoscope
+[2023-05-30 16:56:29] INFO root fetch - processPackages [sfapi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfapi_client-0.0.4.tar.gz tmp/sfapi_client-0.0.5.tar.gz --markdown 20230530/s/sfapi-client/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 16:56:29] INFO root fetch - processPackages [cx]: executing diffoscope
+[2023-05-30 16:56:29] INFO root fetch - processPackages [cx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cx-0.2.1.tar.gz tmp/cx-0.2.2.tar.gz --markdown 20230530/c/cx/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-30 16:56:29] INFO root fetch - processPackages [mflike]: Downloading https://files.pythonhosted.org/packages/ff/54/0535305d4afeb6971310e20cdd1fab367aa2a50fdb00030ce8df1c1f5d59/mflike-0.8.4.tar.gz
+[2023-05-30 16:56:29] INFO root fetch - processPackages [umls-rat]: executing diffoscope
+[2023-05-30 16:56:29] INFO root fetch - processPackages [umls-rat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umls-rat-0.6.4.tar.gz tmp/umls-rat-0.6.5.tar.gz --markdown 20230530/u/umls-rat/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-30 16:56:29] INFO root fetch - processPackages [mflike]: executing diffoscope
+[2023-05-30 16:56:29] INFO root fetch - processPackages [mflike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mflike-0.8.3.tar.gz tmp/mflike-0.8.4.tar.gz --markdown 20230530/m/mflike/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-30 16:56:29] INFO root fetch - processPackages [pydtk]: Downloading https://files.pythonhosted.org/packages/90/99/3f17267af6d0352076f90a51c651ed7a2c03351d6681b6093427f1db8ae3/pydtk-0.2.9.tar.gz
+[2023-05-30 16:56:29] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/03/0d/20a7e0eef519fb995f50dbf7dc1e514d9d9d837e9b7d2d611490e91a84b0/dexie_rewards-1.8.0.tar.gz
+[2023-05-30 16:56:30] INFO root fetch - processPackages [dexie-rewards]: executing diffoscope
+[2023-05-30 16:56:30] INFO root fetch - processPackages [dexie-rewards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexie_rewards-0.0.8.tar.gz tmp/dexie_rewards-1.8.0.tar.gz --markdown 20230530/d/dexie-rewards/0.0.8-1.8.0/diff.md --exclude *.pyd
+[2023-05-30 16:56:30] INFO root fetch - processPackages [pydtk]: executing diffoscope
+[2023-05-30 16:56:30] INFO root fetch - processPackages [pydtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydtk-0.2.7.tar.gz tmp/pydtk-0.2.9.tar.gz --markdown 20230530/p/pydtk/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 16:56:31] INFO root fetch - processPackages [shopcloud-serverless]: Start processing: fluss
+[2023-05-30 16:56:31] INFO root fetch - main [MainThread]: End processing [shopcloud-serverless]: success
+[2023-05-30 16:56:31] INFO root fetch - processPackages [fluss]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 16:56:31] INFO root fetch - processPackages [fluss]: executing diffoscope
+[2023-05-30 16:56:31] INFO root fetch - processPackages [fluss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluss-0.1.8.tar.gz tmp/fluss-0.1.9.tar.gz --markdown 20230530/f/fluss/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 16:56:31] INFO root fetch - processPackages [umls-rat]: Start processing: duplex-tools
+[2023-05-30 16:56:31] INFO root fetch - main [MainThread]: End processing [umls-rat]: success
+[2023-05-30 16:56:31] INFO root fetch - processPackages [duplex-tools]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-30 16:56:31] INFO root fetch - processPackages [cx]: Start processing: nepattern
+[2023-05-30 16:56:31] INFO root fetch - main [MainThread]: End processing [cx]: success
+[2023-05-30 16:56:31] INFO root fetch - processPackages [nepattern]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-30 16:56:31] INFO root fetch - processPackages [ffmpeg-progress-yield]: Start processing: aksharify
+[2023-05-30 16:56:31] INFO root fetch - main [MainThread]: End processing [ffmpeg-progress-yield]: success
+[2023-05-30 16:56:31] INFO root fetch - processPackages [aksharify]: New version: [2.7.2] Old Version: [2.5.5]
+[2023-05-30 16:56:31] INFO root fetch - processPackages [duplex-tools]: Downloading https://files.pythonhosted.org/packages/33/38/4680327db12670dbab1bed92356a605feaa8eb9174d99f010f9612faeda8/duplex_tools-0.3.2.tar.gz
+[2023-05-30 16:56:32] INFO root fetch - processPackages [nepattern]: Downloading https://files.pythonhosted.org/packages/9f/eb/8376ce384671cae3244bee0946b5056253816857de96163159030b6de991/nepattern-0.5.9.tar.gz
+[2023-05-30 16:56:32] INFO root fetch - processPackages [duplex-tools]: Downloading https://files.pythonhosted.org/packages/eb/0c/c6aeb54530c8b84a86fa89000f27f582990ce61b3bd3c9ced6447efa83ca/duplex_tools-0.3.3.tar.gz
+[2023-05-30 16:56:32] INFO root fetch - processPackages [aksharify]: Downloading https://files.pythonhosted.org/packages/fe/43/daceaf310ff781174049bb9e7a544081d4851165f06827697b48e5a18477/aksharify-2.7.2.tar.gz
+[2023-05-30 16:56:32] INFO root fetch - processPackages [nepattern]: executing diffoscope
+[2023-05-30 16:56:32] INFO root fetch - processPackages [nepattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nepattern-0.5.8.tar.gz tmp/nepattern-0.5.9.tar.gz --markdown 20230530/n/nepattern/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-30 16:56:32] INFO root fetch - processPackages [duplex-tools]: executing diffoscope
+[2023-05-30 16:56:32] INFO root fetch - processPackages [duplex-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duplex_tools-0.3.2.tar.gz tmp/duplex_tools-0.3.3.tar.gz --markdown 20230530/d/duplex-tools/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-30 16:56:32] INFO root fetch - processPackages [aksharify]: executing diffoscope
+[2023-05-30 16:56:32] INFO root fetch - processPackages [mflike]: Start processing: jake
+[2023-05-30 16:56:32] INFO root fetch - main [MainThread]: End processing [mflike]: success
+[2023-05-30 16:56:32] INFO root fetch - processPackages [aksharify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aksharify-2.5.5.tar.gz tmp/aksharify-2.7.2.tar.gz --markdown 20230530/a/aksharify/2.5.5-2.7.2/diff.md --exclude *.pyd
+[2023-05-30 16:56:32] INFO root fetch - processPackages [dexie-rewards]: Start processing: django-modeltranslation
+[2023-05-30 16:56:32] INFO root fetch - main [MainThread]: End processing [dexie-rewards]: success
+[2023-05-30 16:56:32] INFO root fetch - processPackages [jake]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-30 16:56:32] INFO root fetch - processPackages [django-modeltranslation]: New version: [0.9.1] Old Version: [0.9]
+[2023-05-30 16:56:32] INFO root fetch - processPackages [jake]: Downloading https://files.pythonhosted.org/packages/1e/59/b49d9593e12d9ba60ee8956618787b9b7c57b81740718c4411f9ed714c09/jake-3.0.0.tar.gz
+[2023-05-30 16:56:32] INFO root fetch - processPackages [django-modeltranslation]: Downloading https://files.pythonhosted.org/packages/9e/01/d441cf6e79ae464a19985c24f68e20dd636e925fe74eff84b55f43c284bc/django-modeltranslation-0.9.tar.gz
+[2023-05-30 16:56:32] INFO root fetch - processPackages [jake]: Downloading https://files.pythonhosted.org/packages/e9/7d/578c47b6cb3c3d189170be3a089ba63e51836a5202f831ab029fed4531af/jake-3.0.1.tar.gz
+[2023-05-30 16:56:32] INFO root fetch - processPackages [django-modeltranslation]: Downloading https://files.pythonhosted.org/packages/d5/35/af034d89c42b08db5ea0b8f25009e09e41317feb9def4928eeaf3cc57f52/django-modeltranslation-0.9.1.tar.gz
+[2023-05-30 16:56:32] INFO root fetch - processPackages [cliconfig]: Start processing: kokos
+[2023-05-30 16:56:32] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-05-30 16:56:32] INFO root fetch - processPackages [kokos]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-30 16:56:32] INFO root fetch - main [MainThread]: End processing [sfapi-client]: success
+[2023-05-30 16:56:32] INFO root fetch - processPackages [django-modeltranslation]: executing diffoscope
+[2023-05-30 16:56:32] INFO root fetch - processPackages [django-modeltranslation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-modeltranslation-0.9.tar.gz tmp/django-modeltranslation-0.9.1.tar.gz --markdown 20230530/d/django-modeltranslation/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-05-30 16:56:32] INFO root fetch - processPackages [jake]: executing diffoscope
+[2023-05-30 16:56:32] INFO root fetch - processPackages [jake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jake-3.0.0.tar.gz tmp/jake-3.0.1.tar.gz --markdown 20230530/j/jake/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-30 16:56:32] INFO root fetch - main [MainThread]: End processing [pydtk]: success
+[2023-05-30 16:56:33] INFO root fetch - main [MainThread]: End processing [vid2info]: success
+[2023-05-30 16:56:33] INFO root fetch - processPackages [kokos]: executing diffoscope
+[2023-05-30 16:56:33] INFO root fetch - processPackages [kokos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kokos-1.9.2.tar.gz tmp/kokos-1.9.3.tar.gz --markdown 20230530/k/kokos/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-30 16:56:33] INFO root fetch - main [MainThread]: End processing [fluss]: success
+[2023-05-30 16:56:34] INFO root fetch - main [MainThread]: End processing [aksharify]: success
+[2023-05-30 16:56:34] INFO root fetch - main [MainThread]: End processing [nepattern]: success
+[2023-05-30 16:56:34] INFO root fetch - main [MainThread]: End processing [jake]: success
+[2023-05-30 16:56:34] INFO root fetch - main [MainThread]: End processing [duplex-tools]: success
+[2023-05-30 16:56:34] INFO root fetch - main [MainThread]: End processing [kokos]: success
+[2023-05-30 16:56:35] INFO root fetch - main [MainThread]: End processing [django-modeltranslation]: success
+[2023-05-30 16:56:35] INFO root fetch - main [MainThread]: Store serial: [18303919]
