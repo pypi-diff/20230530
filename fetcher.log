@@ -9500,3 +9500,74 @@
 [2023-05-30 11:45:41] INFO root fetch - main [MainThread]: End processing [canvas-course-tools]: success
 [2023-05-30 11:45:41] INFO root fetch - main [MainThread]: End processing [zensvi]: success
 [2023-05-30 11:45:41] INFO root fetch - main [MainThread]: Store serial: [18300175]
+[2023-05-30 11:50:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18300175]
+[2023-05-30 11:50:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-30 11:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dfcon
+[2023-05-30 11:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kadi-apy
+[2023-05-30 11:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iydon
+[2023-05-30 11:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmeel
+[2023-05-30 11:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soccerdata
+[2023-05-30 11:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymc
+[2023-05-30 11:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lavaplayer
+[2023-05-30 11:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rtdip-sdk
+[2023-05-30 11:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: league-shop-base
+[2023-05-30 11:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pg-common
+[2023-05-30 11:50:50] INFO root fetch - processPackages [dfcon]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-30 11:50:50] INFO root fetch - processPackages [kadi-apy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-30 11:50:50] INFO root fetch - processPackages [cmeel]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-30 11:50:50] INFO root fetch - processPackages [iydon]: New version: [2023.3.2] Old Version: [2023.3.1]
+[2023-05-30 11:50:50] INFO root fetch - processPackages [rtdip-sdk]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-30 11:50:50] INFO root fetch - processPackages [lavaplayer]: New version: [1.0.9a0] Old Version: [1.0.8a0]
+[2023-05-30 11:50:50] INFO root fetch - processPackages [league-shop-base]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 11:50:50] INFO root fetch - processPackages [soccerdata]: New version: [1.4.0] Old Version: [1.3.6]
+[2023-05-30 11:50:50] INFO root fetch - processPackages [pymc]: New version: [5.4.1] Old Version: [5.4.0]
+[2023-05-30 11:50:50] WARNING root fetch - processPackages [pg-common]: Skipping, unable to determine old version
+[2023-05-30 11:50:50] INFO root fetch - processPackages [pg-common]: Start processing: filesystem-dict
+[2023-05-30 11:50:50] INFO root fetch - main [MainThread]: End processing [pg-common] error
+[2023-05-30 11:50:50] INFO root fetch - processPackages [filesystem-dict]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 11:50:50] INFO root fetch - processPackages [dfcon]: Downloading https://files.pythonhosted.org/packages/c8/ff/670dacaa5a27c9201366aa86f87e19b50d1666ca795c13585c6dfe937074/dfcon-0.0.5.tar.gz
+[2023-05-30 11:50:51] INFO root fetch - processPackages [kadi-apy]: Downloading https://files.pythonhosted.org/packages/e5/25/f9331b8a4df419ae8c3f6503a03a3b8dc3cf6a287841b43c628fb988949b/kadi_apy-0.9.0-py3-none-any.whl
+[2023-05-30 11:50:51] INFO root fetch - processPackages [soccerdata]: Downloading https://files.pythonhosted.org/packages/03/a7/6dab7b42e5741b6bdecfe5b904c4898cd5c562a5b24c83ccff6382098cdd/soccerdata-1.3.6.tar.gz
+[2023-05-30 11:50:51] INFO root fetch - processPackages [iydon]: Downloading https://files.pythonhosted.org/packages/77/00/c613eec51e272ca6c2cb9f30a8aabe135ecea6517f5b36cbd4082f4c398e/iydon-2023.3.1.tar.gz
+[2023-05-30 11:50:51] INFO root fetch - processPackages [filesystem-dict]: executing diffoscope
+[2023-05-30 11:50:51] INFO root fetch - processPackages [filesystem-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filesystem-dict-0.1.8.tar.gz tmp/filesystem-dict-0.1.9.tar.gz --markdown 20230530/f/filesystem-dict/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 11:50:51] INFO root fetch - processPackages [rtdip-sdk]: Downloading https://files.pythonhosted.org/packages/ba/9e/04812df611a7504f0e899697c9d78131a040293a7db2100cb9e580e6631a/rtdip_sdk-0.3.1-py3-none-any.whl
+[2023-05-30 11:50:51] INFO root fetch - processPackages [lavaplayer]: Downloading https://files.pythonhosted.org/packages/c1/f7/a4f9251cf57f1d26d13719ba3a19f5ccf7439679aba212dbf5fdd4651d47/lavaplayer-1.0.8a0.tar.gz
+[2023-05-30 11:50:51] INFO root fetch - processPackages [dfcon]: Downloading https://files.pythonhosted.org/packages/b3/a3/4bde0e84fb168bc45911e993a8b1474485d0a2006a1b06b4e30cc6264103/dfcon-0.0.6.tar.gz
+[2023-05-30 11:50:51] INFO root fetch - processPackages [pymc]: Downloading https://files.pythonhosted.org/packages/52/62/4df5bce8604ee3c69a620a5dd45cf7f0d2d441fb98b319a2005df8143b12/pymc-5.4.1.tar.gz
+[2023-05-30 11:50:51] INFO root fetch - processPackages [dfcon]: executing diffoscope
+[2023-05-30 11:50:51] INFO root fetch - processPackages [dfcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfcon-0.0.5.tar.gz tmp/dfcon-0.0.6.tar.gz --markdown 20230530/d/dfcon/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-30 11:50:51] INFO root fetch - processPackages [league-shop-base]: executing diffoscope
+[2023-05-30 11:50:51] INFO root fetch - processPackages [league-shop-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league-shop-base-1.0.8.tar.gz tmp/league-shop-base-1.0.9.tar.gz --markdown 20230530/l/league-shop-base/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 11:50:51] INFO root fetch - processPackages [kadi-apy]: Downloading https://files.pythonhosted.org/packages/2f/a3/c83a2d6b5c30f483bd95316a6b53cef383e412d98ac26f636f8f1364ab20/kadi_apy-0.9.1-py3-none-any.whl
+[2023-05-30 11:50:51] INFO root fetch - processPackages [pymc]: executing diffoscope
+[2023-05-30 11:50:51] INFO root fetch - processPackages [pymc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymc-5.4.0.tar.gz tmp/pymc-5.4.1.tar.gz --markdown 20230530/p/pymc/5.4.0-5.4.1/diff.md --exclude *.pyd
+[2023-05-30 11:50:51] INFO root fetch - processPackages [rtdip-sdk]: Downloading https://files.pythonhosted.org/packages/ee/b9/6e9b7bd3bcd7124650cbef1f804f765c820668a61fb89f685fde9297999d/rtdip-sdk-0.4.0.tar.gz
+[2023-05-30 11:50:51] INFO root fetch - processPackages [soccerdata]: Downloading https://files.pythonhosted.org/packages/84/01/680cb18c8f000b7b3ce1e941cfcc1acfdb3f117aeffd080aee9bf19733da/soccerdata-1.4.0.tar.gz
+[2023-05-30 11:50:51] INFO root fetch - processPackages [iydon]: Downloading https://files.pythonhosted.org/packages/89/ae/46491898a34f2d92a161a31e6cfd2057ff36d9d5fe662e494ba40e8d006a/iydon-2023.3.2.tar.gz
+[2023-05-30 11:50:51] WARNING root fetch - processPackages [rtdip-sdk]: Skipping package: exceeds size limit 14335524>=10485760
+[2023-05-30 11:50:51] INFO root fetch - processPackages [rtdip-sdk]: Start processing: reddit-photo-aggregator
+[2023-05-30 11:50:51] INFO root fetch - main [MainThread]: End processing [rtdip-sdk] error
+[2023-05-30 11:50:51] WARNING root fetch - processPackages [reddit-photo-aggregator]: Skipping, unable to determine old version
+[2023-05-30 11:50:51] INFO root fetch - main [MainThread]: End processing [reddit-photo-aggregator] error
+[2023-05-30 11:50:51] INFO root fetch - processPackages [soccerdata]: executing diffoscope
+[2023-05-30 11:50:51] INFO root fetch - processPackages [soccerdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soccerdata-1.3.6.tar.gz tmp/soccerdata-1.4.0.tar.gz --markdown 20230530/s/soccerdata/1.3.6-1.4.0/diff.md --exclude *.pyd
+[2023-05-30 11:50:51] INFO root fetch - processPackages [iydon]: executing diffoscope
+[2023-05-30 11:50:51] INFO root fetch - processPackages [iydon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iydon-2023.3.1.tar.gz tmp/iydon-2023.3.2.tar.gz --markdown 20230530/i/iydon/2023.3.1-2023.3.2/diff.md --exclude *.pyd
+[2023-05-30 11:50:51] INFO root fetch - processPackages [kadi-apy]: executing diffoscope
+[2023-05-30 11:50:51] INFO root fetch - processPackages [kadi-apy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kadi_apy-0.9.0-py3-none-any.whl.zip tmp/kadi_apy-0.9.1-py3-none-any.whl.zip --markdown 20230530/k/kadi-apy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-30 11:50:51] INFO root fetch - processPackages [cmeel]: executing diffoscope
+[2023-05-30 11:50:51] INFO root fetch - processPackages [cmeel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmeel-0.8.0.tar.gz tmp/cmeel-0.9.0.tar.gz --markdown 20230530/c/cmeel/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 11:50:51] INFO root fetch - processPackages [lavaplayer]: Downloading https://files.pythonhosted.org/packages/46/7b/2c5f1e37a45bbffadb220ae71c57927760eec254b33186fa563299b6001b/lavaplayer-1.0.9a0.tar.gz
+[2023-05-30 11:50:52] INFO root fetch - processPackages [lavaplayer]: executing diffoscope
+[2023-05-30 11:50:52] INFO root fetch - processPackages [lavaplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavaplayer-1.0.8a0.tar.gz tmp/lavaplayer-1.0.9a0.tar.gz --markdown 20230530/l/lavaplayer/1.0.8a0-1.0.9a0/diff.md --exclude *.pyd
+[2023-05-30 11:50:52] INFO root fetch - main [MainThread]: End processing [filesystem-dict]: success
+[2023-05-30 11:50:52] INFO root fetch - main [MainThread]: End processing [dfcon]: success
+[2023-05-30 11:50:53] INFO root fetch - main [MainThread]: End processing [league-shop-base]: success
+[2023-05-30 11:50:53] INFO root fetch - main [MainThread]: End processing [iydon]: success
+[2023-05-30 11:50:53] INFO root fetch - main [MainThread]: End processing [soccerdata]: success
+[2023-05-30 11:50:53] INFO root fetch - main [MainThread]: End processing [kadi-apy]: success
+[2023-05-30 11:50:53] INFO root fetch - main [MainThread]: End processing [cmeel]: success
+[2023-05-30 11:50:53] INFO root fetch - main [MainThread]: End processing [pymc]: success
+[2023-05-30 11:50:53] INFO root fetch - main [MainThread]: End processing [lavaplayer]: success
+[2023-05-30 11:50:53] INFO root fetch - main [MainThread]: Store serial: [18300215]
