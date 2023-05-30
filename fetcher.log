@@ -14894,3 +14894,134 @@
 [2023-05-30 16:24:12] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2023-05-30 16:24:13] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2023-05-30 16:24:13] INFO root fetch - main [MainThread]: Store serial: [18303570]
+[2023-05-30 16:29:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18303570]
+[2023-05-30 16:29:22] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-30 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gad-common-utils
+[2023-05-30 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kodexa-cli
+[2023-05-30 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymovements
+[2023-05-30 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: casaconfig
+[2023-05-30 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whisper-autosrt
+[2023-05-30 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqfold
+[2023-05-30 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seqfold
+[2023-05-30 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neuralchess
+[2023-05-30 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: localstack-plugin-persistence
+[2023-05-30 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-05-30 16:29:22] INFO root fetch - processPackages [pymovements]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-30 16:29:22] INFO root fetch - processPackages [gad-common-utils]: New version: [0.23] Old Version: [0.22]
+[2023-05-30 16:29:22] INFO root fetch - processPackages [kodexa-cli]: New version: [6.2.25122731405] Old Version: [6.2.25122693446]
+[2023-05-30 16:29:22] INFO root fetch - processPackages [whisper-autosrt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-30 16:29:22] INFO root fetch - processPackages [casaconfig]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 16:29:22] INFO root fetch - processPackages [seqfold]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-05-30 16:29:22] INFO root fetch - processPackages [seqfold]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-05-30 16:29:22] INFO root fetch - processPackages [localstack-plugin-persistence]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-30 16:29:22] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 16:29:22] WARNING root fetch - processPackages [neuralchess]: Skipping, unable to determine old version
+[2023-05-30 16:29:22] INFO root fetch - processPackages [neuralchess]: Start processing: readlog
+[2023-05-30 16:29:22] INFO root fetch - main [MainThread]: End processing [neuralchess] error
+[2023-05-30 16:29:22] WARNING root fetch - processPackages [readlog]: Skipping, unable to determine old version
+[2023-05-30 16:29:22] INFO root fetch - processPackages [readlog]: Start processing: adafruit-circuitpython-bmp280
+[2023-05-30 16:29:22] INFO root fetch - main [MainThread]: End processing [readlog] error
+[2023-05-30 16:29:22] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-05-30 16:29:22] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 16:29:22] INFO root fetch - processPackages [adafruit-circuitpython-bmp280]: New version: [3.3.0] Old Version: [3.2.9]
+[2023-05-30 16:29:22] INFO root fetch - processPackages [gad-common-utils]: Downloading https://files.pythonhosted.org/packages/31/a4/ef6adf67660d34b027198c3a1db838c851b5abd63d3efe91e5b8a46a851e/gad_common_utils-0.22.tar.gz
+[2023-05-30 16:29:22] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/21/cb/0cc7a67b25f6504b692fba7892cde987eb5935d5b34cd1ca41724b751604/whisper_autosrt-0.0.6.tar.gz
+[2023-05-30 16:29:22] INFO root fetch - processPackages [localstack-plugin-persistence]: Downloading https://files.pythonhosted.org/packages/31/41/985ce33dca05052145b312ef0cf10dd37a65c988a605ce9cf14a8ef29954/localstack-plugin-persistence-1.0.3.tar.gz
+[2023-05-30 16:29:22] INFO root fetch - processPackages [seqfold]: Downloading https://files.pythonhosted.org/packages/2a/72/e103217f31572d65c1d2014641465d4310aa106cb189e944e51daed5d2bf/seqfold-0.7.6.tar.gz
+[2023-05-30 16:29:22] INFO root fetch - processPackages [seqfold]: Downloading https://files.pythonhosted.org/packages/2a/72/e103217f31572d65c1d2014641465d4310aa106cb189e944e51daed5d2bf/seqfold-0.7.6.tar.gz
+[2023-05-30 16:29:22] INFO root fetch - processPackages [whisper-autosrt]: executing diffoscope
+[2023-05-30 16:29:22] INFO root fetch - processPackages [whisper-autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_autosrt-0.0.5.tar.gz tmp/whisper_autosrt-0.0.6.tar.gz --markdown 20230530/w/whisper-autosrt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-30 16:29:22] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/cc/3e/c4c4c50bc3f093a89396b74bc4f1e73e690f53562fb46b23e63b8531e2b1/kodexa_cli-6.2.25122693446.tar.gz
+[2023-05-30 16:29:22] INFO root fetch - processPackages [gad-common-utils]: Downloading https://files.pythonhosted.org/packages/8b/ac/cdec1ca82c1bfaa046216fc56f9513f4a463fb1889ea5489aba1b98e8249/gad_common_utils-0.23.tar.gz
+[2023-05-30 16:29:23] INFO root fetch - processPackages [adafruit-circuitpython-bmp280]: Downloading https://files.pythonhosted.org/packages/c6/4d/2889b8d425aa3fadf7db863e4567f2a91ec5003ef961ea60d80a971b08a3/adafruit-circuitpython-bmp280-3.3.0.tar.gz
+[2023-05-30 16:29:23] INFO root fetch - processPackages [pymovements]: executing diffoscope
+[2023-05-30 16:29:23] INFO root fetch - processPackages [pymovements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymovements-0.8.0.tar.gz tmp/pymovements-0.9.0.tar.gz --markdown 20230530/p/pymovements/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 16:29:23] INFO root fetch - processPackages [gad-common-utils]: executing diffoscope
+[2023-05-30 16:29:23] INFO root fetch - processPackages [gad-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gad_common_utils-0.22.tar.gz tmp/gad_common_utils-0.23.tar.gz --markdown 20230530/g/gad-common-utils/0.22-0.23/diff.md --exclude *.pyd
+[2023-05-30 16:29:23] INFO root fetch - processPackages [localstack-plugin-persistence]: Downloading https://files.pythonhosted.org/packages/70/0d/64a55979de2531c52ea1a92a7ec118d91f36a8a500bcf6c141156c4004ce/localstack-plugin-persistence-1.0.4.tar.gz
+[2023-05-30 16:29:23] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/bf/d5/21c58887461f697cd2a92136aa87ac0b57ad61f98fedc1bbcd079dd2e825/kodexa_cli-6.2.25122731405.tar.gz
+[2023-05-30 16:29:23] INFO root fetch - processPackages [adafruit-circuitpython-bmp280]: executing diffoscope
+[2023-05-30 16:29:23] INFO root fetch - processPackages [adafruit-circuitpython-bmp280]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-bmp280-3.2.9.tar.gz tmp/adafruit-circuitpython-bmp280-3.3.0.tar.gz --markdown 20230530/a/adafruit-circuitpython-bmp280/3.2.9-3.3.0/diff.md --exclude *.pyd
+[2023-05-30 16:29:23] INFO root fetch - processPackages [casaconfig]: Downloading https://files.pythonhosted.org/packages/b3/fa/f975be3fd2190f2c5bf5484fd5fd674f59ab2a43bfd067cca5e133c26055/casaconfig-0.0.8.tar.gz
+[2023-05-30 16:29:23] INFO root fetch - processPackages [localstack-plugin-persistence]: executing diffoscope
+[2023-05-30 16:29:23] INFO root fetch - processPackages [localstack-plugin-persistence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-plugin-persistence-1.0.3.tar.gz tmp/localstack-plugin-persistence-1.0.4.tar.gz --markdown 20230530/l/localstack-plugin-persistence/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-30 16:29:23] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-05-30 16:29:23] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.2.25122693446.tar.gz tmp/kodexa_cli-6.2.25122731405.tar.gz --markdown 20230530/k/kodexa-cli/6.2.25122693446-6.2.25122731405/diff.md --exclude *.pyd
+[2023-05-30 16:29:23] INFO root fetch - processPackages [seqfold]: Downloading https://files.pythonhosted.org/packages/ef/65/45de633861b647eb3537f08e34f6b797e5b73f6b72b93ea0e95ffe0a2734/seqfold-0.7.7.tar.gz
+[2023-05-30 16:29:23] INFO root fetch - processPackages [seqfold]: Downloading https://files.pythonhosted.org/packages/ef/65/45de633861b647eb3537f08e34f6b797e5b73f6b72b93ea0e95ffe0a2734/seqfold-0.7.7.tar.gz
+[2023-05-30 16:29:23] INFO root fetch - processPackages [casaconfig]: Downloading https://files.pythonhosted.org/packages/34/84/1235c8c1596846e27fde8bb55dc4b6f2354ee6c9e8ac993f365fa02c1c42/casaconfig-0.0.9.tar.gz
+[2023-05-30 16:29:23] INFO root fetch - processPackages [seqfold]: executing diffoscope
+[2023-05-30 16:29:23] INFO root fetch - processPackages [seqfold]: executing diffoscope
+[2023-05-30 16:29:23] INFO root fetch - processPackages [seqfold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqfold-0.7.6.tar.gz tmp/seqfold-0.7.7.tar.gz --markdown 20230530/s/seqfold/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-05-30 16:29:23] INFO root fetch - processPackages [seqfold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqfold-0.7.6.tar.gz tmp/seqfold-0.7.7.tar.gz --markdown 20230530/s/seqfold/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-05-30 16:29:23] INFO root fetch - processPackages [casaconfig]: executing diffoscope
+[2023-05-30 16:29:23] INFO root fetch - processPackages [casaconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casaconfig-0.0.8.tar.gz tmp/casaconfig-0.0.9.tar.gz --markdown 20230530/c/casaconfig/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 16:29:24] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: wonder-sdk
+[2023-05-30 16:29:24] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-05-30 16:29:24] INFO root fetch - processPackages [wonder-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 16:29:24] INFO root fetch - processPackages [wonder-sdk]: Downloading https://files.pythonhosted.org/packages/37/05/241450cdd86b168a622dc8451f3538b4f32243b5ee9cc34c5c69fd955cfe/wonder-sdk-0.1.8.tar.gz
+[2023-05-30 16:29:24] INFO root fetch - processPackages [gad-common-utils]: Start processing: kodexa-cli
+[2023-05-30 16:29:24] INFO root fetch - main [MainThread]: End processing [gad-common-utils]: success
+[2023-05-30 16:29:24] INFO root fetch - processPackages [kodexa-cli]: New version: [6.2.25122731405] Old Version: [6.2.25122693446]
+[2023-05-30 16:29:25] INFO root fetch - processPackages [pymovements]: Start processing: python-ecobee-api
+[2023-05-30 16:29:25] INFO root fetch - main [MainThread]: End processing [pymovements]: success
+[2023-05-30 16:29:25] INFO root fetch - processPackages [python-ecobee-api]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 16:29:25] INFO root fetch - processPackages [wonder-sdk]: Downloading https://files.pythonhosted.org/packages/f5/25/4991f4bef37b01368e06cda988181108fda8312bf6cdff12e141d0b13a80/wonder-sdk-0.1.9.tar.gz
+[2023-05-30 16:29:25] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-05-30 16:29:25] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.2.25122693446.tar.gz tmp/kodexa_cli-6.2.25122731405.tar.gz --markdown 20230530/k/kodexa-cli/6.2.25122693446-6.2.25122731405/diff.md --exclude *.pyd
+[2023-05-30 16:29:25] INFO root fetch - processPackages [wonder-sdk]: executing diffoscope
+[2023-05-30 16:29:25] INFO root fetch - processPackages [wonder-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-sdk-0.1.8.tar.gz tmp/wonder-sdk-0.1.9.tar.gz --markdown 20230530/w/wonder-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 16:29:25] INFO root fetch - processPackages [whisper-autosrt]: Start processing: hadoop-fs-wrapper
+[2023-05-30 16:29:25] INFO root fetch - main [MainThread]: End processing [whisper-autosrt]: success
+[2023-05-30 16:29:25] INFO root fetch - processPackages [python-ecobee-api]: Downloading https://files.pythonhosted.org/packages/ba/db/d8233626a96c7ea21d3aaac99ea576aed9fdc10e62611ded04846100f4c2/python-ecobee-api-0.2.8.tar.gz
+[2023-05-30 16:29:25] INFO root fetch - processPackages [hadoop-fs-wrapper]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-05-30 16:29:25] INFO root fetch - processPackages [adafruit-circuitpython-bmp280]: Start processing: assemblyline-service-client
+[2023-05-30 16:29:25] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-bmp280]: success
+[2023-05-30 16:29:25] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-30 16:29:25] INFO root fetch - processPackages [localstack-plugin-persistence]: Start processing: assemblyline-service-server
+[2023-05-30 16:29:25] INFO root fetch - main [MainThread]: End processing [localstack-plugin-persistence]: success
+[2023-05-30 16:29:25] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-30 16:29:25] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-05-30 16:29:25] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230530/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-30 16:29:25] INFO root fetch - processPackages [seqfold]: Start processing: assemblyline-ui
+[2023-05-30 16:29:25] INFO root fetch - main [MainThread]: End processing [seqfold]: success
+[2023-05-30 16:29:25] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-30 16:29:25] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-05-30 16:29:25] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230530/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-30 16:29:25] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-05-30 16:29:25] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230530/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-30 16:29:26] INFO root fetch - processPackages [kodexa-cli]: Start processing: assemblyline-v4-service
+[2023-05-30 16:29:26] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-05-30 16:29:26] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-30 16:29:26] INFO root fetch - processPackages [seqfold]: Start processing: assemblyline
+[2023-05-30 16:29:26] INFO root fetch - main [MainThread]: End processing [seqfold]: success
+[2023-05-30 16:29:26] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-30 16:29:26] INFO root fetch - processPackages [casaconfig]: Start processing: assemblyline-core
+[2023-05-30 16:29:26] INFO root fetch - main [MainThread]: End processing [casaconfig]: success
+[2023-05-30 16:29:26] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-30 16:29:26] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-05-30 16:29:26] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230530/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-30 16:29:26] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-05-30 16:29:26] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-05-30 16:29:26] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-05-30 16:29:26] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230530/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-30 16:29:26] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-05-30 16:29:26] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230530/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-30 16:29:27] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-05-30 16:29:27] INFO root fetch - main [MainThread]: End processing [wonder-sdk]: success
+[2023-05-30 16:29:27] INFO root fetch - processPackages [hadoop-fs-wrapper]: Downloading https://files.pythonhosted.org/packages/4f/1c/90928ce914b1d36fa5fe515b36af8e3193f153f4317d92dc42128b234231/hadoop_fs_wrapper-0.5.2.tar.gz
+[2023-05-30 16:29:27] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-05-30 16:29:27] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-05-30 16:29:28] INFO root fetch - processPackages [hadoop-fs-wrapper]: Downloading https://files.pythonhosted.org/packages/56/a1/a99515bbf1fe63edeb7e348a5a1b606103e9dd3b6f4932b835f8efbab857/hadoop_fs_wrapper-0.6.0.tar.gz
+[2023-05-30 16:29:28] INFO root fetch - processPackages [python-ecobee-api]: Downloading https://files.pythonhosted.org/packages/f3/be/8e5e0617cbcf0403b62259566c00f199b145251d3b8d5e8f68ef129c805f/python-ecobee-api-0.2.9.tar.gz
+[2023-05-30 16:29:28] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-05-30 16:29:28] INFO root fetch - processPackages [hadoop-fs-wrapper]: executing diffoscope
+[2023-05-30 16:29:28] INFO root fetch - processPackages [hadoop-fs-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hadoop_fs_wrapper-0.5.2.tar.gz tmp/hadoop_fs_wrapper-0.6.0.tar.gz --markdown 20230530/h/hadoop-fs-wrapper/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-05-30 16:29:28] INFO root fetch - processPackages [python-ecobee-api]: executing diffoscope
+[2023-05-30 16:29:28] INFO root fetch - processPackages [python-ecobee-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ecobee-api-0.2.8.tar.gz tmp/python-ecobee-api-0.2.9.tar.gz --markdown 20230530/p/python-ecobee-api/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 16:29:28] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-05-30 16:29:29] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-05-30 16:29:29] INFO root fetch - main [MainThread]: End processing [hadoop-fs-wrapper]: success
+[2023-05-30 16:29:29] INFO root fetch - main [MainThread]: End processing [python-ecobee-api]: success
+[2023-05-30 16:29:32] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-05-30 16:29:32] INFO root fetch - main [MainThread]: Store serial: [18303659]
