@@ -3862,3 +3862,55 @@
 [2023-05-30 04:05:38] INFO root fetch - main [MainThread]: End processing [pautobot]: success
 [2023-05-30 04:05:38] INFO root fetch - main [MainThread]: End processing [opender]: success
 [2023-05-30 04:05:38] INFO root fetch - main [MainThread]: Store serial: [18296889]
+[2023-05-30 04:10:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296889]
+[2023-05-30 04:10:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 04:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cartoonart
+[2023-05-30 04:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-provider
+[2023-05-30 04:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nopaths
+[2023-05-30 04:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mobio-dedupe-sdk-test
+[2023-05-30 04:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dhint
+[2023-05-30 04:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsutils-ms
+[2023-05-30 04:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metagene
+[2023-05-30 04:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: configzen
+[2023-05-30 04:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zrb
+[2023-05-30 04:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: asyncpeegee
+[2023-05-30 04:10:46] WARNING root fetch - processPackages [cartoonart]: Skipping, unable to determine old version
+[2023-05-30 04:10:46] INFO root fetch - main [MainThread]: End processing [cartoonart] error
+[2023-05-30 04:10:46] INFO root fetch - processPackages [dhint]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-30 04:10:46] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 04:10:46] WARNING root fetch - processPackages [dsutils-ms]: Skipping, unable to determine old version
+[2023-05-30 04:10:46] INFO root fetch - main [MainThread]: End processing [dsutils-ms] error
+[2023-05-30 04:10:46] INFO root fetch - processPackages [my-provider]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 04:10:46] INFO root fetch - processPackages [nopaths]: New version: [3] Old Version: [2]
+[2023-05-30 04:10:46] INFO root fetch - processPackages [configzen]: New version: [0.1.47] Old Version: [0.1.46]
+[2023-05-30 04:10:46] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 04:10:46] INFO root fetch - processPackages [metagene]: New version: [0.0.0.dev6] Old Version: [0.0.0.dev4]
+[2023-05-30 04:10:47] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-05-30 04:10:47] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.8.tar.gz tmp/mobio-dedupe-sdk-test-1.0.9.tar.gz --markdown 20230530/m/mobio-dedupe-sdk-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 04:10:47] INFO root fetch - processPackages [my-provider]: executing diffoscope
+[2023-05-30 04:10:47] INFO root fetch - processPackages [my-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-provider-0.1.8.tar.gz tmp/my-provider-0.1.9.tar.gz --markdown 20230530/m/my-provider/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 04:10:47] WARNING root fetch - processPackages [asyncpeegee]: Skipping, unable to determine old version
+[2023-05-30 04:10:47] INFO root fetch - main [MainThread]: End processing [asyncpeegee] error
+[2023-05-30 04:10:47] INFO root fetch - processPackages [metagene]: Downloading https://files.pythonhosted.org/packages/26/13/c80e613febfe385f7ac97a4bd830d3c19b2893e4b22fbad21db203e386f4/metagene-0.0.0.dev4.tar.gz
+[2023-05-30 04:10:47] INFO root fetch - processPackages [dhint]: Downloading https://files.pythonhosted.org/packages/87/aa/f3462ea3b114de5705a83150aecfe47cb299a623e4632e215d2fa2aa598f/dhint-0.0.7.tar.gz
+[2023-05-30 04:10:47] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/ae/dc/622f9de466fe910807586242c27a7465ef070a7bff25b203ae99d35919c1/configzen-0.1.47.tar.gz
+[2023-05-30 04:10:47] INFO root fetch - processPackages [dhint]: executing diffoscope
+[2023-05-30 04:10:47] INFO root fetch - processPackages [dhint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhint-0.0.6.tar.gz tmp/dhint-0.0.7.tar.gz --markdown 20230530/d/dhint/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-30 04:10:47] INFO root fetch - processPackages [nopaths]: Downloading https://files.pythonhosted.org/packages/ad/d1/8400f3a983488799a03ce18e97bee79d8df76407adc72af88b10c3bb4a8f/nopaths-3.tar.gz
+[2023-05-30 04:10:47] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-05-30 04:10:47] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.1.46.tar.gz tmp/configzen-0.1.47.tar.gz --markdown 20230530/c/configzen/0.1.46-0.1.47/diff.md --exclude *.pyd
+[2023-05-30 04:10:47] INFO root fetch - processPackages [nopaths]: executing diffoscope
+[2023-05-30 04:10:47] INFO root fetch - processPackages [nopaths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopaths-2.tar.gz tmp/nopaths-3.tar.gz --markdown 20230530/n/nopaths/2-3/diff.md --exclude *.pyd
+[2023-05-30 04:10:47] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-05-30 04:10:47] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230530/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 04:10:48] INFO root fetch - main [MainThread]: End processing [my-provider]: success
+[2023-05-30 04:10:48] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-05-30 04:10:48] INFO root fetch - main [MainThread]: End processing [dhint]: success
+[2023-05-30 04:10:48] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-05-30 04:10:49] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-05-30 04:10:49] INFO root fetch - main [MainThread]: End processing [nopaths]: success
+[2023-05-30 04:10:49] INFO root fetch - processPackages [metagene]: Downloading https://files.pythonhosted.org/packages/0b/86/4646d6cd8281769f29c72feec111268b8d92cc4e5ac79952f5fbc10cf5cd/metagene-0.0.0.dev6.tar.gz
+[2023-05-30 04:10:50] INFO root fetch - processPackages [metagene]: executing diffoscope
+[2023-05-30 04:10:50] INFO root fetch - processPackages [metagene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metagene-0.0.0.dev4.tar.gz tmp/metagene-0.0.0.dev6.tar.gz --markdown 20230530/m/metagene/0.0.0.dev4-0.0.0.dev6/diff.md --exclude *.pyd
+[2023-05-30 04:10:52] INFO root fetch - main [MainThread]: End processing [metagene]: success
+[2023-05-30 04:10:52] INFO root fetch - main [MainThread]: Store serial: [18296954]
