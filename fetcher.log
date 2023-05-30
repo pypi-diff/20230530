@@ -6513,3 +6513,28 @@
 [2023-05-30 08:26:11] INFO root fetch - main [MainThread]: End processing [hyperreal]: success
 [2023-05-30 08:26:17] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-05-30 08:26:17] INFO root fetch - main [MainThread]: Store serial: [18298372]
+[2023-05-30 08:31:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298372]
+[2023-05-30 08:31:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-30 08:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rqdatac
+[2023-05-30 08:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MeUtils
+[2023-05-30 08:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hkkang-utils
+[2023-05-30 08:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2023-05-30 08:31:25] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.94] Old Version: [0.1.93]
+[2023-05-30 08:31:25] INFO root fetch - processPackages [policyengine-us]: New version: [0.329.4] Old Version: [0.329.3]
+[2023-05-30 08:31:25] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.9.15.50.17] Old Version: [2023.5.5.13.0.43]
+[2023-05-30 08:31:25] INFO root fetch - processPackages [rqdatac]: New version: [2.9.8] Old Version: [2.9.7]
+[2023-05-30 08:31:25] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-30 08:31:25] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.5.13.0.43.tar.gz tmp/MeUtils-2023.5.9.15.50.17.tar.gz --markdown 20230530/M/MeUtils/2023.5.5.13.0.43-2023.5.9.15.50.17/diff.md --exclude *.pyd
+[2023-05-30 08:31:25] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/9e/4a/76d8248c179803208b17f28744073fad3c1cfa83d6e41a3540dfdab904c3/hkkang_utils-0.1.94.tar.gz
+[2023-05-30 08:31:25] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-05-30 08:31:25] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.93.tar.gz tmp/hkkang_utils-0.1.94.tar.gz --markdown 20230530/h/hkkang-utils/0.1.93-0.1.94/diff.md --exclude *.pyd
+[2023-05-30 08:31:26] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/03/07/3497e22154fcf77c0bcb9da2eff18a3900f617e35a44116ab79cfe1bd252/policyengine-us-0.329.4.tar.gz
+[2023-05-30 08:31:26] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-05-30 08:31:26] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.329.3.tar.gz tmp/policyengine-us-0.329.4.tar.gz --markdown 20230530/p/policyengine-us/0.329.3-0.329.4/diff.md --exclude *.pyd
+[2023-05-30 08:31:26] INFO root fetch - processPackages [rqdatac]: executing diffoscope
+[2023-05-30 08:31:26] INFO root fetch - processPackages [rqdatac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqdatac-2.9.7-cp38-cp38-win_amd64.whl.zip tmp/rqdatac-2.9.8-cp38-cp38-win_amd64.whl.zip --markdown 20230530/r/rqdatac/2.9.7-2.9.8/diff.md --exclude *.pyd
+[2023-05-30 08:31:27] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-05-30 08:31:27] INFO root fetch - main [MainThread]: End processing [rqdatac]: success
+[2023-05-30 08:31:31] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-30 08:32:44] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-05-30 08:32:44] INFO root fetch - main [MainThread]: Store serial: [18298406]
