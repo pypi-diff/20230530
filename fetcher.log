@@ -19460,3 +19460,41 @@ EOFError: EOF read where object expected
 
 [2023-05-30 20:36:43] INFO root fetch - main [MainThread]: End processing [agilicus] error
 [2023-05-30 20:36:43] INFO root fetch - main [MainThread]: Store serial: [18306246]
+[2023-05-30 20:41:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18306246]
+[2023-05-30 20:41:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-30 20:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finqual
+[2023-05-30 20:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngrad
+[2023-05-30 20:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crc-bonfire
+[2023-05-30 20:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scenario-gym
+[2023-05-30 20:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discobump
+[2023-05-30 20:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linode-api4
+[2023-05-30 20:41:52] INFO root fetch - processPackages [finqual]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-30 20:41:52] WARNING root fetch - processPackages [discobump]: Skipping, unable to determine old version
+[2023-05-30 20:41:52] INFO root fetch - processPackages [scenario-gym]: New version: [0.4b2] Old Version: [0.4b1]
+[2023-05-30 20:41:52] INFO root fetch - main [MainThread]: End processing [discobump] error
+[2023-05-30 20:41:52] INFO root fetch - processPackages [ngrad]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-30 20:41:52] INFO root fetch - processPackages [crc-bonfire]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-30 20:41:52] INFO root fetch - processPackages [linode-api4]: New version: [5.5.0] Old Version: [5.4.1]
+[2023-05-30 20:41:52] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/c3/68/40514243b7593df54e4886d438d4a73beb3698f24f9c07f8cdc7838c315b/finqual-0.1.5.tar.gz
+[2023-05-30 20:41:52] INFO root fetch - processPackages [ngrad]: Downloading https://files.pythonhosted.org/packages/82/2d/959021392948e60bec9d27dac0c4439e59d6abbff8b792a4beaf2702ccb5/ngrad-1.0.0.tar.gz
+[2023-05-30 20:41:52] INFO root fetch - processPackages [scenario-gym]: Downloading https://files.pythonhosted.org/packages/24/71/69abb2b109b183b5ae4d908f779f8c4c0a4e62dbdfdbfcb733c9b3219e06/scenario_gym-0.4b1.tar.gz
+[2023-05-30 20:41:53] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/e0/d8/c31ed794744096ed1ae223b9640f9490120f76a4461f3ac921854d4e5e8c/finqual-0.1.6.tar.gz
+[2023-05-30 20:41:53] INFO root fetch - processPackages [crc-bonfire]: executing diffoscope
+[2023-05-30 20:41:53] INFO root fetch - processPackages [crc-bonfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crc-bonfire-4.9.1.tar.gz tmp/crc-bonfire-4.9.2.tar.gz --markdown 20230530/c/crc-bonfire/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-30 20:41:53] INFO root fetch - processPackages [linode-api4]: Downloading https://files.pythonhosted.org/packages/bc/e4/cfdb1fb50055d8abbdd3d4853aee6def665dbc2817bba9912cf307f8efa4/linode_api4-5.5.0.tar.gz
+[2023-05-30 20:41:53] INFO root fetch - processPackages [finqual]: executing diffoscope
+[2023-05-30 20:41:53] INFO root fetch - processPackages [finqual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finqual-0.1.5.tar.gz tmp/finqual-0.1.6.tar.gz --markdown 20230530/f/finqual/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-30 20:41:53] INFO root fetch - processPackages [ngrad]: Downloading https://files.pythonhosted.org/packages/87/fb/eb4ac5b5264838acd49c74be5be29c1ed338b35830bc5258fe8ca5bcd20f/ngrad-1.0.1.tar.gz
+[2023-05-30 20:41:53] INFO root fetch - processPackages [scenario-gym]: Downloading https://files.pythonhosted.org/packages/fe/d4/5ba9e086c5ce3016a8d0cb12852f2e5e4d125bd72a383ba8608a42fa09fa/scenario_gym-0.4b2.tar.gz
+[2023-05-30 20:41:53] INFO root fetch - processPackages [linode-api4]: executing diffoscope
+[2023-05-30 20:41:53] INFO root fetch - processPackages [linode-api4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linode_api4-5.4.1.tar.gz tmp/linode_api4-5.5.0.tar.gz --markdown 20230530/l/linode-api4/5.4.1-5.5.0/diff.md --exclude *.pyd
+[2023-05-30 20:41:53] INFO root fetch - processPackages [ngrad]: executing diffoscope
+[2023-05-30 20:41:53] INFO root fetch - processPackages [ngrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngrad-1.0.0.tar.gz tmp/ngrad-1.0.1.tar.gz --markdown 20230530/n/ngrad/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 20:41:53] INFO root fetch - processPackages [scenario-gym]: executing diffoscope
+[2023-05-30 20:41:53] INFO root fetch - processPackages [scenario-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenario_gym-0.4b1.tar.gz tmp/scenario_gym-0.4b2.tar.gz --markdown 20230530/s/scenario-gym/0.4b1-0.4b2/diff.md --exclude *.pyd
+[2023-05-30 20:41:54] INFO root fetch - main [MainThread]: End processing [finqual]: success
+[2023-05-30 20:41:54] INFO root fetch - main [MainThread]: End processing [ngrad]: success
+[2023-05-30 20:41:54] INFO root fetch - main [MainThread]: End processing [crc-bonfire]: success
+[2023-05-30 20:41:55] INFO root fetch - main [MainThread]: End processing [scenario-gym]: success
+[2023-05-30 20:41:55] INFO root fetch - main [MainThread]: End processing [linode-api4]: success
+[2023-05-30 20:41:55] INFO root fetch - main [MainThread]: Store serial: [18306267]
