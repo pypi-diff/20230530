@@ -19699,3 +19699,144 @@ EOFError: EOF read where object expected
 [2023-05-30 20:58:24] INFO root fetch - main [MainThread]: End processing [realnet]: success
 [2023-05-30 20:58:26] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-30 20:58:26] INFO root fetch - main [MainThread]: Store serial: [18306399]
+[2023-05-30 21:03:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18306399]
+[2023-05-30 21:03:36] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-30 21:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discobump
+[2023-05-30 21:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-theme-academy
+[2023-05-30 21:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-organization-python
+[2023-05-30 21:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-bank-python
+[2023-05-30 21:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ZenithLib
+[2023-05-30 21:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-id-python
+[2023-05-30 21:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: checksum16
+[2023-05-30 21:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uh-custom-logger
+[2023-05-30 21:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openllm
+[2023-05-30 21:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ZenithLib
+[2023-05-30 21:03:36] INFO root fetch - processPackages [ZenithLib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 21:03:36] INFO root fetch - processPackages [ZenithLib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 21:03:36] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 21:03:36] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 21:03:36] INFO root fetch - processPackages [discobump]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 21:03:36] INFO root fetch - processPackages [django-theme-academy]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-30 21:03:36] WARNING root fetch - processPackages [uh-custom-logger]: Skipping, unable to determine old version
+[2023-05-30 21:03:36] INFO root fetch - processPackages [openllm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 21:03:36] INFO root fetch - processPackages [uh-custom-logger]: Start processing: wraith
+[2023-05-30 21:03:36] INFO root fetch - processPackages [checksum16]: New version: [1.1.1] Old Version: [1.1]
+[2023-05-30 21:03:36] INFO root fetch - main [MainThread]: End processing [uh-custom-logger] error
+[2023-05-30 21:03:36] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 21:03:36] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-30 21:03:36] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230530/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 21:03:36] INFO root fetch - processPackages [ZenithLib]: Downloading https://files.pythonhosted.org/packages/83/77/aeb83151a16d175b8fd75b84ed5f1281f08467c95ec39e8261874f447f0c/zenithlib-0.0.1.tar.gz
+[2023-05-30 21:03:36] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-30 21:03:36] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230530/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 21:03:36] INFO root fetch - processPackages [ZenithLib]: Downloading https://files.pythonhosted.org/packages/83/77/aeb83151a16d175b8fd75b84ed5f1281f08467c95ec39e8261874f447f0c/zenithlib-0.0.1.tar.gz
+[2023-05-30 21:03:36] WARNING root fetch - processPackages [wraith]: Skipping, unable to determine old version
+[2023-05-30 21:03:36] INFO root fetch - processPackages [wraith]: Start processing: first-breaks-picking
+[2023-05-30 21:03:36] INFO root fetch - main [MainThread]: End processing [wraith] error
+[2023-05-30 21:03:36] INFO root fetch - processPackages [discobump]: Downloading https://files.pythonhosted.org/packages/e7/1e/ffc4f559d07a37159646d0988bd3fd78fecde40c2109592d55bd98398715/discobump-0.0.1.tar.gz
+[2023-05-30 21:03:36] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/36/cd/20848bcb4c9b68c31a099ce94b6edef3d995143454f89cbb9db8e7b7c99f/openllm-0.0.8.tar.gz
+[2023-05-30 21:03:36] WARNING root fetch - processPackages [openllm]: Skipping package: exceeds size limit 11989091>=10485760
+[2023-05-30 21:03:36] INFO root fetch - processPackages [openllm]: Start processing: pagidantic
+[2023-05-30 21:03:36] INFO root fetch - main [MainThread]: End processing [openllm] error
+[2023-05-30 21:03:36] INFO root fetch - processPackages [checksum16]: Downloading https://files.pythonhosted.org/packages/b8/7b/8c91d11cc7df4611ef943f112fd226ca5b6183b9025ea35d696802d3665c/checksum16-1.1.tar.gz
+[2023-05-30 21:03:37] WARNING root fetch - processPackages [first-breaks-picking]: Skipping, unable to determine old version
+[2023-05-30 21:03:37] INFO root fetch - processPackages [first-breaks-picking]: Start processing: ZenithLib
+[2023-05-30 21:03:37] INFO root fetch - main [MainThread]: End processing [first-breaks-picking] error
+[2023-05-30 21:03:37] INFO root fetch - processPackages [ZenithLib]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-30 21:03:37] INFO root fetch - processPackages [django-theme-academy]: Downloading https://files.pythonhosted.org/packages/01/09/5c78740a1cd0edd05f862a358e756cb3002d344a60df103c3445943b431b/django-theme-academy-0.3.8.tar.gz
+[2023-05-30 21:03:37] INFO root fetch - processPackages [ZenithLib]: Downloading https://files.pythonhosted.org/packages/08/70/8937425e3d6a5692ad5d3079c47cf01df059f278e3d9bb2a2bcc9a902439/zenithlib-0.0.2.tar.gz
+[2023-05-30 21:03:37] INFO root fetch - processPackages [ZenithLib]: Downloading https://files.pythonhosted.org/packages/08/70/8937425e3d6a5692ad5d3079c47cf01df059f278e3d9bb2a2bcc9a902439/zenithlib-0.0.2.tar.gz
+[2023-05-30 21:03:37] INFO root fetch - processPackages [pagidantic]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-30 21:03:37] INFO root fetch - processPackages [discobump]: Downloading https://files.pythonhosted.org/packages/b1/2e/20f031ac8125c9ebc1aece9378189f5edfb253e4f57d50b75f505f1255f2/discobump-0.0.2.tar.gz
+[2023-05-30 21:03:37] INFO root fetch - processPackages [ZenithLib]: Downloading https://files.pythonhosted.org/packages/ee/de/36a9702beb0601655d2de5334213ca527f3fec37f0c610076bd5982db358/zenithlib-0.0.4.tar.gz
+[2023-05-30 21:03:37] INFO root fetch - processPackages [ZenithLib]: executing diffoscope
+[2023-05-30 21:03:37] INFO root fetch - processPackages [ZenithLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenithlib-0.0.1.tar.gz tmp/zenithlib-0.0.2.tar.gz --markdown 20230530/Z/ZenithLib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 21:03:37] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-30 21:03:37] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230530/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 21:03:37] INFO root fetch - processPackages [ZenithLib]: executing diffoscope
+[2023-05-30 21:03:37] INFO root fetch - processPackages [ZenithLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenithlib-0.0.1.tar.gz tmp/zenithlib-0.0.2.tar.gz --markdown 20230530/Z/ZenithLib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 21:03:37] INFO root fetch - processPackages [pagidantic]: Downloading https://files.pythonhosted.org/packages/85/4e/a1a679519c8ff5b7e40f63a1f1eea2fe14e02ec1f2be4d1b753b1bf4f1d9/pagidantic-1.0.0.tar.gz
+[2023-05-30 21:03:37] INFO root fetch - processPackages [django-theme-academy]: executing diffoscope
+[2023-05-30 21:03:37] INFO root fetch - processPackages [django-theme-academy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-theme-academy-0.3.7.tar.gz tmp/django-theme-academy-0.3.8.tar.gz --markdown 20230530/d/django-theme-academy/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-30 21:03:37] INFO root fetch - processPackages [checksum16]: Downloading https://files.pythonhosted.org/packages/04/a7/75fa17d5e5acf32a4ae8b791e4a14e7b9e9f1e42da6fad61f6bf00eadda1/checksum16-1.1.1.tar.gz
+[2023-05-30 21:03:37] INFO root fetch - processPackages [discobump]: executing diffoscope
+[2023-05-30 21:03:37] INFO root fetch - processPackages [discobump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discobump-0.0.1.tar.gz tmp/discobump-0.0.2.tar.gz --markdown 20230530/d/discobump/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 21:03:37] INFO root fetch - processPackages [ZenithLib]: Downloading https://files.pythonhosted.org/packages/83/1c/184ad7c91d703fa0d34fc94f187bfd05935859e6cbb360228a2815234309/zenithlib-0.0.5.tar.gz
+[2023-05-30 21:03:37] INFO root fetch - processPackages [checksum16]: executing diffoscope
+[2023-05-30 21:03:37] INFO root fetch - processPackages [checksum16]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checksum16-1.1.tar.gz tmp/checksum16-1.1.1.tar.gz --markdown 20230530/c/checksum16/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-05-30 21:03:37] INFO root fetch - processPackages [ZenithLib]: executing diffoscope
+[2023-05-30 21:03:37] INFO root fetch - processPackages [ZenithLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenithlib-0.0.4.tar.gz tmp/zenithlib-0.0.5.tar.gz --markdown 20230530/Z/ZenithLib/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 21:03:37] INFO root fetch - processPackages [pagidantic]: Downloading https://files.pythonhosted.org/packages/49/60/25ce6ddbf43dd9123f03332c8f0244891a2f335e04c2fed5e26d2f53ddbe/pagidantic-1.1.0.tar.gz
+[2023-05-30 21:03:37] INFO root fetch - processPackages [pagidantic]: executing diffoscope
+[2023-05-30 21:03:37] INFO root fetch - processPackages [pagidantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pagidantic-1.0.0.tar.gz tmp/pagidantic-1.1.0.tar.gz --markdown 20230530/p/pagidantic/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 21:03:38] INFO root fetch - processPackages [ZenithLib]: Start processing: ossr-utils
+[2023-05-30 21:03:38] INFO root fetch - main [MainThread]: End processing [ZenithLib]: success
+[2023-05-30 21:03:38] INFO root fetch - processPackages [ossr-utils]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 21:03:38] INFO root fetch - processPackages [ZenithLib]: Start processing: designer2
+[2023-05-30 21:03:38] INFO root fetch - main [MainThread]: End processing [ZenithLib]: success
+[2023-05-30 21:03:38] INFO root fetch - processPackages [designer2]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 21:03:38] INFO root fetch - processPackages [ossr-utils]: Downloading https://files.pythonhosted.org/packages/9c/09/37f2807c6f062d22b1d64a0836745ba48935fa777229837b0a98b321413c/ossr_utils-0.1.3.tar.gz
+[2023-05-30 21:03:39] INFO root fetch - processPackages [designer2]: Downloading https://files.pythonhosted.org/packages/b6/ab/50b39c9b1222fe9496fd0edd02a13a1ef08a0bf95ce44f773ab42ced32fd/designer2-0.0.8.tar.gz
+[2023-05-30 21:03:39] WARNING root fetch - processPackages [designer2]: Skipping package: exceeds size limit 16708132>=10485760
+[2023-05-30 21:03:39] INFO root fetch - processPackages [designer2]: Start processing: discordlevelingcard
+[2023-05-30 21:03:39] INFO root fetch - main [MainThread]: End processing [designer2] error
+[2023-05-30 21:03:39] INFO root fetch - processPackages [ossr-utils]: Downloading https://files.pythonhosted.org/packages/b7/0b/f597988fbbecf3189642b880a5e6298e463bb41f28871fa1b7ffc0e1cefb/ossr_utils-0.1.4.tar.gz
+[2023-05-30 21:03:39] INFO root fetch - processPackages [discobump]: Start processing: sorcerun
+[2023-05-30 21:03:39] INFO root fetch - main [MainThread]: End processing [discobump]: success
+[2023-05-30 21:03:39] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: cheminftools
+[2023-05-30 21:03:39] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-30 21:03:39] INFO root fetch - processPackages [discordlevelingcard]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-30 21:03:39] INFO root fetch - processPackages [sorcerun]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-30 21:03:39] INFO root fetch - processPackages [ossr-utils]: executing diffoscope
+[2023-05-30 21:03:39] INFO root fetch - processPackages [ossr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ossr_utils-0.1.3.tar.gz tmp/ossr_utils-0.1.4.tar.gz --markdown 20230530/o/ossr-utils/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 21:03:39] INFO root fetch - processPackages [checksum16]: Start processing: openllm
+[2023-05-30 21:03:39] INFO root fetch - main [MainThread]: End processing [checksum16]: success
+[2023-05-30 21:03:39] INFO root fetch - processPackages [openllm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 21:03:39] WARNING root fetch - processPackages [cheminftools]: Skipping, unable to determine old version
+[2023-05-30 21:03:39] INFO root fetch - processPackages [cheminftools]: Start processing: podsearchmp
+[2023-05-30 21:03:39] INFO root fetch - main [MainThread]: End processing [cheminftools] error
+[2023-05-30 21:03:39] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/36/cd/20848bcb4c9b68c31a099ce94b6edef3d995143454f89cbb9db8e7b7c99f/openllm-0.0.8.tar.gz
+[2023-05-30 21:03:39] WARNING root fetch - processPackages [openllm]: Skipping package: exceeds size limit 11989091>=10485760
+[2023-05-30 21:03:39] INFO root fetch - processPackages [openllm]: Start processing: checksum16
+[2023-05-30 21:03:39] INFO root fetch - main [MainThread]: End processing [openllm] error
+[2023-05-30 21:03:39] WARNING root fetch - processPackages [podsearchmp]: Skipping, unable to determine old version
+[2023-05-30 21:03:39] INFO root fetch - processPackages [podsearchmp]: Start processing: sphinxcontrib-video
+[2023-05-30 21:03:39] INFO root fetch - main [MainThread]: End processing [podsearchmp] error
+[2023-05-30 21:03:39] INFO root fetch - processPackages [ZenithLib]: Start processing: django-jwt-oidc
+[2023-05-30 21:03:39] INFO root fetch - main [MainThread]: End processing [ZenithLib]: success
+[2023-05-30 21:03:39] INFO root fetch - processPackages [checksum16]: New version: [1.1.1] Old Version: [1.1]
+[2023-05-30 21:03:39] INFO root fetch - processPackages [discordlevelingcard]: Downloading https://files.pythonhosted.org/packages/c3/4c/410fc5ded7a7f192c5be0f704e45b25d09348a58c6d143b1b397e38fa364/discordlevelingcard-0.5.6.tar.gz
+[2023-05-30 21:03:39] INFO root fetch - processPackages [sphinxcontrib-video]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-30 21:03:39] INFO root fetch - processPackages [checksum16]: executing diffoscope
+[2023-05-30 21:03:39] INFO root fetch - processPackages [checksum16]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checksum16-1.1.tar.gz tmp/checksum16-1.1.1.tar.gz --markdown 20230530/c/checksum16/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-05-30 21:03:39] INFO root fetch - processPackages [django-jwt-oidc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 21:03:39] INFO root fetch - processPackages [sorcerun]: Downloading https://files.pythonhosted.org/packages/b2/79/e198543e464b20d5f4b7f8daf87a137f706c0abc2b3ceaca66fdb5139248/sorcerun-0.2.5.tar.gz
+[2023-05-30 21:03:39] INFO root fetch - processPackages [discordlevelingcard]: executing diffoscope
+[2023-05-30 21:03:39] INFO root fetch - processPackages [discordlevelingcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordlevelingcard-0.5.5.tar.gz tmp/discordlevelingcard-0.5.6.tar.gz --markdown 20230530/d/discordlevelingcard/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-30 21:03:39] INFO root fetch - processPackages [sorcerun]: executing diffoscope
+[2023-05-30 21:03:39] INFO root fetch - processPackages [sorcerun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sorcerun-0.2.4.tar.gz tmp/sorcerun-0.2.5.tar.gz --markdown 20230530/s/sorcerun/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-30 21:03:39] INFO root fetch - processPackages [pagidantic]: Start processing: in-toto-attestation
+[2023-05-30 21:03:39] INFO root fetch - main [MainThread]: End processing [pagidantic]: success
+[2023-05-30 21:03:39] INFO root fetch - processPackages [django-jwt-oidc]: Downloading https://files.pythonhosted.org/packages/eb/a3/e19a4b193636043452faa1d7d5a3864910ee421ba52eb54bd2e225d325e0/django-jwt-oidc-1.0.8.tar.gz
+[2023-05-30 21:03:39] INFO root fetch - processPackages [sphinxcontrib-video]: Downloading https://files.pythonhosted.org/packages/0f/a2/96601fd349617df1ef30437acdd3d6c7297d089e399200e2e8b602c7ea65/sphinxcontrib-video-0.1.1.tar.gz
+[2023-05-30 21:03:39] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-30 21:03:39] INFO root fetch - processPackages [in-toto-attestation]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-30 21:03:40] INFO root fetch - main [MainThread]: End processing [django-theme-academy]: success
+[2023-05-30 21:03:40] INFO root fetch - processPackages [sphinxcontrib-video]: Downloading https://files.pythonhosted.org/packages/77/34/aad35da2cdb4e7b438fd5e3c132ff0d121ab530a5118431b3bc9be04a6d1/sphinxcontrib-video-0.2.0.tar.gz
+[2023-05-30 21:03:40] INFO root fetch - processPackages [in-toto-attestation]: Downloading https://files.pythonhosted.org/packages/06/db/47bf25d79af0be4905b610061546ffba4061a27237f837a9f424dcd89ba8/in_toto_attestation-0.9.0.tar.gz
+[2023-05-30 21:03:40] INFO root fetch - processPackages [django-jwt-oidc]: Downloading https://files.pythonhosted.org/packages/7a/05/847c2a94eb2b7d579e11fa893ae107046dae0ff31f59a118e634247f63c4/django-jwt-oidc-1.0.9.tar.gz
+[2023-05-30 21:03:40] INFO root fetch - processPackages [sphinxcontrib-video]: executing diffoscope
+[2023-05-30 21:03:40] INFO root fetch - processPackages [sphinxcontrib-video]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-video-0.1.1.tar.gz tmp/sphinxcontrib-video-0.2.0.tar.gz --markdown 20230530/s/sphinxcontrib-video/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 21:03:40] INFO root fetch - processPackages [django-jwt-oidc]: executing diffoscope
+[2023-05-30 21:03:40] INFO root fetch - processPackages [django-jwt-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jwt-oidc-1.0.8.tar.gz tmp/django-jwt-oidc-1.0.9.tar.gz --markdown 20230530/d/django-jwt-oidc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 21:03:40] INFO root fetch - processPackages [in-toto-attestation]: Downloading https://files.pythonhosted.org/packages/f3/45/8846d89c8c1dd782c7f871962a7e9fd2a6ebe8bbba4b09ebeddf0343f6f2/in_toto_attestation-0.9.1.tar.gz
+[2023-05-30 21:03:40] INFO root fetch - processPackages [in-toto-attestation]: executing diffoscope
+[2023-05-30 21:03:40] INFO root fetch - processPackages [in-toto-attestation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/in_toto_attestation-0.9.0.tar.gz tmp/in_toto_attestation-0.9.1.tar.gz --markdown 20230530/i/in-toto-attestation/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-30 21:03:41] INFO root fetch - main [MainThread]: End processing [ossr-utils]: success
+[2023-05-30 21:03:41] INFO root fetch - main [MainThread]: End processing [checksum16]: success
+[2023-05-30 21:03:41] INFO root fetch - main [MainThread]: End processing [sorcerun]: success
+[2023-05-30 21:03:41] INFO root fetch - main [MainThread]: End processing [discordlevelingcard]: success
+[2023-05-30 21:03:41] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-video]: success
+[2023-05-30 21:03:42] INFO root fetch - main [MainThread]: End processing [in-toto-attestation]: success
+[2023-05-30 21:03:42] INFO root fetch - main [MainThread]: End processing [django-jwt-oidc]: success
+[2023-05-30 21:03:42] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-30 21:03:42] INFO root fetch - main [MainThread]: Store serial: [18306487]
