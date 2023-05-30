@@ -5853,3 +5853,42 @@
 [2023-05-30 07:17:56] INFO root fetch - main [MainThread]: End processing [FlyBrainLab]: success
 [2023-05-30 07:17:57] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-05-30 07:17:57] INFO root fetch - main [MainThread]: Store serial: [18298054]
+[2023-05-30 07:23:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298054]
+[2023-05-30 07:23:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-30 07:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jxdb
+[2023-05-30 07:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fossiler
+[2023-05-30 07:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-stock-request
+[2023-05-30 07:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gisting
+[2023-05-30 07:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reification
+[2023-05-30 07:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addons-oca-stock-logistics-warehouse
+[2023-05-30 07:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfsd
+[2023-05-30 07:23:06] INFO root fetch - processPackages [odoo14-addon-stock-request]: New version: [14.0.1.6.1.dev2] Old Version: [14.0.1.6.1.dev1]
+[2023-05-30 07:23:06] WARNING root fetch - processPackages [jxdb]: Skipping, unable to determine old version
+[2023-05-30 07:23:06] INFO root fetch - main [MainThread]: End processing [jxdb] error
+[2023-05-30 07:23:06] INFO root fetch - processPackages [gisting]: New version: [1.3.4] Old Version: [1.3.1]
+[2023-05-30 07:23:06] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: New version: [14.0.20230529.0] Old Version: [14.0.20230425.0]
+[2023-05-30 07:23:06] WARNING root fetch - processPackages [reification]: Skipping, unable to determine old version
+[2023-05-30 07:23:06] INFO root fetch - main [MainThread]: End processing [reification] error
+[2023-05-30 07:23:06] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 07:23:06] INFO root fetch - processPackages [fossiler]: New version: [0.0.4.3] Old Version: [0.0.4.2]
+[2023-05-30 07:23:06] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-05-30 07:23:06] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230530/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 07:23:06] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/59/66/4bd1cab445ce7bce27fd91f4f29ba8be736a672dcc36ab60d29ae53d5ed0/odoo14_addons_oca_stock_logistics_warehouse-14.0.20230425.0-py3-none-any.whl
+[2023-05-30 07:23:06] INFO root fetch - processPackages [fossiler]: Downloading https://files.pythonhosted.org/packages/59/f7/0438652e7a837cd6307c21836e387da22f4ff6392f6b7136ff4cfd9f903c/fossiler-0.0.4.3.tar.gz
+[2023-05-30 07:23:06] INFO root fetch - processPackages [gisting]: Downloading https://files.pythonhosted.org/packages/b8/d4/14d7a220973917d2923be6ab1055e20e733d2c82db9a202be43b389f0712/gisting-1.3.4.tar.gz
+[2023-05-30 07:23:06] INFO root fetch - processPackages [odoo14-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/01/2e/ab8b4889f17093d476eae725d19adcad94a9e068f14a3e3eb67ce0981131/odoo14_addon_stock_request-14.0.1.6.1.dev2-py3-none-any.whl
+[2023-05-30 07:23:06] INFO root fetch - processPackages [fossiler]: executing diffoscope
+[2023-05-30 07:23:06] INFO root fetch - processPackages [fossiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fossiler-0.0.4.2.tar.gz tmp/fossiler-0.0.4.3.tar.gz --markdown 20230530/f/fossiler/0.0.4.2-0.0.4.3/diff.md --exclude *.pyd
+[2023-05-30 07:23:06] INFO root fetch - processPackages [odoo14-addon-stock-request]: executing diffoscope
+[2023-05-30 07:23:06] INFO root fetch - processPackages [odoo14-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_request-14.0.1.6.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_stock_request-14.0.1.6.1.dev2-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-stock-request/14.0.1.6.1.dev1-14.0.1.6.1.dev2/diff.md --exclude *.pyd
+[2023-05-30 07:23:06] INFO root fetch - processPackages [gisting]: executing diffoscope
+[2023-05-30 07:23:06] INFO root fetch - processPackages [gisting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gisting-1.3.1.tar.gz tmp/gisting-1.3.4.tar.gz --markdown 20230530/g/gisting/1.3.1-1.3.4/diff.md --exclude *.pyd
+[2023-05-30 07:23:06] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/4c/b8/92ab3820dc9ba57d7384833e08a439c18199c5a826f4afcccd045f02bc77/odoo14_addons_oca_stock_logistics_warehouse-14.0.20230529.0-py3-none-any.whl
+[2023-05-30 07:23:06] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: executing diffoscope
+[2023-05-30 07:23:06] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_stock_logistics_warehouse-14.0.20230425.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_stock_logistics_warehouse-14.0.20230529.0-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addons-oca-stock-logistics-warehouse/14.0.20230425.0-14.0.20230529.0/diff.md --exclude *.pyd
+[2023-05-30 07:23:08] INFO root fetch - main [MainThread]: End processing [gisting]: success
+[2023-05-30 07:23:08] INFO root fetch - main [MainThread]: End processing [fossiler]: success
+[2023-05-30 07:23:08] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-05-30 07:23:08] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-stock-logistics-warehouse]: success
+[2023-05-30 07:23:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request]: success
+[2023-05-30 07:23:08] INFO root fetch - main [MainThread]: Store serial: [18298071]
