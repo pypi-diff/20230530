@@ -11426,3 +11426,58 @@
 [2023-05-30 13:26:30] INFO root fetch - main [MainThread]: End processing [sdkmanager]: success
 [2023-05-30 13:27:10] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-30 13:27:10] INFO root fetch - main [MainThread]: Store serial: [18301343]
+[2023-05-30 13:32:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18301343]
+[2023-05-30 13:32:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchrec-nightly
+[2023-05-30 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-demo-semapu
+[2023-05-30 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cnaclib
+[2023-05-30 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ampltools
+[2023-05-30 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orbit-component-base
+[2023-05-30 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pfizer-components-new
+[2023-05-30 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cliconfig
+[2023-05-30 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geolibs
+[2023-05-30 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlc-tools
+[2023-05-30 13:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mlc-tools
+[2023-05-30 13:32:19] INFO root fetch - processPackages [pfizer-components-new]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-30 13:32:19] INFO root fetch - processPackages [cliconfig]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-05-30 13:32:19] WARNING root fetch - processPackages [cnaclib]: Skipping, unable to determine old version
+[2023-05-30 13:32:19] WARNING root fetch - processPackages [poetry-demo-semapu]: Skipping, unable to determine old version
+[2023-05-30 13:32:19] INFO root fetch - processPackages [ampltools]: New version: [0.5.4b2] Old Version: [0.5.4b1]
+[2023-05-30 13:32:19] INFO root fetch - main [MainThread]: End processing [cnaclib] error
+[2023-05-30 13:32:19] INFO root fetch - main [MainThread]: End processing [poetry-demo-semapu] error
+[2023-05-30 13:32:19] INFO root fetch - processPackages [geolibs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-30 13:32:19] INFO root fetch - processPackages [orbit-component-base]: New version: [0.99.2] Old Version: [0.99.1]
+[2023-05-30 13:32:19] INFO root fetch - processPackages [mlc-tools]: New version: [0.4.675] Old Version: [0.4.674]
+[2023-05-30 13:32:19] INFO root fetch - processPackages [mlc-tools]: New version: [0.4.675] Old Version: [0.4.674]
+[2023-05-30 13:32:19] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.5.8] Old Version: [2023.5.7]
+[2023-05-30 13:32:19] INFO root fetch - processPackages [mlc-tools]: executing diffoscope
+[2023-05-30 13:32:19] INFO root fetch - processPackages [mlc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlc-tools-0.4.674.tar.gz tmp/mlc-tools-0.4.675.tar.gz --markdown 20230530/m/mlc-tools/0.4.674-0.4.675/diff.md --exclude *.pyd
+[2023-05-30 13:32:19] INFO root fetch - processPackages [geolibs]: executing diffoscope
+[2023-05-30 13:32:19] INFO root fetch - processPackages [geolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolibs-0.0.7.tar.gz tmp/geolibs-0.0.8.tar.gz --markdown 20230530/g/geolibs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 13:32:19] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/75/5a/88bae7b93ba03294123ab4349480f983c51ce6d962c28199c99185b2511f/cliconfig-1.0.0b1.tar.gz
+[2023-05-30 13:32:19] INFO root fetch - processPackages [mlc-tools]: executing diffoscope
+[2023-05-30 13:32:19] INFO root fetch - processPackages [mlc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlc-tools-0.4.674.tar.gz tmp/mlc-tools-0.4.675.tar.gz --markdown 20230530/m/mlc-tools/0.4.674-0.4.675/diff.md --exclude *.pyd
+[2023-05-30 13:32:20] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/e3/6a/e7a640e2c9cde01dfabc2979f78b0b46d09ac20081e68ae1896a9380d8d1/orbit_component_base-0.99.1.tar.gz
+[2023-05-30 13:32:20] INFO root fetch - processPackages [ampltools]: Downloading https://files.pythonhosted.org/packages/41/7f/604af38e7cba3dbf8fc5ee94f042a4d6f4bd71fba05cad4127e347241f41/ampltools-0.5.4b2.tar.gz
+[2023-05-30 13:32:20] INFO root fetch - processPackages [pfizer-components-new]: Downloading https://files.pythonhosted.org/packages/4c/0f/af63d3fd559751e69af5930c395afc7e6f8be576a3f8267aba873142872c/pfizer_components_new-0.0.3-py3-none-any.whl
+[2023-05-30 13:32:20] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/cd/cb/07c612d7c50386a156cac5f3a2d5c55123774efd2176b3d05f10c3d8e4d3/cliconfig-1.0.0b2.tar.gz
+[2023-05-30 13:32:20] INFO root fetch - processPackages [ampltools]: executing diffoscope
+[2023-05-30 13:32:20] INFO root fetch - processPackages [ampltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampltools-0.5.4b1.tar.gz tmp/ampltools-0.5.4b2.tar.gz --markdown 20230530/a/ampltools/0.5.4b1-0.5.4b2/diff.md --exclude *.pyd
+[2023-05-30 13:32:20] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/ae/bc/4f09dc72e6c02909583bba43bbfbe78dda4f11447b5546eb81362c0ae578/orbit_component_base-0.99.2.tar.gz
+[2023-05-30 13:32:20] INFO root fetch - processPackages [pfizer-components-new]: executing diffoscope
+[2023-05-30 13:32:20] INFO root fetch - processPackages [pfizer-components-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components_new-0.0.2-py3-none-any.whl.zip tmp/pfizer_components_new-0.0.3-py3-none-any.whl.zip --markdown 20230530/p/pfizer-components-new/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-30 13:32:20] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-05-30 13:32:20] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.5.7-py39-none-any.whl.zip tmp/torchrec_nightly-2023.5.8-py39-none-any.whl.zip --markdown 20230530/t/torchrec-nightly/2023.5.7-2023.5.8/diff.md --exclude *.pyd
+[2023-05-30 13:32:20] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-05-30 13:32:20] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-1.0.0b1.tar.gz tmp/cliconfig-1.0.0b2.tar.gz --markdown 20230530/c/cliconfig/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-05-30 13:32:20] INFO root fetch - processPackages [orbit-component-base]: executing diffoscope
+[2023-05-30 13:32:20] INFO root fetch - processPackages [orbit-component-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_base-0.99.1.tar.gz tmp/orbit_component_base-0.99.2.tar.gz --markdown 20230530/o/orbit-component-base/0.99.1-0.99.2/diff.md --exclude *.pyd
+[2023-05-30 13:32:21] INFO root fetch - main [MainThread]: End processing [geolibs]: success
+[2023-05-30 13:32:21] INFO root fetch - main [MainThread]: End processing [mlc-tools]: success
+[2023-05-30 13:32:21] INFO root fetch - main [MainThread]: End processing [pfizer-components-new]: success
+[2023-05-30 13:32:22] INFO root fetch - main [MainThread]: End processing [ampltools]: success
+[2023-05-30 13:32:22] INFO root fetch - main [MainThread]: End processing [mlc-tools]: success
+[2023-05-30 13:32:22] INFO root fetch - main [MainThread]: End processing [orbit-component-base]: success
+[2023-05-30 13:32:22] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-05-30 13:32:23] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-05-30 13:32:23] INFO root fetch - main [MainThread]: Store serial: [18301385]
