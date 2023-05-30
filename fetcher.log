@@ -15604,3 +15604,95 @@
 [2023-05-30 17:01:49] INFO root fetch - main [MainThread]: End processing [scanimage-tiff-reader]: success
 [2023-05-30 17:01:51] INFO root fetch - main [MainThread]: End processing [netbox-topology-views]: success
 [2023-05-30 17:01:51] INFO root fetch - main [MainThread]: Store serial: [18304017]
+[2023-05-30 17:06:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18304017]
+[2023-05-30 17:07:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-30 17:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RecruitmentCurveFitting
+[2023-05-30 17:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keyauth-tech
+[2023-05-30 17:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-rdm-records
+[2023-05-30 17:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cumulusci
+[2023-05-30 17:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superfluid
+[2023-05-30 17:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: galaxy-ng
+[2023-05-30 17:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: typst-sympy-calculator
+[2023-05-30 17:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dfmodule-test
+[2023-05-30 17:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: adestis-netbox-plugin-account-management
+[2023-05-30 17:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchbones
+[2023-05-30 17:07:01] INFO root fetch - processPackages [keyauth-tech]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 17:07:01] INFO root fetch - processPackages [superfluid]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 17:07:01] INFO root fetch - processPackages [galaxy-ng]: New version: [4.7.0] Old Version: [4.6.6]
+[2023-05-30 17:07:01] INFO root fetch - processPackages [invenio-rdm-records]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-05-30 17:07:01] INFO root fetch - processPackages [dfmodule-test]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 17:07:01] INFO root fetch - processPackages [torchbones]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-30 17:07:01] INFO root fetch - processPackages [RecruitmentCurveFitting]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-30 17:07:01] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-05-30 17:07:01] INFO root fetch - processPackages [typst-sympy-calculator]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-30 17:07:01] INFO root fetch - processPackages [cumulusci]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-30 17:07:01] INFO root fetch - processPackages [galaxy-ng]: Downloading https://files.pythonhosted.org/packages/e9/78/e993f6b46ee8a40280d3ad060f2a17005e373996e4078cd1bad6d0e0d010/galaxy-ng-4.6.6.tar.gz
+[2023-05-30 17:07:01] INFO root fetch - processPackages [superfluid]: Downloading https://files.pythonhosted.org/packages/de/53/30efd5f9215ef9af26016cc454dd0267f149b5eb29517354e25dd476dade/superfluid-0.1.3.tar.gz
+[2023-05-30 17:07:01] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: Downloading https://files.pythonhosted.org/packages/d3/b0/b63f8b560c5d95cc465401eec79ef61eb0df10f97c86c1647e4485c329d9/adestis-netbox-plugin-account-management-1.6.6.tar.gz
+[2023-05-30 17:07:01] INFO root fetch - processPackages [typst-sympy-calculator]: Downloading https://files.pythonhosted.org/packages/02/d8/bc5680fb11538ec5bcdd729c108dfe10efbd37c7a6b5433afeba10c87f74/typst_sympy_calculator-0.4.4-py3-none-any.whl
+[2023-05-30 17:07:01] INFO root fetch - processPackages [torchbones]: Downloading https://files.pythonhosted.org/packages/60/61/ae84104ac45cd5c481dc15f1ba2fece81f255715af96606a15ff0f82d22e/torchbones-1.1.2.tar.gz
+[2023-05-30 17:07:01] INFO root fetch - processPackages [torchbones]: executing diffoscope
+[2023-05-30 17:07:01] INFO root fetch - processPackages [torchbones]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchbones-1.1.1.tar.gz tmp/torchbones-1.1.2.tar.gz --markdown 20230530/t/torchbones/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-30 17:07:01] INFO root fetch - processPackages [superfluid]: executing diffoscope
+[2023-05-30 17:07:01] INFO root fetch - processPackages [superfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superfluid-0.1.2.tar.gz tmp/superfluid-0.1.3.tar.gz --markdown 20230530/s/superfluid/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 17:07:01] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: executing diffoscope
+[2023-05-30 17:07:01] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adestis-netbox-plugin-account-management-1.6.5.tar.gz tmp/adestis-netbox-plugin-account-management-1.6.6.tar.gz --markdown 20230530/a/adestis-netbox-plugin-account-management/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-05-30 17:07:01] INFO root fetch - processPackages [dfmodule-test]: Downloading https://files.pythonhosted.org/packages/ab/57/f43fcc6d3db5f27a5a7201557e43e973d5a81d1aa3c153e5f551fdc5fde6/dfmodule_test-0.0.1.tar.gz
+[2023-05-30 17:07:01] INFO root fetch - processPackages [RecruitmentCurveFitting]: Downloading https://files.pythonhosted.org/packages/24/8e/e0f1747f483f075780deb67d909b18d0c2d973e8d68eba86f7160f5f9aec/RecruitmentCurveFitting-1.1.0-py2.py3-none-any.whl
+[2023-05-30 17:07:01] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/a0/07/54a70a88dc6c07abfe171d14d8825ac9ff0391be05ed098dc772ae358526/invenio-rdm-records-4.2.2.tar.gz
+[2023-05-30 17:07:01] INFO root fetch - processPackages [typst-sympy-calculator]: executing diffoscope
+[2023-05-30 17:07:01] INFO root fetch - processPackages [typst-sympy-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typst_sympy_calculator-0.4.3-py3-none-any.whl.zip tmp/typst_sympy_calculator-0.4.4-py3-none-any.whl.zip --markdown 20230530/t/typst-sympy-calculator/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-30 17:07:01] INFO root fetch - processPackages [RecruitmentCurveFitting]: executing diffoscope
+[2023-05-30 17:07:01] INFO root fetch - processPackages [RecruitmentCurveFitting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RecruitmentCurveFitting-1.0.1-py2.py3-none-any.whl.zip tmp/RecruitmentCurveFitting-1.1.0-py2.py3-none-any.whl.zip --markdown 20230530/R/RecruitmentCurveFitting/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 17:07:01] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2023-05-30 17:07:01] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-4.2.1.tar.gz tmp/invenio-rdm-records-4.2.2.tar.gz --markdown 20230530/i/invenio-rdm-records/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-05-30 17:07:02] INFO root fetch - processPackages [dfmodule-test]: Downloading https://files.pythonhosted.org/packages/85/f2/8d37572ddb2295111dd9c863e425a2bdda3dc00de41498961709c515b7ea/dfmodule_test-0.0.2.tar.gz
+[2023-05-30 17:07:02] INFO root fetch - processPackages [galaxy-ng]: Downloading https://files.pythonhosted.org/packages/33/7f/34b6afca2e05bec1af401b68186a8865b9408c75fb3812d67e4064038da0/galaxy-ng-4.7.0.tar.gz
+[2023-05-30 17:07:02] INFO root fetch - processPackages [dfmodule-test]: executing diffoscope
+[2023-05-30 17:07:02] INFO root fetch - processPackages [dfmodule-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfmodule_test-0.0.1.tar.gz tmp/dfmodule_test-0.0.2.tar.gz --markdown 20230530/d/dfmodule-test/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 17:07:02] WARNING root fetch - processPackages [galaxy-ng]: Skipping package: exceeds size limit 10875381>=10485760
+[2023-05-30 17:07:02] INFO root fetch - processPackages [galaxy-ng]: Start processing: tensorflow-text-nightly
+[2023-05-30 17:07:02] INFO root fetch - main [MainThread]: End processing [galaxy-ng] error
+[2023-05-30 17:07:02] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230529] Old Version: [2.14.0.dev20230528]
+[2023-05-30 17:07:02] INFO root fetch - processPackages [keyauth-tech]: Downloading https://files.pythonhosted.org/packages/c8/7c/9d169a426a934a43e48862bb3da4bd17f9b6687b7fb856a2ae0e5755eec7/keyauth-tech-0.0.4.tar.gz
+[2023-05-30 17:07:02] INFO root fetch - processPackages [keyauth-tech]: executing diffoscope
+[2023-05-30 17:07:02] INFO root fetch - processPackages [keyauth-tech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyauth-tech-0.0.3.tar.gz tmp/keyauth-tech-0.0.4.tar.gz --markdown 20230530/k/keyauth-tech/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 17:07:02] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/62/bd/cc29862ac6f79d82b174770eae67e66bc891344336b728351a00d455c965/tensorflow_text_nightly-2.14.0.dev20230529-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-30 17:07:02] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-05-30 17:07:02] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230528-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230529-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230530/t/tensorflow-text-nightly/2.14.0.dev20230528-2.14.0.dev20230529/diff.md --exclude *.pyd
+[2023-05-30 17:07:03] INFO root fetch - processPackages [torchbones]: Start processing: arrayclasses
+[2023-05-30 17:07:03] INFO root fetch - main [MainThread]: End processing [torchbones]: success
+[2023-05-30 17:07:03] INFO root fetch - processPackages [arrayclasses]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 17:07:03] INFO root fetch - processPackages [superfluid]: Start processing: jianglab
+[2023-05-30 17:07:03] INFO root fetch - main [MainThread]: End processing [superfluid]: success
+[2023-05-30 17:07:03] INFO root fetch - processPackages [arrayclasses]: Downloading https://files.pythonhosted.org/packages/cb/a7/0df31a5dec340e0bce370f781db4d46cae2002eff0faef2e5266a29c7c53/arrayclasses-0.1.4.tar.gz
+[2023-05-30 17:07:03] INFO root fetch - processPackages [jianglab]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-30 17:07:03] INFO root fetch - processPackages [arrayclasses]: executing diffoscope
+[2023-05-30 17:07:03] INFO root fetch - processPackages [arrayclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrayclasses-0.1.3.tar.gz tmp/arrayclasses-0.1.4.tar.gz --markdown 20230530/a/arrayclasses/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 17:07:03] INFO root fetch - processPackages [jianglab]: Downloading https://files.pythonhosted.org/packages/a8/94/230f4b45952d618f8b02cfba2f22fb48acd21b522142b7a573bb271315f8/jianglab-0.1.9.tar.gz
+[2023-05-30 17:07:03] INFO root fetch - processPackages [jianglab]: Downloading https://files.pythonhosted.org/packages/d8/c2/7ea2915529ad34ceeafb5eab2e6e61b8ed1a87c50bb5ca0d4c704f8fd078/jianglab-0.2.0.tar.gz
+[2023-05-30 17:07:03] INFO root fetch - processPackages [typst-sympy-calculator]: Start processing: matrix-synapse
+[2023-05-30 17:07:03] INFO root fetch - main [MainThread]: End processing [typst-sympy-calculator]: success
+[2023-05-30 17:07:03] INFO root fetch - processPackages [cumulusci]: executing diffoscope
+[2023-05-30 17:07:03] INFO root fetch - processPackages [cumulusci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumulusci-3.9.0.tar.gz tmp/cumulusci-3.9.1.tar.gz --markdown 20230530/c/cumulusci/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-30 17:07:03] INFO root fetch - processPackages [dfmodule-test]: Start processing: dl2050utils
+[2023-05-30 17:07:03] INFO root fetch - main [MainThread]: End processing [dfmodule-test]: success
+[2023-05-30 17:07:04] INFO root fetch - processPackages [jianglab]: executing diffoscope
+[2023-05-30 17:07:04] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-30 17:07:04] INFO root fetch - processPackages [jianglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jianglab-0.1.9.tar.gz tmp/jianglab-0.2.0.tar.gz --markdown 20230530/j/jianglab/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 17:07:04] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-05-30 17:07:04] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230530/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-30 17:07:04] INFO root fetch - main [MainThread]: End processing [keyauth-tech]: success
+[2023-05-30 17:07:04] INFO root fetch - main [MainThread]: End processing [RecruitmentCurveFitting]: success
+[2023-05-30 17:07:04] INFO root fetch - processPackages [matrix-synapse]: New version: [1.9.1] Old Version: [1.9.0rc1]
+[2023-05-30 17:07:04] INFO root fetch - main [MainThread]: End processing [adestis-netbox-plugin-account-management]: success
+[2023-05-30 17:07:04] INFO root fetch - processPackages [matrix-synapse]: executing diffoscope
+[2023-05-30 17:07:04] INFO root fetch - processPackages [matrix-synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix-synapse-1.9.0rc1.tar.gz tmp/matrix-synapse-1.9.1.tar.gz --markdown 20230530/m/matrix-synapse/1.9.0rc1-1.9.1/diff.md --exclude *.pyd
+[2023-05-30 17:07:05] INFO root fetch - main [MainThread]: End processing [arrayclasses]: success
+[2023-05-30 17:07:05] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-05-30 17:07:05] INFO root fetch - main [MainThread]: End processing [jianglab]: success
+[2023-05-30 17:07:07] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-05-30 17:07:09] INFO root fetch - main [MainThread]: End processing [cumulusci]: success
+[2023-05-30 17:07:10] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2023-05-30 17:07:16] INFO root fetch - main [MainThread]: End processing [matrix-synapse]: success
+[2023-05-30 17:07:16] INFO root fetch - main [MainThread]: Store serial: [18304060]
