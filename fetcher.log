@@ -15316,3 +15316,74 @@
 [2023-05-30 16:46:03] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
 [2023-05-30 16:46:05] INFO root fetch - main [MainThread]: End processing [topasgraphsim]: success
 [2023-05-30 16:46:05] INFO root fetch - main [MainThread]: Store serial: [18303810]
+[2023-05-30 16:51:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18303810]
+[2023-05-30 16:51:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-30 16:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: budy
+[2023-05-30 16:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opyf
+[2023-05-30 16:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isoCycle
+[2023-05-30 16:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adafruit-circuitpython-bno08x
+[2023-05-30 16:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tuxbake
+[2023-05-30 16:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: typst-sympy-calculator
+[2023-05-30 16:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: up-lpg
+[2023-05-30 16:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jsonxmlsatsiuk2
+[2023-05-30 16:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-newrelic
+[2023-05-30 16:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dcicutils
+[2023-05-30 16:51:14] INFO root fetch - processPackages [up-lpg]: New version: [0.0.7] Old Version: [0.0.6.4]
+[2023-05-30 16:51:14] INFO root fetch - processPackages [opyf]: New version: [1.4] Old Version: [1.3]
+[2023-05-30 16:51:14] INFO root fetch - processPackages [budy]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-30 16:51:14] INFO root fetch - processPackages [typst-sympy-calculator]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-30 16:51:14] INFO root fetch - processPackages [tuxbake]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-30 16:51:14] INFO root fetch - processPackages [adafruit-circuitpython-bno08x]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-30 16:51:14] INFO root fetch - processPackages [jsonxmlsatsiuk2]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 16:51:14] INFO root fetch - processPackages [isoCycle]: New version: [0.0.70] Old Version: [0.0.69]
+[2023-05-30 16:51:14] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2023-05-30 16:51:14] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2023-05-30 16:51:14] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20230530/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/diff.md --exclude *.pyd
+[2023-05-30 16:51:14] INFO root fetch - processPackages [dcicutils]: New version: [7.4.4.5b25] Old Version: [7.4.4.5b24]
+[2023-05-30 16:51:14] INFO root fetch - processPackages [jsonxmlsatsiuk2]: Downloading https://files.pythonhosted.org/packages/e2/63/77f52545e28c4c0af771d2e9a306559aa53f6616c8458f308347991e2cce/jsonxmlsatsiuk2-0.1.1.tar.gz
+[2023-05-30 16:51:14] INFO root fetch - processPackages [up-lpg]: Downloading https://files.pythonhosted.org/packages/6f/8e/498cfd9389204ba08c57aa96f8bf1103ba114d1aa3066bddda117fb278e4/up_lpg-0.0.6.4-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-30 16:51:14] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/35/11/18cd0f68c84a7a00d3cc7d068e194f4c1e56544a00958b713ff2256371f2/isoCycle-0.0.69.tar.gz
+[2023-05-30 16:51:14] INFO root fetch - processPackages [opyf]: Downloading https://files.pythonhosted.org/packages/f5/39/cc0782c7a3cf88dfe82d8f28c58ff9d8c177b763efebf75b0afe2faa6c44/opyf-1.3.tar.gz
+[2023-05-30 16:51:14] INFO root fetch - processPackages [tuxbake]: Downloading https://files.pythonhosted.org/packages/bc/6d/6a94d5f1a5393ff07d90306c6d5ac48196c99cbd293c9530586360a33a56/tuxbake-0.4.1.tar.gz
+[2023-05-30 16:51:14] INFO root fetch - processPackages [typst-sympy-calculator]: Downloading https://files.pythonhosted.org/packages/4b/53/5244d14479a7d0bfaec49820224902dacc4949c5c3fd4bd81c3008194bb3/typst_sympy_calculator-0.4.3-py3-none-any.whl
+[2023-05-30 16:51:15] INFO root fetch - processPackages [budy]: Downloading https://files.pythonhosted.org/packages/50/67/fdfbfa7e56e3896057597d173e41d2dbef42a56e622a9f0f0e36599994bd/budy-0.8.1.tar.gz
+[2023-05-30 16:51:15] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 12848975>=10485760
+[2023-05-30 16:51:15] INFO root fetch - processPackages [isoCycle]: Start processing: ttsmms
+[2023-05-30 16:51:15] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-30 16:51:15] INFO root fetch - processPackages [typst-sympy-calculator]: executing diffoscope
+[2023-05-30 16:51:15] INFO root fetch - processPackages [typst-sympy-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typst_sympy_calculator-0.4.2-py3-none-any.whl.zip tmp/typst_sympy_calculator-0.4.3-py3-none-any.whl.zip --markdown 20230530/t/typst-sympy-calculator/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-30 16:51:15] INFO root fetch - processPackages [tuxbake]: executing diffoscope
+[2023-05-30 16:51:15] INFO root fetch - processPackages [tuxbake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxbake-0.4.0.tar.gz tmp/tuxbake-0.4.1.tar.gz --markdown 20230530/t/tuxbake/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-30 16:51:15] INFO root fetch - processPackages [ttsmms]: New version: [0.7] Old Version: [0.6]
+[2023-05-30 16:51:15] INFO root fetch - processPackages [adafruit-circuitpython-bno08x]: Downloading https://files.pythonhosted.org/packages/ff/d2/0770caa2d0f2c518d99090d8212fc2ea9697c5e9eb6cc1d723258e9f56a1/adafruit-circuitpython-bno08x-1.2.3.tar.gz
+[2023-05-30 16:51:15] INFO root fetch - processPackages [jsonxmlsatsiuk2]: Downloading https://files.pythonhosted.org/packages/8e/8e/cbdfe056620f9e4416140bc423d501c5be91e8521b49b27bd08bb182f270/jsonxmlsatsiuk2-0.1.2.tar.gz
+[2023-05-30 16:51:15] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/c5/c5/23a262bc8dc5390444d08a3a247830932847073a36c7bfaf4b09ac54d831/dcicutils-7.4.4.5b25.tar.gz
+[2023-05-30 16:51:15] INFO root fetch - processPackages [opyf]: Downloading https://files.pythonhosted.org/packages/0a/57/490127846c47bfa2a4c558473f3844ee31991583fdec2f8967e40d5977b5/opyf-1.4.tar.gz
+[2023-05-30 16:51:15] INFO root fetch - processPackages [budy]: Downloading https://files.pythonhosted.org/packages/be/28/600cca7abfe400ddd274982e23aace9145c8fb256beaa9ede5531d16a180/budy-0.8.2.tar.gz
+[2023-05-30 16:51:15] INFO root fetch - processPackages [adafruit-circuitpython-bno08x]: executing diffoscope
+[2023-05-30 16:51:15] INFO root fetch - processPackages [adafruit-circuitpython-bno08x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-bno08x-1.2.2.tar.gz tmp/adafruit-circuitpython-bno08x-1.2.3.tar.gz --markdown 20230530/a/adafruit-circuitpython-bno08x/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-30 16:51:15] INFO root fetch - processPackages [jsonxmlsatsiuk2]: executing diffoscope
+[2023-05-30 16:51:15] INFO root fetch - processPackages [jsonxmlsatsiuk2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonxmlsatsiuk2-0.1.1.tar.gz tmp/jsonxmlsatsiuk2-0.1.2.tar.gz --markdown 20230530/j/jsonxmlsatsiuk2/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 16:51:15] INFO root fetch - processPackages [opyf]: executing diffoscope
+[2023-05-30 16:51:15] INFO root fetch - processPackages [opyf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opyf-1.3.tar.gz tmp/opyf-1.4.tar.gz --markdown 20230530/o/opyf/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-30 16:51:15] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-05-30 16:51:15] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.4.4.5b24.tar.gz tmp/dcicutils-7.4.4.5b25.tar.gz --markdown 20230530/d/dcicutils/7.4.4.5b24-7.4.4.5b25/diff.md --exclude *.pyd
+[2023-05-30 16:51:15] INFO root fetch - processPackages [budy]: executing diffoscope
+[2023-05-30 16:51:15] INFO root fetch - processPackages [budy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budy-0.8.1.tar.gz tmp/budy-0.8.2.tar.gz --markdown 20230530/b/budy/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-30 16:51:15] INFO root fetch - processPackages [up-lpg]: Downloading https://files.pythonhosted.org/packages/dc/c6/2d1d264e55399cd58d149d5591a36c6583263f797549187514e21d4b645f/up_lpg-0.0.7-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-30 16:51:15] INFO root fetch - processPackages [ttsmms]: Downloading https://files.pythonhosted.org/packages/4d/07/6075aa0b1c4574764e898fea2ee4c125cb4270f6db074617e2cea3586644/ttsmms-0.7.tar.gz
+[2023-05-30 16:51:15] INFO root fetch - processPackages [ttsmms]: executing diffoscope
+[2023-05-30 16:51:15] INFO root fetch - processPackages [ttsmms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttsmms-0.6.tar.gz tmp/ttsmms-0.7.tar.gz --markdown 20230530/t/ttsmms/0.6-0.7/diff.md --exclude *.pyd
+[2023-05-30 16:51:15] INFO root fetch - processPackages [up-lpg]: executing diffoscope
+[2023-05-30 16:51:15] INFO root fetch - processPackages [up-lpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_lpg-0.0.6.4-pp39-pypy39_pp73-win_amd64.whl.zip tmp/up_lpg-0.0.7-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230530/u/up-lpg/0.0.6.4-0.0.7/diff.md --exclude *.pyd
+[2023-05-30 16:51:16] INFO root fetch - main [MainThread]: End processing [typst-sympy-calculator]: success
+[2023-05-30 16:51:17] INFO root fetch - main [MainThread]: End processing [jsonxmlsatsiuk2]: success
+[2023-05-30 16:51:17] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-bno08x]: success
+[2023-05-30 16:51:17] INFO root fetch - main [MainThread]: End processing [opyf]: success
+[2023-05-30 16:51:17] INFO root fetch - main [MainThread]: End processing [ttsmms]: success
+[2023-05-30 16:51:17] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-05-30 16:51:17] INFO root fetch - main [MainThread]: End processing [budy]: success
+[2023-05-30 16:51:17] INFO root fetch - main [MainThread]: End processing [up-lpg]: success
+[2023-05-30 16:51:18] INFO root fetch - main [MainThread]: End processing [tuxbake]: success
+[2023-05-30 16:51:19] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2023-05-30 16:51:19] INFO root fetch - main [MainThread]: Store serial: [18303862]
