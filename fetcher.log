@@ -4692,3 +4692,72 @@
 [2023-05-30 05:19:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-import-facturx]: success
 [2023-05-30 05:19:36] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
 [2023-05-30 05:19:36] INFO root fetch - main [MainThread]: Store serial: [18297419]
+[2023-05-30 05:24:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297419]
+[2023-05-30 05:24:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-30 05:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-pagerduty
+[2023-05-30 05:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VideoBarcodeSimilarities
+[2023-05-30 05:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygrab
+[2023-05-30 05:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: heaserver-organizations
+[2023-05-30 05:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terminal-agent-x
+[2023-05-30 05:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sosecrets-core
+[2023-05-30 05:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: domain-admin
+[2023-05-30 05:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymangaj
+[2023-05-30 05:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-helpdesk-mgmt-project
+[2023-05-30 05:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-helpdesk-mgmt
+[2023-05-30 05:24:45] INFO root fetch - processPackages [pygrab]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 05:24:45] WARNING root fetch - processPackages [VideoBarcodeSimilarities]: Skipping, unable to determine old version
+[2023-05-30 05:24:45] INFO root fetch - processPackages [VideoBarcodeSimilarities]: Start processing: odoo-addons-oca-helpdesk
+[2023-05-30 05:24:45] INFO root fetch - main [MainThread]: End processing [VideoBarcodeSimilarities] error
+[2023-05-30 05:24:45] INFO root fetch - processPackages [terminal-agent-x]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 05:24:45] INFO root fetch - processPackages [sosecrets-core]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-30 05:24:45] INFO root fetch - processPackages [heaserver-organizations]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-30 05:24:45] INFO root fetch - processPackages [pymangaj]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 05:24:45] INFO root fetch - processPackages [domain-admin]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-30 05:24:45] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: New version: [7.0.4] Old Version: [7.0.3]
+[2023-05-30 05:24:45] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-05-30 05:24:45] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-05-30 05:24:45] INFO root fetch - processPackages [sosecrets-core]: executing diffoscope
+[2023-05-30 05:24:45] INFO root fetch - processPackages [sosecrets-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosecrets_core-1.0.4.tar.gz tmp/sosecrets_core-1.0.5.tar.gz --markdown 20230530/s/sosecrets-core/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-30 05:24:45] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: New version: [16.0.20230529.0] Old Version: [16.0.20230417.0]
+[2023-05-30 05:24:45] INFO root fetch - processPackages [pygrab]: Downloading https://files.pythonhosted.org/packages/27/2e/5eca0c02ab0ffd0840ca9a2a8af21a10f4b7779f23f41eec39764f5238c1/pygrab-0.0.1.tar.gz
+[2023-05-30 05:24:45] INFO root fetch - processPackages [pymangaj]: Downloading https://files.pythonhosted.org/packages/ab/7b/2e0a71c2281c52803484de92f2c3b6d9e9c140bdca91e808d64985ec6612/pymangaj-0.1.0.tar.gz
+[2023-05-30 05:24:45] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/97/e1/9c55f18515117774403aa4f2c677ef3153b0dc7eb94ee7cc905ab6cebafe/cdktf-cdktf-provider-pagerduty-7.0.3.tar.gz
+[2023-05-30 05:24:45] INFO root fetch - processPackages [heaserver-organizations]: Downloading https://files.pythonhosted.org/packages/af/40/a34910cbc227ce1d8e9d9c0e4c1b2ff19b2bf94be7a8e6cacdc8ddbf074e/heaserver-organizations-1.0.0a8.tar.gz
+[2023-05-30 05:24:46] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: Downloading https://files.pythonhosted.org/packages/93/cf/12ab924bc04cdd87c2292a71ccb4dd6f2776fedc90c169d7e4878ad68670/odoo_addons_oca_helpdesk-16.0.20230417.0-py3-none-any.whl
+[2023-05-30 05:24:46] INFO root fetch - processPackages [terminal-agent-x]: Downloading https://files.pythonhosted.org/packages/30/3b/b941a52eb337a260add95fa0c5bb725ef1f2d8c4d6079348d01d856daca4/terminal-agent-x-0.1.2.tar.gz
+[2023-05-30 05:24:46] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: Downloading https://files.pythonhosted.org/packages/99/e7/609b22c0793953b904c48bbcb96a3d49ff3f66ffc4a5041a965f32cf1091/odoo_addon_helpdesk_mgmt_project-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-30 05:24:46] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-05-30 05:24:46] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.2.8.tar.gz tmp/domain-admin-1.2.9.tar.gz --markdown 20230530/d/domain-admin/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-30 05:24:46] INFO root fetch - processPackages [pygrab]: Downloading https://files.pythonhosted.org/packages/ac/97/92212d2a0f0e77dd1e650ebd537d752e3aa0d1c64167b9f446cb0ee2c465/pygrab-0.0.2.tar.gz
+[2023-05-30 05:24:46] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/ea/e6/b275bfc2b8cb356f35b1ff3482f07d586e30a3a5ff617124973238436ad5/odoo_addon_helpdesk_mgmt-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-30 05:24:46] INFO root fetch - processPackages [terminal-agent-x]: executing diffoscope
+[2023-05-30 05:24:46] INFO root fetch - processPackages [terminal-agent-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal-agent-x-0.1.1.tar.gz tmp/terminal-agent-x-0.1.2.tar.gz --markdown 20230530/t/terminal-agent-x/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 05:24:46] INFO root fetch - processPackages [pymangaj]: Downloading https://files.pythonhosted.org/packages/a5/ac/c9c7c907023fe61fe28241dc6cf602ab8f598aef8d6b86fd00a9c0dae0f5/pymangaj-0.1.1.tar.gz
+[2023-05-30 05:24:46] INFO root fetch - processPackages [pygrab]: executing diffoscope
+[2023-05-30 05:24:46] INFO root fetch - processPackages [pygrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrab-0.0.1.tar.gz tmp/pygrab-0.0.2.tar.gz --markdown 20230530/p/pygrab/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 05:24:46] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/51/c7/ef2ab56f181d655b253b97f7d06e81bdfc4fc1dcbfad654fdd0fc9d1a704/cdktf-cdktf-provider-pagerduty-7.0.4.tar.gz
+[2023-05-30 05:24:46] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: executing diffoscope
+[2023-05-30 05:24:46] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt_project-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt_project-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230530/o/odoo-addon-helpdesk-mgmt-project/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-30 05:24:46] INFO root fetch - processPackages [pymangaj]: executing diffoscope
+[2023-05-30 05:24:46] INFO root fetch - processPackages [pymangaj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymangaj-0.1.0.tar.gz tmp/pymangaj-0.1.1.tar.gz --markdown 20230530/p/pymangaj/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 05:24:46] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: executing diffoscope
+[2023-05-30 05:24:46] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-pagerduty-7.0.3.tar.gz tmp/cdktf-cdktf-provider-pagerduty-7.0.4.tar.gz --markdown 20230530/c/cdktf-cdktf-provider-pagerduty/7.0.3-7.0.4/diff.md --exclude *.pyd
+[2023-05-30 05:24:46] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: Downloading https://files.pythonhosted.org/packages/af/97/e6b0176ea54f706aa36e4af1488660739b21e30c3f4c4a053356823542d9/odoo_addons_oca_helpdesk-16.0.20230529.0-py3-none-any.whl
+[2023-05-30 05:24:46] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: executing diffoscope
+[2023-05-30 05:24:46] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_helpdesk-16.0.20230417.0-py3-none-any.whl.zip tmp/odoo_addons_oca_helpdesk-16.0.20230529.0-py3-none-any.whl.zip --markdown 20230530/o/odoo-addons-oca-helpdesk/16.0.20230417.0-16.0.20230529.0/diff.md --exclude *.pyd
+[2023-05-30 05:24:46] INFO root fetch - processPackages [heaserver-organizations]: Downloading https://files.pythonhosted.org/packages/4e/ea/6b7b1bfa9d09b9d43c9efbbcba7e9414a1db5f2e17037e7cb061370995e1/heaserver-organizations-1.0.0a9.tar.gz
+[2023-05-30 05:24:46] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2023-05-30 05:24:46] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230530/o/odoo-addon-helpdesk-mgmt/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-30 05:24:46] INFO root fetch - processPackages [heaserver-organizations]: executing diffoscope
+[2023-05-30 05:24:46] INFO root fetch - processPackages [heaserver-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-organizations-1.0.0a8.tar.gz tmp/heaserver-organizations-1.0.0a9.tar.gz --markdown 20230530/h/heaserver-organizations/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-30 05:24:47] INFO root fetch - main [MainThread]: End processing [sosecrets-core]: success
+[2023-05-30 05:24:47] INFO root fetch - main [MainThread]: End processing [terminal-agent-x]: success
+[2023-05-30 05:24:47] INFO root fetch - main [MainThread]: End processing [pygrab]: success
+[2023-05-30 05:24:48] INFO root fetch - main [MainThread]: End processing [pymangaj]: success
+[2023-05-30 05:24:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt-project]: success
+[2023-05-30 05:24:48] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-helpdesk]: success
+[2023-05-30 05:24:48] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-05-30 05:24:48] INFO root fetch - main [MainThread]: End processing [heaserver-organizations]: success
+[2023-05-30 05:24:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2023-05-30 05:24:50] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
+[2023-05-30 05:24:50] INFO root fetch - main [MainThread]: Store serial: [18297450]
