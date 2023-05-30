@@ -5981,3 +5981,30 @@
 [2023-05-30 07:28:22] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2023-05-30 07:28:25] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-30 07:28:25] INFO root fetch - main [MainThread]: Store serial: [18298106]
+[2023-05-30 07:33:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298106]
+[2023-05-30 07:33:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-30 07:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wasm-exec
+[2023-05-30 07:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2023-05-30 07:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Telegant
+[2023-05-30 07:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-mysql-distill
+[2023-05-30 07:33:35] INFO root fetch - processPackages [py-mysql-distill]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 07:33:35] INFO root fetch - processPackages [wasm-exec]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-30 07:33:35] INFO root fetch - processPackages [Telegant]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-30 07:33:35] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.9.1] Old Version: [2023.5.9.0]
+[2023-05-30 07:33:35] INFO root fetch - processPackages [py-mysql-distill]: Downloading https://files.pythonhosted.org/packages/27/6c/e2bc78f9c32bfbc63272e7cc04c4cdf258b3f059179828a00f116fa1c82a/py_mysql_distill-0.1.1.tar.gz
+[2023-05-30 07:33:35] INFO root fetch - processPackages [Telegant]: Downloading https://files.pythonhosted.org/packages/8e/d5/734b4928900ee6b91a4e136e8308dea696bdae10527240d42b03e682347f/Telegant-0.2.5.tar.gz
+[2023-05-30 07:33:35] INFO root fetch - processPackages [Telegant]: executing diffoscope
+[2023-05-30 07:33:35] INFO root fetch - processPackages [Telegant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Telegant-0.2.4.tar.gz tmp/Telegant-0.2.5.tar.gz --markdown 20230530/T/Telegant/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-30 07:33:35] INFO root fetch - processPackages [wasm-exec]: Downloading https://files.pythonhosted.org/packages/2f/ca/3d414abb93f26ab1eac1438204d25879e8187624980c44643523a010be3b/wasm_exec-0.1.6.tar.gz
+[2023-05-30 07:33:35] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-30 07:33:35] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.9.0.tar.gz tmp/crazy-thursday-2023.5.9.1.tar.gz --markdown 20230530/c/crazy-thursday/2023.5.9.0-2023.5.9.1/diff.md --exclude *.pyd
+[2023-05-30 07:33:35] INFO root fetch - processPackages [py-mysql-distill]: Downloading https://files.pythonhosted.org/packages/a1/22/2a95910f3543d1215f33af5100648547d52bfaccda13704a68c3c83d1824/py_mysql_distill-0.1.2.tar.gz
+[2023-05-30 07:33:35] INFO root fetch - processPackages [py-mysql-distill]: executing diffoscope
+[2023-05-30 07:33:35] INFO root fetch - processPackages [py-mysql-distill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_mysql_distill-0.1.1.tar.gz tmp/py_mysql_distill-0.1.2.tar.gz --markdown 20230530/p/py-mysql-distill/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 07:33:36] INFO root fetch - processPackages [wasm-exec]: executing diffoscope
+[2023-05-30 07:33:36] INFO root fetch - processPackages [wasm-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasm_exec-0.1.5.tar.gz tmp/wasm_exec-0.1.6.tar.gz --markdown 20230530/w/wasm-exec/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-30 07:33:36] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-30 07:33:36] INFO root fetch - main [MainThread]: End processing [Telegant]: success
+[2023-05-30 07:33:36] INFO root fetch - main [MainThread]: End processing [py-mysql-distill]: success
+[2023-05-30 07:33:39] INFO root fetch - main [MainThread]: End processing [wasm-exec]: success
+[2023-05-30 07:33:39] INFO root fetch - main [MainThread]: Store serial: [18298118]
