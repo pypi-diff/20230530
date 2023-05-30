@@ -22163,3 +22163,67 @@ EOFError: EOF read where object expected
 [2023-05-30 23:34:31] INFO root fetch - main [MainThread]: End processing [telegram-text]: success
 [2023-05-30 23:34:34] INFO root fetch - main [MainThread]: End processing [laszip]: success
 [2023-05-30 23:34:34] INFO root fetch - main [MainThread]: Store serial: [18307876]
+[2023-05-30 23:39:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18307876]
+[2023-05-30 23:39:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-30 23:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpbn
+[2023-05-30 23:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quran-sbu-University
+[2023-05-30 23:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-omnilogic-local
+[2023-05-30 23:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azkv-secrets-loader
+[2023-05-30 23:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vgs-api-client
+[2023-05-30 23:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yt-dlp-progress
+[2023-05-30 23:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chalkpy
+[2023-05-30 23:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azkv-secrets-loader
+[2023-05-30 23:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: github-reserved-names
+[2023-05-30 23:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Shchirov-serializer
+[2023-05-30 23:39:43] INFO root fetch - processPackages [mpbn]: New version: [3.1] Old Version: [3.0]
+[2023-05-30 23:39:44] WARNING root fetch - processPackages [quran-sbu-University]: Skipping, unable to determine old version
+[2023-05-30 23:39:44] INFO root fetch - processPackages [python-omnilogic-local]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-30 23:39:44] INFO root fetch - processPackages [quran-sbu-University]: Start processing: steganodf
+[2023-05-30 23:39:44] INFO root fetch - main [MainThread]: End processing [quran-sbu-University] error
+[2023-05-30 23:39:44] INFO root fetch - processPackages [azkv-secrets-loader]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 23:39:44] INFO root fetch - processPackages [Shchirov-serializer]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-30 23:39:44] INFO root fetch - processPackages [azkv-secrets-loader]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 23:39:44] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-30 23:39:44] INFO root fetch - processPackages [chalkpy]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-05-30 23:39:44] INFO root fetch - processPackages [yt-dlp-progress]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 23:39:44] WARNING root fetch - processPackages [steganodf]: Skipping, unable to determine old version
+[2023-05-30 23:39:44] INFO root fetch - main [MainThread]: End processing [steganodf] error
+[2023-05-30 23:39:44] INFO root fetch - processPackages [github-reserved-names]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-30 23:39:44] INFO root fetch - processPackages [Shchirov-serializer]: executing diffoscope
+[2023-05-30 23:39:44] INFO root fetch - processPackages [Shchirov-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shchirov_serializer-1.1.5.tar.gz tmp/Shchirov_serializer-1.1.6.tar.gz --markdown 20230530/S/Shchirov-serializer/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-30 23:39:44] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-05-30 23:39:44] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230530/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-30 23:39:44] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/54/63/fa5346f0445ec72b24a91be8614cb1b109acb1c308c444d2e40ea2ce5bed/chalkpy-2.5.1.tar.gz
+[2023-05-30 23:39:44] INFO root fetch - processPackages [github-reserved-names]: Downloading https://files.pythonhosted.org/packages/1e/37/4f211c0e6acd91af00adfc9e36a87c3f6a7d5ae99a7854fcc3b7168a381c/github_reserved_names-2023.5.1.tar.gz
+[2023-05-30 23:39:44] INFO root fetch - processPackages [azkv-secrets-loader]: Downloading https://files.pythonhosted.org/packages/05/e7/5e1c3f406050533c593f3c516c23d05acea41e582d8bc9b8644fef264268/azkv-secrets-loader-0.0.1.tar.gz
+[2023-05-30 23:39:44] INFO root fetch - processPackages [azkv-secrets-loader]: Downloading https://files.pythonhosted.org/packages/05/e7/5e1c3f406050533c593f3c516c23d05acea41e582d8bc9b8644fef264268/azkv-secrets-loader-0.0.1.tar.gz
+[2023-05-30 23:39:44] INFO root fetch - processPackages [python-omnilogic-local]: Downloading https://files.pythonhosted.org/packages/bd/46/dd79f5493b0f86929b856078945e2aa0100b7a55c5c5ebe54e215960eb46/python_omnilogic_local-0.6.2.tar.gz
+[2023-05-30 23:39:44] INFO root fetch - processPackages [yt-dlp-progress]: Downloading https://files.pythonhosted.org/packages/b7/a7/6d58f6941e5297ea434424768b4d3bc0c637f12807d66042b18c97908b52/yt_dlp_progress-0.0.4.tar.gz
+[2023-05-30 23:39:44] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-30 23:39:44] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.5.0.tar.gz tmp/chalkpy-2.5.1.tar.gz --markdown 20230530/c/chalkpy/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-05-30 23:39:44] INFO root fetch - processPackages [github-reserved-names]: Downloading https://files.pythonhosted.org/packages/6b/7e/0ce98d1bb09cc61e5d5d7da7474a668b03ca96f1ad5d1541b9bb80ac8169/github_reserved_names-2023.5.2.tar.gz
+[2023-05-30 23:39:44] INFO root fetch - processPackages [mpbn]: Downloading https://files.pythonhosted.org/packages/2c/59/f88d15a0e069d1be49dddc4c3849342669aca8c370ebc80a241c29dc299d/mpbn-3.1.tar.gz
+[2023-05-30 23:39:44] INFO root fetch - processPackages [github-reserved-names]: executing diffoscope
+[2023-05-30 23:39:44] INFO root fetch - processPackages [github-reserved-names]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_reserved_names-2023.5.1.tar.gz tmp/github_reserved_names-2023.5.2.tar.gz --markdown 20230530/g/github-reserved-names/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-30 23:39:44] INFO root fetch - processPackages [mpbn]: executing diffoscope
+[2023-05-30 23:39:44] INFO root fetch - processPackages [mpbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpbn-3.0.tar.gz tmp/mpbn-3.1.tar.gz --markdown 20230530/m/mpbn/3.0-3.1/diff.md --exclude *.pyd
+[2023-05-30 23:39:44] INFO root fetch - processPackages [azkv-secrets-loader]: Downloading https://files.pythonhosted.org/packages/b4/e1/4d29e1ac69818cdb7a10d70b86d2995505d3e99b5daab2a3f6554ebd75b8/azkv-secrets-loader-0.0.2.tar.gz
+[2023-05-30 23:39:44] INFO root fetch - processPackages [azkv-secrets-loader]: Downloading https://files.pythonhosted.org/packages/b4/e1/4d29e1ac69818cdb7a10d70b86d2995505d3e99b5daab2a3f6554ebd75b8/azkv-secrets-loader-0.0.2.tar.gz
+[2023-05-30 23:39:44] INFO root fetch - processPackages [yt-dlp-progress]: executing diffoscope
+[2023-05-30 23:39:44] INFO root fetch - processPackages [yt-dlp-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp_progress-0.0.3.tar.gz tmp/yt_dlp_progress-0.0.4.tar.gz --markdown 20230530/y/yt-dlp-progress/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 23:39:44] INFO root fetch - processPackages [python-omnilogic-local]: executing diffoscope
+[2023-05-30 23:39:44] INFO root fetch - processPackages [python-omnilogic-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_omnilogic_local-0.6.1.tar.gz tmp/python_omnilogic_local-0.6.2.tar.gz --markdown 20230530/p/python-omnilogic-local/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-30 23:39:44] INFO root fetch - processPackages [azkv-secrets-loader]: executing diffoscope
+[2023-05-30 23:39:44] INFO root fetch - processPackages [azkv-secrets-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azkv-secrets-loader-0.0.1.tar.gz tmp/azkv-secrets-loader-0.0.2.tar.gz --markdown 20230530/a/azkv-secrets-loader/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 23:39:44] INFO root fetch - processPackages [azkv-secrets-loader]: executing diffoscope
+[2023-05-30 23:39:44] INFO root fetch - processPackages [azkv-secrets-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azkv-secrets-loader-0.0.1.tar.gz tmp/azkv-secrets-loader-0.0.2.tar.gz --markdown 20230530/a/azkv-secrets-loader/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 23:39:45] INFO root fetch - main [MainThread]: End processing [Shchirov-serializer]: success
+[2023-05-30 23:39:45] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-05-30 23:39:46] INFO root fetch - main [MainThread]: End processing [github-reserved-names]: success
+[2023-05-30 23:39:46] INFO root fetch - main [MainThread]: End processing [yt-dlp-progress]: success
+[2023-05-30 23:39:46] INFO root fetch - main [MainThread]: End processing [mpbn]: success
+[2023-05-30 23:39:46] INFO root fetch - main [MainThread]: End processing [python-omnilogic-local]: success
+[2023-05-30 23:39:46] INFO root fetch - main [MainThread]: End processing [azkv-secrets-loader]: success
+[2023-05-30 23:39:47] INFO root fetch - main [MainThread]: End processing [azkv-secrets-loader]: success
+[2023-05-30 23:39:52] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-30 23:39:52] INFO root fetch - main [MainThread]: Store serial: [18307912]
