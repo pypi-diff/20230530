@@ -13814,3 +13814,62 @@
 [2023-05-30 15:35:47] INFO root fetch - main [MainThread]: End processing [koku-nise]: success
 [2023-05-30 15:35:48] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
 [2023-05-30 15:35:48] INFO root fetch - main [MainThread]: Store serial: [18302901]
+[2023-05-30 15:40:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18302901]
+[2023-05-30 15:40:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 15:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asysocks
+[2023-05-30 15:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sinergym
+[2023-05-30 15:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cz-ossfs
+[2023-05-30 15:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sygnet
+[2023-05-30 15:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ardilla
+[2023-05-30 15:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pfizer-components-new
+[2023-05-30 15:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ms-identity-web
+[2023-05-30 15:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Stylys
+[2023-05-30 15:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: serp-onpremise
+[2023-05-30 15:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymexc
+[2023-05-30 15:40:57] WARNING root fetch - processPackages [cz-ossfs]: Skipping, unable to determine old version
+[2023-05-30 15:40:57] INFO root fetch - processPackages [sygnet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 15:40:57] INFO root fetch - processPackages [asysocks]: New version: [0.2.7] Old Version: [0.2.5]
+[2023-05-30 15:40:57] INFO root fetch - processPackages [sinergym]: New version: [2.4.1] Old Version: [2.3.4]
+[2023-05-30 15:40:57] INFO root fetch - main [MainThread]: End processing [cz-ossfs] error
+[2023-05-30 15:40:57] WARNING root fetch - processPackages [Stylys]: Skipping, unable to determine old version
+[2023-05-30 15:40:57] INFO root fetch - main [MainThread]: End processing [Stylys] error
+[2023-05-30 15:40:57] INFO root fetch - processPackages [serp-onpremise]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 15:40:57] INFO root fetch - processPackages [pfizer-components-new]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-30 15:40:57] INFO root fetch - processPackages [ms-identity-web]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 15:40:57] INFO root fetch - processPackages [ardilla]: New version: [0.3.3b0] Old Version: [0.3.2b0]
+[2023-05-30 15:40:57] INFO root fetch - processPackages [asysocks]: Downloading https://files.pythonhosted.org/packages/cb/f3/0f474cf40d8d11e3ebb36e09f5031ac97d32ca9e4f956bf43cf6cfc9e2df/asysocks-0.2.5.tar.gz
+[2023-05-30 15:40:57] WARNING root fetch - processPackages [pymexc]: Skipping, unable to determine old version
+[2023-05-30 15:40:57] INFO root fetch - main [MainThread]: End processing [pymexc] error
+[2023-05-30 15:40:57] INFO root fetch - processPackages [serp-onpremise]: Downloading https://files.pythonhosted.org/packages/f3/8b/5f5ebc51b78907b607ff1ef447f4d2df428201692b06628b2d54cca9b6e3/serp_onpremise-0.1.1.tar.gz
+[2023-05-30 15:40:57] INFO root fetch - processPackages [sinergym]: Downloading https://files.pythonhosted.org/packages/e7/f2/bfb750f38aeb78971fc9e4348e1763906edd2432d43947e0f00abb6cc283/sinergym-2.3.4.tar.gz
+[2023-05-30 15:40:57] INFO root fetch - processPackages [sygnet]: Downloading https://files.pythonhosted.org/packages/9f/fe/cb4f4ee23f25939bd9b8f3a2ffae45b279e1e3c6412f20e796447c4614dc/sygnet-0.0.8.tar.gz
+[2023-05-30 15:40:57] INFO root fetch - processPackages [ms-identity-web]: Downloading https://files.pythonhosted.org/packages/cb/d2/ea807db54faab61cffcc42f15f2c65c01048c9e464a5bc6b4152b5560aa4/ms_identity_web-0.0.1.tar.gz
+[2023-05-30 15:40:57] INFO root fetch - processPackages [pfizer-components-new]: Downloading https://files.pythonhosted.org/packages/3b/b2/58e776e96acd5cebed1e5d2b5171efb1da9e5e0ae0a59d8fbf66c567313e/pfizer_components_new-0.0.6.tar.gz
+[2023-05-30 15:40:57] INFO root fetch - processPackages [ardilla]: Downloading https://files.pythonhosted.org/packages/2c/b5/9397a3263984a05abdfad86990c68e2cb07bec0d7f0ae50a2de01c68ac36/ardilla-0.3.3b0.tar.gz
+[2023-05-30 15:40:58] INFO root fetch - processPackages [asysocks]: Downloading https://files.pythonhosted.org/packages/38/3a/d65215ce673620f4b238f59bdf3cc6b66963f8e76b79c02fa09f8a6c3fa5/asysocks-0.2.7.tar.gz
+[2023-05-30 15:40:58] INFO root fetch - processPackages [pfizer-components-new]: executing diffoscope
+[2023-05-30 15:40:58] INFO root fetch - processPackages [pfizer-components-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components_new-0.0.5-py3-none-any.whl.zip tmp/pfizer_components_new-0.0.6.tar.gz --markdown 20230530/p/pfizer-components-new/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-30 15:40:58] INFO root fetch - processPackages [ardilla]: executing diffoscope
+[2023-05-30 15:40:58] INFO root fetch - processPackages [ardilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ardilla-0.3.2b0.tar.gz tmp/ardilla-0.3.3b0.tar.gz --markdown 20230530/a/ardilla/0.3.2b0-0.3.3b0/diff.md --exclude *.pyd
+[2023-05-30 15:40:58] INFO root fetch - processPackages [serp-onpremise]: Downloading https://files.pythonhosted.org/packages/21/ee/0f80118762a9fdfd65b9fb11c343fc2fa699a962b74810bafc2fc04d1020/serp_onpremise-0.1.2.tar.gz
+[2023-05-30 15:40:58] INFO root fetch - processPackages [asysocks]: executing diffoscope
+[2023-05-30 15:40:58] INFO root fetch - processPackages [asysocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asysocks-0.2.5.tar.gz tmp/asysocks-0.2.7.tar.gz --markdown 20230530/a/asysocks/0.2.5-0.2.7/diff.md --exclude *.pyd
+[2023-05-30 15:40:58] INFO root fetch - processPackages [ms-identity-web]: Downloading https://files.pythonhosted.org/packages/68/f0/062c23ccb69719ab7c814aa4665269eb8ab407a4a98fcc52d11494ce404e/ms_identity_web-0.0.2.tar.gz
+[2023-05-30 15:40:58] INFO root fetch - processPackages [serp-onpremise]: executing diffoscope
+[2023-05-30 15:40:58] INFO root fetch - processPackages [serp-onpremise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serp_onpremise-0.1.1.tar.gz tmp/serp_onpremise-0.1.2.tar.gz --markdown 20230530/s/serp-onpremise/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 15:40:58] INFO root fetch - processPackages [ms-identity-web]: executing diffoscope
+[2023-05-30 15:40:58] INFO root fetch - processPackages [ms-identity-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_identity_web-0.0.1.tar.gz tmp/ms_identity_web-0.0.2.tar.gz --markdown 20230530/m/ms-identity-web/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 15:40:58] INFO root fetch - processPackages [sinergym]: Downloading https://files.pythonhosted.org/packages/72/ab/70f81dd211ed0321af3742318c6ab69d9f284809cab7d76fd2b6234d2ad5/sinergym-2.4.1.tar.gz
+[2023-05-30 15:40:58] INFO root fetch - processPackages [sinergym]: executing diffoscope
+[2023-05-30 15:40:58] INFO root fetch - processPackages [sinergym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinergym-2.3.4.tar.gz tmp/sinergym-2.4.1.tar.gz --markdown 20230530/s/sinergym/2.3.4-2.4.1/diff.md --exclude *.pyd
+[2023-05-30 15:40:59] INFO root fetch - processPackages [sygnet]: Downloading https://files.pythonhosted.org/packages/57/b6/9dbbbb963af835c6dfd7b3b1e0d0080e033f9b72ba46fe4089a821ec7de3/sygnet-0.0.9.tar.gz
+[2023-05-30 15:40:59] INFO root fetch - main [MainThread]: End processing [pfizer-components-new]: success
+[2023-05-30 15:40:59] INFO root fetch - main [MainThread]: End processing [ardilla]: success
+[2023-05-30 15:40:59] INFO root fetch - main [MainThread]: End processing [ms-identity-web]: success
+[2023-05-30 15:40:59] INFO root fetch - main [MainThread]: End processing [serp-onpremise]: success
+[2023-05-30 15:41:00] INFO root fetch - main [MainThread]: End processing [asysocks]: success
+[2023-05-30 15:41:01] INFO root fetch - processPackages [sygnet]: executing diffoscope
+[2023-05-30 15:41:01] INFO root fetch - processPackages [sygnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sygnet-0.0.8.tar.gz tmp/sygnet-0.0.9.tar.gz --markdown 20230530/s/sygnet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 15:41:02] INFO root fetch - main [MainThread]: End processing [sinergym]: success
+[2023-05-30 15:41:03] INFO root fetch - main [MainThread]: End processing [sygnet]: success
+[2023-05-30 15:41:03] INFO root fetch - main [MainThread]: Store serial: [18302932]
