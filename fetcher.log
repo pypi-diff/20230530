@@ -12459,3 +12459,87 @@
 [2023-05-30 14:26:01] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-05-30 14:26:04] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-05-30 14:26:04] INFO root fetch - main [MainThread]: Store serial: [18302108]
+[2023-05-30 14:31:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18302108]
+[2023-05-30 14:31:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-30 14:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Topdfgen
+[2023-05-30 14:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pandas
+[2023-05-30 14:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: su6
+[2023-05-30 14:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xztrainer
+[2023-05-30 14:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gwpconfig
+[2023-05-30 14:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discord-token-joiner.py
+[2023-05-30 14:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aistudio-scheduler-lock
+[2023-05-30 14:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: terminusdb-client
+[2023-05-30 14:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-master
+[2023-05-30 14:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: habana-tensorflow
+[2023-05-30 14:31:13] INFO root fetch - processPackages [mb-pandas]: New version: [1.0.202305301226] Old Version: [1.0.202305291017]
+[2023-05-30 14:31:13] INFO root fetch - processPackages [su6]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-30 14:31:13] WARNING root fetch - processPackages [Topdfgen]: Skipping, unable to determine old version
+[2023-05-30 14:31:13] INFO root fetch - processPackages [gwpconfig]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-30 14:31:13] INFO root fetch - processPackages [Topdfgen]: Start processing: habana-horovod
+[2023-05-30 14:31:13] INFO root fetch - processPackages [xztrainer]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-30 14:31:13] INFO root fetch - processPackages [aistudio-scheduler-lock]: New version: [1.0.6a1] Old Version: [1.0.6]
+[2023-05-30 14:31:13] INFO root fetch - main [MainThread]: End processing [Topdfgen] error
+[2023-05-30 14:31:13] WARNING root fetch - processPackages [discord-token-joiner.py]: Skipping, unable to determine old version
+[2023-05-30 14:31:13] INFO root fetch - processPackages [discord-token-joiner.py]: Start processing: habana-media-loader
+[2023-05-30 14:31:13] INFO root fetch - main [MainThread]: End processing [discord-token-joiner.py] error
+[2023-05-30 14:31:13] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230530.9.43.768438] Old Version: [20230530.9.0.837631]
+[2023-05-30 14:31:13] INFO root fetch - processPackages [terminusdb-client]: New version: [10.2.3] Old Version: [10.2.2]
+[2023-05-30 14:31:13] INFO root fetch - processPackages [habana-tensorflow]: New version: [1.9.0.580.1] Old Version: [1.8.0.690]
+[2023-05-30 14:31:13] INFO root fetch - processPackages [habana-horovod]: New version: [1.9.0.580.1] Old Version: [1.8.0.690]
+[2023-05-30 14:31:13] WARNING root fetch - processPackages [habana-media-loader]: Skipping, unable to determine old version
+[2023-05-30 14:31:13] INFO root fetch - processPackages [habana-media-loader]: Start processing: habana-pyhlml
+[2023-05-30 14:31:13] INFO root fetch - main [MainThread]: End processing [habana-media-loader] error
+[2023-05-30 14:31:13] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fd/b3/8fbf9a9bd2956ea700467ef90a7453c2f88ecbf61f3b73e709c656720643/certora-cli-alpha-master-20230530.9.0.837631.tar.gz
+[2023-05-30 14:31:13] WARNING root fetch - processPackages [habana-pyhlml]: Skipping, unable to determine old version
+[2023-05-30 14:31:13] INFO root fetch - processPackages [habana-pyhlml]: Start processing: habana-lightning-plugins
+[2023-05-30 14:31:13] INFO root fetch - main [MainThread]: End processing [habana-pyhlml] error
+[2023-05-30 14:31:13] INFO root fetch - processPackages [habana-lightning-plugins]: New version: [1.9.0.580.1] Old Version: [1.10.0.494]
+[2023-05-30 14:31:13] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39091116>=10485760
+[2023-05-30 14:31:13] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: openirt
+[2023-05-30 14:31:13] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-30 14:31:13] INFO root fetch - processPackages [openirt]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-30 14:31:14] INFO root fetch - processPackages [aistudio-scheduler-lock]: Downloading https://files.pythonhosted.org/packages/e1/49/c77f53253fdf9f963c76a6dabaef67c5b291cf44df135114fc64f453c4d6/aistudio-scheduler-lock-1.0.6.tar.gz
+[2023-05-30 14:31:14] INFO root fetch - processPackages [gwpconfig]: Downloading https://files.pythonhosted.org/packages/1d/b7/71bf7429b9219ec7d6ea511f22a41e3ee07461dd25c6c4a8a1aa2d04b2c2/gwpconfig-1.0.0-py3-none-any.whl
+[2023-05-30 14:31:14] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/ff/5a/66bb51994815f55def49b5fac006717ee8d8638ff5df6f873a7f2f26f76a/su6-0.7.0.tar.gz
+[2023-05-30 14:31:14] INFO root fetch - processPackages [terminusdb-client]: Downloading https://files.pythonhosted.org/packages/6c/eb/b59cb709bbc57e743d47ebab0df18e0bcffc9a908c70e2b83f61bdf57c3c/terminusdb-client-10.2.2.tar.gz
+[2023-05-30 14:31:14] INFO root fetch - processPackages [habana-horovod]: Downloading https://files.pythonhosted.org/packages/fe/fd/b140a4328ed81b1a1d22fc90ee2813393f16fa594027d0b19fa4ff3dde1c/habana-horovod-1.8.0.690.tar.gz
+[2023-05-30 14:31:14] INFO root fetch - processPackages [habana-tensorflow]: Downloading https://files.pythonhosted.org/packages/48/4b/c50fa7ce8d03930d58a85e1b4e3b61ea81f7dd859f5dcceb258a2f0a31eb/habana_tensorflow-1.8.0.690-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-30 14:31:14] INFO root fetch - processPackages [xztrainer]: Downloading https://files.pythonhosted.org/packages/02/2d/2e99aaa2f4d065b350bef11b1f1da8fd1503faec00c1ecf45637e64b38bf/xztrainer-0.9.6.tar.gz
+[2023-05-30 14:31:14] INFO root fetch - processPackages [habana-lightning-plugins]: Downloading https://files.pythonhosted.org/packages/cc/94/315355a4dd139a6b3f7584933ea1612c0599171f865e41834241f35f1740/habana_lightning_plugins-1.10.0.494-py3-none-any.whl
+[2023-05-30 14:31:14] WARNING root fetch - processPackages [habana-tensorflow]: Skipping package: exceeds size limit 13208802>=10485760
+[2023-05-30 14:31:14] INFO root fetch - main [MainThread]: End processing [habana-tensorflow] error
+[2023-05-30 14:31:14] INFO root fetch - processPackages [mb-pandas]: Downloading https://files.pythonhosted.org/packages/68/c9/1512be37f7aff479391c2be3aa9a6c499a7817290e600dca537d09da521a/mb_pandas-1.0.202305301226-py3-none-any.whl
+[2023-05-30 14:31:14] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-05-30 14:31:14] INFO root fetch - processPackages [openirt]: Downloading https://files.pythonhosted.org/packages/61/b4/99bb2aedc515247e3e0d7392115c9709c6267de142d784f95bafeb30a0a3/openirt-0.1.7.tar.gz
+[2023-05-30 14:31:14] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-0.6.0.tar.gz tmp/su6-0.7.0.tar.gz --markdown 20230530/s/su6/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-30 14:31:14] INFO root fetch - processPackages [aistudio-scheduler-lock]: executing diffoscope
+[2023-05-30 14:31:14] INFO root fetch - processPackages [aistudio-scheduler-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistudio-scheduler-lock-1.0.6.tar.gz tmp/aistudio-scheduler-lock-1.0.6a1.tar.gz --markdown 20230530/a/aistudio-scheduler-lock/1.0.6-1.0.6a1/diff.md --exclude *.pyd
+[2023-05-30 14:31:14] INFO root fetch - processPackages [gwpconfig]: Downloading https://files.pythonhosted.org/packages/52/e0/54efa07003d28d7004791d11a04fe17b4be95d088496416b9f16a4b25c55/gwpconfig-1.0.1-py3-none-any.whl
+[2023-05-30 14:31:14] INFO root fetch - processPackages [mb-pandas]: executing diffoscope
+[2023-05-30 14:31:14] INFO root fetch - processPackages [mb-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pandas-1.0.202305291017-py3-none-any.whl.zip tmp/mb_pandas-1.0.202305301226-py3-none-any.whl.zip --markdown 20230530/m/mb-pandas/1.0.202305291017-1.0.202305301226/diff.md --exclude *.pyd
+[2023-05-30 14:31:14] INFO root fetch - processPackages [openirt]: executing diffoscope
+[2023-05-30 14:31:14] INFO root fetch - processPackages [openirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openirt-0.1.6.tar.gz tmp/openirt-0.1.7.tar.gz --markdown 20230530/o/openirt/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-30 14:31:14] INFO root fetch - processPackages [habana-lightning-plugins]: Downloading https://files.pythonhosted.org/packages/62/15/068f09ba6a8be365c233c65a2bb81e8cf4432aca08e3d7f31754947308a8/habana_lightning_plugins-1.9.0.580.1-py3-none-any.whl
+[2023-05-30 14:31:14] INFO root fetch - processPackages [terminusdb-client]: Downloading https://files.pythonhosted.org/packages/dd/dd/ca399e553c7f61faa53dac64aa74f0b84d8499e33b4e334a4b1f3723c6cb/terminusdb-client-10.2.3.tar.gz
+[2023-05-30 14:31:14] INFO root fetch - processPackages [gwpconfig]: executing diffoscope
+[2023-05-30 14:31:14] INFO root fetch - processPackages [gwpconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwpconfig-1.0.0-py3-none-any.whl.zip tmp/gwpconfig-1.0.1-py3-none-any.whl.zip --markdown 20230530/g/gwpconfig/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 14:31:14] INFO root fetch - processPackages [xztrainer]: Downloading https://files.pythonhosted.org/packages/fb/a9/27fef8deacff15912273c3eb1e945a96c7c9fc5f0f3ebd5e80fa5146030d/xztrainer-0.9.7.tar.gz
+[2023-05-30 14:31:14] INFO root fetch - processPackages [habana-horovod]: Downloading https://files.pythonhosted.org/packages/3d/17/d916385fc8194f0befaa2bc63fd107923ddc4b26a34833a7b50a8ec78bf9/habana-horovod-1.9.0.580.1.tar.gz
+[2023-05-30 14:31:14] INFO root fetch - processPackages [habana-lightning-plugins]: executing diffoscope
+[2023-05-30 14:31:14] INFO root fetch - processPackages [habana-lightning-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habana_lightning_plugins-1.10.0.494-py3-none-any.whl.zip tmp/habana_lightning_plugins-1.9.0.580.1-py3-none-any.whl.zip --markdown 20230530/h/habana-lightning-plugins/1.10.0.494-1.9.0.580.1/diff.md --exclude *.pyd
+[2023-05-30 14:31:14] INFO root fetch - processPackages [terminusdb-client]: executing diffoscope
+[2023-05-30 14:31:14] INFO root fetch - processPackages [terminusdb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminusdb-client-10.2.2.tar.gz tmp/terminusdb-client-10.2.3.tar.gz --markdown 20230530/t/terminusdb-client/10.2.2-10.2.3/diff.md --exclude *.pyd
+[2023-05-30 14:31:14] INFO root fetch - processPackages [habana-horovod]: executing diffoscope
+[2023-05-30 14:31:14] INFO root fetch - processPackages [habana-horovod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habana-horovod-1.8.0.690.tar.gz tmp/habana-horovod-1.9.0.580.1.tar.gz --markdown 20230530/h/habana-horovod/1.8.0.690-1.9.0.580.1/diff.md --exclude *.pyd
+[2023-05-30 14:31:14] INFO root fetch - processPackages [xztrainer]: executing diffoscope
+[2023-05-30 14:31:14] INFO root fetch - processPackages [xztrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xztrainer-0.9.6.tar.gz tmp/xztrainer-0.9.7.tar.gz --markdown 20230530/x/xztrainer/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-30 14:31:15] INFO root fetch - main [MainThread]: End processing [mb-pandas]: success
+[2023-05-30 14:31:16] INFO root fetch - main [MainThread]: End processing [aistudio-scheduler-lock]: success
+[2023-05-30 14:31:16] INFO root fetch - main [MainThread]: End processing [openirt]: success
+[2023-05-30 14:31:16] INFO root fetch - main [MainThread]: End processing [gwpconfig]: success
+[2023-05-30 14:31:16] INFO root fetch - main [MainThread]: End processing [habana-lightning-plugins]: success
+[2023-05-30 14:31:16] INFO root fetch - main [MainThread]: End processing [xztrainer]: success
+[2023-05-30 14:31:16] INFO root fetch - main [MainThread]: End processing [terminusdb-client]: success
+[2023-05-30 14:31:38] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-05-30 14:32:53] INFO root fetch - main [MainThread]: End processing [habana-horovod]: success
+[2023-05-30 14:32:53] INFO root fetch - main [MainThread]: Store serial: [18302181]
