@@ -3313,3 +3313,67 @@
 [2023-05-30 02:57:25] INFO root fetch - main [MainThread]: End processing [configzen]: success
 [2023-05-30 02:57:43] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-05-30 02:57:43] INFO root fetch - main [MainThread]: Store serial: [18296527]
+[2023-05-30 03:02:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296527]
+[2023-05-30 03:02:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-30 03:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adafruit-circuitpython-httpserver
+[2023-05-30 03:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sns-notify
+[2023-05-30 03:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ats-case
+[2023-05-30 03:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biblelib
+[2023-05-30 03:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-wget
+[2023-05-30 03:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-05-30 03:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: configzen
+[2023-05-30 03:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aemcmc-nightly
+[2023-05-30 03:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-lambda-layer-curl
+[2023-05-30 03:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: audiotoolbox
+[2023-05-30 03:02:52] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-30 03:02:52] INFO root fetch - processPackages [ats-case]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-30 03:02:52] INFO root fetch - processPackages [biblelib]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-30 03:02:52] INFO root fetch - processPackages [audiotoolbox]: New version: [0.65.1] Old Version: [0.65]
+[2023-05-30 03:02:52] INFO root fetch - processPackages [configzen]: New version: [0.1.44] Old Version: [0.1.43]
+[2023-05-30 03:02:52] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230529] Old Version: [0.0.8.dev20230528]
+[2023-05-30 03:02:52] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-30 03:02:52] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-30 03:02:52] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 03:02:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-30 03:02:52] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-05-30 03:02:52] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230530/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:02:52] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-05-30 03:02:52] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230530/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:02:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-30 03:02:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230530/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:02:52] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/6a/b2/d76b7416885e02ebdb29b129e2d13e6b5c0e60b5f02bf8b291c4a1622a32/ats_case-0.8.2.tar.gz
+[2023-05-30 03:02:52] INFO root fetch - processPackages [audiotoolbox]: Downloading https://files.pythonhosted.org/packages/a6/88/c183446b7affb9f62709ede7c0672d1a6f79aa3e4239444a5d4001eb2103/audiotoolbox-0.65.1.tar.gz
+[2023-05-30 03:02:52] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/55/c4/51e1046ca23b04c654a20a1ee1ef65c7711947bf7b38f6ebc8b0c5398d52/configzen-0.1.44.tar.gz
+[2023-05-30 03:02:52] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/07/30/f3cb00f9eae8a0fce38520f871f4e246ad20d9a92dd270f51324d52e421a/aemcmc-nightly-0.0.8.dev20230529.tar.gz
+[2023-05-30 03:02:52] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-05-30 03:02:52] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.8.1.tar.gz tmp/ats_case-0.8.2.tar.gz --markdown 20230530/a/ats-case/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-30 03:02:52] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-05-30 03:02:52] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.1.43.tar.gz tmp/configzen-0.1.44.tar.gz --markdown 20230530/c/configzen/0.1.43-0.1.44/diff.md --exclude *.pyd
+[2023-05-30 03:02:52] INFO root fetch - processPackages [biblelib]: Downloading https://files.pythonhosted.org/packages/87/b9/58160dc1b0f7217c0dc2207a2c7a63d072c9dc3eb359569317333fda0029/biblelib-0.2.7.tar.gz
+[2023-05-30 03:02:52] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-30 03:02:52] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230528.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230529.tar.gz --markdown 20230530/a/aemcmc-nightly/0.0.8.dev20230528-0.0.8.dev20230529/diff.md --exclude *.pyd
+[2023-05-30 03:02:52] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-30 03:02:52] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230530/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:02:52] INFO root fetch - processPackages [audiotoolbox]: executing diffoscope
+[2023-05-30 03:02:52] INFO root fetch - processPackages [audiotoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiotoolbox-0.65.tar.gz tmp/audiotoolbox-0.65.1.tar.gz --markdown 20230530/a/audiotoolbox/0.65-0.65.1/diff.md --exclude *.pyd
+[2023-05-30 03:02:52] INFO root fetch - processPackages [biblelib]: executing diffoscope
+[2023-05-30 03:02:52] INFO root fetch - processPackages [biblelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biblelib-0.2.6.tar.gz tmp/biblelib-0.2.7.tar.gz --markdown 20230530/b/biblelib/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-30 03:02:52] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: Downloading https://files.pythonhosted.org/packages/16/b6/fb4282f8e4d9d61012cbc97e9c6ccf993e1c6e91a1ef18121276603b0e3b/adafruit-circuitpython-httpserver-4.0.2.tar.gz
+[2023-05-30 03:02:52] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: executing diffoscope
+[2023-05-30 03:02:52] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-httpserver-4.0.1.tar.gz tmp/adafruit-circuitpython-httpserver-4.0.2.tar.gz --markdown 20230530/a/adafruit-circuitpython-httpserver/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-05-30 03:02:53] INFO root fetch - processPackages [cdk-sns-notify]: Start processing: selenium-supporter
+[2023-05-30 03:02:53] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-05-30 03:02:54] INFO root fetch - processPackages [selenium-supporter]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-30 03:02:54] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-05-30 03:02:54] INFO root fetch - processPackages [selenium-supporter]: executing diffoscope
+[2023-05-30 03:02:54] INFO root fetch - processPackages [selenium-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-supporter-0.0.5.tar.gz tmp/selenium-supporter-0.0.6.tar.gz --markdown 20230530/s/selenium-supporter/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-30 03:02:54] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-05-30 03:02:54] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-30 03:02:54] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-30 03:02:55] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-05-30 03:02:55] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-30 03:02:55] INFO root fetch - main [MainThread]: End processing [biblelib]: success
+[2023-05-30 03:02:55] INFO root fetch - main [MainThread]: End processing [audiotoolbox]: success
+[2023-05-30 03:02:55] INFO root fetch - main [MainThread]: End processing [selenium-supporter]: success
+[2023-05-30 03:02:55] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-httpserver]: success
+[2023-05-30 03:02:55] INFO root fetch - main [MainThread]: Store serial: [18296559]
