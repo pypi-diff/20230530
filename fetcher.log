@@ -6806,3 +6806,128 @@
 [2023-05-30 08:59:46] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2023-05-30 09:00:33] INFO root fetch - main [MainThread]: End processing [parquet2lance]: success
 [2023-05-30 09:00:33] INFO root fetch - main [MainThread]: Store serial: [18298599]
+[2023-05-30 09:05:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298599]
+[2023-05-30 09:05:42] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-30 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-searchbiliinfo
+[2023-05-30 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kognic-base-clients
+[2023-05-30 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatgpt-mixin
+[2023-05-30 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kt-ds-api
+[2023-05-30 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-models-nightly
+[2023-05-30 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantecon
+[2023-05-30 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yggdrasil-mc
+[2023-05-30 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aio-scrapy
+[2023-05-30 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flageval-serving
+[2023-05-30 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seqio-nightly
+[2023-05-30 09:05:42] INFO root fetch - processPackages [chatgpt-mixin]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-30 09:05:42] INFO root fetch - processPackages [aio-scrapy]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-30 09:05:42] ERROR root fetch - processPackages [kt-ds-api]: Unable to get metadata: No such project 'kt-ds-api'
+[2023-05-30 09:05:42] INFO root fetch - processPackages [kognic-base-clients]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-30 09:05:42] INFO root fetch - processPackages [flageval-serving]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 09:05:42] INFO root fetch - processPackages [kt-ds-api]: Start processing: alibabacloud-kms20160120-py2
+[2023-05-30 09:05:42] INFO root fetch - main [MainThread]: End processing [kt-ds-api] error
+[2023-05-30 09:05:42] INFO root fetch - processPackages [quantecon]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-30 09:05:42] INFO root fetch - processPackages [yggdrasil-mc]: New version: [0.1b6] Old Version: [0.1b5]
+[2023-05-30 09:05:42] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: New version: [1.7.7] Old Version: [1.7.6]
+[2023-05-30 09:05:42] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-05-30 09:05:42] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-05-30 09:05:42] INFO root fetch - processPackages [alibabacloud-kms20160120-py2]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-30 09:05:42] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-05-30 09:05:42] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230530/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-05-30 09:05:42] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-05-30 09:05:42] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230530/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-05-30 09:05:42] INFO root fetch - processPackages [kognic-base-clients]: Downloading https://files.pythonhosted.org/packages/77/e7/229a7206ceb62f246d1df9e2192c82451ac18f0fa71169af334eaf29ffde/kognic-base-clients-1.1.0.tar.gz
+[2023-05-30 09:05:42] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: Downloading https://files.pythonhosted.org/packages/25/e7/600afe54c4b009371e47c0a29f35e378b7b750c2caf6b508d847a01e48fb/nonebot_plugin_searchbiliinfo-1.7.6.tar.gz
+[2023-05-30 09:05:42] INFO root fetch - processPackages [yggdrasil-mc]: Downloading https://files.pythonhosted.org/packages/e4/8c/6bdfe5ec262a92e2ca9175d31863d8e26be57d4b77fdd8f5525d37ece7fb/yggdrasil_mc-0.1b5.tar.gz
+[2023-05-30 09:05:42] INFO root fetch - processPackages [quantecon]: Downloading https://files.pythonhosted.org/packages/d5/77/fecfb125911571117c3fdc4b27d3728d4bfe826a3396e9688cd53f927b7f/quantecon-0.7.0.tar.gz
+[2023-05-30 09:05:42] INFO root fetch - processPackages [alibabacloud-kms20160120-py2]: Downloading https://files.pythonhosted.org/packages/48/3d/16221a0ca85fb4e8387078deaaf355dbe84240c3a8e5bf109bc1ace4fb56/alibabacloud_kms20160120_py2-1.0.2.tar.gz
+[2023-05-30 09:05:42] INFO root fetch - processPackages [aio-scrapy]: Downloading https://files.pythonhosted.org/packages/52/bf/09f168e2362df52af67ed6289b6e8989355762bed8a86185929906352dd3/aio-scrapy-1.2.8.tar.gz
+[2023-05-30 09:05:42] INFO root fetch - processPackages [flageval-serving]: Downloading https://files.pythonhosted.org/packages/50/6c/362cda677c59af9b658e1cdc237d7a1d60cc2f1f27ce46ca8f6f398a0c85/flageval_serving-0.1.0.tar.gz
+[2023-05-30 09:05:42] INFO root fetch - processPackages [chatgpt-mixin]: Downloading https://files.pythonhosted.org/packages/6a/bf/b851e0eeb1f0eefabb0373a0514bb2b9d285014ee5c7595a78c237be4e17/chatgpt-mixin-0.1.8.tar.gz
+[2023-05-30 09:05:42] INFO root fetch - processPackages [chatgpt-mixin]: executing diffoscope
+[2023-05-30 09:05:42] INFO root fetch - processPackages [chatgpt-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-mixin-0.1.7.tar.gz tmp/chatgpt-mixin-0.1.8.tar.gz --markdown 20230530/c/chatgpt-mixin/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-30 09:05:42] INFO root fetch - processPackages [kognic-base-clients]: Downloading https://files.pythonhosted.org/packages/18/db/c85d7e0393711abe6495493c15fa86e1cca2887bd7b5f96bf636f68a0017/kognic-base-clients-1.2.0.tar.gz
+[2023-05-30 09:05:42] INFO root fetch - processPackages [yggdrasil-mc]: Downloading https://files.pythonhosted.org/packages/d0/e7/8441ebab1014b96ae4bac62f8a5899505246ef261ffe185752736fa59439/yggdrasil_mc-0.1b6.tar.gz
+[2023-05-30 09:05:42] INFO root fetch - processPackages [alibabacloud-kms20160120-py2]: Downloading https://files.pythonhosted.org/packages/74/9f/fe3ef791d62f2a3c790bc525011150db5e4b5a3f273b32d65106d84fbce3/alibabacloud_kms20160120_py2-1.0.3.tar.gz
+[2023-05-30 09:05:42] INFO root fetch - processPackages [flageval-serving]: Downloading https://files.pythonhosted.org/packages/51/de/dcb53c5e3c366929ed557905b6aa82c01fdee8846ec3b1237067fcb84a7a/flageval_serving-0.1.1.tar.gz
+[2023-05-30 09:05:42] INFO root fetch - processPackages [quantecon]: Downloading https://files.pythonhosted.org/packages/34/6d/f31b282b3d48e4518ccbf9f15e8e1b7c04c055c29e604fde6ffae7fe6fb8/quantecon-0.7.1.tar.gz
+[2023-05-30 09:05:42] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: Downloading https://files.pythonhosted.org/packages/9c/15/b1eab16d61d4ac44ea0f4e9aa894618112dfa55057ac20dd6902a30376d1/nonebot_plugin_searchbiliinfo-1.7.7.tar.gz
+[2023-05-30 09:05:42] INFO root fetch - processPackages [kognic-base-clients]: executing diffoscope
+[2023-05-30 09:05:42] INFO root fetch - processPackages [kognic-base-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kognic-base-clients-1.1.0.tar.gz tmp/kognic-base-clients-1.2.0.tar.gz --markdown 20230530/k/kognic-base-clients/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-30 09:05:43] INFO root fetch - processPackages [alibabacloud-kms20160120-py2]: executing diffoscope
+[2023-05-30 09:05:43] INFO root fetch - processPackages [alibabacloud-kms20160120-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_kms20160120_py2-1.0.2.tar.gz tmp/alibabacloud_kms20160120_py2-1.0.3.tar.gz --markdown 20230530/a/alibabacloud-kms20160120-py2/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-30 09:05:43] INFO root fetch - processPackages [quantecon]: executing diffoscope
+[2023-05-30 09:05:43] INFO root fetch - processPackages [quantecon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantecon-0.7.0.tar.gz tmp/quantecon-0.7.1.tar.gz --markdown 20230530/q/quantecon/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-30 09:05:43] INFO root fetch - processPackages [flageval-serving]: executing diffoscope
+[2023-05-30 09:05:43] INFO root fetch - processPackages [flageval-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flageval_serving-0.1.0.tar.gz tmp/flageval_serving-0.1.1.tar.gz --markdown 20230530/f/flageval-serving/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 09:05:43] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: executing diffoscope
+[2023-05-30 09:05:43] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_searchbiliinfo-1.7.6.tar.gz tmp/nonebot_plugin_searchbiliinfo-1.7.7.tar.gz --markdown 20230530/n/nonebot-plugin-searchbiliinfo/1.7.6-1.7.7/diff.md --exclude *.pyd
+[2023-05-30 09:05:43] INFO root fetch - processPackages [aio-scrapy]: Downloading https://files.pythonhosted.org/packages/7c/81/de9911cc702a731ca15d9f410bbf6742e01072bfd3638618a2f7b070ea29/aio-scrapy-1.2.9.tar.gz
+[2023-05-30 09:05:43] INFO root fetch - processPackages [yggdrasil-mc]: executing diffoscope
+[2023-05-30 09:05:43] INFO root fetch - processPackages [yggdrasil-mc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yggdrasil_mc-0.1b5.tar.gz tmp/yggdrasil_mc-0.1b6.tar.gz --markdown 20230530/y/yggdrasil-mc/0.1b5-0.1b6/diff.md --exclude *.pyd
+[2023-05-30 09:05:43] INFO root fetch - processPackages [aio-scrapy]: executing diffoscope
+[2023-05-30 09:05:43] INFO root fetch - processPackages [aio-scrapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio-scrapy-1.2.8.tar.gz tmp/aio-scrapy-1.2.9.tar.gz --markdown 20230530/a/aio-scrapy/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-30 09:05:44] INFO root fetch - processPackages [chatgpt-mixin]: Start processing: taktile-auth
+[2023-05-30 09:05:44] INFO root fetch - main [MainThread]: End processing [chatgpt-mixin]: success
+[2023-05-30 09:05:44] INFO root fetch - processPackages [taktile-auth]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 09:05:44] INFO root fetch - processPackages [taktile-auth]: executing diffoscope
+[2023-05-30 09:05:44] INFO root fetch - processPackages [taktile-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taktile-auth-0.0.8.tar.gz tmp/taktile-auth-0.0.9.tar.gz --markdown 20230530/t/taktile-auth/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 09:05:45] INFO root fetch - processPackages [flageval-serving]: Start processing: revo
+[2023-05-30 09:05:45] INFO root fetch - main [MainThread]: End processing [flageval-serving]: success
+[2023-05-30 09:05:45] INFO root fetch - processPackages [yggdrasil-mc]: Start processing: alibabacloud-kms20160120
+[2023-05-30 09:05:45] INFO root fetch - main [MainThread]: End processing [yggdrasil-mc]: success
+[2023-05-30 09:05:45] INFO root fetch - processPackages [revo]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-30 09:05:45] INFO root fetch - processPackages [kognic-base-clients]: Start processing: metarace
+[2023-05-30 09:05:45] INFO root fetch - main [MainThread]: End processing [kognic-base-clients]: success
+[2023-05-30 09:05:45] INFO root fetch - processPackages [alibabacloud-kms20160120]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-30 09:05:45] INFO root fetch - processPackages [alibabacloud-kms20160120-py2]: Start processing: cengal
+[2023-05-30 09:05:45] INFO root fetch - main [MainThread]: End processing [alibabacloud-kms20160120-py2]: success
+[2023-05-30 09:05:45] INFO root fetch - processPackages [metarace]: New version: [2.0.3] Old Version: [2.0.2.dev5]
+[2023-05-30 09:05:45] INFO root fetch - processPackages [cengal]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-05-30 09:05:45] INFO root fetch - processPackages [revo]: Downloading https://files.pythonhosted.org/packages/2d/1a/681ca1b7925a420b960c4abcc82d8241a9e674a02db7cfdaf6a9fa41ac08/revo-0.2.0-py3-none-any.whl
+[2023-05-30 09:05:45] INFO root fetch - processPackages [alibabacloud-kms20160120]: Downloading https://files.pythonhosted.org/packages/4b/6e/d217862670a11369f43ab704428d5e8d823363658abab186cff008efc5d6/alibabacloud_kms20160120-2.0.2.tar.gz
+[2023-05-30 09:05:45] ERROR root fetch - processPackages [metarace]: Unable to fetch info: No such project/version 'metarace' 2.0.2.dev5
+[2023-05-30 09:05:45] INFO root fetch - processPackages [metarace]: Start processing: distcrab
+[2023-05-30 09:05:45] INFO root fetch - main [MainThread]: End processing [metarace] error
+[2023-05-30 09:05:45] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 09:05:45] INFO root fetch - processPackages [revo]: executing diffoscope
+[2023-05-30 09:05:45] INFO root fetch - processPackages [revo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revo-0.1.0-py3-none-any.whl.zip tmp/revo-0.2.0-py3-none-any.whl.zip --markdown 20230530/r/revo/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 09:05:45] INFO root fetch - processPackages [seqio-nightly]: Start processing: ffmpeg-progress-yield
+[2023-05-30 09:05:45] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-05-30 09:05:45] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2023-05-30 09:05:45] INFO root fetch - processPackages [ffmpeg-progress-yield]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-30 09:05:45] INFO root fetch - processPackages [cengal]: Downloading https://files.pythonhosted.org/packages/f7/da/6a8858654fc80871e81fca22e503c7376b3e68a7681e0bd100c35daa1e69/cengal-3.2.6.tar.gz
+[2023-05-30 09:05:45] INFO root fetch - processPackages [alibabacloud-kms20160120]: Downloading https://files.pythonhosted.org/packages/80/d6/456273ac9a5d11cda92c0b7494f62c12d36a8d7dcf1e8414d2e689a6a1c8/alibabacloud_kms20160120-2.0.3.tar.gz
+[2023-05-30 09:05:45] INFO root fetch - processPackages [quantecon]: Start processing: checkov
+[2023-05-30 09:05:45] INFO root fetch - main [MainThread]: End processing [quantecon]: success
+[2023-05-30 09:05:45] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: Start processing: jms-storage
+[2023-05-30 09:05:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-searchbiliinfo]: success
+[2023-05-30 09:05:45] INFO root fetch - processPackages [jms-storage]: New version: [0.0.9] Old Version: [0.0.46]
+[2023-05-30 09:05:45] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-30 09:05:45] INFO root fetch - processPackages [cengal]: executing diffoscope
+[2023-05-30 09:05:45] INFO root fetch - processPackages [cengal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cengal-3.2.5.tar.gz tmp/cengal-3.2.6.tar.gz --markdown 20230530/c/cengal/3.2.5-3.2.6/diff.md --exclude *.pyd
+[2023-05-30 09:05:45] INFO root fetch - processPackages [ffmpeg-progress-yield]: Downloading https://files.pythonhosted.org/packages/4b/b0/86f3f3a8354dadee55eb9c64893c2cd5206cb4f816af25e5f0320276fbe7/ffmpeg-progress-yield-0.7.4.tar.gz
+[2023-05-30 09:05:45] INFO root fetch - processPackages [alibabacloud-kms20160120]: executing diffoscope
+[2023-05-30 09:05:45] INFO root fetch - processPackages [alibabacloud-kms20160120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_kms20160120-2.0.2.tar.gz tmp/alibabacloud_kms20160120-2.0.3.tar.gz --markdown 20230530/a/alibabacloud-kms20160120/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-30 09:05:45] INFO root fetch - processPackages [jms-storage]: Downloading https://files.pythonhosted.org/packages/de/e5/5c4a83efe5cce933ba25e2d426c7ffeee8acb780f87d9e6f3843e6ade34a/jms-storage-0.0.46.tar.gz
+[2023-05-30 09:05:45] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2023-05-30 09:05:46] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2023-05-30 09:05:46] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20230530/d/distcrab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 09:05:46] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-30 09:05:46] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230530/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-30 09:05:46] INFO root fetch - processPackages [jms-storage]: Downloading https://files.pythonhosted.org/packages/e5/fe/4fc0396d4a55b575307fcabe6631c50a2563cb2d9bd4af2ca7414c1dd1af/jms-storage-0.0.9.tar.gz
+[2023-05-30 09:05:46] INFO root fetch - processPackages [ffmpeg-progress-yield]: Downloading https://files.pythonhosted.org/packages/13/f9/4d2404e32fcaaba7ecf764076c7a43b9f7131db08b5f36ca2c255a0ea5e0/ffmpeg-progress-yield-0.7.5.tar.gz
+[2023-05-30 09:05:46] INFO root fetch - processPackages [ffmpeg-progress-yield]: executing diffoscope
+[2023-05-30 09:05:46] INFO root fetch - processPackages [ffmpeg-progress-yield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg-progress-yield-0.7.4.tar.gz tmp/ffmpeg-progress-yield-0.7.5.tar.gz --markdown 20230530/f/ffmpeg-progress-yield/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-30 09:05:46] INFO root fetch - processPackages [jms-storage]: executing diffoscope
+[2023-05-30 09:05:46] INFO root fetch - processPackages [jms-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jms-storage-0.0.46.tar.gz tmp/jms-storage-0.0.9.tar.gz --markdown 20230530/j/jms-storage/0.0.46-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 09:05:46] INFO root fetch - main [MainThread]: End processing [taktile-auth]: success
+[2023-05-30 09:05:47] INFO root fetch - main [MainThread]: End processing [revo]: success
+[2023-05-30 09:05:47] INFO root fetch - main [MainThread]: End processing [aio-scrapy]: success
+[2023-05-30 09:05:47] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2023-05-30 09:05:48] INFO root fetch - main [MainThread]: End processing [ffmpeg-progress-yield]: success
+[2023-05-30 09:05:48] INFO root fetch - main [MainThread]: End processing [jms-storage]: success
+[2023-05-30 09:05:48] INFO root fetch - main [MainThread]: End processing [alibabacloud-kms20160120]: success
+[2023-05-30 09:05:58] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-05-30 09:06:27] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-30 09:06:29] INFO root fetch - main [MainThread]: End processing [cengal]: success
+[2023-05-30 09:06:29] INFO root fetch - main [MainThread]: Store serial: [18298663]
