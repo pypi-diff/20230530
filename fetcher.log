@@ -7475,3 +7475,95 @@
 [2023-05-30 09:43:38] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
 [2023-05-30 09:43:44] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-05-30 09:43:44] INFO root fetch - main [MainThread]: Store serial: [18298977]
+[2023-05-30 09:48:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298977]
+[2023-05-30 09:48:53] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-30 09:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-cloudwatch-metrics
+[2023-05-30 09:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lnschema_bionty
+[2023-05-30 09:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miniagent
+[2023-05-30 09:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentry-dynamic-sampling-lib
+[2023-05-30 09:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airscript
+[2023-05-30 09:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lnschema_lamin1
+[2023-05-30 09:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lmflow-finetuner
+[2023-05-30 09:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lmflow-evaluator
+[2023-05-30 09:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: halborn-ctf
+[2023-05-30 09:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: keras-nightly
+[2023-05-30 09:48:53] INFO root fetch - processPackages [django-cloudwatch-metrics]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-30 09:48:53] INFO root fetch - processPackages [sentry-dynamic-sampling-lib]: New version: [1.2.0a2] Old Version: [1.2.0a1]
+[2023-05-30 09:48:53] INFO root fetch - processPackages [airscript]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-30 09:48:53] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-30 09:48:53] INFO root fetch - processPackages [lnschema_lamin1]: New version: [0.17a3] Old Version: [0.17a2]
+[2023-05-30 09:48:53] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-30 09:48:53] WARNING root fetch - processPackages [lmflow-finetuner]: Skipping, unable to determine old version
+[2023-05-30 09:48:53] INFO root fetch - processPackages [lmflow-finetuner]: Start processing: lmflow-pretrain
+[2023-05-30 09:48:53] INFO root fetch - main [MainThread]: End processing [lmflow-finetuner] error
+[2023-05-30 09:48:53] WARNING root fetch - processPackages [lmflow-evaluator]: Skipping, unable to determine old version
+[2023-05-30 09:48:53] INFO root fetch - processPackages [miniagent]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-30 09:48:53] INFO root fetch - processPackages [lmflow-evaluator]: Start processing: odoo12-addon-delivery-gls-asm
+[2023-05-30 09:48:53] INFO root fetch - main [MainThread]: End processing [lmflow-evaluator] error
+[2023-05-30 09:48:53] WARNING root fetch - processPackages [lmflow-pretrain]: Skipping, unable to determine old version
+[2023-05-30 09:48:53] INFO root fetch - processPackages [lmflow-pretrain]: Start processing: nettowel
+[2023-05-30 09:48:53] INFO root fetch - main [MainThread]: End processing [lmflow-pretrain] error
+[2023-05-30 09:48:53] INFO root fetch - processPackages [odoo12-addon-delivery-gls-asm]: New version: [12.0.1.0.8] Old Version: [12.0.1.0.7]
+[2023-05-30 09:48:53] INFO root fetch - processPackages [nettowel]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-30 09:48:53] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-05-30 09:48:53] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230530/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 09:48:53] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-05-30 09:48:53] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/89/47/30538ebd6d950d5b9649d937eb19d19df0daa2eb8734777a4c6003209886/halborn_ctf-0.1.7.tar.gz
+[2023-05-30 09:48:53] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/b1/b8/5ffe2d50cb15c36414cc9081e36c5bd05770ef0635db1fa7d11f8060849b/django_cloudwatch_metrics-0.0.2.tar.gz
+[2023-05-30 09:48:53] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-05-30 09:48:53] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230530/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-05-30 09:48:53] INFO root fetch - processPackages [odoo12-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/ed/a2/d6c75787bdc7587517fb4f02d8a59b7e8bbe8a985dd51625582f0a417f5f/odoo12_addon_delivery_gls_asm-12.0.1.0.7-py3-none-any.whl
+[2023-05-30 09:48:53] INFO root fetch - processPackages [nettowel]: Downloading https://files.pythonhosted.org/packages/a8/f5/b042abe167b7cca6b0e0561bf9eed1857cb0b3272220586d797e8d46db28/nettowel-0.5.0.tar.gz
+[2023-05-30 09:48:53] INFO root fetch - processPackages [airscript]: Downloading https://files.pythonhosted.org/packages/a4/93/a030d8e8940707dc9f940353f7d7ded9b6f62933c9bb950ce05c6c3e3ff5/airscript-0.0.3.tar.gz
+[2023-05-30 09:48:53] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/61/fe/ddee9f7a8915f85ae86d21e121b9930e76846662b7905185edc01f253eaa/miniagent-0.0.8-py3-none-any.whl
+[2023-05-30 09:48:53] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-05-30 09:48:53] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.6.tar.gz tmp/halborn_ctf-0.1.7.tar.gz --markdown 20230530/h/halborn-ctf/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-30 09:48:53] INFO root fetch - processPackages [lnschema_lamin1]: executing diffoscope
+[2023-05-30 09:48:53] INFO root fetch - processPackages [lnschema_lamin1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_lamin1-0.17a2.tar.gz tmp/lnschema_lamin1-0.17a3.tar.gz --markdown 20230530/l/lnschema_lamin1/0.17a2-0.17a3/diff.md --exclude *.pyd
+[2023-05-30 09:48:53] INFO root fetch - processPackages [sentry-dynamic-sampling-lib]: executing diffoscope
+[2023-05-30 09:48:53] INFO root fetch - processPackages [sentry-dynamic-sampling-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_dynamic_sampling_lib-1.2.0a1.tar.gz tmp/sentry_dynamic_sampling_lib-1.2.0a2.tar.gz --markdown 20230530/s/sentry-dynamic-sampling-lib/1.2.0a1-1.2.0a2/diff.md --exclude *.pyd
+[2023-05-30 09:48:53] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/d6/88/793f77e967d6eea6900d35d9d3761bd23891628f1347bd14b347e3361347/django_cloudwatch_metrics-0.0.3.tar.gz
+[2023-05-30 09:48:53] INFO root fetch - processPackages [miniagent]: executing diffoscope
+[2023-05-30 09:48:53] INFO root fetch - processPackages [miniagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniagent-0.0.7-py3-none-any.whl.zip tmp/miniagent-0.0.8-py3-none-any.whl.zip --markdown 20230530/m/miniagent/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 09:48:53] INFO root fetch - processPackages [odoo12-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/08/3d/f75da5100d74d41df41e5a042f3706a3ae7b48bb7386143e5c7eb7eb8d29/odoo12_addon_delivery_gls_asm-12.0.1.0.8-py3-none-any.whl
+[2023-05-30 09:48:53] INFO root fetch - processPackages [airscript]: executing diffoscope
+[2023-05-30 09:48:53] INFO root fetch - processPackages [airscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airscript-0.0.2.tar.gz tmp/airscript-0.0.3.tar.gz --markdown 20230530/a/airscript/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-30 09:48:53] INFO root fetch - processPackages [django-cloudwatch-metrics]: executing diffoscope
+[2023-05-30 09:48:53] INFO root fetch - processPackages [django-cloudwatch-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloudwatch_metrics-0.0.2.tar.gz tmp/django_cloudwatch_metrics-0.0.3.tar.gz --markdown 20230530/d/django-cloudwatch-metrics/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-30 09:48:53] INFO root fetch - processPackages [odoo12-addon-delivery-gls-asm]: executing diffoscope
+[2023-05-30 09:48:53] INFO root fetch - processPackages [odoo12-addon-delivery-gls-asm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_delivery_gls_asm-12.0.1.0.7-py3-none-any.whl.zip tmp/odoo12_addon_delivery_gls_asm-12.0.1.0.8-py3-none-any.whl.zip --markdown 20230530/o/odoo12-addon-delivery-gls-asm/12.0.1.0.7-12.0.1.0.8/diff.md --exclude *.pyd
+[2023-05-30 09:48:53] INFO root fetch - processPackages [nettowel]: Downloading https://files.pythonhosted.org/packages/95/24/f1a7f4f489e0f5d8ead4b333f6e9ac94fa6d349dc3dd4ac4cf18350d2e78/nettowel-0.5.1.tar.gz
+[2023-05-30 09:48:53] INFO root fetch - processPackages [nettowel]: executing diffoscope
+[2023-05-30 09:48:53] INFO root fetch - processPackages [nettowel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nettowel-0.5.0.tar.gz tmp/nettowel-0.5.1.tar.gz --markdown 20230530/n/nettowel/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-30 09:48:54] INFO root fetch - processPackages [lnschema_bionty]: Start processing: dls-bxflow
+[2023-05-30 09:48:54] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-05-30 09:48:54] INFO root fetch - processPackages [dls-bxflow]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-30 09:48:54] INFO root fetch - processPackages [dls-bxflow]: Downloading https://files.pythonhosted.org/packages/13/fe/4039a5514c1d5a4403c3ca44487d2a1cfc11f084f1d857d553c2842c6742/dls-bxflow-2.4.0.tar.gz
+[2023-05-30 09:48:55] INFO root fetch - processPackages [dls-bxflow]: executing diffoscope
+[2023-05-30 09:48:55] INFO root fetch - processPackages [dls-bxflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-bxflow-2.3.0.tar.gz tmp/dls-bxflow-2.4.0.tar.gz --markdown 20230530/d/dls-bxflow/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-30 09:48:55] INFO root fetch - processPackages [sentry-dynamic-sampling-lib]: Start processing: winmail
+[2023-05-30 09:48:55] INFO root fetch - main [MainThread]: End processing [sentry-dynamic-sampling-lib]: success
+[2023-05-30 09:48:55] INFO root fetch - processPackages [winmail]: New version: [0.2.23] Old Version: [0.2.12]
+[2023-05-30 09:48:55] INFO root fetch - processPackages [winmail]: Downloading https://files.pythonhosted.org/packages/6c/57/37f5f9037455083b3d0d3dded64dbd0e8b6ce4a16d0a0bdac56a58f8b95e/winmail-0.2.12-py3-none-any.whl
+[2023-05-30 09:48:55] INFO root fetch - processPackages [airscript]: Start processing: lmflow-pretrainer
+[2023-05-30 09:48:55] INFO root fetch - main [MainThread]: End processing [airscript]: success
+[2023-05-30 09:48:55] INFO root fetch - processPackages [django-cloudwatch-metrics]: Start processing: localstack-core
+[2023-05-30 09:48:55] INFO root fetch - main [MainThread]: End processing [django-cloudwatch-metrics]: success
+[2023-05-30 09:48:55] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230530065102] Old Version: [2.1.1.dev20230529184621]
+[2023-05-30 09:48:55] WARNING root fetch - processPackages [lmflow-pretrainer]: Skipping, unable to determine old version
+[2023-05-30 09:48:55] INFO root fetch - main [MainThread]: End processing [lmflow-pretrainer] error
+[2023-05-30 09:48:55] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-30 09:48:55] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230529184621.tar.gz tmp/localstack-core-2.1.1.dev20230530065102.tar.gz --markdown 20230530/l/localstack-core/2.1.1.dev20230529184621-2.1.1.dev20230530065102/diff.md --exclude *.pyd
+[2023-05-30 09:48:55] INFO root fetch - processPackages [winmail]: Downloading https://files.pythonhosted.org/packages/ff/c2/7521c8e94a9a65a389a01dfed9728ed94884655a6b6e43e2f9cb8a03003b/winmail-0.2.23-py3-none-any.whl
+[2023-05-30 09:48:55] INFO root fetch - main [MainThread]: End processing [miniagent]: success
+[2023-05-30 09:48:55] INFO root fetch - processPackages [winmail]: executing diffoscope
+[2023-05-30 09:48:55] INFO root fetch - processPackages [winmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winmail-0.2.12-py3-none-any.whl.zip tmp/winmail-0.2.23-py3-none-any.whl.zip --markdown 20230530/w/winmail/0.2.12-0.2.23/diff.md --exclude *.pyd
+[2023-05-30 09:48:55] INFO root fetch - main [MainThread]: End processing [lnschema_lamin1]: success
+[2023-05-30 09:48:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-delivery-gls-asm]: success
+[2023-05-30 09:48:56] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-05-30 09:48:56] INFO root fetch - main [MainThread]: End processing [nettowel]: success
+[2023-05-30 09:48:57] INFO root fetch - main [MainThread]: End processing [winmail]: success
+[2023-05-30 09:48:59] INFO root fetch - main [MainThread]: End processing [dls-bxflow]: success
+[2023-05-30 09:49:02] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-30 09:49:02] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-05-30 09:49:02] INFO root fetch - main [MainThread]: Store serial: [18299033]
