@@ -6111,3 +6111,42 @@
 [2023-05-30 07:49:17] INFO root fetch - main [MainThread]: End processing [dt-authentication-ente]: success
 [2023-05-30 07:49:17] INFO root fetch - main [MainThread]: End processing [fugue-warehouses]: success
 [2023-05-30 07:49:17] INFO root fetch - main [MainThread]: Store serial: [18298167]
+[2023-05-30 07:54:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298167]
+[2023-05-30 07:54:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-30 07:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lrservice
+[2023-05-30 07:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-perf-rec
+[2023-05-30 07:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognica
+[2023-05-30 07:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typed-api-framework
+[2023-05-30 07:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-th-account-tax-report
+[2023-05-30 07:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: p-template-crawler
+[2023-05-30 07:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: intelliw
+[2023-05-30 07:54:26] INFO root fetch - processPackages [django-perf-rec]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-30 07:54:26] INFO root fetch - processPackages [lrservice]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-30 07:54:26] INFO root fetch - processPackages [p-template-crawler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 07:54:26] WARNING root fetch - processPackages [typed-api-framework]: Skipping, unable to determine old version
+[2023-05-30 07:54:26] INFO root fetch - main [MainThread]: End processing [typed-api-framework] error
+[2023-05-30 07:54:26] WARNING root fetch - processPackages [cognica]: Skipping, unable to determine old version
+[2023-05-30 07:54:26] INFO root fetch - main [MainThread]: End processing [cognica] error
+[2023-05-30 07:54:26] INFO root fetch - processPackages [p-template-crawler]: executing diffoscope
+[2023-05-30 07:54:26] INFO root fetch - processPackages [p-template-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-crawler-0.0.8.tar.gz tmp/p-template-crawler-0.0.9.tar.gz --markdown 20230530/p/p-template-crawler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 07:54:26] INFO root fetch - processPackages [intelliw]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-30 07:54:26] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.0.2]
+[2023-05-30 07:54:26] INFO root fetch - processPackages [django-perf-rec]: Downloading https://files.pythonhosted.org/packages/fd/6e/3fc1523113625295f671e889daa37eb31493dfec29c69bdf97149546815f/django-perf-rec-4.8.0.tar.gz
+[2023-05-30 07:54:26] INFO root fetch - processPackages [lrservice]: Downloading https://files.pythonhosted.org/packages/46/b2/980f01dfbcbe163222d28f38d0c6af62392f394a417c7f993bbd81d4ea13/lrservice-0.0.3.tar.gz
+[2023-05-30 07:54:26] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Downloading https://files.pythonhosted.org/packages/35/03/90449e8b687a45d9ed30e3c9b2adae568ce414571b5dade353bc95fba03b/odoo_addon_l10n_th_account_tax_report-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-30 07:54:26] INFO root fetch - processPackages [lrservice]: executing diffoscope
+[2023-05-30 07:54:26] INFO root fetch - processPackages [lrservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lrservice-0.0.2.tar.gz tmp/lrservice-0.0.3.tar.gz --markdown 20230530/l/lrservice/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-30 07:54:26] INFO root fetch - processPackages [intelliw]: executing diffoscope
+[2023-05-30 07:54:26] INFO root fetch - processPackages [intelliw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelliw-1.2.8-py3-none-any.whl.zip tmp/intelliw-1.2.9-py3-none-any.whl.zip --markdown 20230530/i/intelliw/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-30 07:54:26] INFO root fetch - processPackages [django-perf-rec]: Downloading https://files.pythonhosted.org/packages/97/0a/8b185a724d02898368856c4b4f33da9575f27ad32a9a1d78fe4df25eaaf6/django-perf-rec-4.9.0.tar.gz
+[2023-05-30 07:54:27] INFO root fetch - processPackages [django-perf-rec]: executing diffoscope
+[2023-05-30 07:54:27] INFO root fetch - processPackages [django-perf-rec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-perf-rec-4.8.0.tar.gz tmp/django-perf-rec-4.9.0.tar.gz --markdown 20230530/d/django-perf-rec/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-30 07:54:27] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Downloading https://files.pythonhosted.org/packages/44/52/fb83396011f99ffb778454bf59513f8b262fd87e3fe195898b37b22e9800/odoo_addon_l10n_th_account_tax_report-15.0.1.1.0-py3-none-any.whl
+[2023-05-30 07:54:27] INFO root fetch - main [MainThread]: End processing [p-template-crawler]: success
+[2023-05-30 07:54:27] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: executing diffoscope
+[2023-05-30 07:54:27] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_account_tax_report-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_account_tax_report-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230530/o/odoo-addon-l10n-th-account-tax-report/15.0.1.0.0.2-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-30 07:54:27] INFO root fetch - main [MainThread]: End processing [lrservice]: success
+[2023-05-30 07:54:28] INFO root fetch - main [MainThread]: End processing [intelliw]: success
+[2023-05-30 07:54:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-account-tax-report]: success
+[2023-05-30 07:54:29] INFO root fetch - main [MainThread]: End processing [django-perf-rec]: success
+[2023-05-30 07:54:29] INFO root fetch - main [MainThread]: Store serial: [18298190]
