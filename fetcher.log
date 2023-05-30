@@ -10743,3 +10743,99 @@
 [2023-05-30 12:51:59] INFO root fetch - main [MainThread]: End processing [kstopit]: success
 [2023-05-30 12:51:59] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
 [2023-05-30 12:51:59] INFO root fetch - main [MainThread]: Store serial: [18300961]
+[2023-05-30 12:57:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18300961]
+[2023-05-30 12:57:08] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-30 12:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rciam-federation-registry-agent
+[2023-05-30 12:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: talk-codebase
+[2023-05-30 12:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prr
+[2023-05-30 12:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kstopit
+[2023-05-30 12:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: defi-services-lib
+[2023-05-30 12:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kstopit
+[2023-05-30 12:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crawler-commons
+[2023-05-30 12:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: selenium-account
+[2023-05-30 12:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: caosadvancedtools
+[2023-05-30 12:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qiskit-ibm-experiment
+[2023-05-30 12:57:08] INFO root fetch - processPackages [kstopit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 12:57:08] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 12:57:08] INFO root fetch - processPackages [rciam-federation-registry-agent]: New version: [3.2.0] Old Version: [3.0.1]
+[2023-05-30 12:57:08] INFO root fetch - processPackages [talk-codebase]: New version: [0.1.27] Old Version: [0.1.26]
+[2023-05-30 12:57:08] INFO root fetch - processPackages [kstopit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 12:57:08] INFO root fetch - processPackages [defi-services-lib]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-30 12:57:08] INFO root fetch - processPackages [prr]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-30 12:57:08] INFO root fetch - processPackages [selenium-account]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-30 12:57:08] INFO root fetch - processPackages [caosadvancedtools]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-30 12:57:08] INFO root fetch - processPackages [qiskit-ibm-experiment]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-30 12:57:08] INFO root fetch - processPackages [kstopit]: executing diffoscope
+[2023-05-30 12:57:08] INFO root fetch - processPackages [kstopit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kstopit-0.0.8.tar.gz tmp/kstopit-0.0.9.tar.gz --markdown 20230530/k/kstopit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 12:57:08] INFO root fetch - processPackages [kstopit]: executing diffoscope
+[2023-05-30 12:57:08] INFO root fetch - processPackages [kstopit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kstopit-0.0.8.tar.gz tmp/kstopit-0.0.9.tar.gz --markdown 20230530/k/kstopit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 12:57:08] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-05-30 12:57:08] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230530/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 12:57:08] INFO root fetch - processPackages [rciam-federation-registry-agent]: Downloading https://files.pythonhosted.org/packages/d8/91/a9872753f6a20a93d4d10f681c4867d55555495ef0202d4f5413c2d5ffad/rciam-federation-registry-agent-3.0.1.tar.gz
+[2023-05-30 12:57:08] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/0f/6a/af8ca37acca219b604bb2faea52d8c44651216b16178132d28e10711e38b/talk_codebase-0.1.27.tar.gz
+[2023-05-30 12:57:08] INFO root fetch - processPackages [defi-services-lib]: Downloading https://files.pythonhosted.org/packages/23/8d/acd96757f1c380844e848d42c70ee545a7ac4a95c888357f76476da6ace2/defi-services-lib-1.0.3.tar.gz
+[2023-05-30 12:57:08] INFO root fetch - processPackages [selenium-account]: Downloading https://files.pythonhosted.org/packages/3f/87/7530a228ee3e18ba71246aaea37779433cc268301f6c2b52824583b5ca88/selenium_account-0.2.3.tar.gz
+[2023-05-30 12:57:08] INFO root fetch - processPackages [caosadvancedtools]: Downloading https://files.pythonhosted.org/packages/ca/90/5ec6046a164e78e0b7609c2daade3e571543be36aeb82a0c13fdcc83fad7/caosadvancedtools-0.7.0.tar.gz
+[2023-05-30 12:57:08] INFO root fetch - processPackages [talk-codebase]: executing diffoscope
+[2023-05-30 12:57:08] INFO root fetch - processPackages [talk-codebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talk_codebase-0.1.26.tar.gz tmp/talk_codebase-0.1.27.tar.gz --markdown 20230530/t/talk-codebase/0.1.26-0.1.27/diff.md --exclude *.pyd
+[2023-05-30 12:57:08] INFO root fetch - processPackages [prr]: Downloading https://files.pythonhosted.org/packages/c1/5a/e157ce367c013b590aea940bc2068e16980c8c3e5e726206035ec94374be/prr-0.3.1.tar.gz
+[2023-05-30 12:57:08] INFO root fetch - processPackages [qiskit-ibm-experiment]: Downloading https://files.pythonhosted.org/packages/f4/e1/0a04da21b6aad70b50149e83c287a19fb2326e435f3b6bb14bceae45f8fc/qiskit-ibm-experiment-0.3.3.tar.gz
+[2023-05-30 12:57:08] INFO root fetch - processPackages [selenium-account]: executing diffoscope
+[2023-05-30 12:57:08] INFO root fetch - processPackages [selenium-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_account-0.2.2.tar.gz tmp/selenium_account-0.2.3.tar.gz --markdown 20230530/s/selenium-account/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-30 12:57:08] INFO root fetch - processPackages [prr]: executing diffoscope
+[2023-05-30 12:57:08] INFO root fetch - processPackages [prr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prr-0.3.0.tar.gz tmp/prr-0.3.1.tar.gz --markdown 20230530/p/prr/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-30 12:57:08] INFO root fetch - processPackages [caosadvancedtools]: Downloading https://files.pythonhosted.org/packages/ec/b8/4ff713f7c456da95fe7c820b27cf6968ea167854742d64bbb6660a0c5095/caosadvancedtools-0.8.0.tar.gz
+[2023-05-30 12:57:08] INFO root fetch - processPackages [qiskit-ibm-experiment]: executing diffoscope
+[2023-05-30 12:57:08] INFO root fetch - processPackages [qiskit-ibm-experiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-ibm-experiment-0.3.2.tar.gz tmp/qiskit-ibm-experiment-0.3.3.tar.gz --markdown 20230530/q/qiskit-ibm-experiment/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-30 12:57:08] INFO root fetch - processPackages [rciam-federation-registry-agent]: Downloading https://files.pythonhosted.org/packages/cd/62/92c6dcd439b5db7c998071a49e0af3192c8cf44748c3e20e4b5fcdf1cba7/rciam-federation-registry-agent-3.2.0.tar.gz
+[2023-05-30 12:57:08] INFO root fetch - processPackages [defi-services-lib]: Downloading https://files.pythonhosted.org/packages/c0/8d/1527587b798fe69a67a02b792c8be531d27a3e7ba08d710ea9e8a0864f14/defi-services-lib-1.0.4.tar.gz
+[2023-05-30 12:57:09] INFO root fetch - processPackages [caosadvancedtools]: executing diffoscope
+[2023-05-30 12:57:09] INFO root fetch - processPackages [caosadvancedtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caosadvancedtools-0.7.0.tar.gz tmp/caosadvancedtools-0.8.0.tar.gz --markdown 20230530/c/caosadvancedtools/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-30 12:57:09] INFO root fetch - processPackages [rciam-federation-registry-agent]: executing diffoscope
+[2023-05-30 12:57:09] INFO root fetch - processPackages [rciam-federation-registry-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rciam-federation-registry-agent-3.0.1.tar.gz tmp/rciam-federation-registry-agent-3.2.0.tar.gz --markdown 20230530/r/rciam-federation-registry-agent/3.0.1-3.2.0/diff.md --exclude *.pyd
+[2023-05-30 12:57:09] INFO root fetch - processPackages [defi-services-lib]: executing diffoscope
+[2023-05-30 12:57:09] INFO root fetch - processPackages [defi-services-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defi-services-lib-1.0.3.tar.gz tmp/defi-services-lib-1.0.4.tar.gz --markdown 20230530/d/defi-services-lib/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-30 12:57:09] INFO root fetch - processPackages [kstopit]: Start processing: django-user-notification
+[2023-05-30 12:57:09] INFO root fetch - main [MainThread]: End processing [kstopit]: success
+[2023-05-30 12:57:09] INFO root fetch - processPackages [django-user-notification]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-30 12:57:09] INFO root fetch - processPackages [django-user-notification]: executing diffoscope
+[2023-05-30 12:57:09] INFO root fetch - processPackages [django-user-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_user_notification-0.9.1.tar.gz tmp/django_user_notification-0.9.2.tar.gz --markdown 20230530/d/django-user-notification/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-30 12:57:10] INFO root fetch - processPackages [kstopit]: Start processing: selenium-uploader-account
+[2023-05-30 12:57:10] INFO root fetch - main [MainThread]: End processing [kstopit]: success
+[2023-05-30 12:57:10] INFO root fetch - processPackages [selenium-uploader-account]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-30 12:57:10] INFO root fetch - processPackages [crawler-commons]: Start processing: docker-run-cli
+[2023-05-30 12:57:10] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-05-30 12:57:10] INFO root fetch - processPackages [docker-run-cli]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-30 12:57:10] INFO root fetch - processPackages [selenium-uploader-account]: Downloading https://files.pythonhosted.org/packages/d2/2b/f49b5d2b14a71c1b09439a17c0f48424eefc9509859b345fd7f3c0777b3c/selenium_uploader_account-0.2.3.tar.gz
+[2023-05-30 12:57:10] INFO root fetch - processPackages [docker-run-cli]: Downloading https://files.pythonhosted.org/packages/e5/00/b88b2a22ca281e02021723a4f8f410cda30f547da03c721407ef6c95b4ad/docker-run-cli-0.9.0.tar.gz
+[2023-05-30 12:57:10] INFO root fetch - processPackages [selenium-uploader-account]: executing diffoscope
+[2023-05-30 12:57:10] INFO root fetch - processPackages [selenium-uploader-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_uploader_account-0.2.2.tar.gz tmp/selenium_uploader_account-0.2.3.tar.gz --markdown 20230530/s/selenium-uploader-account/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-30 12:57:10] INFO root fetch - processPackages [docker-run-cli]: Downloading https://files.pythonhosted.org/packages/8f/40/b98cca11bdd2323181829fb0529eac946693a246174a22c4ed7ab1b88981/docker-run-cli-0.9.1.tar.gz
+[2023-05-30 12:57:10] INFO root fetch - processPackages [selenium-account]: Start processing: docker-run-docker-ros
+[2023-05-30 12:57:10] INFO root fetch - main [MainThread]: End processing [selenium-account]: success
+[2023-05-30 12:57:10] INFO root fetch - processPackages [docker-run-docker-ros]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-30 12:57:10] INFO root fetch - processPackages [docker-run-cli]: executing diffoscope
+[2023-05-30 12:57:10] INFO root fetch - processPackages [docker-run-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-run-cli-0.9.0.tar.gz tmp/docker-run-cli-0.9.1.tar.gz --markdown 20230530/d/docker-run-cli/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-30 12:57:10] INFO root fetch - processPackages [talk-codebase]: Start processing: dipex
+[2023-05-30 12:57:10] INFO root fetch - main [MainThread]: End processing [talk-codebase]: success
+[2023-05-30 12:57:10] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-30 12:57:10] INFO root fetch - processPackages [docker-run-docker-ros]: Downloading https://files.pythonhosted.org/packages/3b/91/0ac27b27e0e3f80a4e3872ef2772e0de0546b10b3037a37e51ff4c63143b/docker-run-docker-ros-1.0.0.tar.gz
+[2023-05-30 12:57:10] INFO root fetch - processPackages [prr]: Start processing: itertools-permutations
+[2023-05-30 12:57:10] INFO root fetch - main [MainThread]: End processing [prr]: success
+[2023-05-30 12:57:11] WARNING root fetch - processPackages [itertools-permutations]: Skipping, unable to determine old version
+[2023-05-30 12:57:11] INFO root fetch - main [MainThread]: End processing [itertools-permutations] error
+[2023-05-30 12:57:11] INFO root fetch - processPackages [docker-run-docker-ros]: Downloading https://files.pythonhosted.org/packages/af/b0/1add05a690823c9f3b4f59eab021e2397254089a41301bd73bb7cb42bba8/docker-run-docker-ros-1.0.1.tar.gz
+[2023-05-30 12:57:11] INFO root fetch - processPackages [docker-run-docker-ros]: executing diffoscope
+[2023-05-30 12:57:11] INFO root fetch - processPackages [docker-run-docker-ros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-run-docker-ros-1.0.0.tar.gz tmp/docker-run-docker-ros-1.0.1.tar.gz --markdown 20230530/d/docker-run-docker-ros/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 12:57:11] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-30 12:57:11] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230530/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-30 12:57:11] INFO root fetch - main [MainThread]: End processing [django-user-notification]: success
+[2023-05-30 12:57:12] INFO root fetch - main [MainThread]: End processing [selenium-uploader-account]: success
+[2023-05-30 12:57:12] INFO root fetch - main [MainThread]: End processing [qiskit-ibm-experiment]: success
+[2023-05-30 12:57:12] INFO root fetch - main [MainThread]: End processing [rciam-federation-registry-agent]: success
+[2023-05-30 12:57:12] INFO root fetch - main [MainThread]: End processing [docker-run-cli]: success
+[2023-05-30 12:57:12] INFO root fetch - main [MainThread]: End processing [docker-run-docker-ros]: success
+[2023-05-30 12:57:12] INFO root fetch - main [MainThread]: End processing [caosadvancedtools]: success
+[2023-05-30 12:57:13] INFO root fetch - main [MainThread]: End processing [defi-services-lib]: success
+[2023-05-30 12:57:13] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-30 12:57:13] INFO root fetch - main [MainThread]: Store serial: [18301011]
