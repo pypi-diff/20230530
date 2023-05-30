@@ -15233,3 +15233,86 @@
 [2023-05-30 16:40:49] INFO root fetch - main [MainThread]: End processing [torch-adapters]: success
 [2023-05-30 16:40:50] INFO root fetch - main [MainThread]: End processing [plotly-resampler]: success
 [2023-05-30 16:40:50] INFO root fetch - main [MainThread]: Store serial: [18303756]
+[2023-05-30 16:45:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18303756]
+[2023-05-30 16:45:59] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-30 16:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unitpy
+[2023-05-30 16:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openworld-sdk-python-fraudprevention
+[2023-05-30 16:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superfluid
+[2023-05-30 16:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inpost
+[2023-05-30 16:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-spark-gpt
+[2023-05-30 16:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: topasgraphsim
+[2023-05-30 16:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thipster
+[2023-05-30 16:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: climify-api
+[2023-05-30 16:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: appier
+[2023-05-30 16:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yeref
+[2023-05-30 16:45:59] INFO root fetch - processPackages [openworld-sdk-python-fraudprevention]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-30 16:45:59] INFO root fetch - processPackages [unitpy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-30 16:45:59] INFO root fetch - processPackages [inpost]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 16:45:59] INFO root fetch - processPackages [superfluid]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 16:45:59] INFO root fetch - processPackages [thipster]: New version: [0.13.0] Old Version: [0.12.3]
+[2023-05-30 16:45:59] INFO root fetch - processPackages [climify-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 16:45:59] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-30 16:45:59] INFO root fetch - processPackages [yeref]: New version: [0.1.71] Old Version: [0.1.70]
+[2023-05-30 16:45:59] INFO root fetch - processPackages [topasgraphsim]: New version: [9.0] Old Version: [8.1]
+[2023-05-30 16:45:59] INFO root fetch - processPackages [appier]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-30 16:45:59] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-05-30 16:45:59] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.12.3.tar.gz tmp/thipster-0.13.0.tar.gz --markdown 20230530/t/thipster/0.12.3-0.13.0/diff.md --exclude *.pyd
+[2023-05-30 16:45:59] INFO root fetch - processPackages [superfluid]: Downloading https://files.pythonhosted.org/packages/30/e1/8fe5354303ad4f19b6ad98bcb8ddff02838431627038e1f900c2bdd606f2/superfluid-0.1.2.tar.gz
+[2023-05-30 16:45:59] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/bd/dc/a3093c4e3e3a1493d499e910fc2539ff4c4b5dc2a0011215ea8136b5029a/yeref-0.1.71.tar.gz
+[2023-05-30 16:45:59] INFO root fetch - processPackages [unitpy]: Downloading https://files.pythonhosted.org/packages/16/85/9114ee0309e53c04936eb8c2fa781d3b7f27edcaef4ea1aa4ef30970f9f6/unitpy-0.0.5.tar.gz
+[2023-05-30 16:45:59] INFO root fetch - processPackages [topasgraphsim]: Downloading https://files.pythonhosted.org/packages/2d/22/d3a35474f808a5a2ef12ad486e01493e99b8af75cf13377d6fe696510a8a/topasgraphsim-8.1.tar.gz
+[2023-05-30 16:45:59] INFO root fetch - processPackages [appier]: Downloading https://files.pythonhosted.org/packages/f5/37/c6fb2bc3cdb234063247c4f57d393150434db43253cebb2fc1f2a4149c80/appier-1.9.8.tar.gz
+[2023-05-30 16:45:59] INFO root fetch - processPackages [inpost]: Downloading https://files.pythonhosted.org/packages/ed/d4/915d559a64d333420ba2c62bc326a854b91b6accd4b1a72e7e252d45f7fe/inpost-0.1.1.tar.gz
+[2023-05-30 16:45:59] INFO root fetch - processPackages [openworld-sdk-python-fraudprevention]: Downloading https://files.pythonhosted.org/packages/0d/c0/bbbb424123f2bef29906058ea53327903ea7a9cdc6082b6aa0c673e462b8/openworld-sdk-python-fraudprevention-0.8.0.tar.gz
+[2023-05-30 16:45:59] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/e7/1f/c97f879ab7b89b845840a45a0b57b39663be83ec2c1f20f61fc0856fe70c/nonebot_plugin_spark_gpt-0.3.0.tar.gz
+[2023-05-30 16:45:59] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11187991>=10485760
+[2023-05-30 16:45:59] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Start processing: jsonxmlsatsiuk2
+[2023-05-30 16:45:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-05-30 16:45:59] INFO root fetch - processPackages [climify-api]: executing diffoscope
+[2023-05-30 16:45:59] INFO root fetch - processPackages [climify-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climify_api-1.0.8.tar.gz tmp/climify_api-1.0.9.tar.gz --markdown 20230530/c/climify-api/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 16:45:59] INFO root fetch - processPackages [superfluid]: executing diffoscope
+[2023-05-30 16:45:59] INFO root fetch - processPackages [superfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superfluid-0.1.1.tar.gz tmp/superfluid-0.1.2.tar.gz --markdown 20230530/s/superfluid/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 16:45:59] INFO root fetch - processPackages [unitpy]: executing diffoscope
+[2023-05-30 16:45:59] INFO root fetch - processPackages [openworld-sdk-python-fraudprevention]: executing diffoscope
+[2023-05-30 16:45:59] INFO root fetch - processPackages [unitpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitpy-0.0.4.tar.gz tmp/unitpy-0.0.5.tar.gz --markdown 20230530/u/unitpy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 16:45:59] INFO root fetch - processPackages [openworld-sdk-python-fraudprevention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openworld-sdk-python-fraudprevention-0.7.0.tar.gz tmp/openworld-sdk-python-fraudprevention-0.8.0.tar.gz --markdown 20230530/o/openworld-sdk-python-fraudprevention/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-30 16:45:59] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-05-30 16:45:59] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.70.tar.gz tmp/yeref-0.1.71.tar.gz --markdown 20230530/y/yeref/0.1.70-0.1.71/diff.md --exclude *.pyd
+[2023-05-30 16:45:59] WARNING root fetch - processPackages [jsonxmlsatsiuk2]: Skipping, unable to determine old version
+[2023-05-30 16:45:59] INFO root fetch - processPackages [jsonxmlsatsiuk2]: Start processing: docrobot
+[2023-05-30 16:45:59] INFO root fetch - main [MainThread]: End processing [jsonxmlsatsiuk2] error
+[2023-05-30 16:45:59] WARNING root fetch - processPackages [docrobot]: Skipping, unable to determine old version
+[2023-05-30 16:45:59] INFO root fetch - processPackages [docrobot]: Start processing: OpenGeode-core
+[2023-05-30 16:45:59] INFO root fetch - main [MainThread]: End processing [docrobot] error
+[2023-05-30 16:45:59] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.1.9]
+[2023-05-30 16:45:59] INFO root fetch - processPackages [inpost]: executing diffoscope
+[2023-05-30 16:45:59] INFO root fetch - processPackages [inpost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inpost-0.1.0.tar.gz tmp/inpost-0.1.1.tar.gz --markdown 20230530/i/inpost/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 16:45:59] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/ae/8f/b14e2fa709a50b6b738320502b2288bb91b1784d173b34624f3a79bea01b/OpenGeode_core-14.1.9-cp39-cp39-win_amd64.whl
+[2023-05-30 16:45:59] INFO root fetch - processPackages [appier]: Downloading https://files.pythonhosted.org/packages/88/65/6c516e4a2665879fdef191ce00f206533b70c31d56b7ba63a694664098b1/appier-1.9.9.tar.gz
+[2023-05-30 16:45:59] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17504936>=10485760
+[2023-05-30 16:45:59] INFO root fetch - processPackages [OpenGeode-core]: Start processing: bosminer
+[2023-05-30 16:45:59] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-05-30 16:46:00] WARNING root fetch - processPackages [bosminer]: Skipping, unable to determine old version
+[2023-05-30 16:46:00] INFO root fetch - processPackages [bosminer]: Start processing: strmprivacy-api-definitions
+[2023-05-30 16:46:00] INFO root fetch - main [MainThread]: End processing [bosminer] error
+[2023-05-30 16:46:00] INFO root fetch - processPackages [topasgraphsim]: Downloading https://files.pythonhosted.org/packages/f9/a5/bc30b02ca4a681b2de22418db8fd5ecf30cd289280088a7520bf8a44d42a/topasgraphsim-9.0.tar.gz
+[2023-05-30 16:46:00] INFO root fetch - processPackages [appier]: executing diffoscope
+[2023-05-30 16:46:00] INFO root fetch - processPackages [appier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appier-1.9.8.tar.gz tmp/appier-1.9.9.tar.gz --markdown 20230530/a/appier/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-30 16:46:00] INFO root fetch - processPackages [strmprivacy-api-definitions]: New version: [2.9.0] Old Version: [2.85.0]
+[2023-05-30 16:46:00] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/0c/18/d2181140a57a92eb1e1c56b93ef1db0c6cf1a9445b5deaf6642e4f45e3dc/strmprivacy-api-definitions-2.85.0.tar.gz
+[2023-05-30 16:46:00] INFO root fetch - processPackages [topasgraphsim]: executing diffoscope
+[2023-05-30 16:46:00] INFO root fetch - processPackages [topasgraphsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topasgraphsim-8.1.tar.gz tmp/topasgraphsim-9.0.tar.gz --markdown 20230530/t/topasgraphsim/8.1-9.0/diff.md --exclude *.pyd
+[2023-05-30 16:46:00] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/89/ad/908915ed1c7af94dfe78a95110dc03d81532c4e526c5d82f30d952314754/strmprivacy-api-definitions-2.9.0.tar.gz
+[2023-05-30 16:46:00] INFO root fetch - processPackages [strmprivacy-api-definitions]: executing diffoscope
+[2023-05-30 16:46:00] INFO root fetch - processPackages [strmprivacy-api-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strmprivacy-api-definitions-2.85.0.tar.gz tmp/strmprivacy-api-definitions-2.9.0.tar.gz --markdown 20230530/s/strmprivacy-api-definitions/2.85.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-30 16:46:00] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-05-30 16:46:01] INFO root fetch - main [MainThread]: End processing [climify-api]: success
+[2023-05-30 16:46:01] INFO root fetch - main [MainThread]: End processing [unitpy]: success
+[2023-05-30 16:46:01] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-05-30 16:46:02] INFO root fetch - main [MainThread]: End processing [openworld-sdk-python-fraudprevention]: success
+[2023-05-30 16:46:02] INFO root fetch - main [MainThread]: End processing [superfluid]: success
+[2023-05-30 16:46:02] INFO root fetch - main [MainThread]: End processing [inpost]: success
+[2023-05-30 16:46:02] INFO root fetch - main [MainThread]: End processing [appier]: success
+[2023-05-30 16:46:03] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
+[2023-05-30 16:46:05] INFO root fetch - main [MainThread]: End processing [topasgraphsim]: success
+[2023-05-30 16:46:05] INFO root fetch - main [MainThread]: Store serial: [18303810]
