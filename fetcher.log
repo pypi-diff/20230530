@@ -15113,3 +15113,123 @@
 [2023-05-30 16:34:55] INFO root fetch - main [MainThread]: End processing [lenstronomy]: success
 [2023-05-30 16:35:34] INFO root fetch - main [MainThread]: End processing [mouse2]: success
 [2023-05-30 16:35:34] INFO root fetch - main [MainThread]: Store serial: [18303701]
+[2023-05-30 16:40:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18303701]
+[2023-05-30 16:40:43] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-30 16:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mse-cli-core
+[2023-05-30 16:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: t4flib
+[2023-05-30 16:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geolink2oereb
+[2023-05-30 16:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-common-utils
+[2023-05-30 16:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xdat
+[2023-05-30 16:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-option-menu
+[2023-05-30 16:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: i18ndude
+[2023-05-30 16:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataverse-api
+[2023-05-30 16:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flanders
+[2023-05-30 16:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: superfluid
+[2023-05-30 16:40:43] INFO root fetch - processPackages [dataverse-api]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-30 16:40:43] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-30 16:40:43] INFO root fetch - processPackages [mse-cli-core]: New version: [0.1a4] Old Version: [0.1a2]
+[2023-05-30 16:40:43] INFO root fetch - processPackages [flanders]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-30 16:40:43] INFO root fetch - processPackages [geolink2oereb]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-30 16:40:43] INFO root fetch - processPackages [streamlit-option-menu]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-30 16:40:43] INFO root fetch - processPackages [superfluid]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 16:40:43] INFO root fetch - processPackages [t4flib]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-05-30 16:40:43] INFO root fetch - processPackages [i18ndude]: New version: [6.0.0a1] Old Version: [6.0.0]
+[2023-05-30 16:40:43] INFO root fetch - processPackages [th2-common-utils]: New version: [2.0.1] Old Version: [2.0.0.dev4574477823]
+[2023-05-30 16:40:43] INFO root fetch - processPackages [th2-common-utils]: executing diffoscope
+[2023-05-30 16:40:43] INFO root fetch - processPackages [th2-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_common_utils-2.0.0.dev4574477823.tar.gz tmp/th2_common_utils-2.0.1.tar.gz --markdown 20230530/t/th2-common-utils/2.0.0.dev4574477823-2.0.1/diff.md --exclude *.pyd
+[2023-05-30 16:40:43] INFO root fetch - processPackages [i18ndude]: Downloading https://files.pythonhosted.org/packages/7c/6e/06241a1ce61dbdd1065b9c732e2fad24f478fea17a81a49d33badf676c7b/i18ndude-6.0.0.tar.gz
+[2023-05-30 16:40:44] INFO root fetch - processPackages [flanders]: Downloading https://files.pythonhosted.org/packages/1a/bb/cdbfbf9e99f5b119ea3188d2570da2267d110d3e05ed9e946edec4642d38/flanders-0.3.0-cp39-none-win_amd64.whl
+[2023-05-30 16:40:44] INFO root fetch - processPackages [dataverse-api]: Downloading https://files.pythonhosted.org/packages/05/b8/df30550869ba5135b5dfd6fc77fe3c9a0251f83d33c1955481d75ffffb19/dataverse_api-0.2.2.tar.gz
+[2023-05-30 16:40:44] INFO root fetch - processPackages [geolink2oereb]: Downloading https://files.pythonhosted.org/packages/a9/2b/0c1fb50fc3766cacd76b469ec0b7339da32ca3a7ad9b546059c3de1fa04c/geolink2oereb-0.0.1.tar.gz
+[2023-05-30 16:40:44] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/f8/6c/692f8261aca521201e83add92dde937feaef6e9abc844436770a4b2d6436/t4flib-0.2.7-py2.py3-none-any.whl
+[2023-05-30 16:40:44] INFO root fetch - processPackages [mse-cli-core]: Downloading https://files.pythonhosted.org/packages/77/f0/393296188297199057c02d198d46d79d3c1d7e97aad59c9280112a843c21/mse_cli_core-0.1a2.tar.gz
+[2023-05-30 16:40:44] INFO root fetch - processPackages [dataverse-api]: executing diffoscope
+[2023-05-30 16:40:44] INFO root fetch - processPackages [dataverse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverse_api-0.2.1.tar.gz tmp/dataverse_api-0.2.2.tar.gz --markdown 20230530/d/dataverse-api/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-30 16:40:44] INFO root fetch - processPackages [streamlit-option-menu]: Downloading https://files.pythonhosted.org/packages/b9/ed/55480371749c681e8426b08df71417d16cea91b0c962e9aa7e550a769060/streamlit-option-menu-0.3.6.tar.gz
+[2023-05-30 16:40:44] INFO root fetch - processPackages [superfluid]: Downloading https://files.pythonhosted.org/packages/e4/17/321e74a32344b8736f86b68278c4e1e97b6c99c5502cfeaf174611e2f216/superfluid-0.1.1.tar.gz
+[2023-05-30 16:40:44] INFO root fetch - processPackages [streamlit-option-menu]: executing diffoscope
+[2023-05-30 16:40:44] INFO root fetch - processPackages [streamlit-option-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-option-menu-0.3.5.tar.gz tmp/streamlit-option-menu-0.3.6.tar.gz --markdown 20230530/s/streamlit-option-menu/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-30 16:40:44] INFO root fetch - processPackages [superfluid]: executing diffoscope
+[2023-05-30 16:40:44] INFO root fetch - processPackages [superfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superfluid-0.1.0.tar.gz tmp/superfluid-0.1.1.tar.gz --markdown 20230530/s/superfluid/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 16:40:44] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-05-30 16:40:44] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230530/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-30 16:40:44] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/59/3c/637ca96902fd480bc780020c8aaaa1e6b6bbf673b4d091c11205d2ff4e84/t4flib-0.3.0-py2.py3-none-any.whl
+[2023-05-30 16:40:44] INFO root fetch - processPackages [i18ndude]: Downloading https://files.pythonhosted.org/packages/ba/07/018d7350f73c13b7d00b6583247f3f04db081e4dc08562aa3bba3061c7b3/i18ndude-6.0.0a1.tar.gz
+[2023-05-30 16:40:44] INFO root fetch - processPackages [t4flib]: executing diffoscope
+[2023-05-30 16:40:44] INFO root fetch - processPackages [t4flib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4flib-0.2.7-py2.py3-none-any.whl.zip tmp/t4flib-0.3.0-py2.py3-none-any.whl.zip --markdown 20230530/t/t4flib/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 16:40:44] INFO root fetch - processPackages [geolink2oereb]: Downloading https://files.pythonhosted.org/packages/8d/de/8de5d57e5b6a86652ce2650d71f90258b18a43c5a504b843eab02d8eca30/geolink2oereb-0.1.0.tar.gz
+[2023-05-30 16:40:44] INFO root fetch - processPackages [mse-cli-core]: Downloading https://files.pythonhosted.org/packages/05/32/7aeb58ab88e68e688056a3a16b8e922eae99f71db9831ab0bc59d36d5e5a/mse_cli_core-0.1a4.tar.gz
+[2023-05-30 16:40:44] INFO root fetch - processPackages [geolink2oereb]: executing diffoscope
+[2023-05-30 16:40:44] INFO root fetch - processPackages [geolink2oereb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolink2oereb-0.0.1.tar.gz tmp/geolink2oereb-0.1.0.tar.gz --markdown 20230530/g/geolink2oereb/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-30 16:40:44] INFO root fetch - processPackages [flanders]: Downloading https://files.pythonhosted.org/packages/00/90/c6ac0f24d2074241ddac4f0e5c736da9ac2d1200ed1f5d63129ad769ade8/flanders-0.3.1-cp39-cp39-manylinux_2_34_x86_64.whl
+[2023-05-30 16:40:44] INFO root fetch - processPackages [i18ndude]: executing diffoscope
+[2023-05-30 16:40:44] INFO root fetch - processPackages [i18ndude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i18ndude-6.0.0.tar.gz tmp/i18ndude-6.0.0a1.tar.gz --markdown 20230530/i/i18ndude/6.0.0-6.0.0a1/diff.md --exclude *.pyd
+[2023-05-30 16:40:44] INFO root fetch - processPackages [flanders]: executing diffoscope
+[2023-05-30 16:40:44] INFO root fetch - processPackages [flanders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flanders-0.3.0-cp39-none-win_amd64.whl.zip tmp/flanders-0.3.1-cp39-cp39-manylinux_2_34_x86_64.whl.zip --markdown 20230530/f/flanders/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-30 16:40:44] INFO root fetch - processPackages [mse-cli-core]: executing diffoscope
+[2023-05-30 16:40:44] INFO root fetch - processPackages [mse-cli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_cli_core-0.1a2.tar.gz tmp/mse_cli_core-0.1a4.tar.gz --markdown 20230530/m/mse-cli-core/0.1a2-0.1a4/diff.md --exclude *.pyd
+[2023-05-30 16:40:45] INFO root fetch - processPackages [th2-common-utils]: Start processing: hydra-genetics
+[2023-05-30 16:40:45] INFO root fetch - main [MainThread]: End processing [th2-common-utils]: success
+[2023-05-30 16:40:45] INFO root fetch - processPackages [hydra-genetics]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-30 16:40:45] INFO root fetch - processPackages [hydra-genetics]: Downloading https://files.pythonhosted.org/packages/b0/93/952208dc4a1af3fa004defa2d33889eb12f9cef06b0c656f190d639ca313/hydra-genetics-1.4.0.tar.gz
+[2023-05-30 16:40:45] INFO root fetch - processPackages [dataverse-api]: Start processing: autovf
+[2023-05-30 16:40:45] INFO root fetch - main [MainThread]: End processing [dataverse-api]: success
+[2023-05-30 16:40:45] INFO root fetch - processPackages [autovf]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 16:40:45] INFO root fetch - processPackages [hydra-genetics]: Downloading https://files.pythonhosted.org/packages/1f/e2/a9548d9db893eec4f9532a31078a6d6112bb1ba2f12fdc71e558ee88a71f/hydra-genetics-1.5.0.tar.gz
+[2023-05-30 16:40:45] INFO root fetch - processPackages [autovf]: Downloading https://files.pythonhosted.org/packages/06/c4/ff9bed763edae419198980c794cc2a054bedbb0435765623405f460885cc/autovf-0.0.1.tar.gz
+[2023-05-30 16:40:46] INFO root fetch - processPackages [hydra-genetics]: executing diffoscope
+[2023-05-30 16:40:46] INFO root fetch - processPackages [hydra-genetics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydra-genetics-1.4.0.tar.gz tmp/hydra-genetics-1.5.0.tar.gz --markdown 20230530/h/hydra-genetics/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-30 16:40:46] INFO root fetch - processPackages [superfluid]: Start processing: sesg
+[2023-05-30 16:40:46] INFO root fetch - main [MainThread]: End processing [superfluid]: success
+[2023-05-30 16:40:46] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 16:40:46] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-05-30 16:40:46] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230530/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 16:40:46] INFO root fetch - processPackages [autovf]: Downloading https://files.pythonhosted.org/packages/3b/f1/433cb19a1078364f5f1d17c3bbf4e6e0edd3e88d359f5a3d3396f21d2946/autovf-0.0.2.tar.gz
+[2023-05-30 16:40:46] INFO root fetch - processPackages [t4flib]: Start processing: plot-antenna
+[2023-05-30 16:40:46] INFO root fetch - main [MainThread]: End processing [t4flib]: success
+[2023-05-30 16:40:46] INFO root fetch - processPackages [plot-antenna]: New version: [1.4] Old Version: [1.3]
+[2023-05-30 16:40:46] INFO root fetch - processPackages [autovf]: executing diffoscope
+[2023-05-30 16:40:46] INFO root fetch - processPackages [autovf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autovf-0.0.1.tar.gz tmp/autovf-0.0.2.tar.gz --markdown 20230530/a/autovf/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 16:40:46] INFO root fetch - processPackages [plot-antenna]: Downloading https://files.pythonhosted.org/packages/32/2e/bc6d63e2bcb1c6bce330f7d104a6bb99b57eb1ce16f7308ee492afabb249/plot-antenna-1.3.tar.gz
+[2023-05-30 16:40:46] INFO root fetch - processPackages [streamlit-option-menu]: Start processing: hertz-packet
+[2023-05-30 16:40:46] INFO root fetch - main [MainThread]: End processing [streamlit-option-menu]: success
+[2023-05-30 16:40:46] INFO root fetch - processPackages [xdat]: Start processing: mathbib
+[2023-05-30 16:40:46] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-05-30 16:40:46] INFO root fetch - processPackages [mathbib]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-30 16:40:46] INFO root fetch - processPackages [hertz-packet]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-30 16:40:46] INFO root fetch - processPackages [plot-antenna]: Downloading https://files.pythonhosted.org/packages/db/04/318e65b1f8754877d792dfe76629b0b5e575bacc8e602dda4405f5f4bdd5/plot-antenna-1.4.tar.gz
+[2023-05-30 16:40:46] INFO root fetch - processPackages [mathbib]: executing diffoscope
+[2023-05-30 16:40:46] INFO root fetch - processPackages [mathbib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathbib-0.2.0.tar.gz tmp/mathbib-0.3.0.tar.gz --markdown 20230530/m/mathbib/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 16:40:46] INFO root fetch - processPackages [hertz-packet]: Downloading https://files.pythonhosted.org/packages/b6/fa/032cee91325e3f6ea5da70365d4c2a1061a215f5c96d2981414024112db8/hertz_packet-1.0.0.tar.gz
+[2023-05-30 16:40:46] INFO root fetch - processPackages [plot-antenna]: executing diffoscope
+[2023-05-30 16:40:46] INFO root fetch - processPackages [plot-antenna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plot-antenna-1.3.tar.gz tmp/plot-antenna-1.4.tar.gz --markdown 20230530/p/plot-antenna/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-30 16:40:46] INFO root fetch - processPackages [i18ndude]: Start processing: torch-adapters
+[2023-05-30 16:40:46] INFO root fetch - main [MainThread]: End processing [i18ndude]: success
+[2023-05-30 16:40:47] INFO root fetch - processPackages [flanders]: Start processing: plotly-resampler
+[2023-05-30 16:40:47] INFO root fetch - main [MainThread]: End processing [flanders]: success
+[2023-05-30 16:40:47] INFO root fetch - processPackages [plotly-resampler]: New version: [0.9.0rc4] Old Version: [0.9.0rc3]
+[2023-05-30 16:40:47] INFO root fetch - processPackages [mse-cli-core]: Start processing: unitpy
+[2023-05-30 16:40:47] INFO root fetch - main [MainThread]: End processing [mse-cli-core]: success
+[2023-05-30 16:40:47] INFO root fetch - processPackages [unitpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 16:40:47] INFO root fetch - processPackages [torch-adapters]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-30 16:40:47] INFO root fetch - processPackages [plotly-resampler]: executing diffoscope
+[2023-05-30 16:40:47] INFO root fetch - processPackages [plotly-resampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly_resampler-0.9.0rc3.tar.gz tmp/plotly_resampler-0.9.0rc4.tar.gz --markdown 20230530/p/plotly-resampler/0.9.0rc3-0.9.0rc4/diff.md --exclude *.pyd
+[2023-05-30 16:40:47] INFO root fetch - processPackages [unitpy]: executing diffoscope
+[2023-05-30 16:40:47] INFO root fetch - processPackages [unitpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitpy-0.0.3.tar.gz tmp/unitpy-0.0.4.tar.gz --markdown 20230530/u/unitpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 16:40:47] INFO root fetch - processPackages [hertz-packet]: Downloading https://files.pythonhosted.org/packages/8e/8e/a26573264612d4ce4ee0487ef47a91a25f29d6d5203a4ff13c34efae14f0/hertz_packet-1.1.0.tar.gz
+[2023-05-30 16:40:47] INFO root fetch - processPackages [hertz-packet]: executing diffoscope
+[2023-05-30 16:40:47] INFO root fetch - processPackages [hertz-packet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hertz_packet-1.0.0.tar.gz tmp/hertz_packet-1.1.0.tar.gz --markdown 20230530/h/hertz-packet/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 16:40:47] INFO root fetch - processPackages [torch-adapters]: Downloading https://files.pythonhosted.org/packages/5f/9c/1d18f4ce4ab03071d04d94ba88f3e516e8ae7ca906da1563c722f5f54492/torch_adapters-0.0.3.tar.gz
+[2023-05-30 16:40:47] INFO root fetch - processPackages [torch-adapters]: executing diffoscope
+[2023-05-30 16:40:47] INFO root fetch - processPackages [torch-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_adapters-0.0.2.tar.gz tmp/torch_adapters-0.0.3.tar.gz --markdown 20230530/t/torch-adapters/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-30 16:40:48] INFO root fetch - main [MainThread]: End processing [hydra-genetics]: success
+[2023-05-30 16:40:48] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-05-30 16:40:48] INFO root fetch - main [MainThread]: End processing [autovf]: success
+[2023-05-30 16:40:49] INFO root fetch - main [MainThread]: End processing [plot-antenna]: success
+[2023-05-30 16:40:49] INFO root fetch - main [MainThread]: End processing [unitpy]: success
+[2023-05-30 16:40:49] INFO root fetch - main [MainThread]: End processing [mathbib]: success
+[2023-05-30 16:40:49] INFO root fetch - main [MainThread]: End processing [geolink2oereb]: success
+[2023-05-30 16:40:49] INFO root fetch - main [MainThread]: End processing [hertz-packet]: success
+[2023-05-30 16:40:49] INFO root fetch - main [MainThread]: End processing [torch-adapters]: success
+[2023-05-30 16:40:50] INFO root fetch - main [MainThread]: End processing [plotly-resampler]: success
+[2023-05-30 16:40:50] INFO root fetch - main [MainThread]: Store serial: [18303756]
