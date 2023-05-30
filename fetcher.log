@@ -3672,3 +3672,74 @@
 [2023-05-30 03:39:03] INFO root fetch - main [MainThread]: End processing [reytool]: success
 [2023-05-30 03:39:04] INFO root fetch - main [MainThread]: End processing [agsadmin]: success
 [2023-05-30 03:39:04] INFO root fetch - main [MainThread]: Store serial: [18296727]
+[2023-05-30 03:44:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296727]
+[2023-05-30 03:44:12] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-30 03:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yog
+[2023-05-30 03:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pytorch
+[2023-05-30 03:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-scipy
+[2023-05-30 03:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hello2
+[2023-05-30 03:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proactive
+[2023-05-30 03:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bdnlp
+[2023-05-30 03:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-wordpress
+[2023-05-30 03:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-sphinx
+[2023-05-30 03:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chalk-harness
+[2023-05-30 03:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proactive-jupyter-kernel
+[2023-05-30 03:44:12] WARNING root fetch - processPackages [bdnlp]: Skipping, unable to determine old version
+[2023-05-30 03:44:12] INFO root fetch - processPackages [bdnlp]: Start processing: report-ranger
+[2023-05-30 03:44:12] INFO root fetch - main [MainThread]: End processing [bdnlp] error
+[2023-05-30 03:44:12] INFO root fetch - processPackages [hello2]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-30 03:44:12] INFO root fetch - processPackages [yog]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-30 03:44:12] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-05-30 03:44:12] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 03:44:12] INFO root fetch - processPackages [report-ranger]: New version: [2.2] Old Version: [2.1]
+[2023-05-30 03:44:12] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 03:44:12] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 03:44:12] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-30 03:44:12] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-05-30 03:44:12] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 03:44:12] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 03:44:12] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-05-30 03:44:12] INFO root fetch - processPackages [proactive]: Start processing: nbdev-django
+[2023-05-30 03:44:12] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-05-30 03:44:12] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-30 03:44:12] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230530/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:44:12] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 03:44:12] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-30 03:44:12] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230530/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:44:12] INFO root fetch - processPackages [report-ranger]: Downloading https://files.pythonhosted.org/packages/1b/71/3dc53c81aeaaaf81d2b3bcb8ed2cbf42a291bb1d5e34f186679d5ab46319/report_ranger-2.2.tar.gz
+[2023-05-30 03:44:12] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-30 03:44:12] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230530/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:44:12] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-30 03:44:12] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230530/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-30 03:44:12] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/f3/d5/cc16c0a06434f2a742f4a66a926680763202bd7b5589768893b21a26fc44/hello2-1.8.2.tar.gz
+[2023-05-30 03:44:13] INFO root fetch - processPackages [yog]: Downloading https://files.pythonhosted.org/packages/89/c1/7d8c7be4154d9905acf7e6ed482f55ce4e1f40af4cb25d0280ef3d5181dd/yog-2.2.2.tar.gz
+[2023-05-30 03:44:13] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-30 03:44:13] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230530/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:44:13] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-05-30 03:44:13] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.8.1.tar.gz tmp/hello2-1.8.2.tar.gz --markdown 20230530/h/hello2/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-30 03:44:13] INFO root fetch - processPackages [yog]: executing diffoscope
+[2023-05-30 03:44:13] INFO root fetch - processPackages [yog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yog-2.2.1.tar.gz tmp/yog-2.2.2.tar.gz --markdown 20230530/y/yog/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-30 03:44:13] INFO root fetch - processPackages [report-ranger]: executing diffoscope
+[2023-05-30 03:44:13] INFO root fetch - processPackages [report-ranger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report_ranger-2.1.tar.gz tmp/report_ranger-2.2.tar.gz --markdown 20230530/r/report-ranger/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-30 03:44:13] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-05-30 03:44:13] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230530/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 03:44:13] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-05-30 03:44:13] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230530/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:44:14] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: nopaths
+[2023-05-30 03:44:14] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-30 03:44:14] INFO root fetch - processPackages [nopaths]: New version: [2] Old Version: [1]
+[2023-05-30 03:44:14] INFO root fetch - processPackages [nopaths]: Downloading https://files.pythonhosted.org/packages/e1/af/d2886fcf88189def9af66e8a54d60af27e5e05e2712341ce08f3570b2638/nopaths-1.tar.gz
+[2023-05-30 03:44:14] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-30 03:44:14] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-05-30 03:44:15] INFO root fetch - processPackages [nopaths]: Downloading https://files.pythonhosted.org/packages/c2/42/05c20bbbf25d0d9f2a5ab26bfa1e02dab460092ffb3e1b80ffc5b675d30d/nopaths-2.tar.gz
+[2023-05-30 03:44:15] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-05-30 03:44:15] INFO root fetch - processPackages [nopaths]: executing diffoscope
+[2023-05-30 03:44:15] INFO root fetch - processPackages [nopaths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopaths-1.tar.gz tmp/nopaths-2.tar.gz --markdown 20230530/n/nopaths/1-2/diff.md --exclude *.pyd
+[2023-05-30 03:44:15] INFO root fetch - main [MainThread]: End processing [report-ranger]: success
+[2023-05-30 03:44:15] INFO root fetch - main [MainThread]: End processing [yog]: success
+[2023-05-30 03:44:15] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-30 03:44:15] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-30 03:44:15] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-05-30 03:44:15] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-30 03:44:17] INFO root fetch - main [MainThread]: End processing [nopaths]: success
+[2023-05-30 03:44:17] INFO root fetch - main [MainThread]: Store serial: [18296775]
