@@ -18485,3 +18485,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 19:15:50] INFO root fetch - main [MainThread]: End processing [brainsurf]: success
 [2023-05-30 19:16:00] INFO root fetch - main [MainThread]: End processing [angr]: success
 [2023-05-30 19:16:00] INFO root fetch - main [MainThread]: Store serial: [18305616]
+[2023-05-30 19:21:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18305616]
+[2023-05-30 19:21:10] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-30 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AHMeD-OPs
+[2023-05-30 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Corporal
+[2023-05-30 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biblelib
+[2023-05-30 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zenroom
+[2023-05-30 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cwsearch-utils
+[2023-05-30 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-radiance
+[2023-05-30 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: VBBinaryLensing
+[2023-05-30 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CoLT5-attention
+[2023-05-30 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dragonfly-uwg
+[2023-05-30 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dragonfly-energy
+[2023-05-30 19:21:10] INFO root fetch - processPackages [AHMeD-OPs]: New version: [0.2] Old Version: [0.1]
+[2023-05-30 19:21:10] INFO root fetch - processPackages [Corporal]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 19:21:10] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 19:21:10] INFO root fetch - processPackages [VBBinaryLensing]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-05-30 19:21:10] INFO root fetch - processPackages [biblelib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 19:21:10] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 19:21:10] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-05-30 19:21:10] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-30 19:21:10] INFO root fetch - processPackages [zenroom]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-30 19:21:10] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-30 19:21:10] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-05-30 19:21:10] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230530/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 19:21:10] INFO root fetch - processPackages [AHMeD-OPs]: Downloading https://files.pythonhosted.org/packages/dd/5f/b65de9b3a914ca3765bb549738ded2db51bae7d7265adfa4069df4175d3b/AHMeD_OPs-0.1-py3-none-any.whl
+[2023-05-30 19:21:10] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-30 19:21:10] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.8.1.tar.gz tmp/CoLT5-attention-0.9.0.tar.gz --markdown 20230530/C/CoLT5-attention/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 19:21:10] INFO root fetch - processPackages [VBBinaryLensing]: Downloading https://files.pythonhosted.org/packages/ca/62/b07c34148ad7439832a310d3632293a26f78a631b515d7b0174fa6208725/VBBinaryLensing-3.5.0.tar.gz
+[2023-05-30 19:21:10] INFO root fetch - processPackages [biblelib]: Downloading https://files.pythonhosted.org/packages/4d/ee/a6162c67869ea892fa70aa203a6bc1585c99ab07cad149a8f6cfec5eef9a/biblelib-0.2.9.tar.gz
+[2023-05-30 19:21:10] INFO root fetch - processPackages [Corporal]: Downloading https://files.pythonhosted.org/packages/a7/20/790930872cf9107877c4cf729695a194b39d952fe9665a66325e0af1fb00/Corporal-0.1.8.tar.gz
+[2023-05-30 19:21:10] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/30/c3/d880c3ea112691c27e87bdf12f702a6e073702895c4608e6dbd5efbbb58e/zenroom-3.0.1.tar.gz
+[2023-05-30 19:21:10] INFO root fetch - processPackages [biblelib]: executing diffoscope
+[2023-05-30 19:21:10] INFO root fetch - processPackages [biblelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biblelib-0.2.8.tar.gz tmp/biblelib-0.2.9.tar.gz --markdown 20230530/b/biblelib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 19:21:10] INFO root fetch - processPackages [AHMeD-OPs]: Downloading https://files.pythonhosted.org/packages/b2/d5/a41fa41181c427f12832878aa8c204b3f4609d2202025537c6d0b1698570/AHMeD_OPs-0.2-py3-none-any.whl
+[2023-05-30 19:21:10] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-05-30 19:21:10] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230530/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-05-30 19:21:10] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 25585575>=10485760
+[2023-05-30 19:21:10] INFO root fetch - processPackages [zenroom]: Start processing: lbt-honeybee
+[2023-05-30 19:21:10] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-05-30 19:21:10] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-30 19:21:10] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-05-30 19:21:10] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230530/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-30 19:21:10] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-05-30 19:21:10] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230530/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 19:21:10] INFO root fetch - processPackages [VBBinaryLensing]: Downloading https://files.pythonhosted.org/packages/82/c9/b2d9e42ecf45ad7278e1918bffd612adf25beefb258acd0e8c50b909eca9/VBBinaryLensing-3.6.0.tar.gz
+[2023-05-30 19:21:10] INFO root fetch - processPackages [AHMeD-OPs]: executing diffoscope
+[2023-05-30 19:21:10] INFO root fetch - processPackages [AHMeD-OPs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AHMeD_OPs-0.1-py3-none-any.whl.zip tmp/AHMeD_OPs-0.2-py3-none-any.whl.zip --markdown 20230530/A/AHMeD-OPs/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-30 19:21:10] INFO root fetch - processPackages [Corporal]: Downloading https://files.pythonhosted.org/packages/b9/fa/9775531117c313e9c4f8da268d0f31de93a8b1b7fb9db42445e085a5751a/Corporal-0.1.9.tar.gz
+[2023-05-30 19:21:10] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-30 19:21:10] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230530/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-30 19:21:11] INFO root fetch - processPackages [VBBinaryLensing]: executing diffoscope
+[2023-05-30 19:21:11] INFO root fetch - processPackages [VBBinaryLensing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VBBinaryLensing-3.5.0.tar.gz tmp/VBBinaryLensing-3.6.0.tar.gz --markdown 20230530/V/VBBinaryLensing/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-05-30 19:21:11] INFO root fetch - processPackages [Corporal]: executing diffoscope
+[2023-05-30 19:21:11] INFO root fetch - processPackages [Corporal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Corporal-0.1.8.tar.gz tmp/Corporal-0.1.9.tar.gz --markdown 20230530/C/Corporal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 19:21:11] INFO root fetch - processPackages [cwsearch-utils]: Start processing: spanishconjugator
+[2023-05-30 19:21:11] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-05-30 19:21:11] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-30 19:21:12] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-30 19:21:12] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230530/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-30 19:21:12] INFO root fetch - processPackages [CoLT5-attention]: Start processing: spanishconjugator
+[2023-05-30 19:21:12] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-30 19:21:12] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-30 19:21:12] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-30 19:21:12] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230530/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-30 19:21:12] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-05-30 19:21:13] INFO root fetch - main [MainThread]: End processing [AHMeD-OPs]: success
+[2023-05-30 19:21:13] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-05-30 19:21:13] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-05-30 19:21:13] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-30 19:21:13] INFO root fetch - main [MainThread]: End processing [Corporal]: success
+[2023-05-30 19:21:13] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-30 19:21:14] INFO root fetch - main [MainThread]: End processing [VBBinaryLensing]: success
+[2023-05-30 19:21:14] INFO root fetch - main [MainThread]: End processing [biblelib]: success
+[2023-05-30 19:21:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-30 19:21:14] INFO root fetch - main [MainThread]: Store serial: [18305670]
