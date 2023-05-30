@@ -18189,3 +18189,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 18:59:58] INFO root fetch - main [MainThread]: End processing [slac-alarm-manager]: success
 [2023-05-30 18:59:58] INFO root fetch - main [MainThread]: End processing [brainsurf]: success
 [2023-05-30 18:59:58] INFO root fetch - main [MainThread]: Store serial: [18305453]
+[2023-05-30 19:05:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18305453]
+[2023-05-30 19:05:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-30 19:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FreeTVG-karjakak
+[2023-05-30 19:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xpanse
+[2023-05-30 19:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peachdb
+[2023-05-30 19:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cooptools
+[2023-05-30 19:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeybee-radiance
+[2023-05-30 19:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: honeybee-energy
+[2023-05-30 19:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seqchromloader
+[2023-05-30 19:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-vpc
+[2023-05-30 19:05:08] INFO root fetch - processPackages [cooptools]: New version: [1.7] Old Version: [1.6]
+[2023-05-30 19:05:08] INFO root fetch - processPackages [xpanse]: New version: [2.0.0rc2] Old Version: [1.3.1]
+[2023-05-30 19:05:08] INFO root fetch - processPackages [peachdb]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-30 19:05:08] INFO root fetch - processPackages [FreeTVG-karjakak]: New version: [3.2.9] Old Version: [3.2.8rc1]
+[2023-05-30 19:05:08] INFO root fetch - processPackages [seqchromloader]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-30 19:05:08] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-05-30 19:05:08] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 19:05:08] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-30 19:05:08] INFO root fetch - processPackages [peachdb]: Downloading https://files.pythonhosted.org/packages/b8/33/af4d0ce7f16efe254e19df3e876fe9d37bb35d8ac15e6018945e5889242f/peachdb-0.0.8.tar.gz
+[2023-05-30 19:05:08] INFO root fetch - processPackages [xpanse]: Downloading https://files.pythonhosted.org/packages/8f/85/17d9c516814f64c19ed115902fc37fbb6a6df9e5fd0dbf5b26a0829be3ae/xpanse-2.0.0rc2.tar.gz
+[2023-05-30 19:05:08] INFO root fetch - processPackages [cooptools]: Downloading https://files.pythonhosted.org/packages/f5/72/d9808d4de602955129b2e555dc276eedb85f9c4a54e10a3e26ef7fb7d984/cooptools-1.6.tar.gz
+[2023-05-30 19:05:08] INFO root fetch - processPackages [seqchromloader]: Downloading https://files.pythonhosted.org/packages/f6/f7/dd6c00c5880ef336bbc4730871261dc8d568c1cb2481224057c9e661d247/seqchromloader-0.5.3.tar.gz
+[2023-05-30 19:05:08] INFO root fetch - processPackages [peachdb]: executing diffoscope
+[2023-05-30 19:05:08] INFO root fetch - processPackages [peachdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peachdb-0.0.7.tar.gz tmp/peachdb-0.0.8.tar.gz --markdown 20230530/p/peachdb/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 19:05:08] INFO root fetch - processPackages [xpanse]: executing diffoscope
+[2023-05-30 19:05:08] INFO root fetch - processPackages [xpanse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpanse-1.3.1.tar.gz tmp/xpanse-2.0.0rc2.tar.gz --markdown 20230530/x/xpanse/1.3.1-2.0.0rc2/diff.md --exclude *.pyd
+[2023-05-30 19:05:08] INFO root fetch - processPackages [seqchromloader]: executing diffoscope
+[2023-05-30 19:05:08] INFO root fetch - processPackages [seqchromloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqchromloader-0.5.2.tar.gz tmp/seqchromloader-0.5.3.tar.gz --markdown 20230530/s/seqchromloader/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-30 19:05:08] INFO root fetch - processPackages [FreeTVG-karjakak]: executing diffoscope
+[2023-05-30 19:05:08] INFO root fetch - processPackages [FreeTVG-karjakak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeTVG-karjakak-3.2.8rc1.tar.gz tmp/FreeTVG-karjakak-3.2.9.tar.gz --markdown 20230530/F/FreeTVG-karjakak/3.2.8rc1-3.2.9/diff.md --exclude *.pyd
+[2023-05-30 19:05:08] INFO root fetch - processPackages [cooptools]: Downloading https://files.pythonhosted.org/packages/5c/a6/cc0626e3f15749e59f5d0afa0e70cc75deef74bc43d02a3584110e21bc85/cooptools-1.7.tar.gz
+[2023-05-30 19:05:08] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-05-30 19:05:08] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 19:05:08] INFO root fetch - processPackages [cooptools]: executing diffoscope
+[2023-05-30 19:05:08] INFO root fetch - processPackages [cooptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cooptools-1.6.tar.gz tmp/cooptools-1.7.tar.gz --markdown 20230530/c/cooptools/1.6-1.7/diff.md --exclude *.pyd
+[2023-05-30 19:05:08] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-05-30 19:05:08] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230530/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-05-30 19:05:08] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-05-30 19:05:08] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230530/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-30 19:05:09] INFO root fetch - main [MainThread]: End processing [peachdb]: success
+[2023-05-30 19:05:10] INFO root fetch - main [MainThread]: End processing [xpanse]: success
+[2023-05-30 19:05:10] INFO root fetch - main [MainThread]: End processing [seqchromloader]: success
+[2023-05-30 19:05:10] INFO root fetch - main [MainThread]: End processing [FreeTVG-karjakak]: success
+[2023-05-30 19:05:10] INFO root fetch - main [MainThread]: End processing [cooptools]: success
+[2023-05-30 19:05:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-05-30 19:05:11] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-05-30 19:05:14] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-05-30 19:05:14] INFO root fetch - main [MainThread]: Store serial: [18305477]
