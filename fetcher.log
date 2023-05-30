@@ -12997,3 +12997,87 @@
 [2023-05-30 14:57:52] INFO root fetch - main [MainThread]: End processing [stream-read-xbrl]: success
 [2023-05-30 14:57:52] INFO root fetch - main [MainThread]: End processing [Python-Road]: success
 [2023-05-30 14:57:52] INFO root fetch - main [MainThread]: Store serial: [18302454]
+[2023-05-30 15:02:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18302454]
+[2023-05-30 15:03:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-30 15:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecl-data-io
+[2023-05-30 15:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gov-uk-dashboards
+[2023-05-30 15:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amsterdam-schema-tools
+[2023-05-30 15:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Telegant
+[2023-05-30 15:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2023-05-30 15:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Rabbit-in-a-Blender
+[2023-05-30 15:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: synthdog
+[2023-05-30 15:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyCosmo
+[2023-05-30 15:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apigratis
+[2023-05-30 15:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: biblebot
+[2023-05-30 15:03:02] INFO root fetch - processPackages [ecl-data-io]: New version: [3.0.0b1] Old Version: [3.0.0b0]
+[2023-05-30 15:03:02] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.4.1] Old Version: [9.4.0]
+[2023-05-30 15:03:02] INFO root fetch - processPackages [Telegant]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-30 15:03:02] INFO root fetch - processPackages [apigratis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 15:03:02] INFO root fetch - processPackages [synthdog]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-30 15:03:02] INFO root fetch - processPackages [Rabbit-in-a-Blender]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-05-30 15:03:02] INFO root fetch - processPackages [biblebot]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-30 15:03:02] INFO root fetch - processPackages [PyCosmo]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-30 15:03:02] INFO root fetch - processPackages [amsterdam-schema-tools]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-05-30 15:03:02] INFO root fetch - processPackages [cg]: New version: [33.0.3] Old Version: [33.0.2]
+[2023-05-30 15:03:02] INFO root fetch - processPackages [apigratis]: executing diffoscope
+[2023-05-30 15:03:02] INFO root fetch - processPackages [apigratis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apigratis-0.1.0.tar.gz tmp/apigratis-0.1.1.tar.gz --markdown 20230530/a/apigratis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 15:03:02] INFO root fetch - processPackages [ecl-data-io]: Downloading https://files.pythonhosted.org/packages/a1/df/ea00802d3f842e5b5d47044d566502d3250bff5087f64921ae05900dda84/ecl-data-io-3.0.0b0.tar.gz
+[2023-05-30 15:03:02] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/68/3e/fc0dd85b239dfb8f5d60db3a26bdac93fa18b59315c1c45ce05c4b045b3c/Rabbit-in-a-Blender-0.0.27.tar.gz
+[2023-05-30 15:03:02] INFO root fetch - processPackages [Telegant]: Downloading https://files.pythonhosted.org/packages/63/21/22380f6d6e608ba6fe19546f350fdcfef87c50489b0be1411ac0dbdc99d3/Telegant-0.2.6.tar.gz
+[2023-05-30 15:03:02] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/e6/a3/b4e022e06d26c70b0d1cdfcd9f8b6995daa30808c0672f9f9ca7dd0456cd/cg-33.0.3.tar.gz
+[2023-05-30 15:03:02] INFO root fetch - processPackages [biblebot]: Downloading https://files.pythonhosted.org/packages/ab/76/f564317e5472e7e1c18965e64bea873e7888d30ca861f3392bc48f1b193e/biblebot-0.4.2.tar.gz
+[2023-05-30 15:03:02] INFO root fetch - processPackages [synthdog]: Downloading https://files.pythonhosted.org/packages/64/3f/0f6540e4bc3f196522b94ee79a60d672bb49f758499455dc51d134d24f89/synthdog-0.5.8.tar.gz
+[2023-05-30 15:03:02] INFO root fetch - processPackages [PyCosmo]: Downloading https://files.pythonhosted.org/packages/2e/9b/f732650b23f81b3811cb92120e52885767f6cac1a3db54d9c60018047fa7/PyCosmo-2.1.0.tar.gz
+[2023-05-30 15:03:02] WARNING root fetch - processPackages [synthdog]: Skipping package: exceeds size limit 21932810>=10485760
+[2023-05-30 15:03:02] INFO root fetch - processPackages [synthdog]: Start processing: romba
+[2023-05-30 15:03:02] INFO root fetch - main [MainThread]: End processing [synthdog] error
+[2023-05-30 15:03:02] WARNING root fetch - processPackages [romba]: Skipping, unable to determine old version
+[2023-05-30 15:03:02] INFO root fetch - processPackages [romba]: Start processing: graphsignal
+[2023-05-30 15:03:02] INFO root fetch - main [MainThread]: End processing [romba] error
+[2023-05-30 15:03:02] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-30 15:03:02] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/e1/4f/3c65335aad6bdf1b2dd181f28b584fe879e7c08a3a8efa70ad71c39360d3/gov_uk_dashboards-9.4.1.tar.gz
+[2023-05-30 15:03:02] INFO root fetch - processPackages [Telegant]: executing diffoscope
+[2023-05-30 15:03:02] INFO root fetch - processPackages [Telegant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Telegant-0.2.5.tar.gz tmp/Telegant-0.2.6.tar.gz --markdown 20230530/T/Telegant/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-30 15:03:02] INFO root fetch - processPackages [Rabbit-in-a-Blender]: executing diffoscope
+[2023-05-30 15:03:02] INFO root fetch - processPackages [Rabbit-in-a-Blender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Rabbit-in-a-Blender-0.0.26.tar.gz tmp/Rabbit-in-a-Blender-0.0.27.tar.gz --markdown 20230530/R/Rabbit-in-a-Blender/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-05-30 15:03:02] INFO root fetch - processPackages [amsterdam-schema-tools]: executing diffoscope
+[2023-05-30 15:03:02] INFO root fetch - processPackages [amsterdam-schema-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsterdam-schema-tools-5.9.2.tar.gz tmp/amsterdam-schema-tools-5.9.3.tar.gz --markdown 20230530/a/amsterdam-schema-tools/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-05-30 15:03:02] INFO root fetch - processPackages [biblebot]: Downloading https://files.pythonhosted.org/packages/ba/1f/c2a6d2dd9719f7f5e697fc3f6c1c526e04ab6722d6bd19561620d58e4aab/biblebot-0.4.3.tar.gz
+[2023-05-30 15:03:02] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2023-05-30 15:03:02] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.4.0.tar.gz tmp/gov_uk_dashboards-9.4.1.tar.gz --markdown 20230530/g/gov-uk-dashboards/9.4.0-9.4.1/diff.md --exclude *.pyd
+[2023-05-30 15:03:02] INFO root fetch - processPackages [ecl-data-io]: Downloading https://files.pythonhosted.org/packages/e9/86/990afbbb64eb8733872e341046b83244d0fe2f04f208d5202606f7eb8163/ecl-data-io-3.0.0b1.tar.gz
+[2023-05-30 15:03:02] INFO root fetch - processPackages [PyCosmo]: Downloading https://files.pythonhosted.org/packages/47/ad/4276074b09ce93a1811be7ce37ae2a7550956c7a0727f3aade7418493719/PyCosmo-2.1.1.tar.gz
+[2023-05-30 15:03:02] INFO root fetch - processPackages [biblebot]: executing diffoscope
+[2023-05-30 15:03:02] INFO root fetch - processPackages [biblebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biblebot-0.4.2.tar.gz tmp/biblebot-0.4.3.tar.gz --markdown 20230530/b/biblebot/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-30 15:03:02] INFO root fetch - processPackages [ecl-data-io]: executing diffoscope
+[2023-05-30 15:03:02] INFO root fetch - processPackages [ecl-data-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecl-data-io-3.0.0b0.tar.gz tmp/ecl-data-io-3.0.0b1.tar.gz --markdown 20230530/e/ecl-data-io/3.0.0b0-3.0.0b1/diff.md --exclude *.pyd
+[2023-05-30 15:03:02] INFO root fetch - processPackages [PyCosmo]: executing diffoscope
+[2023-05-30 15:03:02] INFO root fetch - processPackages [PyCosmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCosmo-2.1.0.tar.gz tmp/PyCosmo-2.1.1.tar.gz --markdown 20230530/P/PyCosmo/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-30 15:03:02] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-30 15:03:02] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.0.2.tar.gz tmp/cg-33.0.3.tar.gz --markdown 20230530/c/cg/33.0.2-33.0.3/diff.md --exclude *.pyd
+[2023-05-30 15:03:02] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-05-30 15:03:02] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230530/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-30 15:03:03] INFO root fetch - processPackages [apigratis]: Start processing: mlops-ai
+[2023-05-30 15:03:03] INFO root fetch - main [MainThread]: End processing [apigratis]: success
+[2023-05-30 15:03:03] INFO root fetch - processPackages [mlops-ai]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-30 15:03:03] INFO root fetch - processPackages [mlops-ai]: Downloading https://files.pythonhosted.org/packages/06/7d/3f5969f4bdca7c1b6c87241a631caebad6c4d48ab37ffc13e7737319c5e9/mlops-ai-1.0.0.tar.gz
+[2023-05-30 15:03:03] INFO root fetch - processPackages [Telegant]: Start processing: interval-sdk
+[2023-05-30 15:03:03] INFO root fetch - main [MainThread]: End processing [Telegant]: success
+[2023-05-30 15:03:04] INFO root fetch - processPackages [mlops-ai]: Downloading https://files.pythonhosted.org/packages/e2/78/c003bd21636540c66af180e79a13452b9b8007a69822e14fe4d88650248d/mlops-ai-1.0.1.tar.gz
+[2023-05-30 15:03:04] INFO root fetch - processPackages [interval-sdk]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-30 15:03:04] INFO root fetch - processPackages [mlops-ai]: executing diffoscope
+[2023-05-30 15:03:04] INFO root fetch - processPackages [mlops-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlops-ai-1.0.0.tar.gz tmp/mlops-ai-1.0.1.tar.gz --markdown 20230530/m/mlops-ai/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 15:03:04] INFO root fetch - processPackages [interval-sdk]: Downloading https://files.pythonhosted.org/packages/ff/af/2b09650e433cf4d9fea122a3035abe1190c583a233fab363d75e9d076c06/interval_sdk-1.3.1.tar.gz
+[2023-05-30 15:03:04] INFO root fetch - main [MainThread]: End processing [biblebot]: success
+[2023-05-30 15:03:04] INFO root fetch - processPackages [interval-sdk]: executing diffoscope
+[2023-05-30 15:03:04] INFO root fetch - processPackages [interval-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interval_sdk-1.3.0.tar.gz tmp/interval_sdk-1.3.1.tar.gz --markdown 20230530/i/interval-sdk/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-30 15:03:04] INFO root fetch - main [MainThread]: End processing [ecl-data-io]: success
+[2023-05-30 15:03:04] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2023-05-30 15:03:05] INFO root fetch - main [MainThread]: End processing [mlops-ai]: success
+[2023-05-30 15:03:06] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-05-30 15:03:06] INFO root fetch - main [MainThread]: End processing [interval-sdk]: success
+[2023-05-30 15:03:06] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
+[2023-05-30 15:03:08] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
+[2023-05-30 15:03:08] INFO root fetch - main [MainThread]: End processing [PyCosmo]: success
+[2023-05-30 15:03:15] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-30 15:03:15] INFO root fetch - main [MainThread]: Store serial: [18302493]
