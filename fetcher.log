@@ -5279,3 +5279,38 @@
 [2023-05-30 06:27:42] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-05-30 06:27:54] INFO root fetch - main [MainThread]: End processing [neuromynerva]: success
 [2023-05-30 06:27:54] INFO root fetch - main [MainThread]: Store serial: [18297747]
+[2023-05-30 06:32:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297747]
+[2023-05-30 06:33:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-30 06:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-ipghrms-leave
+[2023-05-30 06:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: variant
+[2023-05-30 06:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-hub
+[2023-05-30 06:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snk
+[2023-05-30 06:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yggdrasil-mc
+[2023-05-30 06:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geostat
+[2023-05-30 06:33:04] INFO root fetch - processPackages [yggdrasil-mc]: New version: [0.1b4] Old Version: [0.1b3]
+[2023-05-30 06:33:04] INFO root fetch - processPackages [django-ipghrms-leave]: New version: [1.6] Old Version: [1.2]
+[2023-05-30 06:33:04] WARNING root fetch - processPackages [llama-hub]: Skipping, unable to determine old version
+[2023-05-30 06:33:04] INFO root fetch - main [MainThread]: End processing [llama-hub] error
+[2023-05-30 06:33:04] INFO root fetch - processPackages [variant]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 06:33:04] INFO root fetch - processPackages [snk]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-30 06:33:04] INFO root fetch - processPackages [yggdrasil-mc]: executing diffoscope
+[2023-05-30 06:33:04] INFO root fetch - processPackages [yggdrasil-mc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yggdrasil_mc-0.1b3.tar.gz tmp/yggdrasil_mc-0.1b4.tar.gz --markdown 20230530/y/yggdrasil-mc/0.1b3-0.1b4/diff.md --exclude *.pyd
+[2023-05-30 06:33:04] INFO root fetch - processPackages [geostat]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-30 06:33:04] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/c1/13/8026d0414bebb63be0d9fc65238387516378e68cb1b1427cd6ca29d11922/django-ipghrms-leave-1.6.tar.gz
+[2023-05-30 06:33:04] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/1b/58/21ce0731e658618cc8219f753e9eae3b012c0a0088e57f9a2c1fa595baee/snk-0.6.6.tar.gz
+[2023-05-30 06:33:04] INFO root fetch - processPackages [variant]: executing diffoscope
+[2023-05-30 06:33:04] INFO root fetch - processPackages [variant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variant-0.0.8.tar.gz tmp/variant-0.0.9.tar.gz --markdown 20230530/v/variant/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 06:33:04] INFO root fetch - processPackages [geostat]: Downloading https://files.pythonhosted.org/packages/b7/b4/a9a6771a795469b3f60d62850edb18358b411ffb886455b61f86335842c7/geostat-0.8.3.tar.gz
+[2023-05-30 06:33:04] INFO root fetch - processPackages [django-ipghrms-leave]: executing diffoscope
+[2023-05-30 06:33:04] INFO root fetch - processPackages [django-ipghrms-leave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-leave-1.2.tar.gz tmp/django-ipghrms-leave-1.6.tar.gz --markdown 20230530/d/django-ipghrms-leave/1.2-1.6/diff.md --exclude *.pyd
+[2023-05-30 06:33:04] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-05-30 06:33:04] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.6.5.tar.gz tmp/snk-0.6.6.tar.gz --markdown 20230530/s/snk/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-30 06:33:04] INFO root fetch - processPackages [geostat]: Downloading https://files.pythonhosted.org/packages/a4/ab/c0d62ba842d61c4a9b17ff04fc938deef3f5f33fcad72b6c3b61b4b6a6f9/geostat-0.9.0.tar.gz
+[2023-05-30 06:33:05] INFO root fetch - processPackages [geostat]: executing diffoscope
+[2023-05-30 06:33:05] INFO root fetch - processPackages [geostat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geostat-0.8.3.tar.gz tmp/geostat-0.9.0.tar.gz --markdown 20230530/g/geostat/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 06:33:05] INFO root fetch - main [MainThread]: End processing [yggdrasil-mc]: success
+[2023-05-30 06:33:05] INFO root fetch - main [MainThread]: End processing [variant]: success
+[2023-05-30 06:33:06] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-05-30 06:33:06] INFO root fetch - main [MainThread]: End processing [geostat]: success
+[2023-05-30 06:33:07] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
+[2023-05-30 06:33:07] INFO root fetch - main [MainThread]: Store serial: [18297769]
