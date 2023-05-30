@@ -17099,3 +17099,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 18:05:15] INFO root fetch - main [MainThread]: End processing [aiosmb]: success
 [2023-05-30 18:05:19] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
 [2023-05-30 18:05:19] INFO root fetch - main [MainThread]: Store serial: [18304787]
+[2023-05-30 18:10:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18304787]
+[2023-05-30 18:10:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 18:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywerview
+[2023-05-30 18:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peachdb
+[2023-05-30 18:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: src-ie-endpoints
+[2023-05-30 18:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fa_purity
+[2023-05-30 18:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notification-service-nightly
+[2023-05-30 18:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ai-flow-nightly
+[2023-05-30 18:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eqalert
+[2023-05-30 18:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: readlog
+[2023-05-30 18:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spark-utils
+[2023-05-30 18:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: paper-qa
+[2023-05-30 18:10:29] INFO root fetch - processPackages [fa_purity]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-30 18:10:29] INFO root fetch - processPackages [peachdb]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 18:10:29] INFO root fetch - processPackages [pywerview]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-30 18:10:29] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-30 18:10:29] INFO root fetch - processPackages [spark-utils]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-30 18:10:29] INFO root fetch - processPackages [eqalert]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-05-30 18:10:29] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-30 18:10:29] INFO root fetch - processPackages [readlog]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-30 18:10:29] INFO root fetch - processPackages [paper-qa]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-30 18:10:29] WARNING root fetch - processPackages [src-ie-endpoints]: Skipping, unable to determine old version
+[2023-05-30 18:10:29] INFO root fetch - main [MainThread]: End processing [src-ie-endpoints] error
+[2023-05-30 18:10:29] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-05-30 18:10:29] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.5.8.tar.gz tmp/notification_service_nightly-2023.5.9.tar.gz --markdown 20230530/n/notification-service-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-30 18:10:29] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-05-30 18:10:29] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.5.8.tar.gz tmp/ai_flow_nightly-2023.5.9.tar.gz --markdown 20230530/a/ai-flow-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-30 18:10:29] INFO root fetch - processPackages [fa_purity]: Downloading https://files.pythonhosted.org/packages/01/d0/fb8f962d1e51c74d296a0d5029e5e865813407da91100420ef535f4aa927/fa_purity-1.8.0.tar.gz
+[2023-05-30 18:10:29] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/0b/a1/471ce9730f80624cd6cce486c60c3de461725ef89927488e5cbf2a8ec856/paper-qa-2.0.1.tar.gz
+[2023-05-30 18:10:29] INFO root fetch - processPackages [pywerview]: Downloading https://files.pythonhosted.org/packages/79/4b/b08ce43bdf559685f642cc475f1f63ec1e9d78c7a3831923655f3355d14f/pywerview-0.4.1.tar.gz
+[2023-05-30 18:10:29] INFO root fetch - processPackages [readlog]: Downloading https://files.pythonhosted.org/packages/e5/c8/21592e9d78fa781d704dfaff00d83546f20067e7d7a734e2e5d31759582e/readlog-1.1.2.tar.gz
+[2023-05-30 18:10:29] INFO root fetch - processPackages [peachdb]: Downloading https://files.pythonhosted.org/packages/e7/19/76284af5b310ace42c6e4b4ca8c7edf914b9b9bb81a186eac2ba892a1b04/peachdb-0.0.4.tar.gz
+[2023-05-30 18:10:29] INFO root fetch - processPackages [spark-utils]: Downloading https://files.pythonhosted.org/packages/3a/a2/af7d73a426a4404213d3de0554abbf8239f0a76a6dbf1910d1c945df1042/spark_utils-1.0.1.tar.gz
+[2023-05-30 18:10:29] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-05-30 18:10:29] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-2.0.0.tar.gz tmp/paper-qa-2.0.1.tar.gz --markdown 20230530/p/paper-qa/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-30 18:10:30] INFO root fetch - processPackages [peachdb]: executing diffoscope
+[2023-05-30 18:10:30] INFO root fetch - processPackages [peachdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peachdb-0.0.3.tar.gz tmp/peachdb-0.0.4.tar.gz --markdown 20230530/p/peachdb/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 18:10:30] INFO root fetch - processPackages [eqalert]: Downloading https://files.pythonhosted.org/packages/62/4f/c9a9f815c6cb76f7c7a960d34f11243ae188a39c19cc88fd52c05ed06939/eqalert-3.5.1.tar.gz
+[2023-05-30 18:10:30] INFO root fetch - processPackages [readlog]: executing diffoscope
+[2023-05-30 18:10:30] INFO root fetch - processPackages [readlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readlog-1.1.1.tar.gz tmp/readlog-1.1.2.tar.gz --markdown 20230530/r/readlog/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-30 18:10:30] INFO root fetch - processPackages [pywerview]: Downloading https://files.pythonhosted.org/packages/2d/b8/62919b3e62083da26c5818866d5d39845b646d8f0a35628d8c20cc2364b9/pywerview-0.5.0.tar.gz
+[2023-05-30 18:10:30] INFO root fetch - processPackages [fa_purity]: Downloading https://files.pythonhosted.org/packages/d1/d7/49dcb1bab0f5a81d7e580591e30294d71c57c667d5a802800f71dda242fc/fa_purity-1.9.0.tar.gz
+[2023-05-30 18:10:30] INFO root fetch - processPackages [spark-utils]: Downloading https://files.pythonhosted.org/packages/7e/cf/263e7b62ab0552ac90dc7262a37c8d7764f819de358947ac785b0d4dfc7f/spark_utils-1.1.0.tar.gz
+[2023-05-30 18:10:30] INFO root fetch - processPackages [eqalert]: executing diffoscope
+[2023-05-30 18:10:30] INFO root fetch - processPackages [eqalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eqalert-3.5.0.tar.gz tmp/eqalert-3.5.1.tar.gz --markdown 20230530/e/eqalert/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-05-30 18:10:30] INFO root fetch - processPackages [fa_purity]: executing diffoscope
+[2023-05-30 18:10:30] INFO root fetch - processPackages [fa_purity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa_purity-1.8.0.tar.gz tmp/fa_purity-1.9.0.tar.gz --markdown 20230530/f/fa_purity/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-30 18:10:30] INFO root fetch - processPackages [pywerview]: executing diffoscope
+[2023-05-30 18:10:30] INFO root fetch - processPackages [pywerview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywerview-0.4.1.tar.gz tmp/pywerview-0.5.0.tar.gz --markdown 20230530/p/pywerview/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-30 18:10:30] INFO root fetch - processPackages [spark-utils]: executing diffoscope
+[2023-05-30 18:10:30] INFO root fetch - processPackages [spark-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_utils-1.0.1.tar.gz tmp/spark_utils-1.1.0.tar.gz --markdown 20230530/s/spark-utils/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 18:10:31] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-05-30 18:10:31] INFO root fetch - main [MainThread]: End processing [peachdb]: success
+[2023-05-30 18:10:31] INFO root fetch - main [MainThread]: End processing [readlog]: success
+[2023-05-30 18:10:32] INFO root fetch - main [MainThread]: End processing [fa_purity]: success
+[2023-05-30 18:10:32] INFO root fetch - main [MainThread]: End processing [pywerview]: success
+[2023-05-30 18:10:32] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-05-30 18:10:32] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-05-30 18:10:32] INFO root fetch - main [MainThread]: End processing [spark-utils]: success
+[2023-05-30 18:10:35] INFO root fetch - main [MainThread]: End processing [eqalert]: success
+[2023-05-30 18:10:35] INFO root fetch - main [MainThread]: Store serial: [18304821]
