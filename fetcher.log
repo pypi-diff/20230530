@@ -10155,3 +10155,62 @@
 [2023-05-30 12:24:47] INFO root fetch - main [MainThread]: End processing [napari-stress]: success
 [2023-05-30 12:24:50] INFO root fetch - main [MainThread]: End processing [jupyter-collaboration]: success
 [2023-05-30 12:24:50] INFO root fetch - main [MainThread]: Store serial: [18300549]
+[2023-05-30 12:29:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18300549]
+[2023-05-30 12:29:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-30 12:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-stock-move-backdating
+[2023-05-30 12:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multilib
+[2023-05-30 12:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartdash
+[2023-05-30 12:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: orbit-component-base
+[2023-05-30 12:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vnpy-xex
+[2023-05-30 12:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bridgecrew
+[2023-05-30 12:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spai
+[2023-05-30 12:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smartchart
+[2023-05-30 12:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mercury-reels
+[2023-05-30 12:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyromongo
+[2023-05-30 12:29:59] WARNING root fetch - processPackages [multilib]: Skipping, unable to determine old version
+[2023-05-30 12:29:59] INFO root fetch - processPackages [multilib]: Start processing: blockpipe-db
+[2023-05-30 12:29:59] INFO root fetch - main [MainThread]: End processing [multilib] error
+[2023-05-30 12:29:59] WARNING root fetch - processPackages [odoo12-addon-stock-move-backdating]: Skipping, unable to determine old version
+[2023-05-30 12:29:59] INFO root fetch - processPackages [odoo12-addon-stock-move-backdating]: Start processing: strangeworks-qiskit-runtime
+[2023-05-30 12:29:59] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-move-backdating] error
+[2023-05-30 12:29:59] WARNING root fetch - processPackages [orbit-component-base]: Skipping, unable to determine old version
+[2023-05-30 12:29:59] INFO root fetch - main [MainThread]: End processing [orbit-component-base] error
+[2023-05-30 12:29:59] WARNING root fetch - processPackages [vnpy-xex]: Skipping, unable to determine old version
+[2023-05-30 12:29:59] INFO root fetch - processPackages [spai]: New version: [2023.5.30.post2] Old Version: [2023.5.30]
+[2023-05-30 12:29:59] INFO root fetch - main [MainThread]: End processing [vnpy-xex] error
+[2023-05-30 12:29:59] INFO root fetch - processPackages [smartdash]: New version: [0.0.1.dev6] Old Version: [0.0.1.dev5]
+[2023-05-30 12:29:59] INFO root fetch - processPackages [smartchart]: New version: [6.6.4] Old Version: [6.6.3]
+[2023-05-30 12:29:59] INFO root fetch - processPackages [mercury-reels]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-30 12:29:59] WARNING root fetch - processPackages [pyromongo]: Skipping, unable to determine old version
+[2023-05-30 12:29:59] INFO root fetch - main [MainThread]: End processing [pyromongo] error
+[2023-05-30 12:29:59] INFO root fetch - processPackages [blockpipe-db]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-30 12:29:59] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-30 12:29:59] INFO root fetch - processPackages [blockpipe-db]: executing diffoscope
+[2023-05-30 12:29:59] INFO root fetch - processPackages [blockpipe-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockpipe_db-0.1.5.tar.gz tmp/blockpipe_db-0.1.6.tar.gz --markdown 20230530/b/blockpipe-db/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-30 12:29:59] INFO root fetch - processPackages [strangeworks-qiskit-runtime]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 12:29:59] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-30 12:29:59] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230530/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-30 12:29:59] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/37/d7/faf9cface82df79b5019651d4a4b44e3effda2485e1a256f2ae369da9b82/spai-2023.5.30.post2.tar.gz
+[2023-05-30 12:29:59] INFO root fetch - processPackages [smartdash]: Downloading https://files.pythonhosted.org/packages/2d/47/1de7ce26984fb34ab4b98505e62ea547ccf1a719cc111412a2c212950f82/smartdash-0.0.1.dev6.tar.gz
+[2023-05-30 12:29:59] INFO root fetch - processPackages [mercury-reels]: Downloading https://files.pythonhosted.org/packages/d0/6f/99b048e955426a67b79ab361ed92348eb36e89eb186515761297de5bf341/mercury-reels-1.4.3.tar.gz
+[2023-05-30 12:29:59] INFO root fetch - processPackages [smartdash]: executing diffoscope
+[2023-05-30 12:29:59] INFO root fetch - processPackages [smartdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartdash-0.0.1.dev5.tar.gz tmp/smartdash-0.0.1.dev6.tar.gz --markdown 20230530/s/smartdash/0.0.1.dev5-0.0.1.dev6/diff.md --exclude *.pyd
+[2023-05-30 12:29:59] INFO root fetch - processPackages [mercury-reels]: executing diffoscope
+[2023-05-30 12:29:59] INFO root fetch - processPackages [mercury-reels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-reels-1.4.2.tar.gz tmp/mercury-reels-1.4.3.tar.gz --markdown 20230530/m/mercury-reels/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-30 12:29:59] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/1e/c6/76cb29fb0656d5989993addf93324f4a3a170c3775617fb26f5890c891d1/smartchart-6.6.4.tar.gz
+[2023-05-30 12:29:59] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-05-30 12:29:59] INFO root fetch - processPackages [strangeworks-qiskit-runtime]: Downloading https://files.pythonhosted.org/packages/8b/31/05f25b1b42f70cf42bfe3b94f7561cd48ca076bc8b83499ff8c981734877/strangeworks_qiskit_runtime-0.1.1.tar.gz
+[2023-05-30 12:29:59] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2023.5.30.tar.gz tmp/spai-2023.5.30.post2.tar.gz --markdown 20230530/s/spai/2023.5.30-2023.5.30.post2/diff.md --exclude *.pyd
+[2023-05-30 12:29:59] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-05-30 12:29:59] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.6.3.tar.gz tmp/smartchart-6.6.4.tar.gz --markdown 20230530/s/smartchart/6.6.3-6.6.4/diff.md --exclude *.pyd
+[2023-05-30 12:29:59] INFO root fetch - processPackages [strangeworks-qiskit-runtime]: Downloading https://files.pythonhosted.org/packages/98/1c/e9c74eaeb7c7e6b978eda9bf73d4606b82c9e961f619ed44022e33831da5/strangeworks_qiskit_runtime-0.1.2.tar.gz
+[2023-05-30 12:30:00] INFO root fetch - processPackages [strangeworks-qiskit-runtime]: executing diffoscope
+[2023-05-30 12:30:00] INFO root fetch - processPackages [strangeworks-qiskit-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_qiskit_runtime-0.1.1.tar.gz tmp/strangeworks_qiskit_runtime-0.1.2.tar.gz --markdown 20230530/s/strangeworks-qiskit-runtime/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 12:30:00] INFO root fetch - main [MainThread]: End processing [blockpipe-db]: success
+[2023-05-30 12:30:00] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-30 12:30:01] INFO root fetch - main [MainThread]: End processing [smartdash]: success
+[2023-05-30 12:30:01] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-05-30 12:30:01] INFO root fetch - main [MainThread]: End processing [strangeworks-qiskit-runtime]: success
+[2023-05-30 12:30:02] INFO root fetch - main [MainThread]: End processing [mercury-reels]: success
+[2023-05-30 12:30:08] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-05-30 12:30:08] INFO root fetch - main [MainThread]: Store serial: [18300589]
