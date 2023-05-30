@@ -18237,3 +18237,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 19:05:11] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
 [2023-05-30 19:05:14] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
 [2023-05-30 19:05:14] INFO root fetch - main [MainThread]: Store serial: [18305477]
+[2023-05-30 19:10:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18305477]
+[2023-05-30 19:10:23] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-30 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-microphone-plugin-sounddevice
+[2023-05-30 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragonfly-core
+[2023-05-30 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-ladybug
+[2023-05-30 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multikeyjwt
+[2023-05-30 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: romanisim
+[2023-05-30 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-05-30 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ds-io-utilities
+[2023-05-30 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brainsurf
+[2023-05-30 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lbt-honeybee
+[2023-05-30 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: httpbinx
+[2023-05-30 19:10:23] INFO root fetch - processPackages [multikeyjwt]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-30 19:10:23] INFO root fetch - processPackages [romanisim]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-05-30 19:10:23] WARNING root fetch - processPackages [ovos-microphone-plugin-sounddevice]: Skipping, unable to determine old version
+[2023-05-30 19:10:23] INFO root fetch - processPackages [ovos-microphone-plugin-sounddevice]: Start processing: localstack-core
+[2023-05-30 19:10:23] INFO root fetch - main [MainThread]: End processing [ovos-microphone-plugin-sounddevice] error
+[2023-05-30 19:10:23] INFO root fetch - processPackages [httpbinx]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-30 19:10:23] INFO root fetch - processPackages [ds-io-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 19:10:23] INFO root fetch - processPackages [brainsurf]: New version: [1.0.1] Old Version: [1.0]
+[2023-05-30 19:10:23] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-30 19:10:23] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-30 19:10:23] INFO root fetch - processPackages [lbt-ladybug]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-30 19:10:23] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230530170810] Old Version: [2.1.1.dev20230530074840]
+[2023-05-30 19:10:23] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-30 19:10:23] INFO root fetch - processPackages [ds-io-utilities]: executing diffoscope
+[2023-05-30 19:10:23] INFO root fetch - processPackages [ds-io-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds-io-utilities-0.0.8.tar.gz tmp/ds-io-utilities-0.0.9.tar.gz --markdown 20230530/d/ds-io-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 19:10:24] INFO root fetch - processPackages [romanisim]: Downloading https://files.pythonhosted.org/packages/b3/98/adc826954d7223e041f52dce88e58588e7dc72a738ec07568b0d87af0cc7/romanisim-0.2.0.tar.gz
+[2023-05-30 19:10:24] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/89/1f/482c05a2d98c231cd04802b1145385030edbc89bc263251c0ba72ef59c43/nonebot_plugin_stable_diffusion_diao-0.2.1.tar.gz
+[2023-05-30 19:10:24] INFO root fetch - processPackages [brainsurf]: Downloading https://files.pythonhosted.org/packages/3f/d0/b926e19bb87d63f3c39bcdae997c53f1b0879cd3ca0f3564a99756d60a12/brainsurf-1.0.1.tar.gz
+[2023-05-30 19:10:24] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/7c/2b/2ac8deb1f40e28c3dc5698ba4e6ba36395290dc4a267504a2cae2773488b/localstack-core-2.1.1.dev20230530170810.tar.gz
+[2023-05-30 19:10:24] INFO root fetch - processPackages [brainsurf]: executing diffoscope
+[2023-05-30 19:10:24] INFO root fetch - processPackages [brainsurf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainsurf-1.0.tar.gz tmp/brainsurf-1.0.1.tar.gz --markdown 20230530/b/brainsurf/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 19:10:24] INFO root fetch - processPackages [multikeyjwt]: Downloading https://files.pythonhosted.org/packages/ff/e8/833b8f7965dbb89275fea62558321c8ce16fd9b4b96cb075ba7a859bc22d/multikeyjwt-1.0.0.tar.gz
+[2023-05-30 19:10:24] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-30 19:10:24] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230530074840.tar.gz tmp/localstack-core-2.1.1.dev20230530170810.tar.gz --markdown 20230530/l/localstack-core/2.1.1.dev20230530074840-2.1.1.dev20230530170810/diff.md --exclude *.pyd
+[2023-05-30 19:10:24] INFO root fetch - processPackages [httpbinx]: Downloading https://files.pythonhosted.org/packages/ef/76/7374d49e7002931555e5bb171c63fa52e6ae815a941859587963434ac911/httpbinx-1.3.1.tar.gz
+[2023-05-30 19:10:24] INFO root fetch - processPackages [lbt-ladybug]: executing diffoscope
+[2023-05-30 19:10:24] INFO root fetch - processPackages [lbt-ladybug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-ladybug-0.8.1.tar.gz tmp/lbt-ladybug-0.9.0.tar.gz --markdown 20230530/l/lbt-ladybug/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 19:10:24] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-05-30 19:10:24] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.2.0.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.2.1.tar.gz --markdown 20230530/n/nonebot-plugin-stable-diffusion-diao/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-30 19:10:24] INFO root fetch - processPackages [romanisim]: Downloading https://files.pythonhosted.org/packages/88/3f/52e2cadabb81bd6b7f7cbbdf5ce6469b5fb1fb632cbe78fa09736a4b8697/romanisim-0.2.2.tar.gz
+[2023-05-30 19:10:24] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-30 19:10:24] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230530/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-30 19:10:24] INFO root fetch - processPackages [httpbinx]: executing diffoscope
+[2023-05-30 19:10:24] INFO root fetch - processPackages [httpbinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpbinx-1.3.0.tar.gz tmp/httpbinx-1.3.1.tar.gz --markdown 20230530/h/httpbinx/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-30 19:10:24] INFO root fetch - processPackages [multikeyjwt]: Downloading https://files.pythonhosted.org/packages/73/c2/6e8ac9d33d294ee9b83d668121e0ca718c063a5b255611ae20e7d6f498e8/multikeyjwt-1.1.0.tar.gz
+[2023-05-30 19:10:24] INFO root fetch - processPackages [romanisim]: executing diffoscope
+[2023-05-30 19:10:24] INFO root fetch - processPackages [romanisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/romanisim-0.2.0.tar.gz tmp/romanisim-0.2.2.tar.gz --markdown 20230530/r/romanisim/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-30 19:10:24] INFO root fetch - processPackages [multikeyjwt]: executing diffoscope
+[2023-05-30 19:10:24] INFO root fetch - processPackages [multikeyjwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multikeyjwt-1.0.0.tar.gz tmp/multikeyjwt-1.1.0.tar.gz --markdown 20230530/m/multikeyjwt/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 19:10:25] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-05-30 19:10:25] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230530/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-30 19:10:25] INFO root fetch - processPackages [ds-io-utilities]: Start processing: certora-cli-alpha-master
+[2023-05-30 19:10:25] INFO root fetch - main [MainThread]: End processing [ds-io-utilities]: success
+[2023-05-30 19:10:25] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230530.9.43.768438] Old Version: [20230530.9.0.837631]
+[2023-05-30 19:10:25] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fd/b3/8fbf9a9bd2956ea700467ef90a7453c2f88ecbf61f3b73e709c656720643/certora-cli-alpha-master-20230530.9.0.837631.tar.gz
+[2023-05-30 19:10:25] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39091116>=10485760
+[2023-05-30 19:10:25] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: brainsurf
+[2023-05-30 19:10:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-30 19:10:25] INFO root fetch - processPackages [brainsurf]: New version: [1.0.1] Old Version: [1.0]
+[2023-05-30 19:10:25] INFO root fetch - processPackages [brainsurf]: executing diffoscope
+[2023-05-30 19:10:25] INFO root fetch - processPackages [brainsurf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainsurf-1.0.tar.gz tmp/brainsurf-1.0.1.tar.gz --markdown 20230530/b/brainsurf/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 19:10:25] INFO root fetch - processPackages [brainsurf]: Start processing: taskcli
+[2023-05-30 19:10:25] INFO root fetch - main [MainThread]: End processing [brainsurf]: success
+[2023-05-30 19:10:26] INFO root fetch - processPackages [taskcli]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-30 19:10:26] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Start processing: AHMeD-OPs
+[2023-05-30 19:10:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-05-30 19:10:26] INFO root fetch - processPackages [lbt-honeybee]: Start processing: pepperize.cdk-lambda-deno
+[2023-05-30 19:10:26] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-30 19:10:26] WARNING root fetch - processPackages [AHMeD-OPs]: Skipping, unable to determine old version
+[2023-05-30 19:10:26] INFO root fetch - processPackages [AHMeD-OPs]: Start processing: cdktf
+[2023-05-30 19:10:26] INFO root fetch - main [MainThread]: End processing [AHMeD-OPs] error
+[2023-05-30 19:10:26] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-30 19:10:26] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 19:10:26] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-05-30 19:10:26] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230530/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-30 19:10:26] INFO root fetch - processPackages [taskcli]: Downloading https://files.pythonhosted.org/packages/b1/da/164362538992ec6daae4f211dc86198b2ea2230ccd993dd1112eb5ad649f/taskcli-0.0.7.tar.gz
+[2023-05-30 19:10:27] INFO root fetch - main [MainThread]: End processing [multikeyjwt]: success
+[2023-05-30 19:10:27] INFO root fetch - main [MainThread]: End processing [httpbinx]: success
+[2023-05-30 19:10:27] INFO root fetch - processPackages [taskcli]: executing diffoscope
+[2023-05-30 19:10:27] INFO root fetch - processPackages [taskcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskcli-0.0.6.tar.gz tmp/taskcli-0.0.7.tar.gz --markdown 20230530/t/taskcli/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-30 19:10:27] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
+[2023-05-30 19:10:27] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: executing diffoscope
+[2023-05-30 19:10:27] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-lambda-deno-0.0.98.tar.gz tmp/pepperize.cdk-lambda-deno-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-lambda-deno/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 19:10:27] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-05-30 19:10:27] INFO root fetch - main [MainThread]: End processing [brainsurf]: success
+[2023-05-30 19:10:28] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-05-30 19:10:28] INFO root fetch - main [MainThread]: End processing [taskcli]: success
+[2023-05-30 19:10:28] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-lambda-deno]: success
+[2023-05-30 19:10:29] INFO root fetch - main [MainThread]: End processing [romanisim]: success
+[2023-05-30 19:10:31] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-30 19:10:31] INFO root fetch - main [MainThread]: Store serial: [18305536]
