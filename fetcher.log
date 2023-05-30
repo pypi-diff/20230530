@@ -12033,3 +12033,135 @@
 [2023-05-30 14:04:17] INFO root fetch - main [MainThread]: End processing [mltlk]: success
 [2023-05-30 14:04:24] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-05-30 14:04:24] INFO root fetch - main [MainThread]: Store serial: [18301826]
+[2023-05-30 14:09:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18301826]
+[2023-05-30 14:09:33] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-30 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dia-adfpro
+[2023-05-30 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dxsp
+[2023-05-30 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feincms3-sites
+[2023-05-30 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazy-testdata
+[2023-05-30 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spectrum-fundamentals
+[2023-05-30 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lnschema_bionty
+[2023-05-30 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: salure-helpers-ftp
+[2023-05-30 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: onnx2kerastl
+[2023-05-30 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-dllib
+[2023-05-30 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Pytanggalmerah
+[2023-05-30 14:09:33] INFO root fetch - processPackages [dia-adfpro]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-30 14:09:33] INFO root fetch - processPackages [feincms3-sites]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-30 14:09:33] INFO root fetch - processPackages [spectrum-fundamentals]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-30 14:09:33] INFO root fetch - processPackages [dxsp]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-05-30 14:09:33] INFO root fetch - processPackages [salure-helpers-ftp]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-30 14:09:33] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-30 14:09:33] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230528]
+[2023-05-30 14:09:33] INFO root fetch - processPackages [Pytanggalmerah]: New version: [3.0.0] Old Version: [2.0.1]
+[2023-05-30 14:09:33] INFO root fetch - processPackages [lazy-testdata]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-30 14:09:33] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.95.dev1] Old Version: [0.0.95]
+[2023-05-30 14:09:34] INFO root fetch - processPackages [lazy-testdata]: executing diffoscope
+[2023-05-30 14:09:34] INFO root fetch - processPackages [lazy-testdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_testdata-1.1.8.tar.gz tmp/lazy_testdata-1.1.9.tar.gz --markdown 20230530/l/lazy-testdata/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-30 14:09:34] INFO root fetch - processPackages [feincms3-sites]: Downloading https://files.pythonhosted.org/packages/63/be/6c289303cebad60adedcdcb6cded87d340b7c55d29fe4eacb5f2c60856ea/feincms3-sites-0.8.1.tar.gz
+[2023-05-30 14:09:34] INFO root fetch - processPackages [salure-helpers-ftp]: Downloading https://files.pythonhosted.org/packages/af/4a/de5536adc00ac63359f6eff590719e8a7f3289c7e47fa27566f84418f23c/salure_helpers_ftp-1.5.0.tar.gz
+[2023-05-30 14:09:34] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/f3/76/b4324ee18a76024c21ef4d3916a85a1a419a0137a152bf022b7cc97f12ec/bigdl-dllib-2.4.0b20230528.tar.gz
+[2023-05-30 14:09:34] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/8b/ff/8c95a7810916c4a1caf7375255be8fdbab76e9ceccb9846643b36a63a0d6/onnx2kerastl-0.0.95.dev1.tar.gz
+[2023-05-30 14:09:34] INFO root fetch - processPackages [Pytanggalmerah]: Downloading https://files.pythonhosted.org/packages/83/cc/6b70238cfa89bb50af941747a239c2303f30dd7656d37b1b7eff464ad8be/Pytanggalmerah-2.0.1.tar.gz
+[2023-05-30 14:09:34] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53559891>=10485760
+[2023-05-30 14:09:34] INFO root fetch - processPackages [bigdl-dllib]: Start processing: bigdl-orca
+[2023-05-30 14:09:34] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-05-30 14:09:34] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230528]
+[2023-05-30 14:09:34] INFO root fetch - processPackages [spectrum-fundamentals]: Downloading https://files.pythonhosted.org/packages/67/41/cc841955ad1e95857b86399d4de917cbef6504ee37f12ba789df70c78950/spectrum_fundamentals-0.4.0.tar.gz
+[2023-05-30 14:09:34] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/e1/08/9ac2e8e24ad9bd7a897d6b34e4302be1fb0ea5153f840775c950ded20f1f/dxsp-2.6.1.tar.gz
+[2023-05-30 14:09:34] INFO root fetch - processPackages [dia-adfpro]: Downloading https://files.pythonhosted.org/packages/b2/1c/2053f730d478b0fcbaccae1a9e3dee3ac7f0dfc2274644647878adc80674/dia-adfpro-1.6.5.tar.gz
+[2023-05-30 14:09:34] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-30 14:09:34] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.6.0.tar.gz tmp/dxsp-2.6.1.tar.gz --markdown 20230530/d/dxsp/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-05-30 14:09:34] INFO root fetch - processPackages [salure-helpers-ftp]: executing diffoscope
+[2023-05-30 14:09:34] INFO root fetch - processPackages [salure-helpers-ftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_ftp-1.4.0.tar.gz tmp/salure_helpers_ftp-1.5.0.tar.gz --markdown 20230530/s/salure-helpers-ftp/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-30 14:09:34] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-05-30 14:09:34] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230530/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 14:09:34] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-05-30 14:09:34] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.95.tar.gz tmp/onnx2kerastl-0.0.95.dev1.tar.gz --markdown 20230530/o/onnx2kerastl/0.0.95-0.0.95.dev1/diff.md --exclude *.pyd
+[2023-05-30 14:09:34] INFO root fetch - processPackages [dia-adfpro]: executing diffoscope
+[2023-05-30 14:09:34] INFO root fetch - processPackages [dia-adfpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dia-adfpro-1.6.4.tar.gz tmp/dia-adfpro-1.6.5.tar.gz --markdown 20230530/d/dia-adfpro/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-30 14:09:34] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/86/fe/7040d23afb556fac48bc7583a189007b5e3563c42157558019b2e4145b86/bigdl_orca-2.4.0b20230528-py3-none-manylinux1_x86_64.whl
+[2023-05-30 14:09:34] INFO root fetch - processPackages [spectrum-fundamentals]: executing diffoscope
+[2023-05-30 14:09:34] INFO root fetch - processPackages [spectrum-fundamentals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrum_fundamentals-0.3.1.tar.gz tmp/spectrum_fundamentals-0.4.0.tar.gz --markdown 20230530/s/spectrum-fundamentals/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-30 14:09:34] INFO root fetch - processPackages [feincms3-sites]: Downloading https://files.pythonhosted.org/packages/b9/e2/14e9f00ad55277ffdf41a3890cb7cb5928fac0f70887bdb07551a3945803/feincms3-sites-0.9.0.tar.gz
+[2023-05-30 14:09:34] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369324>=10485760
+[2023-05-30 14:09:34] INFO root fetch - processPackages [bigdl-orca]: Start processing: torch-exid
+[2023-05-30 14:09:34] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-05-30 14:09:34] INFO root fetch - processPackages [Pytanggalmerah]: Downloading https://files.pythonhosted.org/packages/44/05/f9db25fffba058da2c8b5aa210159eca70a7f0906b8025ebcfe157e7c22e/Pytanggalmerah-3.0.0.tar.gz
+[2023-05-30 14:09:34] INFO root fetch - processPackages [torch-exid]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 14:09:34] INFO root fetch - processPackages [feincms3-sites]: executing diffoscope
+[2023-05-30 14:09:34] INFO root fetch - processPackages [feincms3-sites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feincms3-sites-0.8.1.tar.gz tmp/feincms3-sites-0.9.0.tar.gz --markdown 20230530/f/feincms3-sites/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 14:09:34] INFO root fetch - processPackages [Pytanggalmerah]: executing diffoscope
+[2023-05-30 14:09:34] INFO root fetch - processPackages [Pytanggalmerah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pytanggalmerah-2.0.1.tar.gz tmp/Pytanggalmerah-3.0.0.tar.gz --markdown 20230530/P/Pytanggalmerah/2.0.1-3.0.0/diff.md --exclude *.pyd
+[2023-05-30 14:09:34] INFO root fetch - processPackages [torch-exid]: Downloading https://files.pythonhosted.org/packages/d2/a5/85538f63dc975a444a1ff88d4b0577148b69003dea21094d1bb095b0ccfc/torch_exid-0.1.0.tar.gz
+[2023-05-30 14:09:34] INFO root fetch - processPackages [torch-exid]: Downloading https://files.pythonhosted.org/packages/f4/6e/a2d8993209dceee7c1a300201a4d9839ac307bdb4e487f2a74cddc9331e8/torch_exid-0.1.1.tar.gz
+[2023-05-30 14:09:35] INFO root fetch - processPackages [torch-exid]: executing diffoscope
+[2023-05-30 14:09:35] INFO root fetch - processPackages [torch-exid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_exid-0.1.0.tar.gz tmp/torch_exid-0.1.1.tar.gz --markdown 20230530/t/torch-exid/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 14:09:35] INFO root fetch - processPackages [lazy-testdata]: Start processing: bigdl-friesian
+[2023-05-30 14:09:35] INFO root fetch - main [MainThread]: End processing [lazy-testdata]: success
+[2023-05-30 14:09:35] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230528]
+[2023-05-30 14:09:35] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/fa/4c/b80db1ad2be946341215e49c4c7bf73634c8eabb4b581aec82ef650725f5/bigdl_friesian-2.4.0b20230530-py3-none-manylinux1_x86_64.whl
+[2023-05-30 14:09:35] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-05-30 14:09:35] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230528-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip --markdown 20230530/b/bigdl-friesian/2.4.0b20230528-2.4.0b20230530/diff.md --exclude *.pyd
+[2023-05-30 14:09:35] INFO root fetch - processPackages [dxsp]: Start processing: mo-threads
+[2023-05-30 14:09:35] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-30 14:09:36] INFO root fetch - processPackages [salure-helpers-ftp]: Start processing: optscale-arcee
+[2023-05-30 14:09:36] INFO root fetch - main [MainThread]: End processing [salure-helpers-ftp]: success
+[2023-05-30 14:09:36] INFO root fetch - processPackages [mo-threads]: New version: [5.53.21241] Old Version: [5.405.23150]
+[2023-05-30 14:09:36] INFO root fetch - processPackages [optscale-arcee]: New version: [0.1.34] Old Version: [0.1.30]
+[2023-05-30 14:09:36] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/07/dd/167503a7c795117bde6ac2e43fc6bfed5998af4c96e0b424845fc50af6f3/mo_threads-5.405.23150-py2.py3-none-any.whl
+[2023-05-30 14:09:36] INFO root fetch - processPackages [optscale-arcee]: Downloading https://files.pythonhosted.org/packages/cd/2a/cefb388b86d9a0780ba8cdd4e26388227e5ce0b00f403d57c5a5f1282c8e/optscale_arcee-0.1.30.tar.gz
+[2023-05-30 14:09:36] INFO root fetch - processPackages [lnschema_bionty]: Start processing: bigdl
+[2023-05-30 14:09:36] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-05-30 14:09:36] INFO root fetch - processPackages [onnx2kerastl]: Start processing: teststack
+[2023-05-30 14:09:36] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-05-30 14:09:36] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/42/9d/de356c2c8539c56dda084e897ea07d5f2553c6ff16ac6252cd6047268782/mo-threads-5.53.21241.tar.gz
+[2023-05-30 14:09:36] INFO root fetch - processPackages [dia-adfpro]: Start processing: bigdl-dllib-spark2
+[2023-05-30 14:09:36] INFO root fetch - main [MainThread]: End processing [dia-adfpro]: success
+[2023-05-30 14:09:36] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230528]
+[2023-05-30 14:09:36] INFO root fetch - processPackages [optscale-arcee]: Downloading https://files.pythonhosted.org/packages/70/ab/7b8a22f4c4a66d14c8f567b641dee849971a565a664875d8db3ca1feaaaf/optscale_arcee-0.1.34.tar.gz
+[2023-05-30 14:09:36] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230528] Old Version: [2.4.0b20230527]
+[2023-05-30 14:09:36] INFO root fetch - processPackages [teststack]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-05-30 14:09:36] INFO root fetch - processPackages [optscale-arcee]: executing diffoscope
+[2023-05-30 14:09:36] INFO root fetch - processPackages [optscale-arcee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optscale_arcee-0.1.30.tar.gz tmp/optscale_arcee-0.1.34.tar.gz --markdown 20230530/o/optscale-arcee/0.1.30-0.1.34/diff.md --exclude *.pyd
+[2023-05-30 14:09:36] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/13/88/a21688f7c7476b9775f429debb36ef2f62fb4f66a3b0c0d9b63d1125d82d/bigdl-dllib-spark2-2.4.0b20230527.tar.gz
+[2023-05-30 14:09:36] INFO root fetch - processPackages [teststack]: Downloading https://files.pythonhosted.org/packages/3b/bc/93c24a3bf8b464893272b77cc062260082e90d559bc4035b0c17f472f687/teststack-0.8.5.tar.gz
+[2023-05-30 14:09:36] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53560815>=10485760
+[2023-05-30 14:09:36] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: mo-files
+[2023-05-30 14:09:36] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-05-30 14:09:36] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/8e/2f/8f85f22e3f77556ce0916d38bd5225fa65814ee98b010018580147116c65/bigdl-2.4.0b20230530-py3-none-manylinux1_x86_64.whl
+[2023-05-30 14:09:36] INFO root fetch - processPackages [spectrum-fundamentals]: Start processing: torch-exid
+[2023-05-30 14:09:36] INFO root fetch - main [MainThread]: End processing [spectrum-fundamentals]: success
+[2023-05-30 14:09:36] INFO root fetch - processPackages [mo-files]: New version: [6.405.23150] Old Version: [6.385.23129]
+[2023-05-30 14:09:36] INFO root fetch - processPackages [torch-exid]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 14:09:36] INFO root fetch - processPackages [Pytanggalmerah]: Start processing: cradmin-legacy
+[2023-05-30 14:09:36] INFO root fetch - main [MainThread]: End processing [Pytanggalmerah]: success
+[2023-05-30 14:09:37] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-05-30 14:09:37] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230528-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip --markdown 20230530/b/bigdl/2.4.0b20230528-2.4.0b20230530/diff.md --exclude *.pyd
+[2023-05-30 14:09:37] INFO root fetch - main [MainThread]: End processing [torch-exid]: success
+[2023-05-30 14:09:37] INFO root fetch - main [MainThread]: End processing [feincms3-sites]: success
+[2023-05-30 14:09:37] INFO root fetch - processPackages [cradmin-legacy]: New version: [5.0.0b0] Old Version: [4.1.2]
+[2023-05-30 14:09:37] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/21/6b/5b30c4181ac72c30ab68e34ff6821836649eed69f6d207326fc59218d15c/mo_files-6.385.23129-py2.py3-none-any.whl
+[2023-05-30 14:09:37] INFO root fetch - processPackages [torch-exid]: Downloading https://files.pythonhosted.org/packages/90/e7/97713d287b51a9850cc08ce1a814b78f84d2f9d608d08c4564627b2fdd89/torch_exid-0.1.2.tar.gz
+[2023-05-30 14:09:37] INFO root fetch - processPackages [mo-threads]: executing diffoscope
+[2023-05-30 14:09:37] INFO root fetch - processPackages [mo-threads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_threads-5.405.23150-py2.py3-none-any.whl.zip tmp/mo-threads-5.53.21241.tar.gz --markdown 20230530/m/mo-threads/5.405.23150-5.53.21241/diff.md --exclude *.pyd
+[2023-05-30 14:09:37] INFO root fetch - processPackages [cradmin-legacy]: Downloading https://files.pythonhosted.org/packages/41/ec/e1ccee3a1e3fb610a48187de06fbc7bc22fbcc0427d2f9b2ceb86013ec86/cradmin-legacy-4.1.2.tar.gz
+[2023-05-30 14:09:37] INFO root fetch - processPackages [torch-exid]: executing diffoscope
+[2023-05-30 14:09:37] INFO root fetch - processPackages [torch-exid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_exid-0.1.1.tar.gz tmp/torch_exid-0.1.2.tar.gz --markdown 20230530/t/torch-exid/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 14:09:37] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/80/c5/495ddc7c675602252ee0f9a08d8255932bd865cc67e5d2e258e33a2da455/mo_files-6.405.23150-py2.py3-none-any.whl
+[2023-05-30 14:09:37] INFO root fetch - processPackages [teststack]: Downloading https://files.pythonhosted.org/packages/9e/5c/43a175b8e2e8a54d13b2fd9fe378d57772e63d0459753bd728e514fa89a9/teststack-0.9.0.tar.gz
+[2023-05-30 14:09:37] INFO root fetch - processPackages [cradmin-legacy]: Downloading https://files.pythonhosted.org/packages/9e/35/ec2041147b2f5930454a41a666bd31cc39661608bfac1ed322d1307d0eaa/cradmin_legacy-5.0.0b0.tar.gz
+[2023-05-30 14:09:37] INFO root fetch - processPackages [mo-files]: executing diffoscope
+[2023-05-30 14:09:37] INFO root fetch - processPackages [mo-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_files-6.385.23129-py2.py3-none-any.whl.zip tmp/mo_files-6.405.23150-py2.py3-none-any.whl.zip --markdown 20230530/m/mo-files/6.385.23129-6.405.23150/diff.md --exclude *.pyd
+[2023-05-30 14:09:37] INFO root fetch - processPackages [teststack]: executing diffoscope
+[2023-05-30 14:09:37] INFO root fetch - processPackages [teststack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teststack-0.8.5.tar.gz tmp/teststack-0.9.0.tar.gz --markdown 20230530/t/teststack/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 14:09:38] INFO root fetch - processPackages [cradmin-legacy]: executing diffoscope
+[2023-05-30 14:09:38] INFO root fetch - processPackages [cradmin-legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cradmin-legacy-4.1.2.tar.gz tmp/cradmin_legacy-5.0.0b0.tar.gz --markdown 20230530/c/cradmin-legacy/4.1.2-5.0.0b0/diff.md --exclude *.pyd
+[2023-05-30 14:09:38] INFO root fetch - main [MainThread]: End processing [optscale-arcee]: success
+[2023-05-30 14:09:38] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-05-30 14:09:38] INFO root fetch - main [MainThread]: End processing [mo-threads]: success
+[2023-05-30 14:09:38] INFO root fetch - main [MainThread]: End processing [torch-exid]: success
+[2023-05-30 14:09:39] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-05-30 14:09:39] INFO root fetch - main [MainThread]: End processing [mo-files]: success
+[2023-05-30 14:09:39] INFO root fetch - main [MainThread]: End processing [teststack]: success
+[2023-05-30 14:09:44] INFO root fetch - main [MainThread]: End processing [cradmin-legacy]: success
+[2023-05-30 14:09:44] INFO root fetch - main [MainThread]: Store serial: [18301925]
