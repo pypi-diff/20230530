@@ -9571,3 +9571,60 @@
 [2023-05-30 11:50:53] INFO root fetch - main [MainThread]: End processing [pymc]: success
 [2023-05-30 11:50:53] INFO root fetch - main [MainThread]: End processing [lavaplayer]: success
 [2023-05-30 11:50:53] INFO root fetch - main [MainThread]: Store serial: [18300215]
+[2023-05-30 11:55:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18300215]
+[2023-05-30 11:56:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-30 11:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-snippets
+[2023-05-30 11:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangocms-alias
+[2023-05-30 11:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qlapi
+[2023-05-30 11:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iydon
+[2023-05-30 11:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unified-planning
+[2023-05-30 11:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yz-core2
+[2023-05-30 11:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Pandora-ChatGPT
+[2023-05-30 11:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zensvi
+[2023-05-30 11:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wedge-lib
+[2023-05-30 11:56:02] INFO root fetch - processPackages [iydon]: New version: [2023.4] Old Version: [2023.3.2]
+[2023-05-30 11:56:02] WARNING root fetch - processPackages [djangocms-alias]: Skipping, unable to determine old version
+[2023-05-30 11:56:02] INFO root fetch - main [MainThread]: End processing [djangocms-alias] error
+[2023-05-30 11:56:02] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.9.dev1] Old Version: [0.6.0.89.dev1]
+[2023-05-30 11:56:02] INFO root fetch - processPackages [torch-snippets]: New version: [0.499.9] Old Version: [0.499.8]
+[2023-05-30 11:56:02] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-30 11:56:02] INFO root fetch - processPackages [qlapi]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-30 11:56:02] INFO root fetch - processPackages [yz-core2]: New version: [1.0.53] Old Version: [1.0.52]
+[2023-05-30 11:56:02] INFO root fetch - processPackages [wedge-lib]: New version: [3.1.0] Old Version: [3.0.9]
+[2023-05-30 11:56:02] INFO root fetch - processPackages [zensvi]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-30 11:56:02] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-05-30 11:56:02] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.1.8.tar.gz tmp/Pandora-ChatGPT-1.1.9.tar.gz --markdown 20230530/P/Pandora-ChatGPT/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-30 11:56:02] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/16/e7/d57e96fac1c8d9184ce55d5e51e55dd4ce42e3f731b185961c3be1efff03/unified_planning-0.6.0.89.dev1.tar.gz
+[2023-05-30 11:56:02] INFO root fetch - processPackages [iydon]: Downloading https://files.pythonhosted.org/packages/32/8b/e193c3a0ae661e8062c6b68e0444f65ed1b09b65c827b8b662fee30a47eb/iydon-2023.4.tar.gz
+[2023-05-30 11:56:03] INFO root fetch - processPackages [qlapi]: Downloading https://files.pythonhosted.org/packages/46/62/6782f13552c82be7bc0f15bed731202a82972c10f203de353c325b7cc962/qlapi-0.1.4.tar.gz
+[2023-05-30 11:56:03] INFO root fetch - processPackages [torch-snippets]: Downloading https://files.pythonhosted.org/packages/a5/fa/ee158557aa83479dc9a248a64683b80d733081a215506ed081276be54ffb/torch_snippets-0.499.8.tar.gz
+[2023-05-30 11:56:03] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/66/84/c393edefa9c0a62f10b20b5f84dd99329ed0ee837b984545c5a27605ccf5/yz-core2-1.0.52.tar.gz
+[2023-05-30 11:56:03] INFO root fetch - processPackages [wedge-lib]: Downloading https://files.pythonhosted.org/packages/fc/2f/313a48b7a9fbb1c6e74c81f7f689a2ea0bccb23f537c49d27977633b16f2/wedge-lib-3.0.9.tar.gz
+[2023-05-30 11:56:03] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/ec/84/1e423a7e729a25cc7a605158687bbe7dcb87d4bb8b17d2b23078f543c730/zensvi-0.3.3.tar.gz
+[2023-05-30 11:56:03] INFO root fetch - processPackages [iydon]: executing diffoscope
+[2023-05-30 11:56:03] INFO root fetch - processPackages [iydon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iydon-2023.3.2.tar.gz tmp/iydon-2023.4.tar.gz --markdown 20230530/i/iydon/2023.3.2-2023.4/diff.md --exclude *.pyd
+[2023-05-30 11:56:03] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-05-30 11:56:03] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.3.2.tar.gz tmp/zensvi-0.3.3.tar.gz --markdown 20230530/z/zensvi/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-30 11:56:03] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-05-30 11:56:03] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.89.dev1.tar.gz tmp/unified_planning-0.6.0.9.dev1.tar.gz --markdown 20230530/u/unified-planning/0.6.0.89.dev1-0.6.0.9.dev1/diff.md --exclude *.pyd
+[2023-05-30 11:56:03] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/34/47/7fce2005479a972550dc8e82fa7af8fcf446600be6810a60c3d4516b89df/yz-core2-1.0.53.tar.gz
+[2023-05-30 11:56:03] INFO root fetch - processPackages [yz-core2]: executing diffoscope
+[2023-05-30 11:56:03] INFO root fetch - processPackages [yz-core2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yz-core2-1.0.52.tar.gz tmp/yz-core2-1.0.53.tar.gz --markdown 20230530/y/yz-core2/1.0.52-1.0.53/diff.md --exclude *.pyd
+[2023-05-30 11:56:03] INFO root fetch - processPackages [qlapi]: Downloading https://files.pythonhosted.org/packages/3c/30/a072d67b1723b028f356b0c244c22bef8bbdcb50814881b5da647c854f8b/qlapi-0.1.5.tar.gz
+[2023-05-30 11:56:03] INFO root fetch - processPackages [wedge-lib]: Downloading https://files.pythonhosted.org/packages/b5/b1/8ff60db3bed8c107615c0076b3c1443955095e044c5570b83fb65e1fc59c/wedge-lib-3.1.0.tar.gz
+[2023-05-30 11:56:03] INFO root fetch - processPackages [torch-snippets]: Downloading https://files.pythonhosted.org/packages/53/8e/c6a2edb0216a6a491a72807653642ab418c51adaceba7c808afd9be35aa9/torch_snippets-0.499.9.tar.gz
+[2023-05-30 11:56:03] INFO root fetch - processPackages [wedge-lib]: executing diffoscope
+[2023-05-30 11:56:03] INFO root fetch - processPackages [wedge-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wedge-lib-3.0.9.tar.gz tmp/wedge-lib-3.1.0.tar.gz --markdown 20230530/w/wedge-lib/3.0.9-3.1.0/diff.md --exclude *.pyd
+[2023-05-30 11:56:03] INFO root fetch - processPackages [qlapi]: executing diffoscope
+[2023-05-30 11:56:03] INFO root fetch - processPackages [qlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlapi-0.1.4.tar.gz tmp/qlapi-0.1.5.tar.gz --markdown 20230530/q/qlapi/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-30 11:56:03] INFO root fetch - processPackages [torch-snippets]: executing diffoscope
+[2023-05-30 11:56:03] INFO root fetch - processPackages [torch-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_snippets-0.499.8.tar.gz tmp/torch_snippets-0.499.9.tar.gz --markdown 20230530/t/torch-snippets/0.499.8-0.499.9/diff.md --exclude *.pyd
+[2023-05-30 11:56:04] INFO root fetch - main [MainThread]: End processing [iydon]: success
+[2023-05-30 11:56:04] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-05-30 11:56:04] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-05-30 11:56:05] INFO root fetch - main [MainThread]: End processing [torch-snippets]: success
+[2023-05-30 11:56:06] INFO root fetch - main [MainThread]: End processing [yz-core2]: success
+[2023-05-30 11:56:07] INFO root fetch - main [MainThread]: End processing [wedge-lib]: success
+[2023-05-30 11:56:09] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-05-30 11:56:13] INFO root fetch - main [MainThread]: End processing [qlapi]: success
+[2023-05-30 11:56:13] INFO root fetch - main [MainThread]: Store serial: [18300250]
