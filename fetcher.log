@@ -14103,3 +14103,151 @@
 [2023-05-30 15:51:38] INFO root fetch - main [MainThread]: End processing [duckduckgo-search]: success
 [2023-05-30 15:51:47] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-30 15:51:47] INFO root fetch - main [MainThread]: Store serial: [18303078]
+[2023-05-30 15:56:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18303078]
+[2023-05-30 15:56:56] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-30 15:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unstructured
+[2023-05-30 15:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyradise
+[2023-05-30 15:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aesedb
+[2023-05-30 15:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: formio-data
+[2023-05-30 15:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyread-eagle
+[2023-05-30 15:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: configzen
+[2023-05-30 15:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: formio-data
+[2023-05-30 15:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Extractable
+[2023-05-30 15:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pylint-nautobot
+[2023-05-30 15:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mitol-django-google-sheets-deferrals
+[2023-05-30 15:56:56] INFO root fetch - processPackages [unstructured]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-30 15:56:56] INFO root fetch - processPackages [pyread-eagle]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-30 15:56:56] WARNING root fetch - processPackages [Extractable]: Skipping, unable to determine old version
+[2023-05-30 15:56:56] INFO root fetch - processPackages [configzen]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-30 15:56:56] INFO root fetch - processPackages [Extractable]: Start processing: thoughtful
+[2023-05-30 15:56:56] INFO root fetch - main [MainThread]: End processing [Extractable] error
+[2023-05-30 15:56:56] INFO root fetch - processPackages [formio-data]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-05-30 15:56:56] INFO root fetch - processPackages [aesedb]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 15:56:56] INFO root fetch - processPackages [mitol-django-google-sheets-deferrals]: New version: [2023.5.30] Old Version: [2023.5.25]
+[2023-05-30 15:56:56] INFO root fetch - processPackages [formio-data]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-05-30 15:56:56] INFO root fetch - processPackages [pyradise]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-30 15:56:56] INFO root fetch - processPackages [thoughtful]: New version: [2.0.0rc1] Old Version: [2.0.0rc0]
+[2023-05-30 15:56:56] ERROR root fetch - processPackages [pylint-nautobot]: Unable to get metadata: No such project 'pylint-nautobot'
+[2023-05-30 15:56:56] INFO root fetch - processPackages [pylint-nautobot]: Start processing: peewee-migrate
+[2023-05-30 15:56:56] INFO root fetch - main [MainThread]: End processing [pylint-nautobot] error
+[2023-05-30 15:56:56] INFO root fetch - processPackages [peewee-migrate]: New version: [1.8.0] Old Version: [1.7.9]
+[2023-05-30 15:56:56] INFO root fetch - processPackages [pyradise]: Downloading https://files.pythonhosted.org/packages/a4/aa/015b1cc59da9cb98114ebc8faa86a66a40a6ef4e464f031d813d164a7b4d/pyradise-0.2.2.tar.gz
+[2023-05-30 15:56:56] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/d4/24/f8b0d0555345fff05a87bf32547d78c53160f5f16d1b9a1d9139dc57db95/configzen-0.2.1.tar.gz
+[2023-05-30 15:56:56] INFO root fetch - processPackages [formio-data]: Downloading https://files.pythonhosted.org/packages/43/96/20c261d545290122e51d9aa310dbaebca2d224c9459322254e7d8ac7fc54/formio-data-0.5.0.tar.gz
+[2023-05-30 15:56:56] INFO root fetch - processPackages [pyread-eagle]: Downloading https://files.pythonhosted.org/packages/d2/1f/fa6e669134db0c0ffa7421efacf8de143ffa27df60d0f54433e5d47c2ba6/pyread_eagle-1.0.2.tar.gz
+[2023-05-30 15:56:56] INFO root fetch - processPackages [formio-data]: Downloading https://files.pythonhosted.org/packages/43/96/20c261d545290122e51d9aa310dbaebca2d224c9459322254e7d8ac7fc54/formio-data-0.5.0.tar.gz
+[2023-05-30 15:56:56] INFO root fetch - processPackages [aesedb]: Downloading https://files.pythonhosted.org/packages/51/90/c1f992019ea127d5177eee35195c2e05275b619bbc43d9b50b3d4de6b68e/aesedb-0.1.3-py3-none-any.whl
+[2023-05-30 15:56:56] INFO root fetch - processPackages [peewee-migrate]: Downloading https://files.pythonhosted.org/packages/b2/e3/33d78b4da43916c2f8b6040af88e380ad40c1d0ad2b4059a6270b00e7a55/peewee_migrate-1.8.0.tar.gz
+[2023-05-30 15:56:56] INFO root fetch - processPackages [formio-data]: executing diffoscope
+[2023-05-30 15:56:56] INFO root fetch - processPackages [formio-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formio-data-0.4.9.tar.gz tmp/formio-data-0.5.0.tar.gz --markdown 20230530/f/formio-data/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-05-30 15:56:56] INFO root fetch - processPackages [mitol-django-google-sheets-deferrals]: Downloading https://files.pythonhosted.org/packages/73/31/9d28a0853bc795aadeb470da6e6b0a69b5830d890891878254628fa1a56b/mitol-django-google-sheets-deferrals-2023.5.30.tar.gz
+[2023-05-30 15:56:56] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-05-30 15:56:56] INFO root fetch - processPackages [formio-data]: executing diffoscope
+[2023-05-30 15:56:56] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.2.0.tar.gz tmp/configzen-0.2.1.tar.gz --markdown 20230530/c/configzen/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-30 15:56:56] INFO root fetch - processPackages [formio-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formio-data-0.4.9.tar.gz tmp/formio-data-0.5.0.tar.gz --markdown 20230530/f/formio-data/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-05-30 15:56:56] INFO root fetch - processPackages [thoughtful]: Downloading https://files.pythonhosted.org/packages/f0/b8/0f67aaf90a8192dc25cd066e317a5306ee68b1d4efc5c32220da6f50b522/thoughtful-2.0.0rc1.tar.gz
+[2023-05-30 15:56:56] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2023-05-30 15:56:56] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.6.8.tar.gz tmp/unstructured-0.6.9.tar.gz --markdown 20230530/u/unstructured/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-30 15:56:56] INFO root fetch - processPackages [peewee-migrate]: executing diffoscope
+[2023-05-30 15:56:56] INFO root fetch - processPackages [peewee-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee_migrate-1.7.9.tar.gz tmp/peewee_migrate-1.8.0.tar.gz --markdown 20230530/p/peewee-migrate/1.7.9-1.8.0/diff.md --exclude *.pyd
+[2023-05-30 15:56:56] INFO root fetch - processPackages [pyread-eagle]: Downloading https://files.pythonhosted.org/packages/d5/49/0e11cbb17aa2d13d29128af91a99fee7fed1ed2026e1bbf525ffdd01c0fb/pyread_eagle-1.0.3.tar.gz
+[2023-05-30 15:56:56] INFO root fetch - processPackages [aesedb]: Downloading https://files.pythonhosted.org/packages/21/8f/058eaad6c4068ee5e7168963e120138747229848576a9bf853b40069a531/aesedb-0.1.4-py3-none-any.whl
+[2023-05-30 15:56:56] INFO root fetch - processPackages [mitol-django-google-sheets-deferrals]: executing diffoscope
+[2023-05-30 15:56:56] INFO root fetch - processPackages [mitol-django-google-sheets-deferrals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitol-django-google-sheets-deferrals-2023.5.25.tar.gz tmp/mitol-django-google-sheets-deferrals-2023.5.30.tar.gz --markdown 20230530/m/mitol-django-google-sheets-deferrals/2023.5.25-2023.5.30/diff.md --exclude *.pyd
+[2023-05-30 15:56:56] INFO root fetch - processPackages [thoughtful]: executing diffoscope
+[2023-05-30 15:56:56] INFO root fetch - processPackages [thoughtful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thoughtful-2.0.0rc0.tar.gz tmp/thoughtful-2.0.0rc1.tar.gz --markdown 20230530/t/thoughtful/2.0.0rc0-2.0.0rc1/diff.md --exclude *.pyd
+[2023-05-30 15:56:56] INFO root fetch - processPackages [pyradise]: Downloading https://files.pythonhosted.org/packages/02/7b/c75591e2bc85e9e67cdcfa9d5346c26bb41c99155d6a119830d31a742e8e/pyradise-0.2.3.tar.gz
+[2023-05-30 15:56:56] INFO root fetch - processPackages [pyread-eagle]: executing diffoscope
+[2023-05-30 15:56:56] INFO root fetch - processPackages [pyread-eagle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyread_eagle-1.0.2.tar.gz tmp/pyread_eagle-1.0.3.tar.gz --markdown 20230530/p/pyread-eagle/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-30 15:56:56] INFO root fetch - processPackages [aesedb]: executing diffoscope
+[2023-05-30 15:56:56] INFO root fetch - processPackages [aesedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aesedb-0.1.3-py3-none-any.whl.zip tmp/aesedb-0.1.4-py3-none-any.whl.zip --markdown 20230530/a/aesedb/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 15:56:56] INFO root fetch - processPackages [pyradise]: executing diffoscope
+[2023-05-30 15:56:56] INFO root fetch - processPackages [pyradise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyradise-0.2.2.tar.gz tmp/pyradise-0.2.3.tar.gz --markdown 20230530/p/pyradise/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-30 15:56:58] INFO root fetch - processPackages [formio-data]: Start processing: dfmodule-test
+[2023-05-30 15:56:58] INFO root fetch - main [MainThread]: End processing [formio-data]: success
+[2023-05-30 15:56:58] WARNING root fetch - processPackages [dfmodule-test]: Skipping, unable to determine old version
+[2023-05-30 15:56:58] INFO root fetch - processPackages [dfmodule-test]: Start processing: yeref
+[2023-05-30 15:56:58] INFO root fetch - main [MainThread]: End processing [dfmodule-test] error
+[2023-05-30 15:56:58] INFO root fetch - processPackages [yeref]: New version: [0.1.70] Old Version: [0.1.69]
+[2023-05-30 15:56:58] INFO root fetch - processPackages [configzen]: Start processing: ckanext-search-tweaks
+[2023-05-30 15:56:58] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-05-30 15:56:58] INFO root fetch - processPackages [ckanext-search-tweaks]: New version: [0.5.0] Old Version: [0.4.12]
+[2023-05-30 15:56:58] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/87/6c/3f36869a4cc2e7255abeb5c82ecfd6be299166ca82aafb8e57ea57149b60/yeref-0.1.70.tar.gz
+[2023-05-30 15:56:58] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-05-30 15:56:58] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.69.tar.gz tmp/yeref-0.1.70.tar.gz --markdown 20230530/y/yeref/0.1.69-0.1.70/diff.md --exclude *.pyd
+[2023-05-30 15:56:58] INFO root fetch - processPackages [ckanext-search-tweaks]: Downloading https://files.pythonhosted.org/packages/07/54/56298903676bddcc225126efcb6457c0b885a181a62f515d6a28fec5f769/ckanext-search-tweaks-0.4.12.tar.gz
+[2023-05-30 15:56:58] INFO root fetch - processPackages [ckanext-search-tweaks]: Downloading https://files.pythonhosted.org/packages/4b/34/2f77f0c3ce888cb9b22c2271b33c486a4cd59c4073d21b6e78d6170d4831/ckanext-search-tweaks-0.5.0.tar.gz
+[2023-05-30 15:56:58] INFO root fetch - processPackages [formio-data]: Start processing: django-wikidata-api
+[2023-05-30 15:56:58] INFO root fetch - main [MainThread]: End processing [formio-data]: success
+[2023-05-30 15:56:58] INFO root fetch - processPackages [ckanext-search-tweaks]: executing diffoscope
+[2023-05-30 15:56:58] INFO root fetch - processPackages [ckanext-search-tweaks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-search-tweaks-0.4.12.tar.gz tmp/ckanext-search-tweaks-0.5.0.tar.gz --markdown 20230530/c/ckanext-search-tweaks/0.4.12-0.5.0/diff.md --exclude *.pyd
+[2023-05-30 15:56:58] INFO root fetch - processPackages [django-wikidata-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 15:56:59] INFO root fetch - processPackages [pyread-eagle]: Start processing: nn-tilde
+[2023-05-30 15:56:59] INFO root fetch - main [MainThread]: End processing [pyread-eagle]: success
+[2023-05-30 15:56:59] INFO root fetch - processPackages [nn-tilde]: New version: [1.5.1] Old Version: [1.3.4]
+[2023-05-30 15:56:59] INFO root fetch - processPackages [django-wikidata-api]: executing diffoscope
+[2023-05-30 15:56:59] INFO root fetch - processPackages [django-wikidata-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-wikidata-api-0.0.8.tar.gz tmp/django-wikidata-api-0.0.9.tar.gz --markdown 20230530/d/django-wikidata-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 15:56:59] INFO root fetch - processPackages [peewee-migrate]: Start processing: drakaina
+[2023-05-30 15:56:59] INFO root fetch - main [MainThread]: End processing [peewee-migrate]: success
+[2023-05-30 15:56:59] INFO root fetch - processPackages [drakaina]: New version: [0.7.0b4] Old Version: [0.7.0b3]
+[2023-05-30 15:56:59] INFO root fetch - processPackages [nn-tilde]: Downloading https://files.pythonhosted.org/packages/1d/77/0373a140ff363e7eec6913fe98fafd31cd25e6bdd04c02481710c32aa7ab/nn_tilde-1.3.4-py3-none-any.whl
+[2023-05-30 15:56:59] INFO root fetch - processPackages [drakaina]: Downloading https://files.pythonhosted.org/packages/e5/13/ed98416b3fc406f45eabfb8467c7c4f8f5fbd53e6e294dab9d2694a8dd34/drakaina-0.7.0b4.tar.gz
+[2023-05-30 15:56:59] INFO root fetch - processPackages [mitol-django-google-sheets-deferrals]: Start processing: otools-rpc
+[2023-05-30 15:56:59] INFO root fetch - main [MainThread]: End processing [mitol-django-google-sheets-deferrals]: success
+[2023-05-30 15:56:59] INFO root fetch - processPackages [aesedb]: Start processing: edan
+[2023-05-30 15:56:59] INFO root fetch - main [MainThread]: End processing [aesedb]: success
+[2023-05-30 15:56:59] INFO root fetch - processPackages [otools-rpc]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-05-30 15:56:59] WARNING root fetch - processPackages [edan]: Skipping, unable to determine old version
+[2023-05-30 15:56:59] INFO root fetch - processPackages [edan]: Start processing: specmatic
+[2023-05-30 15:56:59] INFO root fetch - main [MainThread]: End processing [edan] error
+[2023-05-30 15:56:59] INFO root fetch - processPackages [unstructured]: Start processing: sgx-pck-extension
+[2023-05-30 15:56:59] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2023-05-30 15:56:59] INFO root fetch - processPackages [specmatic]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-05-30 15:56:59] INFO root fetch - processPackages [sgx-pck-extension]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 15:56:59] INFO root fetch - processPackages [nn-tilde]: Downloading https://files.pythonhosted.org/packages/ae/d6/54c7c14fec6b13308d8ecd0fe7406d2271f2699c5b762ed4f165beb5598c/nn_tilde-1.5.1.tar.gz
+[2023-05-30 15:56:59] INFO root fetch - processPackages [drakaina]: executing diffoscope
+[2023-05-30 15:56:59] INFO root fetch - processPackages [drakaina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drakaina-0.7.0b3.tar.gz tmp/drakaina-0.7.0b4.tar.gz --markdown 20230530/d/drakaina/0.7.0b3-0.7.0b4/diff.md --exclude *.pyd
+[2023-05-30 15:56:59] INFO root fetch - processPackages [thoughtful]: Start processing: thipster
+[2023-05-30 15:56:59] INFO root fetch - main [MainThread]: End processing [thoughtful]: success
+[2023-05-30 15:56:59] INFO root fetch - processPackages [thipster]: New version: [0.13.0] Old Version: [0.12.2]
+[2023-05-30 15:56:59] INFO root fetch - processPackages [nn-tilde]: executing diffoscope
+[2023-05-30 15:56:59] INFO root fetch - processPackages [nn-tilde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nn_tilde-1.3.4-py3-none-any.whl.zip tmp/nn_tilde-1.5.1.tar.gz --markdown 20230530/n/nn-tilde/1.3.4-1.5.1/diff.md --exclude *.pyd
+[2023-05-30 15:56:59] INFO root fetch - processPackages [otools-rpc]: Downloading https://files.pythonhosted.org/packages/b4/4e/bfbd6fcf98c105e9cd30c53999154132f3c24c6646acaa40a70a39b08c79/otools-rpc-0.2.7.tar.gz
+[2023-05-30 15:56:59] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/99/8a/7aed4f14c6262f5767866a7925d50a8f717d32610bbac8b97ce085de0259/thipster-0.12.2.tar.gz
+[2023-05-30 15:56:59] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/c4/0e/2a5b5114e24643865a19c04d5ead0f796d71cb61ea42889cb46fa57fac84/specmatic-0.7.6.tar.gz
+[2023-05-30 15:56:59] INFO root fetch - processPackages [sgx-pck-extension]: Downloading https://files.pythonhosted.org/packages/34/9a/e6f6a4548e68221bd1848faac3b4deb667c641ddb1487a5ef2858b11b0e0/sgx_pck_extension-0.1.4.tar.gz
+[2023-05-30 15:56:59] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 79090164>=10485760
+[2023-05-30 15:56:59] INFO root fetch - processPackages [specmatic]: Start processing: thipster
+[2023-05-30 15:56:59] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2023-05-30 15:56:59] INFO root fetch - processPackages [thipster]: New version: [0.13.0] Old Version: [0.12.2]
+[2023-05-30 15:56:59] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/99/8a/7aed4f14c6262f5767866a7925d50a8f717d32610bbac8b97ce085de0259/thipster-0.12.2.tar.gz
+[2023-05-30 15:56:59] INFO root fetch - processPackages [otools-rpc]: Downloading https://files.pythonhosted.org/packages/83/5d/1df4d9fd1462e37dc35a65bc8a599a6b7b2621a936a4fdb120def4583ba2/otools-rpc-0.3.0.tar.gz
+[2023-05-30 15:56:59] INFO root fetch - processPackages [sgx-pck-extension]: executing diffoscope
+[2023-05-30 15:56:59] INFO root fetch - processPackages [sgx-pck-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgx_pck_extension-0.1.3.tar.gz tmp/sgx_pck_extension-0.1.4.tar.gz --markdown 20230530/s/sgx-pck-extension/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 15:56:59] INFO root fetch - processPackages [pyradise]: Start processing: mainnet
+[2023-05-30 15:56:59] INFO root fetch - main [MainThread]: End processing [pyradise]: success
+[2023-05-30 15:56:59] INFO root fetch - processPackages [mainnet]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-30 15:56:59] INFO root fetch - processPackages [otools-rpc]: executing diffoscope
+[2023-05-30 15:56:59] INFO root fetch - processPackages [otools-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otools-rpc-0.2.7.tar.gz tmp/otools-rpc-0.3.0.tar.gz --markdown 20230530/o/otools-rpc/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 15:57:00] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-05-30 15:57:00] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.8.tar.gz tmp/mainnet-1.1.9.tar.gz --markdown 20230530/m/mainnet/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-30 15:57:00] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/63/ee/d94de9ae49c3746e54652845f1909387820e3853f885f5d36b6ff5677374/thipster-0.13.0.tar.gz
+[2023-05-30 15:57:00] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/63/ee/d94de9ae49c3746e54652845f1909387820e3853f885f5d36b6ff5677374/thipster-0.13.0.tar.gz
+[2023-05-30 15:57:00] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-05-30 15:57:00] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.12.2.tar.gz tmp/thipster-0.13.0.tar.gz --markdown 20230530/t/thipster/0.12.2-0.13.0/diff.md --exclude *.pyd
+[2023-05-30 15:57:00] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-05-30 15:57:00] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.12.2.tar.gz tmp/thipster-0.13.0.tar.gz --markdown 20230530/t/thipster/0.12.2-0.13.0/diff.md --exclude *.pyd
+[2023-05-30 15:57:00] INFO root fetch - processPackages [yeref]: Start processing: defillama3
+[2023-05-30 15:57:00] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-05-30 15:57:00] WARNING root fetch - processPackages [defillama3]: Skipping, unable to determine old version
+[2023-05-30 15:57:00] INFO root fetch - main [MainThread]: End processing [defillama3] error
+[2023-05-30 15:57:01] INFO root fetch - main [MainThread]: End processing [ckanext-search-tweaks]: success
+[2023-05-30 15:57:01] INFO root fetch - main [MainThread]: End processing [nn-tilde]: success
+[2023-05-30 15:57:01] INFO root fetch - main [MainThread]: End processing [django-wikidata-api]: success
+[2023-05-30 15:57:01] INFO root fetch - main [MainThread]: End processing [drakaina]: success
+[2023-05-30 15:57:02] INFO root fetch - main [MainThread]: End processing [otools-rpc]: success
+[2023-05-30 15:57:02] INFO root fetch - main [MainThread]: End processing [sgx-pck-extension]: success
+[2023-05-30 15:57:02] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-05-30 15:57:02] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-05-30 15:57:09] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-05-30 15:57:09] INFO root fetch - main [MainThread]: Store serial: [18303162]
