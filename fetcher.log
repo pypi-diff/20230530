@@ -4901,3 +4901,30 @@
 [2023-05-30 05:35:17] INFO root fetch - main [MainThread]: End processing [langdash]: success
 [2023-05-30 05:35:27] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-05-30 05:35:27] INFO root fetch - main [MainThread]: Store serial: [18297514]
+[2023-05-30 05:40:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297514]
+[2023-05-30 05:40:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-30 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: domain-admin
+[2023-05-30 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sosecrets
+[2023-05-30 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alembic-migration-fixtures
+[2023-05-30 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: impy-array
+[2023-05-30 05:40:36] INFO root fetch - processPackages [alembic-migration-fixtures]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-30 05:40:36] INFO root fetch - processPackages [sosecrets]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 05:40:36] INFO root fetch - processPackages [impy-array]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-05-30 05:40:36] INFO root fetch - processPackages [domain-admin]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-30 05:40:37] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-05-30 05:40:37] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.2.8.tar.gz tmp/domain-admin-1.2.9.tar.gz --markdown 20230530/d/domain-admin/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-30 05:40:37] INFO root fetch - processPackages [alembic-migration-fixtures]: Downloading https://files.pythonhosted.org/packages/47/62/7311624ab66e199c0906282f5f0e73e2f81adc8fa1d25ed0f2df828f458b/alembic_migration_fixtures-0.1.0.tar.gz
+[2023-05-30 05:40:37] INFO root fetch - processPackages [impy-array]: Downloading https://files.pythonhosted.org/packages/24/6a/213d8b6af6718f1561983126a064f341fa8d663df343b3cc5b216b143462/impy_array-2.2.4.tar.gz
+[2023-05-30 05:40:37] INFO root fetch - processPackages [sosecrets]: Downloading https://files.pythonhosted.org/packages/13/e3/e322b6d26e971e46974349d1727bea1e2c093717d6ae52303185ce637479/sosecrets-0.1.9.tar.gz
+[2023-05-30 05:40:37] INFO root fetch - processPackages [impy-array]: executing diffoscope
+[2023-05-30 05:40:37] INFO root fetch - processPackages [impy-array]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impy_array-2.2.3.tar.gz tmp/impy_array-2.2.4.tar.gz --markdown 20230530/i/impy-array/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-05-30 05:40:37] INFO root fetch - processPackages [sosecrets]: executing diffoscope
+[2023-05-30 05:40:37] INFO root fetch - processPackages [sosecrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosecrets-0.1.8.tar.gz tmp/sosecrets-0.1.9.tar.gz --markdown 20230530/s/sosecrets/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 05:40:37] INFO root fetch - processPackages [alembic-migration-fixtures]: Downloading https://files.pythonhosted.org/packages/d3/b7/ead52e216f43bd01262a4e9368eb3d709e471db1a3b72e737c78437d830d/alembic_migration_fixtures-0.2.0.tar.gz
+[2023-05-30 05:40:37] INFO root fetch - processPackages [alembic-migration-fixtures]: executing diffoscope
+[2023-05-30 05:40:37] INFO root fetch - processPackages [alembic-migration-fixtures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alembic_migration_fixtures-0.1.0.tar.gz tmp/alembic_migration_fixtures-0.2.0.tar.gz --markdown 20230530/a/alembic-migration-fixtures/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 05:40:38] INFO root fetch - main [MainThread]: End processing [sosecrets]: success
+[2023-05-30 05:40:38] INFO root fetch - main [MainThread]: End processing [alembic-migration-fixtures]: success
+[2023-05-30 05:40:38] INFO root fetch - main [MainThread]: End processing [impy-array]: success
+[2023-05-30 05:40:39] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-05-30 05:40:39] INFO root fetch - main [MainThread]: Store serial: [18297527]
