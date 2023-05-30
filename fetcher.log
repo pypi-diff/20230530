@@ -9759,3 +9759,116 @@
 [2023-05-30 12:01:34] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2023-05-30 12:01:34] INFO root fetch - main [MainThread]: End processing [underactuated]: success
 [2023-05-30 12:01:34] INFO root fetch - main [MainThread]: Store serial: [18300322]
+[2023-05-30 12:06:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18300322]
+[2023-05-30 12:06:43] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-30 12:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nwebclient
+[2023-05-30 12:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycelium
+[2023-05-30 12:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qgis-deployment-toolbelt
+[2023-05-30 12:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hkkang-utils
+[2023-05-30 12:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bp-data-grid
+[2023-05-30 12:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: socceraction
+[2023-05-30 12:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyparaspace
+[2023-05-30 12:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dl2050nn
+[2023-05-30 12:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyais
+[2023-05-30 12:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: needl
+[2023-05-30 12:06:43] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-05-30 12:06:43] WARNING root fetch - processPackages [needl]: Skipping, unable to determine old version
+[2023-05-30 12:06:43] INFO root fetch - processPackages [bp-data-grid]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-30 12:06:43] INFO root fetch - processPackages [qgis-deployment-toolbelt]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-30 12:06:43] INFO root fetch - processPackages [needl]: Start processing: pylibagent
+[2023-05-30 12:06:43] INFO root fetch - processPackages [pyparaspace]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 12:06:43] INFO root fetch - main [MainThread]: End processing [needl] error
+[2023-05-30 12:06:43] INFO root fetch - processPackages [dl2050nn]: New version: [1.0.8] Old Version: [1.0.77]
+[2023-05-30 12:06:43] INFO root fetch - processPackages [socceraction]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-30 12:06:43] INFO root fetch - processPackages [pycelium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 12:06:43] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-05-30 12:06:43] INFO root fetch - processPackages [pyais]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-05-30 12:06:43] INFO root fetch - processPackages [pylibagent]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-30 12:06:43] INFO root fetch - processPackages [dl2050nn]: Downloading https://files.pythonhosted.org/packages/c8/41/bbd728a49ca7f4125285f3601cf6eda035bfbca580306fbfb05e71c435e7/dl2050nn-1.0.77.tar.gz
+[2023-05-30 12:06:43] WARNING root fetch - processPackages [pyparaspace]: fallback to get urls: [0.1.0]
+[2023-05-30 12:06:43] INFO root fetch - processPackages [bp-data-grid]: Downloading https://files.pythonhosted.org/packages/7d/88/4fb233218bc8074817c585f0646d3c01725d814279ab9a35b6c67bb52031/bp_data_grid-1.0.3.tar.gz
+[2023-05-30 12:06:43] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/3e/79/08f0cefc2684729bc72a1e92d87ca8884c51048340398de539d613e731b8/hkkang_utils-0.1.96.tar.gz
+[2023-05-30 12:06:43] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-05-30 12:06:43] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.8.tar.gz tmp/pycelium-0.1.9.tar.gz --markdown 20230530/p/pycelium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 12:06:43] WARNING root fetch - processPackages [pyparaspace]: None
+[2023-05-30 12:06:43] INFO root fetch - processPackages [socceraction]: Downloading https://files.pythonhosted.org/packages/e6/aa/2721afd2ea56c7f1a2eee542398055f3259417cc17b4fb71395847fb6dae/socceraction-1.4.0.tar.gz
+[2023-05-30 12:06:44] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Downloading https://files.pythonhosted.org/packages/4d/af/26cc6ca37c9029d2a68da3981972d583a710238e073fe44d2f33c039d869/qgis-deployment-toolbelt-0.8.0.tar.gz
+[2023-05-30 12:06:44] INFO root fetch - processPackages [pylibagent]: Downloading https://files.pythonhosted.org/packages/3f/2d/c7f6a9948f9da35d7cabe4e5521110b4880976826bd270caf91909ecf029/pylibagent-0.1.9.tar.gz
+[2023-05-30 12:06:44] WARNING root fetch - processPackages [pyparaspace]: None
+[2023-05-30 12:06:44] WARNING root fetch - processPackages [pyparaspace]: unable to get url for both version [0.1.0]
+[2023-05-30 12:06:44] WARNING root fetch - processPackages [pyparaspace]: None
+[2023-05-30 12:06:44] INFO root fetch - processPackages [pyparaspace]: Start processing: league-shop-base
+[2023-05-30 12:06:44] INFO root fetch - main [MainThread]: End processing [pyparaspace] error
+[2023-05-30 12:06:44] INFO root fetch - processPackages [dl2050nn]: executing diffoscope
+[2023-05-30 12:06:44] INFO root fetch - processPackages [dl2050nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050nn-1.0.77.tar.gz tmp/dl2050nn-1.0.8.tar.gz --markdown 20230530/d/dl2050nn/1.0.77-1.0.8/diff.md --exclude *.pyd
+[2023-05-30 12:06:44] INFO root fetch - processPackages [league-shop-base]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 12:06:44] INFO root fetch - processPackages [pyais]: Downloading https://files.pythonhosted.org/packages/83/2c/6a5dee6ddfe0898153da918f9e0366e2e13dd2d1a9efafca80e7447ab527/pyais-2.5.4.tar.gz
+[2023-05-30 12:06:44] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-05-30 12:06:44] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.95.tar.gz tmp/hkkang_utils-0.1.96.tar.gz --markdown 20230530/h/hkkang-utils/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-05-30 12:06:44] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-30 12:06:44] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230530/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-05-30 12:06:44] INFO root fetch - processPackages [league-shop-base]: executing diffoscope
+[2023-05-30 12:06:44] INFO root fetch - processPackages [league-shop-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league-shop-base-1.0.8.tar.gz tmp/league-shop-base-1.0.9.tar.gz --markdown 20230530/l/league-shop-base/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 12:06:44] INFO root fetch - processPackages [pylibagent]: Downloading https://files.pythonhosted.org/packages/1a/34/0e0f61e3f4c0c22346d6454cfa93101da502cee531faae368762bc601272/pylibagent-0.2.0.tar.gz
+[2023-05-30 12:06:44] INFO root fetch - processPackages [pyais]: executing diffoscope
+[2023-05-30 12:06:44] INFO root fetch - processPackages [pyais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyais-2.5.3.tar.gz tmp/pyais-2.5.4.tar.gz --markdown 20230530/p/pyais/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-05-30 12:06:44] INFO root fetch - processPackages [bp-data-grid]: Downloading https://files.pythonhosted.org/packages/f1/eb/c54d2962d354de1e1b377cc68036257b39d02df8f8b217b510910af88c3a/bp_data_grid-1.0.4.tar.gz
+[2023-05-30 12:06:44] INFO root fetch - processPackages [pylibagent]: executing diffoscope
+[2023-05-30 12:06:44] INFO root fetch - processPackages [pylibagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibagent-0.1.9.tar.gz tmp/pylibagent-0.2.0.tar.gz --markdown 20230530/p/pylibagent/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 12:06:44] INFO root fetch - processPackages [socceraction]: Downloading https://files.pythonhosted.org/packages/80/75/80ad91c63920c383b583c0721bae47821125ecf61e098739a588ea966701/socceraction-1.4.1.tar.gz
+[2023-05-30 12:06:44] INFO root fetch - processPackages [bp-data-grid]: executing diffoscope
+[2023-05-30 12:06:44] INFO root fetch - processPackages [bp-data-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_grid-1.0.3.tar.gz tmp/bp_data_grid-1.0.4.tar.gz --markdown 20230530/b/bp-data-grid/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-30 12:06:44] INFO root fetch - processPackages [socceraction]: executing diffoscope
+[2023-05-30 12:06:44] INFO root fetch - processPackages [socceraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socceraction-1.4.0.tar.gz tmp/socceraction-1.4.1.tar.gz --markdown 20230530/s/socceraction/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-30 12:06:44] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Downloading https://files.pythonhosted.org/packages/d5/9a/086bf308844e6a51bcccd209e648d370690f6c9e5bb19bcf231bf1cad2dc/qgis-deployment-toolbelt-0.9.0.tar.gz
+[2023-05-30 12:06:44] INFO root fetch - processPackages [qgis-deployment-toolbelt]: executing diffoscope
+[2023-05-30 12:06:44] INFO root fetch - processPackages [qgis-deployment-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgis-deployment-toolbelt-0.8.0.tar.gz tmp/qgis-deployment-toolbelt-0.9.0.tar.gz --markdown 20230530/q/qgis-deployment-toolbelt/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 12:06:45] INFO root fetch - processPackages [pycelium]: Start processing: oarepo-runtime
+[2023-05-30 12:06:45] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-05-30 12:06:45] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-30 12:06:45] INFO root fetch - processPackages [dl2050nn]: Start processing: libcnmc
+[2023-05-30 12:06:45] INFO root fetch - main [MainThread]: End processing [dl2050nn]: success
+[2023-05-30 12:06:45] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-30 12:06:45] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/e5/22/810b46778f022706741feef66cc7921689cbdcb07a6ab7d0fc7334fea684/oarepo-runtime-1.3.1.tar.gz
+[2023-05-30 12:06:45] INFO root fetch - processPackages [hkkang-utils]: Start processing: bugout
+[2023-05-30 12:06:45] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-05-30 12:06:46] INFO root fetch - processPackages [bugout]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-30 12:06:46] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-30 12:06:46] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230530/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-30 12:06:46] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-05-30 12:06:46] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.3.0.tar.gz tmp/oarepo-runtime-1.3.1.tar.gz --markdown 20230530/o/oarepo-runtime/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-30 12:06:46] INFO root fetch - processPackages [bugout]: Downloading https://files.pythonhosted.org/packages/5c/ef/fbe271674b752145f16ca48787d7b125306ab5e23ce95d156dcd9bec424e/bugout-0.2.8.tar.gz
+[2023-05-30 12:06:46] INFO root fetch - processPackages [bugout]: executing diffoscope
+[2023-05-30 12:06:46] INFO root fetch - processPackages [bugout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugout-0.2.7.tar.gz tmp/bugout-0.2.8.tar.gz --markdown 20230530/b/bugout/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-30 12:06:46] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Start processing: aix-caller
+[2023-05-30 12:06:46] INFO root fetch - main [MainThread]: End processing [qgis-deployment-toolbelt]: success
+[2023-05-30 12:06:46] WARNING root fetch - processPackages [aix-caller]: Skipping, unable to determine old version
+[2023-05-30 12:06:46] INFO root fetch - processPackages [aix-caller]: Start processing: phdu
+[2023-05-30 12:06:46] INFO root fetch - main [MainThread]: End processing [aix-caller] error
+[2023-05-30 12:06:46] INFO root fetch - processPackages [pylibagent]: Start processing: spai
+[2023-05-30 12:06:46] INFO root fetch - main [MainThread]: End processing [pylibagent]: success
+[2023-05-30 12:06:46] INFO root fetch - processPackages [phdu]: New version: [2.0b1] Old Version: [1.9b9]
+[2023-05-30 12:06:47] INFO root fetch - processPackages [spai]: New version: [2023.5.30] Old Version: [2023.5.26.post2]
+[2023-05-30 12:06:47] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/46/bd/f18077c9e361e97e47e245064ffe563a3c53debca4e1ddd91d3008a054ed/phdu-1.9b9.tar.gz
+[2023-05-30 12:06:47] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/aa/1c/522161e3f6878157f9e8235e2715580ee6136ede8b645759de8ac2418c14/spai-2023.5.30.tar.gz
+[2023-05-30 12:06:47] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-05-30 12:06:47] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2023.5.26.post2.tar.gz tmp/spai-2023.5.30.tar.gz --markdown 20230530/s/spai/2023.5.26.post2-2023.5.30/diff.md --exclude *.pyd
+[2023-05-30 12:06:47] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/e2/a6/d0e296ff0c7d94495a8b9fba202f3c812b9d8e38ef33261886dc25ba617c/phdu-2.0b1.tar.gz
+[2023-05-30 12:06:47] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2023-05-30 12:06:47] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-1.9b9.tar.gz tmp/phdu-2.0b1.tar.gz --markdown 20230530/p/phdu/1.9b9-2.0b1/diff.md --exclude *.pyd
+[2023-05-30 12:06:48] INFO root fetch - processPackages [bugout]: Start processing: kmergenetyper
+[2023-05-30 12:06:48] INFO root fetch - main [MainThread]: End processing [bugout]: success
+[2023-05-30 12:06:48] INFO root fetch - processPackages [kmergenetyper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 12:06:48] INFO root fetch - main [MainThread]: End processing [pyais]: success
+[2023-05-30 12:06:48] INFO root fetch - processPackages [kmergenetyper]: executing diffoscope
+[2023-05-30 12:06:48] INFO root fetch - processPackages [kmergenetyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmergenetyper-1.0.8.tar.gz tmp/kmergenetyper-1.0.9.tar.gz --markdown 20230530/k/kmergenetyper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 12:06:48] INFO root fetch - main [MainThread]: End processing [socceraction]: success
+[2023-05-30 12:06:48] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-05-30 12:06:49] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-05-30 12:06:49] INFO root fetch - main [MainThread]: End processing [bp-data-grid]: success
+[2023-05-30 12:06:50] INFO root fetch - main [MainThread]: End processing [kmergenetyper]: success
+[2023-05-30 12:06:50] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2023-05-30 12:06:51] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-30 12:07:34] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-30 12:07:34] INFO root fetch - main [MainThread]: End processing [league-shop-base]: success
+[2023-05-30 12:07:34] INFO root fetch - main [MainThread]: Store serial: [18300379]
