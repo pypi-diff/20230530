@@ -19840,3 +19840,78 @@ EOFError: EOF read where object expected
 [2023-05-30 21:03:42] INFO root fetch - main [MainThread]: End processing [django-jwt-oidc]: success
 [2023-05-30 21:03:42] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-05-30 21:03:42] INFO root fetch - main [MainThread]: Store serial: [18306487]
+[2023-05-30 21:08:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18306487]
+[2023-05-30 21:08:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-30 21:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ZenithLib
+[2023-05-30 21:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seleniumbot
+[2023-05-30 21:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: semantic-kernel
+[2023-05-30 21:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: locate-pixelcolor-cpppragma
+[2023-05-30 21:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: koya-utilities
+[2023-05-30 21:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: podsearchmp
+[2023-05-30 21:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reversibledict
+[2023-05-30 21:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gamelib
+[2023-05-30 21:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dictionaryutils
+[2023-05-30 21:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: triclustering
+[2023-05-30 21:08:52] INFO root fetch - processPackages [koya-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 21:08:52] INFO root fetch - processPackages [semantic-kernel]: New version: [0.2.9.dev0] Old Version: [0.2.8.dev0]
+[2023-05-30 21:08:52] INFO root fetch - processPackages [reversibledict]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-30 21:08:52] INFO root fetch - processPackages [podsearchmp]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 21:08:52] INFO root fetch - processPackages [gamelib]: New version: [0.0.7] Old Version: [0.0.4]
+[2023-05-30 21:08:52] INFO root fetch - processPackages [dictionaryutils]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-05-30 21:08:52] INFO root fetch - processPackages [seleniumbot]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 21:08:52] WARNING root fetch - processPackages [triclustering]: Skipping, unable to determine old version
+[2023-05-30 21:08:52] INFO root fetch - processPackages [locate-pixelcolor-cpppragma]: New version: [0.12] Old Version: [0.11]
+[2023-05-30 21:08:52] INFO root fetch - processPackages [ZenithLib]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-30 21:08:52] INFO root fetch - processPackages [triclustering]: Start processing: assisted-service-client
+[2023-05-30 21:08:52] INFO root fetch - main [MainThread]: End processing [triclustering] error
+[2023-05-30 21:08:52] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-30 21:08:52] INFO root fetch - processPackages [podsearchmp]: Downloading https://files.pythonhosted.org/packages/6d/49/4fce6da566fb10d6beda3c414d9f452dfb20d270bfcf84483d01ddf74099/podsearchmp-0.1.0.tar.gz
+[2023-05-30 21:08:52] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-30 21:08:52] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230530/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-30 21:08:52] INFO root fetch - processPackages [reversibledict]: Downloading https://files.pythonhosted.org/packages/b6/9c/16afc8722aef0bc162ae866a80630315932cf7e8a9d63fdfe8f692d6a84c/reversibledict-0.2.2.tar.gz
+[2023-05-30 21:08:52] INFO root fetch - processPackages [koya-utilities]: Downloading https://files.pythonhosted.org/packages/67/80/5fd46fbcd70de5f14427edfc378b4b0750707e03dace46f3f90eb35e4835/koya_utilities-0.0.8-py2.py3-none-any.whl
+[2023-05-30 21:08:52] INFO root fetch - processPackages [dictionaryutils]: Downloading https://files.pythonhosted.org/packages/0d/f3/b613db7a4b680ba9718b2e6776a0fbc5b9b8f2c4ff321127b0dbadfb179e/dictionaryutils-3.4.5.tar.gz
+[2023-05-30 21:08:52] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/0a/c9/5fb453a21a999fd04d81f4b59d4264b87def7daab7e38bcbc37be6efd1b8/semantic_kernel-0.2.8.dev0.tar.gz
+[2023-05-30 21:08:52] INFO root fetch - processPackages [locate-pixelcolor-cpppragma]: Downloading https://files.pythonhosted.org/packages/e1/f8/684783fd4bd5f39a5569016d2f14c7e1d119c8136e29b7894840a10604f7/locate_pixelcolor_cpppragma-0.11.tar.gz
+[2023-05-30 21:08:52] INFO root fetch - processPackages [gamelib]: Downloading https://files.pythonhosted.org/packages/bd/73/eee9271d538db66b42674749ba803653e04112dcb9b752a51f1fe791fe87/gamelib-0.0.4.tar.gz
+[2023-05-30 21:08:52] INFO root fetch - processPackages [ZenithLib]: Downloading https://files.pythonhosted.org/packages/39/ed/684d33a26ef000657408f9413ae8f2e6653672997e0577acca4435e213c5/zenithlib-0.0.6.tar.gz
+[2023-05-30 21:08:52] INFO root fetch - processPackages [seleniumbot]: Downloading https://files.pythonhosted.org/packages/30/54/7e2662eec4f2a4ccf9b5c739ff5454800828d0f3f91e0a729039c9cd3c5c/seleniumbot-0.0.4.tar.gz
+[2023-05-30 21:08:53] INFO root fetch - processPackages [podsearchmp]: Downloading https://files.pythonhosted.org/packages/16/85/5352a0db1fcc009b28b5c34978b0309aa94fc46d3a6e38eec938a5733d98/podsearchmp-0.1.1.tar.gz
+[2023-05-30 21:08:53] INFO root fetch - processPackages [ZenithLib]: executing diffoscope
+[2023-05-30 21:08:53] INFO root fetch - processPackages [ZenithLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenithlib-0.0.5.tar.gz tmp/zenithlib-0.0.6.tar.gz --markdown 20230530/Z/ZenithLib/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-30 21:08:53] INFO root fetch - processPackages [seleniumbot]: executing diffoscope
+[2023-05-30 21:08:53] INFO root fetch - processPackages [seleniumbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbot-0.0.3.tar.gz tmp/seleniumbot-0.0.4.tar.gz --markdown 20230530/s/seleniumbot/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 21:08:53] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/52/e6/a5d73cbbf0a82666f53c39371bc05370dad7e512f9db2155d9f5a5a4f7f2/semantic_kernel-0.2.9.dev0.tar.gz
+[2023-05-30 21:08:53] INFO root fetch - processPackages [gamelib]: Downloading https://files.pythonhosted.org/packages/66/5a/490d64736f13f3367425f0d086e0c9f9cecfc62e8c13c3079dfea4b88ea2/gamelib-0.0.7.tar.gz
+[2023-05-30 21:08:53] INFO root fetch - processPackages [koya-utilities]: Downloading https://files.pythonhosted.org/packages/d8/00/bceb41f7baae74610459fea2274d375b0428e6a8b1c62faefc323cd89360/koya_utilities-0.0.9-py2.py3-none-any.whl
+[2023-05-30 21:08:53] INFO root fetch - processPackages [podsearchmp]: executing diffoscope
+[2023-05-30 21:08:53] INFO root fetch - processPackages [podsearchmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podsearchmp-0.1.0.tar.gz tmp/podsearchmp-0.1.1.tar.gz --markdown 20230530/p/podsearchmp/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 21:08:53] INFO root fetch - processPackages [locate-pixelcolor-cpppragma]: Downloading https://files.pythonhosted.org/packages/08/cc/87ba05ad819bbbdc6bad36aac947d0d0cf4e77584e593a283eff8976ece0/locate_pixelcolor_cpppragma-0.12.tar.gz
+[2023-05-30 21:08:53] INFO root fetch - processPackages [reversibledict]: Downloading https://files.pythonhosted.org/packages/1d/a4/2714b301a7a403349ee45abe93ef73e3502110928f6f217671084430e73d/reversibledict-0.2.3.tar.gz
+[2023-05-30 21:08:53] INFO root fetch - processPackages [dictionaryutils]: Downloading https://files.pythonhosted.org/packages/84/32/37bcd946bb4e38ba8cb3acdd5c3202256682c94a905111cfdcb7f6fef546/dictionaryutils-3.4.6.tar.gz
+[2023-05-30 21:08:53] INFO root fetch - processPackages [semantic-kernel]: executing diffoscope
+[2023-05-30 21:08:53] INFO root fetch - processPackages [semantic-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_kernel-0.2.8.dev0.tar.gz tmp/semantic_kernel-0.2.9.dev0.tar.gz --markdown 20230530/s/semantic-kernel/0.2.8.dev0-0.2.9.dev0/diff.md --exclude *.pyd
+[2023-05-30 21:08:53] INFO root fetch - processPackages [gamelib]: executing diffoscope
+[2023-05-30 21:08:53] INFO root fetch - processPackages [gamelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamelib-0.0.4.tar.gz tmp/gamelib-0.0.7.tar.gz --markdown 20230530/g/gamelib/0.0.4-0.0.7/diff.md --exclude *.pyd
+[2023-05-30 21:08:53] INFO root fetch - processPackages [koya-utilities]: executing diffoscope
+[2023-05-30 21:08:53] INFO root fetch - processPackages [koya-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koya_utilities-0.0.8-py2.py3-none-any.whl.zip tmp/koya_utilities-0.0.9-py2.py3-none-any.whl.zip --markdown 20230530/k/koya-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 21:08:53] INFO root fetch - processPackages [locate-pixelcolor-cpppragma]: executing diffoscope
+[2023-05-30 21:08:53] INFO root fetch - processPackages [locate-pixelcolor-cpppragma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locate_pixelcolor_cpppragma-0.11.tar.gz tmp/locate_pixelcolor_cpppragma-0.12.tar.gz --markdown 20230530/l/locate-pixelcolor-cpppragma/0.11-0.12/diff.md --exclude *.pyd
+[2023-05-30 21:08:53] INFO root fetch - processPackages [reversibledict]: executing diffoscope
+[2023-05-30 21:08:53] INFO root fetch - processPackages [reversibledict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reversibledict-0.2.2.tar.gz tmp/reversibledict-0.2.3.tar.gz --markdown 20230530/r/reversibledict/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-30 21:08:53] INFO root fetch - processPackages [dictionaryutils]: executing diffoscope
+[2023-05-30 21:08:53] INFO root fetch - processPackages [dictionaryutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dictionaryutils-3.4.5.tar.gz tmp/dictionaryutils-3.4.6.tar.gz --markdown 20230530/d/dictionaryutils/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-05-30 21:08:54] INFO root fetch - processPackages [ZenithLib]: Start processing: tdslib
+[2023-05-30 21:08:54] INFO root fetch - main [MainThread]: End processing [ZenithLib]: success
+[2023-05-30 21:08:54] WARNING root fetch - processPackages [tdslib]: Skipping, unable to determine old version
+[2023-05-30 21:08:54] INFO root fetch - main [MainThread]: End processing [tdslib] error
+[2023-05-30 21:08:54] INFO root fetch - main [MainThread]: End processing [podsearchmp]: success
+[2023-05-30 21:08:54] INFO root fetch - main [MainThread]: End processing [seleniumbot]: success
+[2023-05-30 21:08:55] INFO root fetch - main [MainThread]: End processing [locate-pixelcolor-cpppragma]: success
+[2023-05-30 21:08:55] INFO root fetch - main [MainThread]: End processing [koya-utilities]: success
+[2023-05-30 21:08:55] INFO root fetch - main [MainThread]: End processing [gamelib]: success
+[2023-05-30 21:08:55] INFO root fetch - main [MainThread]: End processing [reversibledict]: success
+[2023-05-30 21:08:55] INFO root fetch - main [MainThread]: End processing [dictionaryutils]: success
+[2023-05-30 21:08:56] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-30 21:08:57] INFO root fetch - main [MainThread]: End processing [semantic-kernel]: success
+[2023-05-30 21:08:57] INFO root fetch - main [MainThread]: Store serial: [18306524]
