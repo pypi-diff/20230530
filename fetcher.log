@@ -19052,3 +19052,80 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 20:09:16] ERROR root fetch - processPackages [bikeshed]: Timeout during execution of pkgdiff
 [2023-05-30 20:09:16] INFO root fetch - main [MainThread]: End processing [bikeshed] error
 [2023-05-30 20:09:16] INFO root fetch - main [MainThread]: Store serial: [18306045]
+[2023-05-30 20:14:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18306045]
+[2023-05-30 20:14:26] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-30 20:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gordo
+[2023-05-30 20:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meter-gear
+[2023-05-30 20:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: doFolder
+[2023-05-30 20:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-stt-http-server
+[2023-05-30 20:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-tts-server
+[2023-05-30 20:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-synd
+[2023-05-30 20:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: computing-toolbox
+[2023-05-30 20:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: onvif-gui
+[2023-05-30 20:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hotsos
+[2023-05-30 20:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: slangpy
+[2023-05-30 20:14:26] INFO root fetch - processPackages [gordo]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-05-30 20:14:26] INFO root fetch - processPackages [doFolder]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-30 20:14:26] INFO root fetch - processPackages [meter-gear]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-30 20:14:26] INFO root fetch - processPackages [hotsos]: New version: [1.1.14.post9] Old Version: [1.1.14.post8]
+[2023-05-30 20:14:26] INFO root fetch - processPackages [onvif-gui]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-30 20:14:26] WARNING root fetch - processPackages [py-synd]: Skipping, unable to determine old version
+[2023-05-30 20:14:26] INFO root fetch - processPackages [py-synd]: Start processing: dartpy
+[2023-05-30 20:14:26] INFO root fetch - main [MainThread]: End processing [py-synd] error
+[2023-05-30 20:14:26] WARNING root fetch - processPackages [computing-toolbox]: Skipping, unable to determine old version
+[2023-05-30 20:14:26] INFO root fetch - processPackages [computing-toolbox]: Start processing: m3ufu
+[2023-05-30 20:14:26] INFO root fetch - main [MainThread]: End processing [computing-toolbox] error
+[2023-05-30 20:14:26] INFO root fetch - processPackages [ovos-tts-server]: New version: [0.0.3a6] Old Version: [0.0.3a5]
+[2023-05-30 20:14:26] INFO root fetch - processPackages [ovos-stt-http-server]: New version: [0.0.2a6] Old Version: [0.0.2a5]
+[2023-05-30 20:14:26] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-05-30 20:14:26] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.14.post8.tar.gz tmp/hotsos-1.1.14.post9.tar.gz --markdown 20230530/h/hotsos/1.1.14.post8-1.1.14.post9/diff.md --exclude *.pyd
+[2023-05-30 20:14:26] INFO root fetch - processPackages [slangpy]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 20:14:26] INFO root fetch - processPackages [m3ufu]: New version: [0.0.69] Old Version: [0.0.67]
+[2023-05-30 20:14:26] INFO root fetch - processPackages [dartpy]: New version: [0.1.0.post91] Old Version: [0.1.0.post90]
+[2023-05-30 20:14:26] INFO root fetch - processPackages [ovos-tts-server]: Downloading https://files.pythonhosted.org/packages/7b/0d/b2c2c55cc161ff6b991bea6dc39d68003583e28a8e5fd79ec05999df54b1/ovos-tts-server-0.0.3a5.tar.gz
+[2023-05-30 20:14:26] INFO root fetch - processPackages [ovos-stt-http-server]: Downloading https://files.pythonhosted.org/packages/27/fd/90b27e44bb35f1e6fe421e86b40b09b92ff555f4b632503b9e5d70108a93/ovos-stt-http-server-0.0.2a5.tar.gz
+[2023-05-30 20:14:26] INFO root fetch - processPackages [slangpy]: Downloading https://files.pythonhosted.org/packages/ef/0e/88bdf192fcc3c6090b312e0d1e2c5b2421016ab6613ad59a96e5d4145409/slangpy-0.2.8.tar.gz
+[2023-05-30 20:14:26] INFO root fetch - processPackages [doFolder]: Downloading https://files.pythonhosted.org/packages/fd/70/ddb2b87e94a8fc8a992b29359003b39d903558d16756f6cee8978427d5cd/doFolder-0.0.5.tar.gz
+[2023-05-30 20:14:26] INFO root fetch - processPackages [gordo]: Downloading https://files.pythonhosted.org/packages/a2/e7/5fc7f31e6d7f23d3e9aeedcbeba4d9ed9855a7e04ee5b4b5131c435f9474/gordo-5.0.3.tar.gz
+[2023-05-30 20:14:26] INFO root fetch - processPackages [dartpy]: Downloading https://files.pythonhosted.org/packages/db/ca/31eec367234a381e0d9da708b81b25fd1e5497af9d81ab4b8e07ac421e94/dartpy-0.1.0.post90-cp39-cp39-win_amd64.whl
+[2023-05-30 20:14:26] WARNING root fetch - processPackages [slangpy]: Skipping package: exceeds size limit 12952364>=10485760
+[2023-05-30 20:14:26] INFO root fetch - processPackages [slangpy]: Start processing: spark-etl
+[2023-05-30 20:14:26] INFO root fetch - main [MainThread]: End processing [slangpy] error
+[2023-05-30 20:14:26] INFO root fetch - processPackages [onvif-gui]: executing diffoscope
+[2023-05-30 20:14:26] INFO root fetch - processPackages [onvif-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onvif-gui-1.2.0.tar.gz tmp/onvif-gui-1.2.1.tar.gz --markdown 20230530/o/onvif-gui/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-30 20:14:26] INFO root fetch - processPackages [m3ufu]: Downloading https://files.pythonhosted.org/packages/3a/b3/7047c850cdf157eeadc3271b9ecce927b7c8e17c4205ff4b400d7396e9e5/m3ufu-0.0.67.tar.gz
+[2023-05-30 20:14:26] WARNING root fetch - processPackages [dartpy]: Skipping package: exceeds size limit 20021581>=10485760
+[2023-05-30 20:14:26] INFO root fetch - processPackages [dartpy]: Start processing: metricflow
+[2023-05-30 20:14:26] INFO root fetch - main [MainThread]: End processing [dartpy] error
+[2023-05-30 20:14:26] INFO root fetch - processPackages [doFolder]: executing diffoscope
+[2023-05-30 20:14:26] INFO root fetch - processPackages [doFolder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doFolder-0.0.4.tar.gz tmp/doFolder-0.0.5.tar.gz --markdown 20230530/d/doFolder/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 20:14:26] INFO root fetch - processPackages [meter-gear]: executing diffoscope
+[2023-05-30 20:14:26] INFO root fetch - processPackages [meter-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-gear-1.2.8.tar.gz tmp/meter-gear-1.2.9.tar.gz --markdown 20230530/m/meter-gear/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-30 20:14:27] INFO root fetch - processPackages [ovos-tts-server]: Downloading https://files.pythonhosted.org/packages/18/33/6cb00a03cb640357da119d98917b516d33be4b810e09ac6cf231d86f2967/ovos-tts-server-0.0.3a6.tar.gz
+[2023-05-30 20:14:27] INFO root fetch - processPackages [gordo]: executing diffoscope
+[2023-05-30 20:14:27] INFO root fetch - processPackages [gordo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gordo-5.0.2.tar.gz tmp/gordo-5.0.3.tar.gz --markdown 20230530/g/gordo/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-05-30 20:14:27] INFO root fetch - processPackages [spark-etl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 20:14:27] INFO root fetch - processPackages [ovos-stt-http-server]: Downloading https://files.pythonhosted.org/packages/4d/65/e9615943badad27c7791090ee48e83c9c15256868419d3d75049d98a5a8e/ovos-stt-http-server-0.0.2a6.tar.gz
+[2023-05-30 20:14:27] INFO root fetch - processPackages [metricflow]: New version: [0.93.0] Old Version: [0.92.1]
+[2023-05-30 20:14:27] INFO root fetch - processPackages [ovos-tts-server]: executing diffoscope
+[2023-05-30 20:14:27] INFO root fetch - processPackages [ovos-tts-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-tts-server-0.0.3a5.tar.gz tmp/ovos-tts-server-0.0.3a6.tar.gz --markdown 20230530/o/ovos-tts-server/0.0.3a5-0.0.3a6/diff.md --exclude *.pyd
+[2023-05-30 20:14:27] INFO root fetch - processPackages [m3ufu]: Downloading https://files.pythonhosted.org/packages/87/ee/c4b1f265d9fa76fa1be0d817cbb7e2adcdd3ef7bd691d325ac3dc9268a94/m3ufu-0.0.69.tar.gz
+[2023-05-30 20:14:27] INFO root fetch - processPackages [ovos-stt-http-server]: executing diffoscope
+[2023-05-30 20:14:27] INFO root fetch - processPackages [ovos-stt-http-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-stt-http-server-0.0.2a5.tar.gz tmp/ovos-stt-http-server-0.0.2a6.tar.gz --markdown 20230530/o/ovos-stt-http-server/0.0.2a5-0.0.2a6/diff.md --exclude *.pyd
+[2023-05-30 20:14:27] INFO root fetch - processPackages [m3ufu]: executing diffoscope
+[2023-05-30 20:14:27] INFO root fetch - processPackages [m3ufu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3ufu-0.0.67.tar.gz tmp/m3ufu-0.0.69.tar.gz --markdown 20230530/m/m3ufu/0.0.67-0.0.69/diff.md --exclude *.pyd
+[2023-05-30 20:14:27] INFO root fetch - processPackages [spark-etl]: executing diffoscope
+[2023-05-30 20:14:27] INFO root fetch - processPackages [spark-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark-etl-0.0.98.tar.gz tmp/spark-etl-0.0.99.tar.gz --markdown 20230530/s/spark-etl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 20:14:27] INFO root fetch - processPackages [metricflow]: executing diffoscope
+[2023-05-30 20:14:27] INFO root fetch - processPackages [metricflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricflow-0.92.1.tar.gz tmp/metricflow-0.93.0.tar.gz --markdown 20230530/m/metricflow/0.92.1-0.93.0/diff.md --exclude *.pyd
+[2023-05-30 20:14:28] INFO root fetch - main [MainThread]: End processing [meter-gear]: success
+[2023-05-30 20:14:28] INFO root fetch - main [MainThread]: End processing [doFolder]: success
+[2023-05-30 20:14:29] INFO root fetch - main [MainThread]: End processing [ovos-tts-server]: success
+[2023-05-30 20:14:29] INFO root fetch - main [MainThread]: End processing [m3ufu]: success
+[2023-05-30 20:14:29] INFO root fetch - main [MainThread]: End processing [spark-etl]: success
+[2023-05-30 20:14:30] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-05-30 20:14:30] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
+[2023-05-30 20:14:30] INFO root fetch - main [MainThread]: End processing [gordo]: success
+[2023-05-30 20:14:30] INFO root fetch - main [MainThread]: End processing [ovos-stt-http-server]: success
+[2023-05-30 20:14:36] INFO root fetch - main [MainThread]: End processing [metricflow]: success
+[2023-05-30 20:14:36] INFO root fetch - main [MainThread]: Store serial: [18306103]
