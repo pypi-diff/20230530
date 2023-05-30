@@ -4324,3 +4324,19 @@
 [2023-05-30 04:47:26] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
 [2023-05-30 04:47:26] INFO root fetch - main [MainThread]: End processing [gamium]: success
 [2023-05-30 04:47:26] INFO root fetch - main [MainThread]: Store serial: [18297191]
+[2023-05-30 04:52:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297191]
+[2023-05-30 04:52:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-30 04:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpyl
+[2023-05-30 04:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tcp-over-websocket
+[2023-05-30 04:52:35] INFO root fetch - processPackages [mpyl]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-05-30 04:52:35] INFO root fetch - processPackages [tcp-over-websocket]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-30 04:52:35] INFO root fetch - processPackages [tcp-over-websocket]: Downloading https://files.pythonhosted.org/packages/14/7b/dbf17d633c83bc7920fac9d0ea91504398d70ede7bbfeead1cf92cfd3103/tcp-over-websocket-1.0.4.tar.gz
+[2023-05-30 04:52:35] INFO root fetch - processPackages [mpyl]: Downloading https://files.pythonhosted.org/packages/f3/cc/7237a4e20059864e5de3cc5fdedeaca1abc8161d45f0d3b58fe7243e6649/mpyl-1.0.0-py3-none-any.whl
+[2023-05-30 04:52:35] INFO root fetch - processPackages [tcp-over-websocket]: Downloading https://files.pythonhosted.org/packages/bb/81/2ad5490cbabd81b5390b738b0dd4569fc27832b8ac42e92b1ca093d48c88/tcp-over-websocket-1.0.5.tar.gz
+[2023-05-30 04:52:35] INFO root fetch - processPackages [mpyl]: executing diffoscope
+[2023-05-30 04:52:35] INFO root fetch - processPackages [mpyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpyl-0.0.9-py3-none-any.whl.zip tmp/mpyl-1.0.0-py3-none-any.whl.zip --markdown 20230530/m/mpyl/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-30 04:52:36] INFO root fetch - processPackages [tcp-over-websocket]: executing diffoscope
+[2023-05-30 04:52:36] INFO root fetch - processPackages [tcp-over-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcp-over-websocket-1.0.4.tar.gz tmp/tcp-over-websocket-1.0.5.tar.gz --markdown 20230530/t/tcp-over-websocket/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-30 04:52:37] INFO root fetch - main [MainThread]: End processing [tcp-over-websocket]: success
+[2023-05-30 04:52:37] INFO root fetch - main [MainThread]: End processing [mpyl]: success
+[2023-05-30 04:52:37] INFO root fetch - main [MainThread]: Store serial: [18297199]
