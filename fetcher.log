@@ -13693,3 +13693,124 @@
 [2023-05-30 15:30:22] INFO root fetch - main [MainThread]: End processing [Products.CMFPlone]: success
 [2023-05-30 15:30:29] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2023-05-30 15:30:29] INFO root fetch - main [MainThread]: Store serial: [18302837]
+[2023-05-30 15:35:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18302837]
+[2023-05-30 15:35:40] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-30 15:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discovery-transition-ds
+[2023-05-30 15:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyorb
+[2023-05-30 15:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swh.graph
+[2023-05-30 15:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testsapenpdf
+[2023-05-30 15:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hummuspy
+[2023-05-30 15:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: madtypes
+[2023-05-30 15:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fnv-c
+[2023-05-30 15:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Pandora-ChatGPT
+[2023-05-30 15:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tabulous
+[2023-05-30 15:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kivygo
+[2023-05-30 15:35:40] WARNING root fetch - processPackages [testsapenpdf]: Skipping, unable to determine old version
+[2023-05-30 15:35:40] INFO root fetch - processPackages [testsapenpdf]: Start processing: th2-common-utils
+[2023-05-30 15:35:40] INFO root fetch - processPackages [pyorb]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-30 15:35:40] INFO root fetch - main [MainThread]: End processing [testsapenpdf] error
+[2023-05-30 15:35:40] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 15:35:40] INFO root fetch - processPackages [madtypes]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-30 15:35:40] INFO root fetch - processPackages [swh.graph]: New version: [3.0.1] Old Version: [2.2.0]
+[2023-05-30 15:35:40] WARNING root fetch - processPackages [fnv-c]: Skipping, unable to determine old version
+[2023-05-30 15:35:40] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-30 15:35:40] INFO root fetch - processPackages [fnv-c]: Start processing: ampltools
+[2023-05-30 15:35:40] INFO root fetch - main [MainThread]: End processing [fnv-c] error
+[2023-05-30 15:35:40] INFO root fetch - processPackages [kivygo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 15:35:40] INFO root fetch - processPackages [tabulous]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-30 15:35:40] INFO root fetch - processPackages [th2-common-utils]: New version: [2.0.1] Old Version: [2.0.0.dev4574477823]
+[2023-05-30 15:35:40] INFO root fetch - processPackages [ampltools]: New version: [0.5.4b3] Old Version: [0.5.4b2]
+[2023-05-30 15:35:40] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-30 15:35:40] INFO root fetch - processPackages [pyorb]: Downloading https://files.pythonhosted.org/packages/da/59/19165311973d04066f3d21153d554700918ceae48873a3f58dc1ff06688f/pyorb-0.5.3.tar.gz
+[2023-05-30 15:35:40] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-05-30 15:35:40] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.1.8.tar.gz tmp/Pandora-ChatGPT-1.1.9.tar.gz --markdown 20230530/P/Pandora-ChatGPT/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-30 15:35:41] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-05-30 15:35:41] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230530/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 15:35:41] INFO root fetch - processPackages [swh.graph]: Downloading https://files.pythonhosted.org/packages/63/7b/d2c227f8b7f5051dc4c0da1109af7e3641062abd088760bc299bb185f0c2/swh.graph-2.2.0.tar.gz
+[2023-05-30 15:35:41] INFO root fetch - processPackages [madtypes]: Downloading https://files.pythonhosted.org/packages/ee/4d/ff5341920b28edae9fd777ada4aa18463c4329f1d62b853f25b6e9b9d8a7/madtypes-0.0.5.tar.gz
+[2023-05-30 15:35:41] INFO root fetch - processPackages [kivygo]: Downloading https://files.pythonhosted.org/packages/fa/5d/d49be69c30e67beca30e0e7bf0154820e8757410b667ee9b78ae6fcc10fd/kivygo-0.0.1.tar.gz
+[2023-05-30 15:35:41] INFO root fetch - processPackages [tabulous]: Downloading https://files.pythonhosted.org/packages/4f/e0/8349b334a7bcbd0a01aee5dfee64ff1d253a948e4a8ed12761299efbb933/tabulous-0.5.2.tar.gz
+[2023-05-30 15:35:41] INFO root fetch - processPackages [ampltools]: Downloading https://files.pythonhosted.org/packages/cc/7f/08383412309b648564e92e4153c5c2c333832d30e21dccc70fb818c1df26/ampltools-0.5.4b3.tar.gz
+[2023-05-30 15:35:41] INFO root fetch - processPackages [madtypes]: executing diffoscope
+[2023-05-30 15:35:41] INFO root fetch - processPackages [madtypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madtypes-0.0.4.tar.gz tmp/madtypes-0.0.5.tar.gz --markdown 20230530/m/madtypes/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 15:35:41] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-05-30 15:35:41] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230530/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-30 15:35:41] INFO root fetch - processPackages [pyorb]: Downloading https://files.pythonhosted.org/packages/82/50/a635ec945ef32ecec9ca3d5fc73cdc410f8d6c93a58169d524b915ed438b/pyorb-0.5.4.tar.gz
+[2023-05-30 15:35:41] INFO root fetch - processPackages [th2-common-utils]: executing diffoscope
+[2023-05-30 15:35:41] INFO root fetch - processPackages [th2-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_common_utils-2.0.0.dev4574477823.tar.gz tmp/th2_common_utils-2.0.1.tar.gz --markdown 20230530/t/th2-common-utils/2.0.0.dev4574477823-2.0.1/diff.md --exclude *.pyd
+[2023-05-30 15:35:41] INFO root fetch - processPackages [ampltools]: executing diffoscope
+[2023-05-30 15:35:41] INFO root fetch - processPackages [ampltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampltools-0.5.4b2.tar.gz tmp/ampltools-0.5.4b3.tar.gz --markdown 20230530/a/ampltools/0.5.4b2-0.5.4b3/diff.md --exclude *.pyd
+[2023-05-30 15:35:41] INFO root fetch - processPackages [kivygo]: Downloading https://files.pythonhosted.org/packages/49/e9/de264f596fc061c3207ef9f27ef908534e64912f5b2b6ad6ccfbe3dcec37/kivygo-0.0.2.tar.gz
+[2023-05-30 15:35:41] INFO root fetch - processPackages [pyorb]: executing diffoscope
+[2023-05-30 15:35:41] INFO root fetch - processPackages [pyorb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyorb-0.5.3.tar.gz tmp/pyorb-0.5.4.tar.gz --markdown 20230530/p/pyorb/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-30 15:35:41] INFO root fetch - processPackages [tabulous]: Downloading https://files.pythonhosted.org/packages/15/97/fa80aa16a6555bf7112b5adb552e172dcd9536868bb4c61c19e56a72f692/tabulous-0.5.3.tar.gz
+[2023-05-30 15:35:41] INFO root fetch - processPackages [kivygo]: executing diffoscope
+[2023-05-30 15:35:41] INFO root fetch - processPackages [kivygo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivygo-0.0.1.tar.gz tmp/kivygo-0.0.2.tar.gz --markdown 20230530/k/kivygo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 15:35:41] INFO root fetch - processPackages [tabulous]: executing diffoscope
+[2023-05-30 15:35:41] INFO root fetch - processPackages [tabulous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabulous-0.5.2.tar.gz tmp/tabulous-0.5.3.tar.gz --markdown 20230530/t/tabulous/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-30 15:35:41] WARNING root fetch - processPackages [swh.graph]: Skipping package: exceeds size limit 124558585>=10485760
+[2023-05-30 15:35:41] INFO root fetch - processPackages [swh.graph]: Start processing: assemblyai
+[2023-05-30 15:35:41] INFO root fetch - main [MainThread]: End processing [swh.graph] error
+[2023-05-30 15:35:41] INFO root fetch - processPackages [assemblyai]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-30 15:35:42] INFO root fetch - processPackages [assemblyai]: Downloading https://files.pythonhosted.org/packages/a7/b5/f3be3a743ffc452b426527b57eb754e4511c0bcb780188f1ca6284b709cc/assemblyai-0.3.3.tar.gz
+[2023-05-30 15:35:42] INFO root fetch - processPackages [assemblyai]: executing diffoscope
+[2023-05-30 15:35:42] INFO root fetch - processPackages [assemblyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyai-0.3.2.tar.gz tmp/assemblyai-0.3.3.tar.gz --markdown 20230530/a/assemblyai/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-30 15:35:42] INFO root fetch - processPackages [hummuspy]: Start processing: rpi-reactive-gpio
+[2023-05-30 15:35:42] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-05-30 15:35:42] INFO root fetch - processPackages [rpi-reactive-gpio]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 15:35:42] INFO root fetch - processPackages [madtypes]: Start processing: plotly-resampler
+[2023-05-30 15:35:42] INFO root fetch - main [MainThread]: End processing [madtypes]: success
+[2023-05-30 15:35:42] INFO root fetch - processPackages [plotly-resampler]: New version: [0.9.0rc4] Old Version: [0.9.0rc3]
+[2023-05-30 15:35:42] INFO root fetch - processPackages [rpi-reactive-gpio]: Downloading https://files.pythonhosted.org/packages/1f/3d/83e3a499fe3be1b2df7cfc30d335025d2f8ff0a8ff7d3f5ba7639bed78e0/rpi_reactive_gpio-0.1.4.tar.gz
+[2023-05-30 15:35:43] INFO root fetch - processPackages [plotly-resampler]: Downloading https://files.pythonhosted.org/packages/bc/06/fdc52dd3324ea7defbae06739ab152b47109c2ded83de271f32114fdad63/plotly_resampler-0.9.0rc3.tar.gz
+[2023-05-30 15:35:43] INFO root fetch - processPackages [rpi-reactive-gpio]: executing diffoscope
+[2023-05-30 15:35:43] INFO root fetch - processPackages [rpi-reactive-gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpi_reactive_gpio-0.1.3.tar.gz tmp/rpi_reactive_gpio-0.1.4.tar.gz --markdown 20230530/r/rpi-reactive-gpio/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 15:35:43] INFO root fetch - processPackages [pyorb]: Start processing: koku-nise
+[2023-05-30 15:35:43] INFO root fetch - main [MainThread]: End processing [pyorb]: success
+[2023-05-30 15:35:43] INFO root fetch - processPackages [koku-nise]: New version: [4.2.9] Old Version: [4.2.8]
+[2023-05-30 15:35:43] INFO root fetch - processPackages [plotly-resampler]: Downloading https://files.pythonhosted.org/packages/63/dc/2ddd65a1b14f951e9317d6be28702f6aad92f32dbf6b8d73a155ab6aae7c/plotly_resampler-0.9.0rc4.tar.gz
+[2023-05-30 15:35:43] INFO root fetch - processPackages [koku-nise]: Downloading https://files.pythonhosted.org/packages/a6/95/83ed78c7b801fa8b2e6e5347a45c731105601fd901393ecd2d3b9f080d00/koku-nise-4.2.8.tar.gz
+[2023-05-30 15:35:43] INFO root fetch - processPackages [th2-common-utils]: Start processing: yafti
+[2023-05-30 15:35:43] INFO root fetch - main [MainThread]: End processing [th2-common-utils]: success
+[2023-05-30 15:35:43] INFO root fetch - processPackages [yafti]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-30 15:35:43] INFO root fetch - processPackages [ampltools]: Start processing: kodexa-cli
+[2023-05-30 15:35:43] INFO root fetch - main [MainThread]: End processing [ampltools]: success
+[2023-05-30 15:35:43] INFO root fetch - processPackages [kodexa-cli]: New version: [6.2.25121894883] Old Version: [6.2.25111841001]
+[2023-05-30 15:35:43] INFO root fetch - processPackages [plotly-resampler]: executing diffoscope
+[2023-05-30 15:35:43] INFO root fetch - processPackages [plotly-resampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly_resampler-0.9.0rc3.tar.gz tmp/plotly_resampler-0.9.0rc4.tar.gz --markdown 20230530/p/plotly-resampler/0.9.0rc3-0.9.0rc4/diff.md --exclude *.pyd
+[2023-05-30 15:35:43] INFO root fetch - processPackages [koku-nise]: Downloading https://files.pythonhosted.org/packages/8a/e4/4c3ffcc2f642e43a68babafab3ef8653e50583e9437d6df5a98ce24c3662/koku-nise-4.2.9.tar.gz
+[2023-05-30 15:35:43] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-05-30 15:35:43] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.2.25111841001.tar.gz tmp/kodexa_cli-6.2.25121894883.tar.gz --markdown 20230530/k/kodexa-cli/6.2.25111841001-6.2.25121894883/diff.md --exclude *.pyd
+[2023-05-30 15:35:43] INFO root fetch - processPackages [yafti]: Downloading https://files.pythonhosted.org/packages/c1/36/b9580d42cf7a242326b9c1790cc5eea053670c1e80ebf85175cc217b19cc/yafti-0.6.1.tar.gz
+[2023-05-30 15:35:43] INFO root fetch - processPackages [koku-nise]: executing diffoscope
+[2023-05-30 15:35:43] INFO root fetch - processPackages [koku-nise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koku-nise-4.2.8.tar.gz tmp/koku-nise-4.2.9.tar.gz --markdown 20230530/k/koku-nise/4.2.8-4.2.9/diff.md --exclude *.pyd
+[2023-05-30 15:35:43] INFO root fetch - processPackages [yafti]: Downloading https://files.pythonhosted.org/packages/80/71/cf95c3045e1425aca643236f1addc27daf24c1abfe4366780476af171ecd/yafti-0.6.2.tar.gz
+[2023-05-30 15:35:43] INFO root fetch - processPackages [kivygo]: Start processing: kivygo
+[2023-05-30 15:35:43] INFO root fetch - main [MainThread]: End processing [kivygo]: success
+[2023-05-30 15:35:44] INFO root fetch - processPackages [kivygo]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-30 15:35:44] INFO root fetch - processPackages [yafti]: executing diffoscope
+[2023-05-30 15:35:44] INFO root fetch - processPackages [yafti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yafti-0.6.1.tar.gz tmp/yafti-0.6.2.tar.gz --markdown 20230530/y/yafti/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-30 15:35:44] INFO root fetch - processPackages [assemblyai]: Start processing: serialdatalog
+[2023-05-30 15:35:44] INFO root fetch - main [MainThread]: End processing [assemblyai]: success
+[2023-05-30 15:35:44] INFO root fetch - processPackages [serialdatalog]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-30 15:35:44] INFO root fetch - processPackages [kivygo]: Downloading https://files.pythonhosted.org/packages/a3/7e/747d9d4c48c58caa73dc337eff9f87955a5dfde0ca58e5280de63517c2e4/kivygo-0.0.3.tar.gz
+[2023-05-30 15:35:44] INFO root fetch - processPackages [serialdatalog]: executing diffoscope
+[2023-05-30 15:35:44] INFO root fetch - processPackages [serialdatalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialdatalog-0.1.0.tar.gz tmp/serialdatalog-0.1.2.tar.gz --markdown 20230530/s/serialdatalog/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 15:35:44] INFO root fetch - processPackages [kivygo]: executing diffoscope
+[2023-05-30 15:35:44] INFO root fetch - processPackages [kivygo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivygo-0.0.2.tar.gz tmp/kivygo-0.0.3.tar.gz --markdown 20230530/k/kivygo/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-30 15:35:44] INFO root fetch - processPackages [rpi-reactive-gpio]: Start processing: dapla-toolbelt-pseudo
+[2023-05-30 15:35:44] INFO root fetch - main [MainThread]: End processing [rpi-reactive-gpio]: success
+[2023-05-30 15:35:44] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-05-30 15:35:44] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: executing diffoscope
+[2023-05-30 15:35:44] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt_pseudo-0.2.4.tar.gz tmp/dapla_toolbelt_pseudo-0.2.6.tar.gz --markdown 20230530/d/dapla-toolbelt-pseudo/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-05-30 15:35:45] INFO root fetch - main [MainThread]: End processing [plotly-resampler]: success
+[2023-05-30 15:35:45] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-05-30 15:35:45] INFO root fetch - main [MainThread]: End processing [yafti]: success
+[2023-05-30 15:35:46] INFO root fetch - main [MainThread]: End processing [tabulous]: success
+[2023-05-30 15:35:46] INFO root fetch - main [MainThread]: End processing [serialdatalog]: success
+[2023-05-30 15:35:46] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-05-30 15:35:46] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt-pseudo]: success
+[2023-05-30 15:35:47] INFO root fetch - main [MainThread]: End processing [kivygo]: success
+[2023-05-30 15:35:47] INFO root fetch - main [MainThread]: End processing [koku-nise]: success
+[2023-05-30 15:35:48] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-05-30 15:35:48] INFO root fetch - main [MainThread]: Store serial: [18302901]
