@@ -17371,3 +17371,73 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 18:15:58] INFO root fetch - main [MainThread]: End processing [iotbr]: success
 [2023-05-30 18:16:00] INFO root fetch - main [MainThread]: End processing [streamlit-chat-askgdpr]: success
 [2023-05-30 18:16:00] INFO root fetch - main [MainThread]: Store serial: [18304941]
+[2023-05-30 18:21:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18304941]
+[2023-05-30 18:21:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-30 18:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: a4pdf
+[2023-05-30 18:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ds-caselaw-marklogic-api-client
+[2023-05-30 18:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ds-io-utilities
+[2023-05-30 18:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spacy-llm
+[2023-05-30 18:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: policyengine-canada
+[2023-05-30 18:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ladybug-geometry
+[2023-05-30 18:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyinaturalist
+[2023-05-30 18:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyBaseConfig
+[2023-05-30 18:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pywencai
+[2023-05-30 18:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rekuest
+[2023-05-30 18:21:10] WARNING root fetch - processPackages [a4pdf]: Skipping, unable to determine old version
+[2023-05-30 18:21:10] INFO root fetch - processPackages [a4pdf]: Start processing: policyengine-us
+[2023-05-30 18:21:10] INFO root fetch - main [MainThread]: End processing [a4pdf] error
+[2023-05-30 18:21:10] INFO root fetch - processPackages [ds-io-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 18:21:10] WARNING root fetch - processPackages [PyBaseConfig]: Skipping, unable to determine old version
+[2023-05-30 18:21:10] INFO root fetch - processPackages [PyBaseConfig]: Start processing: Extractable
+[2023-05-30 18:21:10] INFO root fetch - main [MainThread]: End processing [PyBaseConfig] error
+[2023-05-30 18:21:10] INFO root fetch - processPackages [policyengine-canada]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-30 18:21:10] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-05-30 18:21:10] INFO root fetch - processPackages [rekuest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 18:21:10] INFO root fetch - processPackages [pyinaturalist]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-30 18:21:10] INFO root fetch - processPackages [pywencai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-05-30 18:21:10] INFO root fetch - processPackages [ladybug-geometry]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-30 18:21:10] INFO root fetch - processPackages [spacy-llm]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-30 18:21:10] INFO root fetch - processPackages [Extractable]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 18:21:11] INFO root fetch - processPackages [policyengine-us]: New version: [0.330.0] Old Version: [0.329.4]
+[2023-05-30 18:21:11] INFO root fetch - processPackages [rekuest]: executing diffoscope
+[2023-05-30 18:21:11] INFO root fetch - processPackages [rekuest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekuest-0.1.8.tar.gz tmp/rekuest-0.1.9.tar.gz --markdown 20230530/r/rekuest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 18:21:11] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/91/7d/27c462e8249dcd63e56a7213dda91ef707fa91bbb4fa11e4603a7d6562fc/pywencai-0.8.6.tar.gz
+[2023-05-30 18:21:11] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/35/c2/535aeb31dfa154fc31d335158ad1f8c07d4b7416ecb0597082ac57f0ecb4/ds_caselaw_marklogic_api_client-7.0.0.tar.gz
+[2023-05-30 18:21:11] INFO root fetch - processPackages [pyinaturalist]: Downloading https://files.pythonhosted.org/packages/d8/15/f5a0b6571cd745529b5cbba9f4f2c1d5c9a2c61f7dfd6827df205b464b27/pyinaturalist-0.9.0.tar.gz
+[2023-05-30 18:21:11] INFO root fetch - processPackages [spacy-llm]: Downloading https://files.pythonhosted.org/packages/3f/8c/4f4b46b02d2d04150fd2f60a36f631a437fbc4446a47b0564e718f2029ff/spacy-llm-0.1.2.tar.gz
+[2023-05-30 18:21:11] INFO root fetch - processPackages [Extractable]: Downloading https://files.pythonhosted.org/packages/bb/c1/ccce9e9335bd681f3a2f4e76b21e19cd69d4631cfb401992a524ffe6e455/Extractable-0.0.1.tar.gz
+[2023-05-30 18:21:11] INFO root fetch - processPackages [ladybug-geometry]: Downloading https://files.pythonhosted.org/packages/73/b9/eb0d232df800d6e5dfa1247520f85cfb316c1f1c0f1fa86404231a512779/ladybug-geometry-1.8.1.tar.gz
+[2023-05-30 18:21:11] WARNING root fetch - processPackages [Extractable]: Skipping package: exceeds size limit 19543517>=10485760
+[2023-05-30 18:21:11] INFO root fetch - main [MainThread]: End processing [Extractable] error
+[2023-05-30 18:21:11] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/a0/3a/928e8430691912c2e63a159cc0bf7e67da4866fa93ff8993ff56c5023313/policyengine-us-0.330.0.tar.gz
+[2023-05-30 18:21:11] INFO root fetch - processPackages [ds-io-utilities]: executing diffoscope
+[2023-05-30 18:21:11] INFO root fetch - processPackages [ds-io-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds-io-utilities-0.0.8.tar.gz tmp/ds-io-utilities-0.0.9.tar.gz --markdown 20230530/d/ds-io-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 18:21:11] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/b4/67/97024109bc762abb1f6fff0ef82ef6b4f7d33981ad1c1d41e89e2f1bf66b/pywencai-0.8.7.tar.gz
+[2023-05-30 18:21:11] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2023-05-30 18:21:11] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.8.0.tar.gz tmp/policyengine-canada-0.9.0.tar.gz --markdown 20230530/p/policyengine-canada/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 18:21:11] INFO root fetch - processPackages [spacy-llm]: Downloading https://files.pythonhosted.org/packages/19/9f/de16ac9b50dde2a04a90cb439458ed8c0d5dbd5da75292726b33e35d0603/spacy-llm-0.2.0.tar.gz
+[2023-05-30 18:21:11] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/5b/8a/0481fc7e5ba3e035cc1653d98c2f46ecd48b306fc79b995ec6af7e7b0f5d/ds_caselaw_marklogic_api_client-8.0.0.tar.gz
+[2023-05-30 18:21:11] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-05-30 18:21:11] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.8.6.tar.gz tmp/pywencai-0.8.7.tar.gz --markdown 20230530/p/pywencai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-05-30 18:21:11] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: executing diffoscope
+[2023-05-30 18:21:11] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds_caselaw_marklogic_api_client-7.0.0.tar.gz tmp/ds_caselaw_marklogic_api_client-8.0.0.tar.gz --markdown 20230530/d/ds-caselaw-marklogic-api-client/7.0.0-8.0.0/diff.md --exclude *.pyd
+[2023-05-30 18:21:11] INFO root fetch - processPackages [spacy-llm]: executing diffoscope
+[2023-05-30 18:21:11] INFO root fetch - processPackages [spacy-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-llm-0.1.2.tar.gz tmp/spacy-llm-0.2.0.tar.gz --markdown 20230530/s/spacy-llm/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 18:21:11] INFO root fetch - processPackages [pyinaturalist]: Downloading https://files.pythonhosted.org/packages/97/29/7b0a6dd62660c39b0ffa764cc9ad0d6b26a409ede87eb08734d52dfb845e/pyinaturalist-0.9.1.tar.gz
+[2023-05-30 18:21:11] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-05-30 18:21:11] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.329.4.tar.gz tmp/policyengine-us-0.330.0.tar.gz --markdown 20230530/p/policyengine-us/0.329.4-0.330.0/diff.md --exclude *.pyd
+[2023-05-30 18:21:11] INFO root fetch - processPackages [ladybug-geometry]: Downloading https://files.pythonhosted.org/packages/1d/6e/0f64e45efb187aa1304e9685bee2042ef1bd0a00daba0172bf39aadfa2b6/ladybug-geometry-1.9.0.tar.gz
+[2023-05-30 18:21:11] INFO root fetch - processPackages [ladybug-geometry]: executing diffoscope
+[2023-05-30 18:21:11] INFO root fetch - processPackages [ladybug-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-geometry-1.8.1.tar.gz tmp/ladybug-geometry-1.9.0.tar.gz --markdown 20230530/l/ladybug-geometry/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-30 18:21:11] INFO root fetch - processPackages [pyinaturalist]: executing diffoscope
+[2023-05-30 18:21:11] INFO root fetch - processPackages [pyinaturalist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyinaturalist-0.9.0.tar.gz tmp/pyinaturalist-0.9.1.tar.gz --markdown 20230530/p/pyinaturalist/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-30 18:21:12] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2023-05-30 18:21:13] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-05-30 18:21:13] INFO root fetch - main [MainThread]: End processing [ds-io-utilities]: success
+[2023-05-30 18:21:13] INFO root fetch - main [MainThread]: End processing [spacy-llm]: success
+[2023-05-30 18:21:13] INFO root fetch - main [MainThread]: End processing [ds-caselaw-marklogic-api-client]: success
+[2023-05-30 18:21:14] INFO root fetch - main [MainThread]: End processing [pyinaturalist]: success
+[2023-05-30 18:21:14] INFO root fetch - main [MainThread]: End processing [ladybug-geometry]: success
+[2023-05-30 18:21:14] INFO root fetch - main [MainThread]: End processing [rekuest]: success
+[2023-05-30 18:22:39] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-05-30 18:22:39] INFO root fetch - main [MainThread]: Store serial: [18304987]
