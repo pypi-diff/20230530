@@ -6275,3 +6275,64 @@
 [2023-05-30 08:04:55] INFO root fetch - main [MainThread]: End processing [syft]: success
 [2023-05-30 08:04:59] INFO root fetch - main [MainThread]: End processing [optuna]: success
 [2023-05-30 08:04:59] INFO root fetch - main [MainThread]: Store serial: [18298250]
+[2023-05-30 08:10:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298250]
+[2023-05-30 08:10:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-data-services-lwdp
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peakrdl-markdown
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyparaspace
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-nightly
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vbarongdatools001
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipyflow-core
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipyflow
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taichu-serve
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skulk
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chalkpy
+[2023-05-30 08:10:08] WARNING root fetch - processPackages [pyparaspace]: Skipping, unable to determine old version
+[2023-05-30 08:10:08] INFO root fetch - main [MainThread]: End processing [pyparaspace] error
+[2023-05-30 08:10:08] INFO root fetch - processPackages [peakrdl-markdown]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-30 08:10:08] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.9] Old Version: [2.0.30]
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ipyflow-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 08:10:08] INFO root fetch - processPackages [vbarongdatools001]: New version: [0.0.9.1] Old Version: [0.0.8]
+[2023-05-30 08:10:08] INFO root fetch - processPackages [skulk]: New version: [2.0.0rc1] Old Version: [1.4.6rc8]
+[2023-05-30 08:10:08] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.3.0.dev5118085147] Old Version: [2.0.3.0.dev5081531103]
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ipyflow]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 08:10:08] INFO root fetch - processPackages [chalkpy]: New version: [2.4.7] Old Version: [2.4.6]
+[2023-05-30 08:10:08] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230530] Old Version: [2.4.0.dev20230529]
+[2023-05-30 08:10:08] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/ce/bc/476ccbf962519cca4787a2074bbd64fc80df74af92277d86d1581821e716/taichu-serve-2.0.30.tar.gz
+[2023-05-30 08:10:08] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-30 08:10:08] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.4.6.tar.gz tmp/chalkpy-2.4.7.tar.gz --markdown 20230530/c/chalkpy/2.4.6-2.4.7/diff.md --exclude *.pyd
+[2023-05-30 08:10:08] INFO root fetch - processPackages [skulk]: Downloading https://files.pythonhosted.org/packages/13/31/ebb8dd7d37091d44cd9a071dd564df17281d81a4e06d59bc90dff3486b2e/skulk-2.0.0rc1-py2.py3-none-any.whl
+[2023-05-30 08:10:08] INFO root fetch - processPackages [peakrdl-markdown]: Downloading https://files.pythonhosted.org/packages/29/a6/1c67188775cfc4a5832b865509e269a4e1ff723343c97278e1dc077e02db/peakrdl_markdown-0.1.4.tar.gz
+[2023-05-30 08:10:08] INFO root fetch - processPackages [vbarongdatools001]: Downloading https://files.pythonhosted.org/packages/43/e3/388c4a2c8df3279a2349e45954efe642e8f594e2a9640ae3c34fa8285203/vbarongdatools001-0.0.8.tar.gz
+[2023-05-30 08:10:08] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/09/f1/4557c11d992139c58cda1e6f7a645f5dbf19e7b92309a56b3f9d40e81fb6/th2_data_services_lwdp-2.0.3.0.dev5081531103.tar.gz
+[2023-05-30 08:10:08] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e3/6e/75c08d1d0dfb1f5b6db367fc7d3783cad8375a9c01edd22b746710aab384/pyg_nightly-2.4.0.dev20230529.tar.gz
+[2023-05-30 08:10:08] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-05-30 08:10:08] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.30.tar.gz tmp/taichu-serve-2.0.9.tar.gz --markdown 20230530/t/taichu-serve/2.0.30-2.0.9/diff.md --exclude *.pyd
+[2023-05-30 08:10:08] INFO root fetch - processPackages [skulk]: executing diffoscope
+[2023-05-30 08:10:08] INFO root fetch - processPackages [skulk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skulk-1.4.6rc8-py2.py3-none-any.whl.zip tmp/skulk-2.0.0rc1-py2.py3-none-any.whl.zip --markdown 20230530/s/skulk/1.4.6rc8-2.0.0rc1/diff.md --exclude *.pyd
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ipyflow-core]: executing diffoscope
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ipyflow-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyflow-core-0.0.98.tar.gz tmp/ipyflow-core-0.0.99.tar.gz --markdown 20230530/i/ipyflow-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 08:10:08] INFO root fetch - processPackages [peakrdl-markdown]: Downloading https://files.pythonhosted.org/packages/71/2b/bbb1bda50e2fa858f1e9f357555ebf40e1934e9a73ce0385e9413b02974b/peakrdl_markdown-0.1.5.tar.gz
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ipyflow]: executing diffoscope
+[2023-05-30 08:10:08] INFO root fetch - processPackages [ipyflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyflow-0.0.98.tar.gz tmp/ipyflow-0.0.99.tar.gz --markdown 20230530/i/ipyflow/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 08:10:08] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/29/1e/ddcf282ba960b49a9c0e4d74a1eab9f6fad1529b1f41674db78fdd18059b/th2_data_services_lwdp-2.0.3.0.dev5118085147.tar.gz
+[2023-05-30 08:10:09] INFO root fetch - processPackages [vbarongdatools001]: Downloading https://files.pythonhosted.org/packages/97/56/a1b2972f44957b5fdfb58a6d180187413bab4dfb5cc0ad487cf52b6d01ed/vbarongdatools001-0.0.9.1.tar.gz
+[2023-05-30 08:10:09] INFO root fetch - processPackages [peakrdl-markdown]: executing diffoscope
+[2023-05-30 08:10:09] INFO root fetch - processPackages [peakrdl-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peakrdl_markdown-0.1.4.tar.gz tmp/peakrdl_markdown-0.1.5.tar.gz --markdown 20230530/p/peakrdl-markdown/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-30 08:10:09] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-05-30 08:10:09] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.3.0.dev5081531103.tar.gz tmp/th2_data_services_lwdp-2.0.3.0.dev5118085147.tar.gz --markdown 20230530/t/th2-data-services-lwdp/2.0.3.0.dev5081531103-2.0.3.0.dev5118085147/diff.md --exclude *.pyd
+[2023-05-30 08:10:09] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/7c/c5/fd63981c12123f07113dc4c0445ea423990ce1dcc28d004b1e30d68602cc/pyg_nightly-2.4.0.dev20230530.tar.gz
+[2023-05-30 08:10:09] INFO root fetch - processPackages [vbarongdatools001]: executing diffoscope
+[2023-05-30 08:10:09] INFO root fetch - processPackages [vbarongdatools001]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbarongdatools001-0.0.8.tar.gz tmp/vbarongdatools001-0.0.9.1.tar.gz --markdown 20230530/v/vbarongdatools001/0.0.8-0.0.9.1/diff.md --exclude *.pyd
+[2023-05-30 08:10:09] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-05-30 08:10:09] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230529.tar.gz tmp/pyg_nightly-2.4.0.dev20230530.tar.gz --markdown 20230530/p/pyg-nightly/2.4.0.dev20230529-2.4.0.dev20230530/diff.md --exclude *.pyd
+[2023-05-30 08:10:10] INFO root fetch - main [MainThread]: End processing [skulk]: success
+[2023-05-30 08:10:10] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-05-30 08:10:10] INFO root fetch - main [MainThread]: End processing [peakrdl-markdown]: success
+[2023-05-30 08:10:11] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-05-30 08:10:11] INFO root fetch - main [MainThread]: End processing [vbarongdatools001]: success
+[2023-05-30 08:10:11] INFO root fetch - main [MainThread]: End processing [ipyflow]: success
+[2023-05-30 08:10:12] INFO root fetch - main [MainThread]: End processing [ipyflow-core]: success
+[2023-05-30 08:10:14] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-30 08:10:14] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-05-30 08:10:14] INFO root fetch - main [MainThread]: Store serial: [18298279]
