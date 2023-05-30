@@ -4970,3 +4970,19 @@
 [2023-05-30 05:45:50] INFO root fetch - main [MainThread]: End processing [impy-array]: success
 [2023-05-30 05:45:51] INFO root fetch - main [MainThread]: End processing [odoo12-addon-assets-management]: success
 [2023-05-30 05:45:51] INFO root fetch - main [MainThread]: Store serial: [18297555]
+[2023-05-30 05:50:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297555]
+[2023-05-30 05:51:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-30 05:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magentropy
+[2023-05-30 05:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hello2
+[2023-05-30 05:51:01] INFO root fetch - processPackages [hello2]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-05-30 05:51:01] INFO root fetch - processPackages [magentropy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 05:51:01] INFO root fetch - processPackages [magentropy]: Downloading https://files.pythonhosted.org/packages/33/c3/8ebcacf53457d5631a3f2de5ea4ce6bc8ba479289e38d8d4679f230c5708/magentropy-0.1.3.tar.gz
+[2023-05-30 05:51:01] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/b2/90/afc6e2ad7bf83afcfc2d7e2b8a2963681dc0a7f5c6fb30c1632c44c5d1d4/hello2-1.8.3.tar.gz
+[2023-05-30 05:51:01] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-05-30 05:51:01] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.8.2.tar.gz tmp/hello2-1.8.3.tar.gz --markdown 20230530/h/hello2/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-05-30 05:51:01] INFO root fetch - processPackages [magentropy]: Downloading https://files.pythonhosted.org/packages/63/4a/15e54c4052a69ddf40c97605856167f7cd0ab25b2077585b5e6633b3b865/magentropy-0.1.4.tar.gz
+[2023-05-30 05:51:02] INFO root fetch - processPackages [magentropy]: executing diffoscope
+[2023-05-30 05:51:02] INFO root fetch - processPackages [magentropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magentropy-0.1.3.tar.gz tmp/magentropy-0.1.4.tar.gz --markdown 20230530/m/magentropy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 05:51:03] INFO root fetch - main [MainThread]: End processing [magentropy]: success
+[2023-05-30 05:51:03] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-05-30 05:51:03] INFO root fetch - main [MainThread]: Store serial: [18297561]
