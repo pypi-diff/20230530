@@ -12669,3 +12669,125 @@
 [2023-05-30 14:38:18] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
 [2023-05-30 14:40:55] INFO root fetch - main [MainThread]: End processing [taipy-gui]: success
 [2023-05-30 14:40:55] INFO root fetch - main [MainThread]: Store serial: [18302246]
+[2023-05-30 14:46:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18302246]
+[2023-05-30 14:46:05] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-30 14:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vid2info
+[2023-05-30 14:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onapsdk
+[2023-05-30 14:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unified-planning
+[2023-05-30 14:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pants-py-deploy
+[2023-05-30 14:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysiml
+[2023-05-30 14:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dipex
+[2023-05-30 14:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trino
+[2023-05-30 14:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensorcircuit-nightly
+[2023-05-30 14:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: file-name-attributes
+[2023-05-30 14:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mb-pandas
+[2023-05-30 14:46:06] INFO root fetch - processPackages [vid2info]: New version: [1.99] Old Version: [1.98]
+[2023-05-30 14:46:06] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-05-30 14:46:06] INFO root fetch - processPackages [pants-py-deploy]: New version: [0.0.18rc1] Old Version: [0.0.18]
+[2023-05-30 14:46:06] INFO root fetch - processPackages [trino]: New version: [0.326.0] Old Version: [0.325.0]
+[2023-05-30 14:46:06] INFO root fetch - processPackages [pysiml]: New version: [0.2.9.dev202305301239] Old Version: [0.2.9.dev202305241340]
+[2023-05-30 14:46:06] INFO root fetch - processPackages [mb-pandas]: New version: [1.0.202305301240] Old Version: [1.0.202305301226]
+[2023-05-30 14:46:06] INFO root fetch - processPackages [onapsdk]: New version: [9.6.0] Old Version: [9.5.1]
+[2023-05-30 14:46:06] INFO root fetch - processPackages [file-name-attributes]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-30 14:46:06] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-30 14:46:06] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230530] Old Version: [0.9.1.dev20230529]
+[2023-05-30 14:46:06] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/7a/dc/5ad7f9cbc94b70497f2048346e6938b7a7164c72920a04611a8c20f6035c/pysiml-0.2.9.dev202305241340-py3-none-any.whl
+[2023-05-30 14:46:06] INFO root fetch - processPackages [onapsdk]: Downloading https://files.pythonhosted.org/packages/34/8d/de179917b707edfd9bb4c028c49d7efff1d14da5c21b6030c9f58ff65c7e/onapsdk-9.5.1.tar.gz
+[2023-05-30 14:46:06] INFO root fetch - processPackages [trino]: Downloading https://files.pythonhosted.org/packages/f9/2b/f56981b4f7ba1a8b2b55336f9a7f8f11abde97da95e3aa00d5f32228cfd5/trino-0.326.0.tar.gz
+[2023-05-30 14:46:06] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/0f/09/2eea088933304890d0dc21a00287cd94ee6653182f814c0a5ef65aa8f9b2/pants_py_deploy-0.0.18rc1-py3-none-any.whl
+[2023-05-30 14:46:06] INFO root fetch - processPackages [mb-pandas]: Downloading https://files.pythonhosted.org/packages/74/28/581b2878922df02c9dd54cea8c82a5ec227f06af2ea1507382c38b0f3767/mb_pandas-1.0.202305301240-py3-none-any.whl
+[2023-05-30 14:46:06] INFO root fetch - processPackages [file-name-attributes]: Downloading https://files.pythonhosted.org/packages/14/a1/760c6b09488a88dc4aedb77a49e9d837d1bf1b969c2ed339002b933a3502/file-name-attributes-0.2.5.tar.gz
+[2023-05-30 14:46:06] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/47/44/b13fcddb5405f914c9898095cd7fd61a47cc4647a4065d3a61f28919f91a/unified_planning-0.6.0.94.dev1.tar.gz
+[2023-05-30 14:46:06] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-30 14:46:06] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230530/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-30 14:46:06] INFO root fetch - processPackages [trino]: executing diffoscope
+[2023-05-30 14:46:06] INFO root fetch - processPackages [trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trino-0.325.0.tar.gz tmp/trino-0.326.0.tar.gz --markdown 20230530/t/trino/0.325.0-0.326.0/diff.md --exclude *.pyd
+[2023-05-30 14:46:06] INFO root fetch - processPackages [mb-pandas]: executing diffoscope
+[2023-05-30 14:46:06] INFO root fetch - processPackages [mb-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pandas-1.0.202305301226-py3-none-any.whl.zip tmp/mb_pandas-1.0.202305301240-py3-none-any.whl.zip --markdown 20230530/m/mb-pandas/1.0.202305301226-1.0.202305301240/diff.md --exclude *.pyd
+[2023-05-30 14:46:06] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/05/cb/c91d632089787c029b79867422b44a1036a5f66826f05b074f11525534dd/tensorcircuit-nightly-0.9.1.dev20230530.tar.gz
+[2023-05-30 14:46:06] INFO root fetch - processPackages [pants-py-deploy]: executing diffoscope
+[2023-05-30 14:46:06] INFO root fetch - processPackages [pants-py-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants_py_deploy-0.0.18-py3-none-any.whl.zip tmp/pants_py_deploy-0.0.18rc1-py3-none-any.whl.zip --markdown 20230530/p/pants-py-deploy/0.0.18-0.0.18rc1/diff.md --exclude *.pyd
+[2023-05-30 14:46:06] INFO root fetch - processPackages [vid2info]: executing diffoscope
+[2023-05-30 14:46:06] INFO root fetch - processPackages [vid2info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vid2info-1.98.tar.gz tmp/vid2info-1.99.tar.gz --markdown 20230530/v/vid2info/1.98-1.99/diff.md --exclude *.pyd
+[2023-05-30 14:46:06] INFO root fetch - processPackages [file-name-attributes]: executing diffoscope
+[2023-05-30 14:46:06] INFO root fetch - processPackages [file-name-attributes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file-name-attributes-0.2.4.tar.gz tmp/file-name-attributes-0.2.5.tar.gz --markdown 20230530/f/file-name-attributes/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-30 14:46:06] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/b8/59/5e00b3db2934e9dbf54c7874f7f6abe1021a7874015a4b68e149e7dcf3ce/pysiml-0.2.9.dev202305301239-py3-none-any.whl
+[2023-05-30 14:46:06] INFO root fetch - processPackages [onapsdk]: Downloading https://files.pythonhosted.org/packages/54/d9/b0ae90c2fb352493a8e31989ab994f4540b0ae9dec8292b1372a1d01c994/onapsdk-9.6.0.tar.gz
+[2023-05-30 14:46:06] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-05-30 14:46:06] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230530/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-05-30 14:46:06] INFO root fetch - processPackages [pysiml]: executing diffoscope
+[2023-05-30 14:46:06] INFO root fetch - processPackages [pysiml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysiml-0.2.9.dev202305241340-py3-none-any.whl.zip tmp/pysiml-0.2.9.dev202305301239-py3-none-any.whl.zip --markdown 20230530/p/pysiml/0.2.9.dev202305241340-0.2.9.dev202305301239/diff.md --exclude *.pyd
+[2023-05-30 14:46:06] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-05-30 14:46:06] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230529.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230530.tar.gz --markdown 20230530/t/tensorcircuit-nightly/0.9.1.dev20230529-0.9.1.dev20230530/diff.md --exclude *.pyd
+[2023-05-30 14:46:06] INFO root fetch - processPackages [onapsdk]: executing diffoscope
+[2023-05-30 14:46:06] INFO root fetch - processPackages [onapsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onapsdk-9.5.1.tar.gz tmp/onapsdk-9.6.0.tar.gz --markdown 20230530/o/onapsdk/9.5.1-9.6.0/diff.md --exclude *.pyd
+[2023-05-30 14:46:08] INFO root fetch - processPackages [trino]: Start processing: feffery-antd-charts
+[2023-05-30 14:46:08] INFO root fetch - main [MainThread]: End processing [trino]: success
+[2023-05-30 14:46:08] INFO root fetch - processPackages [feffery-antd-charts]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-05-30 14:46:08] INFO root fetch - processPackages [feffery-antd-charts]: Downloading https://files.pythonhosted.org/packages/f9/f3/6ad824d78123497a085288ec78960c7656f20a43581d780714417bebca5a/feffery_antd_charts-0.0.1rc8.tar.gz
+[2023-05-30 14:46:08] INFO root fetch - processPackages [pants-py-deploy]: Start processing: scikit-llm
+[2023-05-30 14:46:08] INFO root fetch - main [MainThread]: End processing [pants-py-deploy]: success
+[2023-05-30 14:46:08] INFO root fetch - processPackages [mb-pandas]: Start processing: asset-tracking-pepsico
+[2023-05-30 14:46:08] INFO root fetch - main [MainThread]: End processing [mb-pandas]: success
+[2023-05-30 14:46:08] INFO root fetch - processPackages [scikit-llm]: New version: [0.1.0b3] Old Version: [0.1.0b2]
+[2023-05-30 14:46:08] INFO root fetch - processPackages [asset-tracking-pepsico]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 14:46:08] INFO root fetch - processPackages [asset-tracking-pepsico]: Downloading https://files.pythonhosted.org/packages/26/26/862b94265ac7c1a858e72b7881358a3224d8a333d272e6b4ecc1d859c182/asset_tracking_pepsico-0.0.1.tar.gz
+[2023-05-30 14:46:08] INFO root fetch - processPackages [scikit-llm]: executing diffoscope
+[2023-05-30 14:46:08] INFO root fetch - processPackages [scikit-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-llm-0.1.0b2.tar.gz tmp/scikit-llm-0.1.0b3.tar.gz --markdown 20230530/s/scikit-llm/0.1.0b2-0.1.0b3/diff.md --exclude *.pyd
+[2023-05-30 14:46:08] INFO root fetch - processPackages [asset-tracking-pepsico]: Downloading https://files.pythonhosted.org/packages/2b/13/467599982c060026d9fa8427881311afd99ebd243ed6cbeb2af395669802/asset_tracking_pepsico-0.0.2.tar.gz
+[2023-05-30 14:46:09] INFO root fetch - processPackages [asset-tracking-pepsico]: executing diffoscope
+[2023-05-30 14:46:09] INFO root fetch - processPackages [asset-tracking-pepsico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asset_tracking_pepsico-0.0.1.tar.gz tmp/asset_tracking_pepsico-0.0.2.tar.gz --markdown 20230530/a/asset-tracking-pepsico/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 14:46:09] INFO root fetch - processPackages [file-name-attributes]: Start processing: datashader
+[2023-05-30 14:46:09] INFO root fetch - main [MainThread]: End processing [file-name-attributes]: success
+[2023-05-30 14:46:09] INFO root fetch - processPackages [datashader]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-30 14:46:09] INFO root fetch - processPackages [feffery-antd-charts]: Downloading https://files.pythonhosted.org/packages/76/ae/d6ee455c7e74f25e30497b74a1ce3479c1a39c35544edfa90632bbf52182/feffery_antd_charts-0.0.1rc9.tar.gz
+[2023-05-30 14:46:09] INFO root fetch - processPackages [dipex]: Start processing: vstt
+[2023-05-30 14:46:09] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-30 14:46:09] WARNING root fetch - processPackages [vstt]: Skipping, unable to determine old version
+[2023-05-30 14:46:09] INFO root fetch - processPackages [vstt]: Start processing: manticore
+[2023-05-30 14:46:09] INFO root fetch - main [MainThread]: End processing [vstt] error
+[2023-05-30 14:46:09] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230530] Old Version: [0.3.8.dev230529]
+[2023-05-30 14:46:09] INFO root fetch - processPackages [datashader]: Downloading https://files.pythonhosted.org/packages/e3/23/df2ba203e2685c0795ec4eaf601f5f3bc7f186a16cfe2f3b63dcde56a1e6/datashader-0.8.0.tar.gz
+[2023-05-30 14:46:09] WARNING root fetch - processPackages [datashader]: Skipping package: exceeds size limit 30172251>=10485760
+[2023-05-30 14:46:09] INFO root fetch - processPackages [datashader]: Start processing: pulumi-newrelic
+[2023-05-30 14:46:09] INFO root fetch - main [MainThread]: End processing [datashader] error
+[2023-05-30 14:46:09] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2023-05-30 14:46:09] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/36/72/8cb0227e29491040cc5aed2f5cac801597aaa14db54c3adb42ef404cff28/manticore-0.3.8.dev230530.tar.gz
+[2023-05-30 14:46:09] INFO root fetch - processPackages [pysiml]: Start processing: kivygo
+[2023-05-30 14:46:09] INFO root fetch - main [MainThread]: End processing [pysiml]: success
+[2023-05-30 14:46:09] WARNING root fetch - processPackages [kivygo]: Skipping, unable to determine old version
+[2023-05-30 14:46:09] INFO root fetch - processPackages [kivygo]: Start processing: storey
+[2023-05-30 14:46:09] INFO root fetch - main [MainThread]: End processing [kivygo] error
+[2023-05-30 14:46:09] INFO root fetch - processPackages [storey]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-30 14:46:09] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-05-30 14:46:09] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230529.tar.gz tmp/manticore-0.3.8.dev230530.tar.gz --markdown 20230530/m/manticore/0.3.8.dev230529-0.3.8.dev230530/diff.md --exclude *.pyd
+[2023-05-30 14:46:09] INFO root fetch - processPackages [tensorcircuit-nightly]: Start processing: cluster-pack
+[2023-05-30 14:46:09] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-05-30 14:46:09] INFO root fetch - processPackages [cluster-pack]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-30 14:46:09] INFO root fetch - processPackages [onapsdk]: Start processing: leadguru-jobs
+[2023-05-30 14:46:09] INFO root fetch - main [MainThread]: End processing [onapsdk]: success
+[2023-05-30 14:46:10] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2023-05-30 14:46:10] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20230530/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/diff.md --exclude *.pyd
+[2023-05-30 14:46:10] INFO root fetch - processPackages [cluster-pack]: Downloading https://files.pythonhosted.org/packages/34/9d/c33a7a80538e68c6afde4fd82f2097573d9c2d368bb7cfec66036a219991/cluster_pack-0.2.9-py3-none-any.whl
+[2023-05-30 14:46:10] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-30 14:46:10] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/e3/da/fc6a0ba82202be00056a5eb7fbfcebdc38083c6f4ab7ddf5dde6d4f0fa8b/storey-1.4.1.tar.gz
+[2023-05-30 14:46:10] INFO root fetch - processPackages [storey]: executing diffoscope
+[2023-05-30 14:46:10] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.4.0.tar.gz tmp/storey-1.4.1.tar.gz --markdown 20230530/s/storey/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-30 14:46:10] INFO root fetch - processPackages [feffery-antd-charts]: executing diffoscope
+[2023-05-30 14:46:10] INFO root fetch - processPackages [feffery-antd-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_antd_charts-0.0.1rc8.tar.gz tmp/feffery_antd_charts-0.0.1rc9.tar.gz --markdown 20230530/f/feffery-antd-charts/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-05-30 14:46:10] INFO root fetch - processPackages [cluster-pack]: Downloading https://files.pythonhosted.org/packages/15/85/efbbe5fcc51e58d10ab8faddb3b6c96211b81235a1ddbe4e67cb956d14da/cluster_pack-0.3.0-py3-none-any.whl
+[2023-05-30 14:46:10] INFO root fetch - main [MainThread]: End processing [scikit-llm]: success
+[2023-05-30 14:46:10] INFO root fetch - processPackages [cluster-pack]: executing diffoscope
+[2023-05-30 14:46:10] INFO root fetch - processPackages [cluster-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_pack-0.2.9-py3-none-any.whl.zip tmp/cluster_pack-0.3.0-py3-none-any.whl.zip --markdown 20230530/c/cluster-pack/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 14:46:10] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-30 14:46:10] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230530/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-30 14:46:10] INFO root fetch - main [MainThread]: End processing [asset-tracking-pepsico]: success
+[2023-05-30 14:46:11] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-05-30 14:46:12] INFO root fetch - main [MainThread]: End processing [cluster-pack]: success
+[2023-05-30 14:46:12] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2023-05-30 14:46:12] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-30 14:46:12] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2023-05-30 14:46:13] INFO root fetch - main [MainThread]: End processing [vid2info]: success
+[2023-05-30 14:46:13] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-05-30 14:46:35] INFO root fetch - main [MainThread]: End processing [feffery-antd-charts]: success
+[2023-05-30 14:46:35] INFO root fetch - main [MainThread]: Store serial: [18302321]
