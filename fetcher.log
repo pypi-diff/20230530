@@ -18693,3 +18693,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 19:32:18] INFO root fetch - main [MainThread]: End processing [bcos]: success
 [2023-05-30 19:32:19] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
 [2023-05-30 19:32:19] INFO root fetch - main [MainThread]: Store serial: [18305743]
+[2023-05-30 19:37:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18305743]
+[2023-05-30 19:37:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-30 19:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: predibase-api
+[2023-05-30 19:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AHMeD-OPs
+[2023-05-30 19:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biometeo
+[2023-05-30 19:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peachdb
+[2023-05-30 19:37:28] INFO root fetch - processPackages [peachdb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 19:37:28] WARNING root fetch - processPackages [predibase-api]: Skipping, unable to determine old version
+[2023-05-30 19:37:28] INFO root fetch - processPackages [AHMeD-OPs]: New version: [1.0] Old Version: [0.2]
+[2023-05-30 19:37:28] INFO root fetch - main [MainThread]: End processing [predibase-api] error
+[2023-05-30 19:37:28] INFO root fetch - processPackages [biometeo]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-30 19:37:29] INFO root fetch - processPackages [biometeo]: Downloading https://files.pythonhosted.org/packages/c7/8e/f9c2c6f5c197e2152ba869278b8b19836f4503451f95a065fe0170918d46/biometeo-0.2.5-cp39-cp39-win_amd64.whl
+[2023-05-30 19:37:29] INFO root fetch - processPackages [peachdb]: Downloading https://files.pythonhosted.org/packages/d8/49/152b8f9bf6e58d0cc88c51c43d2a2a39f5b8ed9a76b7f3573df45e84b407/peachdb-0.0.9.tar.gz
+[2023-05-30 19:37:29] INFO root fetch - processPackages [AHMeD-OPs]: Downloading https://files.pythonhosted.org/packages/c2/82/88ba0c23ff0813589670375a1320afe7f4a4579d3bcc10c15da96fad834b/AHMeD_OPs-1.0-py3-none-any.whl
+[2023-05-30 19:37:29] INFO root fetch - processPackages [AHMeD-OPs]: executing diffoscope
+[2023-05-30 19:37:29] INFO root fetch - processPackages [AHMeD-OPs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AHMeD_OPs-0.2-py3-none-any.whl.zip tmp/AHMeD_OPs-1.0-py3-none-any.whl.zip --markdown 20230530/A/AHMeD-OPs/0.2-1.0/diff.md --exclude *.pyd
+[2023-05-30 19:37:29] INFO root fetch - processPackages [peachdb]: executing diffoscope
+[2023-05-30 19:37:29] INFO root fetch - processPackages [peachdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peachdb-0.0.8.tar.gz tmp/peachdb-0.0.9.tar.gz --markdown 20230530/p/peachdb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 19:37:29] INFO root fetch - processPackages [biometeo]: Downloading https://files.pythonhosted.org/packages/dc/f9/3b43aec7adf6fc0fd61c03363e0156867c70b301cc324b40024a1c7fdd21/biometeo-0.2.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-30 19:37:29] INFO root fetch - processPackages [biometeo]: executing diffoscope
+[2023-05-30 19:37:29] INFO root fetch - processPackages [biometeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biometeo-0.2.5-cp39-cp39-win_amd64.whl.zip tmp/biometeo-0.2.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230530/b/biometeo/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-30 19:37:30] INFO root fetch - main [MainThread]: End processing [peachdb]: success
+[2023-05-30 19:37:30] INFO root fetch - main [MainThread]: End processing [AHMeD-OPs]: success
+[2023-05-30 19:37:31] INFO root fetch - main [MainThread]: End processing [biometeo]: success
+[2023-05-30 19:37:31] INFO root fetch - main [MainThread]: Store serial: [18305759]
