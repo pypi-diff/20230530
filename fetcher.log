@@ -18971,3 +18971,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 19:59:21] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.6.tar.gz tmp/ddtrace-1.9.7.tar.gz --markdown 20230530/d/ddtrace/1.9.6-1.9.7/diff.md --exclude *.pyd
 [2023-05-30 20:01:03] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
 [2023-05-30 20:01:03] INFO root fetch - main [MainThread]: Store serial: [18305950]
+[2023-05-30 20:06:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18305950]
+[2023-05-30 20:06:13] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-30 20:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easyapi-django
+[2023-05-30 20:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: designer2
+[2023-05-30 20:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bikeshed
+[2023-05-30 20:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: propan
+[2023-05-30 20:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jwt-validate
+[2023-05-30 20:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dojo-truant
+[2023-05-30 20:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wildmatch
+[2023-05-30 20:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alexdlbrain
+[2023-05-30 20:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jwt-validate
+[2023-05-30 20:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: craft-parts
+[2023-05-30 20:06:13] WARNING root fetch - processPackages [designer2]: Skipping, unable to determine old version
+[2023-05-30 20:06:13] INFO root fetch - processPackages [designer2]: Start processing: cioc4d
+[2023-05-30 20:06:13] INFO root fetch - main [MainThread]: End processing [designer2] error
+[2023-05-30 20:06:13] INFO root fetch - processPackages [jwt-validate]: New version: [0.3.6] Old Version: [0.3.5.4]
+[2023-05-30 20:06:13] INFO root fetch - processPackages [dojo-truant]: New version: [2023.5.30.0] Old Version: [2023.4.7.3]
+[2023-05-30 20:06:13] INFO root fetch - processPackages [jwt-validate]: New version: [0.3.6] Old Version: [0.3.5.4]
+[2023-05-30 20:06:13] INFO root fetch - processPackages [wildmatch]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-30 20:06:13] INFO root fetch - processPackages [easyapi-django]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 20:06:13] INFO root fetch - processPackages [propan]: New version: [0.1.2.5] Old Version: [0.1.2.4]
+[2023-05-30 20:06:13] WARNING root fetch - processPackages [alexdlbrain]: Skipping, unable to determine old version
+[2023-05-30 20:06:13] INFO root fetch - processPackages [alexdlbrain]: Start processing: metaphor-connectors
+[2023-05-30 20:06:13] INFO root fetch - main [MainThread]: End processing [alexdlbrain] error
+[2023-05-30 20:06:13] INFO root fetch - processPackages [bikeshed]: New version: [3.9.0] Old Version: [3.8.2]
+[2023-05-30 20:06:13] INFO root fetch - processPackages [craft-parts]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-30 20:06:13] INFO root fetch - processPackages [wildmatch]: executing diffoscope
+[2023-05-30 20:06:13] INFO root fetch - processPackages [wildmatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wildmatch-0.3.1.tar.gz tmp/wildmatch-0.3.2.tar.gz --markdown 20230530/w/wildmatch/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-30 20:06:13] INFO root fetch - processPackages [cioc4d]: New version: [0.7.9] Old Version: [0.7.10]
+[2023-05-30 20:06:13] INFO root fetch - processPackages [dojo-truant]: executing diffoscope
+[2023-05-30 20:06:13] INFO root fetch - processPackages [dojo-truant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dojo_truant-2023.4.7.3.tar.gz tmp/dojo_truant-2023.5.30.0.tar.gz --markdown 20230530/d/dojo-truant/2023.4.7.3-2023.5.30.0/diff.md --exclude *.pyd
+[2023-05-30 20:06:13] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-30 20:06:13] INFO root fetch - processPackages [jwt-validate]: Downloading https://files.pythonhosted.org/packages/2b/03/7468fe0cadb9f1d0ff93b8c00e353415af13e3a702185517906f62c41f4b/jwt_validate-0.3.6.tar.gz
+[2023-05-30 20:06:13] INFO root fetch - processPackages [jwt-validate]: Downloading https://files.pythonhosted.org/packages/2b/03/7468fe0cadb9f1d0ff93b8c00e353415af13e3a702185517906f62c41f4b/jwt_validate-0.3.6.tar.gz
+[2023-05-30 20:06:13] INFO root fetch - processPackages [cioc4d]: Downloading https://files.pythonhosted.org/packages/28/01/7ca2e308f39c09b0164ec2f12574584ff3c03f5f69e00f4e8f9c2b7617c2/cioc4d-0.7.10-py2.py3-none-any.whl
+[2023-05-30 20:06:13] INFO root fetch - processPackages [easyapi-django]: Downloading https://files.pythonhosted.org/packages/95/09/0a6b31ed99ff9e717b38e2df00ebdc3e4db5e87f43f04a96d487c3ebf61e/easyapi_django-0.0.8.tar.gz
+[2023-05-30 20:06:13] INFO root fetch - processPackages [bikeshed]: Downloading https://files.pythonhosted.org/packages/8d/01/4bf86ee6dd68b65b221cc8cd652fcdadf6ef3763d556ba2ed9d328fd7e70/bikeshed-3.8.2.tar.gz
+[2023-05-30 20:06:13] INFO root fetch - processPackages [jwt-validate]: executing diffoscope
+[2023-05-30 20:06:13] INFO root fetch - processPackages [jwt-validate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwt_validate-0.3.5.4.tar.gz tmp/jwt_validate-0.3.6.tar.gz --markdown 20230530/j/jwt-validate/0.3.5.4-0.3.6/diff.md --exclude *.pyd
+[2023-05-30 20:06:13] INFO root fetch - processPackages [jwt-validate]: executing diffoscope
+[2023-05-30 20:06:13] INFO root fetch - processPackages [jwt-validate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwt_validate-0.3.5.4.tar.gz tmp/jwt_validate-0.3.6.tar.gz --markdown 20230530/j/jwt-validate/0.3.5.4-0.3.6/diff.md --exclude *.pyd
+[2023-05-30 20:06:13] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/2e/71/56051d5e343700210a7c0d123cb03904f31540088e039f78281faad53c6a/propan-0.1.2.5.tar.gz
+[2023-05-30 20:06:14] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-05-30 20:06:14] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.1.2.4.tar.gz tmp/propan-0.1.2.5.tar.gz --markdown 20230530/p/propan/0.1.2.4-0.1.2.5/diff.md --exclude *.pyd
+[2023-05-30 20:06:14] INFO root fetch - processPackages [craft-parts]: executing diffoscope
+[2023-05-30 20:06:14] INFO root fetch - processPackages [craft-parts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft-parts-1.8.1.tar.gz tmp/craft-parts-1.9.0.tar.gz --markdown 20230530/c/craft-parts/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-30 20:06:14] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-05-30 20:06:14] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230530/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-30 20:06:14] INFO root fetch - processPackages [cioc4d]: Downloading https://files.pythonhosted.org/packages/c4/cb/026999921ff4da4a45dd6dd340734af3e50b1179c6759eaffa5d81b7f24c/cioc4d-0.7.9-py2.py3-none-any.whl
+[2023-05-30 20:06:14] INFO root fetch - processPackages [easyapi-django]: Downloading https://files.pythonhosted.org/packages/95/62/c460ae663ba5b8e9d71d071d3ec9427fbf583cfffe09c89d267e24fe810f/easyapi_django-0.0.9.tar.gz
+[2023-05-30 20:06:14] INFO root fetch - processPackages [easyapi-django]: executing diffoscope
+[2023-05-30 20:06:14] INFO root fetch - processPackages [easyapi-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyapi_django-0.0.8.tar.gz tmp/easyapi_django-0.0.9.tar.gz --markdown 20230530/e/easyapi-django/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 20:06:14] INFO root fetch - processPackages [cioc4d]: executing diffoscope
+[2023-05-30 20:06:14] INFO root fetch - processPackages [cioc4d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cioc4d-0.7.10-py2.py3-none-any.whl.zip tmp/cioc4d-0.7.9-py2.py3-none-any.whl.zip --markdown 20230530/c/cioc4d/0.7.10-0.7.9/diff.md --exclude *.pyd
+[2023-05-30 20:06:15] INFO root fetch - processPackages [wildmatch]: Start processing: piperider-nightly
+[2023-05-30 20:06:15] INFO root fetch - main [MainThread]: End processing [wildmatch]: success
+[2023-05-30 20:06:15] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-05-30 20:06:15] INFO root fetch - processPackages [bikeshed]: Downloading https://files.pythonhosted.org/packages/0d/7b/7da3451cea6ea989a5021170faad121ec4e6491f37be25499c9e2f10b1cb/bikeshed-3.9.0.tar.gz
+[2023-05-30 20:06:15] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-05-30 20:06:15] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230530/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-05-30 20:06:15] INFO root fetch - processPackages [jwt-validate]: Start processing: jwt-validate
+[2023-05-30 20:06:15] INFO root fetch - main [MainThread]: End processing [jwt-validate]: success
+[2023-05-30 20:06:15] INFO root fetch - processPackages [jwt-validate]: New version: [0.3.8.1] Old Version: [0.3.8]
+[2023-05-30 20:06:15] INFO root fetch - main [MainThread]: End processing [jwt-validate]: success
+[2023-05-30 20:06:15] INFO root fetch - main [MainThread]: End processing [dojo-truant]: success
+[2023-05-30 20:06:15] INFO root fetch - processPackages [jwt-validate]: Downloading https://files.pythonhosted.org/packages/87/b7/76e005d350c56d496ada115438affdf85508892b6c94570bb040e0cd3605/jwt_validate-0.3.8.tar.gz
+[2023-05-30 20:06:16] INFO root fetch - processPackages [jwt-validate]: Downloading https://files.pythonhosted.org/packages/d3/dc/c195b840150d0ae8877f95f4708f89d3ef368d39c5a610b3ee05b6ad4cad/jwt_validate-0.3.8.1.tar.gz
+[2023-05-30 20:06:16] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-05-30 20:06:16] INFO root fetch - processPackages [jwt-validate]: executing diffoscope
+[2023-05-30 20:06:16] INFO root fetch - processPackages [jwt-validate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwt_validate-0.3.8.tar.gz tmp/jwt_validate-0.3.8.1.tar.gz --markdown 20230530/j/jwt-validate/0.3.8-0.3.8.1/diff.md --exclude *.pyd
+[2023-05-30 20:06:16] INFO root fetch - main [MainThread]: End processing [easyapi-django]: success
+[2023-05-30 20:06:16] INFO root fetch - main [MainThread]: End processing [craft-parts]: success
+[2023-05-30 20:06:16] INFO root fetch - processPackages [bikeshed]: executing diffoscope
+[2023-05-30 20:06:16] INFO root fetch - processPackages [bikeshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bikeshed-3.8.2.tar.gz tmp/bikeshed-3.9.0.tar.gz --markdown 20230530/b/bikeshed/3.8.2-3.9.0/diff.md --exclude *.pyd
+[2023-05-30 20:06:16] INFO root fetch - main [MainThread]: End processing [cioc4d]: success
+[2023-05-30 20:06:17] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-05-30 20:06:17] INFO root fetch - main [MainThread]: End processing [jwt-validate]: success
+[2023-05-30 20:06:18] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-05-30 20:09:16] ERROR root fetch - processPackages [bikeshed]: Timeout during execution of pkgdiff
+[2023-05-30 20:09:16] INFO root fetch - main [MainThread]: End processing [bikeshed] error
+[2023-05-30 20:09:16] INFO root fetch - main [MainThread]: Store serial: [18306045]
