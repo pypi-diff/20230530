@@ -17555,3 +17555,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 18:27:56] INFO root fetch - main [MainThread]: End processing [rsocket]: success
 [2023-05-30 18:27:57] INFO root fetch - main [MainThread]: End processing [gs-quant]: success
 [2023-05-30 18:27:57] INFO root fetch - main [MainThread]: Store serial: [18305065]
+[2023-05-30 18:33:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18305065]
+[2023-05-30 18:33:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-30 18:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uium
+[2023-05-30 18:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sisaptools
+[2023-05-30 18:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: readlog
+[2023-05-30 18:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emotional
+[2023-05-30 18:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m9s-stock-package-shipping-sale-wizard
+[2023-05-30 18:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: feathub-nightly
+[2023-05-30 18:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mbox2m365
+[2023-05-30 18:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xpanse
+[2023-05-30 18:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stigg-api-client
+[2023-05-30 18:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ds-io-utilities
+[2023-05-30 18:33:06] INFO root fetch - processPackages [uium]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-30 18:33:06] INFO root fetch - processPackages [emotional]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-30 18:33:06] INFO root fetch - processPackages [m9s-stock-package-shipping-sale-wizard]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-05-30 18:33:06] INFO root fetch - processPackages [xpanse]: New version: [2.0.0rc1] Old Version: [1.3.1]
+[2023-05-30 18:33:06] INFO root fetch - processPackages [mbox2m365]: New version: [3.0.8] Old Version: [3.0.6]
+[2023-05-30 18:33:06] INFO root fetch - processPackages [readlog]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-30 18:33:06] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.448.0]
+[2023-05-30 18:33:06] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230529] Old Version: [0.1.dev20230528]
+[2023-05-30 18:33:06] INFO root fetch - processPackages [ds-io-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 18:33:06] INFO root fetch - processPackages [sisaptools]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-30 18:33:07] INFO root fetch - processPackages [ds-io-utilities]: executing diffoscope
+[2023-05-30 18:33:07] INFO root fetch - processPackages [ds-io-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds-io-utilities-0.0.8.tar.gz tmp/ds-io-utilities-0.0.9.tar.gz --markdown 20230530/d/ds-io-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 18:33:07] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/73/e6/2e50e2c9e7eb3c391e7cd6b4f776be253c2d8ab633821cfa73a48c6b1d31/stigg_api_client-0.448.0.tar.gz
+[2023-05-30 18:33:07] ERROR root fetch - processPackages [uium]: Unable to fetch info: No such project/version 'uium' 0.3.3
+[2023-05-30 18:33:07] INFO root fetch - processPackages [uium]: Start processing: kurve
+[2023-05-30 18:33:07] INFO root fetch - main [MainThread]: End processing [uium] error
+[2023-05-30 18:33:07] INFO root fetch - processPackages [xpanse]: Downloading https://files.pythonhosted.org/packages/a6/1a/2ef2de1520a2d75a79f8bb01b28fbc9634c92e3626fb4243df96073402c8/xpanse-1.3.1.tar.gz
+[2023-05-30 18:33:07] INFO root fetch - processPackages [kurve]: New version: [0.3] Old Version: [0.2]
+[2023-05-30 18:33:07] INFO root fetch - processPackages [readlog]: Downloading https://files.pythonhosted.org/packages/a3/89/3d85a11cbfb62de96d685f1eb4799807ae03d5c543c054ff418a08d14fc4/readlog-1.1.3.tar.gz
+[2023-05-30 18:33:07] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/6f/b9/34860f3273028e6fb827cdc008f8041d6cc0458a612a57c8bc8e587535b5/feathub_nightly-0.1.dev20230528-py3-none-any.whl
+[2023-05-30 18:33:07] INFO root fetch - processPackages [m9s-stock-package-shipping-sale-wizard]: Downloading https://files.pythonhosted.org/packages/7a/19/f95659dfca2bafef4ffa396c71dd7889396eb612e4172ebc0b2c7dc198ef/m9s_stock_package_shipping_sale_wizard-6.0.0.tar.gz
+[2023-05-30 18:33:07] INFO root fetch - processPackages [mbox2m365]: Downloading https://files.pythonhosted.org/packages/6c/31/171401930c8923f943a1ea671a726209113bdb0759b36af9716eb61eaa12/mbox2m365-3.0.6.tar.gz
+[2023-05-30 18:33:07] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12191742>=10485760
+[2023-05-30 18:33:07] INFO root fetch - processPackages [feathub-nightly]: Start processing: ladybug-geometry-polyskel
+[2023-05-30 18:33:07] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-05-30 18:33:07] INFO root fetch - processPackages [ladybug-geometry-polyskel]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-30 18:33:07] INFO root fetch - processPackages [emotional]: Downloading https://files.pythonhosted.org/packages/63/39/c449efdf1fd6a46127f91b21dc3fdd5cf8891c1c6a801e85fddbfef02142/emotional-0.3.0.tar.gz
+[2023-05-30 18:33:07] INFO root fetch - processPackages [kurve]: Downloading https://files.pythonhosted.org/packages/8b/d6/5f394ff9161c7a6bb86921aeea74e39c396672347b8bfdcaec83a35be825/kurve-0.2.tar.gz
+[2023-05-30 18:33:07] INFO root fetch - processPackages [readlog]: executing diffoscope
+[2023-05-30 18:33:07] INFO root fetch - processPackages [readlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readlog-1.1.2.tar.gz tmp/readlog-1.1.3.tar.gz --markdown 20230530/r/readlog/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-30 18:33:07] INFO root fetch - processPackages [emotional]: executing diffoscope
+[2023-05-30 18:33:07] INFO root fetch - processPackages [emotional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emotional-0.2.1.tar.gz tmp/emotional-0.3.0.tar.gz --markdown 20230530/e/emotional/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 18:33:07] INFO root fetch - processPackages [sisaptools]: executing diffoscope
+[2023-05-30 18:33:07] INFO root fetch - processPackages [sisaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sisaptools-1.9.8.tar.gz tmp/sisaptools-1.9.9.tar.gz --markdown 20230530/s/sisaptools/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-30 18:33:07] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-30 18:33:07] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.448.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230530/s/stigg-api-client/0.448.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-30 18:33:07] INFO root fetch - processPackages [xpanse]: Downloading https://files.pythonhosted.org/packages/cd/e9/60e143ae1fdf1d7efc8ab2953faa94341be9b90ddd90b55dc743b7ff22bc/xpanse-2.0.0rc1.tar.gz
+[2023-05-30 18:33:07] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Downloading https://files.pythonhosted.org/packages/70/a4/3886c230dd5638c38bc22e301d1316c55197f4909db218feb0b686d8d0ca/ladybug-geometry-polyskel-1.4.8.tar.gz
+[2023-05-30 18:33:07] INFO root fetch - processPackages [m9s-stock-package-shipping-sale-wizard]: Downloading https://files.pythonhosted.org/packages/23/30/02840489c617e8f98b574c74f2b81044690c230010377081562de58e7afd/m9s_stock_package_shipping_sale_wizard-6.0.1.tar.gz
+[2023-05-30 18:33:07] INFO root fetch - processPackages [xpanse]: executing diffoscope
+[2023-05-30 18:33:07] INFO root fetch - processPackages [xpanse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpanse-1.3.1.tar.gz tmp/xpanse-2.0.0rc1.tar.gz --markdown 20230530/x/xpanse/1.3.1-2.0.0rc1/diff.md --exclude *.pyd
+[2023-05-30 18:33:07] INFO root fetch - processPackages [m9s-stock-package-shipping-sale-wizard]: executing diffoscope
+[2023-05-30 18:33:07] INFO root fetch - processPackages [m9s-stock-package-shipping-sale-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m9s_stock_package_shipping_sale_wizard-6.0.0.tar.gz tmp/m9s_stock_package_shipping_sale_wizard-6.0.1.tar.gz --markdown 20230530/m/m9s-stock-package-shipping-sale-wizard/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-05-30 18:33:07] INFO root fetch - processPackages [kurve]: Downloading https://files.pythonhosted.org/packages/b0/39/565c42e323d8a21c33d6073cc96702612b5a0bc0d4c464ebeb2ddee054fa/kurve-0.3.tar.gz
+[2023-05-30 18:33:07] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Downloading https://files.pythonhosted.org/packages/66/a8/40ffbd6d2853e09d79d44a42df2f0eb3ad91930a41d2879849788b686b64/ladybug-geometry-polyskel-1.4.9.tar.gz
+[2023-05-30 18:33:07] INFO root fetch - processPackages [kurve]: executing diffoscope
+[2023-05-30 18:33:07] INFO root fetch - processPackages [kurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kurve-0.2.tar.gz tmp/kurve-0.3.tar.gz --markdown 20230530/k/kurve/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-30 18:33:07] INFO root fetch - processPackages [ladybug-geometry-polyskel]: executing diffoscope
+[2023-05-30 18:33:07] INFO root fetch - processPackages [ladybug-geometry-polyskel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-geometry-polyskel-1.4.8.tar.gz tmp/ladybug-geometry-polyskel-1.4.9.tar.gz --markdown 20230530/l/ladybug-geometry-polyskel/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-30 18:33:08] INFO root fetch - processPackages [mbox2m365]: Downloading https://files.pythonhosted.org/packages/93/dd/07f5465ee90fb81b7f6df237ecb0abefefecf0c984adef70730493503804/mbox2m365-3.0.8.tar.gz
+[2023-05-30 18:33:08] INFO root fetch - processPackages [ds-io-utilities]: Start processing: apache-superset-iteco
+[2023-05-30 18:33:08] INFO root fetch - main [MainThread]: End processing [ds-io-utilities]: success
+[2023-05-30 18:33:08] INFO root fetch - processPackages [mbox2m365]: executing diffoscope
+[2023-05-30 18:33:08] INFO root fetch - processPackages [mbox2m365]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbox2m365-3.0.6.tar.gz tmp/mbox2m365-3.0.8.tar.gz --markdown 20230530/m/mbox2m365/3.0.6-3.0.8/diff.md --exclude *.pyd
+[2023-05-30 18:33:08] WARNING root fetch - processPackages [apache-superset-iteco]: Skipping, unable to determine old version
+[2023-05-30 18:33:08] INFO root fetch - processPackages [apache-superset-iteco]: Start processing: drf-stripe-subscription
+[2023-05-30 18:33:08] INFO root fetch - main [MainThread]: End processing [apache-superset-iteco] error
+[2023-05-30 18:33:08] INFO root fetch - processPackages [drf-stripe-subscription]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-30 18:33:08] INFO root fetch - processPackages [drf-stripe-subscription]: Downloading https://files.pythonhosted.org/packages/54/6d/d241b45939f34bc0f5b9c1f3699eea5fc23fa46984c49b85e8e5c61d038c/drf-stripe-subscription-1.1.9.tar.gz
+[2023-05-30 18:33:08] INFO root fetch - processPackages [readlog]: Start processing: CodeToCAD
+[2023-05-30 18:33:08] INFO root fetch - main [MainThread]: End processing [readlog]: success
+[2023-05-30 18:33:08] INFO root fetch - processPackages [drf-stripe-subscription]: Downloading https://files.pythonhosted.org/packages/08/ed/4f7b49bdd77919cbc983787be94b4cd6073fd6455c04d6ad9aa91f14e725/drf-stripe-subscription-1.2.0.tar.gz
+[2023-05-30 18:33:08] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1685464328]
+[2023-05-30 18:33:08] INFO root fetch - processPackages [drf-stripe-subscription]: executing diffoscope
+[2023-05-30 18:33:08] INFO root fetch - processPackages [drf-stripe-subscription]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-stripe-subscription-1.1.9.tar.gz tmp/drf-stripe-subscription-1.2.0.tar.gz --markdown 20230530/d/drf-stripe-subscription/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-30 18:33:09] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/44/a7/8070f310309a439c681099868fc7368fa595b4ef4fd79a103ad767dae469/CodeToCAD-0.2.1685464328.tar.gz
+[2023-05-30 18:33:09] INFO root fetch - main [MainThread]: End processing [sisaptools]: success
+[2023-05-30 18:33:09] INFO root fetch - main [MainThread]: End processing [xpanse]: success
+[2023-05-30 18:33:09] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-05-30 18:33:09] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-05-30 18:33:09] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1685464328.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230530/C/CodeToCAD/0.2.1685464328-0.2.6/diff.md --exclude *.pyd
+[2023-05-30 18:33:09] INFO root fetch - main [MainThread]: End processing [emotional]: success
+[2023-05-30 18:33:09] INFO root fetch - main [MainThread]: End processing [m9s-stock-package-shipping-sale-wizard]: success
+[2023-05-30 18:33:09] INFO root fetch - main [MainThread]: End processing [kurve]: success
+[2023-05-30 18:33:10] INFO root fetch - main [MainThread]: End processing [mbox2m365]: success
+[2023-05-30 18:33:10] INFO root fetch - main [MainThread]: End processing [ladybug-geometry-polyskel]: success
+[2023-05-30 18:33:10] INFO root fetch - main [MainThread]: End processing [drf-stripe-subscription]: success
+[2023-05-30 18:33:11] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-30 18:33:11] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-05-30 18:33:11] INFO root fetch - main [MainThread]: Store serial: [18305115]
