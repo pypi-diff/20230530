@@ -3798,3 +3798,24 @@
 [2023-05-30 03:55:15] INFO root fetch - main [MainThread]: End processing [yog]: success
 [2023-05-30 03:55:16] INFO root fetch - main [MainThread]: End processing [pautobot]: success
 [2023-05-30 03:55:16] INFO root fetch - main [MainThread]: Store serial: [18296814]
+[2023-05-30 04:00:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296814]
+[2023-05-30 04:00:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-30 04:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fa_singer_io
+[2023-05-30 04:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: configzen
+[2023-05-30 04:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pautobot
+[2023-05-30 04:00:24] INFO root fetch - processPackages [fa_singer_io]: New version: [1.7.0] Old Version: [1.6.2]
+[2023-05-30 04:00:24] INFO root fetch - processPackages [configzen]: New version: [0.1.46] Old Version: [0.1.45]
+[2023-05-30 04:00:24] INFO root fetch - processPackages [pautobot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-30 04:00:24] INFO root fetch - processPackages [pautobot]: executing diffoscope
+[2023-05-30 04:00:24] INFO root fetch - processPackages [pautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pautobot-0.0.5.tar.gz tmp/pautobot-0.0.6.tar.gz --markdown 20230530/p/pautobot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-30 04:00:25] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/c1/23/c51930bc85b2cfce7a0b350f6a73d2db1981594f7b71d5af849a38f5eea7/configzen-0.1.46.tar.gz
+[2023-05-30 04:00:25] INFO root fetch - processPackages [fa_singer_io]: Downloading https://files.pythonhosted.org/packages/fc/55/765a62857196c10f81525ac41e27704b1c71e61fd9013a39ca95ff4e609d/fa_singer_io-1.6.2.tar.gz
+[2023-05-30 04:00:25] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-05-30 04:00:25] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.1.45.tar.gz tmp/configzen-0.1.46.tar.gz --markdown 20230530/c/configzen/0.1.45-0.1.46/diff.md --exclude *.pyd
+[2023-05-30 04:00:25] INFO root fetch - processPackages [fa_singer_io]: Downloading https://files.pythonhosted.org/packages/91/09/437a142cd68299f45cfe8a953f8c4024ed14c1943113bc9dd57b6269b49e/fa_singer_io-1.7.0.tar.gz
+[2023-05-30 04:00:25] INFO root fetch - processPackages [fa_singer_io]: executing diffoscope
+[2023-05-30 04:00:25] INFO root fetch - processPackages [fa_singer_io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa_singer_io-1.6.2.tar.gz tmp/fa_singer_io-1.7.0.tar.gz --markdown 20230530/f/fa_singer_io/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2023-05-30 04:00:26] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-05-30 04:00:26] INFO root fetch - main [MainThread]: End processing [fa_singer_io]: success
+[2023-05-30 04:00:26] INFO root fetch - main [MainThread]: End processing [pautobot]: success
+[2023-05-30 04:00:26] INFO root fetch - main [MainThread]: Store serial: [18296835]
