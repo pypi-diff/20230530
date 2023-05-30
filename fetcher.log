@@ -8643,3 +8643,104 @@
 [2023-05-30 10:54:27] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2023-05-30 10:54:35] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-05-30 10:54:35] INFO root fetch - main [MainThread]: Store serial: [18299639]
+[2023-05-30 10:59:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18299639]
+[2023-05-30 10:59:44] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-30 10:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rudderclient
+[2023-05-30 10:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lebai-sdk
+[2023-05-30 10:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mmfutils
+[2023-05-30 10:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bytetrade-recommend-model-sdk
+[2023-05-30 10:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sd-meh
+[2023-05-30 10:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: domain-admin
+[2023-05-30 10:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-edi-oca
+[2023-05-30 10:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-geonode-mapstore-client
+[2023-05-30 10:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qwak-core
+[2023-05-30 10:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openirt
+[2023-05-30 10:59:45] INFO root fetch - processPackages [mmfutils]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-30 10:59:45] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-05-30 10:59:45] INFO root fetch - processPackages [rudderclient]: New version: [1.6.2] Old Version: [1.6.0]
+[2023-05-30 10:59:45] INFO root fetch - processPackages [lebai-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 10:59:45] INFO root fetch - processPackages [sd-meh]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-30 10:59:45] INFO root fetch - processPackages [odoo14-addon-edi-oca]: New version: [14.0.1.9.2] Old Version: [14.0.1.9.1.dev1]
+[2023-05-30 10:59:45] INFO root fetch - processPackages [openirt]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-30 10:59:45] INFO root fetch - processPackages [django-geonode-mapstore-client]: New version: [4.1.0] Old Version: [4.0.5]
+[2023-05-30 10:59:45] INFO root fetch - processPackages [qwak-core]: New version: [0.0.88] Old Version: [0.0.87]
+[2023-05-30 10:59:45] INFO root fetch - processPackages [domain-admin]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-30 10:59:45] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-05-30 10:59:45] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.2.8.tar.gz tmp/domain-admin-1.2.9.tar.gz --markdown 20230530/d/domain-admin/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-30 10:59:45] INFO root fetch - processPackages [openirt]: Downloading https://files.pythonhosted.org/packages/a9/c5/68e9e05895b2bfce38653b041ba6d4b154147cf5e0e1ad581a60f3172232/openirt-0.1.5.tar.gz
+[2023-05-30 10:59:45] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/32/f6/7046df1fdb0e086ee85ba14f197041640e2024c8932c55267cf1245bbd7f/qwak_core-0.0.88.tar.gz
+[2023-05-30 10:59:45] INFO root fetch - processPackages [django-geonode-mapstore-client]: Downloading https://files.pythonhosted.org/packages/4a/57/ebe1ebd1f73df101e91ca6da63c0e888c1854011d288dabad8fe54aae2d8/django_geonode_mapstore_client-4.0.5-py2.py3-none-any.whl
+[2023-05-30 10:59:45] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/3f/79/7abcd213967710db33cb8efb24d81dd50388cd22c7a0c52a75b24a5696d2/bytetrade-recommend-model-sdk-0.0.16.tar.gz
+[2023-05-30 10:59:45] WARNING root fetch - processPackages [django-geonode-mapstore-client]: Skipping package: exceeds size limit 20434591>=10485760
+[2023-05-30 10:59:45] INFO root fetch - processPackages [django-geonode-mapstore-client]: Start processing: animedata
+[2023-05-30 10:59:45] INFO root fetch - main [MainThread]: End processing [django-geonode-mapstore-client] error
+[2023-05-30 10:59:45] INFO root fetch - processPackages [animedata]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-30 10:59:45] INFO root fetch - processPackages [openirt]: executing diffoscope
+[2023-05-30 10:59:45] INFO root fetch - processPackages [openirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openirt-0.1.4.tar.gz tmp/openirt-0.1.5.tar.gz --markdown 20230530/o/openirt/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-30 10:59:45] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-30 10:59:45] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.87.tar.gz tmp/qwak_core-0.0.88.tar.gz --markdown 20230530/q/qwak-core/0.0.87-0.0.88/diff.md --exclude *.pyd
+[2023-05-30 10:59:45] INFO root fetch - processPackages [mmfutils]: Downloading https://files.pythonhosted.org/packages/77/2a/e7a7b63c06b8ac2fa5ea89090d7f9a711e712d3176ce4fd5e4f6fb19c351/mmfutils-0.6.5.tar.gz
+[2023-05-30 10:59:45] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/2c/30/a3e26f5fd4183a04171d65d18c5b4048f52da92c11bea32e0a343daa88a6/rudderclient-1.6.2.tar.gz
+[2023-05-30 10:59:45] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/92/87/72fa8ab160e4773d118957050bf6f6a602afc60cdc4ada78e3920125b696/sd_meh-0.2.1.tar.gz
+[2023-05-30 10:59:45] INFO root fetch - processPackages [lebai-sdk]: Downloading https://files.pythonhosted.org/packages/71/80/28dc5260981bba270d84eba961ce8d63315fdea2e5c3362e616c66f4caaf/lebai_sdk-0.1.9-cp37-abi3-win_amd64.whl
+[2023-05-30 10:59:45] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-05-30 10:59:45] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.6.0.tar.gz tmp/rudderclient-1.6.2.tar.gz --markdown 20230530/r/rudderclient/1.6.0-1.6.2/diff.md --exclude *.pyd
+[2023-05-30 10:59:45] INFO root fetch - processPackages [sd-meh]: executing diffoscope
+[2023-05-30 10:59:45] INFO root fetch - processPackages [sd-meh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd_meh-0.2.0.tar.gz tmp/sd_meh-0.2.1.tar.gz --markdown 20230530/s/sd-meh/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-30 10:59:45] INFO root fetch - processPackages [mmfutils]: executing diffoscope
+[2023-05-30 10:59:45] INFO root fetch - processPackages [mmfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmfutils-0.6.4.tar.gz tmp/mmfutils-0.6.5.tar.gz --markdown 20230530/m/mmfutils/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-30 10:59:45] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/7a/46/c94a9a5a7412d5bedb50d96b71536c1bb6b5265a0c340975d8cfe934f934/bytetrade-recommend-model-sdk-0.0.17.tar.gz
+[2023-05-30 10:59:45] INFO root fetch - processPackages [animedata]: Downloading https://files.pythonhosted.org/packages/91/e6/a0ec5398030ffb0c9f99934931e7344275c9fbdf822110e1862a65b894fb/animedata-0.3.8.tar.gz
+[2023-05-30 10:59:45] INFO root fetch - processPackages [odoo14-addon-edi-oca]: executing diffoscope
+[2023-05-30 10:59:45] INFO root fetch - processPackages [odoo14-addon-edi-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_edi_oca-14.0.1.9.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_edi_oca-14.0.1.9.2-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-edi-oca/14.0.1.9.1.dev1-14.0.1.9.2/diff.md --exclude *.pyd
+[2023-05-30 10:59:45] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: executing diffoscope
+[2023-05-30 10:59:45] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytetrade-recommend-model-sdk-0.0.16.tar.gz tmp/bytetrade-recommend-model-sdk-0.0.17.tar.gz --markdown 20230530/b/bytetrade-recommend-model-sdk/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-05-30 10:59:45] INFO root fetch - processPackages [animedata]: executing diffoscope
+[2023-05-30 10:59:45] INFO root fetch - processPackages [animedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animedata-0.3.7.tar.gz tmp/animedata-0.3.8.tar.gz --markdown 20230530/a/animedata/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-30 10:59:46] INFO root fetch - processPackages [lebai-sdk]: executing diffoscope
+[2023-05-30 10:59:46] INFO root fetch - processPackages [lebai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lebai_sdk-0.1.8-cp37-abi3-win_amd64.whl.zip tmp/lebai_sdk-0.1.9-cp37-abi3-win_amd64.whl.zip --markdown 20230530/l/lebai-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 10:59:46] INFO root fetch - processPackages [openirt]: Start processing: searchcode-cli
+[2023-05-30 10:59:46] INFO root fetch - main [MainThread]: End processing [openirt]: success
+[2023-05-30 10:59:46] INFO root fetch - processPackages [searchcode-cli]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-30 10:59:47] INFO root fetch - processPackages [searchcode-cli]: Downloading https://files.pythonhosted.org/packages/8c/be/a11c23575a30f4d4e065e48b06dc7f5705b5989ac148094fdafa19871657/searchcode-cli-2.1.3.tar.gz
+[2023-05-30 10:59:47] INFO root fetch - processPackages [sd-meh]: Start processing: aws-ssm-copy
+[2023-05-30 10:59:47] INFO root fetch - main [MainThread]: End processing [sd-meh]: success
+[2023-05-30 10:59:47] INFO root fetch - processPackages [searchcode-cli]: executing diffoscope
+[2023-05-30 10:59:47] INFO root fetch - processPackages [searchcode-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchcode-cli-2.1.2.tar.gz tmp/searchcode-cli-2.1.3.tar.gz --markdown 20230530/s/searchcode-cli/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-30 10:59:47] INFO root fetch - processPackages [aws-ssm-copy]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-30 10:59:47] INFO root fetch - processPackages [aws-ssm-copy]: Downloading https://files.pythonhosted.org/packages/c1/1c/b8ce2de73881145452f53144f6da922e9db2fbc596b41f62cd1ceeba59c9/aws-ssm-copy-0.4.0.tar.gz
+[2023-05-30 10:59:47] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Start processing: deci-platform-client
+[2023-05-30 10:59:47] INFO root fetch - main [MainThread]: End processing [bytetrade-recommend-model-sdk]: success
+[2023-05-30 10:59:47] WARNING root fetch - processPackages [deci-platform-client]: Skipping, unable to determine old version
+[2023-05-30 10:59:47] INFO root fetch - processPackages [deci-platform-client]: Start processing: pykeadhcp
+[2023-05-30 10:59:47] INFO root fetch - main [MainThread]: End processing [deci-platform-client] error
+[2023-05-30 10:59:47] INFO root fetch - processPackages [aws-ssm-copy]: Downloading https://files.pythonhosted.org/packages/f5/7b/fb27d66edb99df03b9c5c861aa38c91cfd0d5706d702551813f10dc8d4b5/aws-ssm-copy-0.5.0.tar.gz
+[2023-05-30 10:59:47] INFO root fetch - processPackages [domain-admin]: Start processing: lzallright
+[2023-05-30 10:59:47] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-05-30 10:59:47] INFO root fetch - processPackages [aws-ssm-copy]: executing diffoscope
+[2023-05-30 10:59:47] INFO root fetch - processPackages [aws-ssm-copy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-ssm-copy-0.4.0.tar.gz tmp/aws-ssm-copy-0.5.0.tar.gz --markdown 20230530/a/aws-ssm-copy/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-30 10:59:47] INFO root fetch - processPackages [rudderclient]: Start processing: halborn-ctf
+[2023-05-30 10:59:47] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-05-30 10:59:47] INFO root fetch - processPackages [pykeadhcp]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-05-30 10:59:47] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-30 10:59:47] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-05-30 10:59:47] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.6.tar.gz tmp/halborn_ctf-0.1.7.tar.gz --markdown 20230530/h/halborn-ctf/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-30 10:59:47] INFO root fetch - processPackages [lzallright]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-30 10:59:48] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/a4/2d/4c60192252c6b39c73e4f3c83ca236304b8cd48af83e08479155782dfbcf/pykeadhcp-0.0.6.tar.gz
+[2023-05-30 10:59:48] INFO root fetch - main [MainThread]: End processing [animedata]: success
+[2023-05-30 10:59:48] INFO root fetch - main [MainThread]: End processing [lebai-sdk]: success
+[2023-05-30 10:59:48] INFO root fetch - main [MainThread]: End processing [mmfutils]: success
+[2023-05-30 10:59:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-edi-oca]: success
+[2023-05-30 10:59:48] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/2b/44/9bca5068311a011aae66fbd4db5f878ea8943175194eb00a7426c70b1f71/pykeadhcp-0.1.0.tar.gz
+[2023-05-30 10:59:48] INFO root fetch - processPackages [lzallright]: Downloading https://files.pythonhosted.org/packages/fa/c7/b7991c5656dae232653c9f0e1622590fae89287b35fb0b65e5aeb9b831ec/lzallright-0.2.3-cp38-abi3-musllinux_1_1_aarch64.whl
+[2023-05-30 10:59:48] INFO root fetch - processPackages [pykeadhcp]: executing diffoscope
+[2023-05-30 10:59:48] INFO root fetch - processPackages [pykeadhcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykeadhcp-0.0.6.tar.gz tmp/pykeadhcp-0.1.0.tar.gz --markdown 20230530/p/pykeadhcp/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-05-30 10:59:49] INFO root fetch - main [MainThread]: End processing [searchcode-cli]: success
+[2023-05-30 10:59:49] INFO root fetch - main [MainThread]: End processing [aws-ssm-copy]: success
+[2023-05-30 10:59:49] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-05-30 10:59:49] INFO root fetch - main [MainThread]: End processing [pykeadhcp]: success
+[2023-05-30 10:59:50] INFO root fetch - processPackages [lzallright]: executing diffoscope
+[2023-05-30 10:59:50] INFO root fetch - processPackages [lzallright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lzallright-0.2.2.tar.gz tmp/lzallright-0.2.3-cp38-abi3-musllinux_1_1_aarch64.whl.zip --markdown 20230530/l/lzallright/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-30 10:59:51] INFO root fetch - main [MainThread]: End processing [lzallright]: success
+[2023-05-30 10:59:53] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-30 10:59:53] INFO root fetch - main [MainThread]: Store serial: [18299696]
