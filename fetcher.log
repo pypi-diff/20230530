@@ -9976,3 +9976,123 @@
 [2023-05-30 12:13:07] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2023-05-30 12:13:42] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-05-30 12:13:42] INFO root fetch - main [MainThread]: Store serial: [18300446]
+[2023-05-30 12:18:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18300446]
+[2023-05-30 12:18:51] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-30 12:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-chatbox
+[2023-05-30 12:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crawler-commons
+[2023-05-30 12:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zhonghong-climate
+[2023-05-30 12:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vmngclient
+[2023-05-30 12:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: text2story
+[2023-05-30 12:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: su6
+[2023-05-30 12:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rtc-tools
+[2023-05-30 12:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PythonicDISORT
+[2023-05-30 12:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reddit-photo-aggregator
+[2023-05-30 12:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bp-data-fabric
+[2023-05-30 12:18:51] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 12:18:51] INFO root fetch - processPackages [zhonghong-climate]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-30 12:18:51] INFO root fetch - processPackages [streamlit-chatbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 12:18:51] INFO root fetch - processPackages [vmngclient]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-30 12:18:51] INFO root fetch - processPackages [reddit-photo-aggregator]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-30 12:18:51] INFO root fetch - processPackages [su6]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-30 12:18:51] INFO root fetch - processPackages [text2story]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-30 12:18:51] INFO root fetch - processPackages [bp-data-fabric]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 12:18:51] INFO root fetch - processPackages [PythonicDISORT]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-30 12:18:51] INFO root fetch - processPackages [rtc-tools]: New version: [2.5.2a4] Old Version: [2.5.2a3]
+[2023-05-30 12:18:52] INFO root fetch - processPackages [bp-data-fabric]: Downloading https://files.pythonhosted.org/packages/6c/a4/18028d9fccb257fe69f34e629f4ab7fdbfd9c52a220af88000acfa5bf308/bp_data_fabric-1.0.8.tar.gz
+[2023-05-30 12:18:52] INFO root fetch - processPackages [zhonghong-climate]: Downloading https://files.pythonhosted.org/packages/ec/5a/e41cc0ecac41c86d018fa7019aa7595f3b46e3c8beba132031680d1a77a7/zhonghong_climate-1.0.1.tar.gz
+[2023-05-30 12:18:52] INFO root fetch - processPackages [reddit-photo-aggregator]: Downloading https://files.pythonhosted.org/packages/e9/07/c26e3e54912383eb57935fe65245ef4a38590d6eea51c22d3ddcb5ceac6b/reddit_photo_aggregator-1.0.1.tar.gz
+[2023-05-30 12:18:52] INFO root fetch - processPackages [PythonicDISORT]: Downloading https://files.pythonhosted.org/packages/24/b5/789dc80e09a946eec76b82b4c620e51fae8c3966394eadd5bcb8ea49082e/PythonicDISORT-0.0.2.tar.gz
+[2023-05-30 12:18:52] INFO root fetch - processPackages [rtc-tools]: Downloading https://files.pythonhosted.org/packages/e1/47/c8220615a737a8f141ba469188db9ffb55809deb327d674e43d5b5062f27/rtc-tools-2.5.2a3.tar.gz
+[2023-05-30 12:18:52] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/0d/af/06c1b417a80834c06a8790cff01fd2b151f4c80989f4a50b4ed7900674d9/su6-0.5.2.tar.gz
+[2023-05-30 12:18:52] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/d9/1c/f872ad2625a46f1322314b787f281848f525f6a34380d10c840c72f1ddaa/streamlit_chatbox-0.1.2-py3-none-any.whl
+[2023-05-30 12:18:52] INFO root fetch - processPackages [vmngclient]: Downloading https://files.pythonhosted.org/packages/60/1e/8fa022286e95c6d7b916fc4fa00fcef64cbcdf053911a9e7189fff6403b8/vmngclient-0.9.4.tar.gz
+[2023-05-30 12:18:52] INFO root fetch - processPackages [streamlit-chatbox]: executing diffoscope
+[2023-05-30 12:18:52] INFO root fetch - processPackages [streamlit-chatbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chatbox-0.1.1-py3-none-any.whl.zip tmp/streamlit_chatbox-0.1.2-py3-none-any.whl.zip --markdown 20230530/s/streamlit-chatbox/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 12:18:52] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-05-30 12:18:52] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230530/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 12:18:52] INFO root fetch - processPackages [reddit-photo-aggregator]: Downloading https://files.pythonhosted.org/packages/aa/88/e225ffaf799c26a968bebd301c4e5cb2c018fed763df47f1b0a3fa28c666/reddit_photo_aggregator-1.0.2.tar.gz
+[2023-05-30 12:18:52] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-05-30 12:18:52] INFO root fetch - processPackages [vmngclient]: executing diffoscope
+[2023-05-30 12:18:52] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-05-30 12:18:52] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-0.5.1.tar.gz tmp/su6-0.5.2.tar.gz --markdown 20230530/s/su6/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-30 12:18:52] INFO root fetch - processPackages [vmngclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmngclient-0.9.3.tar.gz tmp/vmngclient-0.9.4.tar.gz --markdown 20230530/v/vmngclient/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-30 12:18:52] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.2.8.tar.gz tmp/text2story-1.2.9.tar.gz --markdown 20230530/t/text2story/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-30 12:18:52] INFO root fetch - processPackages [PythonicDISORT]: Downloading https://files.pythonhosted.org/packages/6a/0d/54329c318433c2fdbcd6529734bfa3c78c43281df01c4ec8e83f737ab411/PythonicDISORT-0.1.0.tar.gz
+[2023-05-30 12:18:52] INFO root fetch - processPackages [bp-data-fabric]: Downloading https://files.pythonhosted.org/packages/79/2d/f53d1b28d6a5d5cc6edfd4a31b41f9039e201cbd4d6dabf651c4fbb05981/bp_data_fabric-1.0.9.tar.gz
+[2023-05-30 12:18:52] INFO root fetch - processPackages [reddit-photo-aggregator]: executing diffoscope
+[2023-05-30 12:18:52] INFO root fetch - processPackages [reddit-photo-aggregator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit_photo_aggregator-1.0.1.tar.gz tmp/reddit_photo_aggregator-1.0.2.tar.gz --markdown 20230530/r/reddit-photo-aggregator/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-30 12:18:52] INFO root fetch - processPackages [rtc-tools]: Downloading https://files.pythonhosted.org/packages/26/ca/ea3307cbdaa728e8a8b998af36b8dab8c78ac865b8e1e889b79b01626000/rtc-tools-2.5.2a4.tar.gz
+[2023-05-30 12:18:52] INFO root fetch - processPackages [PythonicDISORT]: executing diffoscope
+[2023-05-30 12:18:52] INFO root fetch - processPackages [PythonicDISORT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonicDISORT-0.0.2.tar.gz tmp/PythonicDISORT-0.1.0.tar.gz --markdown 20230530/P/PythonicDISORT/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-30 12:18:52] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-05-30 12:18:52] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-1.0.8.tar.gz tmp/bp_data_fabric-1.0.9.tar.gz --markdown 20230530/b/bp-data-fabric/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 12:18:52] INFO root fetch - processPackages [rtc-tools]: executing diffoscope
+[2023-05-30 12:18:52] INFO root fetch - processPackages [rtc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtc-tools-2.5.2a3.tar.gz tmp/rtc-tools-2.5.2a4.tar.gz --markdown 20230530/r/rtc-tools/2.5.2a3-2.5.2a4/diff.md --exclude *.pyd
+[2023-05-30 12:18:52] INFO root fetch - processPackages [zhonghong-climate]: Downloading https://files.pythonhosted.org/packages/b0/62/ab9558b0f3a266e94b7b77b7984d0499d0584fb5bbc62b27689fcf5d2013/zhonghong_climate-1.0.2.tar.gz
+[2023-05-30 12:18:52] INFO root fetch - processPackages [zhonghong-climate]: executing diffoscope
+[2023-05-30 12:18:52] INFO root fetch - processPackages [zhonghong-climate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhonghong_climate-1.0.1.tar.gz tmp/zhonghong_climate-1.0.2.tar.gz --markdown 20230530/z/zhonghong-climate/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-30 12:18:54] INFO root fetch - processPackages [streamlit-chatbox]: Start processing: quick-resto-API
+[2023-05-30 12:18:54] INFO root fetch - main [MainThread]: End processing [streamlit-chatbox]: success
+[2023-05-30 12:18:54] INFO root fetch - processPackages [quick-resto-API]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-30 12:18:54] INFO root fetch - processPackages [crawler-commons]: Start processing: utbot-executor
+[2023-05-30 12:18:54] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-05-30 12:18:54] INFO root fetch - processPackages [utbot-executor]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-05-30 12:18:54] INFO root fetch - processPackages [reddit-photo-aggregator]: Start processing: smartdash
+[2023-05-30 12:18:54] INFO root fetch - main [MainThread]: End processing [reddit-photo-aggregator]: success
+[2023-05-30 12:18:54] INFO root fetch - processPackages [quick-resto-API]: Downloading https://files.pythonhosted.org/packages/49/81/c54867266b98c4c141f526c42a19bbfea1c819cb7f3952f8de2c96dc4bf0/quick_resto_API-1.2.6.tar.gz
+[2023-05-30 12:18:54] INFO root fetch - processPackages [smartdash]: New version: [0.0.1.dev5] Old Version: [0.0.1.dev4]
+[2023-05-30 12:18:54] INFO root fetch - processPackages [bp-data-fabric]: Start processing: checkov
+[2023-05-30 12:18:54] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-05-30 12:18:54] INFO root fetch - processPackages [quick-resto-API]: executing diffoscope
+[2023-05-30 12:18:54] INFO root fetch - processPackages [quick-resto-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_resto_API-1.2.5.tar.gz tmp/quick_resto_API-1.2.6.tar.gz --markdown 20230530/q/quick-resto-API/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-30 12:18:54] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-30 12:18:54] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/d3/d5/eedae354add65867448b3062ce5d9971a93da9e8272a05276ecd1a9bdb13/utbot_executor-1.6.3.tar.gz
+[2023-05-30 12:18:54] INFO root fetch - processPackages [smartdash]: Downloading https://files.pythonhosted.org/packages/55/7c/097eb6e23b6d1aabb4871e9fe890698c6ce0d3c0fd244bc4d54180194301/smartdash-0.0.1.dev4.tar.gz
+[2023-05-30 12:18:54] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-30 12:18:54] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230530/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-30 12:18:54] INFO root fetch - processPackages [utbot-executor]: executing diffoscope
+[2023-05-30 12:18:54] INFO root fetch - processPackages [utbot-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utbot_executor-1.6.2.tar.gz tmp/utbot_executor-1.6.3.tar.gz --markdown 20230530/u/utbot-executor/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-05-30 12:18:54] INFO root fetch - processPackages [text2story]: Start processing: stonesoup
+[2023-05-30 12:18:54] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-05-30 12:18:54] INFO root fetch - processPackages [stonesoup]: New version: [1.0] Old Version: [0.1b9]
+[2023-05-30 12:18:54] INFO root fetch - processPackages [zhonghong-climate]: Start processing: nwebclient
+[2023-05-30 12:18:54] INFO root fetch - main [MainThread]: End processing [zhonghong-climate]: success
+[2023-05-30 12:18:54] INFO root fetch - processPackages [smartdash]: Downloading https://files.pythonhosted.org/packages/00/62/a1d9200f81aa333dd0195add0bca58ad13c9aa74f4b7bd67090dd865a67a/smartdash-0.0.1.dev5.tar.gz
+[2023-05-30 12:18:54] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-05-30 12:18:54] INFO root fetch - processPackages [stonesoup]: Downloading https://files.pythonhosted.org/packages/e3/47/47d480e514d65612c5be729eac241e0677a650164072df60c0c701807537/stonesoup-0.1b9.tar.gz
+[2023-05-30 12:18:55] INFO root fetch - processPackages [smartdash]: executing diffoscope
+[2023-05-30 12:18:55] INFO root fetch - processPackages [smartdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartdash-0.0.1.dev4.tar.gz tmp/smartdash-0.0.1.dev5.tar.gz --markdown 20230530/s/smartdash/0.0.1.dev4-0.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-30 12:18:55] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-30 12:18:55] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230530/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-05-30 12:18:55] INFO root fetch - processPackages [rtc-tools]: Start processing: cfscanner
+[2023-05-30 12:18:55] INFO root fetch - main [MainThread]: End processing [rtc-tools]: success
+[2023-05-30 12:18:55] INFO root fetch - processPackages [cfscanner]: New version: [1.4.0a3] Old Version: [1.4.0a2]
+[2023-05-30 12:18:55] INFO root fetch - processPackages [vmngclient]: Start processing: phdu
+[2023-05-30 12:18:55] INFO root fetch - main [MainThread]: End processing [vmngclient]: success
+[2023-05-30 12:18:55] INFO root fetch - processPackages [PythonicDISORT]: Start processing: tiledb-jupyter-bioimg
+[2023-05-30 12:18:55] INFO root fetch - main [MainThread]: End processing [PythonicDISORT]: success
+[2023-05-30 12:18:55] INFO root fetch - processPackages [phdu]: New version: [2.0b2] Old Version: [2.0b1]
+[2023-05-30 12:18:55] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2023-05-30 12:18:55] INFO root fetch - processPackages [cfscanner]: Downloading https://files.pythonhosted.org/packages/d3/4b/5257b04149bc0dc42caa81ce7fe37f8ac45e4f6a3fe849107c53c80ad3a3/cfscanner-1.4.0a2.tar.gz
+[2023-05-30 12:18:55] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/28/ec/37e12e759b18eb6d28c1f6fda38b935b293a01c4bfe587f0d6c6c6c06c07/tiledb_jupyter_bioimg-0.1.1a1.tar.gz
+[2023-05-30 12:18:55] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/fb/8d/c24f807810549a697acb977d80e490ed3b873f3d515479f9b9f48eb97a32/phdu-2.0b2.tar.gz
+[2023-05-30 12:18:55] WARNING root fetch - processPackages [cfscanner]: Skipping package: exceeds size limit 19063835>=10485760
+[2023-05-30 12:18:55] INFO root fetch - processPackages [cfscanner]: Start processing: anapass-python2
+[2023-05-30 12:18:55] INFO root fetch - main [MainThread]: End processing [cfscanner] error
+[2023-05-30 12:18:55] WARNING root fetch - processPackages [stonesoup]: Skipping package: exceeds size limit 10695639>=10485760
+[2023-05-30 12:18:55] INFO root fetch - main [MainThread]: End processing [stonesoup] error
+[2023-05-30 12:18:55] WARNING root fetch - processPackages [anapass-python2]: Skipping, unable to determine old version
+[2023-05-30 12:18:55] INFO root fetch - main [MainThread]: End processing [anapass-python2] error
+[2023-05-30 12:18:55] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2023-05-30 12:18:55] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.0b1.tar.gz tmp/phdu-2.0b2.tar.gz --markdown 20230530/p/phdu/2.0b1-2.0b2/diff.md --exclude *.pyd
+[2023-05-30 12:18:55] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: executing diffoscope
+[2023-05-30 12:18:55] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_jupyter_bioimg-0.1.1a0.tar.gz tmp/tiledb_jupyter_bioimg-0.1.1a1.tar.gz --markdown 20230530/t/tiledb-jupyter-bioimg/0.1.1a0-0.1.1a1/diff.md --exclude *.pyd
+[2023-05-30 12:18:56] INFO root fetch - main [MainThread]: End processing [smartdash]: success
+[2023-05-30 12:18:56] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-30 12:18:57] INFO root fetch - main [MainThread]: End processing [quick-resto-API]: success
+[2023-05-30 12:18:57] INFO root fetch - main [MainThread]: End processing [utbot-executor]: success
+[2023-05-30 12:18:57] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2023-05-30 12:19:00] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
+[2023-05-30 12:19:16] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-05-30 12:19:34] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-30 12:19:34] INFO root fetch - main [MainThread]: Store serial: [18300510]
