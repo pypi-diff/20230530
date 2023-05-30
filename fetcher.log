@@ -3976,3 +3976,44 @@
 [2023-05-30 04:16:03] INFO root fetch - main [MainThread]: End processing [json-np]: success
 [2023-05-30 04:16:03] INFO root fetch - main [MainThread]: End processing [json-np]: success
 [2023-05-30 04:16:03] INFO root fetch - main [MainThread]: Store serial: [18296985]
+[2023-05-30 04:21:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296985]
+[2023-05-30 04:21:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-30 04:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-walt
+[2023-05-30 04:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: variant
+[2023-05-30 04:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hcm-causal
+[2023-05-30 04:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latch
+[2023-05-30 04:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdocr-rpc
+[2023-05-30 04:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlc-tools
+[2023-05-30 04:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OpenOCR
+[2023-05-30 04:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coffeefetch
+[2023-05-30 04:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyArrShow
+[2023-05-30 04:21:13] INFO root fetch - processPackages [variant]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 04:21:13] INFO root fetch - processPackages [pdocr-rpc]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-30 04:21:13] WARNING root fetch - processPackages [mkdocs-walt]: Skipping, unable to determine old version
+[2023-05-30 04:21:13] INFO root fetch - main [MainThread]: End processing [mkdocs-walt] error
+[2023-05-30 04:21:13] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-05-30 04:21:14] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-05-30 04:21:14] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230530/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-05-30 04:21:14] WARNING root fetch - processPackages [OpenOCR]: Skipping, unable to determine old version
+[2023-05-30 04:21:14] INFO root fetch - main [MainThread]: End processing [OpenOCR] error
+[2023-05-30 04:21:14] WARNING root fetch - processPackages [PyArrShow]: Skipping, unable to determine old version
+[2023-05-30 04:21:14] INFO root fetch - main [MainThread]: End processing [PyArrShow] error
+[2023-05-30 04:21:14] WARNING root fetch - processPackages [hcm-causal]: Skipping, unable to determine old version
+[2023-05-30 04:21:14] INFO root fetch - main [MainThread]: End processing [hcm-causal] error
+[2023-05-30 04:21:14] INFO root fetch - processPackages [coffeefetch]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-30 04:21:14] INFO root fetch - processPackages [mlc-tools]: New version: [0.4.675] Old Version: [0.4.674]
+[2023-05-30 04:21:14] INFO root fetch - processPackages [coffeefetch]: executing diffoscope
+[2023-05-30 04:21:14] INFO root fetch - processPackages [coffeefetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffeefetch-1.0.0.tar.gz tmp/coffeefetch-1.1.0.tar.gz --markdown 20230530/c/coffeefetch/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 04:21:14] INFO root fetch - processPackages [mlc-tools]: executing diffoscope
+[2023-05-30 04:21:14] INFO root fetch - processPackages [mlc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlc-tools-0.4.674.tar.gz tmp/mlc-tools-0.4.675.tar.gz --markdown 20230530/m/mlc-tools/0.4.674-0.4.675/diff.md --exclude *.pyd
+[2023-05-30 04:21:14] INFO root fetch - processPackages [variant]: executing diffoscope
+[2023-05-30 04:21:14] INFO root fetch - processPackages [variant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variant-0.0.8.tar.gz tmp/variant-0.0.9.tar.gz --markdown 20230530/v/variant/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 04:21:14] INFO root fetch - processPackages [pdocr-rpc]: Downloading https://files.pythonhosted.org/packages/7e/fd/68e6a8e1a2e742ae9b890580ea0568b92701fae82def8b1803a487bf5194/pdocr-rpc-1.1.0.tar.gz
+[2023-05-30 04:21:14] INFO root fetch - processPackages [pdocr-rpc]: executing diffoscope
+[2023-05-30 04:21:14] INFO root fetch - processPackages [pdocr-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdocr-rpc-1.0.1.tar.gz tmp/pdocr-rpc-1.1.0.tar.gz --markdown 20230530/p/pdocr-rpc/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 04:21:15] INFO root fetch - main [MainThread]: End processing [coffeefetch]: success
+[2023-05-30 04:21:15] INFO root fetch - main [MainThread]: End processing [variant]: success
+[2023-05-30 04:21:15] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-05-30 04:21:15] INFO root fetch - main [MainThread]: End processing [pdocr-rpc]: success
+[2023-05-30 04:21:15] INFO root fetch - main [MainThread]: End processing [mlc-tools]: success
+[2023-05-30 04:21:15] INFO root fetch - main [MainThread]: Store serial: [18297015]
