@@ -10625,3 +10625,121 @@
 [2023-05-30 12:46:28] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-05-30 12:46:29] INFO root fetch - main [MainThread]: End processing [python-libsbml-experimental]: success
 [2023-05-30 12:46:29] INFO root fetch - main [MainThread]: Store serial: [18300893]
+[2023-05-30 12:51:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18300893]
+[2023-05-30 12:51:52] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-30 12:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crawler-commons
+[2023-05-30 12:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: citros
+[2023-05-30 12:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: firestone-lib
+[2023-05-30 12:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangocms-versioning
+[2023-05-30 12:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: degann
+[2023-05-30 12:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selenium-account
+[2023-05-30 12:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycognaize
+[2023-05-30 12:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eodc
+[2023-05-30 12:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seaplane
+[2023-05-30 12:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LumosWeb
+[2023-05-30 12:51:53] WARNING root fetch - processPackages [degann]: Skipping, unable to determine old version
+[2023-05-30 12:51:53] INFO root fetch - processPackages [degann]: Start processing: selenium-uploader-account
+[2023-05-30 12:51:53] INFO root fetch - main [MainThread]: End processing [degann] error
+[2023-05-30 12:51:53] INFO root fetch - processPackages [citros]: New version: [23.22.2] Old Version: [23.22.1]
+[2023-05-30 12:51:53] INFO root fetch - processPackages [firestone-lib]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-30 12:51:53] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 12:51:53] INFO root fetch - processPackages [LumosWeb]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-30 12:51:53] INFO root fetch - processPackages [eodc]: New version: [2023.5.0rc1] Old Version: [2023.5.0]
+[2023-05-30 12:51:53] INFO root fetch - processPackages [selenium-account]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-30 12:51:53] INFO root fetch - processPackages [seaplane]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-30 12:51:53] INFO root fetch - processPackages [selenium-uploader-account]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-30 12:51:53] INFO root fetch - processPackages [pycognaize]: New version: [1.4.1] Old Version: [1.3.9]
+[2023-05-30 12:51:53] WARNING root fetch - processPackages [djangocms-versioning]: Skipping, unable to determine old version
+[2023-05-30 12:51:53] INFO root fetch - processPackages [djangocms-versioning]: Start processing: hdf5-reader-service
+[2023-05-30 12:51:53] INFO root fetch - main [MainThread]: End processing [djangocms-versioning] error
+[2023-05-30 12:51:53] WARNING root fetch - processPackages [hdf5-reader-service]: Skipping, unable to determine old version
+[2023-05-30 12:51:53] INFO root fetch - processPackages [hdf5-reader-service]: Start processing: cognite-neat
+[2023-05-30 12:51:53] INFO root fetch - main [MainThread]: End processing [hdf5-reader-service] error
+[2023-05-30 12:51:53] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-05-30 12:51:53] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230530/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 12:51:53] INFO root fetch - processPackages [cognite-neat]: New version: [0.12.3] Old Version: [0.12.2]
+[2023-05-30 12:51:53] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/3d/cc/4c397954ea0c9d04fe509bf44fa80786071b301d168ed6764574deffc3ea/eodc-2023.5.0.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [firestone-lib]: Downloading https://files.pythonhosted.org/packages/e3/4d/edcbe4a773bd1e65188c714c98511a3e21d0377cd7f52e8ef5e71f70de42/firestone_lib-0.1.8.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [LumosWeb]: Downloading https://files.pythonhosted.org/packages/86/74/3838aa8275f6e3793f76d0005bda0f2f29af6783c1822909ebaa81f4926e/LumosWeb-0.0.4.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [citros]: Downloading https://files.pythonhosted.org/packages/6f/13/3d935641c97f336d74e19f56523fff851b0755477c196951c51e57e295f0/citros-23.22.1.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/b2/be/bd52d1db3fd15312e02966492cc22bdfec5e38fab94782eafc5a82c65332/seaplane-0.3.6.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [selenium-account]: Downloading https://files.pythonhosted.org/packages/bf/82/aadf92358ce333b4cb902544afe853acb675aaf1eb59c39463742555ba81/selenium_account-0.2.1.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [selenium-uploader-account]: Downloading https://files.pythonhosted.org/packages/e2/47/cbc91d1ad23195215f2c8b788c5df666fc5a64b6e5f38506e0b268a97411/selenium_uploader_account-0.2.1.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/39/c6/575c1b460acfb68c92a3c38fa0258ea202eeec58600589362f7296032e62/pycognaize-1.3.9.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/50/6d/e96a70ae07d2d12c384f8f3f2df6cc407b89b7ee051e9c22a29d6b0ecf9a/cognite_neat-0.12.3.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [firestone-lib]: executing diffoscope
+[2023-05-30 12:51:53] INFO root fetch - processPackages [firestone-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firestone_lib-0.1.7.tar.gz tmp/firestone_lib-0.1.8.tar.gz --markdown 20230530/f/firestone-lib/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-30 12:51:53] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-05-30 12:51:53] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.12.2.tar.gz tmp/cognite_neat-0.12.3.tar.gz --markdown 20230530/c/cognite-neat/0.12.2-0.12.3/diff.md --exclude *.pyd
+[2023-05-30 12:51:53] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/cb/6e/a5c0f962caa3cd8b855b6fe280dbbbbeb122f27b224a3e7c0edec0b65a8a/eodc-2023.5.0rc1.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [LumosWeb]: Downloading https://files.pythonhosted.org/packages/b2/20/5f25cdb75cc5a27f57c66a56e83f0081cb7c2534ae3422580d131a9b4c0f/LumosWeb-0.0.5.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [citros]: Downloading https://files.pythonhosted.org/packages/7e/b7/eba3dfef50679122cf99ececcf464c17d63f1c16cbc73858d91d06613159/citros-23.22.2.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [selenium-account]: Downloading https://files.pythonhosted.org/packages/2b/48/8b831dd8a873b85b9c3646296a32c630562027975c10796daf8c9f2a26d8/selenium_account-0.2.2.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/89/ca/1b208bb54c05899ce484435ea14caf3af49aa5c2d8e1b94025ae53b8030e/seaplane-0.3.7.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/8c/5a/00785b4c0e57c53bc47d601f6ce6a4d87d327d7e1bdbeaa3d363985b3f18/pycognaize-1.4.1.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2023-05-30 12:51:53] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2023.5.0.tar.gz tmp/eodc-2023.5.0rc1.tar.gz --markdown 20230530/e/eodc/2023.5.0-2023.5.0rc1/diff.md --exclude *.pyd
+[2023-05-30 12:51:53] INFO root fetch - processPackages [selenium-account]: executing diffoscope
+[2023-05-30 12:51:53] INFO root fetch - processPackages [selenium-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_account-0.2.1.tar.gz tmp/selenium_account-0.2.2.tar.gz --markdown 20230530/s/selenium-account/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-30 12:51:53] INFO root fetch - processPackages [citros]: executing diffoscope
+[2023-05-30 12:51:53] INFO root fetch - processPackages [citros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citros-23.22.1.tar.gz tmp/citros-23.22.2.tar.gz --markdown 20230530/c/citros/23.22.1-23.22.2/diff.md --exclude *.pyd
+[2023-05-30 12:51:53] INFO root fetch - processPackages [selenium-uploader-account]: Downloading https://files.pythonhosted.org/packages/b6/ee/0533e61742b60668604cc05a5cb13568fb94075511b5db428ea7c1368b6b/selenium_uploader_account-0.2.2.tar.gz
+[2023-05-30 12:51:53] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2023-05-30 12:51:53] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.3.9.tar.gz tmp/pycognaize-1.4.1.tar.gz --markdown 20230530/p/pycognaize/1.3.9-1.4.1/diff.md --exclude *.pyd
+[2023-05-30 12:51:53] INFO root fetch - processPackages [LumosWeb]: executing diffoscope
+[2023-05-30 12:51:53] INFO root fetch - processPackages [LumosWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LumosWeb-0.0.4.tar.gz tmp/LumosWeb-0.0.5.tar.gz --markdown 20230530/L/LumosWeb/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 12:51:53] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-05-30 12:51:53] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.6.tar.gz tmp/seaplane-0.3.7.tar.gz --markdown 20230530/s/seaplane/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-30 12:51:53] INFO root fetch - processPackages [selenium-uploader-account]: executing diffoscope
+[2023-05-30 12:51:53] INFO root fetch - processPackages [selenium-uploader-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_uploader_account-0.2.1.tar.gz tmp/selenium_uploader_account-0.2.2.tar.gz --markdown 20230530/s/selenium-uploader-account/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-30 12:51:54] INFO root fetch - processPackages [crawler-commons]: Start processing: nucliadb
+[2023-05-30 12:51:54] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-05-30 12:51:54] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-30 12:51:54] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-30 12:51:54] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230530/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-30 12:51:54] INFO root fetch - processPackages [firestone-lib]: Start processing: nucliadb-client
+[2023-05-30 12:51:54] INFO root fetch - main [MainThread]: End processing [firestone-lib]: success
+[2023-05-30 12:51:55] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-30 12:51:55] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-30 12:51:55] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230530/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-30 12:51:55] INFO root fetch - processPackages [eodc]: Start processing: nucliadb-dataset
+[2023-05-30 12:51:55] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2023-05-30 12:51:55] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-30 12:51:55] INFO root fetch - processPackages [selenium-account]: Start processing: nucliadb-models
+[2023-05-30 12:51:55] INFO root fetch - main [MainThread]: End processing [selenium-account]: success
+[2023-05-30 12:51:55] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-30 12:51:55] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-30 12:51:55] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230530/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-30 12:51:55] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-30 12:51:55] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230530/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-30 12:51:55] INFO root fetch - processPackages [LumosWeb]: Start processing: nucliadb-protos
+[2023-05-30 12:51:55] INFO root fetch - main [MainThread]: End processing [LumosWeb]: success
+[2023-05-30 12:51:55] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-30 12:51:56] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-30 12:51:56] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230530/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-30 12:51:56] INFO root fetch - processPackages [selenium-uploader-account]: Start processing: nucliadb-sdk
+[2023-05-30 12:51:56] INFO root fetch - main [MainThread]: End processing [selenium-uploader-account]: success
+[2023-05-30 12:51:56] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-30 12:51:56] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-30 12:51:56] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230530/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-30 12:51:56] INFO root fetch - processPackages [citros]: Start processing: nucliadb-utils
+[2023-05-30 12:51:56] INFO root fetch - main [MainThread]: End processing [citros]: success
+[2023-05-30 12:51:56] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-30 12:51:57] INFO root fetch - processPackages [cognite-neat]: Start processing: kstopit
+[2023-05-30 12:51:57] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-05-30 12:51:57] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-30 12:51:57] INFO root fetch - processPackages [kstopit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 12:51:57] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-30 12:51:57] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230530/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-30 12:51:57] INFO root fetch - processPackages [kstopit]: executing diffoscope
+[2023-05-30 12:51:57] INFO root fetch - processPackages [kstopit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kstopit-0.0.8.tar.gz tmp/kstopit-0.0.9.tar.gz --markdown 20230530/k/kstopit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 12:51:57] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2023-05-30 12:51:57] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-30 12:51:57] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-05-30 12:51:57] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-30 12:51:58] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-30 12:51:58] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-30 12:51:58] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-30 12:51:59] INFO root fetch - main [MainThread]: End processing [kstopit]: success
+[2023-05-30 12:51:59] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-30 12:51:59] INFO root fetch - main [MainThread]: Store serial: [18300961]
