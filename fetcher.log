@@ -20821,3 +20821,88 @@ EOFError: EOF read where object expected
 [2023-05-30 21:59:44] INFO root fetch - main [MainThread]: End processing [bycon]: success
 [2023-05-30 21:59:48] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2023-05-30 21:59:48] INFO root fetch - main [MainThread]: Store serial: [18307071]
+[2023-05-30 22:04:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18307071]
+[2023-05-30 22:04:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-30 22:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proton-db
+[2023-05-30 22:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-kit
+[2023-05-30 22:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tumourkit
+[2023-05-30 22:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rich-argparse
+[2023-05-30 22:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spectrafit
+[2023-05-30 22:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-package-test
+[2023-05-30 22:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rego-imager-readfile
+[2023-05-30 22:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: squaredown
+[2023-05-30 22:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mercury-python
+[2023-05-30 22:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: plot-antenna
+[2023-05-30 22:04:57] INFO root fetch - processPackages [rego-imager-readfile]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-30 22:04:57] INFO root fetch - processPackages [tumourkit]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-30 22:04:58] INFO root fetch - processPackages [proton-db]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 22:04:58] WARNING root fetch - processPackages [abstract-package-test]: Skipping, unable to determine old version
+[2023-05-30 22:04:58] INFO root fetch - processPackages [abstract-package-test]: Start processing: dynamo-release
+[2023-05-30 22:04:58] INFO root fetch - main [MainThread]: End processing [abstract-package-test] error
+[2023-05-30 22:04:58] INFO root fetch - processPackages [rich-argparse]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-30 22:04:58] INFO root fetch - processPackages [drf-kit]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-05-30 22:04:58] INFO root fetch - processPackages [plot-antenna]: New version: [1.5] Old Version: [1.4]
+[2023-05-30 22:04:58] INFO root fetch - processPackages [squaredown]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-30 22:04:58] INFO root fetch - processPackages [spectrafit]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-05-30 22:04:58] INFO root fetch - processPackages [mercury-python]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 22:04:58] INFO root fetch - processPackages [dynamo-release]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-30 22:04:58] INFO root fetch - processPackages [rich-argparse]: Downloading https://files.pythonhosted.org/packages/a1/00/310d8c04104ccf2dac2dd505fd66639b61a40a38e77379bfa415f235a1d0/rich_argparse-1.1.0.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [rego-imager-readfile]: Downloading https://files.pythonhosted.org/packages/4b/14/6830ebcc3e56c300908a4335b1a966982060f5213f720c6958fdf58929cb/rego_imager_readfile-1.1.1.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [proton-db]: Downloading https://files.pythonhosted.org/packages/73/c8/21a24c07441c9c5ed9a537e7214f4f1a177ab774aa5e7a53422a7eb0fe3d/proton-db-0.1.1.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [squaredown]: Downloading https://files.pythonhosted.org/packages/85/1e/fc96e7038f8ba49e005b297a4cfb82c97aebad7ecbedcb4f17e65e9ab320/squaredown-1.4.2.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [drf-kit]: Downloading https://files.pythonhosted.org/packages/08/ab/5faecc24d6c3ffea558698cedd2cfdd5915a0c1a9ea8fb5f6f31a1ba3c9e/drf-kit-1.8.7.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [dynamo-release]: Downloading https://files.pythonhosted.org/packages/b1/89/6fbb35178454d7a87cbb67a6499d103356ed871c5d9659a0ed1965ceed86/dynamo-release-1.2.0.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [plot-antenna]: Downloading https://files.pythonhosted.org/packages/28/d4/117c072d7a21ea1124eb26e36e7286ab55ebfff34de1de199e5b3c536a83/plot-antenna-1.5.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [mercury-python]: Downloading https://files.pythonhosted.org/packages/49/5f/59cb58a6354806f5937a018359c89b6d9b39c4a6736bab98fc4c970c5e52/mercury_python-0.1.0-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl
+[2023-05-30 22:04:58] INFO root fetch - processPackages [spectrafit]: Downloading https://files.pythonhosted.org/packages/6b/2a/41e9908ead4ca1e1d9d996de0c892d67d060119e8afe804904347a462817/spectrafit-1.0.0b1.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [plot-antenna]: executing diffoscope
+[2023-05-30 22:04:58] INFO root fetch - processPackages [plot-antenna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plot-antenna-1.4.tar.gz tmp/plot-antenna-1.5.tar.gz --markdown 20230530/p/plot-antenna/1.4-1.5/diff.md --exclude *.pyd
+[2023-05-30 22:04:58] INFO root fetch - processPackages [tumourkit]: Downloading https://files.pythonhosted.org/packages/73/c4/9e266bc93d9250cdffd0834b346fca0a60e662f30405aa726ebd6bd35f45/tumourkit-0.7.1.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [rego-imager-readfile]: Downloading https://files.pythonhosted.org/packages/46/f0/22eb89c72722c91539dbcc422266390e9fbf689cf807bb9f040dfd7a5a9a/rego_imager_readfile-1.1.2.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [rich-argparse]: Downloading https://files.pythonhosted.org/packages/88/53/bd5de3cedaed38e6aa67f1941bda97489f2b9f88b50e6419420e71dc0feb/rich_argparse-1.1.1.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [squaredown]: Downloading https://files.pythonhosted.org/packages/a1/98/7d58080c83556bc5f47fdb4a75ff832d09cdc3b44831251cedabb513e2c7/squaredown-1.4.3.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [tumourkit]: executing diffoscope
+[2023-05-30 22:04:58] INFO root fetch - processPackages [tumourkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tumourkit-0.7.0.tar.gz tmp/tumourkit-0.7.1.tar.gz --markdown 20230530/t/tumourkit/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-30 22:04:58] INFO root fetch - processPackages [proton-db]: Downloading https://files.pythonhosted.org/packages/0d/0e/2e07f854b5c48d36b765aa3b22bf73ff2aefcd7979bfcd2bc10aa25dd0bf/proton-db-0.1.2.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [dynamo-release]: Downloading https://files.pythonhosted.org/packages/18/1c/f2fdfb42bc59e9f4dc301a219e679830ee6afe3c21a0802542b025934cb6/dynamo-release-1.3.0.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [rego-imager-readfile]: executing diffoscope
+[2023-05-30 22:04:58] INFO root fetch - processPackages [rego-imager-readfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rego_imager_readfile-1.1.1.tar.gz tmp/rego_imager_readfile-1.1.2.tar.gz --markdown 20230530/r/rego-imager-readfile/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-30 22:04:58] INFO root fetch - processPackages [rich-argparse]: executing diffoscope
+[2023-05-30 22:04:58] INFO root fetch - processPackages [rich-argparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich_argparse-1.1.0.tar.gz tmp/rich_argparse-1.1.1.tar.gz --markdown 20230530/r/rich-argparse/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-30 22:04:58] INFO root fetch - processPackages [drf-kit]: Downloading https://files.pythonhosted.org/packages/aa/e5/774e027488891430f34e9bf81096830a88e69d862f2d412723bae9896816/drf-kit-1.9.0.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [spectrafit]: Downloading https://files.pythonhosted.org/packages/b0/e6/82afb2b07e68fd939709273d2e78209c65e2ecd4f15dfd661bf36a3c9604/spectrafit-1.0.0b2.tar.gz
+[2023-05-30 22:04:58] INFO root fetch - processPackages [squaredown]: executing diffoscope
+[2023-05-30 22:04:58] INFO root fetch - processPackages [squaredown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squaredown-1.4.2.tar.gz tmp/squaredown-1.4.3.tar.gz --markdown 20230530/s/squaredown/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-30 22:04:58] INFO root fetch - processPackages [dynamo-release]: executing diffoscope
+[2023-05-30 22:04:58] INFO root fetch - processPackages [dynamo-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamo-release-1.2.0.tar.gz tmp/dynamo-release-1.3.0.tar.gz --markdown 20230530/d/dynamo-release/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-30 22:04:58] INFO root fetch - processPackages [drf-kit]: executing diffoscope
+[2023-05-30 22:04:58] INFO root fetch - processPackages [drf-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-kit-1.8.7.tar.gz tmp/drf-kit-1.9.0.tar.gz --markdown 20230530/d/drf-kit/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-05-30 22:04:58] INFO root fetch - processPackages [mercury-python]: Downloading https://files.pythonhosted.org/packages/b8/65/1e4e278849ceced546e19c599d6fada297855ddfb3f66fa207dc50e4e50f/mercury_python-0.1.1-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl
+[2023-05-30 22:04:58] INFO root fetch - processPackages [proton-db]: executing diffoscope
+[2023-05-30 22:04:58] INFO root fetch - processPackages [proton-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proton-db-0.1.1.tar.gz tmp/proton-db-0.1.2.tar.gz --markdown 20230530/p/proton-db/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 22:04:58] INFO root fetch - processPackages [spectrafit]: executing diffoscope
+[2023-05-30 22:04:58] INFO root fetch - processPackages [spectrafit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrafit-1.0.0b1.tar.gz tmp/spectrafit-1.0.0b2.tar.gz --markdown 20230530/s/spectrafit/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-05-30 22:04:58] INFO root fetch - processPackages [mercury-python]: executing diffoscope
+[2023-05-30 22:04:58] INFO root fetch - processPackages [mercury-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury_python-0.1.0-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl.zip tmp/mercury_python-0.1.1-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl.zip --markdown 20230530/m/mercury-python/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 22:04:59] INFO root fetch - processPackages [plot-antenna]: Start processing: proton-db
+[2023-05-30 22:04:59] INFO root fetch - main [MainThread]: End processing [plot-antenna]: success
+[2023-05-30 22:04:59] INFO root fetch - processPackages [proton-db]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 22:04:59] INFO root fetch - processPackages [proton-db]: executing diffoscope
+[2023-05-30 22:04:59] INFO root fetch - processPackages [proton-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proton-db-0.1.1.tar.gz tmp/proton-db-0.1.2.tar.gz --markdown 20230530/p/proton-db/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 22:05:00] INFO root fetch - processPackages [rego-imager-readfile]: Start processing: vector-quantize-pytorch
+[2023-05-30 22:05:00] INFO root fetch - main [MainThread]: End processing [rego-imager-readfile]: success
+[2023-05-30 22:05:00] INFO root fetch - processPackages [vector-quantize-pytorch]: New version: [1.6.9] Old Version: [1.6.7]
+[2023-05-30 22:05:00] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/59/2f/a0f5b7e39fdec57501b5b479d9b4fac9c2c81adc65b2ed6f30dd4dbfd3ab/vector_quantize_pytorch-1.6.9.tar.gz
+[2023-05-30 22:05:00] INFO root fetch - main [MainThread]: End processing [squaredown]: success
+[2023-05-30 22:05:00] INFO root fetch - processPackages [vector-quantize-pytorch]: executing diffoscope
+[2023-05-30 22:05:00] INFO root fetch - processPackages [vector-quantize-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_quantize_pytorch-1.6.7.tar.gz tmp/vector_quantize_pytorch-1.6.9.tar.gz --markdown 20230530/v/vector-quantize-pytorch/1.6.7-1.6.9/diff.md --exclude *.pyd
+[2023-05-30 22:05:00] INFO root fetch - main [MainThread]: End processing [drf-kit]: success
+[2023-05-30 22:05:01] INFO root fetch - main [MainThread]: End processing [rich-argparse]: success
+[2023-05-30 22:05:01] INFO root fetch - main [MainThread]: End processing [proton-db]: success
+[2023-05-30 22:05:01] INFO root fetch - main [MainThread]: End processing [spectrafit]: success
+[2023-05-30 22:05:01] INFO root fetch - main [MainThread]: End processing [proton-db]: success
+[2023-05-30 22:05:02] INFO root fetch - main [MainThread]: End processing [vector-quantize-pytorch]: success
+[2023-05-30 22:05:02] INFO root fetch - main [MainThread]: End processing [dynamo-release]: success
+[2023-05-30 22:05:03] INFO root fetch - main [MainThread]: End processing [tumourkit]: success
+[2023-05-30 22:05:07] INFO root fetch - main [MainThread]: End processing [mercury-python]: success
+[2023-05-30 22:05:07] INFO root fetch - main [MainThread]: Store serial: [18307119]
