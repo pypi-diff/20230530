@@ -4512,3 +4512,49 @@
 [2023-05-30 05:09:06] INFO root fetch - main [MainThread]: End processing [zensvi]: success
 [2023-05-30 05:09:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control]: success
 [2023-05-30 05:09:08] INFO root fetch - main [MainThread]: Store serial: [18297317]
+[2023-05-30 05:14:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297317]
+[2023-05-30 05:14:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-30 05:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: econuker
+[2023-05-30 05:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymemuc
+[2023-05-30 05:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thsquant
+[2023-05-30 05:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coconut-develop
+[2023-05-30 05:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GANDLF
+[2023-05-30 05:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: example-package-NAME
+[2023-05-30 05:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gwdali
+[2023-05-30 05:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vector2dggs
+[2023-05-30 05:14:17] INFO root fetch - processPackages [econuker]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 05:14:17] INFO root fetch - processPackages [pymemuc]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-05-30 05:14:17] INFO root fetch - processPackages [thsquant]: New version: [0.2.1] Old Version: [0.1.9]
+[2023-05-30 05:14:17] WARNING root fetch - processPackages [example-package-NAME]: Skipping, unable to determine old version
+[2023-05-30 05:14:17] WARNING root fetch - processPackages [gwdali]: Skipping, unable to determine old version
+[2023-05-30 05:14:17] INFO root fetch - main [MainThread]: End processing [example-package-NAME] error
+[2023-05-30 05:14:17] INFO root fetch - main [MainThread]: End processing [gwdali] error
+[2023-05-30 05:14:17] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230530] Old Version: [0.0.17.dev20230529]
+[2023-05-30 05:14:17] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev1] Old Version: [3.0.1.post0.dev9]
+[2023-05-30 05:14:17] INFO root fetch - processPackages [vector2dggs]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-30 05:14:17] INFO root fetch - processPackages [econuker]: Downloading https://files.pythonhosted.org/packages/17/96/efc8a457bb0eab577fbf6b33fce770c145f4b95111a41db799348b075872/econuker-1.0.9.tar.gz
+[2023-05-30 05:14:17] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/96/f9/eef1292a87e2272c62924158bb7992d7cd57429509e72aefce6acc94d12d/coconut-develop-3.0.2.post0.dev1.tar.gz
+[2023-05-30 05:14:17] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/40/5f/2938566a54a632b6b1da75bb97bcf63210138d9ee812e92b51948d55c2ff/GANDLF-0.0.17.dev20230530.tar.gz
+[2023-05-30 05:14:17] INFO root fetch - processPackages [econuker]: executing diffoscope
+[2023-05-30 05:14:17] INFO root fetch - processPackages [econuker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econuker-1.0.8.tar.gz tmp/econuker-1.0.9.tar.gz --markdown 20230530/e/econuker/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 05:14:17] INFO root fetch - processPackages [pymemuc]: Downloading https://files.pythonhosted.org/packages/c6/cf/41d077cbe9dac50c24339aadb062241ee128412e71ea5b79a1e41a23201b/pymemuc-0.3.0.tar.gz
+[2023-05-30 05:14:17] INFO root fetch - processPackages [thsquant]: Downloading https://files.pythonhosted.org/packages/73/eb/9eec7ea8d40fdccd7214421a4a5966dcb7f0f03733dd34cf76f6b806a0e8/thsquant-0.1.9.tar.gz
+[2023-05-30 05:14:17] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-05-30 05:14:17] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.1.post0.dev9.tar.gz tmp/coconut-develop-3.0.2.post0.dev1.tar.gz --markdown 20230530/c/coconut-develop/3.0.1.post0.dev9-3.0.2.post0.dev1/diff.md --exclude *.pyd
+[2023-05-30 05:14:17] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-05-30 05:14:17] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230529.tar.gz tmp/GANDLF-0.0.17.dev20230530.tar.gz --markdown 20230530/G/GANDLF/0.0.17.dev20230529-0.0.17.dev20230530/diff.md --exclude *.pyd
+[2023-05-30 05:14:17] INFO root fetch - processPackages [vector2dggs]: Downloading https://files.pythonhosted.org/packages/0c/40/98348f4173a3050d1b2771debf2a41199bc02f256c6a5ab22d3254393aad/vector2dggs-0.3.3.tar.gz
+[2023-05-30 05:14:17] INFO root fetch - processPackages [pymemuc]: executing diffoscope
+[2023-05-30 05:14:17] INFO root fetch - processPackages [pymemuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemuc-0.2.7.tar.gz tmp/pymemuc-0.3.0.tar.gz --markdown 20230530/p/pymemuc/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 05:14:18] INFO root fetch - processPackages [vector2dggs]: executing diffoscope
+[2023-05-30 05:14:18] INFO root fetch - processPackages [vector2dggs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector2dggs-0.3.2.tar.gz tmp/vector2dggs-0.3.3.tar.gz --markdown 20230530/v/vector2dggs/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-30 05:14:18] INFO root fetch - processPackages [thsquant]: Downloading https://files.pythonhosted.org/packages/e6/89/36b8eb123e4464ff2a24b5530ea358c6f41cea19b2b45c802a20a414cd36/thsquant-0.2.1.tar.gz
+[2023-05-30 05:14:18] INFO root fetch - processPackages [thsquant]: executing diffoscope
+[2023-05-30 05:14:18] INFO root fetch - processPackages [thsquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thsquant-0.1.9.tar.gz tmp/thsquant-0.2.1.tar.gz --markdown 20230530/t/thsquant/0.1.9-0.2.1/diff.md --exclude *.pyd
+[2023-05-30 05:14:19] INFO root fetch - main [MainThread]: End processing [econuker]: success
+[2023-05-30 05:14:19] INFO root fetch - main [MainThread]: End processing [pymemuc]: success
+[2023-05-30 05:14:19] INFO root fetch - main [MainThread]: End processing [vector2dggs]: success
+[2023-05-30 05:14:20] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-05-30 05:14:20] INFO root fetch - main [MainThread]: End processing [thsquant]: success
+[2023-05-30 05:14:20] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-05-30 05:14:20] INFO root fetch - main [MainThread]: Store serial: [18297347]
