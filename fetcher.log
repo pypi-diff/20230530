@@ -5425,3 +5425,80 @@
 [2023-05-30 06:43:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-report-to-printer]: success
 [2023-05-30 06:43:53] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-30 06:43:53] INFO root fetch - main [MainThread]: Store serial: [18297830]
+[2023-05-30 06:48:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297830]
+[2023-05-30 06:49:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezmail
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enderchest
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: documentdataextraction
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycafe24
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: visor-gligen
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Accuinsight
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyArrShow
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-post-office
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ezmail
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dls-bxflow-epsic
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ezmail]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 06:49:03] INFO root fetch - processPackages [pycafe24]: New version: [1.9] Old Version: [1.8]
+[2023-05-30 06:49:03] INFO root fetch - processPackages [enderchest]: New version: [0.1.0rc7] Old Version: [0.1.0rc6]
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ezmail]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 06:49:03] INFO root fetch - processPackages [PyArrShow]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-30 06:49:03] INFO root fetch - processPackages [django-post-office]: New version: [3.7.0] Old Version: [3.6.3]
+[2023-05-30 06:49:03] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 06:49:03] INFO root fetch - processPackages [visor-gligen]: New version: [1.3] Old Version: [1.2]
+[2023-05-30 06:49:03] INFO root fetch - processPackages [dls-bxflow-epsic]: New version: [1.1.3] Old Version: [1.1.1]
+[2023-05-30 06:49:03] INFO root fetch - processPackages [Accuinsight]: New version: [3.4.230530] Old Version: [3.4.230516rc1]
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ezmail]: Downloading https://files.pythonhosted.org/packages/77/16/5e593dd7958fdfdb6b746416f354891cdf8f29ee5622320b3ae8c0c4b214/ezmail-0.1.0.tar.gz
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ezmail]: Downloading https://files.pythonhosted.org/packages/77/16/5e593dd7958fdfdb6b746416f354891cdf8f29ee5622320b3ae8c0c4b214/ezmail-0.1.0.tar.gz
+[2023-05-30 06:49:03] INFO root fetch - processPackages [visor-gligen]: Downloading https://files.pythonhosted.org/packages/58/05/34d9ecde7cd94de6b43ffdbb21b8fef3a79e2ca6770073f3a8402699bb08/visor_gligen-1.3.tar.gz
+[2023-05-30 06:49:03] INFO root fetch - processPackages [pycafe24]: Downloading https://files.pythonhosted.org/packages/65/b9/2c531991af89e1da4d4bcc23c3a4e040aee0eeeb0ec5eabeafe8adbd774f/pycafe24-1.8.tar.gz
+[2023-05-30 06:49:03] INFO root fetch - processPackages [PyArrShow]: Downloading https://files.pythonhosted.org/packages/7a/45/63530c8464c35bda5708b5ed59712bb3c5f987fb94b99505f17705f2f057/PyArrShow-1.0.5.tar.gz
+[2023-05-30 06:49:03] INFO root fetch - processPackages [enderchest]: Downloading https://files.pythonhosted.org/packages/0d/04/01e23e0cf5cfe8753ba1de50585ee67e0393f274e1a38fbea6c55f8b5145/enderchest-0.1.0rc7.tar.gz
+[2023-05-30 06:49:03] INFO root fetch - processPackages [dls-bxflow-epsic]: Downloading https://files.pythonhosted.org/packages/ad/a5/17b15eace554e93db69b782d7b1693643559681bf87085d37c74f56de4db/dls-bxflow-epsic-1.1.3.tar.gz
+[2023-05-30 06:49:03] INFO root fetch - processPackages [django-post-office]: Downloading https://files.pythonhosted.org/packages/79/c2/c4cd1058ff4f524ecbfea4f6f35b7708ec6c9ec545c7073f20c4afb7ba2e/django-post_office-3.6.3.tar.gz
+[2023-05-30 06:49:03] INFO root fetch - processPackages [visor-gligen]: executing diffoscope
+[2023-05-30 06:49:03] INFO root fetch - processPackages [visor-gligen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visor_gligen-1.2.tar.gz tmp/visor_gligen-1.3.tar.gz --markdown 20230530/v/visor-gligen/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-30 06:49:03] INFO root fetch - processPackages [Accuinsight]: Downloading https://files.pythonhosted.org/packages/4e/5a/b5c015b7df70d45b696d6939e0a90221416bbe87757b22d95a2e47b572dd/Accuinsight-3.4.230530.tar.gz
+[2023-05-30 06:49:03] INFO root fetch - processPackages [enderchest]: executing diffoscope
+[2023-05-30 06:49:03] INFO root fetch - processPackages [enderchest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enderchest-0.1.0rc6.tar.gz tmp/enderchest-0.1.0rc7.tar.gz --markdown 20230530/e/enderchest/0.1.0rc6-0.1.0rc7/diff.md --exclude *.pyd
+[2023-05-30 06:49:03] INFO root fetch - processPackages [PyArrShow]: executing diffoscope
+[2023-05-30 06:49:03] INFO root fetch - processPackages [PyArrShow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyArrShow-1.0.4.tar.gz tmp/PyArrShow-1.0.5.tar.gz --markdown 20230530/P/PyArrShow/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ezmail]: Downloading https://files.pythonhosted.org/packages/2a/12/f435affd23a636c2cc300151022b2b486a37a42419873be7edb88972277b/ezmail-0.1.1.tar.gz
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ezmail]: Downloading https://files.pythonhosted.org/packages/2a/12/f435affd23a636c2cc300151022b2b486a37a42419873be7edb88972277b/ezmail-0.1.1.tar.gz
+[2023-05-30 06:49:03] INFO root fetch - processPackages [dls-bxflow-epsic]: executing diffoscope
+[2023-05-30 06:49:03] INFO root fetch - processPackages [dls-bxflow-epsic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-bxflow-epsic-1.1.1.tar.gz tmp/dls-bxflow-epsic-1.1.3.tar.gz --markdown 20230530/d/dls-bxflow-epsic/1.1.1-1.1.3/diff.md --exclude *.pyd
+[2023-05-30 06:49:03] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-05-30 06:49:03] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230530/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 06:49:03] INFO root fetch - processPackages [Accuinsight]: executing diffoscope
+[2023-05-30 06:49:03] INFO root fetch - processPackages [Accuinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Accuinsight-3.4.230516rc1.tar.gz tmp/Accuinsight-3.4.230530.tar.gz --markdown 20230530/A/Accuinsight/3.4.230516rc1-3.4.230530/diff.md --exclude *.pyd
+[2023-05-30 06:49:03] INFO root fetch - processPackages [django-post-office]: Downloading https://files.pythonhosted.org/packages/56/fe/f640d3ec1e98fc0c078502b49dfcc0fbb72292363ee5a5b65a464ccb50d0/django-post_office-3.7.0.tar.gz
+[2023-05-30 06:49:03] INFO root fetch - processPackages [pycafe24]: Downloading https://files.pythonhosted.org/packages/df/af/e80b252c526a19acc5f392917afddb08a4103d7ea00a60a33fbd805d4bd5/pycafe24-1.9.tar.gz
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ezmail]: executing diffoscope
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ezmail]: executing diffoscope
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ezmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezmail-0.1.0.tar.gz tmp/ezmail-0.1.1.tar.gz --markdown 20230530/e/ezmail/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 06:49:03] INFO root fetch - processPackages [ezmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezmail-0.1.0.tar.gz tmp/ezmail-0.1.1.tar.gz --markdown 20230530/e/ezmail/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 06:49:04] INFO root fetch - processPackages [django-post-office]: executing diffoscope
+[2023-05-30 06:49:04] INFO root fetch - processPackages [django-post-office]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-post_office-3.6.3.tar.gz tmp/django-post_office-3.7.0.tar.gz --markdown 20230530/d/django-post-office/3.6.3-3.7.0/diff.md --exclude *.pyd
+[2023-05-30 06:49:04] INFO root fetch - processPackages [pycafe24]: executing diffoscope
+[2023-05-30 06:49:04] INFO root fetch - processPackages [pycafe24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycafe24-1.8.tar.gz tmp/pycafe24-1.9.tar.gz --markdown 20230530/p/pycafe24/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-30 06:49:05] INFO root fetch - processPackages [PyArrShow]: Start processing: documentdataextraction
+[2023-05-30 06:49:05] INFO root fetch - main [MainThread]: End processing [PyArrShow]: success
+[2023-05-30 06:49:05] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 06:49:05] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-05-30 06:49:05] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230530/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 06:49:05] INFO root fetch - processPackages [documentdataextraction]: Start processing: odoo-addons-oca-sale-promotion
+[2023-05-30 06:49:05] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-05-30 06:49:05] INFO root fetch - main [MainThread]: End processing [enderchest]: success
+[2023-05-30 06:49:05] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: New version: [15.0.20230529.0] Old Version: [15.0.20230525.0]
+[2023-05-30 06:49:06] INFO root fetch - main [MainThread]: End processing [visor-gligen]: success
+[2023-05-30 06:49:06] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: Downloading https://files.pythonhosted.org/packages/56/b4/73fbb69e7e698710d136ded13b417446bd7f7683e4e70abe5f9d20727065/odoo_addons_oca_sale_promotion-15.0.20230529.0-py3-none-any.whl
+[2023-05-30 06:49:06] INFO root fetch - main [MainThread]: End processing [ezmail]: success
+[2023-05-30 06:49:06] INFO root fetch - main [MainThread]: End processing [dls-bxflow-epsic]: success
+[2023-05-30 06:49:06] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: executing diffoscope
+[2023-05-30 06:49:06] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_promotion-15.0.20230525.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_promotion-15.0.20230529.0-py3-none-any.whl.zip --markdown 20230530/o/odoo-addons-oca-sale-promotion/15.0.20230525.0-15.0.20230529.0/diff.md --exclude *.pyd
+[2023-05-30 06:49:06] INFO root fetch - main [MainThread]: End processing [pycafe24]: success
+[2023-05-30 06:49:06] INFO root fetch - main [MainThread]: End processing [ezmail]: success
+[2023-05-30 06:49:06] INFO root fetch - main [MainThread]: End processing [Accuinsight]: success
+[2023-05-30 06:49:06] INFO root fetch - main [MainThread]: End processing [django-post-office]: success
+[2023-05-30 06:49:07] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-05-30 06:49:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-promotion]: success
+[2023-05-30 06:49:07] INFO root fetch - main [MainThread]: Store serial: [18297866]
