@@ -6150,3 +6150,42 @@
 [2023-05-30 07:54:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-account-tax-report]: success
 [2023-05-30 07:54:29] INFO root fetch - main [MainThread]: End processing [django-perf-rec]: success
 [2023-05-30 07:54:29] INFO root fetch - main [MainThread]: Store serial: [18298190]
+[2023-05-30 07:59:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298190]
+[2023-05-30 07:59:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-30 07:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whisper-autosrt
+[2023-05-30 07:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-grpc-lw-data-provider
+[2023-05-30 07:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openlane
+[2023-05-30 07:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emid
+[2023-05-30 07:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sickchill
+[2023-05-30 07:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xenoslib
+[2023-05-30 07:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ruamel.yaml
+[2023-05-30 07:59:38] INFO root fetch - processPackages [whisper-autosrt]: New version: [0.0.5] Old Version: [0.0.2]
+[2023-05-30 07:59:38] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-05-30 07:59:38] INFO root fetch - processPackages [sickchill]: New version: [2023.5.30] Old Version: [2023.5.28]
+[2023-05-30 07:59:38] WARNING root fetch - processPackages [emid]: Skipping, unable to determine old version
+[2023-05-30 07:59:38] INFO root fetch - main [MainThread]: End processing [emid] error
+[2023-05-30 07:59:38] INFO root fetch - processPackages [xenoslib]: New version: [0.1.28.3] Old Version: [0.1.28.2]
+[2023-05-30 07:59:38] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5118035846]
+[2023-05-30 07:59:38] INFO root fetch - processPackages [ruamel.yaml]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-30 07:59:38] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/cf/2e/19f97b6fecd2eb42905e1d2ae493f3835697db33bfc72665272f006b8541/th2_grpc_lw_data_provider-2.0.0.dev5118035846.tar.gz
+[2023-05-30 07:59:38] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/e2/3e/728095d42f02527f595299769fc51aad230a50bbcefe756927d4af954359/whisper_autosrt-0.0.5.tar.gz
+[2023-05-30 07:59:38] INFO root fetch - processPackages [sickchill]: Downloading https://files.pythonhosted.org/packages/54/9b/9d22719658048b81c044affc4f1ae87a53ffa1e7c75c9b8f0cce85d57d2a/sickchill-2023.5.28.tar.gz
+[2023-05-30 07:59:39] INFO root fetch - processPackages [whisper-autosrt]: executing diffoscope
+[2023-05-30 07:59:39] INFO root fetch - processPackages [whisper-autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_autosrt-0.0.2.tar.gz tmp/whisper_autosrt-0.0.5.tar.gz --markdown 20230530/w/whisper-autosrt/0.0.2-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 07:59:39] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-05-30 07:59:39] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230530/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-05-30 07:59:39] WARNING root fetch - processPackages [sickchill]: Skipping package: exceeds size limit 14757662>=10485760
+[2023-05-30 07:59:39] INFO root fetch - main [MainThread]: End processing [sickchill] error
+[2023-05-30 07:59:39] INFO root fetch - processPackages [xenoslib]: Downloading https://files.pythonhosted.org/packages/1b/9d/ef7692391353d3f11b5b9e098a89751034138ebb599dd165b4f35667bfaf/xenoslib-0.1.28.3.tar.gz
+[2023-05-30 07:59:39] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-05-30 07:59:39] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5118035846.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230530/t/th2-grpc-lw-data-provider/2.0.0.dev5118035846-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-05-30 07:59:39] INFO root fetch - processPackages [ruamel.yaml]: executing diffoscope
+[2023-05-30 07:59:39] INFO root fetch - processPackages [ruamel.yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruamel.yaml-0.9.7.tar.gz tmp/ruamel.yaml-0.9.8.tar.gz --markdown 20230530/r/ruamel.yaml/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-30 07:59:39] INFO root fetch - processPackages [xenoslib]: executing diffoscope
+[2023-05-30 07:59:39] INFO root fetch - processPackages [xenoslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xenoslib-0.1.28.2.tar.gz tmp/xenoslib-0.1.28.3.tar.gz --markdown 20230530/x/xenoslib/0.1.28.2-0.1.28.3/diff.md --exclude *.pyd
+[2023-05-30 07:59:40] INFO root fetch - main [MainThread]: End processing [whisper-autosrt]: success
+[2023-05-30 07:59:40] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-05-30 07:59:40] INFO root fetch - main [MainThread]: End processing [xenoslib]: success
+[2023-05-30 07:59:40] INFO root fetch - main [MainThread]: End processing [ruamel.yaml]: success
+[2023-05-30 07:59:41] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-05-30 07:59:41] INFO root fetch - main [MainThread]: Store serial: [18298214]
