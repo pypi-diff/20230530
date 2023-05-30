@@ -3455,3 +3455,49 @@
 [2023-05-30 03:13:20] INFO root fetch - main [MainThread]: End processing [toolplot]: success
 [2023-05-30 03:13:20] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
 [2023-05-30 03:13:20] INFO root fetch - main [MainThread]: Store serial: [18296597]
+[2023-05-30 03:18:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296597]
+[2023-05-30 03:18:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-30 03:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toolplot
+[2023-05-30 03:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: byquant
+[2023-05-30 03:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-sops-secrets
+[2023-05-30 03:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: selenium-supporter
+[2023-05-30 03:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audiolm-pytorch
+[2023-05-30 03:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: duckdb
+[2023-05-30 03:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moto
+[2023-05-30 03:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-organizations
+[2023-05-30 03:18:29] INFO root fetch - processPackages [toolplot]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-30 03:18:29] WARNING root fetch - processPackages [byquant]: Skipping, unable to determine old version
+[2023-05-30 03:18:29] INFO root fetch - main [MainThread]: End processing [byquant] error
+[2023-05-30 03:18:29] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-05-30 03:18:29] INFO root fetch - processPackages [audiolm-pytorch]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-05-30 03:18:29] INFO root fetch - processPackages [selenium-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 03:18:29] INFO root fetch - processPackages [duckdb]: New version: [0.8.1.dev152] Old Version: [0.8.1.dev125]
+[2023-05-30 03:18:29] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-30 03:18:29] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-30 03:18:29] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-30 03:18:29] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230530/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-05-30 03:18:29] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-30 03:18:29] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230530/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-30 03:18:29] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/0d/e3/552baca0878541fa94a111de0a84f1f69968cd1fb49a6490ebdff8e69842/duckdb-0.8.1.dev125.tar.gz
+[2023-05-30 03:18:29] INFO root fetch - processPackages [selenium-supporter]: Downloading https://files.pythonhosted.org/packages/f9/33/1d05c962793776e6444348c2c457f3308e36ce8b5d5688297c892b81b26b/selenium-supporter-0.0.9.tar.gz
+[2023-05-30 03:18:29] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/5a/17/16818f44372d7598c182b5806ca935b5cf2121fa968496638dd8acc265dd/audiolm-pytorch-1.1.0.tar.gz
+[2023-05-30 03:18:29] INFO root fetch - processPackages [toolplot]: Downloading https://files.pythonhosted.org/packages/7a/56/3598bf165cec6eb917725256da04971afb6f00ac4c9746a5fe24c47c7d94/toolplot-0.3.4.tar.gz
+[2023-05-30 03:18:29] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-05-30 03:18:29] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-1.0.6.tar.gz tmp/audiolm-pytorch-1.1.0.tar.gz --markdown 20230530/a/audiolm-pytorch/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 03:18:29] INFO root fetch - processPackages [toolplot]: executing diffoscope
+[2023-05-30 03:18:29] INFO root fetch - processPackages [toolplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolplot-0.3.3.tar.gz tmp/toolplot-0.3.4.tar.gz --markdown 20230530/t/toolplot/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-30 03:18:29] INFO root fetch - processPackages [selenium-supporter]: executing diffoscope
+[2023-05-30 03:18:29] INFO root fetch - processPackages [selenium-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-supporter-0.0.8.tar.gz tmp/selenium-supporter-0.0.9.tar.gz --markdown 20230530/s/selenium-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 03:18:29] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-30 03:18:29] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230530/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-30 03:18:29] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/a8/d7/4efc8e3d7df55245984a0168bd2b383c55f7477262dc68956d99be18787d/duckdb-0.8.1.dev152.tar.gz
+[2023-05-30 03:18:30] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-05-30 03:18:30] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.8.1.dev125.tar.gz tmp/duckdb-0.8.1.dev152.tar.gz --markdown 20230530/d/duckdb/0.8.1.dev125-0.8.1.dev152/diff.md --exclude *.pyd
+[2023-05-30 03:18:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-30 03:18:30] INFO root fetch - main [MainThread]: End processing [toolplot]: success
+[2023-05-30 03:18:31] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-05-30 03:18:31] INFO root fetch - main [MainThread]: End processing [selenium-supporter]: success
+[2023-05-30 03:18:32] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-30 03:19:02] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-30 03:20:54] INFO root fetch - main [MainThread]: End processing [duckdb]: success
+[2023-05-30 03:20:54] INFO root fetch - main [MainThread]: Store serial: [18296620]
