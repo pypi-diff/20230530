@@ -11599,3 +11599,107 @@
 [2023-05-30 13:37:39] INFO root fetch - main [MainThread]: End processing [scalib]: success
 [2023-05-30 13:37:40] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
 [2023-05-30 13:37:40] INFO root fetch - main [MainThread]: Store serial: [18301443]
+[2023-05-30 13:42:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18301443]
+[2023-05-30 13:42:49] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-30 13:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poplar
+[2023-05-30 13:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiledb-jupyter-bioimg
+[2023-05-30 13:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycociC
+[2023-05-30 13:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vimnote
+[2023-05-30 13:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idpmodem
+[2023-05-30 13:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visor-gligen
+[2023-05-30 13:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: splicekit
+[2023-05-30 13:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tracknado
+[2023-05-30 13:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chatllm
+[2023-05-30 13:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-l10n-es-pos-by-device
+[2023-05-30 13:42:50] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-05-30 13:42:50] INFO root fetch - processPackages [vimnote]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-30 13:42:50] INFO root fetch - processPackages [visor-gligen]: New version: [1.6] Old Version: [1.5]
+[2023-05-30 13:42:50] INFO root fetch - processPackages [poplar]: New version: [0.2] Old Version: [0.1.0]
+[2023-05-30 13:42:50] INFO root fetch - processPackages [odoo14-addon-l10n-es-pos-by-device]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.1]
+[2023-05-30 13:42:50] INFO root fetch - processPackages [pycociC]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-30 13:42:50] INFO root fetch - processPackages [splicekit]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-30 13:42:50] INFO root fetch - processPackages [tracknado]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-30 13:42:50] INFO root fetch - processPackages [idpmodem]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-30 13:42:50] INFO root fetch - processPackages [chatllm]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-30 13:42:50] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2023-05-30 13:42:50] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230530/c/chatllm/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-30 13:42:50] INFO root fetch - processPackages [odoo14-addon-l10n-es-pos-by-device]: Downloading https://files.pythonhosted.org/packages/b5/bd/bd86e6d9a28efc141d76e1d645cd8eeb364b62f45b7e94c52795646abd85/odoo14_addon_l10n_es_pos_by_device-14.0.1.1.1-py3-none-any.whl
+[2023-05-30 13:42:50] INFO root fetch - processPackages [pycociC]: Downloading https://files.pythonhosted.org/packages/57/8c/2dac46db4fcae6cbee2f51d56a51c6f4b0ce7cbb9b8e875fa5196b043a8f/pycociC-1.1.1.tar.gz
+[2023-05-30 13:42:50] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/9a/58/9209fd407b2374e85030bbedfd6d79cb9c8164a2e17e46837f27923c5d74/tiledb_jupyter_bioimg-0.1.1a2.tar.gz
+[2023-05-30 13:42:50] INFO root fetch - processPackages [poplar]: Downloading https://files.pythonhosted.org/packages/d1/83/29c20be5a1a3a0c2f22ba79ccf356f60f2b12bd29ab0cb705fc05506cf1b/poplar-0.1.0.tar.gz
+[2023-05-30 13:42:50] INFO root fetch - processPackages [vimnote]: Downloading https://files.pythonhosted.org/packages/90/d8/f5a7d29e25e12c06a5ada6feda001b2c4980ef18e34f2b2b079047280bef/vimnote-1.0.5.tar.gz
+[2023-05-30 13:42:50] INFO root fetch - processPackages [visor-gligen]: Downloading https://files.pythonhosted.org/packages/ca/d7/a7196d19aa0a39e62990a12550180c1a21a2776b2fb104253f2f430baf0e/visor_gligen-1.6.tar.gz
+[2023-05-30 13:42:50] INFO root fetch - processPackages [tracknado]: Downloading https://files.pythonhosted.org/packages/cd/d2/566072258b08044b7396253f14e4173e49599f424ece2b0ecc81bdf6f431/tracknado-0.2.3.tar.gz
+[2023-05-30 13:42:50] INFO root fetch - processPackages [splicekit]: Downloading https://files.pythonhosted.org/packages/4e/aa/8ebf35ce6fa6355931896fddcbd358072229fe262414a6493fd55e9a78a9/splicekit-0.4.2.tar.gz
+[2023-05-30 13:42:50] INFO root fetch - processPackages [idpmodem]: Downloading https://files.pythonhosted.org/packages/e1/ce/4134ed857192361c4e5cab080052860ad60fc22ef9b74e22335f1814e9fc/idpmodem-2.3.9.tar.gz
+[2023-05-30 13:42:50] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: executing diffoscope
+[2023-05-30 13:42:50] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_jupyter_bioimg-0.1.1a1.tar.gz tmp/tiledb_jupyter_bioimg-0.1.1a2.tar.gz --markdown 20230530/t/tiledb-jupyter-bioimg/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-05-30 13:42:50] INFO root fetch - processPackages [odoo14-addon-l10n-es-pos-by-device]: Downloading https://files.pythonhosted.org/packages/6c/20/83dbace58020b43633bac524b20ab34ebbb04a303a5a918c162ffda72652/odoo14_addon_l10n_es_pos_by_device-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-05-30 13:42:50] INFO root fetch - processPackages [visor-gligen]: executing diffoscope
+[2023-05-30 13:42:50] INFO root fetch - processPackages [visor-gligen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visor_gligen-1.5.tar.gz tmp/visor_gligen-1.6.tar.gz --markdown 20230530/v/visor-gligen/1.5-1.6/diff.md --exclude *.pyd
+[2023-05-30 13:42:50] INFO root fetch - processPackages [tracknado]: executing diffoscope
+[2023-05-30 13:42:50] INFO root fetch - processPackages [tracknado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracknado-0.2.2.tar.gz tmp/tracknado-0.2.3.tar.gz --markdown 20230530/t/tracknado/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-30 13:42:50] INFO root fetch - processPackages [vimnote]: Downloading https://files.pythonhosted.org/packages/75/f9/ca47fb3d3d19ec06e01804efc8d2f1c2dd66647a034405306525a1a71bcd/vimnote-1.0.6.tar.gz
+[2023-05-30 13:42:50] INFO root fetch - processPackages [splicekit]: executing diffoscope
+[2023-05-30 13:42:50] INFO root fetch - processPackages [splicekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splicekit-0.4.1.tar.gz tmp/splicekit-0.4.2.tar.gz --markdown 20230530/s/splicekit/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-30 13:42:50] INFO root fetch - processPackages [pycociC]: Downloading https://files.pythonhosted.org/packages/63/80/f59d618908c95ae8fb181edfdb23e88ea9eece2dd4c11c9c25045ad52ad2/pycociC-1.1.2.tar.gz
+[2023-05-30 13:42:50] INFO root fetch - processPackages [idpmodem]: executing diffoscope
+[2023-05-30 13:42:50] INFO root fetch - processPackages [idpmodem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idpmodem-2.3.8.tar.gz tmp/idpmodem-2.3.9.tar.gz --markdown 20230530/i/idpmodem/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-30 13:42:50] INFO root fetch - processPackages [odoo14-addon-l10n-es-pos-by-device]: executing diffoscope
+[2023-05-30 13:42:50] INFO root fetch - processPackages [odoo14-addon-l10n-es-pos-by-device]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_pos_by_device-14.0.1.1.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_pos_by_device-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-l10n-es-pos-by-device/14.0.1.1.1-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-05-30 13:42:50] INFO root fetch - processPackages [vimnote]: executing diffoscope
+[2023-05-30 13:42:50] INFO root fetch - processPackages [vimnote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vimnote-1.0.5.tar.gz tmp/vimnote-1.0.6.tar.gz --markdown 20230530/v/vimnote/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-30 13:42:50] INFO root fetch - processPackages [pycociC]: executing diffoscope
+[2023-05-30 13:42:50] INFO root fetch - processPackages [pycociC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycociC-1.1.1.tar.gz tmp/pycociC-1.1.2.tar.gz --markdown 20230530/p/pycociC/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-30 13:42:51] INFO root fetch - processPackages [poplar]: Downloading https://files.pythonhosted.org/packages/2d/8c/99ccc4dbe8135f162d6ade4043a4818b0960c247b84c11ee26a8156d6b52/poplar-0.2.tar.gz
+[2023-05-30 13:42:51] INFO root fetch - processPackages [poplar]: executing diffoscope
+[2023-05-30 13:42:51] INFO root fetch - processPackages [poplar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poplar-0.1.0.tar.gz tmp/poplar-0.2.tar.gz --markdown 20230530/p/poplar/0.1.0-0.2/diff.md --exclude *.pyd
+[2023-05-30 13:42:52] INFO root fetch - processPackages [splicekit]: Start processing: farm-haystack
+[2023-05-30 13:42:52] INFO root fetch - main [MainThread]: End processing [splicekit]: success
+[2023-05-30 13:42:52] INFO root fetch - processPackages [farm-haystack]: New version: [1.9.1rc1] Old Version: [1.9.1]
+[2023-05-30 13:42:52] INFO root fetch - processPackages [visor-gligen]: Start processing: symbtools
+[2023-05-30 13:42:52] INFO root fetch - main [MainThread]: End processing [visor-gligen]: success
+[2023-05-30 13:42:52] INFO root fetch - processPackages [symbtools]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-30 13:42:52] INFO root fetch - processPackages [symbtools]: Downloading https://files.pythonhosted.org/packages/51/fa/03baa174fcfa9e98d353605180220f8f49a7875950a1dc720082329eaa8c/symbtools-0.3.3.tar.gz
+[2023-05-30 13:42:52] INFO root fetch - processPackages [tracknado]: Start processing: hao
+[2023-05-30 13:42:52] INFO root fetch - main [MainThread]: End processing [tracknado]: success
+[2023-05-30 13:42:53] INFO root fetch - processPackages [hao]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-05-30 13:42:53] INFO root fetch - processPackages [vimnote]: Start processing: pyautd3
+[2023-05-30 13:42:53] INFO root fetch - main [MainThread]: End processing [vimnote]: success
+[2023-05-30 13:42:53] INFO root fetch - processPackages [pyautd3]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-05-30 13:42:53] INFO root fetch - processPackages [symbtools]: Downloading https://files.pythonhosted.org/packages/fc/ba/d48765c057a84d426c73babe036cb9bee3637bf25df049533f8e7237a131/symbtools-0.3.4.tar.gz
+[2023-05-30 13:42:53] INFO root fetch - processPackages [chatllm]: Start processing: pyheartlib
+[2023-05-30 13:42:53] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2023-05-30 13:42:53] INFO root fetch - processPackages [farm-haystack]: executing diffoscope
+[2023-05-30 13:42:53] INFO root fetch - processPackages [farm-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/farm_haystack-1.9.1.tar.gz tmp/farm_haystack-1.9.1rc1.tar.gz --markdown 20230530/f/farm-haystack/1.9.1-1.9.1rc1/diff.md --exclude *.pyd
+[2023-05-30 13:42:53] INFO root fetch - processPackages [idpmodem]: Start processing: MeUtils
+[2023-05-30 13:42:53] INFO root fetch - main [MainThread]: End processing [idpmodem]: success
+[2023-05-30 13:42:53] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.9.15.50.17] Old Version: [2023.5.5.13.0.43]
+[2023-05-30 13:42:53] INFO root fetch - processPackages [pycociC]: Start processing: ibek
+[2023-05-30 13:42:53] INFO root fetch - main [MainThread]: End processing [pycociC]: success
+[2023-05-30 13:42:53] INFO root fetch - processPackages [symbtools]: executing diffoscope
+[2023-05-30 13:42:53] INFO root fetch - processPackages [symbtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbtools-0.3.3.tar.gz tmp/symbtools-0.3.4.tar.gz --markdown 20230530/s/symbtools/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-30 13:42:53] INFO root fetch - processPackages [pyheartlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 13:42:53] INFO root fetch - processPackages [ibek]: New version: [0.9.5b2] Old Version: [0.9.5b1]
+[2023-05-30 13:42:53] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/e8/71/a7e782b3fd39d71bc7d9f5c5bc4c935f52b63b87e0680f3ec000d5ae1545/pyautd3-9.0.0.tar.gz
+[2023-05-30 13:42:53] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-30 13:42:53] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.5.13.0.43.tar.gz tmp/MeUtils-2023.5.9.15.50.17.tar.gz --markdown 20230530/M/MeUtils/2023.5.5.13.0.43-2023.5.9.15.50.17/diff.md --exclude *.pyd
+[2023-05-30 13:42:53] INFO root fetch - processPackages [ibek]: executing diffoscope
+[2023-05-30 13:42:53] INFO root fetch - processPackages [ibek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibek-0.9.5b1.tar.gz tmp/ibek-0.9.5b2.tar.gz --markdown 20230530/i/ibek/0.9.5b1-0.9.5b2/diff.md --exclude *.pyd
+[2023-05-30 13:42:53] INFO root fetch - processPackages [hao]: executing diffoscope
+[2023-05-30 13:42:53] INFO root fetch - processPackages [hao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hao-3.7.8.tar.gz tmp/hao-3.7.9.tar.gz --markdown 20230530/h/hao/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-05-30 13:42:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-pos-by-device]: success
+[2023-05-30 13:42:53] INFO root fetch - processPackages [pyheartlib]: Downloading https://files.pythonhosted.org/packages/e9/0d/6d6a18539ada6edec820457413f51f102018a0b1d0db2e83e1cb963a8c35/pyheartlib-0.0.9.tar.gz
+[2023-05-30 13:42:53] INFO root fetch - processPackages [pyheartlib]: executing diffoscope
+[2023-05-30 13:42:53] INFO root fetch - processPackages [pyheartlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyheartlib-0.0.8.tar.gz tmp/pyheartlib-0.0.9.tar.gz --markdown 20230530/p/pyheartlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 13:42:54] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 25360257>=10485760
+[2023-05-30 13:42:54] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2023-05-30 13:42:55] INFO root fetch - main [MainThread]: End processing [symbtools]: success
+[2023-05-30 13:42:55] INFO root fetch - main [MainThread]: End processing [ibek]: success
+[2023-05-30 13:42:55] INFO root fetch - main [MainThread]: End processing [hao]: success
+[2023-05-30 13:42:55] INFO root fetch - main [MainThread]: End processing [pyheartlib]: success
+[2023-05-30 13:42:57] INFO root fetch - main [MainThread]: End processing [farm-haystack]: success
+[2023-05-30 13:42:57] INFO root fetch - main [MainThread]: End processing [poplar]: success
+[2023-05-30 13:42:57] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
+[2023-05-30 13:42:59] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-30 13:42:59] INFO root fetch - main [MainThread]: Store serial: [18301519]
