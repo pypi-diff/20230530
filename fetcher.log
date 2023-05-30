@@ -12165,3 +12165,137 @@
 [2023-05-30 14:09:39] INFO root fetch - main [MainThread]: End processing [teststack]: success
 [2023-05-30 14:09:44] INFO root fetch - main [MainThread]: End processing [cradmin-legacy]: success
 [2023-05-30 14:09:44] INFO root fetch - main [MainThread]: Store serial: [18301925]
+[2023-05-30 14:14:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18301925]
+[2023-05-30 14:14:54] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-30 14:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-orca-spark2
+[2023-05-30 14:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipyaladin
+[2023-05-30 14:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiaogpt
+[2023-05-30 14:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-friesian-spark2
+[2023-05-30 14:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-chronos-spark2
+[2023-05-30 14:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-spark2
+[2023-05-30 14:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-agents-nightly
+[2023-05-30 14:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mo-testing
+[2023-05-30 14:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-30 14:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: docker-autotag
+[2023-05-30 14:14:54] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230528]
+[2023-05-30 14:14:54] INFO root fetch - processPackages [ipyaladin]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-30 14:14:54] INFO root fetch - processPackages [mo-testing]: New version: [5.53.21241] Old Version: [5.405.23150]
+[2023-05-30 14:14:54] INFO root fetch - processPackages [xiaogpt]: New version: [1.45] Old Version: [1.44]
+[2023-05-30 14:14:54] INFO root fetch - processPackages [docker-autotag]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-30 14:14:54] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 14:14:54] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230528]
+[2023-05-30 14:14:54] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230528]
+[2023-05-30 14:14:54] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-05-30 14:14:54] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230528]
+[2023-05-30 14:14:54] INFO root fetch - processPackages [docker-autotag]: executing diffoscope
+[2023-05-30 14:14:54] INFO root fetch - processPackages [docker-autotag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_autotag-1.2.8.tar.gz tmp/docker_autotag-1.2.9.tar.gz --markdown 20230530/d/docker-autotag/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-30 14:14:54] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-05-30 14:14:54] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230530/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-05-30 14:14:54] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/44/72/9faea20f60c7a42a4629e02f4cd1162cbe6303526033822bacca605c00ad/mo_testing-5.405.23150-py2.py3-none-any.whl
+[2023-05-30 14:14:54] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/18/c2/1d625e12b17d0af5540120ae22fb54e9b0ab52ba1f878b14494b3073c401/bigdl_orca_spark2-2.4.0b20230528-py3-none-manylinux1_x86_64.whl
+[2023-05-30 14:14:54] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369405>=10485760
+[2023-05-30 14:14:54] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: speculos
+[2023-05-30 14:14:54] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-05-30 14:14:54] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/7e/b4/60cf82c8821c7c4b67ea5cc30bb7a6d93530f321d41ce9b8cc3e7bfe84ac/xiaogpt-1.44.tar.gz
+[2023-05-30 14:14:54] INFO root fetch - processPackages [speculos]: New version: [0.2.1] Old Version: [0.1.0]
+[2023-05-30 14:14:55] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/d5/5a/fbdda940167e56020305162b9a6f75f2f0bb496f7c941529f3c80e880a18/bigdl_chronos_spark2-2.4.0b20230530-py3-none-manylinux1_x86_64.whl
+[2023-05-30 14:14:55] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/d9/cd/f2576ce1ba78bee930d7589319531827d26adb89f1ffc604ffe0395e6bb5/mo-testing-5.53.21241.tar.gz
+[2023-05-30 14:14:55] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/d4/17/400df51a3f3b6d47a41703b5867ad26d7dcaa21e1d1576bda0bb10d738f2/bigdl_friesian_spark2-2.4.0b20230530-py3-none-manylinux1_x86_64.whl
+[2023-05-30 14:14:55] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-30 14:14:55] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 14:14:55] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/b5/20/3294f90c1f89d26072b7182cca8d250b8f68695343ef406e20e7dc353021/bigdl_spark2-2.4.0b20230530-py3-none-manylinux1_x86_64.whl
+[2023-05-30 14:14:55] INFO root fetch - processPackages [speculos]: Downloading https://files.pythonhosted.org/packages/4d/3b/4333dcb8f9c5cbb8304d10cd358e87c448c6197e5dd7223fef09ed654665/speculos-0.1.0.tar.gz
+[2023-05-30 14:14:55] INFO root fetch - processPackages [ipyaladin]: Downloading https://files.pythonhosted.org/packages/19/15/6caede5dc4efa63e7b7fb7a81fbcf1885eeaa238f1bb3781ece211e8b6b0/ipyaladin-0.2.3.tar.gz
+[2023-05-30 14:14:55] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-05-30 14:14:55] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230528-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip --markdown 20230530/b/bigdl-chronos-spark2/2.4.0b20230528-2.4.0b20230530/diff.md --exclude *.pyd
+[2023-05-30 14:14:55] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-05-30 14:14:55] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230528-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip --markdown 20230530/b/bigdl-friesian-spark2/2.4.0b20230528-2.4.0b20230530/diff.md --exclude *.pyd
+[2023-05-30 14:14:55] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-05-30 14:14:55] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230528-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230530-py3-none-manylinux1_x86_64.whl.zip --markdown 20230530/b/bigdl-spark2/2.4.0b20230528-2.4.0b20230530/diff.md --exclude *.pyd
+[2023-05-30 14:14:55] INFO root fetch - processPackages [mo-testing]: executing diffoscope
+[2023-05-30 14:14:55] INFO root fetch - processPackages [mo-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_testing-5.405.23150-py2.py3-none-any.whl.zip tmp/mo-testing-5.53.21241.tar.gz --markdown 20230530/m/mo-testing/5.405.23150-5.53.21241/diff.md --exclude *.pyd
+[2023-05-30 14:14:55] INFO root fetch - processPackages [ipyaladin]: executing diffoscope
+[2023-05-30 14:14:55] INFO root fetch - processPackages [ipyaladin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyaladin-0.2.2.tar.gz tmp/ipyaladin-0.2.3.tar.gz --markdown 20230530/i/ipyaladin/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-30 14:14:55] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/ef/b7/77bd71bd696fea6ba0a1c259199fcf84d71c0be94f2b993c7486877bcd4f/xiaogpt-1.45.tar.gz
+[2023-05-30 14:14:55] INFO root fetch - processPackages [xiaogpt]: executing diffoscope
+[2023-05-30 14:14:55] INFO root fetch - processPackages [xiaogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaogpt-1.44.tar.gz tmp/xiaogpt-1.45.tar.gz --markdown 20230530/x/xiaogpt/1.44-1.45/diff.md --exclude *.pyd
+[2023-05-30 14:14:55] INFO root fetch - processPackages [speculos]: Downloading https://files.pythonhosted.org/packages/45/f7/c48cba89af451533c6aa5f6721fc2f926d456f099e8af76c0d834e7a4093/speculos-0.2.1.tar.gz
+[2023-05-30 14:14:55] WARNING root fetch - processPackages [speculos]: Skipping package: exceeds size limit 15995762>=10485760
+[2023-05-30 14:14:55] INFO root fetch - processPackages [speculos]: Start processing: steampunk-spotter
+[2023-05-30 14:14:55] INFO root fetch - main [MainThread]: End processing [speculos] error
+[2023-05-30 14:14:55] INFO root fetch - processPackages [steampunk-spotter]: New version: [2.0.0rc1] Old Version: [1.2.9a2]
+[2023-05-30 14:14:55] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/aa/31/89911b76b5113b1cc12d935893bb7f6aa709db70a06ebc8948689d610146/steampunk_spotter-2.0.0rc1-py3-none-any.whl
+[2023-05-30 14:14:55] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-05-30 14:14:55] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-1.2.9a2-py3-none-any.whl.zip tmp/steampunk_spotter-2.0.0rc1-py3-none-any.whl.zip --markdown 20230530/s/steampunk-spotter/1.2.9a2-2.0.0rc1/diff.md --exclude *.pyd
+[2023-05-30 14:14:56] INFO root fetch - processPackages [docker-autotag]: Start processing: PyGameTool
+[2023-05-30 14:14:56] INFO root fetch - main [MainThread]: End processing [docker-autotag]: success
+[2023-05-30 14:14:56] WARNING root fetch - processPackages [PyGameTool]: Skipping, unable to determine old version
+[2023-05-30 14:14:56] INFO root fetch - processPackages [PyGameTool]: Start processing: drakaina
+[2023-05-30 14:14:56] INFO root fetch - main [MainThread]: End processing [PyGameTool] error
+[2023-05-30 14:14:56] INFO root fetch - processPackages [drakaina]: New version: [0.7.0b3] Old Version: [0.7.0b0]
+[2023-05-30 14:14:56] INFO root fetch - processPackages [drakaina]: Downloading https://files.pythonhosted.org/packages/b0/ee/09214c7476c2ec4a7ec6132db7952b9c1d951f63e419d849f1162919fbee/drakaina-0.7.0b0.tar.gz
+[2023-05-30 14:14:56] INFO root fetch - processPackages [drakaina]: Downloading https://files.pythonhosted.org/packages/38/3d/454d66c843196d318988096234701bfc41538b6aa4f3b60ddee31b7adee3/drakaina-0.7.0b3.tar.gz
+[2023-05-30 14:14:56] INFO root fetch - processPackages [drakaina]: executing diffoscope
+[2023-05-30 14:14:56] INFO root fetch - processPackages [drakaina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drakaina-0.7.0b0.tar.gz tmp/drakaina-0.7.0b3.tar.gz --markdown 20230530/d/drakaina/0.7.0b0-0.7.0b3/diff.md --exclude *.pyd
+[2023-05-30 14:14:56] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: notion-database
+[2023-05-30 14:14:56] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-30 14:14:56] INFO root fetch - processPackages [notion-database]: New version: [20220628.8] Old Version: [20220628.7]
+[2023-05-30 14:14:57] INFO root fetch - processPackages [bigdl-spark2]: Start processing: hdf5-reader-service
+[2023-05-30 14:14:57] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-05-30 14:14:57] INFO root fetch - processPackages [hdf5-reader-service]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 14:14:57] INFO root fetch - processPackages [notion-database]: executing diffoscope
+[2023-05-30 14:14:57] INFO root fetch - processPackages [notion-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-database-20220628.7.tar.gz tmp/notion-database-20220628.8.tar.gz --markdown 20230530/n/notion-database/20220628.7-20220628.8/diff.md --exclude *.pyd
+[2023-05-30 14:14:57] INFO root fetch - processPackages [hdf5-reader-service]: Downloading https://files.pythonhosted.org/packages/33/ba/09dcbf23d0200cef77893221873a9b3d5576593079bf185cb9f1683fd1f0/hdf5-reader-service-0.1.3.tar.gz
+[2023-05-30 14:14:57] INFO root fetch - processPackages [mo-testing]: Start processing: cybrid-api-id-python
+[2023-05-30 14:14:57] INFO root fetch - main [MainThread]: End processing [mo-testing]: success
+[2023-05-30 14:14:57] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 14:14:57] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-30 14:14:57] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230530/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 14:14:57] INFO root fetch - processPackages [hdf5-reader-service]: Downloading https://files.pythonhosted.org/packages/ed/b5/7b5bfdf278756e5d750abc02575ce9e4a7f0d6d4b47d1ffb3ba641dd3519/hdf5-reader-service-0.1.4.tar.gz
+[2023-05-30 14:14:57] INFO root fetch - processPackages [hdf5-reader-service]: executing diffoscope
+[2023-05-30 14:14:57] INFO root fetch - processPackages [hdf5-reader-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdf5-reader-service-0.1.3.tar.gz tmp/hdf5-reader-service-0.1.4.tar.gz --markdown 20230530/h/hdf5-reader-service/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 14:14:57] INFO root fetch - processPackages [bigdl-friesian-spark2]: Start processing: cybrid-api-organization-python
+[2023-05-30 14:14:57] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-05-30 14:14:57] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 14:14:58] INFO root fetch - processPackages [xiaogpt]: Start processing: cybrid-api-bank-python
+[2023-05-30 14:14:58] INFO root fetch - main [MainThread]: End processing [xiaogpt]: success
+[2023-05-30 14:14:58] INFO root fetch - processPackages [steampunk-spotter]: Start processing: StrangeSerializer
+[2023-05-30 14:14:58] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-05-30 14:14:58] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 14:14:58] WARNING root fetch - processPackages [StrangeSerializer]: Skipping, unable to determine old version
+[2023-05-30 14:14:58] INFO root fetch - processPackages [StrangeSerializer]: Start processing: fieldedge-utilities
+[2023-05-30 14:14:58] INFO root fetch - main [MainThread]: End processing [StrangeSerializer] error
+[2023-05-30 14:14:58] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-30 14:14:58] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230530/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 14:14:58] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-30 14:14:58] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-30 14:14:58] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230530/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 14:14:58] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-05-30 14:14:58] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230530/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-30 14:14:58] INFO root fetch - processPackages [bigdl-chronos-spark2]: Start processing: DMCpy
+[2023-05-30 14:14:58] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-05-30 14:14:58] INFO root fetch - processPackages [DMCpy]: New version: [0.9.1] Old Version: [0.2.5]
+[2023-05-30 14:14:58] INFO root fetch - processPackages [DMCpy]: Downloading https://files.pythonhosted.org/packages/63/3c/16ba8bbe32da727159604d8988f2ba3c6f4fb5b8661105b52f0ae4ddd5ff/DMCpy-0.2.5.tar.gz
+[2023-05-30 14:14:58] INFO root fetch - processPackages [DMCpy]: Downloading https://files.pythonhosted.org/packages/8b/10/8a394f1a01c0b9a1a9c05cd2ede6f84f22fcd90a8a2e03b62324e20a73cc/DMCpy-0.9.1.tar.gz
+[2023-05-30 14:14:59] INFO root fetch - processPackages [DMCpy]: executing diffoscope
+[2023-05-30 14:14:59] INFO root fetch - processPackages [DMCpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DMCpy-0.2.5.tar.gz tmp/DMCpy-0.9.1.tar.gz --markdown 20230530/D/DMCpy/0.2.5-0.9.1/diff.md --exclude *.pyd
+[2023-05-30 14:14:59] INFO root fetch - processPackages [notion-database]: Start processing: Pdfgentool
+[2023-05-30 14:14:59] INFO root fetch - main [MainThread]: End processing [notion-database]: success
+[2023-05-30 14:14:59] WARNING root fetch - processPackages [Pdfgentool]: Skipping, unable to determine old version
+[2023-05-30 14:14:59] INFO root fetch - processPackages [Pdfgentool]: Start processing: adestis-netbox-plugin-account-management
+[2023-05-30 14:14:59] INFO root fetch - main [MainThread]: End processing [Pdfgentool] error
+[2023-05-30 14:14:59] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: New version: [1.6.5] Old Version: [1.6.2]
+[2023-05-30 14:14:59] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: Downloading https://files.pythonhosted.org/packages/0e/d0/01a4bc87bb04c24bc8c0852f911eeb5d6837a67c13734d7ed5d704d1b4f5/adestis-netbox-plugin-account-management-1.6.5.tar.gz
+[2023-05-30 14:14:59] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: executing diffoscope
+[2023-05-30 14:14:59] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adestis-netbox-plugin-account-management-1.6.2.tar.gz tmp/adestis-netbox-plugin-account-management-1.6.5.tar.gz --markdown 20230530/a/adestis-netbox-plugin-account-management/1.6.2-1.6.5/diff.md --exclude *.pyd
+[2023-05-30 14:15:00] INFO root fetch - main [MainThread]: End processing [drakaina]: success
+[2023-05-30 14:15:00] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-05-30 14:15:00] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-30 14:15:00] INFO root fetch - main [MainThread]: End processing [ipyaladin]: success
+[2023-05-30 14:15:00] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-30 14:15:01] INFO root fetch - main [MainThread]: End processing [adestis-netbox-plugin-account-management]: success
+[2023-05-30 14:15:01] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-05-30 14:15:02] INFO root fetch - main [MainThread]: End processing [hdf5-reader-service]: success
+[2023-05-30 14:15:03] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-30 14:15:09] INFO root fetch - main [MainThread]: End processing [DMCpy]: success
+[2023-05-30 14:15:09] INFO root fetch - main [MainThread]: Store serial: [18302007]
