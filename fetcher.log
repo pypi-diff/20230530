@@ -18791,3 +18791,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 19:42:43] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-cutoff-accrual-base]: success
 [2023-05-30 19:42:44] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-cutoff-accrual-picking]: success
 [2023-05-30 19:42:44] INFO root fetch - main [MainThread]: Store serial: [18305794]
+[2023-05-30 19:47:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18305794]
+[2023-05-30 19:47:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-30 19:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-chatgpt-cli
+[2023-05-30 19:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caustic
+[2023-05-30 19:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sats-receiver
+[2023-05-30 19:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorflow
+[2023-05-30 19:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ckanext-passwordless-api
+[2023-05-30 19:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jwcrypto
+[2023-05-30 19:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: midiferenciacion
+[2023-05-30 19:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ibeam
+[2023-05-30 19:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensorflow-cpu
+[2023-05-30 19:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dash
+[2023-05-30 19:47:53] INFO root fetch - processPackages [simple-chatgpt-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 19:47:53] INFO root fetch - processPackages [caustic]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-30 19:47:53] INFO root fetch - processPackages [ckanext-passwordless-api]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-30 19:47:53] INFO root fetch - processPackages [midiferenciacion]: New version: [0.42] Old Version: [0.41]
+[2023-05-30 19:47:53] INFO root fetch - processPackages [jwcrypto]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-05-30 19:47:53] INFO root fetch - processPackages [sats-receiver]: New version: [0.1.15] Old Version: [0.1.0]
+[2023-05-30 19:47:53] INFO root fetch - processPackages [tensorflow]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-05-30 19:47:53] INFO root fetch - processPackages [jwcrypto]: Downloading https://files.pythonhosted.org/packages/7d/25/185bf383f5a6c76dd46083509e2a65ccaca47521f77547c8a4dfac74bde4/jwcrypto-1.4.2.tar.gz
+[2023-05-30 19:47:53] INFO root fetch - processPackages [midiferenciacion]: executing diffoscope
+[2023-05-30 19:47:53] INFO root fetch - processPackages [midiferenciacion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midiferenciacion-0.41.tar.gz tmp/midiferenciacion-0.42.tar.gz --markdown 20230530/m/midiferenciacion/0.41-0.42/diff.md --exclude *.pyd
+[2023-05-30 19:47:53] INFO root fetch - processPackages [dash]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-05-30 19:47:53] INFO root fetch - processPackages [ibeam]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-30 19:47:53] INFO root fetch - processPackages [tensorflow-cpu]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-05-30 19:47:53] INFO root fetch - processPackages [ckanext-passwordless-api]: Downloading https://files.pythonhosted.org/packages/63/40/ab5d4865c9ef340d19fcb27207f9b3b9b8b81a3865af8bb39ef7681cf7da/ckanext-passwordless-api-1.0.2.tar.gz
+[2023-05-30 19:47:53] INFO root fetch - processPackages [tensorflow]: Downloading https://files.pythonhosted.org/packages/e0/3f/9f94f8e1f9a0273d9324eee4750bbd09a5c4a221004f5c798c2a780645fa/tensorflow-2.9.2-cp39-cp39-win_amd64.whl
+[2023-05-30 19:47:53] INFO root fetch - processPackages [caustic]: Downloading https://files.pythonhosted.org/packages/3d/f2/ffc9a52ff9b3d143187898617890851fb775d23017c0a0743e1d4095ba13/caustic-0.2.0.tar.gz
+[2023-05-30 19:47:53] WARNING root fetch - processPackages [tensorflow]: Skipping package: exceeds size limit 444097812>=10485760
+[2023-05-30 19:47:53] INFO root fetch - processPackages [tensorflow]: Start processing: pulumi-snowflake
+[2023-05-30 19:47:53] INFO root fetch - main [MainThread]: End processing [tensorflow] error
+[2023-05-30 19:47:53] INFO root fetch - processPackages [ibeam]: Downloading https://files.pythonhosted.org/packages/01/e0/5ed21d2a8aff97bb589e2405ea0e84fb23c401a70854d647ef3ee7e08497/ibeam-0.4.4.tar.gz
+[2023-05-30 19:47:53] INFO root fetch - processPackages [simple-chatgpt-cli]: executing diffoscope
+[2023-05-30 19:47:53] INFO root fetch - processPackages [simple-chatgpt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_chatgpt_cli-0.1.8.tar.gz tmp/simple_chatgpt_cli-0.1.9.tar.gz --markdown 20230530/s/simple-chatgpt-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 19:47:53] INFO root fetch - processPackages [tensorflow-cpu]: Downloading https://files.pythonhosted.org/packages/a7/2f/e73f696f431721400957853095e92641b2bf17e8d45527a284a6637039c0/tensorflow_cpu-2.9.2-cp39-cp39-win_amd64.whl
+[2023-05-30 19:47:53] INFO root fetch - processPackages [jwcrypto]: Downloading https://files.pythonhosted.org/packages/ed/72/b9289ee27d228fc7cae5c83d1c640de2a7cc0621805aa839ba239d6ef8fc/jwcrypto-1.5.0.tar.gz
+[2023-05-30 19:47:53] INFO root fetch - processPackages [sats-receiver]: Downloading https://files.pythonhosted.org/packages/44/7b/2667ae7efd9f76b195b0aef043f11b7b7186f917070fc566cd8dcb5eff79/sats_receiver-0.1.15.tar.gz
+[2023-05-30 19:47:54] INFO root fetch - processPackages [jwcrypto]: executing diffoscope
+[2023-05-30 19:47:54] INFO root fetch - processPackages [jwcrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwcrypto-1.4.2.tar.gz tmp/jwcrypto-1.5.0.tar.gz --markdown 20230530/j/jwcrypto/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-05-30 19:47:54] INFO root fetch - processPackages [ckanext-passwordless-api]: Downloading https://files.pythonhosted.org/packages/13/30/6ffeec858465c198bf0c69a1919ad259b74ea3dfbb02903a58c6fae36ca2/ckanext-passwordless-api-1.1.0.tar.gz
+[2023-05-30 19:47:54] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-05-30 19:47:54] WARNING root fetch - processPackages [tensorflow-cpu]: Skipping package: exceeds size limit 256345699>=10485760
+[2023-05-30 19:47:54] INFO root fetch - main [MainThread]: End processing [tensorflow-cpu] error
+[2023-05-30 19:47:54] INFO root fetch - processPackages [caustic]: Downloading https://files.pythonhosted.org/packages/dc/85/c049044ca92f8ccfc6e6d239e2f08a908c76b0c9a6775e2703929a3008e0/caustic-0.3.0-py3-none-any.whl
+[2023-05-30 19:47:54] INFO root fetch - processPackages [ibeam]: Downloading https://files.pythonhosted.org/packages/f4/88/7dc9fa09b0d0684f22c16e7a36401ccaa79e976e9a88ac3b219989eb5c3c/ibeam-0.4.5.tar.gz
+[2023-05-30 19:47:54] INFO root fetch - processPackages [sats-receiver]: executing diffoscope
+[2023-05-30 19:47:54] INFO root fetch - processPackages [sats-receiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sats_receiver-0.1.0.tar.gz tmp/sats_receiver-0.1.15.tar.gz --markdown 20230530/s/sats-receiver/0.1.0-0.1.15/diff.md --exclude *.pyd
+[2023-05-30 19:47:54] INFO root fetch - processPackages [ckanext-passwordless-api]: executing diffoscope
+[2023-05-30 19:47:54] INFO root fetch - processPackages [ckanext-passwordless-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-passwordless-api-1.0.2.tar.gz tmp/ckanext-passwordless-api-1.1.0.tar.gz --markdown 20230530/c/ckanext-passwordless-api/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 19:47:54] INFO root fetch - processPackages [caustic]: executing diffoscope
+[2023-05-30 19:47:54] INFO root fetch - processPackages [caustic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caustic-0.2.0.tar.gz tmp/caustic-0.3.0-py3-none-any.whl.zip --markdown 20230530/c/caustic/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 19:47:54] INFO root fetch - processPackages [ibeam]: executing diffoscope
+[2023-05-30 19:47:54] INFO root fetch - processPackages [ibeam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibeam-0.4.4.tar.gz tmp/ibeam-0.4.5.tar.gz --markdown 20230530/i/ibeam/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-30 19:47:54] INFO root fetch - processPackages [dash]: executing diffoscope
+[2023-05-30 19:47:54] INFO root fetch - processPackages [dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-2.9.2.tar.gz tmp/dash-2.9.3.tar.gz --markdown 20230530/d/dash/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-05-30 19:47:54] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-05-30 19:47:54] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230530/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-05-30 19:47:54] INFO root fetch - main [MainThread]: End processing [midiferenciacion]: success
+[2023-05-30 19:47:55] INFO root fetch - main [MainThread]: End processing [simple-chatgpt-cli]: success
+[2023-05-30 19:47:55] INFO root fetch - main [MainThread]: End processing [jwcrypto]: success
+[2023-05-30 19:47:56] INFO root fetch - main [MainThread]: End processing [sats-receiver]: success
+[2023-05-30 19:47:56] INFO root fetch - main [MainThread]: End processing [ckanext-passwordless-api]: success
+[2023-05-30 19:47:56] INFO root fetch - main [MainThread]: End processing [caustic]: success
+[2023-05-30 19:47:57] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-05-30 19:47:57] INFO root fetch - main [MainThread]: End processing [ibeam]: success
+[2023-05-30 19:48:14] INFO root fetch - main [MainThread]: End processing [dash]: success
+[2023-05-30 19:48:14] INFO root fetch - main [MainThread]: Store serial: [18305830]
