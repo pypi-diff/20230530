@@ -21527,3 +21527,88 @@ EOFError: EOF read where object expected
 [2023-05-30 22:51:00] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
 [2023-05-30 22:51:03] INFO root fetch - main [MainThread]: End processing [pywwt]: success
 [2023-05-30 22:51:03] INFO root fetch - main [MainThread]: Store serial: [18307476]
+[2023-05-30 22:56:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18307476]
+[2023-05-30 22:56:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-30 22:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-crm-phonecall
+[2023-05-30 22:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panoptic
+[2023-05-30 22:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cassio
+[2023-05-30 22:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-pex-config
+[2023-05-30 22:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: serialdatalog
+[2023-05-30 22:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astro-metadata-translator
+[2023-05-30 22:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FPL-data-loader
+[2023-05-30 22:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: awsiot-credentialhelper
+[2023-05-30 22:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lsst-utils
+[2023-05-30 22:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dm-reverb
+[2023-05-30 22:56:14] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: New version: [16.0.1.1.0.2] Old Version: [15.0.1.1.0.1]
+[2023-05-30 22:56:14] INFO root fetch - processPackages [lsst-utils]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-30 22:56:14] WARNING root fetch - processPackages [cassio]: Skipping, unable to determine old version
+[2023-05-30 22:56:14] INFO root fetch - processPackages [cassio]: Start processing: dcspy
+[2023-05-30 22:56:14] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-30 22:56:14] INFO root fetch - processPackages [FPL-data-loader]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 22:56:14] INFO root fetch - processPackages [serialdatalog]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 22:56:14] INFO root fetch - processPackages [panoptic]: New version: [0.0.9.dev6] Old Version: [0.0.9.dev5]
+[2023-05-30 22:56:14] INFO root fetch - main [MainThread]: End processing [cassio] error
+[2023-05-30 22:56:14] INFO root fetch - processPackages [lsst-pex-config]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-30 22:56:14] INFO root fetch - processPackages [awsiot-credentialhelper]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-30 22:56:14] INFO root fetch - processPackages [dm-reverb]: New version: [0.9.0rc1] Old Version: [0.9.0rc0]
+[2023-05-30 22:56:14] INFO root fetch - processPackages [dcspy]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-30 22:56:14] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: Downloading https://files.pythonhosted.org/packages/fe/9a/dd3f3668d332aee5037f2f6bd587c055fe31163c4cd4bd82c102b8991755/odoo_addon_crm_phonecall-15.0.1.1.0.1-py3-none-any.whl
+[2023-05-30 22:56:15] INFO root fetch - processPackages [FPL-data-loader]: Downloading https://files.pythonhosted.org/packages/c1/31/117432ec117a4de6ff5e44767148ddcc912a4b3e4094d530390a96b566af/FPL-data-loader-0.0.1.tar.gz
+[2023-05-30 22:56:15] INFO root fetch - processPackages [serialdatalog]: Downloading https://files.pythonhosted.org/packages/0f/b1/50b10e433e681f2e1d0111ab45d2c4ca5f10c64917c60769700eef796c0c/serialdatalog-0.1.3.tar.gz
+[2023-05-30 22:56:15] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/dc/26/47bcb4feff37c96491ceaefc7419de46ef4ee3daffe727162ce8b7a5065d/panoptic-0.0.9.dev5.tar.gz
+[2023-05-30 22:56:15] INFO root fetch - processPackages [dm-reverb]: Downloading https://files.pythonhosted.org/packages/0e/92/15c0cebd36e5cb6dd93d92bc4f100ccbc52e17116c3cfbb58c04d11ae7c0/dm_reverb-0.9.0rc0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-30 22:56:15] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/d7/0c/0464eaef88f46db58e9972a38d5221f68038faa115510c0cb95799422145/lsst-pex-config-26.0.0a20230400.tar.gz
+[2023-05-30 22:56:15] INFO root fetch - processPackages [dcspy]: Downloading https://files.pythonhosted.org/packages/42/7c/8db753f725716738ce453fb2eb6221dcd23eaeb5e7b0b85b10fc63156e8b/dcspy-2.1.0.tar.gz
+[2023-05-30 22:56:15] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2023-05-30 22:56:15] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.0.0a20230400.tar.gz tmp/astro-metadata-translator-26.0.0a20230500.tar.gz --markdown 20230530/a/astro-metadata-translator/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-30 22:56:15] INFO root fetch - processPackages [FPL-data-loader]: Downloading https://files.pythonhosted.org/packages/f6/5d/0c60a4d868df8821e48e8568e0b5b1e9ea3a415a8d4b20a8ec7e101c76f4/FPL-data-loader-0.0.2.tar.gz
+[2023-05-30 22:56:15] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2023-05-30 22:56:15] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.0.0a20230400.tar.gz tmp/lsst-utils-26.0.0a20230500.tar.gz --markdown 20230530/l/lsst-utils/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-30 22:56:15] INFO root fetch - processPackages [serialdatalog]: Downloading https://files.pythonhosted.org/packages/6a/d4/290bc4ec40e86416e962aa36c7b0a40d0d3c5b0af0c72837931a094d4d83/serialdatalog-0.1.4.tar.gz
+[2023-05-30 22:56:15] INFO root fetch - processPackages [awsiot-credentialhelper]: Downloading https://files.pythonhosted.org/packages/b4/66/5bf821bbd2e811d35d32bcfd359644ea382ce47126c9b19277f0ee927cbb/awsiot_credentialhelper-0.5.1.tar.gz
+[2023-05-30 22:56:15] INFO root fetch - processPackages [dcspy]: executing diffoscope
+[2023-05-30 22:56:15] INFO root fetch - processPackages [dcspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcspy-2.0.0.tar.gz tmp/dcspy-2.1.0.tar.gz --markdown 20230530/d/dcspy/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-30 22:56:15] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: Downloading https://files.pythonhosted.org/packages/2b/18/6d429365b181a186f92461d3a42d4e5bd33f03b3c79e9a0807d9ee3cd1a2/odoo_addon_crm_phonecall-16.0.1.1.0.2-py3-none-any.whl
+[2023-05-30 22:56:15] INFO root fetch - processPackages [serialdatalog]: executing diffoscope
+[2023-05-30 22:56:15] INFO root fetch - processPackages [serialdatalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialdatalog-0.1.3.tar.gz tmp/serialdatalog-0.1.4.tar.gz --markdown 20230530/s/serialdatalog/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 22:56:15] INFO root fetch - processPackages [FPL-data-loader]: executing diffoscope
+[2023-05-30 22:56:15] INFO root fetch - processPackages [FPL-data-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FPL-data-loader-0.0.1.tar.gz tmp/FPL-data-loader-0.0.2.tar.gz --markdown 20230530/F/FPL-data-loader/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 22:56:15] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: executing diffoscope
+[2023-05-30 22:56:15] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_phonecall-15.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_crm_phonecall-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230530/o/odoo-addon-crm-phonecall/15.0.1.1.0.1-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-05-30 22:56:15] INFO root fetch - processPackages [awsiot-credentialhelper]: executing diffoscope
+[2023-05-30 22:56:15] INFO root fetch - processPackages [awsiot-credentialhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsiot_credentialhelper-0.5.0.tar.gz tmp/awsiot_credentialhelper-0.5.1.tar.gz --markdown 20230530/a/awsiot-credentialhelper/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-30 22:56:15] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/cb/e7/b5b77ed48e975232d6d946423eca1f7883eb826cf1844d70b96ddddd1696/lsst-pex-config-26.0.0a20230500.tar.gz
+[2023-05-30 22:56:15] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/ea/ec/02f6f7a81a3524dd2831b77fb937cca2ebbecb2387a9f8ca7a390141889d/panoptic-0.0.9.dev6.tar.gz
+[2023-05-30 22:56:15] INFO root fetch - processPackages [lsst-pex-config]: executing diffoscope
+[2023-05-30 22:56:15] INFO root fetch - processPackages [lsst-pex-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pex-config-26.0.0a20230400.tar.gz tmp/lsst-pex-config-26.0.0a20230500.tar.gz --markdown 20230530/l/lsst-pex-config/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-30 22:56:15] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-05-30 22:56:15] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.0.9.dev5.tar.gz tmp/panoptic-0.0.9.dev6.tar.gz --markdown 20230530/p/panoptic/0.0.9.dev5-0.0.9.dev6/diff.md --exclude *.pyd
+[2023-05-30 22:56:16] INFO root fetch - processPackages [lsst-utils]: Start processing: viam-sdk
+[2023-05-30 22:56:16] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2023-05-30 22:56:16] INFO root fetch - processPackages [viam-sdk]: New version: [0.3.1rc1] Old Version: [0.3.1]
+[2023-05-30 22:56:16] INFO root fetch - processPackages [astro-metadata-translator]: Start processing: langflow
+[2023-05-30 22:56:16] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2023-05-30 22:56:17] INFO root fetch - processPackages [langflow]: New version: [0.0.79] Old Version: [0.0.78]
+[2023-05-30 22:56:17] INFO root fetch - processPackages [viam-sdk]: Downloading https://files.pythonhosted.org/packages/7c/ca/4ecef6ce823c8757cbb6a972512c09b8e8279241eb41ce75c0711a43b845/viam_sdk-0.3.1-py3-none-manylinux2014_x86_64.whl
+[2023-05-30 22:56:17] INFO root fetch - processPackages [dm-reverb]: Downloading https://files.pythonhosted.org/packages/ff/5f/da45f43eb00cb43e488c59b532ac826229ef3fa6b0383e753b8a65765a91/dm_reverb-0.9.0rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-30 22:56:17] INFO root fetch - processPackages [FPL-data-loader]: Start processing: certy
+[2023-05-30 22:56:17] INFO root fetch - main [MainThread]: End processing [FPL-data-loader]: success
+[2023-05-30 22:56:17] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/72/48/56af0a7eac6a2b31e466692327c2b3d1abf667b082fc84b06d511639c76a/langflow-0.0.79.tar.gz
+[2023-05-30 22:56:17] WARNING root fetch - processPackages [certy]: Skipping, unable to determine old version
+[2023-05-30 22:56:17] INFO root fetch - main [MainThread]: End processing [certy] error
+[2023-05-30 22:56:17] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-05-30 22:56:17] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.78.tar.gz tmp/langflow-0.0.79.tar.gz --markdown 20230530/l/langflow/0.0.78-0.0.79/diff.md --exclude *.pyd
+[2023-05-30 22:56:17] INFO root fetch - main [MainThread]: End processing [serialdatalog]: success
+[2023-05-30 22:56:17] INFO root fetch - processPackages [viam-sdk]: executing diffoscope
+[2023-05-30 22:56:17] INFO root fetch - processPackages [viam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viam_sdk-0.3.1-py3-none-manylinux2014_x86_64.whl.zip tmp/viam_sdk-0.3.1rc1-py3-none-manylinux2014_x86_64.whl.zip --markdown 20230530/v/viam-sdk/0.3.1-0.3.1rc1/diff.md --exclude *.pyd
+[2023-05-30 22:56:17] INFO root fetch - main [MainThread]: End processing [dcspy]: success
+[2023-05-30 22:56:17] INFO root fetch - main [MainThread]: End processing [awsiot-credentialhelper]: success
+[2023-05-30 22:56:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-phonecall]: success
+[2023-05-30 22:56:19] INFO root fetch - processPackages [dm-reverb]: executing diffoscope
+[2023-05-30 22:56:19] INFO root fetch - processPackages [dm-reverb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb-0.9.0rc0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb-0.9.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230530/d/dm-reverb/0.9.0rc0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-05-30 22:56:19] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
+[2023-05-30 22:56:20] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-05-30 22:56:22] INFO root fetch - main [MainThread]: End processing [viam-sdk]: success
+[2023-05-30 22:56:42] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-05-30 22:57:28] INFO root fetch - main [MainThread]: End processing [dm-reverb]: success
+[2023-05-30 22:57:28] INFO root fetch - main [MainThread]: Store serial: [18307525]
