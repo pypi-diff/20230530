@@ -20144,3 +20144,140 @@ EOFError: EOF read where object expected
 [2023-05-30 21:22:23] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
 [2023-05-30 21:22:23] INFO root fetch - main [MainThread]: End processing [oci-cli] error
 [2023-05-30 21:22:23] INFO root fetch - main [MainThread]: Store serial: [18306647]
+[2023-05-30 21:27:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18306647]
+[2023-05-30 21:27:35] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-30 21:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vision6D
+[2023-05-30 21:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-comment-template
+[2023-05-30 21:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: almgren-chriss
+[2023-05-30 21:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: podsearchmp
+[2023-05-30 21:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xdeps
+[2023-05-30 21:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qualtrics-utils
+[2023-05-30 21:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nashbanksync
+[2023-05-30 21:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grid2fp
+[2023-05-30 21:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xtrack
+[2023-05-30 21:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ffmpegcv
+[2023-05-30 21:27:35] INFO root fetch - processPackages [qualtrics-utils]: New version: [0.5.7] Old Version: [0.5.3]
+[2023-05-30 21:27:35] INFO root fetch - processPackages [almgren-chriss]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-30 21:27:35] INFO root fetch - processPackages [podsearchmp]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-30 21:27:35] INFO root fetch - processPackages [vision6D]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 21:27:35] INFO root fetch - processPackages [xdeps]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-30 21:27:35] INFO root fetch - processPackages [odoo-addon-account-comment-template]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-05-30 21:27:35] INFO root fetch - processPackages [xtrack]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-30 21:27:35] INFO root fetch - processPackages [grid2fp]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-30 21:27:35] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 21:27:35] INFO root fetch - processPackages [ffmpegcv]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-30 21:27:35] INFO root fetch - processPackages [vision6D]: Downloading https://files.pythonhosted.org/packages/e2/c1/3f4930a737a91e52edaa7c380f5e9563ebe68151c8473fb7645e2ebf6d7c/vision6D-0.1.8.tar.gz
+[2023-05-30 21:27:35] INFO root fetch - processPackages [qualtrics-utils]: Downloading https://files.pythonhosted.org/packages/c5/72/24a869856db6649478176a807bbf109eb64d78f51472d8eaf62f593c1c4b/qualtrics_utils-0.5.3.tar.gz
+[2023-05-30 21:27:35] INFO root fetch - processPackages [odoo-addon-account-comment-template]: Downloading https://files.pythonhosted.org/packages/f4/88/cfe72b0ccbba9bd57a96b2686595255bb33e2413e354f758fae1725f2107/odoo_addon_account_comment_template-15.0.1.0.1-py3-none-any.whl
+[2023-05-30 21:27:35] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/8a/c3/e19b3d04ca1e27256466963f0323b5925c96b787f5066e5229a7c6b8db3a/xtrack-0.9.4.tar.gz
+[2023-05-30 21:27:35] INFO root fetch - processPackages [xdeps]: Downloading https://files.pythonhosted.org/packages/62/9f/a9a07bf65ec6d5a903a7d295854a839942fb43e9ccca834344debd29fd18/xdeps-0.0.9.tar.gz
+[2023-05-30 21:27:35] INFO root fetch - processPackages [ffmpegcv]: Downloading https://files.pythonhosted.org/packages/51/05/a84c87b1b09778fbb3fedcde3919be0609f1ceac977ce3056cccbbd353a4/ffmpegcv-0.3.0.tar.gz
+[2023-05-30 21:27:35] INFO root fetch - processPackages [podsearchmp]: Downloading https://files.pythonhosted.org/packages/95/eb/3fe356821465bc6ed47f9c8e5470bfb6b399837b1c611d08c615bc5b5235/podsearchmp-0.1.5.tar.gz
+[2023-05-30 21:27:35] INFO root fetch - processPackages [podsearchmp]: executing diffoscope
+[2023-05-30 21:27:35] INFO root fetch - processPackages [podsearchmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podsearchmp-0.1.4.tar.gz tmp/podsearchmp-0.1.5.tar.gz --markdown 20230530/p/podsearchmp/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-30 21:27:35] INFO root fetch - processPackages [almgren-chriss]: Downloading https://files.pythonhosted.org/packages/26/2b/a71fbf44e845896fed56023b7f50a84eb2c575f3b621f6450422a416170e/almgren_chriss-1.1.0.tar.gz
+[2023-05-30 21:27:35] INFO root fetch - processPackages [vision6D]: Downloading https://files.pythonhosted.org/packages/56/f8/17197fb41bdef8a5f0f7cbc6ef46352d07ab4804cfe1a1d0016785b92cc3/vision6D-0.1.9.tar.gz
+[2023-05-30 21:27:35] INFO root fetch - processPackages [grid2fp]: Downloading https://files.pythonhosted.org/packages/0e/55/d95d7536e06421e1699ebb68ba5b4b1b2db7dbf95a2e5731bafbad5616fd/grid2fp-0.0.6.tar.gz
+[2023-05-30 21:27:36] INFO root fetch - processPackages [almgren-chriss]: executing diffoscope
+[2023-05-30 21:27:36] INFO root fetch - processPackages [almgren-chriss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almgren_chriss-1.0.1.tar.gz tmp/almgren_chriss-1.1.0.tar.gz --markdown 20230530/a/almgren-chriss/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 21:27:36] INFO root fetch - processPackages [vision6D]: executing diffoscope
+[2023-05-30 21:27:36] INFO root fetch - processPackages [vision6D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision6D-0.1.8.tar.gz tmp/vision6D-0.1.9.tar.gz --markdown 20230530/v/vision6D/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 21:27:36] INFO root fetch - processPackages [qualtrics-utils]: Downloading https://files.pythonhosted.org/packages/05/77/f64b85754fe54316302fae7352fec0d8b5aa1fc3d23f572bef2842b72438/qualtrics_utils-0.5.7.tar.gz
+[2023-05-30 21:27:36] INFO root fetch - processPackages [odoo-addon-account-comment-template]: Downloading https://files.pythonhosted.org/packages/f8/00/f23df31d319c29bff0166ccb776989584a1a536de2bce79b2033f4c89e79/odoo_addon_account_comment_template-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-30 21:27:36] INFO root fetch - processPackages [qualtrics-utils]: executing diffoscope
+[2023-05-30 21:27:36] INFO root fetch - processPackages [qualtrics-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualtrics_utils-0.5.3.tar.gz tmp/qualtrics_utils-0.5.7.tar.gz --markdown 20230530/q/qualtrics-utils/0.5.3-0.5.7/diff.md --exclude *.pyd
+[2023-05-30 21:27:36] INFO root fetch - processPackages [odoo-addon-account-comment-template]: executing diffoscope
+[2023-05-30 21:27:36] INFO root fetch - processPackages [odoo-addon-account-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_comment_template-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_comment_template-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230530/o/odoo-addon-account-comment-template/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-30 21:27:36] INFO root fetch - processPackages [grid2fp]: executing diffoscope
+[2023-05-30 21:27:36] INFO root fetch - processPackages [grid2fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grid2fp-0.0.5.tar.gz tmp/grid2fp-0.0.6.tar.gz --markdown 20230530/g/grid2fp/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-30 21:27:36] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-05-30 21:27:36] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.8.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230530/n/nashbanksync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 21:27:36] INFO root fetch - processPackages [xdeps]: Downloading https://files.pythonhosted.org/packages/76/db/85a29879445ec4e279f0a40eafcba0c1ed96f6e5c00a4c35babb5bc303a2/xdeps-0.1.0.tar.gz
+[2023-05-30 21:27:36] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/46/38/dad135658362d6eec72747f7f0ae41cf43b0d0fb26e948ac142a49dfcec8/xtrack-0.9.5.tar.gz
+[2023-05-30 21:27:36] INFO root fetch - processPackages [xdeps]: executing diffoscope
+[2023-05-30 21:27:36] INFO root fetch - processPackages [xdeps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdeps-0.0.9.tar.gz tmp/xdeps-0.1.0.tar.gz --markdown 20230530/x/xdeps/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-30 21:27:36] INFO root fetch - processPackages [xtrack]: executing diffoscope
+[2023-05-30 21:27:36] INFO root fetch - processPackages [xtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtrack-0.9.4.tar.gz tmp/xtrack-0.9.5.tar.gz --markdown 20230530/x/xtrack/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-30 21:27:36] INFO root fetch - processPackages [ffmpegcv]: Downloading https://files.pythonhosted.org/packages/34/dd/dd4b957b061542836fed14a4aa04dce1c47b4919fc2cc4d883c26d0d388d/ffmpegcv-0.3.1.tar.gz
+[2023-05-30 21:27:36] INFO root fetch - processPackages [ffmpegcv]: executing diffoscope
+[2023-05-30 21:27:36] INFO root fetch - processPackages [ffmpegcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpegcv-0.3.0.tar.gz tmp/ffmpegcv-0.3.1.tar.gz --markdown 20230530/f/ffmpegcv/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-30 21:27:37] INFO root fetch - processPackages [podsearchmp]: Start processing: vision6D
+[2023-05-30 21:27:37] INFO root fetch - main [MainThread]: End processing [podsearchmp]: success
+[2023-05-30 21:27:37] INFO root fetch - processPackages [vision6D]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 21:27:37] INFO root fetch - processPackages [vision6D]: executing diffoscope
+[2023-05-30 21:27:37] INFO root fetch - processPackages [vision6D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision6D-0.1.8.tar.gz tmp/vision6D-0.1.9.tar.gz --markdown 20230530/v/vision6D/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 21:27:38] INFO root fetch - processPackages [vision6D]: Start processing: botocore
+[2023-05-30 21:27:38] INFO root fetch - main [MainThread]: End processing [vision6D]: success
+[2023-05-30 21:27:38] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-30 21:27:38] INFO root fetch - processPackages [almgren-chriss]: Start processing: boto3
+[2023-05-30 21:27:38] INFO root fetch - main [MainThread]: End processing [almgren-chriss]: success
+[2023-05-30 21:27:38] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-05-30 21:27:38] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-05-30 21:27:38] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230530/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-30 21:27:38] INFO root fetch - processPackages [qualtrics-utils]: Start processing: awscli
+[2023-05-30 21:27:38] INFO root fetch - main [MainThread]: End processing [qualtrics-utils]: success
+[2023-05-30 21:27:38] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-30 21:27:38] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-05-30 21:27:38] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230530/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-05-30 21:27:38] INFO root fetch - processPackages [nashbanksync]: Start processing: odoo13-addon-survey-crm-sale-generation
+[2023-05-30 21:27:38] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-05-30 21:27:38] WARNING root fetch - processPackages [odoo13-addon-survey-crm-sale-generation]: Skipping, unable to determine old version
+[2023-05-30 21:27:38] INFO root fetch - processPackages [odoo13-addon-survey-crm-sale-generation]: Start processing: dataiter
+[2023-05-30 21:27:38] INFO root fetch - main [MainThread]: End processing [odoo13-addon-survey-crm-sale-generation] error
+[2023-05-30 21:27:38] INFO root fetch - processPackages [dataiter]: New version: [0.9] Old Version: [0.8]
+[2023-05-30 21:27:38] INFO root fetch - processPackages [grid2fp]: Start processing: xmask
+[2023-05-30 21:27:38] INFO root fetch - main [MainThread]: End processing [grid2fp]: success
+[2023-05-30 21:27:38] INFO root fetch - processPackages [xmask]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-30 21:27:38] INFO root fetch - processPackages [dataiter]: Downloading https://files.pythonhosted.org/packages/b2/8e/cb83c3e927754432d3bfdda3b1c09659b949f5cd327bd1b6785c35411583/dataiter-0.8.tar.gz
+[2023-05-30 21:27:38] INFO root fetch - processPackages [xmask]: Downloading https://files.pythonhosted.org/packages/b6/b2/b3a78f43400d43c3ad1a2ed1ec55e45fb9deccd7925ebdffaa864effaf9a/xmask-0.3.0.tar.gz
+[2023-05-30 21:27:39] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-05-30 21:27:39] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230530/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-30 21:27:39] INFO root fetch - processPackages [odoo-addon-account-comment-template]: Start processing: autonomi-nos
+[2023-05-30 21:27:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-comment-template]: success
+[2023-05-30 21:27:39] INFO root fetch - processPackages [autonomi-nos]: New version: [0.0.4a5] Old Version: [0.0.4a4]
+[2023-05-30 21:27:39] INFO root fetch - processPackages [ffmpegcv]: Start processing: cmind
+[2023-05-30 21:27:39] INFO root fetch - main [MainThread]: End processing [ffmpegcv]: success
+[2023-05-30 21:27:39] INFO root fetch - processPackages [dataiter]: Downloading https://files.pythonhosted.org/packages/94/b3/c24c3227a7cf90a70117e601b06161a3074205e0cdf26fe7b930d3dfabe8/dataiter-0.9.tar.gz
+[2023-05-30 21:27:39] INFO root fetch - processPackages [cmind]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-30 21:27:39] INFO root fetch - processPackages [xtrack]: Start processing: echofish-aws-indexing-lambda
+[2023-05-30 21:27:39] INFO root fetch - main [MainThread]: End processing [xtrack]: success
+[2023-05-30 21:27:39] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: New version: [1.0.0.dev20230530192335] Old Version: [1.0.0.dev20230523171328]
+[2023-05-30 21:27:39] INFO root fetch - processPackages [xmask]: Downloading https://files.pythonhosted.org/packages/4b/af/83d04fc58155b1abb58962e4dbeab319b5178790899ed8f63e80cb978226/xmask-0.3.1.tar.gz
+[2023-05-30 21:27:39] INFO root fetch - processPackages [xdeps]: Start processing: metal-sdk
+[2023-05-30 21:27:39] INFO root fetch - main [MainThread]: End processing [xdeps]: success
+[2023-05-30 21:27:39] INFO root fetch - processPackages [metal-sdk]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-30 21:27:39] INFO root fetch - processPackages [dataiter]: executing diffoscope
+[2023-05-30 21:27:39] INFO root fetch - processPackages [dataiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataiter-0.8.tar.gz tmp/dataiter-0.9.tar.gz --markdown 20230530/d/dataiter/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-30 21:27:39] INFO root fetch - processPackages [xmask]: executing diffoscope
+[2023-05-30 21:27:39] INFO root fetch - processPackages [xmask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmask-0.3.0.tar.gz tmp/xmask-0.3.1.tar.gz --markdown 20230530/x/xmask/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-30 21:27:39] INFO root fetch - processPackages [autonomi-nos]: Downloading https://files.pythonhosted.org/packages/5c/b5/764481e81a4bab855258cbc76e4ad5b6f09652e73b499766cd03ebd456e1/autonomi-nos-0.0.4a5.tar.gz
+[2023-05-30 21:27:39] INFO root fetch - processPackages [cmind]: Downloading https://files.pythonhosted.org/packages/c1/fc/302cd4104d5026604ebcfd936c5001c671df8ac298c9611265180dc24480/cmind-1.2.2.tar.gz
+[2023-05-30 21:27:39] INFO root fetch - processPackages [cmind]: executing diffoscope
+[2023-05-30 21:27:39] INFO root fetch - processPackages [cmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmind-1.2.1.tar.gz tmp/cmind-1.2.2.tar.gz --markdown 20230530/c/cmind/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-30 21:27:39] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Downloading https://files.pythonhosted.org/packages/86/40/009818bf7c9bf395b8051f2d336e0d22691ffd12ce5c3316aa65fe591d18/echofish-aws-indexing-lambda-1.0.0.dev20230530192335.tar.gz
+[2023-05-30 21:27:39] INFO root fetch - processPackages [autonomi-nos]: executing diffoscope
+[2023-05-30 21:27:39] INFO root fetch - processPackages [autonomi-nos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomi_nos-0.0.4a4-py3-none-any.whl.zip tmp/autonomi-nos-0.0.4a5.tar.gz --markdown 20230530/a/autonomi-nos/0.0.4a4-0.0.4a5/diff.md --exclude *.pyd
+[2023-05-30 21:27:39] INFO root fetch - processPackages [metal-sdk]: Downloading https://files.pythonhosted.org/packages/66/00/701f1c7caf97da66ad09e5d738ce144221fc4022d9dd58ac20a79dc411c9/metal_sdk-1.0.4.tar.gz
+[2023-05-30 21:27:39] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: executing diffoscope
+[2023-05-30 21:27:39] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-indexing-lambda-1.0.0.dev20230523171328.tar.gz tmp/echofish-aws-indexing-lambda-1.0.0.dev20230530192335.tar.gz --markdown 20230530/e/echofish-aws-indexing-lambda/1.0.0.dev20230523171328-1.0.0.dev20230530192335/diff.md --exclude *.pyd
+[2023-05-30 21:27:39] INFO root fetch - processPackages [metal-sdk]: executing diffoscope
+[2023-05-30 21:27:39] INFO root fetch - processPackages [metal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_sdk-1.0.3.tar.gz tmp/metal_sdk-1.0.4.tar.gz --markdown 20230530/m/metal-sdk/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-30 21:27:40] INFO root fetch - processPackages [vision6D]: Start processing: tensorflow-intel
+[2023-05-30 21:27:40] INFO root fetch - main [MainThread]: End processing [vision6D]: success
+[2023-05-30 21:27:40] INFO root fetch - processPackages [tensorflow-intel]: New version: [2.13.0rc1] Old Version: [2.13.0rc0]
+[2023-05-30 21:27:41] INFO root fetch - processPackages [tensorflow-intel]: Downloading https://files.pythonhosted.org/packages/50/af/ac580c53998e0347985e117d5ef679c13f8c002bb5a2ac7ed85d2739a2f6/tensorflow_intel-2.13.0rc0-cp39-cp39-win_amd64.whl
+[2023-05-30 21:27:41] INFO root fetch - processPackages [boto3]: Start processing: qbfetcher
+[2023-05-30 21:27:41] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-05-30 21:27:41] WARNING root fetch - processPackages [tensorflow-intel]: Skipping package: exceeds size limit 276469539>=10485760
+[2023-05-30 21:27:41] INFO root fetch - main [MainThread]: End processing [tensorflow-intel] error
+[2023-05-30 21:27:41] WARNING root fetch - processPackages [qbfetcher]: Skipping, unable to determine old version
+[2023-05-30 21:27:41] INFO root fetch - main [MainThread]: End processing [qbfetcher] error
+[2023-05-30 21:27:41] INFO root fetch - main [MainThread]: End processing [dataiter]: success
+[2023-05-30 21:27:41] INFO root fetch - main [MainThread]: End processing [xmask]: success
+[2023-05-30 21:27:41] INFO root fetch - main [MainThread]: End processing [cmind]: success
+[2023-05-30 21:27:41] INFO root fetch - main [MainThread]: End processing [metal-sdk]: success
+[2023-05-30 21:27:42] INFO root fetch - main [MainThread]: End processing [autonomi-nos]: success
+[2023-05-30 21:27:42] INFO root fetch - main [MainThread]: End processing [echofish-aws-indexing-lambda]: success
+[2023-05-30 21:27:53] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-05-30 21:28:02] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-05-30 21:28:02] INFO root fetch - main [MainThread]: Store serial: [18306724]
