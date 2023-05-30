@@ -19915,3 +19915,97 @@ EOFError: EOF read where object expected
 [2023-05-30 21:08:56] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-05-30 21:08:57] INFO root fetch - main [MainThread]: End processing [semantic-kernel]: success
 [2023-05-30 21:08:57] INFO root fetch - main [MainThread]: Store serial: [18306524]
+[2023-05-30 21:14:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18306524]
+[2023-05-30 21:14:07] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-30 21:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uh-custom-logger
+[2023-05-30 21:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rframe
+[2023-05-30 21:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: landingai
+[2023-05-30 21:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seams
+[2023-05-30 21:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wraith
+[2023-05-30 21:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: podsearchmp
+[2023-05-30 21:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: useDAVE
+[2023-05-30 21:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: panoptes-aag
+[2023-05-30 21:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: podsearchmp
+[2023-05-30 21:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sarus
+[2023-05-30 21:14:07] INFO root fetch - processPackages [uh-custom-logger]: New version: [0.2] Old Version: [0.1]
+[2023-05-30 21:14:07] INFO root fetch - processPackages [seams]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 21:14:07] INFO root fetch - processPackages [wraith]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-30 21:14:07] INFO root fetch - processPackages [useDAVE]: New version: [2.0.0b1] Old Version: [2.0.0a1]
+[2023-05-30 21:14:07] INFO root fetch - processPackages [rframe]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 21:14:07] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-30 21:14:07] INFO root fetch - processPackages [podsearchmp]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 21:14:07] INFO root fetch - processPackages [podsearchmp]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 21:14:07] WARNING root fetch - processPackages [panoptes-aag]: Skipping, unable to determine old version
+[2023-05-30 21:14:07] INFO root fetch - processPackages [panoptes-aag]: Start processing: game-vision-targeting-model
+[2023-05-30 21:14:07] INFO root fetch - main [MainThread]: End processing [panoptes-aag] error
+[2023-05-30 21:14:07] INFO root fetch - processPackages [sarus]: New version: [0.6.7rc1] Old Version: [0.6.7rc0]
+[2023-05-30 21:14:07] INFO root fetch - processPackages [game-vision-targeting-model]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 21:14:07] INFO root fetch - processPackages [uh-custom-logger]: Downloading https://files.pythonhosted.org/packages/5f/33/26bd657177854f011882aed73ce8ddc9ac8564c370e55e432b62aa45346e/uh_custom_logger-0.1.tar.gz
+[2023-05-30 21:14:07] INFO root fetch - processPackages [wraith]: Downloading https://files.pythonhosted.org/packages/9d/3d/a462d9788e67522c5fd268053173fb077f7a14e0f7f11e5af122e1d033bb/wraith-1.0.0.tar.gz
+[2023-05-30 21:14:07] INFO root fetch - processPackages [rframe]: executing diffoscope
+[2023-05-30 21:14:07] INFO root fetch - processPackages [rframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rframe-0.2.8.tar.gz tmp/rframe-0.2.9.tar.gz --markdown 20230530/r/rframe/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 21:14:07] INFO root fetch - processPackages [seams]: Downloading https://files.pythonhosted.org/packages/c1/b8/dc6104de1218514813e6ff2c5de442f70cdef9115200895605b88e2998bb/seams-1.0.8.tar.gz
+[2023-05-30 21:14:07] INFO root fetch - processPackages [podsearchmp]: Downloading https://files.pythonhosted.org/packages/31/9d/e1205f7f27f0517e342ccccf42b5c7e10c3928d44896dfbfcb9df7e0f44c/podsearchmp-0.1.2.tar.gz
+[2023-05-30 21:14:07] INFO root fetch - processPackages [game-vision-targeting-model]: Downloading https://files.pythonhosted.org/packages/13/15/726f100a9d0a3df9cc4c6d3017ced609f90fdb4b8131e3e071aeb728b50a/game-vision-targeting-model-0.0.1.tar.gz
+[2023-05-30 21:14:07] INFO root fetch - processPackages [podsearchmp]: Downloading https://files.pythonhosted.org/packages/31/9d/e1205f7f27f0517e342ccccf42b5c7e10c3928d44896dfbfcb9df7e0f44c/podsearchmp-0.1.2.tar.gz
+[2023-05-30 21:14:07] INFO root fetch - processPackages [useDAVE]: Downloading https://files.pythonhosted.org/packages/4e/ec/13a64fa04f2b9f03967afc75faa517e000639c501565abbe3df2baa1ba31/useDAVE-2.0.0a1.tar.gz
+[2023-05-30 21:14:07] WARNING root fetch - processPackages [useDAVE]: Skipping package: exceeds size limit 26689322>=10485760
+[2023-05-30 21:14:07] INFO root fetch - processPackages [useDAVE]: Start processing: cyberdrop-dl
+[2023-05-30 21:14:07] INFO root fetch - main [MainThread]: End processing [useDAVE] error
+[2023-05-30 21:14:07] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/38/50/879aeb9db1df4377d8097e5bdc281ee35795e663066407bfdb0d666b37a6/sarus-0.6.7rc1.tar.gz
+[2023-05-30 21:14:08] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-05-30 21:14:08] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230530/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 21:14:08] INFO root fetch - processPackages [uh-custom-logger]: Downloading https://files.pythonhosted.org/packages/c1/88/ddef2d553706fee42c9d7d4e215c55f418cc01239dfc8ba8b3ab560e43f0/uh_custom_logger-0.2.tar.gz
+[2023-05-30 21:14:08] INFO root fetch - processPackages [wraith]: Downloading https://files.pythonhosted.org/packages/83/41/71af3e11cf8c597e694749b2f3577c935b380d3dd1f913324dc7a4d5cf18/wraith-1.0.1.tar.gz
+[2023-05-30 21:14:08] INFO root fetch - processPackages [game-vision-targeting-model]: Downloading https://files.pythonhosted.org/packages/bd/6d/fc5c04e2f7f17bbcfa7ddfb6574149b7ae9c807f1c287eb7a55463343c34/game-vision-targeting-model-0.0.2.tar.gz
+[2023-05-30 21:14:08] INFO root fetch - processPackages [game-vision-targeting-model]: executing diffoscope
+[2023-05-30 21:14:08] INFO root fetch - processPackages [game-vision-targeting-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/game-vision-targeting-model-0.0.1.tar.gz tmp/game-vision-targeting-model-0.0.2.tar.gz --markdown 20230530/g/game-vision-targeting-model/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 21:14:08] INFO root fetch - processPackages [sarus]: executing diffoscope
+[2023-05-30 21:14:08] INFO root fetch - processPackages [sarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus-0.6.7rc0.tar.gz tmp/sarus-0.6.7rc1.tar.gz --markdown 20230530/s/sarus/0.6.7rc0-0.6.7rc1/diff.md --exclude *.pyd
+[2023-05-30 21:14:08] INFO root fetch - processPackages [wraith]: executing diffoscope
+[2023-05-30 21:14:08] INFO root fetch - processPackages [wraith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wraith-1.0.0.tar.gz tmp/wraith-1.0.1.tar.gz --markdown 20230530/w/wraith/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 21:14:08] INFO root fetch - processPackages [podsearchmp]: Downloading https://files.pythonhosted.org/packages/15/75/a25bcb099c6536d800d1198ba48c06a5246b07e702a8336ea8e60c89dfdc/podsearchmp-0.1.3.tar.gz
+[2023-05-30 21:14:08] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.55] Old Version: [4.2.53]
+[2023-05-30 21:14:08] INFO root fetch - processPackages [podsearchmp]: Downloading https://files.pythonhosted.org/packages/15/75/a25bcb099c6536d800d1198ba48c06a5246b07e702a8336ea8e60c89dfdc/podsearchmp-0.1.3.tar.gz
+[2023-05-30 21:14:08] INFO root fetch - processPackages [seams]: Downloading https://files.pythonhosted.org/packages/2f/8a/87688b447382879adba4e0c6f512e10d38c992fccc815b65ed77c8629642/seams-1.0.9.tar.gz
+[2023-05-30 21:14:08] INFO root fetch - processPackages [uh-custom-logger]: executing diffoscope
+[2023-05-30 21:14:08] INFO root fetch - processPackages [uh-custom-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uh_custom_logger-0.1.tar.gz tmp/uh_custom_logger-0.2.tar.gz --markdown 20230530/u/uh-custom-logger/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-30 21:14:08] INFO root fetch - processPackages [podsearchmp]: executing diffoscope
+[2023-05-30 21:14:08] INFO root fetch - processPackages [podsearchmp]: executing diffoscope
+[2023-05-30 21:14:08] INFO root fetch - processPackages [podsearchmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podsearchmp-0.1.2.tar.gz tmp/podsearchmp-0.1.3.tar.gz --markdown 20230530/p/podsearchmp/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 21:14:08] INFO root fetch - processPackages [podsearchmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podsearchmp-0.1.2.tar.gz tmp/podsearchmp-0.1.3.tar.gz --markdown 20230530/p/podsearchmp/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 21:14:08] INFO root fetch - processPackages [seams]: executing diffoscope
+[2023-05-30 21:14:08] INFO root fetch - processPackages [seams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seams-1.0.8.tar.gz tmp/seams-1.0.9.tar.gz --markdown 20230530/s/seams/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 21:14:08] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/46/d3/4e1dbc55446596c35448d9eaf9059e46658514da229631a41019c8ece547/cyberdrop-dl-4.2.55.tar.gz
+[2023-05-30 21:14:08] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-30 21:14:08] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.53.tar.gz tmp/cyberdrop-dl-4.2.55.tar.gz --markdown 20230530/c/cyberdrop-dl/4.2.53-4.2.55/diff.md --exclude *.pyd
+[2023-05-30 21:14:09] INFO root fetch - processPackages [landingai]: Start processing: oarepo-runtime
+[2023-05-30 21:14:09] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-05-30 21:14:09] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-30 21:14:09] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-05-30 21:14:09] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.3.0.tar.gz tmp/oarepo-runtime-1.3.1.tar.gz --markdown 20230530/o/oarepo-runtime/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-30 21:14:10] INFO root fetch - processPackages [game-vision-targeting-model]: Start processing: python-omnilogic-local
+[2023-05-30 21:14:10] INFO root fetch - main [MainThread]: End processing [game-vision-targeting-model]: success
+[2023-05-30 21:14:10] INFO root fetch - processPackages [rframe]: Start processing: steamship
+[2023-05-30 21:14:10] INFO root fetch - main [MainThread]: End processing [rframe]: success
+[2023-05-30 21:14:10] INFO root fetch - processPackages [podsearchmp]: Start processing: first-breaks-picking
+[2023-05-30 21:14:10] INFO root fetch - main [MainThread]: End processing [podsearchmp]: success
+[2023-05-30 21:14:10] INFO root fetch - processPackages [python-omnilogic-local]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-30 21:14:10] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-30 21:14:10] WARNING root fetch - processPackages [first-breaks-picking]: Skipping, unable to determine old version
+[2023-05-30 21:14:10] INFO root fetch - main [MainThread]: End processing [first-breaks-picking] error
+[2023-05-30 21:14:10] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-05-30 21:14:10] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230530/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-30 21:14:10] INFO root fetch - processPackages [python-omnilogic-local]: Downloading https://files.pythonhosted.org/packages/ed/b2/830e7a0ad331c0f1f0c81ebca78a9e1278d14ff987bc44c9120c3ee8f095/python_omnilogic_local-0.5.0.tar.gz
+[2023-05-30 21:14:10] INFO root fetch - main [MainThread]: End processing [sarus]: success
+[2023-05-30 21:14:10] INFO root fetch - processPackages [python-omnilogic-local]: executing diffoscope
+[2023-05-30 21:14:10] INFO root fetch - processPackages [python-omnilogic-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_omnilogic_local-0.4.2.tar.gz tmp/python_omnilogic_local-0.5.0.tar.gz --markdown 20230530/p/python-omnilogic-local/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-30 21:14:10] INFO root fetch - main [MainThread]: End processing [podsearchmp]: success
+[2023-05-30 21:14:10] INFO root fetch - main [MainThread]: End processing [seams]: success
+[2023-05-30 21:14:10] INFO root fetch - main [MainThread]: End processing [wraith]: success
+[2023-05-30 21:14:10] INFO root fetch - main [MainThread]: End processing [uh-custom-logger]: success
+[2023-05-30 21:14:11] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-30 21:14:12] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-05-30 21:14:12] INFO root fetch - main [MainThread]: End processing [python-omnilogic-local]: success
+[2023-05-30 21:14:13] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-05-30 21:14:13] INFO root fetch - main [MainThread]: Store serial: [18306571]
