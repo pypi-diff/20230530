@@ -1227,3 +1227,110 @@
 [2023-05-30 02:08:06] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2023-05-30 02:08:14] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-05-30 02:08:14] INFO root fetch - main [MainThread]: Store serial: [18295465]
+[2023-05-30 02:13:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18295465]
+[2023-05-30 02:13:23] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-30 02:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-agi
+[2023-05-30 02:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyQCAMS
+[2023-05-30 02:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-common
+[2023-05-30 02:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openbb-nightly
+[2023-05-30 02:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mct-quantizers-nightly
+[2023-05-30 02:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raya
+[2023-05-30 02:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: constructs
+[2023-05-30 02:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-grafana
+[2023-05-30 02:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-aws-discord-notifiers
+[2023-05-30 02:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-iot-core-certificates
+[2023-05-30 02:13:23] INFO root fetch - processPackages [openbb-nightly]: New version: [3.0.1.dev20230529] Old Version: [3.0.1.dev20230528]
+[2023-05-30 02:13:23] INFO root fetch - processPackages [PyQCAMS]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-30 02:13:23] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 02:13:23] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-05-30 02:13:23] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.0.0.29052023.post1013] Old Version: [1.0.0.28052023.post95022]
+[2023-05-30 02:13:23] INFO root fetch - processPackages [raya]: New version: [3.4.1.dev8] Old Version: [3.4.1.dev7]
+[2023-05-30 02:13:23] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-30 02:13:23] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-30 02:13:23] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-05-30 02:13:23] INFO root fetch - processPackages [llama-agi]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-30 02:13:23] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-05-30 02:13:24] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.8.tar.gz tmp/cdk-iot-core-certificates-1.0.9.tar.gz --markdown 20230530/c/cdk-iot-core-certificates/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 02:13:24] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/85/df/5e228889b0bc0202a78ded0f2188a06b7b5b8e66c1eb85cc7d027ff67ed9/cdk-aws-discord-notifiers-0.0.80.tar.gz
+[2023-05-30 02:13:24] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-05-30 02:13:24] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230530/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-30 02:13:24] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-05-30 02:13:24] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230530/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-30 02:13:24] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-05-30 02:13:24] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230530/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-05-30 02:13:24] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/77/2a/de2ac264394a967755d70776a700db0682cb0d77541f5539026ce2a4b9e1/mct-quantizers-nightly-1.0.0.29052023.post1013.tar.gz
+[2023-05-30 02:13:24] INFO root fetch - processPackages [PyQCAMS]: Downloading https://files.pythonhosted.org/packages/73/bc/7743037d40cb0aa972c3f24ce90fecb116fa0f3c531906efd4052bcedd0c/PyQCAMS-1.0.2.tar.gz
+[2023-05-30 02:13:24] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-05-30 02:13:24] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.80.tar.gz tmp/cdk-aws-discord-notifiers-0.0.9.tar.gz --markdown 20230530/c/cdk-aws-discord-notifiers/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 02:13:24] INFO root fetch - processPackages [raya]: Downloading https://files.pythonhosted.org/packages/fc/b0/db0ed11c6a8ed6b6da4ce183aa68442db3da5e65d8e6bda50ba1ae3a4b0f/raya-3.4.1.dev8.tar.gz
+[2023-05-30 02:13:24] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/34/bf/9204163c29f3a712fdd63e68878f9f54af8acc76fc6dd65cc93929af2a45/openbb_nightly-3.0.1.dev20230529.tar.gz
+[2023-05-30 02:13:24] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-05-30 02:13:24] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.0.0.28052023.post95022.tar.gz tmp/mct-quantizers-nightly-1.0.0.29052023.post1013.tar.gz --markdown 20230530/m/mct-quantizers-nightly/1.0.0.28052023.post95022-1.0.0.29052023.post1013/diff.md --exclude *.pyd
+[2023-05-30 02:13:24] INFO root fetch - processPackages [PyQCAMS]: executing diffoscope
+[2023-05-30 02:13:24] INFO root fetch - processPackages [raya]: executing diffoscope
+[2023-05-30 02:13:24] INFO root fetch - processPackages [PyQCAMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQCAMS-1.0.1.tar.gz tmp/PyQCAMS-1.0.2.tar.gz --markdown 20230530/P/PyQCAMS/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-30 02:13:24] INFO root fetch - processPackages [raya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raya-3.4.1.dev7.tar.gz tmp/raya-3.4.1.dev8.tar.gz --markdown 20230530/r/raya/3.4.1.dev7-3.4.1.dev8/diff.md --exclude *.pyd
+[2023-05-30 02:13:24] INFO root fetch - processPackages [llama-agi]: Downloading https://files.pythonhosted.org/packages/f8/b7/20855bcbc142911eb5364ee75fd5b8dfd0848ff79c08fa08d09685ad67dd/llama_agi-0.1.2.tar.gz
+[2023-05-30 02:13:24] INFO root fetch - processPackages [llama-agi]: Downloading https://files.pythonhosted.org/packages/44/b3/a8bad199fe62258eb92718ee7417183f1b039e5634812e7d6737d96acf42/llama_agi-0.2.0.tar.gz
+[2023-05-30 02:13:24] INFO root fetch - processPackages [llama-agi]: executing diffoscope
+[2023-05-30 02:13:24] INFO root fetch - processPackages [llama-agi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_agi-0.1.2.tar.gz tmp/llama_agi-0.2.0.tar.gz --markdown 20230530/l/llama-agi/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 02:13:25] INFO root fetch - processPackages [cdk-iot-core-certificates]: Start processing: cdktf-local-exec
+[2023-05-30 02:13:25] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-05-30 02:13:25] INFO root fetch - processPackages [cdktf-local-exec]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 02:13:25] INFO root fetch - processPackages [cdktf-local-exec]: executing diffoscope
+[2023-05-30 02:13:25] INFO root fetch - processPackages [cdktf-local-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-local-exec-0.2.8.tar.gz tmp/cdktf-local-exec-0.2.9.tar.gz --markdown 20230530/c/cdktf-local-exec/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 02:13:25] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Start processing: cdk-pgstac
+[2023-05-30 02:13:25] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-05-30 02:13:26] INFO root fetch - processPackages [cdk-pgstac]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-05-30 02:13:26] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2023-05-30 02:13:26] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-3.0.1.dev20230528.tar.gz tmp/openbb_nightly-3.0.1.dev20230529.tar.gz --markdown 20230530/o/openbb-nightly/3.0.1.dev20230528-3.0.1.dev20230529/diff.md --exclude *.pyd
+[2023-05-30 02:13:26] INFO root fetch - processPackages [cdk-pgstac]: Downloading https://files.pythonhosted.org/packages/1c/08/400b05c8d1b6c124420eb1c0a087585957370ed94a1251572fdf33d4c25d/cdk-pgstac-4.0.0.tar.gz
+[2023-05-30 02:13:26] INFO root fetch - processPackages [mct-quantizers-nightly]: Start processing: cdklabs.codepipeline-extensions
+[2023-05-30 02:13:26] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-05-30 02:13:26] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 02:13:26] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-05-30 02:13:26] INFO root fetch - processPackages [raya]: Start processing: cdk8s-operator
+[2023-05-30 02:13:26] INFO root fetch - main [MainThread]: End processing [raya]: success
+[2023-05-30 02:13:26] INFO root fetch - processPackages [constructs]: Start processing: spins-utilz
+[2023-05-30 02:13:26] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-05-30 02:13:26] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-30 02:13:26] WARNING root fetch - processPackages [spins-utilz]: Skipping, unable to determine old version
+[2023-05-30 02:13:26] INFO root fetch - processPackages [spins-utilz]: Start processing: drf-jsonschema
+[2023-05-30 02:13:26] INFO root fetch - main [MainThread]: End processing [spins-utilz] error
+[2023-05-30 02:13:26] INFO root fetch - processPackages [drf-jsonschema]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-30 02:13:26] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-05-30 02:13:26] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230530/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-30 02:13:26] INFO root fetch - processPackages [PyQCAMS]: Start processing: cdk-events-notify
+[2023-05-30 02:13:26] INFO root fetch - main [MainThread]: End processing [PyQCAMS]: success
+[2023-05-30 02:13:26] INFO root fetch - processPackages [cdk-pgstac]: Downloading https://files.pythonhosted.org/packages/8f/8b/0308d8a9bf601068e608367df7be79462190d50fb925980767ccdfaee1a4/cdk-pgstac-4.1.0.tar.gz
+[2023-05-30 02:13:26] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-30 02:13:26] INFO root fetch - processPackages [cdk-pgstac]: executing diffoscope
+[2023-05-30 02:13:26] INFO root fetch - processPackages [cdk-pgstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-pgstac-4.0.0.tar.gz tmp/cdk-pgstac-4.1.0.tar.gz --markdown 20230530/c/cdk-pgstac/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-05-30 02:13:26] INFO root fetch - processPackages [drf-jsonschema]: Downloading https://files.pythonhosted.org/packages/24/0b/5e20456a46a6b9ea1990ed570bcf9c78ffab1ed830cf4ccfb1bce5638506/drf-jsonschema-0.2.0.tar.gz
+[2023-05-30 02:13:26] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-05-30 02:13:26] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230530/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-30 02:13:26] INFO root fetch - processPackages [cdk8s-grafana]: Start processing: tencentcloud-sdk-python
+[2023-05-30 02:13:26] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-05-30 02:13:26] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-30 02:13:26] INFO root fetch - processPackages [llama-agi]: Start processing: hyperfast-python-template
+[2023-05-30 02:13:26] INFO root fetch - main [MainThread]: End processing [llama-agi]: success
+[2023-05-30 02:13:26] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-30 02:13:26] INFO root fetch - processPackages [drf-jsonschema]: Downloading https://files.pythonhosted.org/packages/b8/5b/22221c521e8b44312f2408610400bb0106f58bf1a07a1fe3c06218e24a06/drf-jsonschema-0.2.1.tar.gz
+[2023-05-30 02:13:26] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2023-05-30 02:13:26] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.98.tar.gz tmp/tencentcloud-sdk-python-3.0.99.tar.gz --markdown 20230530/t/tencentcloud-sdk-python/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-30 02:13:26] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-05-30 02:13:26] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.5.1.tar.gz tmp/hyperfast_python_template-0.5.2.tar.gz --markdown 20230530/h/hyperfast-python-template/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-30 02:13:26] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
+[2023-05-30 02:13:26] INFO root fetch - processPackages [drf-jsonschema]: executing diffoscope
+[2023-05-30 02:13:26] INFO root fetch - processPackages [drf-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-jsonschema-0.2.0.tar.gz tmp/drf-jsonschema-0.2.1.tar.gz --markdown 20230530/d/drf-jsonschema/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-30 02:13:27] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-05-30 02:13:27] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-05-30 02:13:28] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-05-30 02:13:28] INFO root fetch - main [MainThread]: End processing [cdk-pgstac]: success
+[2023-05-30 02:13:28] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-05-30 02:13:28] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-05-30 02:13:28] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-05-30 02:13:28] INFO root fetch - main [MainThread]: End processing [drf-jsonschema]: success
+[2023-05-30 02:13:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2023-05-30 02:13:37] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2023-05-30 02:13:37] INFO root fetch - main [MainThread]: Store serial: [18295522]
