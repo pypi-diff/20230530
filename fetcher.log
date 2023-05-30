@@ -13469,3 +13469,132 @@
 [2023-05-30 15:19:44] INFO root fetch - main [MainThread]: End processing [cradmin-legacy]: success
 [2023-05-30 15:19:46] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
 [2023-05-30 15:19:46] INFO root fetch - main [MainThread]: Store serial: [18302719]
+[2023-05-30 15:24:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18302719]
+[2023-05-30 15:24:55] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-30 15:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantuminspire
+[2023-05-30 15:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-apl
+[2023-05-30 15:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genopyc
+[2023-05-30 15:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: encord
+[2023-05-30 15:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: signalslot
+[2023-05-30 15:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyAllInOne
+[2023-05-30 15:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omicverse
+[2023-05-30 15:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DUELink
+[2023-05-30 15:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybiolib
+[2023-05-30 15:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-30 15:24:55] INFO root fetch - processPackages [genopyc]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-05-30 15:24:55] INFO root fetch - processPackages [quantuminspire]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-30 15:24:55] INFO root fetch - processPackages [signalslot]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-30 15:24:55] INFO root fetch - processPackages [PyAllInOne]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-30 15:24:55] INFO root fetch - processPackages [omicverse]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-30 15:24:55] INFO root fetch - processPackages [DUELink]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-30 15:24:55] INFO root fetch - processPackages [encord]: New version: [0.1.78] Old Version: [0.1.77]
+[2023-05-30 15:24:56] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 15:24:56] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.804] Old Version: [0.0.803]
+[2023-05-30 15:24:56] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.926]
+[2023-05-30 15:24:56] INFO root fetch - processPackages [quantuminspire]: executing diffoscope
+[2023-05-30 15:24:56] INFO root fetch - processPackages [quantuminspire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantuminspire-2.1.0.tar.gz tmp/quantuminspire-2.2.0.tar.gz --markdown 20230530/q/quantuminspire/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-30 15:24:56] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/4a/ed/bd65d6018067e8ea3fb2bb20cde5dea018976700e2d5fc64bf6573461ecb/pybiolib-1.1.926.tar.gz
+[2023-05-30 15:24:56] INFO root fetch - processPackages [signalslot]: Downloading https://files.pythonhosted.org/packages/3f/2f/237410ca5e28ee68ab84587bc2314d7fac75ce67c91148133c1eefc0ed16/signalslot-0.1.2.tar.gz
+[2023-05-30 15:24:56] INFO root fetch - processPackages [PyAllInOne]: Downloading https://files.pythonhosted.org/packages/73/fa/b2416d33346afe8b4307636d794e768f5f6317128c897212fb6e93ab9387/PyAllInOne-1.0.2.tar.gz
+[2023-05-30 15:24:56] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/a5/9d/d2b7f30e19d5d8f2a47bcf197d67c0586591302d61642c46f7dcc2d7886a/omicverse-1.4.0-py3-none-any.whl
+[2023-05-30 15:24:56] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/82/f4/d3815d6dca3223a2d922050eb9e809837cc4a24b63e5fc93c8affa009fbe/genopyc-0.3.0-py3-none-any.whl
+[2023-05-30 15:24:56] INFO root fetch - processPackages [genopyc]: executing diffoscope
+[2023-05-30 15:24:56] INFO root fetch - processPackages [genopyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopyc-0.2.5-py3-none-any.whl.zip tmp/genopyc-0.3.0-py3-none-any.whl.zip --markdown 20230530/g/genopyc/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 15:24:56] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/bc/99/6e537419d13e67160a8a959d4b639785434943dd522c440a427c9f8a5566/encord-0.1.78.tar.gz
+[2023-05-30 15:24:56] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-30 15:24:56] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 15:24:56] INFO root fetch - processPackages [encord]: executing diffoscope
+[2023-05-30 15:24:56] INFO root fetch - processPackages [encord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-0.1.77.tar.gz tmp/encord-0.1.78.tar.gz --markdown 20230530/e/encord/0.1.77-0.1.78/diff.md --exclude *.pyd
+[2023-05-30 15:24:56] INFO root fetch - processPackages [DUELink]: Downloading https://files.pythonhosted.org/packages/e9/ef/8f1c27899b10dba66081358898cd5926a7d33bece5f25625a5f252c9a6ad/DUELink-1.0.3-py3-none-any.whl
+[2023-05-30 15:24:56] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/d3/85/fc4786dcaec0bceee74550877bc072df7e478f820258e5e302fe643bc18f/nbdev-apl-0.0.804.tar.gz
+[2023-05-30 15:24:56] INFO root fetch - processPackages [signalslot]: Downloading https://files.pythonhosted.org/packages/a5/1e/989f2e12f3c415f59fd83d5e7d39da417e6d0bd97a449feec7c0711baca1/signalslot-0.2.0.tar.gz
+[2023-05-30 15:24:56] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-30 15:24:56] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.803.tar.gz tmp/nbdev-apl-0.0.804.tar.gz --markdown 20230530/n/nbdev-apl/0.0.803-0.0.804/diff.md --exclude *.pyd
+[2023-05-30 15:24:56] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-30 15:24:56] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.926.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230530/p/pybiolib/1.1.926-1.1.94/diff.md --exclude *.pyd
+[2023-05-30 15:24:56] INFO root fetch - processPackages [signalslot]: executing diffoscope
+[2023-05-30 15:24:56] INFO root fetch - processPackages [signalslot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signalslot-0.1.2.tar.gz tmp/signalslot-0.2.0.tar.gz --markdown 20230530/s/signalslot/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 15:24:56] WARNING root fetch - processPackages [omicverse]: Skipping package: exceeds size limit 15938988>=10485760
+[2023-05-30 15:24:56] INFO root fetch - processPackages [omicverse]: Start processing: sysml2py
+[2023-05-30 15:24:56] INFO root fetch - main [MainThread]: End processing [omicverse] error
+[2023-05-30 15:24:56] INFO root fetch - processPackages [DUELink]: executing diffoscope
+[2023-05-30 15:24:56] INFO root fetch - processPackages [DUELink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DUELink-1.0.2-py3-none-any.whl.zip tmp/DUELink-1.0.3-py3-none-any.whl.zip --markdown 20230530/D/DUELink/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-30 15:24:56] WARNING root fetch - processPackages [sysml2py]: Skipping, unable to determine old version
+[2023-05-30 15:24:56] INFO root fetch - processPackages [sysml2py]: Start processing: jsa
+[2023-05-30 15:24:56] INFO root fetch - main [MainThread]: End processing [sysml2py] error
+[2023-05-30 15:24:56] INFO root fetch - processPackages [jsa]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-30 15:24:56] WARNING root fetch - processPackages [PyAllInOne]: Skipping package: exceeds size limit 62997779>=10485760
+[2023-05-30 15:24:56] INFO root fetch - processPackages [PyAllInOne]: Start processing: pfizer-components-new
+[2023-05-30 15:24:56] INFO root fetch - main [MainThread]: End processing [PyAllInOne] error
+[2023-05-30 15:24:56] INFO root fetch - processPackages [pfizer-components-new]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-30 15:24:56] INFO root fetch - processPackages [jsa]: Downloading https://files.pythonhosted.org/packages/d3/67/a38e90108cd07c36226de60aa079a7bcf5022f7e55cf37c7997b51ccab72/jsa-0.3.0.tar.gz
+[2023-05-30 15:24:56] INFO root fetch - processPackages [jsa]: executing diffoscope
+[2023-05-30 15:24:56] INFO root fetch - processPackages [jsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsa-0.2.0.tar.gz tmp/jsa-0.3.0.tar.gz --markdown 20230530/j/jsa/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 15:24:56] INFO root fetch - processPackages [pfizer-components-new]: Downloading https://files.pythonhosted.org/packages/ae/da/ae92dc0cc84352896a05ae25ab299fced156e4d99e9672f4d2890ed17c3a/pfizer_components_new-0.0.5-py3-none-any.whl
+[2023-05-30 15:24:56] INFO root fetch - processPackages [pfizer-components-new]: executing diffoscope
+[2023-05-30 15:24:56] INFO root fetch - processPackages [pfizer-components-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components_new-0.0.4-py3-none-any.whl.zip tmp/pfizer_components_new-0.0.5-py3-none-any.whl.zip --markdown 20230530/p/pfizer-components-new/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 15:24:57] INFO root fetch - processPackages [genopyc]: Start processing: geotribu
+[2023-05-30 15:24:57] INFO root fetch - main [MainThread]: End processing [genopyc]: success
+[2023-05-30 15:24:57] INFO root fetch - processPackages [geotribu]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-30 15:24:58] INFO root fetch - processPackages [geotribu]: executing diffoscope
+[2023-05-30 15:24:58] INFO root fetch - processPackages [geotribu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotribu-0.9.0.tar.gz tmp/geotribu-0.9.1.tar.gz --markdown 20230530/g/geotribu/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-30 15:24:58] INFO root fetch - processPackages [quantuminspire]: Start processing: jwt-validate
+[2023-05-30 15:24:58] INFO root fetch - main [MainThread]: End processing [quantuminspire]: success
+[2023-05-30 15:24:58] INFO root fetch - processPackages [jwt-validate]: New version: [0.3.5.1] Old Version: [0.3.5]
+[2023-05-30 15:24:58] INFO root fetch - processPackages [jwt-validate]: Downloading https://files.pythonhosted.org/packages/c2/8f/dfbbcb3ed88964a8d0538682bf731e0009db630a2648dd9c8d5e4e4b5a60/jwt_validate-0.3.5.1.tar.gz
+[2023-05-30 15:24:58] INFO root fetch - processPackages [nbdev-apl]: Start processing: jdReplace
+[2023-05-30 15:24:58] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-30 15:24:58] INFO root fetch - processPackages [jwt-validate]: executing diffoscope
+[2023-05-30 15:24:58] INFO root fetch - processPackages [jwt-validate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwt_validate-0.3.5.tar.gz tmp/jwt_validate-0.3.5.1.tar.gz --markdown 20230530/j/jwt-validate/0.3.5-0.3.5.1/diff.md --exclude *.pyd
+[2023-05-30 15:24:58] INFO root fetch - processPackages [jdReplace]: New version: [4.0] Old Version: [3.1]
+[2023-05-30 15:24:58] INFO root fetch - processPackages [signalslot]: Start processing: lana
+[2023-05-30 15:24:58] INFO root fetch - main [MainThread]: End processing [signalslot]: success
+[2023-05-30 15:24:58] INFO root fetch - processPackages [lana]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 15:24:58] INFO root fetch - processPackages [jsa]: Start processing: zahner-analysis
+[2023-05-30 15:24:58] INFO root fetch - main [MainThread]: End processing [jsa]: success
+[2023-05-30 15:24:58] INFO root fetch - processPackages [zahner-analysis]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-05-30 15:24:58] INFO root fetch - processPackages [DUELink]: Start processing: orthopy-gpl
+[2023-05-30 15:24:58] INFO root fetch - main [MainThread]: End processing [DUELink]: success
+[2023-05-30 15:24:58] WARNING root fetch - processPackages [orthopy-gpl]: Skipping, unable to determine old version
+[2023-05-30 15:24:58] INFO root fetch - processPackages [orthopy-gpl]: Start processing: overhave
+[2023-05-30 15:24:58] INFO root fetch - main [MainThread]: End processing [orthopy-gpl] error
+[2023-05-30 15:24:58] INFO root fetch - processPackages [overhave]: New version: [3.9.0] Old Version: [3.8.4]
+[2023-05-30 15:24:58] INFO root fetch - processPackages [jdReplace]: Downloading https://files.pythonhosted.org/packages/e9/3a/120cc1a1afb190b3d3b545d64e193d75e67d18f6bf1f2d07a12ac7cfe634/jdReplace-3.1.tar.gz
+[2023-05-30 15:24:58] INFO root fetch - processPackages [lana]: Downloading https://files.pythonhosted.org/packages/1b/81/f858c69f1e9e40ff7fd19cdc2b74c44fefb1f09ce8d944e173bbbedb325a/lana-0.1.3.tar.gz
+[2023-05-30 15:24:59] INFO root fetch - processPackages [zahner-analysis]: Downloading https://files.pythonhosted.org/packages/63/5d/6ce9fb2607a6c440b69876aa576307af8ab34c428eccaddfd6be9e679114/zahner_analysis-1.0.6.tar.gz
+[2023-05-30 15:24:59] INFO root fetch - processPackages [pfizer-components-new]: Start processing: thipster
+[2023-05-30 15:24:59] INFO root fetch - main [MainThread]: End processing [pfizer-components-new]: success
+[2023-05-30 15:24:59] WARNING root fetch - processPackages [thipster]: Skipping, unable to determine old version
+[2023-05-30 15:24:59] INFO root fetch - processPackages [thipster]: Start processing: voyandz
+[2023-05-30 15:24:59] INFO root fetch - main [MainThread]: End processing [thipster] error
+[2023-05-30 15:24:59] INFO root fetch - processPackages [voyandz]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-05-30 15:24:59] INFO root fetch - processPackages [lana]: executing diffoscope
+[2023-05-30 15:24:59] INFO root fetch - processPackages [lana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lana-0.1.2.tar.gz tmp/lana-0.1.3.tar.gz --markdown 20230530/l/lana/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 15:24:59] INFO root fetch - processPackages [jdReplace]: Downloading https://files.pythonhosted.org/packages/a7/db/1594b293980e1de0ef1b8dd82857d9cd2483bfebd1317796cbab04204b35/jdReplace-4.0.tar.gz
+[2023-05-30 15:24:59] INFO root fetch - processPackages [jdReplace]: executing diffoscope
+[2023-05-30 15:24:59] INFO root fetch - processPackages [jdReplace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdReplace-3.1.tar.gz tmp/jdReplace-4.0.tar.gz --markdown 20230530/j/jdReplace/3.1-4.0/diff.md --exclude *.pyd
+[2023-05-30 15:24:59] INFO root fetch - processPackages [voyandz]: Downloading https://files.pythonhosted.org/packages/3b/e5/5e6a672e79f388edcf181593e9a7fdfafc65acf0c75ba334c9a1411c1b90/voyandz-0.2.5.tar.gz
+[2023-05-30 15:24:59] INFO root fetch - processPackages [overhave]: executing diffoscope
+[2023-05-30 15:24:59] INFO root fetch - processPackages [overhave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overhave-3.8.4.tar.gz tmp/overhave-3.9.0.tar.gz --markdown 20230530/o/overhave/3.8.4-3.9.0/diff.md --exclude *.pyd
+[2023-05-30 15:24:59] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Start processing: mock-event-generator
+[2023-05-30 15:24:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-30 15:24:59] INFO root fetch - processPackages [zahner-analysis]: Downloading https://files.pythonhosted.org/packages/a3/f0/eae3cc0d62d0ba2d50449985154c51528c42f17078d6dfada4ca62f563da/zahner_analysis-1.1.0.tar.gz
+[2023-05-30 15:24:59] INFO root fetch - processPackages [mock-event-generator]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-30 15:24:59] INFO root fetch - processPackages [voyandz]: Downloading https://files.pythonhosted.org/packages/dc/c8/465000c1b36c03393623135158da10e7caa425da1770d59c14bcbe8dbfd2/voyandz-0.3.0.tar.gz
+[2023-05-30 15:24:59] INFO root fetch - processPackages [mock-event-generator]: Downloading https://files.pythonhosted.org/packages/df/34/f938ed1bea1b0bb659c3490ab2c7b847b8174a85024b76b7bd4a91a53e89/mock_event_generator-1.4.1.tar.gz
+[2023-05-30 15:24:59] INFO root fetch - processPackages [voyandz]: executing diffoscope
+[2023-05-30 15:24:59] INFO root fetch - processPackages [voyandz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voyandz-0.2.5.tar.gz tmp/voyandz-0.3.0.tar.gz --markdown 20230530/v/voyandz/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 15:24:59] INFO root fetch - main [MainThread]: End processing [geotribu]: success
+[2023-05-30 15:25:00] INFO root fetch - processPackages [zahner-analysis]: executing diffoscope
+[2023-05-30 15:25:00] INFO root fetch - processPackages [zahner-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zahner_analysis-1.0.6.tar.gz tmp/zahner_analysis-1.1.0.tar.gz --markdown 20230530/z/zahner-analysis/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 15:25:00] INFO root fetch - main [MainThread]: End processing [encord]: success
+[2023-05-30 15:25:00] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-30 15:25:00] WARNING root fetch - processPackages [mock-event-generator]: Skipping package: exceeds size limit 66376708>=10485760
+[2023-05-30 15:25:00] INFO root fetch - main [MainThread]: End processing [mock-event-generator] error
+[2023-05-30 15:25:00] INFO root fetch - main [MainThread]: End processing [jwt-validate]: success
+[2023-05-30 15:25:00] INFO root fetch - main [MainThread]: End processing [lana]: success
+[2023-05-30 15:25:01] INFO root fetch - main [MainThread]: End processing [jdReplace]: success
+[2023-05-30 15:25:01] INFO root fetch - main [MainThread]: End processing [voyandz]: success
+[2023-05-30 15:25:02] INFO root fetch - main [MainThread]: End processing [overhave]: success
+[2023-05-30 15:25:03] INFO root fetch - main [MainThread]: End processing [zahner-analysis]: success
+[2023-05-30 15:25:03] INFO root fetch - main [MainThread]: Store serial: [18302782]
