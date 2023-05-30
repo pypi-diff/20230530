@@ -5170,3 +5170,29 @@
 [2023-05-30 06:11:52] INFO root fetch - main [MainThread]: End processing [snk]: success
 [2023-05-30 06:11:56] INFO root fetch - main [MainThread]: End processing [ora]: success
 [2023-05-30 06:11:56] INFO root fetch - main [MainThread]: Store serial: [18297678]
+[2023-05-30 06:17:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297678]
+[2023-05-30 06:17:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-30 06:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-purchase-sale-inter-company
+[2023-05-30 06:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skypilot
+[2023-05-30 06:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymangaj
+[2023-05-30 06:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-mysql-distill
+[2023-05-30 06:17:05] INFO root fetch - processPackages [skypilot]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-05-30 06:17:05] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: New version: [13.0.1.0.6.dev3] Old Version: [13.0.1.0.6.dev2]
+[2023-05-30 06:17:05] INFO root fetch - processPackages [pymangaj]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-30 06:17:05] WARNING root fetch - processPackages [py-mysql-distill]: Skipping, unable to determine old version
+[2023-05-30 06:17:05] INFO root fetch - main [MainThread]: End processing [py-mysql-distill] error
+[2023-05-30 06:17:05] INFO root fetch - processPackages [pymangaj]: Downloading https://files.pythonhosted.org/packages/41/48/cf2680f0767dda58dc0ebede469931a1c109f2fed8fac876f53f537f8f60/pymangaj-0.1.4.tar.gz
+[2023-05-30 06:17:05] INFO root fetch - processPackages [skypilot]: Downloading https://files.pythonhosted.org/packages/b0/39/f5bb11bfddeb6fc9d9ab78777339241a43390e89a1ca68837d627c02d72a/skypilot-0.2.5.tar.gz
+[2023-05-30 06:17:05] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: Downloading https://files.pythonhosted.org/packages/29/b1/a6c1aadfa92d24939349d6e58d19c5ebb56fd260a725b31254e6ef93fa79/odoo13_addon_purchase_sale_inter_company-13.0.1.0.6.dev3-py3-none-any.whl
+[2023-05-30 06:17:06] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: executing diffoscope
+[2023-05-30 06:17:06] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_sale_inter_company-13.0.1.0.6.dev2-py3-none-any.whl.zip tmp/odoo13_addon_purchase_sale_inter_company-13.0.1.0.6.dev3-py3-none-any.whl.zip --markdown 20230530/o/odoo13-addon-purchase-sale-inter-company/13.0.1.0.6.dev2-13.0.1.0.6.dev3/diff.md --exclude *.pyd
+[2023-05-30 06:17:06] INFO root fetch - processPackages [pymangaj]: Downloading https://files.pythonhosted.org/packages/a5/49/3186e649d83fadf74612cd1ecadb989d9442ca7f9cd627c5d107ea4417ff/pymangaj-0.1.5.tar.gz
+[2023-05-30 06:17:06] INFO root fetch - processPackages [skypilot]: Downloading https://files.pythonhosted.org/packages/b0/f6/9723ceb83f9b2742574bf3c5a4ead61ff09fdcb1532fa30acd21a5259d5d/skypilot-0.3.0.tar.gz
+[2023-05-30 06:17:06] INFO root fetch - processPackages [pymangaj]: executing diffoscope
+[2023-05-30 06:17:06] INFO root fetch - processPackages [pymangaj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymangaj-0.1.4.tar.gz tmp/pymangaj-0.1.5.tar.gz --markdown 20230530/p/pymangaj/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-30 06:17:06] INFO root fetch - processPackages [skypilot]: executing diffoscope
+[2023-05-30 06:17:06] INFO root fetch - processPackages [skypilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-0.2.5.tar.gz tmp/skypilot-0.3.0.tar.gz --markdown 20230530/s/skypilot/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 06:17:07] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-sale-inter-company]: success
+[2023-05-30 06:17:07] INFO root fetch - main [MainThread]: End processing [pymangaj]: success
+[2023-05-30 06:17:10] INFO root fetch - main [MainThread]: End processing [skypilot]: success
+[2023-05-30 06:17:10] INFO root fetch - main [MainThread]: Store serial: [18297696]
