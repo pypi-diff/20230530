@@ -13195,3 +13195,143 @@
 [2023-05-30 15:08:31] INFO root fetch - main [MainThread]: End processing [onlinepayments-sdk-python2]: success
 [2023-05-30 15:08:58] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-30 15:08:58] INFO root fetch - main [MainThread]: Store serial: [18302546]
+[2023-05-30 15:14:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18302546]
+[2023-05-30 15:14:08] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simplegeomap
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kadi
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: panel
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ewoksdata
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onlinepayments-sdk-python3
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-numpy
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Candataloader
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yugal
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: payla-utils
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fitk
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ewoksdata]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-30 15:14:08] INFO root fetch - processPackages [kadi]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-30 15:14:08] INFO root fetch - processPackages [onlinepayments-sdk-python3]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-30 15:14:08] INFO root fetch - processPackages [simplegeomap]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-05-30 15:14:08] INFO root fetch - processPackages [Candataloader]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-30 15:14:08] INFO root fetch - processPackages [yugal]: New version: [8.1.0] Old Version: [8.0.2]
+[2023-05-30 15:14:08] INFO root fetch - processPackages [fitk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-30 15:14:08] INFO root fetch - processPackages [payla-utils]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 15:14:08] INFO root fetch - processPackages [panel]: New version: [1.0.4rc1] Old Version: [1.0.3rc1]
+[2023-05-30 15:14:08] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 15:14:08] INFO root fetch - processPackages [kadi]: Downloading https://files.pythonhosted.org/packages/3c/13/66ad2967333480e214c9d11d19338d16d5b8eba8c98ce2d7100416b06050/kadi-0.8.1-py3-none-any.whl
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ewoksdata]: Downloading https://files.pythonhosted.org/packages/0c/d5/dfb543b0860d64dca4bf128d212d938d8ce33f3df2ed2721366db00ec89b/ewoksdata-0.2.6.tar.gz
+[2023-05-30 15:14:08] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-30 15:14:08] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230530/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 15:14:08] INFO root fetch - processPackages [yugal]: Downloading https://files.pythonhosted.org/packages/85/89/c3fae00a2d4208da46e0d063a9cde07c89ca2e44496440fa91588271b3f7/yugal-8.0.2.tar.gz
+[2023-05-30 15:14:08] INFO root fetch - processPackages [onlinepayments-sdk-python3]: Downloading https://files.pythonhosted.org/packages/e0/ef/4acd5fb2defed529b138b70b00cd735addd1359fc93e39c030792ae47d75/onlinepayments-sdk-python3-4.8.0.zip
+[2023-05-30 15:14:08] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/94/c8/2446376df489acda014e528d0a707ff6bd6399f6837864e80e6ed4b1b2ba/panel-1.0.3rc1.tar.gz
+[2023-05-30 15:14:08] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/05/21/94a41ed78f3a09877d61ac6998299c4352ab31852e034c2d30668150d950/simplegeomap-0.0.24.tar.gz
+[2023-05-30 15:14:08] INFO root fetch - processPackages [payla-utils]: Downloading https://files.pythonhosted.org/packages/5d/c4/4607ccd00f223c01e7d2c0afc6aef57830efd4fb338729a133dae0fd9cbb/payla_utils-0.2.8.tar.gz
+[2023-05-30 15:14:08] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 25684457>=10485760
+[2023-05-30 15:14:08] INFO root fetch - processPackages [panel]: Start processing: thirdai
+[2023-05-30 15:14:08] INFO root fetch - main [MainThread]: End processing [panel] error
+[2023-05-30 15:14:08] INFO root fetch - processPackages [thirdai]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-30 15:14:08] INFO root fetch - processPackages [Candataloader]: Downloading https://files.pythonhosted.org/packages/d2/19/a68f41ad376856e9957a975c5d2d355017dda9e7ff59d9d07b7a7ee70143/Candataloader-1.1.5.tar.gz
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ewoksdata]: Downloading https://files.pythonhosted.org/packages/4b/d7/e1836c5a51476e76ad900d2523f075efece11fe53d2a2cfa27dc588020a1/ewoksdata-0.2.7.tar.gz
+[2023-05-30 15:14:08] INFO root fetch - processPackages [simplegeomap]: executing diffoscope
+[2023-05-30 15:14:08] INFO root fetch - processPackages [simplegeomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplegeomap-0.0.23.tar.gz tmp/simplegeomap-0.0.24.tar.gz --markdown 20230530/s/simplegeomap/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-05-30 15:14:08] INFO root fetch - processPackages [fitk]: executing diffoscope
+[2023-05-30 15:14:08] INFO root fetch - processPackages [fitk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitk-0.9.2.tar.gz tmp/fitk-0.9.3.tar.gz --markdown 20230530/f/fitk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-30 15:14:08] INFO root fetch - processPackages [Candataloader]: executing diffoscope
+[2023-05-30 15:14:08] INFO root fetch - processPackages [Candataloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Candataloader-1.1.4.tar.gz tmp/Candataloader-1.1.5.tar.gz --markdown 20230530/C/Candataloader/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ewoksdata]: executing diffoscope
+[2023-05-30 15:14:08] INFO root fetch - processPackages [ewoksdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksdata-0.2.6.tar.gz tmp/ewoksdata-0.2.7.tar.gz --markdown 20230530/e/ewoksdata/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-30 15:14:08] INFO root fetch - processPackages [yugal]: Downloading https://files.pythonhosted.org/packages/30/03/b8f86112db66da1142bc5f74a7397f7f2ca2ed85b07bc8a224dc2dfc58c0/yugal-8.1.0.tar.gz
+[2023-05-30 15:14:08] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/1a/14/d6a60a431ecd3eccafc78efab1d99264eab64dc60110eaf267275c2c8af0/thirdai-0.7.2-cp39-cp39-win_amd64.whl
+[2023-05-30 15:14:09] INFO root fetch - processPackages [yugal]: executing diffoscope
+[2023-05-30 15:14:09] INFO root fetch - processPackages [yugal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yugal-8.0.2.tar.gz tmp/yugal-8.1.0.tar.gz --markdown 20230530/y/yugal/8.0.2-8.1.0/diff.md --exclude *.pyd
+[2023-05-30 15:14:09] INFO root fetch - processPackages [onlinepayments-sdk-python3]: Downloading https://files.pythonhosted.org/packages/f8/2c/057a23ec03d5071c342bba2674df06d7cf30756ddae130c30aeeb20937b5/onlinepayments-sdk-python3-4.9.0.zip
+[2023-05-30 15:14:09] INFO root fetch - processPackages [payla-utils]: Downloading https://files.pythonhosted.org/packages/ba/58/d6dfd8fb5418e882493f9a3696283556628f2ae4592866363cecbb70fc3d/payla_utils-0.2.9.tar.gz
+[2023-05-30 15:14:09] WARNING root fetch - processPackages [kadi]: Skipping package: exceeds size limit 16380155>=10485760
+[2023-05-30 15:14:09] INFO root fetch - processPackages [kadi]: Start processing: kodexa-cli
+[2023-05-30 15:14:09] INFO root fetch - main [MainThread]: End processing [kadi] error
+[2023-05-30 15:14:09] INFO root fetch - processPackages [kodexa-cli]: New version: [6.2.25121894883] Old Version: [6.2.25111841001]
+[2023-05-30 15:14:09] INFO root fetch - processPackages [payla-utils]: executing diffoscope
+[2023-05-30 15:14:09] INFO root fetch - processPackages [payla-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payla_utils-0.2.8.tar.gz tmp/payla_utils-0.2.9.tar.gz --markdown 20230530/p/payla-utils/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 15:14:09] INFO root fetch - processPackages [onlinepayments-sdk-python3]: executing diffoscope
+[2023-05-30 15:14:09] INFO root fetch - processPackages [onlinepayments-sdk-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onlinepayments-sdk-python3-4.8.0.zip tmp/onlinepayments-sdk-python3-4.9.0.zip --markdown 20230530/o/onlinepayments-sdk-python3/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-30 15:14:09] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/4e/32/1e5117b862724c3eef6e0fbeff052b416da336a61bea7edc394019dcff8d/kodexa_cli-6.2.25121894883.tar.gz
+[2023-05-30 15:14:09] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-05-30 15:14:09] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.2.25111841001.tar.gz tmp/kodexa_cli-6.2.25121894883.tar.gz --markdown 20230530/k/kodexa-cli/6.2.25111841001-6.2.25121894883/diff.md --exclude *.pyd
+[2023-05-30 15:14:09] INFO root fetch - processPackages [nbdev-numpy]: Start processing: ggshield
+[2023-05-30 15:14:09] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-30 15:14:09] INFO root fetch - processPackages [ggshield]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-05-30 15:14:10] INFO root fetch - processPackages [simplegeomap]: Start processing: nbdev-pandas
+[2023-05-30 15:14:10] INFO root fetch - main [MainThread]: End processing [simplegeomap]: success
+[2023-05-30 15:14:10] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 15:14:10] INFO root fetch - processPackages [Candataloader]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-30 15:14:10] INFO root fetch - main [MainThread]: End processing [Candataloader]: success
+[2023-05-30 15:14:10] INFO root fetch - processPackages [ggshield]: executing diffoscope
+[2023-05-30 15:14:10] INFO root fetch - processPackages [ggshield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggshield-1.8.2.tar.gz tmp/ggshield-1.9.0.tar.gz --markdown 20230530/g/ggshield/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-05-30 15:14:10] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 15:14:10] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/be/70/d5f894108d35306d4f492dab418762609393b59bd96adb409a0f4fd1c7e3/thirdai-0.7.3-cp39-cp39-win_amd64.whl
+[2023-05-30 15:14:10] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-30 15:14:10] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230530/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 15:14:10] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-30 15:14:10] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 15:14:10] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2023-05-30 15:14:10] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.2-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.3-cp39-cp39-win_amd64.whl.zip --markdown 20230530/t/thirdai/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-30 15:14:10] INFO root fetch - processPackages [ewoksdata]: Start processing: jupyterlab-h5web
+[2023-05-30 15:14:10] INFO root fetch - main [MainThread]: End processing [ewoksdata]: success
+[2023-05-30 15:14:10] INFO root fetch - processPackages [jupyterlab-h5web]: New version: [8.0.0] Old Version: [7.1.2]
+[2023-05-30 15:14:10] INFO root fetch - processPackages [yugal]: Start processing: genopyc
+[2023-05-30 15:14:10] INFO root fetch - main [MainThread]: End processing [yugal]: success
+[2023-05-30 15:14:10] INFO root fetch - processPackages [genopyc]: New version: [0.2.4] Old Version: [0.2.333]
+[2023-05-30 15:14:11] INFO root fetch - processPackages [jupyterlab-h5web]: Downloading https://files.pythonhosted.org/packages/e1/69/24c055fa85f5adc2b8a1dab21bb883f082a6e3692a7ac314af435698e5b2/jupyterlab_h5web-8.0.0.tar.gz
+[2023-05-30 15:14:11] INFO root fetch - processPackages [payla-utils]: Start processing: nbdev-pytorch
+[2023-05-30 15:14:11] INFO root fetch - main [MainThread]: End processing [payla-utils]: success
+[2023-05-30 15:14:11] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/c4/e8/c188de33923450bc0c6839e93d722d1cb490d816fa7f49403eb6568bcddb/genopyc-0.2.333-py3-none-any.whl
+[2023-05-30 15:14:11] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 15:14:11] INFO root fetch - processPackages [jupyterlab-h5web]: executing diffoscope
+[2023-05-30 15:14:11] INFO root fetch - processPackages [jupyterlab-h5web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_h5web-7.1.2.tar.gz tmp/jupyterlab_h5web-8.0.0.tar.gz --markdown 20230530/j/jupyterlab-h5web/7.1.2-8.0.0/diff.md --exclude *.pyd
+[2023-05-30 15:14:11] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-30 15:14:11] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230530/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 15:14:11] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/d7/5c/4e0b1ffd341d5868a1b53104bdb99b07d7f41feb3e42c80229d8e8c6676e/genopyc-0.2.4-py3-none-any.whl
+[2023-05-30 15:14:11] INFO root fetch - processPackages [genopyc]: executing diffoscope
+[2023-05-30 15:14:11] INFO root fetch - processPackages [genopyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopyc-0.2.333-py3-none-any.whl.zip tmp/genopyc-0.2.4-py3-none-any.whl.zip --markdown 20230530/g/genopyc/0.2.333-0.2.4/diff.md --exclude *.pyd
+[2023-05-30 15:14:11] INFO root fetch - processPackages [fitk]: Start processing: brownian-stock
+[2023-05-30 15:14:11] INFO root fetch - main [MainThread]: End processing [fitk]: success
+[2023-05-30 15:14:11] INFO root fetch - processPackages [brownian-stock]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 15:14:12] INFO root fetch - processPackages [kodexa-cli]: Start processing: jsa
+[2023-05-30 15:14:12] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-05-30 15:14:12] INFO root fetch - processPackages [brownian-stock]: executing diffoscope
+[2023-05-30 15:14:12] INFO root fetch - processPackages [brownian-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brownian-stock-0.0.8.tar.gz tmp/brownian-stock-0.0.9.tar.gz --markdown 20230530/b/brownian-stock/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 15:14:12] WARNING root fetch - processPackages [jsa]: Skipping, unable to determine old version
+[2023-05-30 15:14:12] INFO root fetch - processPackages [jsa]: Start processing: parameterspace
+[2023-05-30 15:14:12] INFO root fetch - main [MainThread]: End processing [jsa] error
+[2023-05-30 15:14:12] INFO root fetch - processPackages [parameterspace]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-30 15:14:12] INFO root fetch - processPackages [nbdev-pandas]: Start processing: apigratis
+[2023-05-30 15:14:12] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-30 15:14:12] INFO root fetch - processPackages [apigratis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 15:14:12] INFO root fetch - processPackages [apigratis]: executing diffoscope
+[2023-05-30 15:14:12] INFO root fetch - processPackages [apigratis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apigratis-0.1.0.tar.gz tmp/apigratis-0.1.1.tar.gz --markdown 20230530/a/apigratis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 15:14:12] INFO root fetch - processPackages [parameterspace]: executing diffoscope
+[2023-05-30 15:14:12] INFO root fetch - processPackages [parameterspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parameterspace-0.9.0.tar.gz tmp/parameterspace-0.9.1.tar.gz --markdown 20230530/p/parameterspace/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-30 15:14:13] INFO root fetch - processPackages [ggshield]: Start processing: genno
+[2023-05-30 15:14:13] INFO root fetch - main [MainThread]: End processing [ggshield]: success
+[2023-05-30 15:14:13] INFO root fetch - processPackages [genno]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-30 15:14:13] INFO root fetch - processPackages [genno]: Downloading https://files.pythonhosted.org/packages/4e/1a/f24898465582d455bbee2e601887ed1057f7a0f458ca58074decb350ec13/genno-1.9.1.tar.gz
+[2023-05-30 15:14:13] INFO root fetch - processPackages [genopyc]: Start processing: ocha-anticipy
+[2023-05-30 15:14:13] INFO root fetch - main [MainThread]: End processing [genopyc]: success
+[2023-05-30 15:14:13] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2023-05-30 15:14:13] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-30 15:14:13] INFO root fetch - processPackages [ocha-anticipy]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-30 15:14:13] INFO root fetch - main [MainThread]: End processing [onlinepayments-sdk-python3]: success
+[2023-05-30 15:14:13] INFO root fetch - processPackages [genno]: Downloading https://files.pythonhosted.org/packages/d4/a4/a3955017f52b438a5c292c9eef737823159bfcd0918949735f142c332146/genno-1.9.2.tar.gz
+[2023-05-30 15:14:13] INFO root fetch - processPackages [genno]: executing diffoscope
+[2023-05-30 15:14:13] INFO root fetch - processPackages [genno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genno-1.9.1.tar.gz tmp/genno-1.9.2.tar.gz --markdown 20230530/g/genno/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-30 15:14:13] INFO root fetch - processPackages [ocha-anticipy]: Downloading https://files.pythonhosted.org/packages/c3/d2/390af3227dad082752d57a3e3f9acfffae55e1e46477495b43c5fb06935a/ocha-anticipy-1.1.0.tar.gz
+[2023-05-30 15:14:14] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-30 15:14:14] INFO root fetch - main [MainThread]: End processing [brownian-stock]: success
+[2023-05-30 15:14:14] INFO root fetch - processPackages [ocha-anticipy]: executing diffoscope
+[2023-05-30 15:14:14] INFO root fetch - processPackages [ocha-anticipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocha-anticipy-1.0.2.tar.gz tmp/ocha-anticipy-1.1.0.tar.gz --markdown 20230530/o/ocha-anticipy/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 15:14:14] INFO root fetch - main [MainThread]: End processing [apigratis]: success
+[2023-05-30 15:14:14] INFO root fetch - main [MainThread]: End processing [parameterspace]: success
+[2023-05-30 15:14:15] INFO root fetch - main [MainThread]: End processing [genno]: success
+[2023-05-30 15:14:16] INFO root fetch - main [MainThread]: End processing [ocha-anticipy]: success
+[2023-05-30 15:14:27] INFO root fetch - main [MainThread]: End processing [jupyterlab-h5web]: success
+[2023-05-30 15:14:27] INFO root fetch - main [MainThread]: Store serial: [18302630]
