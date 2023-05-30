@@ -12791,3 +12791,103 @@
 [2023-05-30 14:46:13] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
 [2023-05-30 14:46:35] INFO root fetch - main [MainThread]: End processing [feffery-antd-charts]: success
 [2023-05-30 14:46:35] INFO root fetch - main [MainThread]: Store serial: [18302321]
+[2023-05-30 14:51:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18302321]
+[2023-05-30 14:51:44] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-30 14:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apigratis
+[2023-05-30 14:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuxsuite
+[2023-05-30 14:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yugal
+[2023-05-30 14:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyopal
+[2023-05-30 14:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meshtastic
+[2023-05-30 14:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: indykite-sdk-python
+[2023-05-30 14:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-management
+[2023-05-30 14:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: djangocms-misc
+[2023-05-30 14:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: leadguru-data
+[2023-05-30 14:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: leadguru-common
+[2023-05-30 14:51:44] INFO root fetch - processPackages [apigratis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 14:51:44] INFO root fetch - processPackages [pyopal]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-30 14:51:44] INFO root fetch - processPackages [ml-management]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-05-30 14:51:44] WARNING root fetch - processPackages [yugal]: Skipping, unable to determine old version
+[2023-05-30 14:51:44] INFO root fetch - processPackages [yugal]: Start processing: etsy-apiv3
+[2023-05-30 14:51:44] INFO root fetch - main [MainThread]: End processing [yugal] error
+[2023-05-30 14:51:44] INFO root fetch - processPackages [djangocms-misc]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-30 14:51:44] INFO root fetch - processPackages [indykite-sdk-python]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-30 14:51:44] INFO root fetch - processPackages [meshtastic]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-05-30 14:51:44] INFO root fetch - processPackages [tuxsuite]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-30 14:51:44] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-30 14:51:44] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-30 14:51:44] INFO root fetch - processPackages [etsy-apiv3]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-05-30 14:51:45] INFO root fetch - processPackages [apigratis]: Downloading https://files.pythonhosted.org/packages/dd/a7/a7ac140ce7e977865d0dde172a10b930ef4141bda345a3e8e208355db207/apigratis-0.1.0.tar.gz
+[2023-05-30 14:51:45] INFO root fetch - processPackages [pyopal]: Downloading https://files.pythonhosted.org/packages/d5/d7/9d5e4c009a9d67b6987f4766fe86cec8dce2d550c062dad7168bba987016/pyopal-0.2.0.tar.gz
+[2023-05-30 14:51:45] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/50/f3/0a2a0a7f8486f219a6a319ede3c2de5288cb2e115cd7139571b4cd724d82/indykite-sdk-python-1.8.0.tar.gz
+[2023-05-30 14:51:45] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/27/14/f25c40bc531aff32551c08e4d9c8b6894d4749d5ad96f37b58cc307cfb29/tuxsuite-1.8.0.tar.gz
+[2023-05-30 14:51:45] INFO root fetch - processPackages [meshtastic]: Downloading https://files.pythonhosted.org/packages/e1/89/ecff2b65c35f31a05d99ff77dc401de9b8bca995c1a65a261914b8eab8d9/meshtastic-2.1.8.tar.gz
+[2023-05-30 14:51:45] INFO root fetch - processPackages [djangocms-misc]: Downloading https://files.pythonhosted.org/packages/e1/c0/f144630679e670da954ffc25082358d44f12d88f5e045d1cb4188a586dd6/djangocms-misc-0.2.0.tar.gz
+[2023-05-30 14:51:45] INFO root fetch - processPackages [apigratis]: Downloading https://files.pythonhosted.org/packages/87/9b/55bf8aa3f1fb98840721eca75000869e18d6a8801614600fc86d84ddb465/apigratis-0.1.1.tar.gz
+[2023-05-30 14:51:45] INFO root fetch - processPackages [etsy-apiv3]: Downloading https://files.pythonhosted.org/packages/d9/b9/deb1f390125d5ea244963e37e9e54cb7fe5cf984daf03e18edd02f050553/etsy-apiv3-1.8.4.tar.gz
+[2023-05-30 14:51:45] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-05-30 14:51:45] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230530/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-30 14:51:45] INFO root fetch - processPackages [meshtastic]: executing diffoscope
+[2023-05-30 14:51:45] INFO root fetch - processPackages [meshtastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshtastic-2.1.7.tar.gz tmp/meshtastic-2.1.8.tar.gz --markdown 20230530/m/meshtastic/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-05-30 14:51:45] INFO root fetch - processPackages [pyopal]: Downloading https://files.pythonhosted.org/packages/8e/42/eb8d94121070b5555b5414e07c7e3428ba0224667abd65c1062b53582e1b/pyopal-0.3.0.tar.gz
+[2023-05-30 14:51:45] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-05-30 14:51:45] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230530/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-30 14:51:45] INFO root fetch - processPackages [etsy-apiv3]: executing diffoscope
+[2023-05-30 14:51:45] INFO root fetch - processPackages [etsy-apiv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy-apiv3-1.8.3.tar.gz tmp/etsy-apiv3-1.8.4.tar.gz --markdown 20230530/e/etsy-apiv3/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-05-30 14:51:45] INFO root fetch - processPackages [apigratis]: executing diffoscope
+[2023-05-30 14:51:45] INFO root fetch - processPackages [apigratis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apigratis-0.1.0.tar.gz tmp/apigratis-0.1.1.tar.gz --markdown 20230530/a/apigratis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 14:51:45] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/0b/ca/893a3015f5fd73694feecd8f5211556c918f227062ea2bde1cb70f11e66a/ml-management-0.0.34.tar.gz
+[2023-05-30 14:51:45] INFO root fetch - processPackages [djangocms-misc]: Downloading https://files.pythonhosted.org/packages/1e/36/d5960feeda208c3d34fd39a3e48cc56be8ecf6fb41f83d0ebe524bda3952/djangocms-misc-0.2.1.tar.gz
+[2023-05-30 14:51:45] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2023-05-30 14:51:45] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/1d/24/d3c0f1913c780f3c300d6d0606ce03543a97b03f19a6fc0be3c53e1b8774/indykite-sdk-python-1.9.0.tar.gz
+[2023-05-30 14:51:45] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.33.tar.gz tmp/ml-management-0.0.34.tar.gz --markdown 20230530/m/ml-management/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-05-30 14:51:45] INFO root fetch - processPackages [pyopal]: executing diffoscope
+[2023-05-30 14:51:45] INFO root fetch - processPackages [pyopal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopal-0.2.0.tar.gz tmp/pyopal-0.3.0.tar.gz --markdown 20230530/p/pyopal/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 14:51:45] INFO root fetch - processPackages [djangocms-misc]: executing diffoscope
+[2023-05-30 14:51:45] INFO root fetch - processPackages [djangocms-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-misc-0.2.0.tar.gz tmp/djangocms-misc-0.2.1.tar.gz --markdown 20230530/d/djangocms-misc/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-30 14:51:45] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/4d/5e/8be806f24d5782026eef566b71100557104f363339b8917671132eadf1ea/tuxsuite-1.9.0.tar.gz
+[2023-05-30 14:51:45] INFO root fetch - processPackages [indykite-sdk-python]: executing diffoscope
+[2023-05-30 14:51:45] INFO root fetch - processPackages [indykite-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indykite-sdk-python-1.8.0.tar.gz tmp/indykite-sdk-python-1.9.0.tar.gz --markdown 20230530/i/indykite-sdk-python/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-30 14:51:45] INFO root fetch - processPackages [tuxsuite]: executing diffoscope
+[2023-05-30 14:51:45] INFO root fetch - processPackages [tuxsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxsuite-1.8.0.tar.gz tmp/tuxsuite-1.9.0.tar.gz --markdown 20230530/t/tuxsuite/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-30 14:51:46] INFO root fetch - processPackages [leadguru-data]: Start processing: ruamel.yaml
+[2023-05-30 14:51:46] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-05-30 14:51:46] INFO root fetch - processPackages [ruamel.yaml]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-30 14:51:46] INFO root fetch - processPackages [ruamel.yaml]: executing diffoscope
+[2023-05-30 14:51:46] INFO root fetch - processPackages [ruamel.yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruamel.yaml-0.9.7.tar.gz tmp/ruamel.yaml-0.9.8.tar.gz --markdown 20230530/r/ruamel.yaml/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-30 14:51:47] INFO root fetch - processPackages [etsy-apiv3]: Start processing: dfcon
+[2023-05-30 14:51:47] INFO root fetch - main [MainThread]: End processing [etsy-apiv3]: success
+[2023-05-30 14:51:47] INFO root fetch - processPackages [dfcon]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-30 14:51:47] INFO root fetch - processPackages [apigratis]: Start processing: tuxbake
+[2023-05-30 14:51:47] INFO root fetch - main [MainThread]: End processing [apigratis]: success
+[2023-05-30 14:51:47] INFO root fetch - processPackages [dfcon]: Downloading https://files.pythonhosted.org/packages/a3/46/60ce0f1966ab565545c88e7c8fe2ff08195e6369aee94f644d2fd6955b4d/dfcon-0.0.7.tar.gz
+[2023-05-30 14:51:47] INFO root fetch - processPackages [meshtastic]: Start processing: yugal
+[2023-05-30 14:51:47] INFO root fetch - main [MainThread]: End processing [meshtastic]: success
+[2023-05-30 14:51:47] INFO root fetch - processPackages [yugal]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-05-30 14:51:47] INFO root fetch - processPackages [leadguru-common]: Start processing: kodexa
+[2023-05-30 14:51:47] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-05-30 14:51:47] INFO root fetch - processPackages [tuxbake]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-30 14:51:47] INFO root fetch - processPackages [dfcon]: executing diffoscope
+[2023-05-30 14:51:47] INFO root fetch - processPackages [dfcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfcon-0.0.6.tar.gz tmp/dfcon-0.0.7.tar.gz --markdown 20230530/d/dfcon/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-30 14:51:47] INFO root fetch - processPackages [yugal]: Downloading https://files.pythonhosted.org/packages/08/b9/a692b4e797ac0f3f83db3db00dd8e4ab263232d24b3b0622d00bfc5d1b4b/yugal-8.0.0.tar.gz
+[2023-05-30 14:51:47] INFO root fetch - processPackages [tuxbake]: Downloading https://files.pythonhosted.org/packages/b2/83/a278993346a2e324ccbe433764e3bb7658def08426bce8f92aaff579bc53/tuxbake-0.3.1.tar.gz
+[2023-05-30 14:51:47] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2023-05-30 14:51:48] INFO root fetch - processPackages [yugal]: Downloading https://files.pythonhosted.org/packages/6e/7b/799daffbd22ca1ea3d952769e37485a5f885aa1c305c04e87520cf2d8d89/yugal-8.0.1.tar.gz
+[2023-05-30 14:51:48] INFO root fetch - processPackages [tuxbake]: Downloading https://files.pythonhosted.org/packages/e6/c9/96a62f08b40af1990596e881b870c1d5e7cb66b706a27c2c8c0414efa475/tuxbake-0.4.0.tar.gz
+[2023-05-30 14:51:48] INFO root fetch - main [MainThread]: End processing [djangocms-misc]: success
+[2023-05-30 14:51:48] INFO root fetch - processPackages [yugal]: executing diffoscope
+[2023-05-30 14:51:48] INFO root fetch - processPackages [yugal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yugal-8.0.0.tar.gz tmp/yugal-8.0.1.tar.gz --markdown 20230530/y/yugal/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-05-30 14:51:48] INFO root fetch - processPackages [tuxbake]: executing diffoscope
+[2023-05-30 14:51:48] INFO root fetch - processPackages [tuxbake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxbake-0.3.1.tar.gz tmp/tuxbake-0.4.0.tar.gz --markdown 20230530/t/tuxbake/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-30 14:51:48] INFO root fetch - main [MainThread]: End processing [indykite-sdk-python]: success
+[2023-05-30 14:51:49] INFO root fetch - processPackages [kodexa]: New version: [6.2.25121670917] Old Version: [6.2.25104807008]
+[2023-05-30 14:51:49] INFO root fetch - main [MainThread]: End processing [dfcon]: success
+[2023-05-30 14:51:49] INFO root fetch - main [MainThread]: End processing [pyopal]: success
+[2023-05-30 14:51:49] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/42/d3/7c6d0340fc26b51d5f0ebff59736c5d39179d5921eee6812abd10333ed0e/kodexa-6.2.25121670917.tar.gz
+[2023-05-30 14:51:49] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-05-30 14:51:49] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.25104807008.tar.gz tmp/kodexa-6.2.25121670917.tar.gz --markdown 20230530/k/kodexa/6.2.25104807008-6.2.25121670917/diff.md --exclude *.pyd
+[2023-05-30 14:51:50] INFO root fetch - main [MainThread]: End processing [tuxbake]: success
+[2023-05-30 14:51:50] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
+[2023-05-30 14:51:52] INFO root fetch - main [MainThread]: End processing [ruamel.yaml]: success
+[2023-05-30 14:51:52] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-05-30 14:52:39] INFO root fetch - main [MainThread]: End processing [yugal]: success
+[2023-05-30 14:52:39] INFO root fetch - main [MainThread]: Store serial: [18302388]
