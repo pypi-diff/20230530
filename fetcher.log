@@ -5219,3 +5219,63 @@
 [2023-05-30 06:22:21] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
 [2023-05-30 06:22:21] INFO root fetch - main [MainThread]: End processing [dLux]: success
 [2023-05-30 06:22:21] INFO root fetch - main [MainThread]: Store serial: [18297712]
+[2023-05-30 06:27:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297712]
+[2023-05-30 06:27:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 06:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2023-05-30 06:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neuromynerva
+[2023-05-30 06:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-tictoc-timer
+[2023-05-30 06:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mobio-dedupe-sdk-test
+[2023-05-30 06:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bomf
+[2023-05-30 06:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gitaudit
+[2023-05-30 06:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shared-atomic-enterprise
+[2023-05-30 06:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jammy
+[2023-05-30 06:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yt-dlp-for-python
+[2023-05-30 06:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cwsearch-utils
+[2023-05-30 06:27:30] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.882473764.dev10935] Old Version: [0.2.881150435.dev10886]
+[2023-05-30 06:27:30] INFO root fetch - processPackages [py-tictoc-timer]: New version: [2.1.1] Old Version: [1.5.2]
+[2023-05-30 06:27:30] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-05-30 06:27:30] INFO root fetch - processPackages [neuromynerva]: New version: [0.2.15] Old Version: [0.2.14]
+[2023-05-30 06:27:30] WARNING root fetch - processPackages [yt-dlp-for-python]: Skipping, unable to determine old version
+[2023-05-30 06:27:30] INFO root fetch - processPackages [jammy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-30 06:27:30] INFO root fetch - main [MainThread]: End processing [yt-dlp-for-python] error
+[2023-05-30 06:27:30] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 06:27:30] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 06:27:30] INFO root fetch - processPackages [bomf]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-30 06:27:30] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!2.3.5] Old Version: [5!2.3.4]
+[2023-05-30 06:27:30] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-05-30 06:27:30] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.8.tar.gz tmp/mobio-dedupe-sdk-test-1.0.9.tar.gz --markdown 20230530/m/mobio-dedupe-sdk-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 06:27:30] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-05-30 06:27:30] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230530/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 06:27:30] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-05-30 06:27:30] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!2.3.4-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!2.3.5-py39-none-win_amd64.whl.zip --markdown 20230530/s/shared-atomic-enterprise/5!2.3.4-5!2.3.5/diff.md --exclude *.pyd
+[2023-05-30 06:27:30] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/2e/de/ccad1c46ea2b724d28ebca40698caa3b0bd87d231ee80b3523e74abe127a/quickstart-vdk-0.2.881150435.dev10886.tar.gz
+[2023-05-30 06:27:30] INFO root fetch - processPackages [py-tictoc-timer]: Downloading https://files.pythonhosted.org/packages/54/ca/14e59fdcb9ab1ff5a4ecdbc3e61304b285293738d4f327d33c59f09e1a8d/py_tictoc_timer-1.5.2.tar.gz
+[2023-05-30 06:27:30] INFO root fetch - processPackages [neuromynerva]: Downloading https://files.pythonhosted.org/packages/b1/25/bd5f66914d0b2d3b790603ae14283af1d27e651b8fac0db973cf6ddca362/neuromynerva-0.2.14.tar.gz
+[2023-05-30 06:27:30] INFO root fetch - processPackages [jammy]: Downloading https://files.pythonhosted.org/packages/26/62/3decb8313c43aac0a4f77710873a23a1989d00e010bcf99e15eaf559fa4d/jammy-0.1.5.tar.gz
+[2023-05-30 06:27:30] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/6c/bc/730bc7cba8041145d832550fd923108e62fb5a1a7eed1c30c73628199764/bomf-0.4.3.tar.gz
+[2023-05-30 06:27:30] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-05-30 06:27:30] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230530/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 06:27:30] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/69/32/2bb4a3509e6b850e660ab44fe2bdd8172b483e0d7801c9c85389da7da269/quickstart-vdk-0.2.882473764.dev10935.tar.gz
+[2023-05-30 06:27:30] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-05-30 06:27:30] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.4.2.tar.gz tmp/bomf-0.4.3.tar.gz --markdown 20230530/b/bomf/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-30 06:27:30] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-05-30 06:27:30] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.881150435.dev10886.tar.gz tmp/quickstart-vdk-0.2.882473764.dev10935.tar.gz --markdown 20230530/q/quickstart-vdk/0.2.881150435.dev10886-0.2.882473764.dev10935/diff.md --exclude *.pyd
+[2023-05-30 06:27:31] INFO root fetch - processPackages [jammy]: Downloading https://files.pythonhosted.org/packages/d6/68/1cfe1c4aaf7d2999682cc2ccea2a0c9c68663c02576bed71e58a20578836/jammy-0.1.6.tar.gz
+[2023-05-30 06:27:31] INFO root fetch - processPackages [py-tictoc-timer]: Downloading https://files.pythonhosted.org/packages/43/33/940d56a35ee851d648ed8a1bfba4d31186804f85b140339e7c04fcb2d526/py_tictoc_timer-2.1.1.tar.gz
+[2023-05-30 06:27:31] INFO root fetch - processPackages [neuromynerva]: Downloading https://files.pythonhosted.org/packages/81/f9/4f37b82e796e155b40a624667eaa82c59a76c006d865dc86e9b213433cc9/neuromynerva-0.2.15.tar.gz
+[2023-05-30 06:27:31] INFO root fetch - processPackages [jammy]: executing diffoscope
+[2023-05-30 06:27:31] INFO root fetch - processPackages [jammy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jammy-0.1.5.tar.gz tmp/jammy-0.1.6.tar.gz --markdown 20230530/j/jammy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-30 06:27:31] INFO root fetch - processPackages [py-tictoc-timer]: executing diffoscope
+[2023-05-30 06:27:31] INFO root fetch - processPackages [py-tictoc-timer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_tictoc_timer-1.5.2.tar.gz tmp/py_tictoc_timer-2.1.1.tar.gz --markdown 20230530/p/py-tictoc-timer/1.5.2-2.1.1/diff.md --exclude *.pyd
+[2023-05-30 06:27:31] INFO root fetch - processPackages [neuromynerva]: executing diffoscope
+[2023-05-30 06:27:31] INFO root fetch - processPackages [neuromynerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuromynerva-0.2.14.tar.gz tmp/neuromynerva-0.2.15.tar.gz --markdown 20230530/n/neuromynerva/0.2.14-0.2.15/diff.md --exclude *.pyd
+[2023-05-30 06:27:31] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-05-30 06:27:32] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-05-30 06:27:32] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-05-30 06:27:32] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-05-30 06:27:32] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-05-30 06:27:32] INFO root fetch - main [MainThread]: End processing [py-tictoc-timer]: success
+[2023-05-30 06:27:33] INFO root fetch - main [MainThread]: End processing [jammy]: success
+[2023-05-30 06:27:42] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-05-30 06:27:54] INFO root fetch - main [MainThread]: End processing [neuromynerva]: success
+[2023-05-30 06:27:54] INFO root fetch - main [MainThread]: Store serial: [18297747]
