@@ -21713,3 +21713,69 @@ EOFError: EOF read where object expected
 [2023-05-30 23:02:45] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
 [2023-05-30 23:02:46] INFO root fetch - main [MainThread]: End processing [armonik]: success
 [2023-05-30 23:02:46] INFO root fetch - main [MainThread]: Store serial: [18307588]
+[2023-05-30 23:07:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18307588]
+[2023-05-30 23:07:56] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 23:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: irisml-tasks-training
+[2023-05-30 23:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: radicl
+[2023-05-30 23:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miniscutil
+[2023-05-30 23:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-daf-butler
+[2023-05-30 23:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Shchirov-serializer
+[2023-05-30 23:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blitzgsea
+[2023-05-30 23:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: devapps
+[2023-05-30 23:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybrook
+[2023-05-30 23:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modelfree-protein15n
+[2023-05-30 23:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skysurvey
+[2023-05-30 23:07:57] INFO root fetch - processPackages [miniscutil]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-05-30 23:07:57] INFO root fetch - processPackages [radicl]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-05-30 23:07:57] INFO root fetch - processPackages [blitzgsea]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-30 23:07:57] INFO root fetch - processPackages [Shchirov-serializer]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-30 23:07:57] INFO root fetch - processPackages [irisml-tasks-training]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 23:07:57] INFO root fetch - processPackages [lsst-daf-butler]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-30 23:07:57] INFO root fetch - processPackages [pybrook]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-30 23:07:57] INFO root fetch - processPackages [devapps]: New version: [2023.5.30] Old Version: [2023.5.15]
+[2023-05-30 23:07:57] INFO root fetch - processPackages [skysurvey]: New version: [0.4.2] Old Version: [0.3.9]
+[2023-05-30 23:07:57] INFO root fetch - processPackages [modelfree-protein15n]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-30 23:07:57] INFO root fetch - processPackages [radicl]: Downloading https://files.pythonhosted.org/packages/0a/8f/3e15eac743119cef70f34acdae4012c67010fb8baaa6e6983e3b8f2520b4/radicl-0.7.2.tar.gz
+[2023-05-30 23:07:57] INFO root fetch - processPackages [Shchirov-serializer]: Downloading https://files.pythonhosted.org/packages/74/d1/648278a60912aa08d07778ac61d52ce277eb1f9817506fb51fab7bcac99a/Shchirov_serializer-1.1.3.tar.gz
+[2023-05-30 23:07:57] INFO root fetch - processPackages [devapps]: Downloading https://files.pythonhosted.org/packages/83/0d/2a722aa621bfb64ccbfd0b4d90c36fc6f74a15db7721d8388a95b97c45d4/devapps-2023.5.15.tar.gz
+[2023-05-30 23:07:57] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/c3/35/e65eb3d22baf64b818aa11ff9e93f04efbbe726a339e0f148585d5ff9072/miniscutil-0.2.2.tar.gz
+[2023-05-30 23:07:57] INFO root fetch - processPackages [blitzgsea]: Downloading https://files.pythonhosted.org/packages/da/80/da6b018382865d7d8c082e096b490d0893c33cb8abbcd638fd88965e51ca/blitzgsea-1.3.8.tar.gz
+[2023-05-30 23:07:57] INFO root fetch - processPackages [pybrook]: Downloading https://files.pythonhosted.org/packages/63/6c/145bfc82022ce5abffbd11e95c2e9aee6dc9062856ead6d092262ad98ee9/pybrook-0.1.5.tar.gz
+[2023-05-30 23:07:57] INFO root fetch - processPackages [skysurvey]: Downloading https://files.pythonhosted.org/packages/90/09/c7f402e311079c00de64632716d15ee899e64401eb44b25714c0b374ed33/skysurvey-0.3.9.tar.gz
+[2023-05-30 23:07:57] INFO root fetch - processPackages [Shchirov-serializer]: executing diffoscope
+[2023-05-30 23:07:57] INFO root fetch - processPackages [Shchirov-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shchirov_serializer-1.1.2.tar.gz tmp/Shchirov_serializer-1.1.3.tar.gz --markdown 20230530/S/Shchirov-serializer/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-30 23:07:57] INFO root fetch - processPackages [modelfree-protein15n]: Downloading https://files.pythonhosted.org/packages/27/81/3243bc0ca4ad16c36076918f4b34d0a94120f2df10642ae606b9ccac47e9/modelfree-protein15n-0.0.6.tar.gz
+[2023-05-30 23:07:57] INFO root fetch - processPackages [miniscutil]: executing diffoscope
+[2023-05-30 23:07:57] INFO root fetch - processPackages [miniscutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscutil-0.2.0.tar.gz tmp/miniscutil-0.2.2.tar.gz --markdown 20230530/m/miniscutil/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-30 23:07:57] INFO root fetch - processPackages [irisml-tasks-training]: executing diffoscope
+[2023-05-30 23:07:57] INFO root fetch - processPackages [irisml-tasks-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-training-0.0.8.tar.gz tmp/irisml-tasks-training-0.0.9.tar.gz --markdown 20230530/i/irisml-tasks-training/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 23:07:57] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2023-05-30 23:07:57] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.0.0a20230400.tar.gz tmp/lsst-daf-butler-26.0.0a20230500.tar.gz --markdown 20230530/l/lsst-daf-butler/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-30 23:07:57] INFO root fetch - processPackages [devapps]: Downloading https://files.pythonhosted.org/packages/bd/fa/ab492a4ac5f3cd7d965ba4fc28bad97f39a8ed09c67a0323913642f33717/devapps-2023.5.30.tar.gz
+[2023-05-30 23:07:57] INFO root fetch - processPackages [pybrook]: Downloading https://files.pythonhosted.org/packages/37/44/3325cb2c8472f2a2782e644de284efd22a1664dc92d2d111bff9bb01bdd8/pybrook-0.1.6.tar.gz
+[2023-05-30 23:07:57] INFO root fetch - processPackages [modelfree-protein15n]: executing diffoscope
+[2023-05-30 23:07:57] INFO root fetch - processPackages [modelfree-protein15n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelfree-protein15n-0.0.5.tar.gz tmp/modelfree-protein15n-0.0.6.tar.gz --markdown 20230530/m/modelfree-protein15n/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-30 23:07:57] INFO root fetch - processPackages [blitzgsea]: Downloading https://files.pythonhosted.org/packages/bc/a4/e429f1564bfe1ffd075a3657e95c4b89b5ce46d8f2fc46b7655abd3b15bf/blitzgsea-1.3.9.tar.gz
+[2023-05-30 23:07:57] INFO root fetch - processPackages [skysurvey]: Downloading https://files.pythonhosted.org/packages/17/fc/268e01461e81e2a2413f97226721e5407d18f31feea294f8158d47d1b0c5/skysurvey-0.4.2.tar.gz
+[2023-05-30 23:07:57] INFO root fetch - processPackages [devapps]: executing diffoscope
+[2023-05-30 23:07:57] INFO root fetch - processPackages [devapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devapps-2023.5.15.tar.gz tmp/devapps-2023.5.30.tar.gz --markdown 20230530/d/devapps/2023.5.15-2023.5.30/diff.md --exclude *.pyd
+[2023-05-30 23:07:57] INFO root fetch - processPackages [pybrook]: executing diffoscope
+[2023-05-30 23:07:57] INFO root fetch - processPackages [pybrook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybrook-0.1.5.tar.gz tmp/pybrook-0.1.6.tar.gz --markdown 20230530/p/pybrook/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-30 23:07:57] INFO root fetch - processPackages [blitzgsea]: executing diffoscope
+[2023-05-30 23:07:57] INFO root fetch - processPackages [blitzgsea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blitzgsea-1.3.8.tar.gz tmp/blitzgsea-1.3.9.tar.gz --markdown 20230530/b/blitzgsea/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-30 23:07:57] INFO root fetch - processPackages [skysurvey]: executing diffoscope
+[2023-05-30 23:07:57] INFO root fetch - processPackages [skysurvey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skysurvey-0.3.9.tar.gz tmp/skysurvey-0.4.2.tar.gz --markdown 20230530/s/skysurvey/0.3.9-0.4.2/diff.md --exclude *.pyd
+[2023-05-30 23:07:58] INFO root fetch - processPackages [radicl]: Downloading https://files.pythonhosted.org/packages/2e/7d/1b751266dbaf55880d6889b6b4ce3b6f87b4e9f5d2813d43f79a02a80ca4/radicl-0.8.0.tar.gz
+[2023-05-30 23:07:58] INFO root fetch - processPackages [radicl]: executing diffoscope
+[2023-05-30 23:07:58] INFO root fetch - processPackages [radicl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radicl-0.7.2.tar.gz tmp/radicl-0.8.0.tar.gz --markdown 20230530/r/radicl/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-05-30 23:07:58] INFO root fetch - main [MainThread]: End processing [Shchirov-serializer]: success
+[2023-05-30 23:07:59] INFO root fetch - main [MainThread]: End processing [irisml-tasks-training]: success
+[2023-05-30 23:07:59] INFO root fetch - main [MainThread]: End processing [modelfree-protein15n]: success
+[2023-05-30 23:07:59] INFO root fetch - main [MainThread]: End processing [miniscutil]: success
+[2023-05-30 23:08:00] INFO root fetch - main [MainThread]: End processing [blitzgsea]: success
+[2023-05-30 23:08:00] INFO root fetch - main [MainThread]: End processing [pybrook]: success
+[2023-05-30 23:08:00] INFO root fetch - main [MainThread]: End processing [skysurvey]: success
+[2023-05-30 23:08:00] INFO root fetch - main [MainThread]: End processing [radicl]: success
+[2023-05-30 23:08:00] INFO root fetch - main [MainThread]: End processing [devapps]: success
+[2023-05-30 23:08:02] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2023-05-30 23:08:02] INFO root fetch - main [MainThread]: Store serial: [18307615]
