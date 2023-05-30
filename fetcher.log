@@ -18330,3 +18330,158 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 19:10:29] INFO root fetch - main [MainThread]: End processing [romanisim]: success
 [2023-05-30 19:10:31] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-30 19:10:31] INFO root fetch - main [MainThread]: Store serial: [18305536]
+[2023-05-30 19:15:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18305536]
+[2023-05-30 19:15:40] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-30 19:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: craft-archives
+[2023-05-30 19:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: allenact
+[2023-05-30 19:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: allenact-plugins
+[2023-05-30 19:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-vpc
+[2023-05-30 19:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeybee-radiance-postprocess
+[2023-05-30 19:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poe-api
+[2023-05-30 19:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CoLT5-attention
+[2023-05-30 19:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mb-cli
+[2023-05-30 19:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sats-receiver
+[2023-05-30 19:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pythainlp
+[2023-05-30 19:15:40] INFO root fetch - processPackages [allenact-plugins]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-30 19:15:40] INFO root fetch - processPackages [allenact]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-30 19:15:40] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-30 19:15:40] INFO root fetch - processPackages [mb-cli]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-30 19:15:40] INFO root fetch - processPackages [poe-api]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-30 19:15:40] INFO root fetch - processPackages [sats-receiver]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-30 19:15:40] INFO root fetch - processPackages [craft-archives]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-30 19:15:40] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 19:15:40] INFO root fetch - processPackages [pythainlp]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-30 19:15:40] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-30 19:15:40] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-05-30 19:15:40] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 19:15:40] INFO root fetch - processPackages [sats-receiver]: Downloading https://files.pythonhosted.org/packages/5e/66/1624e731dc7ee2eb1268f4ead2644410c3f0e98496eb0f54d0db4e2c876c/sats_receiver-0.0.1.tar.gz
+[2023-05-30 19:15:40] INFO root fetch - processPackages [allenact-plugins]: Downloading https://files.pythonhosted.org/packages/dd/3a/eea38fad92695cb16a3b178946929268313dc54f3e8cefb8e536ff3208b2/allenact_plugins-0.5.2.tar.gz
+[2023-05-30 19:15:40] INFO root fetch - processPackages [allenact]: Downloading https://files.pythonhosted.org/packages/57/8b/93d86339d132abb84cb4ce7b6555f43792c940efaed3c5fe35895f16553e/allenact-0.5.2.tar.gz
+[2023-05-30 19:15:40] INFO root fetch - processPackages [mb-cli]: Downloading https://files.pythonhosted.org/packages/cb/b2/d38a2c2f0438dfb7d71a2372e7997e2b0ea9f7bbfe453aa62b46a9a58d2c/mb_cli-1.0.1.tar.gz
+[2023-05-30 19:15:40] INFO root fetch - processPackages [pythainlp]: Downloading https://files.pythonhosted.org/packages/51/3e/dc64b36a76aff06853352f77001d742aaad58c255fdd7cb0baef773dffad/pythainlp-4.0.1.tar.gz
+[2023-05-30 19:15:40] INFO root fetch - processPackages [craft-archives]: Downloading https://files.pythonhosted.org/packages/fd/d5/d62c0211d992d9adce91955ca749bbc71d4b33ecda0d486e33c912385937/craft-archives-1.1.0.tar.gz
+[2023-05-30 19:15:40] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/30/88/87fb3cf37c92ec60f5b477b56c8638efe534faa4900e1119f1588ff71b60/poe_api-0.4.1-py3-none-any.whl
+[2023-05-30 19:15:40] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-30 19:15:40] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.8.1.tar.gz tmp/CoLT5-attention-0.9.0.tar.gz --markdown 20230530/C/CoLT5-attention/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 19:15:40] INFO root fetch - processPackages [mb-cli]: Downloading https://files.pythonhosted.org/packages/03/80/816b1ae1a1b16009281658f2df98069650428a243f667dadbb0c9f087e03/mb_cli-1.0.2-py3-none-any.whl
+[2023-05-30 19:15:41] INFO root fetch - processPackages [allenact-plugins]: Downloading https://files.pythonhosted.org/packages/9d/63/b613baae8c7f4691460d77af75f215b40045b0c5c685aacb83e5e73be4dd/allenact_plugins-0.5.3.tar.gz
+[2023-05-30 19:15:41] INFO root fetch - processPackages [craft-archives]: executing diffoscope
+[2023-05-30 19:15:41] INFO root fetch - processPackages [craft-archives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft-archives-1.0.0.tar.gz tmp/craft-archives-1.1.0.tar.gz --markdown 20230530/c/craft-archives/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 19:15:41] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-05-30 19:15:41] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230530/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-30 19:15:41] INFO root fetch - processPackages [poe-api]: executing diffoscope
+[2023-05-30 19:15:41] INFO root fetch - processPackages [poe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_api-0.4.0-py3-none-any.whl.zip tmp/poe_api-0.4.1-py3-none-any.whl.zip --markdown 20230530/p/poe-api/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-30 19:15:41] INFO root fetch - processPackages [allenact]: Downloading https://files.pythonhosted.org/packages/1d/e1/59d6dbad6f9fcb7f2f88ff9ffb05c761ecbc0ee3d2db53481725b596f83f/allenact-0.5.3.tar.gz
+[2023-05-30 19:15:41] INFO root fetch - processPackages [sats-receiver]: Downloading https://files.pythonhosted.org/packages/e1/80/5ca9d166a5794ea4110dad7276e6992484112804493947e3f8983cf62d7f/sats_receiver-0.1.0.tar.gz
+[2023-05-30 19:15:41] INFO root fetch - processPackages [mb-cli]: executing diffoscope
+[2023-05-30 19:15:41] INFO root fetch - processPackages [mb-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_cli-1.0.1.tar.gz tmp/mb_cli-1.0.2-py3-none-any.whl.zip --markdown 20230530/m/mb-cli/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-30 19:15:41] INFO root fetch - processPackages [pythainlp]: Downloading https://files.pythonhosted.org/packages/3e/f7/be90fb75c6a443c56dd15eb3d61d7a6f3f963667d6ecbc97730b4c64be35/pythainlp-4.0.2.tar.gz
+[2023-05-30 19:15:41] INFO root fetch - processPackages [allenact-plugins]: executing diffoscope
+[2023-05-30 19:15:41] INFO root fetch - processPackages [allenact-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allenact_plugins-0.5.2.tar.gz tmp/allenact_plugins-0.5.3.tar.gz --markdown 20230530/a/allenact-plugins/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-30 19:15:41] INFO root fetch - processPackages [allenact]: executing diffoscope
+[2023-05-30 19:15:41] INFO root fetch - processPackages [allenact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allenact-0.5.2.tar.gz tmp/allenact-0.5.3.tar.gz --markdown 20230530/a/allenact/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-30 19:15:41] INFO root fetch - processPackages [sats-receiver]: executing diffoscope
+[2023-05-30 19:15:41] INFO root fetch - processPackages [sats-receiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sats_receiver-0.0.1.tar.gz tmp/sats_receiver-0.1.0.tar.gz --markdown 20230530/s/sats-receiver/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-30 19:15:41] INFO root fetch - processPackages [pythainlp]: executing diffoscope
+[2023-05-30 19:15:41] INFO root fetch - processPackages [pythainlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythainlp-4.0.1.tar.gz tmp/pythainlp-4.0.2.tar.gz --markdown 20230530/p/pythainlp/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-05-30 19:15:42] INFO root fetch - processPackages [pepperize.cdk-vpc]: Start processing: navconfig
+[2023-05-30 19:15:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-05-30 19:15:42] INFO root fetch - processPackages [navconfig]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-30 19:15:42] INFO root fetch - processPackages [navconfig]: Downloading https://files.pythonhosted.org/packages/11/f0/2540463bcd9b7272869872a8fc7ae39824c0c7bb5fe3322487af9f77f635/navconfig-1.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-30 19:15:42] INFO root fetch - processPackages [CoLT5-attention]: Start processing: ailment
+[2023-05-30 19:15:42] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-30 19:15:42] INFO root fetch - processPackages [ailment]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-30 19:15:42] INFO root fetch - processPackages [navconfig]: Downloading https://files.pythonhosted.org/packages/ff/32/205007acfd8c880173dcb27c546afbc5413ca99a1167e9035a48773c3f59/navconfig-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-30 19:15:42] INFO root fetch - processPackages [mb-cli]: Start processing: angr
+[2023-05-30 19:15:42] INFO root fetch - main [MainThread]: End processing [mb-cli]: success
+[2023-05-30 19:15:42] INFO root fetch - processPackages [angr]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-30 19:15:43] INFO root fetch - processPackages [navconfig]: executing diffoscope
+[2023-05-30 19:15:43] INFO root fetch - processPackages [navconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navconfig-1.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navconfig-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230530/n/navconfig/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-30 19:15:43] INFO root fetch - processPackages [ailment]: executing diffoscope
+[2023-05-30 19:15:43] INFO root fetch - processPackages [ailment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailment-9.2.8.tar.gz tmp/ailment-9.2.9.tar.gz --markdown 20230530/a/ailment/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-30 19:15:43] INFO root fetch - processPackages [craft-archives]: Start processing: odoo14-addon-account-cutoff-accrual-picking
+[2023-05-30 19:15:43] INFO root fetch - main [MainThread]: End processing [craft-archives]: success
+[2023-05-30 19:15:43] INFO root fetch - processPackages [odoo14-addon-account-cutoff-accrual-picking]: New version: [14.0.2.0.0] Old Version: [14.0.1.2.1.dev1]
+[2023-05-30 19:15:43] INFO root fetch - processPackages [poe-api]: Start processing: angr-management
+[2023-05-30 19:15:43] INFO root fetch - main [MainThread]: End processing [poe-api]: success
+[2023-05-30 19:15:43] INFO root fetch - processPackages [angr-management]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-30 19:15:43] INFO root fetch - processPackages [angr]: executing diffoscope
+[2023-05-30 19:15:43] INFO root fetch - processPackages [angr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angr-9.2.8.tar.gz tmp/angr-9.2.9.tar.gz --markdown 20230530/a/angr/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-30 19:15:43] INFO root fetch - processPackages [odoo14-addon-account-cutoff-accrual-picking]: Downloading https://files.pythonhosted.org/packages/ae/d4/a117530e662d116b210756097356ae336d180fd361d758b3844b29f100da/odoo14_addon_account_cutoff_accrual_picking-14.0.1.2.1.dev1-py3-none-any.whl
+[2023-05-30 19:15:43] INFO root fetch - processPackages [angr-management]: executing diffoscope
+[2023-05-30 19:15:43] INFO root fetch - processPackages [angr-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angr-management-9.2.8.tar.gz tmp/angr-management-9.2.9.tar.gz --markdown 20230530/a/angr-management/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-30 19:15:43] INFO root fetch - processPackages [odoo14-addon-account-cutoff-accrual-picking]: Downloading https://files.pythonhosted.org/packages/d5/80/f370c1b0e1c627d8d8eaa80f024d7c52f276f8dd16486e20c98e6aca611c/odoo14_addon_account_cutoff_accrual_picking-14.0.2.0.0-py3-none-any.whl
+[2023-05-30 19:15:43] INFO root fetch - processPackages [odoo14-addon-account-cutoff-accrual-picking]: executing diffoscope
+[2023-05-30 19:15:43] INFO root fetch - processPackages [odoo14-addon-account-cutoff-accrual-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_cutoff_accrual_picking-14.0.1.2.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_cutoff_accrual_picking-14.0.2.0.0-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-account-cutoff-accrual-picking/14.0.1.2.1.dev1-14.0.2.0.0/diff.md --exclude *.pyd
+[2023-05-30 19:15:44] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Start processing: archinfo
+[2023-05-30 19:15:44] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-05-30 19:15:44] INFO root fetch - processPackages [archinfo]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-30 19:15:44] INFO root fetch - processPackages [archinfo]: executing diffoscope
+[2023-05-30 19:15:44] INFO root fetch - processPackages [archinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archinfo-9.2.8.tar.gz tmp/archinfo-9.2.9.tar.gz --markdown 20230530/a/archinfo/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-30 19:15:44] INFO root fetch - processPackages [sats-receiver]: Start processing: odoo14-addon-account-cutoff-base
+[2023-05-30 19:15:44] INFO root fetch - main [MainThread]: End processing [sats-receiver]: success
+[2023-05-30 19:15:44] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: New version: [14.0.2.0.0] Old Version: [14.0.1.4.1.dev7]
+[2023-05-30 19:15:44] INFO root fetch - processPackages [ailment]: Start processing: archr
+[2023-05-30 19:15:44] INFO root fetch - main [MainThread]: End processing [ailment]: success
+[2023-05-30 19:15:44] INFO root fetch - processPackages [archr]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-30 19:15:44] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/c0/54/e8f7051527d30ffbd3ea83e52e40819289ca668f657f64bfb13b228b5ae6/odoo14_addon_account_cutoff_base-14.0.2.0.0-py3-none-any.whl
+[2023-05-30 19:15:44] INFO root fetch - processPackages [pythainlp]: Start processing: claripy
+[2023-05-30 19:15:44] INFO root fetch - main [MainThread]: End processing [pythainlp]: success
+[2023-05-30 19:15:45] INFO root fetch - processPackages [claripy]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-30 19:15:45] INFO root fetch - processPackages [navconfig]: Start processing: cle
+[2023-05-30 19:15:45] INFO root fetch - main [MainThread]: End processing [navconfig]: success
+[2023-05-30 19:15:45] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: executing diffoscope
+[2023-05-30 19:15:45] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_cutoff_base-14.0.1.4.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_account_cutoff_base-14.0.2.0.0-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-account-cutoff-base/14.0.1.4.1.dev7-14.0.2.0.0/diff.md --exclude *.pyd
+[2023-05-30 19:15:45] INFO root fetch - processPackages [cle]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-30 19:15:45] INFO root fetch - processPackages [archr]: executing diffoscope
+[2023-05-30 19:15:45] INFO root fetch - processPackages [archr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archr-9.2.8.tar.gz tmp/archr-9.2.9.tar.gz --markdown 20230530/a/archr/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-30 19:15:45] INFO root fetch - processPackages [allenact-plugins]: Start processing: pyvex
+[2023-05-30 19:15:45] INFO root fetch - main [MainThread]: End processing [allenact-plugins]: success
+[2023-05-30 19:15:45] INFO root fetch - processPackages [claripy]: executing diffoscope
+[2023-05-30 19:15:45] INFO root fetch - processPackages [claripy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claripy-9.2.8.tar.gz tmp/claripy-9.2.9.tar.gz --markdown 20230530/c/claripy/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-30 19:15:45] INFO root fetch - processPackages [pyvex]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-30 19:15:45] INFO root fetch - processPackages [cle]: executing diffoscope
+[2023-05-30 19:15:45] INFO root fetch - processPackages [cle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cle-9.2.8.tar.gz tmp/cle-9.2.9.tar.gz --markdown 20230530/c/cle/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-30 19:15:45] INFO root fetch - processPackages [pyvex]: executing diffoscope
+[2023-05-30 19:15:45] INFO root fetch - processPackages [pyvex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvex-9.2.8.tar.gz tmp/pyvex-9.2.9.tar.gz --markdown 20230530/p/pyvex/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-30 19:15:45] INFO root fetch - processPackages [allenact]: Start processing: llama-bsl
+[2023-05-30 19:15:45] INFO root fetch - main [MainThread]: End processing [allenact]: success
+[2023-05-30 19:15:45] INFO root fetch - processPackages [llama-bsl]: New version: [0.5] Old Version: [0.4]
+[2023-05-30 19:15:46] INFO root fetch - processPackages [llama-bsl]: Downloading https://files.pythonhosted.org/packages/10/62/0f0c58b0417ddff878bf30175bcdb48cb9ce2da53387a8ab8ecde388ce53/llama-bsl-0.4.tar.gz
+[2023-05-30 19:15:46] INFO root fetch - processPackages [odoo14-addon-account-cutoff-accrual-picking]: Start processing: typeql-grammar
+[2023-05-30 19:15:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-cutoff-accrual-picking]: success
+[2023-05-30 19:15:46] INFO root fetch - processPackages [typeql-grammar]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-30 19:15:46] INFO root fetch - processPackages [llama-bsl]: Downloading https://files.pythonhosted.org/packages/67/76/69c6e6124dd7c082f6fcf833779597a9390d201bb0855686a7daae8c6c42/llama-bsl-0.5.tar.gz
+[2023-05-30 19:15:46] INFO root fetch - processPackages [llama-bsl]: executing diffoscope
+[2023-05-30 19:15:46] INFO root fetch - processPackages [llama-bsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama-bsl-0.4.tar.gz tmp/llama-bsl-0.5.tar.gz --markdown 20230530/l/llama-bsl/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-30 19:15:46] INFO root fetch - processPackages [typeql-grammar]: Downloading https://files.pythonhosted.org/packages/2f/1b/a5bbd297c879c7362b892557b533662c4e16d4bff97d5fa426eae4efb785/typeql-grammar-2.8.0.tar.gz
+[2023-05-30 19:15:46] INFO root fetch - processPackages [archinfo]: Start processing: cwsearch-utils
+[2023-05-30 19:15:46] INFO root fetch - main [MainThread]: End processing [archinfo]: success
+[2023-05-30 19:15:46] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 19:15:46] INFO root fetch - processPackages [typeql-grammar]: Downloading https://files.pythonhosted.org/packages/01/1f/30c268096d93902f97fdec8b2e41482e2440be55177ebcc686598d94f6b7/typeql-grammar-2.9.0.tar.gz
+[2023-05-30 19:15:46] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-05-30 19:15:46] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230530/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 19:15:47] INFO root fetch - processPackages [typeql-grammar]: executing diffoscope
+[2023-05-30 19:15:47] INFO root fetch - processPackages [typeql-grammar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeql-grammar-2.8.0.tar.gz tmp/typeql-grammar-2.9.0.tar.gz --markdown 20230530/t/typeql-grammar/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-30 19:15:47] INFO root fetch - processPackages [angr-management]: Start processing: brainsurf
+[2023-05-30 19:15:47] INFO root fetch - main [MainThread]: End processing [angr-management]: success
+[2023-05-30 19:15:47] INFO root fetch - processPackages [brainsurf]: New version: [6.0] Old Version: [0.0.3]
+[2023-05-30 19:15:47] INFO root fetch - processPackages [brainsurf]: Downloading https://files.pythonhosted.org/packages/69/33/06e20bcc6b1db81ab8850e8561f736e5970019757b77c8ecee7182862017/brainsurf-6.0.tar.gz
+[2023-05-30 19:15:47] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: Start processing: pepperize.cdk-lambda-deno
+[2023-05-30 19:15:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-cutoff-base]: success
+[2023-05-30 19:15:47] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 19:15:47] INFO root fetch - processPackages [brainsurf]: executing diffoscope
+[2023-05-30 19:15:47] INFO root fetch - processPackages [brainsurf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainsurf-0.0.3.tar.gz tmp/brainsurf-6.0.tar.gz --markdown 20230530/b/brainsurf/0.0.3-6.0/diff.md --exclude *.pyd
+[2023-05-30 19:15:47] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: executing diffoscope
+[2023-05-30 19:15:47] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-lambda-deno-0.0.98.tar.gz tmp/pepperize.cdk-lambda-deno-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-lambda-deno/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 19:15:48] INFO root fetch - main [MainThread]: End processing [llama-bsl]: success
+[2023-05-30 19:15:48] INFO root fetch - main [MainThread]: End processing [archr]: success
+[2023-05-30 19:15:48] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-05-30 19:15:49] INFO root fetch - main [MainThread]: End processing [cle]: success
+[2023-05-30 19:15:49] INFO root fetch - main [MainThread]: End processing [claripy]: success
+[2023-05-30 19:15:49] INFO root fetch - main [MainThread]: End processing [typeql-grammar]: success
+[2023-05-30 19:15:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-lambda-deno]: success
+[2023-05-30 19:15:50] INFO root fetch - main [MainThread]: End processing [pyvex]: success
+[2023-05-30 19:15:50] INFO root fetch - main [MainThread]: End processing [brainsurf]: success
+[2023-05-30 19:16:00] INFO root fetch - main [MainThread]: End processing [angr]: success
+[2023-05-30 19:16:00] INFO root fetch - main [MainThread]: Store serial: [18305616]
