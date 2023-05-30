@@ -20686,3 +20686,82 @@ EOFError: EOF read where object expected
 [2023-05-30 21:49:08] INFO root fetch - main [MainThread]: End processing [jet-bridge-base]: success
 [2023-05-30 21:49:10] INFO root fetch - main [MainThread]: End processing [jsonschema]: success
 [2023-05-30 21:49:10] INFO root fetch - main [MainThread]: Store serial: [18306987]
+[2023-05-30 21:54:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18306987]
+[2023-05-30 21:54:20] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-30 21:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulpcore
+[2023-05-30 21:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulpcore-client
+[2023-05-30 21:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: firebirdsql-run
+[2023-05-30 21:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edk2-pytool-library
+[2023-05-30 21:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gidgethub
+[2023-05-30 21:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cgbind
+[2023-05-30 21:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onecode
+[2023-05-30 21:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shelxfile
+[2023-05-30 21:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proton-db
+[2023-05-30 21:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aioesphomeapi
+[2023-05-30 21:54:20] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-30 21:54:20] INFO root fetch - processPackages [cgbind]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-30 21:54:20] WARNING root fetch - processPackages [proton-db]: Skipping, unable to determine old version
+[2023-05-30 21:54:20] INFO root fetch - processPackages [proton-db]: Start processing: etl-toolkit
+[2023-05-30 21:54:20] INFO root fetch - processPackages [onecode]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-30 21:54:20] INFO root fetch - main [MainThread]: End processing [proton-db] error
+[2023-05-30 21:54:20] INFO root fetch - processPackages [edk2-pytool-library]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-30 21:54:20] INFO root fetch - processPackages [shelxfile]: New version: [9] Old Version: [8]
+[2023-05-30 21:54:20] INFO root fetch - processPackages [firebirdsql-run]: New version: [1.0.4] Old Version: [1.0.3a1]
+[2023-05-30 21:54:20] INFO root fetch - processPackages [aioesphomeapi]: New version: [9.1.5] Old Version: [9.1.4]
+[2023-05-30 21:54:20] INFO root fetch - processPackages [gidgethub]: New version: [5.3.0] Old Version: [5.2.1]
+[2023-05-30 21:54:20] WARNING root fetch - processPackages [etl-toolkit]: Skipping, unable to determine old version
+[2023-05-30 21:54:20] INFO root fetch - processPackages [etl-toolkit]: Start processing: lnschema_bionty
+[2023-05-30 21:54:20] INFO root fetch - main [MainThread]: End processing [etl-toolkit] error
+[2023-05-30 21:54:20] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-05-30 21:54:20] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-30 21:54:20] INFO root fetch - processPackages [aioesphomeapi]: executing diffoscope
+[2023-05-30 21:54:20] INFO root fetch - processPackages [aioesphomeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioesphomeapi-9.1.4.tar.gz tmp/aioesphomeapi-9.1.5.tar.gz --markdown 20230530/a/aioesphomeapi/9.1.4-9.1.5/diff.md --exclude *.pyd
+[2023-05-30 21:54:20] INFO root fetch - processPackages [cgbind]: Downloading https://files.pythonhosted.org/packages/36/34/761697b09b8579c66153c3d19c936467be8bfe788b48f93d2270de60d2dd/cgbind-1.0.3.tar.gz
+[2023-05-30 21:54:20] INFO root fetch - processPackages [gidgethub]: Downloading https://files.pythonhosted.org/packages/52/d8/ea95e8843488154d099b1c3ae0d532b7576ac38f70037591eb579a906a75/gidgethub-5.2.1.tar.gz
+[2023-05-30 21:54:20] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-05-30 21:54:20] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230530/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 21:54:20] INFO root fetch - processPackages [onecode]: Downloading https://files.pythonhosted.org/packages/9d/8c/8af801b8161c799a47c94668e0ead3b1f06f84898c322b2c8bd12b8c004c/onecode-0.1.0-py3-none-any.whl
+[2023-05-30 21:54:20] INFO root fetch - processPackages [shelxfile]: Downloading https://files.pythonhosted.org/packages/3d/d2/c43140a5deb0ce10c9cb116249454aff1ef6b247557484181234622a42bc/shelxfile-8.tar.gz
+[2023-05-30 21:54:20] INFO root fetch - processPackages [edk2-pytool-library]: executing diffoscope
+[2023-05-30 21:54:20] INFO root fetch - processPackages [edk2-pytool-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edk2-pytool-library-0.9.1.tar.gz tmp/edk2-pytool-library-0.9.2.tar.gz --markdown 20230530/e/edk2-pytool-library/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-30 21:54:20] INFO root fetch - processPackages [firebirdsql-run]: Downloading https://files.pythonhosted.org/packages/12/62/de16ed7df2ae9d29d14461f7ccb3b851ad8adfc080a1fcca7b496340f8fb/firebirdsql_run-1.0.4.tar.gz
+[2023-05-30 21:54:20] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-05-30 21:54:20] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230530/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-30 21:54:21] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-05-30 21:54:21] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230530/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-05-30 21:54:21] INFO root fetch - processPackages [gidgethub]: Downloading https://files.pythonhosted.org/packages/58/6d/c3c7f2b3d2a8249913f214b254d547db2b026ff4c7d38cebd7d88940725c/gidgethub-5.3.0.tar.gz
+[2023-05-30 21:54:21] INFO root fetch - processPackages [cgbind]: Downloading https://files.pythonhosted.org/packages/4c/8a/7bd6b61c2fb1dc401e19899fa2686f90b2dfa471229235cd49cbff7d5072/cgbind-1.0.4.tar.gz
+[2023-05-30 21:54:21] INFO root fetch - processPackages [firebirdsql-run]: executing diffoscope
+[2023-05-30 21:54:21] INFO root fetch - processPackages [firebirdsql-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firebirdsql_run-1.0.3a1.tar.gz tmp/firebirdsql_run-1.0.4.tar.gz --markdown 20230530/f/firebirdsql-run/1.0.3a1-1.0.4/diff.md --exclude *.pyd
+[2023-05-30 21:54:21] INFO root fetch - processPackages [onecode]: Downloading https://files.pythonhosted.org/packages/40/1b/5a0eba3a331c90d5b3a5a9c33932a793d49a3f97d8a472853f2f1fbcd3a5/onecode-0.2.0-py3-none-any.whl
+[2023-05-30 21:54:21] INFO root fetch - processPackages [gidgethub]: executing diffoscope
+[2023-05-30 21:54:21] INFO root fetch - processPackages [gidgethub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gidgethub-5.2.1.tar.gz tmp/gidgethub-5.3.0.tar.gz --markdown 20230530/g/gidgethub/5.2.1-5.3.0/diff.md --exclude *.pyd
+[2023-05-30 21:54:21] INFO root fetch - processPackages [onecode]: executing diffoscope
+[2023-05-30 21:54:21] INFO root fetch - processPackages [onecode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onecode-0.1.0-py3-none-any.whl.zip tmp/onecode-0.2.0-py3-none-any.whl.zip --markdown 20230530/o/onecode/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 21:54:21] INFO root fetch - processPackages [cgbind]: executing diffoscope
+[2023-05-30 21:54:21] INFO root fetch - processPackages [cgbind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgbind-1.0.3.tar.gz tmp/cgbind-1.0.4.tar.gz --markdown 20230530/c/cgbind/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-30 21:54:21] INFO root fetch - processPackages [shelxfile]: Downloading https://files.pythonhosted.org/packages/86/14/a6fa935fdff30b3b6e435a827bf3bff3bd7d56cc6f396be51842668b79fe/shelxfile-9.tar.gz
+[2023-05-30 21:54:21] INFO root fetch - processPackages [shelxfile]: executing diffoscope
+[2023-05-30 21:54:21] INFO root fetch - processPackages [shelxfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shelxfile-8.tar.gz tmp/shelxfile-9.tar.gz --markdown 20230530/s/shelxfile/8-9/diff.md --exclude *.pyd
+[2023-05-30 21:54:22] INFO root fetch - processPackages [aioesphomeapi]: Start processing: quantconnect-stubs
+[2023-05-30 21:54:22] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
+[2023-05-30 21:54:22] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-30 21:54:22] INFO root fetch - processPackages [lnschema_bionty]: Start processing: vector-quantize-pytorch
+[2023-05-30 21:54:22] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-05-30 21:54:22] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-30 21:54:22] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230530/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-30 21:54:23] INFO root fetch - processPackages [vector-quantize-pytorch]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-05-30 21:54:23] INFO root fetch - main [MainThread]: End processing [firebirdsql-run]: success
+[2023-05-30 21:54:23] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/f9/64/771c9abd337a81ba6dfe0e6a0132b5a43e24b2640538385a01dc17b972f5/vector_quantize_pytorch-1.6.7.tar.gz
+[2023-05-30 21:54:23] INFO root fetch - main [MainThread]: End processing [onecode]: success
+[2023-05-30 21:54:23] INFO root fetch - processPackages [vector-quantize-pytorch]: executing diffoscope
+[2023-05-30 21:54:23] INFO root fetch - processPackages [vector-quantize-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_quantize_pytorch-1.6.6.tar.gz tmp/vector_quantize_pytorch-1.6.7.tar.gz --markdown 20230530/v/vector-quantize-pytorch/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-05-30 21:54:23] INFO root fetch - main [MainThread]: End processing [edk2-pytool-library]: success
+[2023-05-30 21:54:24] INFO root fetch - main [MainThread]: End processing [shelxfile]: success
+[2023-05-30 21:54:24] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-05-30 21:54:25] INFO root fetch - main [MainThread]: End processing [cgbind]: success
+[2023-05-30 21:54:25] INFO root fetch - main [MainThread]: End processing [vector-quantize-pytorch]: success
+[2023-05-30 21:54:25] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-05-30 21:54:27] INFO root fetch - main [MainThread]: End processing [gidgethub]: success
+[2023-05-30 21:54:27] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-30 21:54:27] INFO root fetch - main [MainThread]: Store serial: [18307038]
