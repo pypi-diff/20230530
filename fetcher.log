@@ -14697,3 +14697,113 @@
 [2023-05-30 16:13:10] INFO root fetch - main [MainThread]: End processing [cflib]: success
 [2023-05-30 16:13:12] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-05-30 16:13:12] INFO root fetch - main [MainThread]: Store serial: [18303400]
+[2023-05-30 16:18:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18303400]
+[2023-05-30 16:18:21] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-30 16:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cflib
+[2023-05-30 16:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reactord
+[2023-05-30 16:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tableautransformer
+[2023-05-30 16:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sarus
+[2023-05-30 16:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto
+[2023-05-30 16:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wipac-rest-tools
+[2023-05-30 16:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wipac-file-catalog
+[2023-05-30 16:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bofh
+[2023-05-30 16:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: queryish
+[2023-05-30 16:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: icpp-free
+[2023-05-30 16:18:21] INFO root fetch - processPackages [cflib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 16:18:21] INFO root fetch - processPackages [reactord]: New version: [0.0.1b1] Old Version: [0.0.1a2]
+[2023-05-30 16:18:21] INFO root fetch - processPackages [sarus]: New version: [0.6.7rc0] Old Version: [0.6.6]
+[2023-05-30 16:18:21] INFO root fetch - processPackages [tableautransformer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-30 16:18:21] WARNING root fetch - processPackages [queryish]: Skipping, unable to determine old version
+[2023-05-30 16:18:21] INFO root fetch - processPackages [queryish]: Start processing: rgfrosh
+[2023-05-30 16:18:21] INFO root fetch - main [MainThread]: End processing [queryish] error
+[2023-05-30 16:18:21] INFO root fetch - processPackages [icpp-free]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-30 16:18:21] INFO root fetch - processPackages [wipac-rest-tools]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-30 16:18:21] INFO root fetch - processPackages [bofh]: New version: [0.9.8] Old Version: [0.9.5]
+[2023-05-30 16:18:21] INFO root fetch - processPackages [wipac-file-catalog]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-05-30 16:18:21] INFO root fetch - processPackages [rgfrosh]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-30 16:18:21] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-30 16:18:21] INFO root fetch - processPackages [cflib]: executing diffoscope
+[2023-05-30 16:18:21] INFO root fetch - processPackages [cflib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cflib-0.1.8.tar.gz tmp/cflib-0.1.9.tar.gz --markdown 20230530/c/cflib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 16:18:21] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-30 16:18:21] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230530/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-30 16:18:21] INFO root fetch - processPackages [reactord]: Downloading https://files.pythonhosted.org/packages/3c/b9/84343396b9d83788dd182d90100d6cdd156ba94572a7d85d75b4091cf885/reactord-0.0.1a2.tar.gz
+[2023-05-30 16:18:21] INFO root fetch - processPackages [tableautransformer]: Downloading https://files.pythonhosted.org/packages/54/8a/bf56408427a944a4af118393ed670509c4f1abb1ae7a2c572e65e50b9863/tableautransformer-1.0.1.tar.gz
+[2023-05-30 16:18:21] INFO root fetch - processPackages [wipac-file-catalog]: Downloading https://files.pythonhosted.org/packages/be/83/30de55e7f23d965536086ee18eedacfac617c73e6b72be3c93eeb08357b2/wipac-file-catalog-1.9.7.tar.gz
+[2023-05-30 16:18:22] INFO root fetch - processPackages [rgfrosh]: Downloading https://files.pythonhosted.org/packages/e7/ef/0347510310a458a30f1493b745eca6244bcd02637cf6ee1332c22f0fb725/rgfrosh-0.2.0.tar.gz
+[2023-05-30 16:18:22] INFO root fetch - processPackages [bofh]: Downloading https://files.pythonhosted.org/packages/91/f0/ed918df6b140cd203da2371ffc5a08cd097e5b71ac62c5b1affe26d3b690/bofh-0.9.5.tar.gz
+[2023-05-30 16:18:22] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/99/32/a6f45c6ebb618cc0340b3bb6ee463b33cc4bced0e02065896f7f73d7b03c/sarus-0.6.7rc0.tar.gz
+[2023-05-30 16:18:22] INFO root fetch - processPackages [icpp-free]: Downloading https://files.pythonhosted.org/packages/b0/91/300d29de25eece38b0fe3effa9cbd8502b85e66c985e4b60dcd50f4d10d8/icpp_free-2.4.0-py3-none-any.whl
+[2023-05-30 16:18:22] INFO root fetch - processPackages [wipac-rest-tools]: executing diffoscope
+[2023-05-30 16:18:22] INFO root fetch - processPackages [wipac-rest-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipac-rest-tools-1.4.8.tar.gz tmp/wipac-rest-tools-1.4.9.tar.gz --markdown 20230530/w/wipac-rest-tools/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-30 16:18:22] INFO root fetch - processPackages [tableautransformer]: Downloading https://files.pythonhosted.org/packages/bf/8b/f113e67692d47245982e58bc80405e09be0d57303e002029fa44811a3b89/tableautransformer-1.0.2.tar.gz
+[2023-05-30 16:18:22] INFO root fetch - processPackages [sarus]: executing diffoscope
+[2023-05-30 16:18:22] INFO root fetch - processPackages [sarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus-0.6.6.tar.gz tmp/sarus-0.6.7rc0.tar.gz --markdown 20230530/s/sarus/0.6.6-0.6.7rc0/diff.md --exclude *.pyd
+[2023-05-30 16:18:22] INFO root fetch - processPackages [reactord]: Downloading https://files.pythonhosted.org/packages/fb/2e/ee194ac417139503ea21c15b93d19fc6b5f3c97c7cb2d0ea13a571ae3ed4/reactord-0.0.1b1.tar.gz
+[2023-05-30 16:18:22] INFO root fetch - processPackages [icpp-free]: executing diffoscope
+[2023-05-30 16:18:22] INFO root fetch - processPackages [icpp-free]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpp_free-2.3.0-py3-none-any.whl.zip tmp/icpp_free-2.4.0-py3-none-any.whl.zip --markdown 20230530/i/icpp-free/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-30 16:18:22] INFO root fetch - processPackages [bofh]: Downloading https://files.pythonhosted.org/packages/63/88/e04a4f519f0c701626a191d8bf31ede22fee7698c9d2e7319046a77622f1/bofh-0.9.8.tar.gz
+[2023-05-30 16:18:22] INFO root fetch - processPackages [tableautransformer]: executing diffoscope
+[2023-05-30 16:18:22] INFO root fetch - processPackages [tableautransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableautransformer-1.0.1.tar.gz tmp/tableautransformer-1.0.2.tar.gz --markdown 20230530/t/tableautransformer/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-30 16:18:22] INFO root fetch - processPackages [rgfrosh]: Downloading https://files.pythonhosted.org/packages/db/1f/95e3dfb3c0c760e4deeed045128603178393f9f0fba789eaaa77cfb00ac0/rgfrosh-0.2.1.tar.gz
+[2023-05-30 16:18:22] INFO root fetch - processPackages [reactord]: executing diffoscope
+[2023-05-30 16:18:22] INFO root fetch - processPackages [reactord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactord-0.0.1a2.tar.gz tmp/reactord-0.0.1b1.tar.gz --markdown 20230530/r/reactord/0.0.1a2-0.0.1b1/diff.md --exclude *.pyd
+[2023-05-30 16:18:22] INFO root fetch - processPackages [wipac-file-catalog]: Downloading https://files.pythonhosted.org/packages/64/cb/266e5aad30ce6e64c9a36588d64a5c22e1e5d452803b4a89b11b5862cbc3/wipac-file-catalog-1.9.8.tar.gz
+[2023-05-30 16:18:22] INFO root fetch - processPackages [bofh]: executing diffoscope
+[2023-05-30 16:18:22] INFO root fetch - processPackages [bofh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bofh-0.9.5.tar.gz tmp/bofh-0.9.8.tar.gz --markdown 20230530/b/bofh/0.9.5-0.9.8/diff.md --exclude *.pyd
+[2023-05-30 16:18:22] INFO root fetch - processPackages [rgfrosh]: executing diffoscope
+[2023-05-30 16:18:22] INFO root fetch - processPackages [rgfrosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgfrosh-0.2.0.tar.gz tmp/rgfrosh-0.2.1.tar.gz --markdown 20230530/r/rgfrosh/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-30 16:18:22] INFO root fetch - processPackages [wipac-file-catalog]: executing diffoscope
+[2023-05-30 16:18:22] INFO root fetch - processPackages [wipac-file-catalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipac-file-catalog-1.9.7.tar.gz tmp/wipac-file-catalog-1.9.8.tar.gz --markdown 20230530/w/wipac-file-catalog/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-05-30 16:18:23] INFO root fetch - processPackages [cflib]: Start processing: text2phonemesequence
+[2023-05-30 16:18:23] INFO root fetch - main [MainThread]: End processing [cflib]: success
+[2023-05-30 16:18:23] INFO root fetch - processPackages [text2phonemesequence]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-30 16:18:24] INFO root fetch - processPackages [text2phonemesequence]: Downloading https://files.pythonhosted.org/packages/b3/12/69e17e6668cec4dab16334a9aef44a39ee3d4f0982cee5d56b7bb13242bf/text2phonemesequence-0.0.8.tar.gz
+[2023-05-30 16:18:24] INFO root fetch - processPackages [text2phonemesequence]: executing diffoscope
+[2023-05-30 16:18:24] INFO root fetch - processPackages [text2phonemesequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2phonemesequence-0.0.7.tar.gz tmp/text2phonemesequence-0.0.8.tar.gz --markdown 20230530/t/text2phonemesequence/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 16:18:24] INFO root fetch - processPackages [tableautransformer]: Start processing: govuk-frontend-django
+[2023-05-30 16:18:24] INFO root fetch - main [MainThread]: End processing [tableautransformer]: success
+[2023-05-30 16:18:24] INFO root fetch - processPackages [govuk-frontend-django]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-30 16:18:24] INFO root fetch - processPackages [govuk-frontend-django]: Downloading https://files.pythonhosted.org/packages/97/aa/a186723792f16a7dc50cbbed5e2e72bd4104956afc8d2e94e4b96c20890a/govuk_frontend_django-0.3.5.tar.gz
+[2023-05-30 16:18:24] INFO root fetch - processPackages [rgfrosh]: Start processing: darwin-py
+[2023-05-30 16:18:24] INFO root fetch - main [MainThread]: End processing [rgfrosh]: success
+[2023-05-30 16:18:24] INFO root fetch - processPackages [govuk-frontend-django]: executing diffoscope
+[2023-05-30 16:18:24] INFO root fetch - processPackages [govuk-frontend-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govuk_frontend_django-0.3.4.tar.gz tmp/govuk_frontend_django-0.3.5.tar.gz --markdown 20230530/g/govuk-frontend-django/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-30 16:18:24] INFO root fetch - processPackages [wipac-rest-tools]: Start processing: paramize
+[2023-05-30 16:18:24] INFO root fetch - main [MainThread]: End processing [wipac-rest-tools]: success
+[2023-05-30 16:18:24] INFO root fetch - processPackages [darwin-py]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-05-30 16:18:24] WARNING root fetch - processPackages [paramize]: Skipping, unable to determine old version
+[2023-05-30 16:18:24] INFO root fetch - processPackages [paramize]: Start processing: conan
+[2023-05-30 16:18:24] INFO root fetch - main [MainThread]: End processing [paramize] error
+[2023-05-30 16:18:24] INFO root fetch - processPackages [conan]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-30 16:18:25] INFO root fetch - processPackages [bofh]: Start processing: prism-dev
+[2023-05-30 16:18:25] INFO root fetch - main [MainThread]: End processing [bofh]: success
+[2023-05-30 16:18:25] INFO root fetch - processPackages [reactord]: Start processing: bofh
+[2023-05-30 16:18:25] INFO root fetch - main [MainThread]: End processing [reactord]: success
+[2023-05-30 16:18:25] INFO root fetch - processPackages [bofh]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-30 16:18:25] INFO root fetch - processPackages [prism-dev]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 16:18:25] INFO root fetch - processPackages [darwin-py]: executing diffoscope
+[2023-05-30 16:18:25] INFO root fetch - processPackages [darwin-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwin_py-0.8.9.tar.gz tmp/darwin_py-0.9.0.tar.gz --markdown 20230530/d/darwin-py/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 16:18:25] INFO root fetch - processPackages [bofh]: Downloading https://files.pythonhosted.org/packages/ef/a7/5ec6ad4ecfc922e9c94486f26ef5881f68e2f51bb5c8a37ca13940401b84/bofh-0.9.7.tar.gz
+[2023-05-30 16:18:25] INFO root fetch - processPackages [conan]: executing diffoscope
+[2023-05-30 16:18:25] INFO root fetch - processPackages [conan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conan-2.0.5.tar.gz tmp/conan-2.0.6.tar.gz --markdown 20230530/c/conan/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-30 16:18:25] INFO root fetch - processPackages [wipac-file-catalog]: Start processing: bofh
+[2023-05-30 16:18:25] INFO root fetch - main [MainThread]: End processing [wipac-file-catalog]: success
+[2023-05-30 16:18:25] INFO root fetch - processPackages [bofh]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-30 16:18:25] INFO root fetch - processPackages [bofh]: executing diffoscope
+[2023-05-30 16:18:25] INFO root fetch - processPackages [bofh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bofh-0.9.7.tar.gz tmp/bofh-0.9.8.tar.gz --markdown 20230530/b/bofh/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-30 16:18:25] INFO root fetch - processPackages [prism-dev]: Downloading https://files.pythonhosted.org/packages/c1/05/4cacfcc15ca3eea3bd69ad4067fc08fceb9be169e099fd44e9cb83217141/prism-dev-0.1.2.tar.gz
+[2023-05-30 16:18:25] INFO root fetch - processPackages [bofh]: executing diffoscope
+[2023-05-30 16:18:25] INFO root fetch - processPackages [bofh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bofh-0.9.7.tar.gz tmp/bofh-0.9.8.tar.gz --markdown 20230530/b/bofh/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-30 16:18:25] INFO root fetch - main [MainThread]: End processing [icpp-free]: success
+[2023-05-30 16:18:25] INFO root fetch - processPackages [prism-dev]: executing diffoscope
+[2023-05-30 16:18:25] INFO root fetch - processPackages [prism-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prism-dev-0.1.1.tar.gz tmp/prism-dev-0.1.2.tar.gz --markdown 20230530/p/prism-dev/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 16:18:25] INFO root fetch - main [MainThread]: End processing [text2phonemesequence]: success
+[2023-05-30 16:18:26] INFO root fetch - main [MainThread]: End processing [sarus]: success
+[2023-05-30 16:18:26] INFO root fetch - main [MainThread]: End processing [govuk-frontend-django]: success
+[2023-05-30 16:18:27] INFO root fetch - main [MainThread]: End processing [darwin-py]: success
+[2023-05-30 16:18:27] INFO root fetch - main [MainThread]: End processing [bofh]: success
+[2023-05-30 16:18:27] INFO root fetch - main [MainThread]: End processing [bofh]: success
+[2023-05-30 16:18:29] INFO root fetch - main [MainThread]: End processing [prism-dev]: success
+[2023-05-30 16:18:30] INFO root fetch - main [MainThread]: End processing [conan]: success
+[2023-05-30 16:18:53] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-30 16:18:53] INFO root fetch - main [MainThread]: Store serial: [18303456]
