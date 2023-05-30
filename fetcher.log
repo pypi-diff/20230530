@@ -16824,3 +16824,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 17:51:29] INFO root fetch - main [MainThread]: End processing [pyart-mch]: success
 [2023-05-30 17:51:43] INFO root fetch - main [MainThread]: End processing [gfs-dynamical-core]: success
 [2023-05-30 17:51:43] INFO root fetch - main [MainThread]: Store serial: [18304637]
+[2023-05-30 17:56:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18304637]
+[2023-05-30 17:56:55] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-30 17:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansible-runner
+[2023-05-30 17:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dlplan
+[2023-05-30 17:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asyauth
+[2023-05-30 17:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dwiqc
+[2023-05-30 17:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: joyrl
+[2023-05-30 17:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-roborock
+[2023-05-30 17:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edx-enterprise-subsidy-client
+[2023-05-30 17:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oci
+[2023-05-30 17:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: joyrl
+[2023-05-30 17:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tiledb-jupyter-bioimg
+[2023-05-30 17:56:55] INFO root fetch - processPackages [dwiqc]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-30 17:56:55] INFO root fetch - processPackages [joyrl]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 17:56:55] INFO root fetch - processPackages [ansible-runner]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-05-30 17:56:55] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-30 17:56:55] INFO root fetch - processPackages [dlplan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 17:56:55] INFO root fetch - processPackages [asyauth]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 17:56:55] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: New version: [0.1.1a6] Old Version: [0.1.1a5]
+[2023-05-30 17:56:55] INFO root fetch - processPackages [joyrl]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 17:56:55] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-30 17:56:55] INFO root fetch - processPackages [oci]: New version: [2.99.1] Old Version: [2.99.0]
+[2023-05-30 17:56:55] INFO root fetch - processPackages [joyrl]: executing diffoscope
+[2023-05-30 17:56:55] INFO root fetch - processPackages [joyrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joyrl-0.2.8.tar.gz tmp/joyrl-0.2.9.tar.gz --markdown 20230530/j/joyrl/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 17:56:55] INFO root fetch - processPackages [joyrl]: executing diffoscope
+[2023-05-30 17:56:55] INFO root fetch - processPackages [joyrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joyrl-0.2.8.tar.gz tmp/joyrl-0.2.9.tar.gz --markdown 20230530/j/joyrl/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 17:56:55] INFO root fetch - processPackages [ansible-runner]: Downloading https://files.pythonhosted.org/packages/07/98/90432ecea8cf8389990ab88b4925402518f4affbe4648d8f8ab7d765cfcb/ansible-runner-2.3.2.tar.gz
+[2023-05-30 17:56:55] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/07/7b/61a962b56aaae654194811e72ded67a314d0fbd8392aa08222c836115847/dwiqc-0.3.2-py2.py3-none-any.whl
+[2023-05-30 17:56:55] INFO root fetch - processPackages [asyauth]: Downloading https://files.pythonhosted.org/packages/df/ca/063fbf7a4ed4ae06786b5425957de833c0519df8ffd23a3acf21854f4948/asyauth-0.0.8.tar.gz
+[2023-05-30 17:56:55] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/f0/9c/d1c91292e56533b31bf6ab3d784e0f989fb140f7111505a5bde8f1ab6553/tiledb_jupyter_bioimg-0.1.1a5.tar.gz
+[2023-05-30 17:56:55] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-05-30 17:56:55] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.3.1-py2.py3-none-any.whl.zip tmp/dwiqc-0.3.2-py2.py3-none-any.whl.zip --markdown 20230530/d/dwiqc/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-30 17:56:55] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: Downloading https://files.pythonhosted.org/packages/b9/d9/1afbd1e3a6073279036cd457e9d83c1510d1ed27f62490c85599e73468ab/edx-enterprise-subsidy-client-0.3.4.tar.gz
+[2023-05-30 17:56:56] INFO root fetch - processPackages [dlplan]: executing diffoscope
+[2023-05-30 17:56:56] INFO root fetch - processPackages [dlplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlplan-0.2.8.tar.gz tmp/dlplan-0.2.9.tar.gz --markdown 20230530/d/dlplan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 17:56:56] INFO root fetch - processPackages [ansible-runner]: Downloading https://files.pythonhosted.org/packages/f6/8e/4f7af61d9bb92e9c6f46d7154f8821122596a67b82be761fe63ca8b2fbba/ansible-runner-2.3.3.tar.gz
+[2023-05-30 17:56:56] INFO root fetch - processPackages [oci]: executing diffoscope
+[2023-05-30 17:56:56] INFO root fetch - processPackages [oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-2.99.0.tar.gz tmp/oci-2.99.1.tar.gz --markdown 20230530/o/oci/2.99.0-2.99.1/diff.md --exclude *.pyd
+[2023-05-30 17:56:56] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-30 17:56:56] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230530/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-30 17:56:56] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: executing diffoscope
+[2023-05-30 17:56:56] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-subsidy-client-0.3.3.tar.gz tmp/edx-enterprise-subsidy-client-0.3.4.tar.gz --markdown 20230530/e/edx-enterprise-subsidy-client/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-30 17:56:56] INFO root fetch - processPackages [asyauth]: Downloading https://files.pythonhosted.org/packages/72/eb/dc5ff6534ecdd0a641788fc7f36c350057fc63a7ccfe12d4e6a004ade446/asyauth-0.0.9.tar.gz
+[2023-05-30 17:56:56] INFO root fetch - processPackages [ansible-runner]: executing diffoscope
+[2023-05-30 17:56:56] INFO root fetch - processPackages [ansible-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-runner-2.3.2.tar.gz tmp/ansible-runner-2.3.3.tar.gz --markdown 20230530/a/ansible-runner/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-05-30 17:56:56] INFO root fetch - processPackages [asyauth]: executing diffoscope
+[2023-05-30 17:56:56] INFO root fetch - processPackages [asyauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyauth-0.0.8.tar.gz tmp/asyauth-0.0.9.tar.gz --markdown 20230530/a/asyauth/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 17:56:56] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/e8/5b/d031470c378df369ada6420a469ac87db5b9dbbd991d26ffdff51f42ad14/tiledb_jupyter_bioimg-0.1.1a6.tar.gz
+[2023-05-30 17:56:56] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: executing diffoscope
+[2023-05-30 17:56:56] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_jupyter_bioimg-0.1.1a5.tar.gz tmp/tiledb_jupyter_bioimg-0.1.1a6.tar.gz --markdown 20230530/t/tiledb-jupyter-bioimg/0.1.1a5-0.1.1a6/diff.md --exclude *.pyd
+[2023-05-30 17:56:57] INFO root fetch - processPackages [joyrl]: Start processing: alacorder
+[2023-05-30 17:56:57] INFO root fetch - main [MainThread]: End processing [joyrl]: success
+[2023-05-30 17:56:57] INFO root fetch - processPackages [alacorder]: New version: [80.8.6] Old Version: [80.8.5]
+[2023-05-30 17:56:57] INFO root fetch - processPackages [joyrl]: Start processing: tibis
+[2023-05-30 17:56:57] INFO root fetch - main [MainThread]: End processing [joyrl]: success
+[2023-05-30 17:56:57] INFO root fetch - processPackages [dwiqc]: Start processing: deeputilities
+[2023-05-30 17:56:57] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-05-30 17:56:57] INFO root fetch - processPackages [tibis]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-30 17:56:57] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/79/97/1c853a53e159e70c6f8a8f85eb9d2b5f51b942b1a48f7221541ded08e884/alacorder-80.8.6.tar.gz
+[2023-05-30 17:56:57] INFO root fetch - processPackages [deeputilities]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 17:56:57] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-30 17:56:57] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.8.5.tar.gz tmp/alacorder-80.8.6.tar.gz --markdown 20230530/a/alacorder/80.8.5-80.8.6/diff.md --exclude *.pyd
+[2023-05-30 17:56:57] INFO root fetch - processPackages [deeputilities]: Downloading https://files.pythonhosted.org/packages/49/52/e4f88098739b3432d756e43a409c72e4de8ed5b84083bdbf12b59b2ace0e/DeepUtilities-0.1.0.tar.gz
+[2023-05-30 17:56:57] INFO root fetch - processPackages [tibis]: Downloading https://files.pythonhosted.org/packages/43/9a/203fdef6b1b8acac3b32f0d9c515be4bffce3b946045e3a17a659b2b67ae/tibis-1.0.5.tar.gz
+[2023-05-30 17:56:58] INFO root fetch - processPackages [deeputilities]: Downloading https://files.pythonhosted.org/packages/87/00/e5fa3c1ae3eaa428d377f20ef54d03936974f260e18b52b0f96249d72ac8/deeputilities-0.1.1.tar.gz
+[2023-05-30 17:56:58] INFO root fetch - processPackages [deeputilities]: executing diffoscope
+[2023-05-30 17:56:58] INFO root fetch - processPackages [deeputilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepUtilities-0.1.0.tar.gz tmp/deeputilities-0.1.1.tar.gz --markdown 20230530/d/deeputilities/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 17:56:58] INFO root fetch - processPackages [tibis]: Downloading https://files.pythonhosted.org/packages/27/c3/dc3d9a6cce4292aa9c084d84954bb29547bffabb45a81435fb474402f092/tibis-1.0.6.tar.gz
+[2023-05-30 17:56:58] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: Start processing: fnv-c
+[2023-05-30 17:56:58] INFO root fetch - main [MainThread]: End processing [edx-enterprise-subsidy-client]: success
+[2023-05-30 17:56:58] INFO root fetch - processPackages [fnv-c]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 17:56:58] INFO root fetch - processPackages [tibis]: executing diffoscope
+[2023-05-30 17:56:58] INFO root fetch - processPackages [tibis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tibis-1.0.5.tar.gz tmp/tibis-1.0.6.tar.gz --markdown 20230530/t/tibis/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-30 17:56:58] INFO root fetch - processPackages [fnv-c]: Downloading https://files.pythonhosted.org/packages/bb/24/86cfa6e89313c1c85ba8203981c6ec39d993ac1b789c276c379745d44786/fnv-c-0.1.4.tar.gz
+[2023-05-30 17:56:58] INFO root fetch - processPackages [fnv-c]: executing diffoscope
+[2023-05-30 17:56:58] INFO root fetch - processPackages [fnv-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnv-c-0.1.3.tar.gz tmp/fnv-c-0.1.4.tar.gz --markdown 20230530/f/fnv-c/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 17:56:58] INFO root fetch - processPackages [python-roborock]: Start processing: Extractable
+[2023-05-30 17:56:58] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-30 17:56:58] WARNING root fetch - processPackages [Extractable]: Skipping, unable to determine old version
+[2023-05-30 17:56:58] INFO root fetch - processPackages [Extractable]: Start processing: quanturf
+[2023-05-30 17:56:58] INFO root fetch - main [MainThread]: End processing [Extractable] error
+[2023-05-30 17:56:58] INFO root fetch - processPackages [quanturf]: New version: [8.6.4] Old Version: [8.6.3]
+[2023-05-30 17:56:58] INFO root fetch - main [MainThread]: End processing [asyauth]: success
+[2023-05-30 17:56:59] INFO root fetch - processPackages [quanturf]: Downloading https://files.pythonhosted.org/packages/1f/ad/3a25a7c62169e9b798ea1b431309c917a889eaa732f2de9be1a449a74ede/quanturf-8.6.4-py3-none-any.whl
+[2023-05-30 17:56:59] INFO root fetch - processPackages [quanturf]: executing diffoscope
+[2023-05-30 17:56:59] INFO root fetch - processPackages [quanturf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quanturf-8.6.3.tar.gz tmp/quanturf-8.6.4-py3-none-any.whl.zip --markdown 20230530/q/quanturf/8.6.3-8.6.4/diff.md --exclude *.pyd
+[2023-05-30 17:56:59] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-30 17:57:00] INFO root fetch - main [MainThread]: End processing [ansible-runner]: success
+[2023-05-30 17:57:00] INFO root fetch - main [MainThread]: End processing [deeputilities]: success
+[2023-05-30 17:57:00] INFO root fetch - main [MainThread]: End processing [tibis]: success
+[2023-05-30 17:57:00] INFO root fetch - main [MainThread]: End processing [fnv-c]: success
+[2023-05-30 17:57:00] INFO root fetch - main [MainThread]: End processing [dlplan]: success
+[2023-05-30 17:57:01] INFO root fetch - main [MainThread]: End processing [quanturf]: success
+[2023-05-30 17:57:14] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
+[2023-05-30 17:59:56] ERROR root fetch - processPackages [oci]: Timeout during execution of pkgdiff
+[2023-05-30 17:59:56] INFO root fetch - main [MainThread]: End processing [oci] error
+[2023-05-30 17:59:56] INFO root fetch - main [MainThread]: Store serial: [18304682]
