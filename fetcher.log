@@ -11295,3 +11295,134 @@
 [2023-05-30 13:21:13] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-05-30 13:21:15] INFO root fetch - main [MainThread]: End processing [sloth-framework]: success
 [2023-05-30 13:21:15] INFO root fetch - main [MainThread]: Store serial: [18301272]
+[2023-05-30 13:26:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18301272]
+[2023-05-30 13:26:24] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-30 13:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gengli
+[2023-05-30 13:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensordict-nightly
+[2023-05-30 13:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpilot
+[2023-05-30 13:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xemc3
+[2023-05-30 13:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchtnt-nightly
+[2023-05-30 13:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlc-tools
+[2023-05-30 13:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ilcdlib
+[2023-05-30 13:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-imageit
+[2023-05-30 13:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anyboxes
+[2023-05-30 13:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LumosWeb
+[2023-05-30 13:26:24] WARNING root fetch - processPackages [gpilot]: Skipping, unable to determine old version
+[2023-05-30 13:26:24] INFO root fetch - processPackages [gpilot]: Start processing: ango
+[2023-05-30 13:26:24] INFO root fetch - main [MainThread]: End processing [gpilot] error
+[2023-05-30 13:26:24] INFO root fetch - processPackages [gengli]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-30 13:26:24] INFO root fetch - processPackages [xemc3]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-30 13:26:24] INFO root fetch - processPackages [ilcdlib]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-30 13:26:24] INFO root fetch - processPackages [django-imageit]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-05-30 13:26:24] INFO root fetch - processPackages [anyboxes]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 13:26:24] INFO root fetch - processPackages [LumosWeb]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-30 13:26:24] INFO root fetch - processPackages [ango]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-30 13:26:24] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-30 13:26:24] INFO root fetch - processPackages [mlc-tools]: New version: [0.4.675] Old Version: [0.4.674]
+[2023-05-30 13:26:24] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-30 13:26:24] INFO root fetch - processPackages [gengli]: Downloading https://files.pythonhosted.org/packages/02/8a/ea1ce3bd6da02ac5c995867293444e5effe0ffc53b695b5771a57c2f07d2/gengli-0.1.0.tar.gz
+[2023-05-30 13:26:24] WARNING root fetch - processPackages [gengli]: Skipping package: exceeds size limit 25950981>=10485760
+[2023-05-30 13:26:24] INFO root fetch - processPackages [gengli]: Start processing: qtgql
+[2023-05-30 13:26:24] INFO root fetch - main [MainThread]: End processing [gengli] error
+[2023-05-30 13:26:24] INFO root fetch - processPackages [mlc-tools]: executing diffoscope
+[2023-05-30 13:26:24] INFO root fetch - processPackages [mlc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlc-tools-0.4.674.tar.gz tmp/mlc-tools-0.4.675.tar.gz --markdown 20230530/m/mlc-tools/0.4.674-0.4.675/diff.md --exclude *.pyd
+[2023-05-30 13:26:24] INFO root fetch - processPackages [qtgql]: New version: [0.119.4] Old Version: [0.119.3]
+[2023-05-30 13:26:25] INFO root fetch - processPackages [LumosWeb]: Downloading https://files.pythonhosted.org/packages/a0/62/55e6f5a2d5885054acf33f993cbca77cf16bed7f6978bafe6fad19fd41c6/LumosWeb-0.0.6.tar.gz
+[2023-05-30 13:26:25] INFO root fetch - processPackages [django-imageit]: Downloading https://files.pythonhosted.org/packages/19/32/f1b3c722bc6ceb790d37bb57f32c1fcf2211ec4e66c5ebb44f1d568cb079/django-imageit-0.0.6.tar.gz
+[2023-05-30 13:26:25] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-05-30 13:26:25] INFO root fetch - processPackages [anyboxes]: Downloading https://files.pythonhosted.org/packages/0c/6d/184bcc0d36e7ee443949806225c05a17976c7b16bbe864c1f00049b39acf/anyboxes-0.1.0.tar.gz
+[2023-05-30 13:26:25] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.5.8-py39-none-any.whl.zip tmp/tensordict_nightly-2023.5.9-py39-none-any.whl.zip --markdown 20230530/t/tensordict-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-30 13:26:25] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/91/7a/085950dab5a2f5d3059ee0c03286e677bad334ce568093f78b102c3d7715/ango-1.0.6.tar.gz
+[2023-05-30 13:26:25] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-30 13:26:25] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.8.tar.gz tmp/torchtnt-nightly-2023.5.9.tar.gz --markdown 20230530/t/torchtnt-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-30 13:26:25] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/ad/c1/205972b1334eb65b2b6148200aacc8dece10b93af472c3362c1efbcf1208/ilcdlib-0.4.0.tar.gz
+[2023-05-30 13:26:25] INFO root fetch - processPackages [xemc3]: Downloading https://files.pythonhosted.org/packages/6a/0a/3089c10c73a1cba82ba77f8af32b8781e7a03d1cc3f3f7999bd2a6a70db5/xemc3-0.2.6.tar.gz
+[2023-05-30 13:26:25] INFO root fetch - processPackages [ango]: executing diffoscope
+[2023-05-30 13:26:25] INFO root fetch - processPackages [ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ango-1.0.5.tar.gz tmp/ango-1.0.6.tar.gz --markdown 20230530/a/ango/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-30 13:26:25] INFO root fetch - processPackages [ilcdlib]: executing diffoscope
+[2023-05-30 13:26:25] INFO root fetch - processPackages [ilcdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilcdlib-0.3.0.tar.gz tmp/ilcdlib-0.4.0.tar.gz --markdown 20230530/i/ilcdlib/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-30 13:26:25] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/d1/81/8f33e64938d2dbd4f82dbf1a34d170bfde0c7dc85f97b8b056178ece4314/qtgql-0.119.3.tar.gz
+[2023-05-30 13:26:25] INFO root fetch - processPackages [xemc3]: executing diffoscope
+[2023-05-30 13:26:25] INFO root fetch - processPackages [xemc3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xemc3-0.2.5.tar.gz tmp/xemc3-0.2.6.tar.gz --markdown 20230530/x/xemc3/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-30 13:26:25] INFO root fetch - processPackages [LumosWeb]: Downloading https://files.pythonhosted.org/packages/95/c6/a5104cf9b8b2a384da915c649907d9e7fc419040278af24f9cb3c18b8cac/LumosWeb-0.0.7.tar.gz
+[2023-05-30 13:26:25] INFO root fetch - processPackages [anyboxes]: Downloading https://files.pythonhosted.org/packages/12/bb/f4bb52156bd818b76721576421aa9cb9fdc0f507b6f80c659d739ca9d1c5/anyboxes-0.1.1.tar.gz
+[2023-05-30 13:26:25] INFO root fetch - processPackages [django-imageit]: Downloading https://files.pythonhosted.org/packages/5b/1b/07ad0a7de69c5612efcc1fa3aed1175f70ebf00c48e76ca2569d243dd4e0/django-imageit-0.0.8.tar.gz
+[2023-05-30 13:26:25] INFO root fetch - processPackages [LumosWeb]: executing diffoscope
+[2023-05-30 13:26:25] INFO root fetch - processPackages [LumosWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LumosWeb-0.0.6.tar.gz tmp/LumosWeb-0.0.7.tar.gz --markdown 20230530/L/LumosWeb/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-30 13:26:25] INFO root fetch - processPackages [anyboxes]: executing diffoscope
+[2023-05-30 13:26:25] INFO root fetch - processPackages [anyboxes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyboxes-0.1.0.tar.gz tmp/anyboxes-0.1.1.tar.gz --markdown 20230530/a/anyboxes/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 13:26:25] INFO root fetch - processPackages [django-imageit]: executing diffoscope
+[2023-05-30 13:26:25] INFO root fetch - processPackages [django-imageit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-imageit-0.0.6.tar.gz tmp/django-imageit-0.0.8.tar.gz --markdown 20230530/d/django-imageit/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 13:26:25] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/19/16/3057383192a495e48d67f2cda3e049ba5f99e76cf0c344e19d4a840ea7e9/qtgql-0.119.4.tar.gz
+[2023-05-30 13:26:25] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-05-30 13:26:25] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.119.3.tar.gz tmp/qtgql-0.119.4.tar.gz --markdown 20230530/q/qtgql/0.119.3-0.119.4/diff.md --exclude *.pyd
+[2023-05-30 13:26:26] INFO root fetch - processPackages [tensordict-nightly]: Start processing: torchrl-nightly
+[2023-05-30 13:26:26] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-05-30 13:26:27] INFO root fetch - processPackages [ango]: Start processing: omero-demo-cleanup
+[2023-05-30 13:26:27] INFO root fetch - main [MainThread]: End processing [ango]: success
+[2023-05-30 13:26:27] INFO root fetch - processPackages [omero-demo-cleanup]: New version: [0.1.1.dev0] Old Version: [0.1.0]
+[2023-05-30 13:26:27] INFO root fetch - processPackages [torchtnt-nightly]: Start processing: checkov
+[2023-05-30 13:26:27] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-30 13:26:27] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-30 13:26:27] INFO root fetch - processPackages [omero-demo-cleanup]: Downloading https://files.pythonhosted.org/packages/2f/64/9011ce47945918540850778978713a57e1be98f2d17790784bc987e4d91c/omero-demo-cleanup-0.1.0.tar.gz
+[2023-05-30 13:26:27] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-30 13:26:27] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230530/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-30 13:26:27] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-30 13:26:27] INFO root fetch - processPackages [ilcdlib]: Start processing: codercore
+[2023-05-30 13:26:27] INFO root fetch - main [MainThread]: End processing [ilcdlib]: success
+[2023-05-30 13:26:27] INFO root fetch - processPackages [LumosWeb]: Start processing: cjen
+[2023-05-30 13:26:27] INFO root fetch - main [MainThread]: End processing [LumosWeb]: success
+[2023-05-30 13:26:27] INFO root fetch - processPackages [codercore]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-30 13:26:27] INFO root fetch - processPackages [omero-demo-cleanup]: Downloading https://files.pythonhosted.org/packages/f1/80/3734719d7a9fe515f8534081b8c1cad1baeb3343ab0e646e807cff869bea/omero-demo-cleanup-0.1.1.dev0.tar.gz
+[2023-05-30 13:26:27] INFO root fetch - processPackages [cjen]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 13:26:27] INFO root fetch - processPackages [omero-demo-cleanup]: executing diffoscope
+[2023-05-30 13:26:27] INFO root fetch - processPackages [omero-demo-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-demo-cleanup-0.1.0.tar.gz tmp/omero-demo-cleanup-0.1.1.dev0.tar.gz --markdown 20230530/o/omero-demo-cleanup/0.1.0-0.1.1.dev0/diff.md --exclude *.pyd
+[2023-05-30 13:26:27] INFO root fetch - processPackages [qtgql]: Start processing: geolink2oereb
+[2023-05-30 13:26:27] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-05-30 13:26:27] INFO root fetch - processPackages [codercore]: Downloading https://files.pythonhosted.org/packages/79/5d/ccf0fb891f28832ce71defe06e8347867dc3b2e3344188a2b33d84a81727/codercore-2.0.0.tar.gz
+[2023-05-30 13:26:27] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-05-30 13:26:27] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20230530/t/torchrl-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-30 13:26:27] WARNING root fetch - processPackages [geolink2oereb]: Skipping, unable to determine old version
+[2023-05-30 13:26:27] INFO root fetch - processPackages [geolink2oereb]: Start processing: pydae
+[2023-05-30 13:26:27] INFO root fetch - main [MainThread]: End processing [geolink2oereb] error
+[2023-05-30 13:26:27] INFO root fetch - processPackages [pydae]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-30 13:26:27] INFO root fetch - processPackages [pydae]: Downloading https://files.pythonhosted.org/packages/7d/df/18fbeeac68b8076a40737405fc9638efb381a7dae1ccdfa520fe3810b1cd/pydae-0.8.0.tar.gz
+[2023-05-30 13:26:27] WARNING root fetch - processPackages [pydae]: Skipping package: exceeds size limit 76279170>=10485760
+[2023-05-30 13:26:27] INFO root fetch - processPackages [pydae]: Start processing: torchserve-nightly
+[2023-05-30 13:26:27] INFO root fetch - main [MainThread]: End processing [pydae] error
+[2023-05-30 13:26:27] INFO root fetch - processPackages [codercore]: Downloading https://files.pythonhosted.org/packages/f9/5c/c5cdc7888a3e43cacc31c4dba643d644a49076de5e693a36a2ea03afe281/codercore-2.1.0.tar.gz
+[2023-05-30 13:26:27] INFO root fetch - processPackages [cjen]: executing diffoscope
+[2023-05-30 13:26:27] INFO root fetch - processPackages [cjen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjen-1.0.8.tar.gz tmp/cjen-1.0.9.tar.gz --markdown 20230530/c/cjen/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 13:26:27] INFO root fetch - processPackages [codercore]: executing diffoscope
+[2023-05-30 13:26:27] INFO root fetch - processPackages [codercore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codercore-2.0.0.tar.gz tmp/codercore-2.1.0.tar.gz --markdown 20230530/c/codercore/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-30 13:26:27] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-30 13:26:28] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/84/1f/9485a72320b2c7f49d6a9304acfbc2bd5fe71c25e0e7a3844ce81a1ed180/torchserve_nightly-2023.5.8-py3-none-any.whl
+[2023-05-30 13:26:28] INFO root fetch - processPackages [django-imageit]: Start processing: torch-model-archiver-nightly
+[2023-05-30 13:26:28] INFO root fetch - main [MainThread]: End processing [django-imageit]: success
+[2023-05-30 13:26:28] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23716791>=10485760
+[2023-05-30 13:26:28] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-workflow-archiver-nightly
+[2023-05-30 13:26:28] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-05-30 13:26:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-30 13:26:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-30 13:26:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-05-30 13:26:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230530/t/torch-model-archiver-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-30 13:26:28] INFO root fetch - processPackages [anyboxes]: Start processing: sdkmanager
+[2023-05-30 13:26:28] INFO root fetch - main [MainThread]: End processing [anyboxes]: success
+[2023-05-30 13:26:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-05-30 13:26:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230530/t/torch-workflow-archiver-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-30 13:26:28] INFO root fetch - processPackages [sdkmanager]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-30 13:26:28] INFO root fetch - processPackages [sdkmanager]: Downloading https://files.pythonhosted.org/packages/26/81/a6aa51d6479050784ce48c0c3f78fabc63c87d5684cd4ab98b977311219d/sdkmanager-0.6.4.tar.gz
+[2023-05-30 13:26:28] INFO root fetch - main [MainThread]: End processing [xemc3]: success
+[2023-05-30 13:26:28] INFO root fetch - processPackages [sdkmanager]: Downloading https://files.pythonhosted.org/packages/d1/f7/380ca52c2a11323008e267eb62c5f6d7d4224941bd83aa03db75ee689ca7/sdkmanager-0.6.5.tar.gz
+[2023-05-30 13:26:29] INFO root fetch - processPackages [sdkmanager]: executing diffoscope
+[2023-05-30 13:26:29] INFO root fetch - processPackages [sdkmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkmanager-0.6.4.tar.gz tmp/sdkmanager-0.6.5.tar.gz --markdown 20230530/s/sdkmanager/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-30 13:26:29] INFO root fetch - main [MainThread]: End processing [mlc-tools]: success
+[2023-05-30 13:26:29] INFO root fetch - main [MainThread]: End processing [omero-demo-cleanup]: success
+[2023-05-30 13:26:29] INFO root fetch - main [MainThread]: End processing [codercore]: success
+[2023-05-30 13:26:30] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-05-30 13:26:30] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-05-30 13:26:30] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-05-30 13:26:30] INFO root fetch - main [MainThread]: End processing [cjen]: success
+[2023-05-30 13:26:30] INFO root fetch - main [MainThread]: End processing [sdkmanager]: success
+[2023-05-30 13:27:10] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-30 13:27:10] INFO root fetch - main [MainThread]: Store serial: [18301343]
