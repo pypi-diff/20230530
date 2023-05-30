@@ -3158,3 +3158,42 @@
 [2023-05-30 02:41:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tsw]: success
 [2023-05-30 02:41:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vrs]: success
 [2023-05-30 02:41:32] INFO root fetch - main [MainThread]: Store serial: [18296450]
+[2023-05-30 02:46:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296450]
+[2023-05-30 02:46:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-30 02:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fedrq
+[2023-05-30 02:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raya
+[2023-05-30 02:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loophost
+[2023-05-30 02:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfds-nightly
+[2023-05-30 02:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easymms
+[2023-05-30 02:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kubric-nightly
+[2023-05-30 02:46:41] INFO root fetch - processPackages [easymms]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 02:46:41] INFO root fetch - processPackages [raya]: New version: [3.4.1.dev9] Old Version: [3.4.1.dev8]
+[2023-05-30 02:46:41] INFO root fetch - processPackages [fedrq]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-30 02:46:41] INFO root fetch - processPackages [loophost]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-05-30 02:46:41] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-30 02:46:41] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202305290045] Old Version: [4.9.2.dev202305280045]
+[2023-05-30 02:46:41] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-05-30 02:46:41] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.5.8.tar.gz tmp/kubric-nightly-2023.5.9.tar.gz --markdown 20230530/k/kubric-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-30 02:46:41] INFO root fetch - processPackages [fedrq]: Downloading https://files.pythonhosted.org/packages/36/cd/6d38634c267d2d3efa0471cf154f72012686e94c6b94f6ce776b68b40dab/fedrq-0.6.0.tar.gz
+[2023-05-30 02:46:41] INFO root fetch - processPackages [raya]: Downloading https://files.pythonhosted.org/packages/ef/72/2dcc1cc4c14fbad8a67eabb7b3267ee2788972244a3e895de0b6d6d3b592/raya-3.4.1.dev9.tar.gz
+[2023-05-30 02:46:41] INFO root fetch - processPackages [loophost]: Downloading https://files.pythonhosted.org/packages/1c/8b/225784cf2bc8647d29b03bc86efd51cd143f5258d438279b903074fe8949/loophost-1.1.2.tar.gz
+[2023-05-30 02:46:41] INFO root fetch - processPackages [easymms]: Downloading https://files.pythonhosted.org/packages/70/59/899bb6d712e4be33e7d75270fe869023fe6a4e2cba5f2b2a46e4b9e2a277/easymms-0.1.3.tar.gz
+[2023-05-30 02:46:41] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/39/20/df393ba7329488973736e3ec46460bd46272e36f0d014bf1945a82891d75/tfds-nightly-4.9.2.dev202305290045.tar.gz
+[2023-05-30 02:46:41] INFO root fetch - processPackages [easymms]: executing diffoscope
+[2023-05-30 02:46:41] INFO root fetch - processPackages [easymms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easymms-0.1.2.tar.gz tmp/easymms-0.1.3.tar.gz --markdown 20230530/e/easymms/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 02:46:41] INFO root fetch - processPackages [loophost]: executing diffoscope
+[2023-05-30 02:46:41] INFO root fetch - processPackages [raya]: executing diffoscope
+[2023-05-30 02:46:41] INFO root fetch - processPackages [loophost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loophost-1.1.0.tar.gz tmp/loophost-1.1.2.tar.gz --markdown 20230530/l/loophost/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-05-30 02:46:41] INFO root fetch - processPackages [raya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raya-3.4.1.dev8.tar.gz tmp/raya-3.4.1.dev9.tar.gz --markdown 20230530/r/raya/3.4.1.dev8-3.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-30 02:46:42] INFO root fetch - processPackages [fedrq]: Downloading https://files.pythonhosted.org/packages/15/59/0916bf31b7358f5b6862eb24bfbe37012534df1709cbcefb3f9acd753501/fedrq-0.7.0.tar.gz
+[2023-05-30 02:46:42] INFO root fetch - processPackages [fedrq]: executing diffoscope
+[2023-05-30 02:46:42] INFO root fetch - processPackages [fedrq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedrq-0.6.0.tar.gz tmp/fedrq-0.7.0.tar.gz --markdown 20230530/f/fedrq/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-30 02:46:42] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-05-30 02:46:42] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202305280045.tar.gz tmp/tfds-nightly-4.9.2.dev202305290045.tar.gz --markdown 20230530/t/tfds-nightly/4.9.2.dev202305280045-4.9.2.dev202305290045/diff.md --exclude *.pyd
+[2023-05-30 02:46:43] INFO root fetch - main [MainThread]: End processing [easymms]: success
+[2023-05-30 02:46:43] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-05-30 02:46:44] INFO root fetch - main [MainThread]: End processing [fedrq]: success
+[2023-05-30 02:46:44] INFO root fetch - main [MainThread]: End processing [raya]: success
+[2023-05-30 02:46:44] INFO root fetch - main [MainThread]: End processing [loophost]: success
+[2023-05-30 02:46:53] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-05-30 02:46:53] INFO root fetch - main [MainThread]: Store serial: [18296469]
