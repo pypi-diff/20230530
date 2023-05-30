@@ -7326,3 +7326,53 @@
 [2023-05-30 09:33:11] INFO root fetch - main [MainThread]: End processing [quant23rg]: success
 [2023-05-30 09:33:11] INFO root fetch - main [MainThread]: End processing [mbapy]: success
 [2023-05-30 09:33:11] INFO root fetch - main [MainThread]: Store serial: [18298885]
+[2023-05-30 09:38:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298885]
+[2023-05-30 09:38:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-30 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clicknium
+[2023-05-30 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotON_sdk
+[2023-05-30 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-models
+[2023-05-30 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msgraphy
+[2023-05-30 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reaktion
+[2023-05-30 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arkitekt
+[2023-05-30 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lalsuite
+[2023-05-30 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robusta-cli
+[2023-05-30 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zcbot-url-parser
+[2023-05-30 09:38:20] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.5.15] Old Version: [0.0.5.14]
+[2023-05-30 09:38:20] INFO root fetch - processPackages [msgraphy]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-05-30 09:38:20] INFO root fetch - processPackages [core-models]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-30 09:38:20] INFO root fetch - processPackages [clicknium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 09:38:20] INFO root fetch - processPackages [reaktion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 09:38:20] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-30 09:38:20] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-05-30 09:38:20] WARNING root fetch - processPackages [zcbot-url-parser]: Skipping, unable to determine old version
+[2023-05-30 09:38:20] INFO root fetch - main [MainThread]: End processing [zcbot-url-parser] error
+[2023-05-30 09:38:20] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-05-30 09:38:20] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-30 09:38:20] INFO root fetch - processPackages [msgraphy]: Downloading https://files.pythonhosted.org/packages/ed/7b/910c36ee18b6072116ad71030ac6c2883b4131fbc4d5aa68f74d22ee36d9/msgraphy-0.3.6.tar.gz
+[2023-05-30 09:38:20] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-05-30 09:38:20] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-05-30 09:38:20] INFO root fetch - processPackages [clicknium]: Downloading https://files.pythonhosted.org/packages/84/71/4824f63134aa72e96a0f3b4d15c2438e0f8ead6dc8745c4870dd5f2a991b/clicknium-0.1.8-py3-none-win_amd64.whl
+[2023-05-30 09:38:20] WARNING root fetch - processPackages [clicknium]: Skipping package: exceeds size limit 36084312>=10485760
+[2023-05-30 09:38:20] INFO root fetch - main [MainThread]: End processing [clicknium] error
+[2023-05-30 09:38:20] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/c6/81/3035ffe625b66923f244b7c9379499589197262ef8dc1f25594fdf0047b7/core_models-0.0.6.tar.gz
+[2023-05-30 09:38:20] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/12/c2/2d8c80c5876a77f030de4f8af8b811d0c9e21253ba09be32ffa2e7f820e7/spotON_sdk-0.0.5.15.tar.gz
+[2023-05-30 09:38:20] INFO root fetch - processPackages [reaktion]: executing diffoscope
+[2023-05-30 09:38:21] INFO root fetch - processPackages [reaktion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaktion-0.1.8.tar.gz tmp/reaktion-0.1.9.tar.gz --markdown 20230530/r/reaktion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 09:38:21] INFO root fetch - processPackages [msgraphy]: Downloading https://files.pythonhosted.org/packages/8b/8d/7a264742163457847cd53a0fec06a380aab25a83fa5de7419a9478f802f4/msgraphy-0.4.0.tar.gz
+[2023-05-30 09:38:21] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-05-30 09:38:21] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230530/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-30 09:38:21] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2023-05-30 09:38:21] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.0.5.tar.gz tmp/core_models-0.0.6.tar.gz --markdown 20230530/c/core-models/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-30 09:38:21] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2023-05-30 09:38:21] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20230530/r/robusta-cli/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 09:38:21] INFO root fetch - processPackages [msgraphy]: executing diffoscope
+[2023-05-30 09:38:21] INFO root fetch - processPackages [msgraphy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgraphy-0.3.6.tar.gz tmp/msgraphy-0.4.0.tar.gz --markdown 20230530/m/msgraphy/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-05-30 09:38:21] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-30 09:38:21] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.5.14.tar.gz tmp/spotON_sdk-0.0.5.15.tar.gz --markdown 20230530/s/spotON_sdk/0.0.5.14-0.0.5.15/diff.md --exclude *.pyd
+[2023-05-30 09:38:22] INFO root fetch - main [MainThread]: End processing [reaktion]: success
+[2023-05-30 09:38:22] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-30 09:38:22] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2023-05-30 09:38:22] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-05-30 09:38:23] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2023-05-30 09:38:23] INFO root fetch - main [MainThread]: End processing [msgraphy]: success
+[2023-05-30 09:38:23] INFO root fetch - main [MainThread]: Store serial: [18298927]
