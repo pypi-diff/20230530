@@ -19196,3 +19196,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 20:19:49] INFO root fetch - main [MainThread]: End processing [wellmet]: success
 [2023-05-30 20:19:50] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
 [2023-05-30 20:19:50] INFO root fetch - main [MainThread]: Store serial: [18306137]
+[2023-05-30 20:24:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18306137]
+[2023-05-30 20:25:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-30 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cleancourt
+[2023-05-30 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flyteidl
+[2023-05-30 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chesscomwrapper
+[2023-05-30 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbhydra
+[2023-05-30 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reactord
+[2023-05-30 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickpomdps
+[2023-05-30 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alexdlbrain4
+[2023-05-30 20:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keepvariable
+[2023-05-30 20:25:00] INFO root fetch - processPackages [reactord]: New version: [0.0.1b1] Old Version: [0.0.1b0]
+[2023-05-30 20:25:00] INFO root fetch - processPackages [chesscomwrapper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 20:25:00] INFO root fetch - processPackages [flyteidl]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-05-30 20:25:00] WARNING root fetch - processPackages [alexdlbrain4]: Skipping, unable to determine old version
+[2023-05-30 20:25:00] INFO root fetch - processPackages [dbhydra]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-30 20:25:00] INFO root fetch - main [MainThread]: End processing [alexdlbrain4] error
+[2023-05-30 20:25:00] INFO root fetch - processPackages [keepvariable]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-30 20:25:00] INFO root fetch - processPackages [quickpomdps]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-30 20:25:00] INFO root fetch - processPackages [cleancourt]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-30 20:25:00] INFO root fetch - processPackages [reactord]: Downloading https://files.pythonhosted.org/packages/1b/ba/f1bf4216ffed71d93c5a45a614466824dd6c18478a4c04e3568308ff4148/reactord-0.0.1b0-py3-none-any.whl
+[2023-05-30 20:25:00] INFO root fetch - processPackages [chesscomwrapper]: Downloading https://files.pythonhosted.org/packages/c3/48/4c1f2e0016247d54da0919066d36e2605b7568ecd0471636e0599934d5ce/chesscomwrapper-0.0.8.tar.gz
+[2023-05-30 20:25:00] INFO root fetch - processPackages [quickpomdps]: Downloading https://files.pythonhosted.org/packages/b9/3e/ef69c5c5f6496203b2c878092a8e8865cbef8ccb3954193113a524b54d2d/quickpomdps-0.1.0.tar.gz
+[2023-05-30 20:25:00] INFO root fetch - processPackages [reactord]: executing diffoscope
+[2023-05-30 20:25:00] INFO root fetch - processPackages [reactord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactord-0.0.1b0-py3-none-any.whl.zip tmp/reactord-0.0.1b1.tar.gz --markdown 20230530/r/reactord/0.0.1b0-0.0.1b1/diff.md --exclude *.pyd
+[2023-05-30 20:25:00] INFO root fetch - processPackages [dbhydra]: Downloading https://files.pythonhosted.org/packages/e3/3f/f35136ba221896e0687027be58472ab7d93286124ac8c6f5106b0f5abacc/dbhydra-1.0.1.tar.gz
+[2023-05-30 20:25:00] INFO root fetch - processPackages [flyteidl]: Downloading https://files.pythonhosted.org/packages/19/01/bd5a3ada5dbd449e8c95df9c3101ff352c4cc765c8f1f41fe9e3d5c1eed1/flyteidl-1.5.9.tar.gz
+[2023-05-30 20:25:00] INFO root fetch - processPackages [keepvariable]: Downloading https://files.pythonhosted.org/packages/7f/df/eee58a262354f3e2fc9414f46098a8e525aec8f8bd0d2cc312eda07b6592/keepvariable-1.1.1.tar.gz
+[2023-05-30 20:25:00] INFO root fetch - processPackages [dbhydra]: executing diffoscope
+[2023-05-30 20:25:00] INFO root fetch - processPackages [dbhydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbhydra-1.0.0.tar.gz tmp/dbhydra-1.0.1.tar.gz --markdown 20230530/d/dbhydra/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 20:25:00] INFO root fetch - processPackages [cleancourt]: executing diffoscope
+[2023-05-30 20:25:00] INFO root fetch - processPackages [cleancourt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleancourt-0.7.8.tar.gz tmp/cleancourt-0.7.9.tar.gz --markdown 20230530/c/cleancourt/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-30 20:25:00] INFO root fetch - processPackages [flyteidl]: executing diffoscope
+[2023-05-30 20:25:00] INFO root fetch - processPackages [flyteidl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyteidl-1.5.8.tar.gz tmp/flyteidl-1.5.9.tar.gz --markdown 20230530/f/flyteidl/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-05-30 20:25:00] INFO root fetch - processPackages [quickpomdps]: Downloading https://files.pythonhosted.org/packages/4d/83/9bd1632bd79460aeafa766114218a6cff24a0615d95a5438af2ee97d063a/quickpomdps-0.1.1.tar.gz
+[2023-05-30 20:25:00] INFO root fetch - processPackages [chesscomwrapper]: Downloading https://files.pythonhosted.org/packages/7a/e3/f29044717f5310bbd7581942e4261ed003f3eba0f14da5b3a3ec6d811043/chesscomwrapper-0.0.9.tar.gz
+[2023-05-30 20:25:00] INFO root fetch - processPackages [keepvariable]: executing diffoscope
+[2023-05-30 20:25:00] INFO root fetch - processPackages [keepvariable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keepvariable-1.1.0.tar.gz tmp/keepvariable-1.1.1.tar.gz --markdown 20230530/k/keepvariable/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-30 20:25:00] INFO root fetch - processPackages [quickpomdps]: executing diffoscope
+[2023-05-30 20:25:00] INFO root fetch - processPackages [quickpomdps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickpomdps-0.1.0.tar.gz tmp/quickpomdps-0.1.1.tar.gz --markdown 20230530/q/quickpomdps/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-30 20:25:00] INFO root fetch - processPackages [chesscomwrapper]: executing diffoscope
+[2023-05-30 20:25:00] INFO root fetch - processPackages [chesscomwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chesscomwrapper-0.0.8.tar.gz tmp/chesscomwrapper-0.0.9.tar.gz --markdown 20230530/c/chesscomwrapper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 20:25:01] INFO root fetch - main [MainThread]: End processing [reactord]: success
+[2023-05-30 20:25:02] INFO root fetch - main [MainThread]: End processing [dbhydra]: success
+[2023-05-30 20:25:02] INFO root fetch - main [MainThread]: End processing [quickpomdps]: success
+[2023-05-30 20:25:02] INFO root fetch - main [MainThread]: End processing [cleancourt]: success
+[2023-05-30 20:25:02] INFO root fetch - main [MainThread]: End processing [keepvariable]: success
+[2023-05-30 20:25:02] INFO root fetch - main [MainThread]: End processing [chesscomwrapper]: success
+[2023-05-30 20:25:03] INFO root fetch - main [MainThread]: End processing [flyteidl]: success
+[2023-05-30 20:25:03] INFO root fetch - main [MainThread]: Store serial: [18306164]
