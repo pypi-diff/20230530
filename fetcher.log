@@ -4928,3 +4928,45 @@
 [2023-05-30 05:40:38] INFO root fetch - main [MainThread]: End processing [impy-array]: success
 [2023-05-30 05:40:39] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-05-30 05:40:39] INFO root fetch - main [MainThread]: Store serial: [18297527]
+[2023-05-30 05:45:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297527]
+[2023-05-30 05:45:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-30 05:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: p-template-crawler
+[2023-05-30 05:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: impy-array
+[2023-05-30 05:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pnsgraph
+[2023-05-30 05:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-test-package
+[2023-05-30 05:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-assets-management
+[2023-05-30 05:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: time-series-binder
+[2023-05-30 05:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flux-metrics-api
+[2023-05-30 05:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymangaj
+[2023-05-30 05:45:47] INFO root fetch - processPackages [pymangaj]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 05:45:47] WARNING root fetch - processPackages [pnsgraph]: Skipping, unable to determine old version
+[2023-05-30 05:45:47] WARNING root fetch - processPackages [abstract-test-package]: Skipping, unable to determine old version
+[2023-05-30 05:45:47] INFO root fetch - main [MainThread]: End processing [pnsgraph] error
+[2023-05-30 05:45:47] INFO root fetch - main [MainThread]: End processing [abstract-test-package] error
+[2023-05-30 05:45:47] INFO root fetch - processPackages [odoo12-addon-assets-management]: New version: [12.0.1.0.0.99.dev8] Old Version: [12.0.1.0.0.99.dev7]
+[2023-05-30 05:45:47] INFO root fetch - processPackages [impy-array]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-05-30 05:45:47] INFO root fetch - processPackages [time-series-binder]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-30 05:45:47] INFO root fetch - processPackages [pymangaj]: Downloading https://files.pythonhosted.org/packages/93/8e/6e1c7ef67a8fa2092acf978a3289ca32dc4079d7f2da101d442cdf3210cb/pymangaj-0.1.2.tar.gz
+[2023-05-30 05:45:48] INFO root fetch - processPackages [p-template-crawler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 05:45:48] INFO root fetch - processPackages [pymangaj]: executing diffoscope
+[2023-05-30 05:45:48] INFO root fetch - processPackages [pymangaj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymangaj-0.1.1.tar.gz tmp/pymangaj-0.1.2.tar.gz --markdown 20230530/p/pymangaj/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 05:45:48] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/53/26/c77d03516843e3dd26c8f8fd6335976c55d39485ee23b464fac175c6db9d/odoo12_addon_assets_management-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-05-30 05:45:48] INFO root fetch - processPackages [p-template-crawler]: executing diffoscope
+[2023-05-30 05:45:48] INFO root fetch - processPackages [p-template-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-crawler-0.0.8.tar.gz tmp/p-template-crawler-0.0.9.tar.gz --markdown 20230530/p/p-template-crawler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 05:45:48] INFO root fetch - processPackages [impy-array]: Downloading https://files.pythonhosted.org/packages/b1/46/defbb151712bf7e6208f1417fb57af1d103cae9d44263e91f87d3e95e39a/impy_array-2.2.5.tar.gz
+[2023-05-30 05:45:48] INFO root fetch - processPackages [time-series-binder]: Downloading https://files.pythonhosted.org/packages/70/76/5f37854eac29a20fe7726a313deb785016a93d918d6cfde41e0b3d31fd65/time_series_binder-1.0.4.tar.gz
+[2023-05-30 05:45:48] INFO root fetch - processPackages [impy-array]: executing diffoscope
+[2023-05-30 05:45:48] INFO root fetch - processPackages [impy-array]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impy_array-2.2.4.tar.gz tmp/impy_array-2.2.5.tar.gz --markdown 20230530/i/impy-array/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-05-30 05:45:48] WARNING root fetch - processPackages [flux-metrics-api]: Skipping, unable to determine old version
+[2023-05-30 05:45:48] INFO root fetch - main [MainThread]: End processing [flux-metrics-api] error
+[2023-05-30 05:45:48] INFO root fetch - processPackages [time-series-binder]: executing diffoscope
+[2023-05-30 05:45:48] INFO root fetch - processPackages [time-series-binder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/time_series_binder-1.0.3.tar.gz tmp/time_series_binder-1.0.4.tar.gz --markdown 20230530/t/time-series-binder/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-30 05:45:48] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/68/69/acc815cbed2250bd596a3ef7593e4afe4d29244b1124c409750cf387d6d9/odoo12_addon_assets_management-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-05-30 05:45:49] INFO root fetch - processPackages [odoo12-addon-assets-management]: executing diffoscope
+[2023-05-30 05:45:49] INFO root fetch - processPackages [odoo12-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_assets_management-12.0.1.0.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_assets_management-12.0.1.0.0.99.dev8-py3-none-any.whl.zip --markdown 20230530/o/odoo12-addon-assets-management/12.0.1.0.0.99.dev7-12.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-30 05:45:49] INFO root fetch - main [MainThread]: End processing [pymangaj]: success
+[2023-05-30 05:45:49] INFO root fetch - main [MainThread]: End processing [p-template-crawler]: success
+[2023-05-30 05:45:49] INFO root fetch - main [MainThread]: End processing [time-series-binder]: success
+[2023-05-30 05:45:50] INFO root fetch - main [MainThread]: End processing [impy-array]: success
+[2023-05-30 05:45:51] INFO root fetch - main [MainThread]: End processing [odoo12-addon-assets-management]: success
+[2023-05-30 05:45:51] INFO root fetch - main [MainThread]: Store serial: [18297555]
