@@ -13873,3 +13873,129 @@
 [2023-05-30 15:41:02] INFO root fetch - main [MainThread]: End processing [sinergym]: success
 [2023-05-30 15:41:03] INFO root fetch - main [MainThread]: End processing [sygnet]: success
 [2023-05-30 15:41:03] INFO root fetch - main [MainThread]: Store serial: [18302932]
+[2023-05-30 15:46:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18302932]
+[2023-05-30 15:46:12] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-30 15:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymexc
+[2023-05-30 15:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vitya
+[2023-05-30 15:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Python-Road
+[2023-05-30 15:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: savant-rs
+[2023-05-30 15:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyperms
+[2023-05-30 15:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bcvContext
+[2023-05-30 15:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: engine4
+[2023-05-30 15:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: redis-metric-helper
+[2023-05-30 15:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ethyca-fides
+[2023-05-30 15:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pylucene-packaged
+[2023-05-30 15:46:12] WARNING root fetch - processPackages [engine4]: Skipping, unable to determine old version
+[2023-05-30 15:46:12] INFO root fetch - processPackages [engine4]: Start processing: fbgemm-gpu-nightly
+[2023-05-30 15:46:12] INFO root fetch - main [MainThread]: End processing [engine4] error
+[2023-05-30 15:46:12] WARNING root fetch - processPackages [pymexc]: Skipping, unable to determine old version
+[2023-05-30 15:46:12] INFO root fetch - processPackages [pymexc]: Start processing: pgpigeon
+[2023-05-30 15:46:12] INFO root fetch - main [MainThread]: End processing [pymexc] error
+[2023-05-30 15:46:13] INFO root fetch - processPackages [Python-Road]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-05-30 15:46:13] INFO root fetch - processPackages [vitya]: New version: [0.16.0] Old Version: [0.15.0]
+[2023-05-30 15:46:13] INFO root fetch - processPackages [bcvContext]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 15:46:13] WARNING root fetch - processPackages [pyperms]: Skipping, unable to determine old version
+[2023-05-30 15:46:13] WARNING root fetch - processPackages [pylucene-packaged]: Skipping, unable to determine old version
+[2023-05-30 15:46:13] INFO root fetch - processPackages [pyperms]: Start processing: sygnet
+[2023-05-30 15:46:13] INFO root fetch - main [MainThread]: End processing [pyperms] error
+[2023-05-30 15:46:13] INFO root fetch - processPackages [pylucene-packaged]: Start processing: api-console-solver
+[2023-05-30 15:46:13] INFO root fetch - main [MainThread]: End processing [pylucene-packaged] error
+[2023-05-30 15:46:13] INFO root fetch - processPackages [redis-metric-helper]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-30 15:46:13] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-30 15:46:13] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-30 15:46:13] INFO root fetch - processPackages [pgpigeon]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-30 15:46:13] INFO root fetch - processPackages [api-console-solver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 15:46:13] INFO root fetch - processPackages [sygnet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 15:46:13] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-05-30 15:46:13] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230530/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-30 15:46:13] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.5.30] Old Version: [2023.5.29]
+[2023-05-30 15:46:13] INFO root fetch - processPackages [api-console-solver]: executing diffoscope
+[2023-05-30 15:46:13] INFO root fetch - processPackages [api-console-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-console-solver-0.0.8.tar.gz tmp/api-console-solver-0.0.9.tar.gz --markdown 20230530/a/api-console-solver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 15:46:13] INFO root fetch - processPackages [sygnet]: executing diffoscope
+[2023-05-30 15:46:13] INFO root fetch - processPackages [sygnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sygnet-0.0.8.tar.gz tmp/sygnet-0.0.9.tar.gz --markdown 20230530/s/sygnet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 15:46:13] INFO root fetch - processPackages [bcvContext]: Downloading https://files.pythonhosted.org/packages/c5/ad/97862cebf740cea2bc5274f4149c31d71f702dbfc7485b20bb306f1192de/bcvcontext-0.1.3.tar.gz
+[2023-05-30 15:46:13] INFO root fetch - processPackages [redis-metric-helper]: Downloading https://files.pythonhosted.org/packages/96/89/bbdda0d1ad2025b81e14ab7edd31109ff27d10f8e63267706e2a1805f67c/redis-metric-helper-0.2.4.tar.gz
+[2023-05-30 15:46:13] INFO root fetch - processPackages [pgpigeon]: Downloading https://files.pythonhosted.org/packages/7b/3b/ff960b1be54c1c3e37b955d572b2dad85bb389f8b283e221027c54be9cb1/pgpigeon-1.1.4.tar.gz
+[2023-05-30 15:46:13] INFO root fetch - processPackages [Python-Road]: Downloading https://files.pythonhosted.org/packages/aa/e5/be8e6ee4a71d267d8bc5aef33bf64c758eba961e5275a8a0c4d13e465707/Python_Road-0.0.0.3.tar.gz
+[2023-05-30 15:46:13] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/5c/14/0eba6536b820e6512dad65bfe0cd4c815664d139790ac6a7b0472ccc0e11/fbgemm_gpu_nightly-2023.5.29-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-30 15:46:13] INFO root fetch - processPackages [vitya]: Downloading https://files.pythonhosted.org/packages/c9/72/661c45d005c979637761e6683a8c7d17df6b26f2a9c5d933544c4059fda8/vitya-0.16.0.tar.gz
+[2023-05-30 15:46:13] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 287272256>=10485760
+[2023-05-30 15:46:13] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: aws-codeartifact-poetry
+[2023-05-30 15:46:13] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-05-30 15:46:13] INFO root fetch - processPackages [Python-Road]: executing diffoscope
+[2023-05-30 15:46:13] INFO root fetch - processPackages [Python-Road]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python_Road-0.0.0.2.tar.gz tmp/Python_Road-0.0.0.3.tar.gz --markdown 20230530/P/Python-Road/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-05-30 15:46:13] INFO root fetch - processPackages [vitya]: executing diffoscope
+[2023-05-30 15:46:13] INFO root fetch - processPackages [vitya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vitya-0.15.0.tar.gz tmp/vitya-0.16.0.tar.gz --markdown 20230530/v/vitya/0.15.0-0.16.0/diff.md --exclude *.pyd
+[2023-05-30 15:46:13] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-05-30 15:46:13] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230530/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 15:46:13] INFO root fetch - processPackages [bcvContext]: Downloading https://files.pythonhosted.org/packages/d1/c9/44e28de9c8a9417751e40d4157b56546c95d7e9029d2bd8fe930ce8656ba/bcvcontext-0.1.4.tar.gz
+[2023-05-30 15:46:13] INFO root fetch - processPackages [aws-codeartifact-poetry]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-30 15:46:13] INFO root fetch - processPackages [redis-metric-helper]: Downloading https://files.pythonhosted.org/packages/80/94/b31222eb67d19d6745d34566065d672abbe49de64ce7bb7840a634b18c28/redis-metric-helper-0.2.5.tar.gz
+[2023-05-30 15:46:13] INFO root fetch - processPackages [pgpigeon]: Downloading https://files.pythonhosted.org/packages/54/f9/10072bf9321f5308e0742f584d19cceeaec13bd73b01ee94da1bbfab99f9/pgpigeon-1.1.5.tar.gz
+[2023-05-30 15:46:13] INFO root fetch - processPackages [bcvContext]: executing diffoscope
+[2023-05-30 15:46:13] INFO root fetch - processPackages [bcvContext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcvcontext-0.1.3.tar.gz tmp/bcvcontext-0.1.4.tar.gz --markdown 20230530/b/bcvContext/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 15:46:13] INFO root fetch - processPackages [pgpigeon]: executing diffoscope
+[2023-05-30 15:46:13] INFO root fetch - processPackages [pgpigeon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgpigeon-1.1.4.tar.gz tmp/pgpigeon-1.1.5.tar.gz --markdown 20230530/p/pgpigeon/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-30 15:46:13] INFO root fetch - processPackages [redis-metric-helper]: executing diffoscope
+[2023-05-30 15:46:13] INFO root fetch - processPackages [redis-metric-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-metric-helper-0.2.4.tar.gz tmp/redis-metric-helper-0.2.5.tar.gz --markdown 20230530/r/redis-metric-helper/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-30 15:46:13] INFO root fetch - processPackages [aws-codeartifact-poetry]: Downloading https://files.pythonhosted.org/packages/d8/8c/8d2264893732d210dc1147cc0393b8d2a979f8d3132bb5500d875226d193/aws-codeartifact-poetry-1.2.0.tar.gz
+[2023-05-30 15:46:13] INFO root fetch - processPackages [aws-codeartifact-poetry]: Downloading https://files.pythonhosted.org/packages/de/fe/599e1b8be5717a88b3f410280868b705caa13fe5f02abbe2ff9dd33dfc77/aws_codeartifact_poetry-1.3.0.tar.gz
+[2023-05-30 15:46:14] INFO root fetch - processPackages [aws-codeartifact-poetry]: executing diffoscope
+[2023-05-30 15:46:14] INFO root fetch - processPackages [aws-codeartifact-poetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-codeartifact-poetry-1.2.0.tar.gz tmp/aws_codeartifact_poetry-1.3.0.tar.gz --markdown 20230530/a/aws-codeartifact-poetry/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-30 15:46:14] INFO root fetch - processPackages [api-console-solver]: Start processing: coiled
+[2023-05-30 15:46:14] INFO root fetch - main [MainThread]: End processing [api-console-solver]: success
+[2023-05-30 15:46:14] INFO root fetch - processPackages [coiled]: New version: [0.6.9] Old Version: [0.6.8.dev9]
+[2023-05-30 15:46:15] INFO root fetch - processPackages [Python-Road]: Start processing: ampltools
+[2023-05-30 15:46:15] INFO root fetch - main [MainThread]: End processing [Python-Road]: success
+[2023-05-30 15:46:15] INFO root fetch - processPackages [ampltools]: New version: [0.5.4b3] Old Version: [0.5.4b2]
+[2023-05-30 15:46:15] INFO root fetch - processPackages [bcvContext]: Start processing: parse-emails
+[2023-05-30 15:46:15] INFO root fetch - main [MainThread]: End processing [bcvContext]: success
+[2023-05-30 15:46:15] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-30 15:46:15] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.8.dev9.tar.gz tmp/coiled-0.6.9.tar.gz --markdown 20230530/c/coiled/0.6.8.dev9-0.6.9/diff.md --exclude *.pyd
+[2023-05-30 15:46:15] INFO root fetch - processPackages [parse-emails]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 15:46:15] INFO root fetch - processPackages [ampltools]: executing diffoscope
+[2023-05-30 15:46:15] INFO root fetch - processPackages [ampltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampltools-0.5.4b2.tar.gz tmp/ampltools-0.5.4b3.tar.gz --markdown 20230530/a/ampltools/0.5.4b2-0.5.4b3/diff.md --exclude *.pyd
+[2023-05-30 15:46:15] INFO root fetch - processPackages [vitya]: Start processing: iio
+[2023-05-30 15:46:15] INFO root fetch - main [MainThread]: End processing [vitya]: success
+[2023-05-30 15:46:15] INFO root fetch - processPackages [iio]: New version: [9] Old Version: [8]
+[2023-05-30 15:46:15] INFO root fetch - processPackages [redis-metric-helper]: Start processing: ms-identity-web
+[2023-05-30 15:46:15] INFO root fetch - main [MainThread]: End processing [redis-metric-helper]: success
+[2023-05-30 15:46:15] INFO root fetch - processPackages [ms-identity-web]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-30 15:46:15] INFO root fetch - processPackages [parse-emails]: executing diffoscope
+[2023-05-30 15:46:15] INFO root fetch - processPackages [parse-emails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_emails-0.1.8.tar.gz tmp/parse_emails-0.1.9.tar.gz --markdown 20230530/p/parse-emails/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 15:46:15] INFO root fetch - processPackages [iio]: Downloading https://files.pythonhosted.org/packages/7a/36/699084a491185fd3d701a56ac9e0858cf7682e97fe4cfce8fae079d736b4/iio-8.tar.gz
+[2023-05-30 15:46:15] INFO root fetch - processPackages [ms-identity-web]: Downloading https://files.pythonhosted.org/packages/2d/38/354e91eab180b23ea64a8418136ec8ab7945e08ac6d26c21b63ff09d31e5/ms_identity_web-0.0.3.tar.gz
+[2023-05-30 15:46:15] INFO root fetch - processPackages [ms-identity-web]: executing diffoscope
+[2023-05-30 15:46:15] INFO root fetch - processPackages [ms-identity-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_identity_web-0.0.2.tar.gz tmp/ms_identity_web-0.0.3.tar.gz --markdown 20230530/m/ms-identity-web/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-30 15:46:15] INFO root fetch - processPackages [pgpigeon]: Start processing: plone.app.upgrade
+[2023-05-30 15:46:15] INFO root fetch - main [MainThread]: End processing [pgpigeon]: success
+[2023-05-30 15:46:15] INFO root fetch - processPackages [savant-rs]: Start processing: leximpact-aggregates
+[2023-05-30 15:46:15] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-05-30 15:46:15] INFO root fetch - processPackages [plone.app.upgrade]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-05-30 15:46:16] INFO root fetch - processPackages [aws-codeartifact-poetry]: Start processing: pycity-scheduling
+[2023-05-30 15:46:16] INFO root fetch - main [MainThread]: End processing [aws-codeartifact-poetry]: success
+[2023-05-30 15:46:16] INFO root fetch - processPackages [leximpact-aggregates]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 15:46:16] INFO root fetch - processPackages [iio]: Downloading https://files.pythonhosted.org/packages/4b/34/1e8fe08b1f8250625fbec896ced04def67adb6ad5ce832270ae3222c5dcb/iio-9.tar.gz
+[2023-05-30 15:46:16] INFO root fetch - processPackages [pycity-scheduling]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-30 15:46:16] INFO root fetch - processPackages [plone.app.upgrade]: Downloading https://files.pythonhosted.org/packages/d2/35/1d25ad42ee2473a18836158ad31ad03c7df730622a76c3b5624ba1ea5468/plone.app.upgrade-3.0.4.tar.gz
+[2023-05-30 15:46:16] INFO root fetch - processPackages [iio]: executing diffoscope
+[2023-05-30 15:46:16] INFO root fetch - processPackages [iio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iio-8.tar.gz tmp/iio-9.tar.gz --markdown 20230530/i/iio/8-9/diff.md --exclude *.pyd
+[2023-05-30 15:46:16] INFO root fetch - processPackages [leximpact-aggregates]: executing diffoscope
+[2023-05-30 15:46:16] INFO root fetch - processPackages [leximpact-aggregates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leximpact-aggregates-0.0.8.tar.gz tmp/leximpact-aggregates-0.0.9.tar.gz --markdown 20230530/l/leximpact-aggregates/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 15:46:16] INFO root fetch - processPackages [pycity-scheduling]: Downloading https://files.pythonhosted.org/packages/17/1f/f802b13cd0ba717106a5f187ba4a239ab08ec88590fcc8fdbf7825b48bd6/pycity_scheduling-1.2.1.tar.gz
+[2023-05-30 15:46:16] INFO root fetch - processPackages [plone.app.upgrade]: Downloading https://files.pythonhosted.org/packages/93/d3/578bf060dbe4a6b6f1ec30ff3d0d2cda6fc558f2c6aceb1f8ccc1e9e13da/plone.app.upgrade-3.0.5.tar.gz
+[2023-05-30 15:46:16] INFO root fetch - processPackages [pycity-scheduling]: executing diffoscope
+[2023-05-30 15:46:16] INFO root fetch - processPackages [pycity-scheduling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycity_scheduling-1.2.0.tar.gz tmp/pycity_scheduling-1.2.1.tar.gz --markdown 20230530/p/pycity-scheduling/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-30 15:46:16] INFO root fetch - processPackages [plone.app.upgrade]: executing diffoscope
+[2023-05-30 15:46:16] INFO root fetch - processPackages [plone.app.upgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.upgrade-3.0.4.tar.gz tmp/plone.app.upgrade-3.0.5.tar.gz --markdown 20230530/p/plone.app.upgrade/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-05-30 15:46:17] INFO root fetch - main [MainThread]: End processing [ampltools]: success
+[2023-05-30 15:46:17] INFO root fetch - main [MainThread]: End processing [sygnet]: success
+[2023-05-30 15:46:17] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-30 15:46:17] INFO root fetch - main [MainThread]: End processing [leximpact-aggregates]: success
+[2023-05-30 15:46:18] INFO root fetch - main [MainThread]: End processing [ms-identity-web]: success
+[2023-05-30 15:46:18] INFO root fetch - main [MainThread]: End processing [iio]: success
+[2023-05-30 15:46:18] INFO root fetch - main [MainThread]: End processing [plone.app.upgrade]: success
+[2023-05-30 15:46:19] INFO root fetch - main [MainThread]: End processing [pycity-scheduling]: success
+[2023-05-30 15:46:20] INFO root fetch - main [MainThread]: End processing [parse-emails]: success
+[2023-05-30 15:46:24] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-05-30 15:46:24] INFO root fetch - main [MainThread]: Store serial: [18303021]
