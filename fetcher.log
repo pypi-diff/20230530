@@ -22258,3 +22258,83 @@ EOFError: EOF read where object expected
 [2023-05-30 23:45:03] INFO root fetch - main [MainThread]: End processing [max-ard]: success
 [2023-05-30 23:45:04] INFO root fetch - main [MainThread]: End processing [cad-to-dagmc]: success
 [2023-05-30 23:45:04] INFO root fetch - main [MainThread]: Store serial: [18307945]
+[2023-05-30 23:50:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18307945]
+[2023-05-30 23:50:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-30 23:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DXFpy-TOOLBOX
+[2023-05-30 23:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-jwt-oidc
+[2023-05-30 23:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: popcast
+[2023-05-30 23:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FastaTransformer
+[2023-05-30 23:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whylogs
+[2023-05-30 23:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: virtue
+[2023-05-30 23:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cartoonart
+[2023-05-30 23:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataquality
+[2023-05-30 23:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: servicex-code-gen-lib
+[2023-05-30 23:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cryptography
+[2023-05-30 23:50:13] WARNING root fetch - processPackages [DXFpy-TOOLBOX]: Skipping, unable to determine old version
+[2023-05-30 23:50:13] INFO root fetch - processPackages [DXFpy-TOOLBOX]: Start processing: zenroom
+[2023-05-30 23:50:13] INFO root fetch - main [MainThread]: End processing [DXFpy-TOOLBOX] error
+[2023-05-30 23:50:13] INFO root fetch - processPackages [django-jwt-oidc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 23:50:13] WARNING root fetch - processPackages [cartoonart]: Skipping, unable to determine old version
+[2023-05-30 23:50:13] INFO root fetch - processPackages [cartoonart]: Start processing: cryptography-vectors
+[2023-05-30 23:50:13] INFO root fetch - main [MainThread]: End processing [cartoonart] error
+[2023-05-30 23:50:13] INFO root fetch - processPackages [virtue]: New version: [2023.5.3] Old Version: [2023.5.1]
+[2023-05-30 23:50:13] WARNING root fetch - processPackages [FastaTransformer]: Skipping, unable to determine old version
+[2023-05-30 23:50:13] INFO root fetch - processPackages [FastaTransformer]: Start processing: vgs-api-client
+[2023-05-30 23:50:13] INFO root fetch - main [MainThread]: End processing [FastaTransformer] error
+[2023-05-30 23:50:13] INFO root fetch - processPackages [whylogs]: New version: [1.1.9.dev0] Old Version: [1.1.9]
+[2023-05-30 23:50:13] INFO root fetch - processPackages [popcast]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-30 23:50:13] INFO root fetch - processPackages [servicex-code-gen-lib]: New version: [1.1.6] Old Version: [1.1.5.post3]
+[2023-05-30 23:50:13] INFO root fetch - processPackages [dataquality]: New version: [0.8.9] Old Version: [0.8.8a0]
+[2023-05-30 23:50:13] INFO root fetch - processPackages [zenroom]: New version: [3.0.4] Old Version: [3.0.2]
+[2023-05-30 23:50:13] INFO root fetch - processPackages [cryptography-vectors]: New version: [41.0.0] Old Version: [40.0.2]
+[2023-05-30 23:50:13] INFO root fetch - processPackages [cryptography]: New version: [41.0.0] Old Version: [40.0.2]
+[2023-05-30 23:50:13] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-30 23:50:13] INFO root fetch - processPackages [virtue]: Downloading https://files.pythonhosted.org/packages/b2/9e/540e256b4c0a6e549cbe39d58f08a37b84b4cf7a290ad82025e109e13a6c/virtue-2023.5.1.tar.gz
+[2023-05-30 23:50:13] INFO root fetch - processPackages [django-jwt-oidc]: executing diffoscope
+[2023-05-30 23:50:13] INFO root fetch - processPackages [django-jwt-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jwt-oidc-1.0.8.tar.gz tmp/django-jwt-oidc-1.0.9.tar.gz --markdown 20230530/d/django-jwt-oidc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 23:50:13] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-05-30 23:50:13] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.8.8a0.tar.gz tmp/dataquality-0.8.9.tar.gz --markdown 20230530/d/dataquality/0.8.8a0-0.8.9/diff.md --exclude *.pyd
+[2023-05-30 23:50:13] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-05-30 23:50:13] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230530/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-30 23:50:13] INFO root fetch - processPackages [servicex-code-gen-lib]: Downloading https://files.pythonhosted.org/packages/a1/0a/3610d2970b0ff6429effbf04493fbb824770580a7016eec9655b190a3263/servicex_code_gen_lib-1.1.5.post3.tar.gz
+[2023-05-30 23:50:13] INFO root fetch - processPackages [popcast]: Downloading https://files.pythonhosted.org/packages/ca/73/0d66d6b22a911da3c5f6fc420f292b2ea252dce0b5d5ca4c11e2a05604fa/popcast-1.0.1.tar.gz
+[2023-05-30 23:50:13] INFO root fetch - processPackages [cryptography-vectors]: Downloading https://files.pythonhosted.org/packages/f8/1d/a4ff04298b78a094c18afa4b31e963504715626dd70b6cbb4ad4c1d96215/cryptography_vectors-40.0.2.tar.gz
+[2023-05-30 23:50:13] INFO root fetch - processPackages [cryptography]: Downloading https://files.pythonhosted.org/packages/f7/80/04cc7637238b78f8e7354900817135c5a23cf66dfb3f3a216c6d630d6833/cryptography-40.0.2.tar.gz
+[2023-05-30 23:50:13] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/12/83/2ea7126d088c1371c9dda8edf419f3f54e05835e5b61d936218135da3c6f/zenroom-3.0.2.tar.gz
+[2023-05-30 23:50:13] WARNING root fetch - processPackages [cryptography-vectors]: Skipping package: exceeds size limit 35282075>=10485760
+[2023-05-30 23:50:13] INFO root fetch - processPackages [cryptography-vectors]: Start processing: htcondor
+[2023-05-30 23:50:13] INFO root fetch - main [MainThread]: End processing [cryptography-vectors] error
+[2023-05-30 23:50:13] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 25592278>=10485760
+[2023-05-30 23:50:13] INFO root fetch - processPackages [zenroom]: Start processing: coastseg
+[2023-05-30 23:50:13] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-05-30 23:50:13] INFO root fetch - processPackages [htcondor]: New version: [9.9.0] Old Version: [9.8.1]
+[2023-05-30 23:50:13] INFO root fetch - processPackages [virtue]: Downloading https://files.pythonhosted.org/packages/50/f5/1ad4cc3e767350814ab953b6966af6b7b685fa7a63ae11017e23dccc1cf4/virtue-2023.5.3.tar.gz
+[2023-05-30 23:50:13] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 23:50:13] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2023-05-30 23:50:13] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.1.9.tar.gz tmp/whylogs-1.1.9.dev0.tar.gz --markdown 20230530/w/whylogs/1.1.9-1.1.9.dev0/diff.md --exclude *.pyd
+[2023-05-30 23:50:13] INFO root fetch - processPackages [virtue]: executing diffoscope
+[2023-05-30 23:50:13] INFO root fetch - processPackages [virtue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtue-2023.5.1.tar.gz tmp/virtue-2023.5.3.tar.gz --markdown 20230530/v/virtue/2023.5.1-2023.5.3/diff.md --exclude *.pyd
+[2023-05-30 23:50:13] INFO root fetch - processPackages [htcondor]: Downloading https://files.pythonhosted.org/packages/d1/07/5a689eae039ef73c8ffceab1af15c78058e539bc8dd1112c58854b5fe235/htcondor-9.8.1-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-05-30 23:50:13] INFO root fetch - processPackages [cryptography]: Downloading https://files.pythonhosted.org/packages/bf/92/3301a5d4fb734290a8bca5a9aad61ea61327ed53cb19be110d4f3548df76/cryptography-41.0.0.tar.gz
+[2023-05-30 23:50:13] INFO root fetch - processPackages [popcast]: Downloading https://files.pythonhosted.org/packages/1b/c8/f0fadde095bcdb94f2253677d9991780d0f821d6747f038b3ccca62b007f/popcast-1.0.2.tar.gz
+[2023-05-30 23:50:13] INFO root fetch - processPackages [servicex-code-gen-lib]: Downloading https://files.pythonhosted.org/packages/9e/4f/463efa6db01a18564220731fd65c405bae92c7b4db095bf339ab5817dfab/servicex_code_gen_lib-1.1.6.tar.gz
+[2023-05-30 23:50:14] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-05-30 23:50:14] INFO root fetch - processPackages [popcast]: executing diffoscope
+[2023-05-30 23:50:14] INFO root fetch - processPackages [popcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popcast-1.0.1.tar.gz tmp/popcast-1.0.2.tar.gz --markdown 20230530/p/popcast/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-30 23:50:14] INFO root fetch - processPackages [cryptography]: executing diffoscope
+[2023-05-30 23:50:14] INFO root fetch - processPackages [cryptography]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptography-40.0.2.tar.gz tmp/cryptography-41.0.0.tar.gz --markdown 20230530/c/cryptography/40.0.2-41.0.0/diff.md --exclude *.pyd
+[2023-05-30 23:50:14] INFO root fetch - processPackages [servicex-code-gen-lib]: executing diffoscope
+[2023-05-30 23:50:14] INFO root fetch - processPackages [servicex-code-gen-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicex_code_gen_lib-1.1.5.post3.tar.gz tmp/servicex_code_gen_lib-1.1.6.tar.gz --markdown 20230530/s/servicex-code-gen-lib/1.1.5.post3-1.1.6/diff.md --exclude *.pyd
+[2023-05-30 23:50:14] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-05-30 23:50:14] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-05-30 23:50:14] WARNING root fetch - processPackages [htcondor]: Skipping package: exceeds size limit 41992609>=10485760
+[2023-05-30 23:50:14] INFO root fetch - main [MainThread]: End processing [htcondor] error
+[2023-05-30 23:50:15] INFO root fetch - main [MainThread]: End processing [django-jwt-oidc]: success
+[2023-05-30 23:50:15] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-05-30 23:50:16] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-05-30 23:50:16] INFO root fetch - main [MainThread]: End processing [popcast]: success
+[2023-05-30 23:50:16] INFO root fetch - main [MainThread]: End processing [virtue]: success
+[2023-05-30 23:50:16] INFO root fetch - main [MainThread]: End processing [servicex-code-gen-lib]: success
+[2023-05-30 23:50:16] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2023-05-30 23:50:22] INFO root fetch - main [MainThread]: End processing [cryptography]: success
+[2023-05-30 23:50:22] INFO root fetch - main [MainThread]: Store serial: [18308037]
