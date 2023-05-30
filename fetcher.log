@@ -21779,3 +21779,61 @@ EOFError: EOF read where object expected
 [2023-05-30 23:08:00] INFO root fetch - main [MainThread]: End processing [devapps]: success
 [2023-05-30 23:08:02] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
 [2023-05-30 23:08:02] INFO root fetch - main [MainThread]: Store serial: [18307615]
+[2023-05-30 23:13:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18307615]
+[2023-05-30 23:13:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 23:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Signal8
+[2023-05-30 23:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-omnilogic-local
+[2023-05-30 23:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dwiqc
+[2023-05-30 23:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyperspy-gui-traitsui
+[2023-05-30 23:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rayasdk
+[2023-05-30 23:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bodosdk
+[2023-05-30 23:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: human-protocol-sdk
+[2023-05-30 23:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hpcflow-new2
+[2023-05-30 23:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blockchain-apis
+[2023-05-30 23:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: retrack
+[2023-05-30 23:13:12] INFO root fetch - processPackages [dwiqc]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-30 23:13:12] INFO root fetch - processPackages [Signal8]: New version: [1.9] Old Version: [1.8]
+[2023-05-30 23:13:12] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-05-30 23:13:12] WARNING root fetch - processPackages [blockchain-apis]: Skipping, unable to determine old version
+[2023-05-30 23:13:12] INFO root fetch - main [MainThread]: End processing [blockchain-apis] error
+[2023-05-30 23:13:12] INFO root fetch - processPackages [hyperspy-gui-traitsui]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-05-30 23:13:12] INFO root fetch - processPackages [rayasdk]: New version: [1.1.0.dev9] Old Version: [1.1.0.dev8]
+[2023-05-30 23:13:12] INFO root fetch - processPackages [python-omnilogic-local]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-30 23:13:12] INFO root fetch - processPackages [bodosdk]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-30 23:13:12] INFO root fetch - processPackages [retrack]: New version: [0.7.0a2] Old Version: [0.7.0a1]
+[2023-05-30 23:13:12] INFO root fetch - processPackages [human-protocol-sdk]: New version: [1.1.4] Old Version: [1.1.2]
+[2023-05-30 23:13:12] INFO root fetch - processPackages [retrack]: executing diffoscope
+[2023-05-30 23:13:12] INFO root fetch - processPackages [retrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retrack-0.7.0a1.tar.gz tmp/retrack-0.7.0a2.tar.gz --markdown 20230530/r/retrack/0.7.0a1-0.7.0a2/diff.md --exclude *.pyd
+[2023-05-30 23:13:12] INFO root fetch - processPackages [rayasdk]: executing diffoscope
+[2023-05-30 23:13:12] INFO root fetch - processPackages [rayasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayasdk-1.1.0.dev8.tar.gz tmp/rayasdk-1.1.0.dev9.tar.gz --markdown 20230530/r/rayasdk/1.1.0.dev8-1.1.0.dev9/diff.md --exclude *.pyd
+[2023-05-30 23:13:12] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2023-05-30 23:13:12] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a8.tar.gz tmp/hpcflow_new2-0.2.0a9.tar.gz --markdown 20230530/h/hpcflow-new2/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-05-30 23:13:12] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/1c/dc/68f317e460c818a9eb7f22bd2b57f35d07942dc3db1ce96c8849c57d6a2c/dwiqc-0.3.3-py2.py3-none-any.whl
+[2023-05-30 23:13:12] INFO root fetch - processPackages [python-omnilogic-local]: Downloading https://files.pythonhosted.org/packages/7c/53/0c648985720044b500e4a4f7f30565fb9de507bbedf7195ac878a05d9d80/python_omnilogic_local-0.6.1.tar.gz
+[2023-05-30 23:13:12] INFO root fetch - processPackages [python-omnilogic-local]: executing diffoscope
+[2023-05-30 23:13:12] INFO root fetch - processPackages [python-omnilogic-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_omnilogic_local-0.6.0.tar.gz tmp/python_omnilogic_local-0.6.1.tar.gz --markdown 20230530/p/python-omnilogic-local/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-30 23:13:12] INFO root fetch - processPackages [hyperspy-gui-traitsui]: Downloading https://files.pythonhosted.org/packages/d1/64/a9182249b9aa85d428b72601e9bc29b2519a8d79d973e11fef900fa96fa3/hyperspy_gui_traitsui-1.5.2.tar.gz
+[2023-05-30 23:13:12] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/eb/7e/03a84e8f19beb6ed8a19d72d41f8a931f0642d8264579606c542bd36c923/Signal8-1.9.tar.gz
+[2023-05-30 23:13:12] INFO root fetch - processPackages [bodosdk]: Downloading https://files.pythonhosted.org/packages/64/d2/1821c29a821e559cd9f7ecb1c3dd7a50eeadeb1a68e6ea3e2af304326ffb/bodosdk-1.3.3.tar.gz
+[2023-05-30 23:13:12] INFO root fetch - processPackages [human-protocol-sdk]: executing diffoscope
+[2023-05-30 23:13:12] INFO root fetch - processPackages [human-protocol-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/human-protocol-sdk-1.1.2.tar.gz tmp/human-protocol-sdk-1.1.4.tar.gz --markdown 20230530/h/human-protocol-sdk/1.1.2-1.1.4/diff.md --exclude *.pyd
+[2023-05-30 23:13:12] INFO root fetch - processPackages [bodosdk]: executing diffoscope
+[2023-05-30 23:13:12] INFO root fetch - processPackages [bodosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bodosdk-1.3.2.tar.gz tmp/bodosdk-1.3.3.tar.gz --markdown 20230530/b/bodosdk/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-30 23:13:12] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/a9/fb/e96f4e19750ea662497d9e2ebc68d7bb289191fc75ce7b8f61e5dfd38e7d/dwiqc-0.3.4-py2.py3-none-any.whl
+[2023-05-30 23:13:12] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-05-30 23:13:12] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-1.8.tar.gz tmp/Signal8-1.9.tar.gz --markdown 20230530/S/Signal8/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-30 23:13:12] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-05-30 23:13:12] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.3.3-py2.py3-none-any.whl.zip tmp/dwiqc-0.3.4-py2.py3-none-any.whl.zip --markdown 20230530/d/dwiqc/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-30 23:13:12] INFO root fetch - processPackages [hyperspy-gui-traitsui]: Downloading https://files.pythonhosted.org/packages/39/ca/bc5fe35fd9a1a4cb92d57907a8ba36a099007902939b35164679fe283107/hyperspy_gui_traitsui-1.5.3.tar.gz
+[2023-05-30 23:13:12] INFO root fetch - processPackages [hyperspy-gui-traitsui]: executing diffoscope
+[2023-05-30 23:13:12] INFO root fetch - processPackages [hyperspy-gui-traitsui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperspy_gui_traitsui-1.5.2.tar.gz tmp/hyperspy_gui_traitsui-1.5.3.tar.gz --markdown 20230530/h/hyperspy-gui-traitsui/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-05-30 23:13:13] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2023-05-30 23:13:14] INFO root fetch - main [MainThread]: End processing [retrack]: success
+[2023-05-30 23:13:14] INFO root fetch - main [MainThread]: End processing [rayasdk]: success
+[2023-05-30 23:13:14] INFO root fetch - main [MainThread]: End processing [human-protocol-sdk]: success
+[2023-05-30 23:13:14] INFO root fetch - main [MainThread]: End processing [python-omnilogic-local]: success
+[2023-05-30 23:13:15] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-05-30 23:13:15] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-05-30 23:13:15] INFO root fetch - main [MainThread]: End processing [bodosdk]: success
+[2023-05-30 23:13:15] INFO root fetch - main [MainThread]: End processing [hyperspy-gui-traitsui]: success
+[2023-05-30 23:13:15] INFO root fetch - main [MainThread]: Store serial: [18307645]
