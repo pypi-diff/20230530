@@ -5575,3 +5575,74 @@
 [2023-05-30 06:59:30] INFO root fetch - main [MainThread]: End processing [visor-gligen]: success
 [2023-05-30 06:59:30] INFO root fetch - main [MainThread]: End processing [angola]: success
 [2023-05-30 06:59:30] INFO root fetch - main [MainThread]: Store serial: [18297910]
+[2023-05-30 07:04:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297910]
+[2023-05-30 07:04:38] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-30 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfsd
+[2023-05-30 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AoiPy
+[2023-05-30 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AoiPy
+[2023-05-30 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyParallelPipe
+[2023-05-30 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: get-cover-art
+[2023-05-30 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flowmachine
+[2023-05-30 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowetl
+[2023-05-30 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flowclient
+[2023-05-30 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tflite-runtime-nightly
+[2023-05-30 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dask-cuda
+[2023-05-30 07:04:38] INFO root fetch - processPackages [AoiPy]: New version: [0.9.18] Old Version: [0.9.17]
+[2023-05-30 07:04:38] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 07:04:38] INFO root fetch - processPackages [AoiPy]: New version: [0.9.18] Old Version: [0.9.17]
+[2023-05-30 07:04:38] WARNING root fetch - processPackages [PyParallelPipe]: Skipping, unable to determine old version
+[2023-05-30 07:04:38] INFO root fetch - processPackages [PyParallelPipe]: Start processing: zimran-events
+[2023-05-30 07:04:38] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-30 07:04:38] INFO root fetch - processPackages [get-cover-art]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-05-30 07:04:38] INFO root fetch - main [MainThread]: End processing [PyParallelPipe] error
+[2023-05-30 07:04:38] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-30 07:04:38] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-30 07:04:38] INFO root fetch - processPackages [zimran-events]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-30 07:04:38] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230528] Old Version: [2.14.0.dev20230527]
+[2023-05-30 07:04:38] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230526] Old Version: [23.8.0a230525]
+[2023-05-30 07:04:38] INFO root fetch - processPackages [AoiPy]: executing diffoscope
+[2023-05-30 07:04:38] INFO root fetch - processPackages [AoiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AoiPy-0.9.17-py3-none-any.whl.zip tmp/AoiPy-0.9.18-py3-none-any.whl.zip --markdown 20230530/A/AoiPy/0.9.17-0.9.18/diff.md --exclude *.pyd
+[2023-05-30 07:04:38] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-05-30 07:04:38] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230530/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-30 07:04:38] INFO root fetch - processPackages [AoiPy]: executing diffoscope
+[2023-05-30 07:04:38] INFO root fetch - processPackages [AoiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AoiPy-0.9.17-py3-none-any.whl.zip tmp/AoiPy-0.9.18-py3-none-any.whl.zip --markdown 20230530/A/AoiPy/0.9.17-0.9.18/diff.md --exclude *.pyd
+[2023-05-30 07:04:38] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-05-30 07:04:38] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230530/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-30 07:04:38] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-05-30 07:04:38] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230530/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-30 07:04:38] INFO root fetch - processPackages [get-cover-art]: Downloading https://files.pythonhosted.org/packages/59/89/4882c6f016ef26482042dc57a17532383505d6a16a2980200e4eea5da7c0/get_cover_art-1.7.0.tar.gz
+[2023-05-30 07:04:38] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-05-30 07:04:38] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230527-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230528-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230530/t/tflite-runtime-nightly/2.14.0.dev20230527-2.14.0.dev20230528/diff.md --exclude *.pyd
+[2023-05-30 07:04:38] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-05-30 07:04:38] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230530/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 07:04:38] INFO root fetch - processPackages [zimran-events]: Downloading https://files.pythonhosted.org/packages/a1/ff/2120df41920f5895e6bfcf7ea818f3164f4ddf8b5004cc98416ef34084a1/zimran-events-0.2.5.tar.gz
+[2023-05-30 07:04:38] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-05-30 07:04:38] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230525.tar.gz tmp/dask-cuda-23.8.0a230526.tar.gz --markdown 20230530/d/dask-cuda/23.8.0a230525-23.8.0a230526/diff.md --exclude *.pyd
+[2023-05-30 07:04:39] INFO root fetch - processPackages [zimran-events]: Downloading https://files.pythonhosted.org/packages/88/aa/a560cabc5396fbc5e76c2c74cf0390cf8bc8c58c9644c5553275f2a1404b/zimran-events-0.2.6.tar.gz
+[2023-05-30 07:04:39] INFO root fetch - processPackages [get-cover-art]: Downloading https://files.pythonhosted.org/packages/f2/52/5c8d4a03723fcd667209217d5e4b08723718a9e2f7e7cba592058bdba89a/get_cover_art-1.8.0.tar.gz
+[2023-05-30 07:04:39] INFO root fetch - processPackages [zimran-events]: executing diffoscope
+[2023-05-30 07:04:39] INFO root fetch - processPackages [zimran-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimran-events-0.2.5.tar.gz tmp/zimran-events-0.2.6.tar.gz --markdown 20230530/z/zimran-events/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-30 07:04:39] INFO root fetch - processPackages [get-cover-art]: executing diffoscope
+[2023-05-30 07:04:39] INFO root fetch - processPackages [get-cover-art]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_cover_art-1.7.0.tar.gz tmp/get_cover_art-1.8.0.tar.gz --markdown 20230530/g/get-cover-art/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-05-30 07:04:40] INFO root fetch - processPackages [AoiPy]: Start processing: tkintertools
+[2023-05-30 07:04:40] INFO root fetch - main [MainThread]: End processing [AoiPy]: success
+[2023-05-30 07:04:40] INFO root fetch - processPackages [tkintertools]: New version: [2.6.2] Old Version: [2.6.1.2]
+[2023-05-30 07:04:40] INFO root fetch - processPackages [flowetl]: Start processing: pdocr-rpc
+[2023-05-30 07:04:40] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-05-30 07:04:40] INFO root fetch - processPackages [pdocr-rpc]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-30 07:04:40] INFO root fetch - main [MainThread]: End processing [AoiPy]: success
+[2023-05-30 07:04:40] INFO root fetch - processPackages [pdocr-rpc]: executing diffoscope
+[2023-05-30 07:04:40] INFO root fetch - processPackages [pdocr-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdocr-rpc-1.1.0.tar.gz tmp/pdocr-rpc-1.1.1.tar.gz --markdown 20230530/p/pdocr-rpc/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-30 07:04:40] INFO root fetch - processPackages [tkintertools]: Downloading https://files.pythonhosted.org/packages/a0/24/16fbb7702837ce7382e55e56051b22af7cf052c53bc2607953f463a2be9a/tkintertools-2.6.2.tar.gz
+[2023-05-30 07:04:40] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-05-30 07:04:40] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-05-30 07:04:40] INFO root fetch - processPackages [tkintertools]: executing diffoscope
+[2023-05-30 07:04:40] INFO root fetch - processPackages [tkintertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkintertools-2.6.1.2.tar.gz tmp/tkintertools-2.6.2.tar.gz --markdown 20230530/t/tkintertools/2.6.1.2-2.6.2/diff.md --exclude *.pyd
+[2023-05-30 07:04:41] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-05-30 07:04:41] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-05-30 07:04:41] INFO root fetch - main [MainThread]: End processing [get-cover-art]: success
+[2023-05-30 07:04:41] INFO root fetch - main [MainThread]: End processing [zimran-events]: success
+[2023-05-30 07:04:41] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-05-30 07:04:42] INFO root fetch - main [MainThread]: End processing [pdocr-rpc]: success
+[2023-05-30 07:04:42] INFO root fetch - main [MainThread]: End processing [tkintertools]: success
+[2023-05-30 07:04:42] INFO root fetch - main [MainThread]: Store serial: [18297951]
