@@ -8063,3 +8063,54 @@
 [2023-05-30 10:16:39] INFO root fetch - main [MainThread]: End processing [ryven]: success
 [2023-05-30 10:16:47] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
 [2023-05-30 10:16:47] INFO root fetch - main [MainThread]: Store serial: [18299327]
+[2023-05-30 10:21:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18299327]
+[2023-05-30 10:21:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-30 10:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-contributor-assets
+[2023-05-30 10:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mathtranslate
+[2023-05-30 10:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audresample
+[2023-05-30 10:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-exporter
+[2023-05-30 10:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyquet
+[2023-05-30 10:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2023-05-30 10:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ms-imputedhours-core
+[2023-05-30 10:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: macrometa-target-snowflake
+[2023-05-30 10:21:57] INFO root fetch - processPackages [audresample]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-30 10:21:57] INFO root fetch - processPackages [pyquet]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 10:21:57] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post804] Old Version: [1.0.0.post803]
+[2023-05-30 10:21:57] INFO root fetch - processPackages [mkdocs-exporter]: New version: [3.0.0] Old Version: [2.1.dev0]
+[2023-05-30 10:21:57] INFO root fetch - processPackages [ms-imputedhours-core]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-30 10:21:57] INFO root fetch - processPackages [mathtranslate]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-05-30 10:21:57] INFO root fetch - processPackages [cg]: New version: [33.0.2] Old Version: [33.0.1]
+[2023-05-30 10:21:57] INFO root fetch - processPackages [macrometa-target-snowflake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 10:21:57] INFO root fetch - processPackages [audresample]: Downloading https://files.pythonhosted.org/packages/e7/68/97a722d7f35d32e7f4772d5809db526189f35ad5b865346a78efbb0a79b3/audresample-1.3.1.tar.gz
+[2023-05-30 10:21:57] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/0f/0e/bf0c1e921d4b318da55753b296e49c63c77491727306c2118c956111a60b/mkdocs_exporter-3.0.0.tar.gz
+[2023-05-30 10:21:57] INFO root fetch - processPackages [ms-imputedhours-core]: Downloading https://files.pythonhosted.org/packages/ff/90/e0f832714ba45e2dcd39f320eb9de406c0307282d752f9c58981fae6e0e1/ms_imputedhours_core-0.3.8.tar.gz
+[2023-05-30 10:21:57] INFO root fetch - processPackages [pyquet]: Downloading https://files.pythonhosted.org/packages/13/8a/a7f62fb201e16698bf8d543426d077c15ac20d31c6459207882a42c03172/pyquet-0.1.4.tar.gz
+[2023-05-30 10:21:57] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/71/90/a5958d09f55e32cdb2aec9f4993fc52bbf32fa5e00d5b426c1093490c5a4/cg-33.0.2.tar.gz
+[2023-05-30 10:21:57] INFO root fetch - processPackages [mathtranslate]: Downloading https://files.pythonhosted.org/packages/fc/ae/92778c6a0ed3d820f7ec3ca0b04ba4b5f32daa481f5aae5f90a82f7ec909/mathtranslate-2.3.4.tar.gz
+[2023-05-30 10:21:57] INFO root fetch - processPackages [mkdocs-exporter]: executing diffoscope
+[2023-05-30 10:21:57] INFO root fetch - processPackages [mkdocs-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_exporter-2.1.dev0.tar.gz tmp/mkdocs_exporter-3.0.0.tar.gz --markdown 20230530/m/mkdocs-exporter/2.1.dev0-3.0.0/diff.md --exclude *.pyd
+[2023-05-30 10:21:57] INFO root fetch - processPackages [pyquet]: executing diffoscope
+[2023-05-30 10:21:57] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/2c/24/a54701e4af24db580b6a0ebca8bd5b2fe476034d48a56a7c5e3e499ad991/nucliadb_contributor_assets-1.0.0.post804-py3-none-any.whl
+[2023-05-30 10:21:57] INFO root fetch - processPackages [pyquet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquet-0.1.3.tar.gz tmp/pyquet-0.1.4.tar.gz --markdown 20230530/p/pyquet/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 10:21:57] INFO root fetch - processPackages [mathtranslate]: executing diffoscope
+[2023-05-30 10:21:57] INFO root fetch - processPackages [mathtranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathtranslate-2.3.3.tar.gz tmp/mathtranslate-2.3.4.tar.gz --markdown 20230530/m/mathtranslate/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-05-30 10:21:57] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-30 10:21:57] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.0.1.tar.gz tmp/cg-33.0.2.tar.gz --markdown 20230530/c/cg/33.0.1-33.0.2/diff.md --exclude *.pyd
+[2023-05-30 10:21:57] INFO root fetch - processPackages [ms-imputedhours-core]: Downloading https://files.pythonhosted.org/packages/47/08/fc2215f9718fc567832b4cbd5b184832fd6649f1d557e8f542da73b3d8d8/ms_imputedhours_core-0.3.9.tar.gz
+[2023-05-30 10:21:57] INFO root fetch - processPackages [macrometa-target-snowflake]: executing diffoscope
+[2023-05-30 10:21:57] INFO root fetch - processPackages [macrometa-target-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-snowflake-0.0.8.tar.gz tmp/macrometa-target-snowflake-0.0.9.tar.gz --markdown 20230530/m/macrometa-target-snowflake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 10:21:57] INFO root fetch - processPackages [audresample]: executing diffoscope
+[2023-05-30 10:21:57] INFO root fetch - processPackages [audresample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audresample-1.3.0.tar.gz tmp/audresample-1.3.1.tar.gz --markdown 20230530/a/audresample/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-30 10:21:57] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-30 10:21:57] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post803-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post804-py3-none-any.whl.zip --markdown 20230530/n/nucliadb-contributor-assets/1.0.0.post803-1.0.0.post804/diff.md --exclude *.pyd
+[2023-05-30 10:21:57] INFO root fetch - processPackages [ms-imputedhours-core]: executing diffoscope
+[2023-05-30 10:21:57] INFO root fetch - processPackages [ms-imputedhours-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_imputedhours_core-0.3.8.tar.gz tmp/ms_imputedhours_core-0.3.9.tar.gz --markdown 20230530/m/ms-imputedhours-core/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-30 10:21:58] INFO root fetch - main [MainThread]: End processing [mkdocs-exporter]: success
+[2023-05-30 10:21:58] INFO root fetch - main [MainThread]: End processing [pyquet]: success
+[2023-05-30 10:21:59] INFO root fetch - main [MainThread]: End processing [macrometa-target-snowflake]: success
+[2023-05-30 10:21:59] INFO root fetch - main [MainThread]: End processing [ms-imputedhours-core]: success
+[2023-05-30 10:21:59] INFO root fetch - main [MainThread]: End processing [audresample]: success
+[2023-05-30 10:21:59] INFO root fetch - main [MainThread]: End processing [mathtranslate]: success
+[2023-05-30 10:22:08] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-30 10:22:10] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-30 10:22:10] INFO root fetch - main [MainThread]: Store serial: [18299355]
