@@ -11481,3 +11481,121 @@
 [2023-05-30 13:32:22] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
 [2023-05-30 13:32:23] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
 [2023-05-30 13:32:23] INFO root fetch - main [MainThread]: Store serial: [18301385]
+[2023-05-30 13:37:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18301385]
+[2023-05-30 13:37:32] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-30 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyre-check-nightly
+[2023-05-30 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: signax
+[2023-05-30 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchx-nightly
+[2023-05-30 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scalib
+[2023-05-30 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cycparser
+[2023-05-30 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyDust
+[2023-05-30 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu121
+[2023-05-30 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sd-meh
+[2023-05-30 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qtb-plot
+[2023-05-30 13:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: difai
+[2023-05-30 13:37:32] INFO root fetch - processPackages [sd-meh]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-30 13:37:32] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-30 13:37:32] INFO root fetch - processPackages [PyDust]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 13:37:32] INFO root fetch - processPackages [scalib]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-05-30 13:37:32] INFO root fetch - processPackages [qtb-plot]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-30 13:37:32] INFO root fetch - processPackages [signax]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 13:37:32] INFO root fetch - processPackages [cycparser]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-30 13:37:32] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-30 13:37:32] INFO root fetch - processPackages [difai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 13:37:32] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101685445044] Old Version: [0.0.101685358641]
+[2023-05-30 13:37:32] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-05-30 13:37:32] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230530/t/torchx-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-30 13:37:32] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/4d/7f/bedb1826471c4738b3516e608ec60720e7871837399a323404cb953f0cb3/sd_meh-0.2.2.tar.gz
+[2023-05-30 13:37:32] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/11/03/b204f1332c788b8d60b1f6c015b831fa8085a212dfb69503e85f1598bd38/qtb_plot-0.3.8.tar.gz
+[2023-05-30 13:37:32] INFO root fetch - processPackages [signax]: Downloading https://files.pythonhosted.org/packages/45/f5/4f5cea793f1cef010e390d7aa08cbe25ceed540233a8d72117a4b039e8cc/signax-0.1.1.tar.gz
+[2023-05-30 13:37:32] INFO root fetch - processPackages [scalib]: Downloading https://files.pythonhosted.org/packages/97/b5/fdbf53207d19ad1569ad740c8d4810d0ea0f6de48a56c31ec5beaeee0fb4/scalib-0.5.4.tar.gz
+[2023-05-30 13:37:32] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/28/11/c6881565febce439d43d58de2e2a17606319196ca25c3c27cef1c63d2daa/difai-0.9.8.tar.gz
+[2023-05-30 13:37:32] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/6b/d1/71386b09c6bd24876af54dce8db7db5049868ab8865248e749caab4c7d6f/pyre_check_nightly-0.0.101685358641-py3-none-manylinux1_x86_64.whl
+[2023-05-30 13:37:32] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 45986110>=10485760
+[2023-05-30 13:37:32] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: invenio-rdm-migrator
+[2023-05-30 13:37:32] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-05-30 13:37:32] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-05-30 13:37:32] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230530/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-30 13:37:32] INFO root fetch - processPackages [cycparser]: Downloading https://files.pythonhosted.org/packages/1c/df/ccef6d8e9998e1f3a0d71ad2d1dccb82149bd4b6761aa0ba04746369db67/cycparser-1.2.8.tar.gz
+[2023-05-30 13:37:32] INFO root fetch - processPackages [invenio-rdm-migrator]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-30 13:37:32] INFO root fetch - processPackages [sd-meh]: executing diffoscope
+[2023-05-30 13:37:32] INFO root fetch - processPackages [sd-meh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd_meh-0.2.1.tar.gz tmp/sd_meh-0.2.2.tar.gz --markdown 20230530/s/sd-meh/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-30 13:37:32] INFO root fetch - processPackages [PyDust]: executing diffoscope
+[2023-05-30 13:37:32] INFO root fetch - processPackages [PyDust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDust-0.0.8.tar.gz tmp/PyDust-0.0.9.tar.gz --markdown 20230530/P/PyDust/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 13:37:32] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/f8/09/7d1db68c5c752de567fec30ef6c66715361c7a8ab440134667aaef9c87d1/difai-0.9.9.tar.gz
+[2023-05-30 13:37:32] INFO root fetch - processPackages [signax]: Downloading https://files.pythonhosted.org/packages/80/90/bfb41d8f7e1107d1111255dd367bb68689c1c2c3ff7ce361f9a027355daf/signax-0.1.2.tar.gz
+[2023-05-30 13:37:32] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/f4/15/03462d32e24c9b67e3379c910f4c9ffaadaa56270659b362e0c45eaeaccd/qtb_plot-0.3.9.tar.gz
+[2023-05-30 13:37:32] INFO root fetch - processPackages [difai]: executing diffoscope
+[2023-05-30 13:37:32] INFO root fetch - processPackages [difai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/difai-0.9.8.tar.gz tmp/difai-0.9.9.tar.gz --markdown 20230530/d/difai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 13:37:33] INFO root fetch - processPackages [cycparser]: Downloading https://files.pythonhosted.org/packages/18/d8/2b7fc87b39a5c7e3e5efb3c4fba10bdea69dddbcaccc22660be5d4666496/cycparser-1.2.9.tar.gz
+[2023-05-30 13:37:33] INFO root fetch - processPackages [qtb-plot]: executing diffoscope
+[2023-05-30 13:37:33] INFO root fetch - processPackages [qtb-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtb_plot-0.3.8.tar.gz tmp/qtb_plot-0.3.9.tar.gz --markdown 20230530/q/qtb-plot/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-30 13:37:33] INFO root fetch - processPackages [signax]: executing diffoscope
+[2023-05-30 13:37:33] INFO root fetch - processPackages [signax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signax-0.1.1.tar.gz tmp/signax-0.1.2.tar.gz --markdown 20230530/s/signax/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 13:37:33] INFO root fetch - processPackages [scalib]: Downloading https://files.pythonhosted.org/packages/b2/3e/5ed2e7ffe6d3699bcfaf60c8ae040241534a017ed9f6c425eab01c8b3b0c/scalib-0.5.5.tar.gz
+[2023-05-30 13:37:33] INFO root fetch - processPackages [cycparser]: executing diffoscope
+[2023-05-30 13:37:33] INFO root fetch - processPackages [cycparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycparser-1.2.8.tar.gz tmp/cycparser-1.2.9.tar.gz --markdown 20230530/c/cycparser/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-30 13:37:33] INFO root fetch - processPackages [invenio-rdm-migrator]: executing diffoscope
+[2023-05-30 13:37:33] INFO root fetch - processPackages [invenio-rdm-migrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-migrator-1.0.0a8.tar.gz tmp/invenio-rdm-migrator-1.0.0a9.tar.gz --markdown 20230530/i/invenio-rdm-migrator/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-30 13:37:33] INFO root fetch - processPackages [scalib]: executing diffoscope
+[2023-05-30 13:37:33] INFO root fetch - processPackages [scalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalib-0.5.4.tar.gz tmp/scalib-0.5.5.tar.gz --markdown 20230530/s/scalib/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-05-30 13:37:34] INFO root fetch - processPackages [sd-meh]: Start processing: bridgecrew
+[2023-05-30 13:37:34] INFO root fetch - main [MainThread]: End processing [sd-meh]: success
+[2023-05-30 13:37:34] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-30 13:37:34] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-30 13:37:34] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230530/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-30 13:37:34] INFO root fetch - processPackages [torchx-nightly]: Start processing: Rabbit-in-a-Blender
+[2023-05-30 13:37:34] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-05-30 13:37:34] INFO root fetch - processPackages [Rabbit-in-a-Blender]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-05-30 13:37:34] INFO root fetch - processPackages [difai]: Start processing: bigdl-nano
+[2023-05-30 13:37:34] INFO root fetch - main [MainThread]: End processing [difai]: success
+[2023-05-30 13:37:34] INFO root fetch - processPackages [PyDust]: Start processing: omero-demo-cleanup
+[2023-05-30 13:37:34] INFO root fetch - main [MainThread]: End processing [PyDust]: success
+[2023-05-30 13:37:34] INFO root fetch - processPackages [omero-demo-cleanup]: New version: [0.2.0] Old Version: [0.1.1.dev0]
+[2023-05-30 13:37:34] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230529]
+[2023-05-30 13:37:34] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/0b/09/46ed7c1a5ac72b5eb9138ef96365e07d7f3862258d06cd76726848b754a5/Rabbit-in-a-Blender-0.0.25.tar.gz
+[2023-05-30 13:37:35] INFO root fetch - processPackages [omero-demo-cleanup]: Downloading https://files.pythonhosted.org/packages/e9/3c/b8bed7091255e7d8e9da365c06775d4bae58d2b5d2e591d306259b24568a/omero-demo-cleanup-0.2.0.tar.gz
+[2023-05-30 13:37:35] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/fb/2f/e07fcb9a2bce3c07db1f9bd8cfb12ef7d3866d089fd97765dfab90bc66c4/bigdl_nano-2.4.0b20230530-py3-none-win_amd64.whl
+[2023-05-30 13:37:35] INFO root fetch - processPackages [qtb-plot]: Start processing: bigdl-chronos
+[2023-05-30 13:37:35] INFO root fetch - main [MainThread]: End processing [qtb-plot]: success
+[2023-05-30 13:37:35] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230529]
+[2023-05-30 13:37:35] INFO root fetch - processPackages [omero-demo-cleanup]: executing diffoscope
+[2023-05-30 13:37:35] INFO root fetch - processPackages [omero-demo-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-demo-cleanup-0.1.1.dev0.tar.gz tmp/omero-demo-cleanup-0.2.0.tar.gz --markdown 20230530/o/omero-demo-cleanup/0.1.1.dev0-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 13:37:35] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/88/8a/2392beb294a704dbe03356ac07cda4fe4c9bc4f242bd6cfda6f2fcc0091e/Rabbit-in-a-Blender-0.0.26.tar.gz
+[2023-05-30 13:37:35] INFO root fetch - processPackages [Rabbit-in-a-Blender]: executing diffoscope
+[2023-05-30 13:37:35] INFO root fetch - processPackages [Rabbit-in-a-Blender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Rabbit-in-a-Blender-0.0.25.tar.gz tmp/Rabbit-in-a-Blender-0.0.26.tar.gz --markdown 20230530/R/Rabbit-in-a-Blender/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-05-30 13:37:35] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/ae/17/76fa7cafa1baaa1bbc1152fa0d204f2b5a70d1f90128eeed353bb95ec16d/bigdl_chronos-2.4.0b20230530-py3-none-win_amd64.whl
+[2023-05-30 13:37:35] INFO root fetch - processPackages [cycparser]: Start processing: wicked-expressions
+[2023-05-30 13:37:35] INFO root fetch - main [MainThread]: End processing [cycparser]: success
+[2023-05-30 13:37:35] INFO root fetch - processPackages [wicked-expressions]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-30 13:37:35] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-05-30 13:37:35] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230529-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230530-py3-none-win_amd64.whl.zip --markdown 20230530/b/bigdl-chronos/2.4.0b20230529-2.4.0b20230530/diff.md --exclude *.pyd
+[2023-05-30 13:37:35] INFO root fetch - processPackages [invenio-rdm-migrator]: Start processing: bigdl-serving
+[2023-05-30 13:37:35] INFO root fetch - main [MainThread]: End processing [invenio-rdm-migrator]: success
+[2023-05-30 13:37:35] INFO root fetch - processPackages [wicked-expressions]: Downloading https://files.pythonhosted.org/packages/43/6c/e90a8408bf639940bcfc75c24e6ecc64fa181ad39a4d00fd423c7fcbd128/wicked_expressions-0.6.2.tar.gz
+[2023-05-30 13:37:35] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230530] Old Version: [2.4.0b20230529]
+[2023-05-30 13:37:35] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-05-30 13:37:35] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230529-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230530-py3-none-win_amd64.whl.zip --markdown 20230530/b/bigdl-nano/2.4.0b20230529-2.4.0b20230530/diff.md --exclude *.pyd
+[2023-05-30 13:37:35] INFO root fetch - processPackages [wicked-expressions]: executing diffoscope
+[2023-05-30 13:37:35] INFO root fetch - processPackages [wicked-expressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wicked_expressions-0.6.1.tar.gz tmp/wicked_expressions-0.6.2.tar.gz --markdown 20230530/w/wicked-expressions/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-30 13:37:35] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/9c/8e/d402e182da9ab4cb1c9e8c51088b27598a236b5d2e9f789adccc83337c71/bigdl_serving-2.4.0b20230530-py2.py3-none-any.whl
+[2023-05-30 13:37:36] INFO root fetch - processPackages [bridgecrew]: Start processing: moped
+[2023-05-30 13:37:36] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-30 13:37:36] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-05-30 13:37:36] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230529-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230530-py2.py3-none-any.whl.zip --markdown 20230530/b/bigdl-serving/2.4.0b20230529-2.4.0b20230530/diff.md --exclude *.pyd
+[2023-05-30 13:37:36] INFO root fetch - processPackages [moped]: New version: [1rc1] Old Version: [1.9.9]
+[2023-05-30 13:37:36] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/fa/e5/eae730d18630be4dc4e22bf10412607b7b68e8adba0ea08af0f1a74ce2ba/moped-1.9.9.tar.gz
+[2023-05-30 13:37:36] INFO root fetch - main [MainThread]: End processing [omero-demo-cleanup]: success
+[2023-05-30 13:37:36] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/73/71/391f981ecc1118b3a2d5699507b8d46eba5a3f8290bcf8184f6e741fef40/moped-1rc1.tar.gz
+[2023-05-30 13:37:37] INFO root fetch - processPackages [moped]: executing diffoscope
+[2023-05-30 13:37:37] INFO root fetch - processPackages [moped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moped-1.9.9.tar.gz tmp/moped-1rc1.tar.gz --markdown 20230530/m/moped/1.9.9-1rc1/diff.md --exclude *.pyd
+[2023-05-30 13:37:37] INFO root fetch - main [MainThread]: End processing [signax]: success
+[2023-05-30 13:37:37] INFO root fetch - main [MainThread]: End processing [wicked-expressions]: success
+[2023-05-30 13:37:37] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-05-30 13:37:37] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-05-30 13:37:38] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-05-30 13:37:38] INFO root fetch - main [MainThread]: End processing [moped]: success
+[2023-05-30 13:37:38] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-05-30 13:37:39] INFO root fetch - main [MainThread]: End processing [scalib]: success
+[2023-05-30 13:37:40] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
+[2023-05-30 13:37:40] INFO root fetch - main [MainThread]: Store serial: [18301443]
