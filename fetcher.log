@@ -6538,3 +6538,31 @@
 [2023-05-30 08:31:31] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-05-30 08:32:44] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-05-30 08:32:44] INFO root fetch - main [MainThread]: Store serial: [18298406]
+[2023-05-30 08:37:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298406]
+[2023-05-30 08:37:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-30 08:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulse-data-utils
+[2023-05-30 08:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydflow
+[2023-05-30 08:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-exporter
+[2023-05-30 08:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d0da
+[2023-05-30 08:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ggvlib
+[2023-05-30 08:37:52] INFO root fetch - processPackages [mkdocs-exporter]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-30 08:37:52] WARNING root fetch - processPackages [d0da]: Skipping, unable to determine old version
+[2023-05-30 08:37:52] INFO root fetch - main [MainThread]: End processing [d0da] error
+[2023-05-30 08:37:53] WARNING root fetch - processPackages [pulse-data-utils]: Skipping, unable to determine old version
+[2023-05-30 08:37:53] INFO root fetch - main [MainThread]: End processing [pulse-data-utils] error
+[2023-05-30 08:37:53] INFO root fetch - processPackages [ggvlib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 08:37:53] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-05-30 08:37:53] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-05-30 08:37:53] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230530/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-05-30 08:37:53] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/03/29/b86c88032370ca04b4056093e9efaa4472b09f81792ec847239cde80b801/mkdocs_exporter-2.0.1.tar.gz
+[2023-05-30 08:37:53] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/c8/a4/76d1f8bec5b3584ef0e86ce8e53ab63916ffc36fcb0d2d8b4f0d337700c3/ggvlib-0.2.8.tar.gz
+[2023-05-30 08:37:53] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/ba/6f/7ff3fbe2f058a1895d1b23f4923455cf82c92352c7d34fb106e26bddb8c1/mkdocs_exporter-2.0.2.tar.gz
+[2023-05-30 08:37:53] INFO root fetch - processPackages [mkdocs-exporter]: executing diffoscope
+[2023-05-30 08:37:53] INFO root fetch - processPackages [mkdocs-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_exporter-2.0.1.tar.gz tmp/mkdocs_exporter-2.0.2.tar.gz --markdown 20230530/m/mkdocs-exporter/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-30 08:37:53] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/34/94/a276f716d8fabdf90cef3cc2a1fccf75e3e71e43c098bb84478fc31b0ff6/ggvlib-0.2.9.tar.gz
+[2023-05-30 08:37:53] INFO root fetch - processPackages [ggvlib]: executing diffoscope
+[2023-05-30 08:37:53] INFO root fetch - processPackages [ggvlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggvlib-0.2.8.tar.gz tmp/ggvlib-0.2.9.tar.gz --markdown 20230530/g/ggvlib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 08:37:54] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-05-30 08:37:54] INFO root fetch - main [MainThread]: End processing [ggvlib]: success
+[2023-05-30 08:38:45] INFO root fetch - main [MainThread]: End processing [mkdocs-exporter]: success
+[2023-05-30 08:38:45] INFO root fetch - main [MainThread]: Store serial: [18298426]
