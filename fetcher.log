@@ -16422,3 +16422,206 @@
 [2023-05-30 17:34:42] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-30 17:34:49] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2023-05-30 17:34:49] INFO root fetch - main [MainThread]: Store serial: [18304484]
+[2023-05-30 17:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18304484]
+[2023-05-30 17:40:06] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langdash
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typst-sympy-calculator
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isoCycle
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emulsion
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parseq-XAS
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ploomes-api-client
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: superfluid
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jianglab
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kodexa-cli
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ipymock
+[2023-05-30 17:40:06] INFO root fetch - processPackages [langdash]: New version: [0.0.2.dev2] Old Version: [0.0.2.dev1]
+[2023-05-30 17:40:06] INFO root fetch - processPackages [parseq-XAS]: New version: [2023.5.0] Old Version: [0.9.0]
+[2023-05-30 17:40:06] INFO root fetch - processPackages [isoCycle]: New version: [0.1.0] Old Version: [0.0.71]
+[2023-05-30 17:40:06] INFO root fetch - processPackages [emulsion]: New version: [1.3b1] Old Version: [1.2rc3]
+[2023-05-30 17:40:06] INFO root fetch - processPackages [typst-sympy-calculator]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ploomes-api-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 17:40:06] INFO root fetch - processPackages [superfluid]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ipymock]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-30 17:40:06] INFO root fetch - processPackages [kodexa-cli]: New version: [6.2.25123461736] Old Version: [6.2.25123303054]
+[2023-05-30 17:40:06] INFO root fetch - processPackages [jianglab]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-30 17:40:06] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/0d/79/933b691397ed40251ec6a0eabc98ad569fc89559960aa2c791e61b03a739/isoCycle-0.0.71.tar.gz
+[2023-05-30 17:40:06] INFO root fetch - processPackages [emulsion]: Downloading https://files.pythonhosted.org/packages/01/39/722c4eebd27eab3b48858f512df88fd25bfa0a44b2acf2c4a067700204fd/emulsion-1.2rc3.tar.gz
+[2023-05-30 17:40:06] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/82/84/6af5af0d22938d83bb5725c2d6784c6b2e7879ecdf0bf6b6b0d0f7583631/kodexa_cli-6.2.25123461736.tar.gz
+[2023-05-30 17:40:06] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 12846401>=10485760
+[2023-05-30 17:40:06] INFO root fetch - processPackages [isoCycle]: Start processing: torchbones
+[2023-05-30 17:40:06] INFO root fetch - processPackages [jianglab]: Downloading https://files.pythonhosted.org/packages/80/9d/54d19e39b8419b733a88a3cfafe0ff1f3b2951df98bab461fbf65d6f393b/jianglab-0.2.3.tar.gz
+[2023-05-30 17:40:06] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ipymock]: Downloading https://files.pythonhosted.org/packages/eb/f1/005e6f3f2fc9a96b7517275ef92dcff1f0239c2a9187706f49b5e7fc9ba0/ipymock-1.1.1.tar.gz
+[2023-05-30 17:40:06] INFO root fetch - processPackages [parseq-XAS]: Downloading https://files.pythonhosted.org/packages/4e/6a/bf603f118a156e84fbecc1a92255844738e17a2ef7296924bbe267f74a92/parseq_XAS-0.9.0.zip
+[2023-05-30 17:40:06] INFO root fetch - processPackages [torchbones]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-30 17:40:06] INFO root fetch - processPackages [typst-sympy-calculator]: Downloading https://files.pythonhosted.org/packages/d2/d9/936f4244740747e091c8734d75b69724534c8c4bc17236f7f28c4c721baf/typst_sympy_calculator-0.4.5-py3-none-any.whl
+[2023-05-30 17:40:06] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-05-30 17:40:06] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.2.25123303054.tar.gz tmp/kodexa_cli-6.2.25123461736.tar.gz --markdown 20230530/k/kodexa-cli/6.2.25123303054-6.2.25123461736/diff.md --exclude *.pyd
+[2023-05-30 17:40:06] INFO root fetch - processPackages [jianglab]: executing diffoscope
+[2023-05-30 17:40:06] INFO root fetch - processPackages [jianglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jianglab-0.2.2.tar.gz tmp/jianglab-0.2.3.tar.gz --markdown 20230530/j/jianglab/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-30 17:40:06] INFO root fetch - processPackages [superfluid]: Downloading https://files.pythonhosted.org/packages/57/56/7831bfea3e8cb807d42426f0b3f5bfbd8ef477e48d857158ad9203939514/superfluid-0.2.1.tar.gz
+[2023-05-30 17:40:06] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/f2/f3/2f993feea7e32c9f1f44bdf30ce0fabafc1f6ae98d87b78f8b286f041530/langdash-0.0.2.dev2.tar.gz
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ploomes-api-client]: Downloading https://files.pythonhosted.org/packages/2c/39/3276e7f814dcf103648b94c78c7916970a586f4af284ac8a4f9dd95d534f/ploomes-api-client-0.1.3.tar.gz
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ploomes-api-client]: executing diffoscope
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ploomes-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomes-api-client-0.1.2.tar.gz tmp/ploomes-api-client-0.1.3.tar.gz --markdown 20230530/p/ploomes-api-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 17:40:06] INFO root fetch - processPackages [typst-sympy-calculator]: executing diffoscope
+[2023-05-30 17:40:06] INFO root fetch - processPackages [ipymock]: Downloading https://files.pythonhosted.org/packages/15/73/8652468197e01563d5d76276c253ba156838db34aa7bed1db7c2245786a8/ipymock-1.1.2.tar.gz
+[2023-05-30 17:40:06] INFO root fetch - processPackages [typst-sympy-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typst_sympy_calculator-0.4.4-py3-none-any.whl.zip tmp/typst_sympy_calculator-0.4.5-py3-none-any.whl.zip --markdown 20230530/t/typst-sympy-calculator/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-30 17:40:06] INFO root fetch - processPackages [torchbones]: Downloading https://files.pythonhosted.org/packages/5b/cc/9424a0e2bbc80cf236b200a9bf005140f9c38ee643b176f65b1bb734a4ea/torchbones-1.1.4.tar.gz
+[2023-05-30 17:40:06] INFO root fetch - processPackages [emulsion]: executing diffoscope
+[2023-05-30 17:40:06] INFO root fetch - processPackages [emulsion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emulsion-1.2rc3.tar.gz tmp/emulsion-1.3beta1.tar.gz --markdown 20230530/e/emulsion/1.2rc3-1.3b1/diff.md --exclude *.pyd
+[2023-05-30 17:40:07] INFO root fetch - processPackages [superfluid]: executing diffoscope
+[2023-05-30 17:40:07] INFO root fetch - processPackages [superfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superfluid-0.2.0.tar.gz tmp/superfluid-0.2.1.tar.gz --markdown 20230530/s/superfluid/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-30 17:40:07] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-05-30 17:40:07] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-0.0.2.dev1.tar.gz tmp/langdash-0.0.2.dev2.tar.gz --markdown 20230530/l/langdash/0.0.2.dev1-0.0.2.dev2/diff.md --exclude *.pyd
+[2023-05-30 17:40:07] INFO root fetch - processPackages [torchbones]: executing diffoscope
+[2023-05-30 17:40:07] INFO root fetch - processPackages [torchbones]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchbones-1.1.3.tar.gz tmp/torchbones-1.1.4.tar.gz --markdown 20230530/t/torchbones/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-30 17:40:07] INFO root fetch - processPackages [ipymock]: executing diffoscope
+[2023-05-30 17:40:07] INFO root fetch - processPackages [ipymock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymock-1.1.1.tar.gz tmp/ipymock-1.1.2.tar.gz --markdown 20230530/i/ipymock/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-30 17:40:08] INFO root fetch - processPackages [kodexa-cli]: Start processing: pop-create-idem
+[2023-05-30 17:40:08] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-05-30 17:40:08] INFO root fetch - processPackages [pop-create-idem]: New version: [3.5.0] Old Version: [3.4.1]
+[2023-05-30 17:40:08] INFO root fetch - processPackages [jianglab]: Start processing: molecule-qemu
+[2023-05-30 17:40:08] INFO root fetch - main [MainThread]: End processing [jianglab]: success
+[2023-05-30 17:40:08] INFO root fetch - processPackages [molecule-qemu]: New version: [0.4.0rc1] Old Version: [0.4.0rc0]
+[2023-05-30 17:40:08] INFO root fetch - processPackages [pop-create-idem]: Downloading https://files.pythonhosted.org/packages/6b/ac/60f98a2004f05c3a782fefc6d487db82722b192c943e3856609dfc735a38/pop-create-idem-3.4.1.tar.gz
+[2023-05-30 17:40:08] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/49/d1/f2eea50631f214a420ae6cab6c7f96660ab306c2d37fd9894014231bf4f5/molecule-qemu-0.4.0rc1.tar.gz
+[2023-05-30 17:40:08] INFO root fetch - processPackages [torchbones]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-05-30 17:40:08] INFO root fetch - main [MainThread]: End processing [torchbones]: success
+[2023-05-30 17:40:08] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-30 17:40:08] INFO root fetch - processPackages [molecule-qemu]: executing diffoscope
+[2023-05-30 17:40:08] INFO root fetch - processPackages [molecule-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-qemu-0.4.0rc0.tar.gz tmp/molecule-qemu-0.4.0rc1.tar.gz --markdown 20230530/m/molecule-qemu/0.4.0rc0-0.4.0rc1/diff.md --exclude *.pyd
+[2023-05-30 17:40:08] INFO root fetch - processPackages [ploomes-api-client]: Start processing: Fletxible
+[2023-05-30 17:40:08] INFO root fetch - main [MainThread]: End processing [ploomes-api-client]: success
+[2023-05-30 17:40:08] INFO root fetch - processPackages [Fletxible]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-30 17:40:09] INFO root fetch - processPackages [pop-create-idem]: Downloading https://files.pythonhosted.org/packages/d5/d8/f3147fab87d707c9db907f5a5bffa93c3a10e4e7a6e42635a835662aaf42/pop-create-idem-3.5.0.tar.gz
+[2023-05-30 17:40:09] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/af/f0/42609e0bf23adc56082bba58dfb0204db8bacd6dafca8c21f9842c2d9fd5/nonebot_plugin_stable_diffusion_diao-0.1.9.tar.gz
+[2023-05-30 17:40:09] INFO root fetch - processPackages [pop-create-idem]: executing diffoscope
+[2023-05-30 17:40:09] INFO root fetch - processPackages [pop-create-idem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop-create-idem-3.4.1.tar.gz tmp/pop-create-idem-3.5.0.tar.gz --markdown 20230530/p/pop-create-idem/3.4.1-3.5.0/diff.md --exclude *.pyd
+[2023-05-30 17:40:09] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/ef/50/344dc5df4ec056892b17aebfa6f94aa0639dc887e148936578073f33e8c0/Fletxible-0.5.8.tar.gz
+[2023-05-30 17:40:09] INFO root fetch - processPackages [superfluid]: Start processing: kronbinations
+[2023-05-30 17:40:09] INFO root fetch - main [MainThread]: End processing [superfluid]: success
+[2023-05-30 17:40:09] INFO root fetch - processPackages [typst-sympy-calculator]: Start processing: iotcore-api
+[2023-05-30 17:40:09] INFO root fetch - main [MainThread]: End processing [typst-sympy-calculator]: success
+[2023-05-30 17:40:09] INFO root fetch - processPackages [kronbinations]: New version: [1.9] Old Version: [1.8]
+[2023-05-30 17:40:09] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/09/72/426a0d9dc152026e87b05ac6080a7e4d1d9c2555933c26c11a5abd0536ca/nonebot_plugin_stable_diffusion_diao-0.2.0.tar.gz
+[2023-05-30 17:40:09] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/e8/10/5c6e4965cede728d8cb9bfe32346b21cdd417f897dd1cc0641338da5ee4f/Fletxible-0.5.9.tar.gz
+[2023-05-30 17:40:09] INFO root fetch - processPackages [iotcore-api]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-30 17:40:09] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-05-30 17:40:09] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.1.9.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.2.0.tar.gz --markdown 20230530/n/nonebot-plugin-stable-diffusion-diao/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 17:40:09] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-05-30 17:40:09] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.5.8.tar.gz tmp/Fletxible-0.5.9.tar.gz --markdown 20230530/F/Fletxible/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-30 17:40:09] INFO root fetch - processPackages [ipymock]: Start processing: weni-rp-apps
+[2023-05-30 17:40:09] INFO root fetch - main [MainThread]: End processing [ipymock]: success
+[2023-05-30 17:40:09] INFO root fetch - processPackages [iotcore-api]: Downloading https://files.pythonhosted.org/packages/26/49/5dc3b0f552fd2907551ce019955d4203414dd66c32b48452e8f7a57a55ec/iotcore_api-1.1.3.tar.gz
+[2023-05-30 17:40:09] INFO root fetch - processPackages [kronbinations]: executing diffoscope
+[2023-05-30 17:40:09] INFO root fetch - processPackages [kronbinations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kronbinations-1.8.tar.gz tmp/kronbinations-1.9.tar.gz --markdown 20230530/k/kronbinations/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-30 17:40:09] INFO root fetch - processPackages [parseq-XAS]: Downloading https://files.pythonhosted.org/packages/37/8b/5b72142d685f679e3c87d4315497adefc647387e58a4738c1287e343d25d/parseq_XAS-2023.5.0.zip
+[2023-05-30 17:40:09] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.2a6] Old Version: [2.4.2a5]
+[2023-05-30 17:40:09] INFO root fetch - processPackages [parseq-XAS]: executing diffoscope
+[2023-05-30 17:40:09] INFO root fetch - processPackages [parseq-XAS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parseq_XAS-0.9.0.zip tmp/parseq_XAS-2023.5.0.zip --markdown 20230530/p/parseq-XAS/0.9.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-30 17:40:09] INFO root fetch - processPackages [iotcore-api]: executing diffoscope
+[2023-05-30 17:40:09] INFO root fetch - processPackages [iotcore-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotcore_api-1.1.2.tar.gz tmp/iotcore_api-1.1.3.tar.gz --markdown 20230530/i/iotcore-api/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-30 17:40:10] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/c1/3e/e93d1f0067a24e977be7d89edc43602cbeab705807c9808c541b6eec9d77/weni_rp_apps-2.4.2a6.tar.gz
+[2023-05-30 17:40:10] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-05-30 17:40:10] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.2a5.tar.gz tmp/weni_rp_apps-2.4.2a6.tar.gz --markdown 20230530/w/weni-rp-apps/2.4.2a5-2.4.2a6/diff.md --exclude *.pyd
+[2023-05-30 17:40:10] INFO root fetch - processPackages [molecule-qemu]: Start processing: mercury-settrie
+[2023-05-30 17:40:10] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
+[2023-05-30 17:40:10] WARNING root fetch - processPackages [mercury-settrie]: Skipping, unable to determine old version
+[2023-05-30 17:40:10] INFO root fetch - main [MainThread]: End processing [mercury-settrie] error
+[2023-05-30 17:40:11] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-05-30 17:40:11] INFO root fetch - main [MainThread]: End processing [kronbinations]: success
+[2023-05-30 17:40:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-05-30 17:40:11] ERROR root fetch - processPackages [parseq-XAS]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 108: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invalid start byte
+
+[2023-05-30 17:40:11] INFO root fetch - main [MainThread]: End processing [parseq-XAS] error
+[2023-05-30 17:40:12] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-05-30 17:40:12] INFO root fetch - main [MainThread]: End processing [emulsion]: success
+[2023-05-30 17:40:12] INFO root fetch - main [MainThread]: End processing [iotcore-api]: success
+[2023-05-30 17:40:12] INFO root fetch - main [MainThread]: End processing [pop-create-idem]: success
+[2023-05-30 17:40:12] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-05-30 17:40:12] INFO root fetch - main [MainThread]: Store serial: [18304537]
