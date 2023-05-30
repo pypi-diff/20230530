@@ -12299,3 +12299,71 @@
 [2023-05-30 14:15:03] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-05-30 14:15:09] INFO root fetch - main [MainThread]: End processing [DMCpy]: success
 [2023-05-30 14:15:09] INFO root fetch - main [MainThread]: Store serial: [18302007]
+[2023-05-30 14:20:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18302007]
+[2023-05-30 14:20:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-30 14:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: buteo
+[2023-05-30 14:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-30 14:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-identity-sdk
+[2023-05-30 14:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rpi-reactive-gpio
+[2023-05-30 14:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zh-langchain
+[2023-05-30 14:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-exid
+[2023-05-30 14:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leap-model-parser
+[2023-05-30 14:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: returnn
+[2023-05-30 14:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytorch-partial-tagger
+[2023-05-30 14:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: debloat
+[2023-05-30 14:20:19] INFO root fetch - processPackages [torch-exid]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 14:20:19] INFO root fetch - processPackages [zh-langchain]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-30 14:20:19] INFO root fetch - processPackages [rpi-reactive-gpio]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 14:20:19] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 14:20:19] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 14:20:19] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-30 14:20:19] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2448]
+[2023-05-30 14:20:19] INFO root fetch - processPackages [returnn]: New version: [1.20230530.134944] Old Version: [1.20230526.180133]
+[2023-05-30 14:20:19] INFO root fetch - processPackages [debloat]: New version: [1.4.0] Old Version: [1.3.2.2]
+[2023-05-30 14:20:19] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-30 14:20:19] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 14:20:19] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-05-30 14:20:19] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230530/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 14:20:19] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-05-30 14:20:19] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.98.tar.gz tmp/leap_model_parser-0.1.99.tar.gz --markdown 20230530/l/leap-model-parser/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-30 14:20:19] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/06/92/2a576f93b9729f4bf5f7a1e33b933220e4af1397e295f739e2be45a15e4a/finbourne-identity-sdk-0.0.2448.tar.gz
+[2023-05-30 14:20:19] ERROR root fetch - processPackages [pytorch-partial-tagger]: Unable to get metadata: No such project 'pytorch-partial-tagger'
+[2023-05-30 14:20:19] INFO root fetch - processPackages [pytorch-partial-tagger]: Start processing: codercore
+[2023-05-30 14:20:19] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger] error
+[2023-05-30 14:20:19] INFO root fetch - processPackages [torch-exid]: Downloading https://files.pythonhosted.org/packages/11/85/9b410c5cda0eaed2009a1cefe3a267f4cc748821b72411db47b90086658a/torch_exid-0.1.3.tar.gz
+[2023-05-30 14:20:19] INFO root fetch - processPackages [rpi-reactive-gpio]: Downloading https://files.pythonhosted.org/packages/d6/5a/f1a2f602e0c13ae3c1bf2d37a798747d409ed01b40cb6008d4085a225ef0/rpi_reactive_gpio-0.1.3.tar.gz
+[2023-05-30 14:20:19] INFO root fetch - processPackages [codercore]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-30 14:20:19] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/bd/f3/612d5d67c829670acab1df3c858986a080e040b2f91479adbedb5db4495d/returnn-1.20230526.180133.tar.gz
+[2023-05-30 14:20:19] INFO root fetch - processPackages [zh-langchain]: Downloading https://files.pythonhosted.org/packages/a6/fb/f594be5a1a6420cc0ef88f6d1aee2e81e076153e3336e799ee3cfa007c89/zh-langchain-0.1.4.tar.gz
+[2023-05-30 14:20:20] WARNING root fetch - processPackages [zh-langchain]: Skipping package: exceeds size limit 17374571>=10485760
+[2023-05-30 14:20:20] INFO root fetch - processPackages [zh-langchain]: Start processing: tuxrun
+[2023-05-30 14:20:20] INFO root fetch - main [MainThread]: End processing [zh-langchain] error
+[2023-05-30 14:20:20] INFO root fetch - processPackages [torch-exid]: executing diffoscope
+[2023-05-30 14:20:20] INFO root fetch - processPackages [torch-exid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_exid-0.1.2.tar.gz tmp/torch_exid-0.1.3.tar.gz --markdown 20230530/t/torch-exid/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 14:20:20] INFO root fetch - processPackages [debloat]: Downloading https://files.pythonhosted.org/packages/fb/19/4c79515191da87044e22e2334087c5692b3a82d05766606aad018834e9fa/debloat-1.3.2.2.tar.gz
+[2023-05-30 14:20:20] INFO root fetch - processPackages [tuxrun]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-30 14:20:20] INFO root fetch - processPackages [codercore]: executing diffoscope
+[2023-05-30 14:20:20] INFO root fetch - processPackages [codercore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codercore-2.0.0.tar.gz tmp/codercore-2.1.0.tar.gz --markdown 20230530/c/codercore/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-30 14:20:20] INFO root fetch - processPackages [rpi-reactive-gpio]: executing diffoscope
+[2023-05-30 14:20:20] INFO root fetch - processPackages [rpi-reactive-gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpi_reactive_gpio-0.1.2.tar.gz tmp/rpi_reactive_gpio-0.1.3.tar.gz --markdown 20230530/r/rpi-reactive-gpio/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 14:20:20] INFO root fetch - processPackages [tuxrun]: executing diffoscope
+[2023-05-30 14:20:20] INFO root fetch - processPackages [tuxrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxrun-0.9.5.tar.gz tmp/tuxrun-0.9.6.tar.gz --markdown 20230530/t/tuxrun/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-30 14:20:20] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/6e/dd/ce330efa9ab12a3da8df3f4d7b29a9c6dcac70f6982c85f36bf4a0dc0922/returnn-1.20230530.134944.tar.gz
+[2023-05-30 14:20:20] INFO root fetch - processPackages [debloat]: Downloading https://files.pythonhosted.org/packages/03/fe/fb77479ca2a551008835615245272f57029e900feffc6ee1a5bfe6a8e151/debloat-1.4.0.tar.gz
+[2023-05-30 14:20:20] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-05-30 14:20:20] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2448.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230530/f/finbourne-identity-sdk/0.0.2448-0.0.840/diff.md --exclude *.pyd
+[2023-05-30 14:20:20] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-30 14:20:20] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230526.180133.tar.gz tmp/returnn-1.20230530.134944.tar.gz --markdown 20230530/r/returnn/1.20230526.180133-1.20230530.134944/diff.md --exclude *.pyd
+[2023-05-30 14:20:20] INFO root fetch - processPackages [debloat]: executing diffoscope
+[2023-05-30 14:20:20] INFO root fetch - processPackages [debloat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debloat-1.3.2.2.tar.gz tmp/debloat-1.4.0.tar.gz --markdown 20230530/d/debloat/1.3.2.2-1.4.0/diff.md --exclude *.pyd
+[2023-05-30 14:20:21] INFO root fetch - main [MainThread]: End processing [rpi-reactive-gpio]: success
+[2023-05-30 14:20:21] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-30 14:20:22] INFO root fetch - main [MainThread]: End processing [torch-exid]: success
+[2023-05-30 14:20:22] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-05-30 14:20:22] INFO root fetch - main [MainThread]: End processing [debloat]: success
+[2023-05-30 14:20:22] INFO root fetch - main [MainThread]: End processing [tuxrun]: success
+[2023-05-30 14:20:22] INFO root fetch - main [MainThread]: End processing [codercore]: success
+[2023-05-30 14:20:22] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-05-30 14:20:26] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-30 14:20:38] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-05-30 14:20:38] INFO root fetch - main [MainThread]: Store serial: [18302048]
