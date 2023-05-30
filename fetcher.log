@@ -6469,3 +6469,47 @@
 [2023-05-30 08:20:56] INFO root fetch - main [MainThread]: End processing [typed-api-framework]: success
 [2023-05-30 08:20:59] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-30 08:20:59] INFO root fetch - main [MainThread]: Store serial: [18298349]
+[2023-05-30 08:26:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298349]
+[2023-05-30 08:26:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-30 08:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: embedbase-client
+[2023-05-30 08:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: winwin
+[2023-05-30 08:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usellm
+[2023-05-30 08:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MeUtils
+[2023-05-30 08:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartlogger
+[2023-05-30 08:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: influxdb-wrapper
+[2023-05-30 08:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyperreal
+[2023-05-30 08:26:08] INFO root fetch - processPackages [influxdb-wrapper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 08:26:08] INFO root fetch - processPackages [winwin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 08:26:08] INFO root fetch - processPackages [embedbase-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-30 08:26:08] INFO root fetch - processPackages [smartlogger]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-05-30 08:26:08] INFO root fetch - processPackages [usellm]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-30 08:26:08] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.9.15.50.17] Old Version: [2023.5.5.13.0.43]
+[2023-05-30 08:26:08] INFO root fetch - processPackages [hyperreal]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-30 08:26:08] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-30 08:26:08] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.5.13.0.43.tar.gz tmp/MeUtils-2023.5.9.15.50.17.tar.gz --markdown 20230530/M/MeUtils/2023.5.5.13.0.43-2023.5.9.15.50.17/diff.md --exclude *.pyd
+[2023-05-30 08:26:08] INFO root fetch - processPackages [influxdb-wrapper]: Downloading https://files.pythonhosted.org/packages/2f/24/8f692f83a0cec760821b3011a2c2db543e78d9670a5cedfa85bad38fff47/influxdb_wrapper-0.0.3.tar.gz
+[2023-05-30 08:26:09] INFO root fetch - processPackages [hyperreal]: Downloading https://files.pythonhosted.org/packages/78/1a/e36cc55f7c23e0f0f8d23bd198f069c08cc3482d56e492b3e3d0ebd21cfd/hyperreal-0.3.0.tar.gz
+[2023-05-30 08:26:09] INFO root fetch - processPackages [embedbase-client]: Downloading https://files.pythonhosted.org/packages/b7/ce/0bced016e5e916a3c937036f523770dbbda69a24979090fcc63bfa049d48/embedbase_client-0.1.8.tar.gz
+[2023-05-30 08:26:09] INFO root fetch - processPackages [usellm]: Downloading https://files.pythonhosted.org/packages/8c/2a/4f7b45b194406acad05d83f8da3b83ee0ac90aa4afe06529b8b03078a6d6/usellm-0.0.5.tar.gz
+[2023-05-30 08:26:09] INFO root fetch - processPackages [winwin]: executing diffoscope
+[2023-05-30 08:26:09] INFO root fetch - processPackages [winwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winwin-0.0.8.tar.gz tmp/winwin-0.0.9.tar.gz --markdown 20230530/w/winwin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 08:26:09] INFO root fetch - processPackages [smartlogger]: executing diffoscope
+[2023-05-30 08:26:09] INFO root fetch - processPackages [smartlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlogger-0.0.1.dev8.tar.gz tmp/smartlogger-0.0.1.dev9.tar.gz --markdown 20230530/s/smartlogger/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-30 08:26:09] INFO root fetch - processPackages [influxdb-wrapper]: Downloading https://files.pythonhosted.org/packages/35/04/7701f036b65c0b68509376ada448dee815184e0d0e3feef54b76a6585ce5/influxdb_wrapper-0.0.4.tar.gz
+[2023-05-30 08:26:09] INFO root fetch - processPackages [usellm]: executing diffoscope
+[2023-05-30 08:26:09] INFO root fetch - processPackages [embedbase-client]: executing diffoscope
+[2023-05-30 08:26:09] INFO root fetch - processPackages [usellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usellm-0.0.4.tar.gz tmp/usellm-0.0.5.tar.gz --markdown 20230530/u/usellm/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 08:26:09] INFO root fetch - processPackages [embedbase-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedbase_client-0.1.7.tar.gz tmp/embedbase_client-0.1.8.tar.gz --markdown 20230530/e/embedbase-client/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-30 08:26:09] INFO root fetch - processPackages [hyperreal]: Downloading https://files.pythonhosted.org/packages/c5/27/bb880cdcc8701e68594d2712f458ab54178d4b569884485eabee96369385/hyperreal-0.3.1.tar.gz
+[2023-05-30 08:26:09] INFO root fetch - processPackages [influxdb-wrapper]: executing diffoscope
+[2023-05-30 08:26:09] INFO root fetch - processPackages [influxdb-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb_wrapper-0.0.3.tar.gz tmp/influxdb_wrapper-0.0.4.tar.gz --markdown 20230530/i/influxdb-wrapper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 08:26:09] INFO root fetch - processPackages [hyperreal]: executing diffoscope
+[2023-05-30 08:26:09] INFO root fetch - processPackages [hyperreal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperreal-0.3.0.tar.gz tmp/hyperreal-0.3.1.tar.gz --markdown 20230530/h/hyperreal/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-30 08:26:10] INFO root fetch - main [MainThread]: End processing [winwin]: success
+[2023-05-30 08:26:10] INFO root fetch - main [MainThread]: End processing [smartlogger]: success
+[2023-05-30 08:26:10] INFO root fetch - main [MainThread]: End processing [usellm]: success
+[2023-05-30 08:26:10] INFO root fetch - main [MainThread]: End processing [embedbase-client]: success
+[2023-05-30 08:26:10] INFO root fetch - main [MainThread]: End processing [influxdb-wrapper]: success
+[2023-05-30 08:26:11] INFO root fetch - main [MainThread]: End processing [hyperreal]: success
+[2023-05-30 08:26:17] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-30 08:26:17] INFO root fetch - main [MainThread]: Store serial: [18298372]
