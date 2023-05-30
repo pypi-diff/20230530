@@ -3501,3 +3501,67 @@
 [2023-05-30 03:19:02] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-30 03:20:54] INFO root fetch - main [MainThread]: End processing [duckdb]: success
 [2023-05-30 03:20:54] INFO root fetch - main [MainThread]: Store serial: [18296620]
+[2023-05-30 03:25:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296620]
+[2023-05-30 03:26:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-30 03:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-subminute
+[2023-05-30 03:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpty
+[2023-05-30 03:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gnssanalysis
+[2023-05-30 03:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: selenium-supporter
+[2023-05-30 03:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-curl
+[2023-05-30 03:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyagrum-nightly
+[2023-05-30 03:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: potato-annotation
+[2023-05-30 03:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: elm-messenger
+[2023-05-30 03:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-pagerduty
+[2023-05-30 03:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datasette-sqlite-vss
+[2023-05-30 03:26:03] WARNING root fetch - processPackages [gpty]: Skipping, unable to determine old version
+[2023-05-30 03:26:03] INFO root fetch - processPackages [gpty]: Start processing: sqlite-vss
+[2023-05-30 03:26:03] INFO root fetch - main [MainThread]: End processing [gpty] error
+[2023-05-30 03:26:03] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 03:26:03] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-05-30 03:26:03] INFO root fetch - processPackages [selenium-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 03:26:03] INFO root fetch - processPackages [potato-annotation]: New version: [1.2.0.9] Old Version: [1.2.0.8]
+[2023-05-30 03:26:03] INFO root fetch - processPackages [elm-messenger]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-30 03:26:03] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-30 03:26:03] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [3.9.0a1678824312] Old Version: [3.9.0a1678231019]
+[2023-05-30 03:26:03] INFO root fetch - processPackages [sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-05-30 03:26:03] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-30 03:26:04] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.1.dev202305251684934970] Old Version: [1.8.1.9.dev202305291685116202]
+[2023-05-30 03:26:04] INFO root fetch - processPackages [potato-annotation]: Downloading https://files.pythonhosted.org/packages/97/11/7b938befc793f6c05a732849dfb983a399f427fd5dd70339b2cbc3dff92b/potato-annotation-1.2.0.8.tar.gz
+[2023-05-30 03:26:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-30 03:26:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230530/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:26:04] INFO root fetch - processPackages [elm-messenger]: Downloading https://files.pythonhosted.org/packages/59/c3/14b64a3804632618c8c70a5f5069391a53a18558d898f493be9649ac43a1/elm-messenger-0.2.3.tar.gz
+[2023-05-30 03:26:04] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-05-30 03:26:04] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.1.9.dev202305291685116202-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.1.dev202305251684934970-cp39-cp39-win_amd64.whl.zip --markdown 20230530/p/pyagrum-nightly/1.8.1.9.dev202305291685116202-1.8.1.dev202305251684934970/diff.md --exclude *.pyd
+[2023-05-30 03:26:04] INFO root fetch - processPackages [elm-messenger]: executing diffoscope
+[2023-05-30 03:26:04] INFO root fetch - processPackages [elm-messenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elm-messenger-0.2.2.tar.gz tmp/elm-messenger-0.2.3.tar.gz --markdown 20230530/e/elm-messenger/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-30 03:26:04] INFO root fetch - processPackages [selenium-supporter]: executing diffoscope
+[2023-05-30 03:26:04] INFO root fetch - processPackages [selenium-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-supporter-0.0.8.tar.gz tmp/selenium-supporter-0.0.9.tar.gz --markdown 20230530/s/selenium-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 03:26:04] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2023-05-30 03:26:04] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20230530/g/gnssanalysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 03:26:04] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-05-30 03:26:04] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230530/s/sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-05-30 03:26:04] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-05-30 03:26:04] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl.zip --markdown 20230530/d/datasette-sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-05-30 03:26:04] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-05-30 03:26:04] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230530/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-30 03:26:04] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2023-05-30 03:26:04] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz --markdown 20230530/p/pulumi-pagerduty/3.9.0a1678231019-3.9.0a1678824312/diff.md --exclude *.pyd
+[2023-05-30 03:26:04] INFO root fetch - processPackages [potato-annotation]: Downloading https://files.pythonhosted.org/packages/9d/d7/657ca751047cfdbe61f3eb4d71e0f6516d6f57ec0b107ab14280493f8c9a/potato-annotation-1.2.0.9.tar.gz
+[2023-05-30 03:26:04] INFO root fetch - processPackages [potato-annotation]: executing diffoscope
+[2023-05-30 03:26:04] INFO root fetch - processPackages [potato-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potato-annotation-1.2.0.8.tar.gz tmp/potato-annotation-1.2.0.9.tar.gz --markdown 20230530/p/potato-annotation/1.2.0.8-1.2.0.9/diff.md --exclude *.pyd
+[2023-05-30 03:26:05] INFO root fetch - processPackages [elm-messenger]: Start processing: pepperize.cdk-organizations
+[2023-05-30 03:26:05] INFO root fetch - main [MainThread]: End processing [elm-messenger]: success
+[2023-05-30 03:26:05] INFO root fetch - main [MainThread]: End processing [selenium-supporter]: success
+[2023-05-30 03:26:06] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-30 03:26:06] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-30 03:26:06] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230530/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-30 03:26:06] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2023-05-30 03:26:06] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-05-30 03:26:06] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-30 03:26:06] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2023-05-30 03:26:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-30 03:26:07] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-05-30 03:26:07] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-05-30 03:26:08] INFO root fetch - main [MainThread]: End processing [potato-annotation]: success
+[2023-05-30 03:26:43] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-05-30 03:26:43] INFO root fetch - main [MainThread]: Store serial: [18296674]
