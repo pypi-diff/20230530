@@ -9444,3 +9444,59 @@
 [2023-05-30 11:40:17] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
 [2023-05-30 11:40:28] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
 [2023-05-30 11:40:28] INFO root fetch - main [MainThread]: Store serial: [18300144]
+[2023-05-30 11:45:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18300144]
+[2023-05-30 11:45:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 11:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decentralizedroutines
+[2023-05-30 11:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solvency2sf
+[2023-05-30 11:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zensvi
+[2023-05-30 11:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: p1-activity
+[2023-05-30 11:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: check-type-hints
+[2023-05-30 11:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s
+[2023-05-30 11:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s
+[2023-05-30 11:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pipiyi-tools
+[2023-05-30 11:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: canvas-course-tools
+[2023-05-30 11:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-master
+[2023-05-30 11:45:38] INFO root fetch - processPackages [solvency2sf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 11:45:38] INFO root fetch - processPackages [zensvi]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-30 11:45:38] INFO root fetch - processPackages [decentralizedroutines]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-05-30 11:45:38] INFO root fetch - processPackages [p1-activity]: New version: [0.2.55280185] Old Version: [0.2.55075241]
+[2023-05-30 11:45:38] WARNING root fetch - processPackages [check-type-hints]: Skipping, unable to determine old version
+[2023-05-30 11:45:38] INFO root fetch - main [MainThread]: End processing [check-type-hints] error
+[2023-05-30 11:45:38] INFO root fetch - processPackages [pipiyi-tools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 11:45:38] INFO root fetch - processPackages [canvas-course-tools]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-30 11:45:38] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230530.9.43.768438] Old Version: [20230530.9.0.837631]
+[2023-05-30 11:45:38] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-30 11:45:38] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-30 11:45:38] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/aa/94/97a4794a549aaa4db15f868a0ddbf4a50b2a95003dcfd3b7ffb29a93a292/zensvi-0.3.2.tar.gz
+[2023-05-30 11:45:38] INFO root fetch - processPackages [p1-activity]: Downloading https://files.pythonhosted.org/packages/03/f2/89774ffb8bf791144745f21162abd8d5d7011785ae6dcb76c1423cbf8bae/p1-activity-0.2.55075241.tar.gz
+[2023-05-30 11:45:38] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fd/b3/8fbf9a9bd2956ea700467ef90a7453c2f88ecbf61f3b73e709c656720643/certora-cli-alpha-master-20230530.9.0.837631.tar.gz
+[2023-05-30 11:45:38] INFO root fetch - processPackages [pipiyi-tools]: Downloading https://files.pythonhosted.org/packages/10/67/f13ae0c5e92ee56f7267ee431d3d5ab1ec1f329892ee31a803597394c293/pipiyi_tools-0.0.4.tar.gz
+[2023-05-30 11:45:38] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-05-30 11:45:38] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.3.1.tar.gz tmp/zensvi-0.3.2.tar.gz --markdown 20230530/z/zensvi/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-30 11:45:38] INFO root fetch - processPackages [solvency2sf]: executing diffoscope
+[2023-05-30 11:45:38] INFO root fetch - processPackages [solvency2sf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solvency2sf-0.0.8.tar.gz tmp/solvency2sf-0.0.9.tar.gz --markdown 20230530/s/solvency2sf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 11:45:38] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39091116>=10485760
+[2023-05-30 11:45:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-30 11:45:38] INFO root fetch - processPackages [pipiyi-tools]: executing diffoscope
+[2023-05-30 11:45:38] INFO root fetch - processPackages [pipiyi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipiyi_tools-0.0.3.tar.gz tmp/pipiyi_tools-0.0.4.tar.gz --markdown 20230530/p/pipiyi-tools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 11:45:38] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-05-30 11:45:38] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.8.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230530/c/cdk8s/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-30 11:45:38] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-05-30 11:45:38] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.8.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230530/c/cdk8s/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-30 11:45:38] INFO root fetch - processPackages [canvas-course-tools]: Downloading https://files.pythonhosted.org/packages/94/ee/fe68dc895580bbb1308f4cf4842736e824dcb315ae8b9e9bd88d29b62017/canvas_course_tools-0.6.1.tar.gz
+[2023-05-30 11:45:38] INFO root fetch - processPackages [p1-activity]: Downloading https://files.pythonhosted.org/packages/41/08/b6f9a6bae98573da49a5d9e2fe144139f94c54227ebd2298ea92c08c7ac3/p1-activity-0.2.55280185.tar.gz
+[2023-05-30 11:45:38] INFO root fetch - processPackages [canvas-course-tools]: executing diffoscope
+[2023-05-30 11:45:38] INFO root fetch - processPackages [canvas-course-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canvas_course_tools-0.6.0.tar.gz tmp/canvas_course_tools-0.6.1.tar.gz --markdown 20230530/c/canvas-course-tools/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-30 11:45:38] INFO root fetch - processPackages [decentralizedroutines]: executing diffoscope
+[2023-05-30 11:45:38] INFO root fetch - processPackages [decentralizedroutines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentralizedroutines-2.0.6.tar.gz tmp/decentralizedroutines-2.0.7.tar.gz --markdown 20230530/d/decentralizedroutines/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-05-30 11:45:38] INFO root fetch - processPackages [p1-activity]: executing diffoscope
+[2023-05-30 11:45:38] INFO root fetch - processPackages [p1-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p1-activity-0.2.55075241.tar.gz tmp/p1-activity-0.2.55280185.tar.gz --markdown 20230530/p/p1-activity/0.2.55075241-0.2.55280185/diff.md --exclude *.pyd
+[2023-05-30 11:45:39] INFO root fetch - main [MainThread]: End processing [pipiyi-tools]: success
+[2023-05-30 11:45:40] INFO root fetch - main [MainThread]: End processing [solvency2sf]: success
+[2023-05-30 11:45:40] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-05-30 11:45:40] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-05-30 11:45:40] INFO root fetch - main [MainThread]: End processing [decentralizedroutines]: success
+[2023-05-30 11:45:40] INFO root fetch - main [MainThread]: End processing [p1-activity]: success
+[2023-05-30 11:45:41] INFO root fetch - main [MainThread]: End processing [canvas-course-tools]: success
+[2023-05-30 11:45:41] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-05-30 11:45:41] INFO root fetch - main [MainThread]: Store serial: [18300175]
