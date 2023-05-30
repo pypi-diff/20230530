@@ -11049,3 +11049,142 @@
 [2023-05-30 13:07:42] INFO root fetch - main [MainThread]: End processing [genomehubs]: success
 [2023-05-30 13:07:43] INFO root fetch - main [MainThread]: End processing [freemocap]: success
 [2023-05-30 13:07:43] INFO root fetch - main [MainThread]: Store serial: [18301141]
+[2023-05-30 13:12:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18301141]
+[2023-05-30 13:12:52] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-30 13:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-generators
+[2023-05-30 13:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aistudio-scheduler-lock
+[2023-05-30 13:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: THz-toolkit
+[2023-05-30 13:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rpcclient
+[2023-05-30 13:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pip-autocompile
+[2023-05-30 13:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyAllInOne
+[2023-05-30 13:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: salure-helpers-ftp
+[2023-05-30 13:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ttrace
+[2023-05-30 13:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ampltools
+[2023-05-30 13:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-private-bucket
+[2023-05-30 13:12:52] WARNING root fetch - processPackages [THz-toolkit]: Skipping, unable to determine old version
+[2023-05-30 13:12:52] INFO root fetch - processPackages [THz-toolkit]: Start processing: selenium-firefox
+[2023-05-30 13:12:52] INFO root fetch - main [MainThread]: End processing [THz-toolkit] error
+[2023-05-30 13:12:52] INFO root fetch - processPackages [keras-generators]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-30 13:12:52] INFO root fetch - processPackages [PyAllInOne]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-30 13:12:52] INFO root fetch - processPackages [aistudio-scheduler-lock]: New version: [1.0.6a1] Old Version: [1.0.5b1]
+[2023-05-30 13:12:52] INFO root fetch - processPackages [rpcclient]: New version: [3.16.2] Old Version: [3.16.1]
+[2023-05-30 13:12:52] INFO root fetch - processPackages [pip-autocompile]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-05-30 13:12:52] INFO root fetch - processPackages [ttrace]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 13:12:52] INFO root fetch - processPackages [ampltools]: New version: [0.5.4b0] Old Version: [0.5.3]
+[2023-05-30 13:12:52] INFO root fetch - processPackages [salure-helpers-ftp]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-30 13:12:52] INFO root fetch - processPackages [selenium-firefox]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-05-30 13:12:52] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 13:12:52] INFO root fetch - processPackages [PyAllInOne]: Downloading https://files.pythonhosted.org/packages/bc/7f/b05ec856f8255816a2e0f35c847651edd693d47f74163265fd4b7971e4d4/PyAllInOne-1.0.0.tar.gz
+[2023-05-30 13:12:52] INFO root fetch - processPackages [keras-generators]: Downloading https://files.pythonhosted.org/packages/e7/fd/58b042f5560620a3ff20c07f310426d3cda017ad841774b8a60585b2ba02/keras_generators-1.3.0-py3-none-any.whl
+[2023-05-30 13:12:52] INFO root fetch - processPackages [pip-autocompile]: Downloading https://files.pythonhosted.org/packages/c6/23/415f5108235200901684ad5e0db0aa1b38b874840411679bf245bb0fce81/pip_autocompile-0.7.7.tar.gz
+[2023-05-30 13:12:52] INFO root fetch - processPackages [rpcclient]: Downloading https://files.pythonhosted.org/packages/38/47/d7f5efe01e31b92effe3ca91c59fbb030b7b9c82e52a7e147656c0bbd87b/rpcclient-3.16.2.tar.gz
+[2023-05-30 13:12:52] INFO root fetch - processPackages [aistudio-scheduler-lock]: Downloading https://files.pythonhosted.org/packages/01/57/821728380bcb8287dae64bd88f89dbd4a520e1ab1382dae2c7cc8a398b5b/aistudio-scheduler-lock-1.0.5b1.tar.gz
+[2023-05-30 13:12:52] INFO root fetch - processPackages [ampltools]: Downloading https://files.pythonhosted.org/packages/ee/d7/69fdd4e2dda23f234d0c8f51c02759d3b7a7ea31c5233ce3520d83617650/ampltools-0.5.3.tar.gz
+[2023-05-30 13:12:52] INFO root fetch - processPackages [selenium-firefox]: Downloading https://files.pythonhosted.org/packages/cd/4c/547a9a0af6878dfbce0db625c98b4c69c4a74dab27f51f0c6ddbe095da1d/selenium_firefox-2.0.7.tar.gz
+[2023-05-30 13:12:52] WARNING root fetch - processPackages [selenium-firefox]: Skipping package: exceeds size limit 13868711>=10485760
+[2023-05-30 13:12:52] INFO root fetch - processPackages [selenium-firefox]: Start processing: typst-sympy-calculator
+[2023-05-30 13:12:52] INFO root fetch - main [MainThread]: End processing [selenium-firefox] error
+[2023-05-30 13:12:52] INFO root fetch - processPackages [typst-sympy-calculator]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-30 13:12:52] INFO root fetch - processPackages [salure-helpers-ftp]: Downloading https://files.pythonhosted.org/packages/1b/73/674da0c2bda2ce0e916af4752162ad01dd170c8f150e66af093ee48bac36/salure_helpers_ftp-1.4.0.tar.gz
+[2023-05-30 13:12:52] INFO root fetch - processPackages [rpcclient]: executing diffoscope
+[2023-05-30 13:12:52] INFO root fetch - processPackages [rpcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpcclient-3.16.1.tar.gz tmp/rpcclient-3.16.2.tar.gz --markdown 20230530/r/rpcclient/3.16.1-3.16.2/diff.md --exclude *.pyd
+[2023-05-30 13:12:53] INFO root fetch - processPackages [keras-generators]: Downloading https://files.pythonhosted.org/packages/fb/4d/b9cdb365627691d4e2fa4b3043e4d142cfb614039ed1e66f3d5808afe1a8/keras_generators-1.3.1-py3-none-any.whl
+[2023-05-30 13:12:53] INFO root fetch - processPackages [salure-helpers-ftp]: executing diffoscope
+[2023-05-30 13:12:53] INFO root fetch - processPackages [salure-helpers-ftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_ftp-1.3.1.tar.gz tmp/salure_helpers_ftp-1.4.0.tar.gz --markdown 20230530/s/salure-helpers-ftp/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-30 13:12:53] INFO root fetch - processPackages [ttrace]: executing diffoscope
+[2023-05-30 13:12:53] INFO root fetch - processPackages [ttrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttrace-0.1.8.tar.gz tmp/ttrace-0.1.9.tar.gz --markdown 20230530/t/ttrace/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 13:12:53] INFO root fetch - processPackages [typst-sympy-calculator]: Downloading https://files.pythonhosted.org/packages/49/28/2f6c0c887e93985f5fceb7734a12c4372f4a258d8c701b56609bacc8e26e/typst_sympy_calculator-0.4.0-py3-none-any.whl
+[2023-05-30 13:12:53] INFO root fetch - processPackages [aistudio-scheduler-lock]: Downloading https://files.pythonhosted.org/packages/39/58/9ac5931b154ab7b2f0c4193a11670dcc2a33a2edf431527f91a81887357e/aistudio-scheduler-lock-1.0.6a1.tar.gz
+[2023-05-30 13:12:53] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-05-30 13:12:53] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 13:12:53] INFO root fetch - processPackages [ampltools]: Downloading https://files.pythonhosted.org/packages/bd/1a/b928c53453e3989296e3cf2aeb689000de5341232270c9d969545c228036/ampltools-0.5.4b0.tar.gz
+[2023-05-30 13:12:53] INFO root fetch - processPackages [PyAllInOne]: Downloading https://files.pythonhosted.org/packages/a3/c5/a32ad8e0d11faa5a30ab0fc8ccc9d38e8d76a0217954926fc11b8b15dbc0/PyAllInOne-1.0.1.tar.gz
+[2023-05-30 13:12:53] INFO root fetch - processPackages [keras-generators]: executing diffoscope
+[2023-05-30 13:12:53] INFO root fetch - processPackages [keras-generators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_generators-1.3.0-py3-none-any.whl.zip tmp/keras_generators-1.3.1-py3-none-any.whl.zip --markdown 20230530/k/keras-generators/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-30 13:12:53] INFO root fetch - processPackages [pip-autocompile]: Downloading https://files.pythonhosted.org/packages/b2/a5/da3f618d2529e378768c4062332333676a2bee41a162b579470dd5c87cb2/pip_autocompile-0.7.8.tar.gz
+[2023-05-30 13:12:53] INFO root fetch - processPackages [aistudio-scheduler-lock]: executing diffoscope
+[2023-05-30 13:12:53] INFO root fetch - processPackages [aistudio-scheduler-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistudio-scheduler-lock-1.0.5b1.tar.gz tmp/aistudio-scheduler-lock-1.0.6a1.tar.gz --markdown 20230530/a/aistudio-scheduler-lock/1.0.5b1-1.0.6a1/diff.md --exclude *.pyd
+[2023-05-30 13:12:53] INFO root fetch - processPackages [ampltools]: executing diffoscope
+[2023-05-30 13:12:53] INFO root fetch - processPackages [ampltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampltools-0.5.3.tar.gz tmp/ampltools-0.5.4b0.tar.gz --markdown 20230530/a/ampltools/0.5.3-0.5.4b0/diff.md --exclude *.pyd
+[2023-05-30 13:12:53] INFO root fetch - processPackages [pip-autocompile]: executing diffoscope
+[2023-05-30 13:12:53] INFO root fetch - processPackages [pip-autocompile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_autocompile-0.7.7.tar.gz tmp/pip_autocompile-0.7.8.tar.gz --markdown 20230530/p/pip-autocompile/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-05-30 13:12:53] INFO root fetch - processPackages [PyAllInOne]: executing diffoscope
+[2023-05-30 13:12:53] INFO root fetch - processPackages [PyAllInOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAllInOne-1.0.0.tar.gz tmp/PyAllInOne-1.0.1.tar.gz --markdown 20230530/P/PyAllInOne/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 13:12:53] INFO root fetch - processPackages [typst-sympy-calculator]: Downloading https://files.pythonhosted.org/packages/96/48/bffcc665afddb562ab07aa2b529e83498d992fbd5688267e4980e71a012c/typst_sympy_calculator-0.4.1-py3-none-any.whl
+[2023-05-30 13:12:53] INFO root fetch - processPackages [typst-sympy-calculator]: executing diffoscope
+[2023-05-30 13:12:53] INFO root fetch - processPackages [typst-sympy-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typst_sympy_calculator-0.4.0-py3-none-any.whl.zip tmp/typst_sympy_calculator-0.4.1-py3-none-any.whl.zip --markdown 20230530/t/typst-sympy-calculator/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-30 13:12:54] INFO root fetch - processPackages [salure-helpers-ftp]: Start processing: visor-gligen
+[2023-05-30 13:12:54] INFO root fetch - main [MainThread]: End processing [salure-helpers-ftp]: success
+[2023-05-30 13:12:54] INFO root fetch - processPackages [visor-gligen]: New version: [1.5] Old Version: [1.4]
+[2023-05-30 13:12:54] INFO root fetch - processPackages [visor-gligen]: Downloading https://files.pythonhosted.org/packages/67/71/273b88179df10d8cfb71db76e3fdcbde43954b92cac24b4f5117c20d8dd3/visor_gligen-1.5.tar.gz
+[2023-05-30 13:12:54] INFO root fetch - processPackages [visor-gligen]: executing diffoscope
+[2023-05-30 13:12:54] INFO root fetch - processPackages [visor-gligen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visor_gligen-1.4.tar.gz tmp/visor_gligen-1.5.tar.gz --markdown 20230530/v/visor-gligen/1.4-1.5/diff.md --exclude *.pyd
+[2023-05-30 13:12:54] INFO root fetch - processPackages [ttrace]: Start processing: netspresso
+[2023-05-30 13:12:54] INFO root fetch - main [MainThread]: End processing [ttrace]: success
+[2023-05-30 13:12:54] WARNING root fetch - processPackages [netspresso]: Skipping, unable to determine old version
+[2023-05-30 13:12:54] INFO root fetch - processPackages [netspresso]: Start processing: docker-recipe
+[2023-05-30 13:12:54] INFO root fetch - main [MainThread]: End processing [netspresso] error
+[2023-05-30 13:12:55] INFO root fetch - processPackages [keras-generators]: Start processing: akshare
+[2023-05-30 13:12:55] INFO root fetch - main [MainThread]: End processing [keras-generators]: success
+[2023-05-30 13:12:55] INFO root fetch - processPackages [docker-recipe]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-05-30 13:12:55] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-05-30 13:12:55] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-30 13:12:55] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230530/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-05-30 13:12:55] INFO root fetch - processPackages [docker-recipe]: Downloading https://files.pythonhosted.org/packages/06/be/fdfe5a950d6bcade6f0c103c9cb3d6986b01452fb9af615271c34d7237f5/docker-recipe-1.0.0.tar.gz
+[2023-05-30 13:12:55] INFO root fetch - processPackages [docker-recipe]: executing diffoscope
+[2023-05-30 13:12:55] INFO root fetch - processPackages [docker-recipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-recipe-0.4.0.tar.gz tmp/docker-recipe-1.0.0.tar.gz --markdown 20230530/d/docker-recipe/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-30 13:12:55] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Start processing: alipay-sdk-python
+[2023-05-30 13:12:55] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-05-30 13:12:55] INFO root fetch - processPackages [alipay-sdk-python]: New version: [3.6.72] Old Version: [3.6.640]
+[2023-05-30 13:12:55] INFO root fetch - processPackages [aistudio-scheduler-lock]: Start processing: rekuest
+[2023-05-30 13:12:55] INFO root fetch - main [MainThread]: End processing [aistudio-scheduler-lock]: success
+[2023-05-30 13:12:55] INFO root fetch - processPackages [ampltools]: Start processing: reaktion
+[2023-05-30 13:12:55] INFO root fetch - main [MainThread]: End processing [ampltools]: success
+[2023-05-30 13:12:55] INFO root fetch - processPackages [rekuest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 13:12:55] INFO root fetch - processPackages [reaktion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 13:12:55] INFO root fetch - processPackages [alipay-sdk-python]: Downloading https://files.pythonhosted.org/packages/9f/c2/0b81387c7812175330627a8536c5c2defe146f01773a996728c9ad75e380/alipay-sdk-python-3.6.640.tar.gz
+[2023-05-30 13:12:55] INFO root fetch - processPackages [pip-autocompile]: Start processing: rekuest
+[2023-05-30 13:12:55] INFO root fetch - main [MainThread]: End processing [pip-autocompile]: success
+[2023-05-30 13:12:55] INFO root fetch - processPackages [rekuest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 13:12:55] INFO root fetch - processPackages [rekuest]: executing diffoscope
+[2023-05-30 13:12:55] INFO root fetch - processPackages [rekuest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekuest-0.1.8.tar.gz tmp/rekuest-0.1.9.tar.gz --markdown 20230530/r/rekuest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 13:12:55] INFO root fetch - processPackages [reaktion]: executing diffoscope
+[2023-05-30 13:12:55] INFO root fetch - processPackages [rekuest]: executing diffoscope
+[2023-05-30 13:12:55] INFO root fetch - processPackages [reaktion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaktion-0.1.8.tar.gz tmp/reaktion-0.1.9.tar.gz --markdown 20230530/r/reaktion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 13:12:55] INFO root fetch - processPackages [rekuest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekuest-0.1.8.tar.gz tmp/rekuest-0.1.9.tar.gz --markdown 20230530/r/rekuest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 13:12:55] INFO root fetch - processPackages [typst-sympy-calculator]: Start processing: arkitekt
+[2023-05-30 13:12:55] INFO root fetch - main [MainThread]: End processing [typst-sympy-calculator]: success
+[2023-05-30 13:12:55] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-30 13:12:55] INFO root fetch - processPackages [alipay-sdk-python]: Downloading https://files.pythonhosted.org/packages/1a/44/c1026b1a03c94307814aabb95ba597b7d8a69d4a1e1380d2e5d9942fbc05/alipay-sdk-python-3.6.72.tar.gz
+[2023-05-30 13:12:55] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-05-30 13:12:55] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230530/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-30 13:12:56] INFO root fetch - processPackages [PyAllInOne]: Start processing: finbourne-access-sdk
+[2023-05-30 13:12:56] INFO root fetch - main [MainThread]: End processing [PyAllInOne]: success
+[2023-05-30 13:12:56] INFO root fetch - processPackages [rpcclient]: Start processing: selenium-youtube
+[2023-05-30 13:12:56] INFO root fetch - main [MainThread]: End processing [rpcclient]: success
+[2023-05-30 13:12:56] INFO root fetch - processPackages [selenium-youtube]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-30 13:12:56] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-30 13:12:56] INFO root fetch - processPackages [selenium-youtube]: executing diffoscope
+[2023-05-30 13:12:56] INFO root fetch - processPackages [selenium-youtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_youtube-2.0.8.tar.gz tmp/selenium_youtube-2.0.9.tar.gz --markdown 20230530/s/selenium-youtube/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-30 13:12:56] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-30 13:12:56] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230530/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-30 13:12:57] INFO root fetch - processPackages [visor-gligen]: Start processing: spetlr
+[2023-05-30 13:12:57] INFO root fetch - main [MainThread]: End processing [visor-gligen]: success
+[2023-05-30 13:12:57] INFO root fetch - processPackages [spetlr]: New version: [1.1.94] Old Version: [1.1.89]
+[2023-05-30 13:12:57] INFO root fetch - main [MainThread]: End processing [docker-recipe]: success
+[2023-05-30 13:12:57] INFO root fetch - main [MainThread]: End processing [rekuest]: success
+[2023-05-30 13:12:57] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/87/8f/f6953fa358fe986aff74031b34af4438f126a23198d0b2d5f1ade717707b/spetlr-1.1.94.tar.gz
+[2023-05-30 13:12:57] INFO root fetch - processPackages [alipay-sdk-python]: executing diffoscope
+[2023-05-30 13:12:57] INFO root fetch - processPackages [alipay-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alipay-sdk-python-3.6.640.tar.gz tmp/alipay-sdk-python-3.6.72.tar.gz --markdown 20230530/a/alipay-sdk-python/3.6.640-3.6.72/diff.md --exclude *.pyd
+[2023-05-30 13:12:57] INFO root fetch - main [MainThread]: End processing [reaktion]: success
+[2023-05-30 13:12:57] INFO root fetch - processPackages [spetlr]: executing diffoscope
+[2023-05-30 13:12:57] INFO root fetch - processPackages [spetlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spetlr-1.1.89.tar.gz tmp/spetlr-1.1.94.tar.gz --markdown 20230530/s/spetlr/1.1.89-1.1.94/diff.md --exclude *.pyd
+[2023-05-30 13:12:58] INFO root fetch - main [MainThread]: End processing [selenium-youtube]: success
+[2023-05-30 13:12:58] INFO root fetch - main [MainThread]: End processing [rekuest]: success
+[2023-05-30 13:12:59] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-30 13:13:00] INFO root fetch - main [MainThread]: End processing [spetlr]: success
+[2023-05-30 13:13:00] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-05-30 13:13:03] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-30 13:15:57] ERROR root fetch - processPackages [alipay-sdk-python]: Timeout during execution of pkgdiff
+[2023-05-30 13:15:57] INFO root fetch - main [MainThread]: End processing [alipay-sdk-python] error
+[2023-05-30 13:15:57] INFO root fetch - main [MainThread]: Store serial: [18301213]
