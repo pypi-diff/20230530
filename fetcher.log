@@ -22227,3 +22227,34 @@ EOFError: EOF read where object expected
 [2023-05-30 23:39:47] INFO root fetch - main [MainThread]: End processing [azkv-secrets-loader]: success
 [2023-05-30 23:39:52] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-30 23:39:52] INFO root fetch - main [MainThread]: Store serial: [18307912]
+[2023-05-30 23:44:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18307912]
+[2023-05-30 23:45:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-30 23:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyCocos
+[2023-05-30 23:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: max-ard
+[2023-05-30 23:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cad-to-dagmc
+[2023-05-30 23:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TDS-Tools
+[2023-05-30 23:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strongmind-platform-sdk
+[2023-05-30 23:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discolors
+[2023-05-30 23:45:01] WARNING root fetch - processPackages [pyCocos]: Skipping, unable to determine old version
+[2023-05-30 23:45:01] INFO root fetch - main [MainThread]: End processing [pyCocos] error
+[2023-05-30 23:45:01] INFO root fetch - processPackages [max-ard]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-30 23:45:01] INFO root fetch - processPackages [strongmind-platform-sdk]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-30 23:45:01] WARNING root fetch - processPackages [TDS-Tools]: Skipping, unable to determine old version
+[2023-05-30 23:45:01] WARNING root fetch - processPackages [discolors]: Skipping, unable to determine old version
+[2023-05-30 23:45:01] INFO root fetch - main [MainThread]: End processing [TDS-Tools] error
+[2023-05-30 23:45:02] INFO root fetch - main [MainThread]: End processing [discolors] error
+[2023-05-30 23:45:02] INFO root fetch - processPackages [cad-to-dagmc]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-05-30 23:45:02] INFO root fetch - processPackages [strongmind-platform-sdk]: executing diffoscope
+[2023-05-30 23:45:02] INFO root fetch - processPackages [strongmind-platform-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongmind-platform-sdk-2.9.0.tar.gz tmp/strongmind-platform-sdk-2.9.1.tar.gz --markdown 20230530/s/strongmind-platform-sdk/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-30 23:45:02] INFO root fetch - processPackages [max-ard]: Downloading https://files.pythonhosted.org/packages/30/05/fa835a527a6e946de546f88ab6698683a576397142cd7d629f6d5757e24c/max-ard-1.7.2.tar.gz
+[2023-05-30 23:45:02] INFO root fetch - processPackages [cad-to-dagmc]: Downloading https://files.pythonhosted.org/packages/b7/7e/aa2aa1a01d85f7aac16671e174cfccbc40d7140a51e78245f014f2a759d1/cad_to_dagmc-0.2.1.tar.gz
+[2023-05-30 23:45:02] INFO root fetch - processPackages [max-ard]: Downloading https://files.pythonhosted.org/packages/27/cc/6540c967558d36f30a45112dc2bc308b29557205c5421cc8d7c5e3ae3c4d/max_ard-1.7.3.tar.gz
+[2023-05-30 23:45:02] INFO root fetch - processPackages [cad-to-dagmc]: Downloading https://files.pythonhosted.org/packages/e1/08/509d363142aa43208c8231ef1cbb38133e048e3c4be6ed56b1541936fa8b/cad_to_dagmc-0.3.1.tar.gz
+[2023-05-30 23:45:02] INFO root fetch - processPackages [cad-to-dagmc]: executing diffoscope
+[2023-05-30 23:45:02] INFO root fetch - processPackages [cad-to-dagmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cad_to_dagmc-0.2.1.tar.gz tmp/cad_to_dagmc-0.3.1.tar.gz --markdown 20230530/c/cad-to-dagmc/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-05-30 23:45:02] INFO root fetch - processPackages [max-ard]: executing diffoscope
+[2023-05-30 23:45:02] INFO root fetch - processPackages [max-ard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/max-ard-1.7.2.tar.gz tmp/max_ard-1.7.3.tar.gz --markdown 20230530/m/max-ard/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-05-30 23:45:03] INFO root fetch - main [MainThread]: End processing [strongmind-platform-sdk]: success
+[2023-05-30 23:45:03] INFO root fetch - main [MainThread]: End processing [max-ard]: success
+[2023-05-30 23:45:04] INFO root fetch - main [MainThread]: End processing [cad-to-dagmc]: success
+[2023-05-30 23:45:04] INFO root fetch - main [MainThread]: Store serial: [18307945]
