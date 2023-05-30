@@ -19556,3 +19556,75 @@ EOFError: EOF read where object expected
 [2023-05-30 20:47:07] INFO root fetch - main [MainThread]: End processing [vbpdf]: success
 [2023-05-30 20:47:07] INFO root fetch - main [MainThread]: End processing [gustaf]: success
 [2023-05-30 20:47:07] INFO root fetch - main [MainThread]: Store serial: [18306292]
+[2023-05-30 20:52:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18306292]
+[2023-05-30 20:52:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ZenithLib
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: betterdataclass
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: titan-iris
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ocs
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invoker-terminal
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funcx
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: funcx-endpoint
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OpenGeode-Geosciences
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: checksum16
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: portfolio-allocation
+[2023-05-30 20:52:17] WARNING root fetch - processPackages [ZenithLib]: Skipping, unable to determine old version
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ZenithLib]: Start processing: tensorflow-macos
+[2023-05-30 20:52:17] INFO root fetch - main [MainThread]: End processing [ZenithLib] error
+[2023-05-30 20:52:17] INFO root fetch - processPackages [betterdataclass]: New version: [4.0] Old Version: [3.3]
+[2023-05-30 20:52:17] INFO root fetch - processPackages [invoker-terminal]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-05-30 20:52:17] INFO root fetch - processPackages [funcx-endpoint]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ocs]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-30 20:52:17] INFO root fetch - processPackages [funcx]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-05-30 20:52:17] WARNING root fetch - processPackages [checksum16]: Skipping, unable to determine old version
+[2023-05-30 20:52:17] INFO root fetch - processPackages [checksum16]: Start processing: qemu-runner
+[2023-05-30 20:52:17] INFO root fetch - main [MainThread]: End processing [checksum16] error
+[2023-05-30 20:52:17] INFO root fetch - processPackages [tensorflow-macos]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-30 20:52:17] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.0.9rc1] Old Version: [7.0.8]
+[2023-05-30 20:52:17] INFO root fetch - processPackages [portfolio-allocation]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-30 20:52:17] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-30 20:52:17] INFO root fetch - processPackages [qemu-runner]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-30 20:52:17] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-30 20:52:17] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230530/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-30 20:52:17] INFO root fetch - processPackages [invoker-terminal]: Downloading https://files.pythonhosted.org/packages/11/44/f45dcf46a8ffe4a914edb54331f27ffd78357a586e4ea4ed4dce38629bcc/invoker_terminal-0.0.0.tar.gz
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ocs]: Downloading https://files.pythonhosted.org/packages/1c/9e/875aa00c0e6c4b680cab02812fe8eb3b4fffd446546df506d25ed5af3bce/ocs-0.9.2.tar.gz
+[2023-05-30 20:52:17] INFO root fetch - processPackages [funcx]: Downloading https://files.pythonhosted.org/packages/e4/34/19d9a642fddb678171415cd8f21f78124adaf9f70e3465014448b280d6f7/funcx-2.0.3.tar.gz
+[2023-05-30 20:52:17] INFO root fetch - processPackages [tensorflow-macos]: Downloading https://files.pythonhosted.org/packages/e6/99/1a88558b12f78e17ea703384f3f34f5ac45a1acff4947491830c6add1434/tensorflow_macos-2.9.1-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-05-30 20:52:17] INFO root fetch - processPackages [portfolio-allocation]: Downloading https://files.pythonhosted.org/packages/e1/05/82f7adbb71160d57782224c48735167fb8e2a75924fbc3ada47770508365/portfolio_allocation-0.2.3.tar.gz
+[2023-05-30 20:52:17] INFO root fetch - processPackages [qemu-runner]: Downloading https://files.pythonhosted.org/packages/14/9c/857b5033580f572f49d5f805bebdaa62e855368b38367a0dcf4add8f8e29/qemu-runner-1.3.2.tar.gz
+[2023-05-30 20:52:17] INFO root fetch - processPackages [funcx-endpoint]: Downloading https://files.pythonhosted.org/packages/4d/28/41a876ddc0984b6f6867ea58f0777c7339c3c7110f6d53ac5b790b3e1b63/funcx-endpoint-2.0.3.tar.gz
+[2023-05-30 20:52:17] INFO root fetch - processPackages [portfolio-allocation]: executing diffoscope
+[2023-05-30 20:52:17] INFO root fetch - processPackages [portfolio-allocation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portfolio_allocation-0.2.2.tar.gz tmp/portfolio_allocation-0.2.3.tar.gz --markdown 20230530/p/portfolio-allocation/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-30 20:52:17] INFO root fetch - processPackages [betterdataclass]: Downloading https://files.pythonhosted.org/packages/c6/1d/52728c4ce2fe9aee7725c072032e81619d0f4e812658fbd6a3906908019b/betterdataclass-4.0.tar.gz
+[2023-05-30 20:52:17] WARNING root fetch - processPackages [tensorflow-macos]: Skipping package: exceeds size limit 237539752>=10485760
+[2023-05-30 20:52:17] INFO root fetch - main [MainThread]: End processing [tensorflow-macos] error
+[2023-05-30 20:52:17] INFO root fetch - processPackages [betterdataclass]: executing diffoscope
+[2023-05-30 20:52:17] INFO root fetch - processPackages [betterdataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterdataclass-3.3.tar.gz tmp/betterdataclass-4.0.tar.gz --markdown 20230530/b/betterdataclass/3.3-4.0/diff.md --exclude *.pyd
+[2023-05-30 20:52:17] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/be/39/88b7add14278749102c42d20ee57719d4a663828a24bde0857fc45934a38/OpenGeode_Geosciences-7.0.9rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-30 20:52:17] INFO root fetch - processPackages [funcx]: Downloading https://files.pythonhosted.org/packages/2e/ea/f689f0d48be1b3111f18f05e4db16cbc5dfe9165f5e74d4514878525f50a/funcx-2.1.0.tar.gz
+[2023-05-30 20:52:17] INFO root fetch - processPackages [funcx-endpoint]: Downloading https://files.pythonhosted.org/packages/9a/14/4f460d7c7d3ce44369958df2bb4a10eb2f7e79cd26105b1935e74731d57c/funcx-endpoint-2.1.0.tar.gz
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ocs]: Downloading https://files.pythonhosted.org/packages/b2/27/e28c98060f5d30c4ff455fb876c46287299532ef802e4573fb95c9708133/ocs-0.9.3.tar.gz
+[2023-05-30 20:52:17] INFO root fetch - processPackages [qemu-runner]: Downloading https://files.pythonhosted.org/packages/d9/d2/30d1fcb486391a4f7a9baf4a2df473fc44448732656c4bd86faa436b023c/qemu-runner-1.3.3.tar.gz
+[2023-05-30 20:52:17] INFO root fetch - processPackages [funcx]: executing diffoscope
+[2023-05-30 20:52:17] INFO root fetch - processPackages [funcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcx-2.0.3.tar.gz tmp/funcx-2.1.0.tar.gz --markdown 20230530/f/funcx/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-05-30 20:52:17] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2023-05-30 20:52:17] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.0.8-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.0.9rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230530/O/OpenGeode-Geosciences/7.0.8-7.0.9rc1/diff.md --exclude *.pyd
+[2023-05-30 20:52:17] INFO root fetch - processPackages [funcx-endpoint]: executing diffoscope
+[2023-05-30 20:52:17] INFO root fetch - processPackages [funcx-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcx-endpoint-2.0.3.tar.gz tmp/funcx-endpoint-2.1.0.tar.gz --markdown 20230530/f/funcx-endpoint/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-05-30 20:52:17] INFO root fetch - processPackages [qemu-runner]: executing diffoscope
+[2023-05-30 20:52:17] INFO root fetch - processPackages [qemu-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qemu-runner-1.3.2.tar.gz tmp/qemu-runner-1.3.3.tar.gz --markdown 20230530/q/qemu-runner/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ocs]: executing diffoscope
+[2023-05-30 20:52:17] INFO root fetch - processPackages [ocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocs-0.9.2.tar.gz tmp/ocs-0.9.3.tar.gz --markdown 20230530/o/ocs/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-30 20:52:18] INFO root fetch - processPackages [invoker-terminal]: Downloading https://files.pythonhosted.org/packages/1c/b9/7779b70cd5eaa9898579ebb2e1562c6649a5650e09d176a4333ec5e30757/invoker_terminal-0.1.0.tar.gz
+[2023-05-30 20:52:18] INFO root fetch - processPackages [invoker-terminal]: executing diffoscope
+[2023-05-30 20:52:18] INFO root fetch - processPackages [invoker-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoker_terminal-0.0.0.tar.gz tmp/invoker_terminal-0.1.0.tar.gz --markdown 20230530/i/invoker-terminal/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-05-30 20:52:19] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-30 20:52:19] INFO root fetch - main [MainThread]: End processing [portfolio-allocation]: success
+[2023-05-30 20:52:19] INFO root fetch - main [MainThread]: End processing [betterdataclass]: success
+[2023-05-30 20:52:19] INFO root fetch - main [MainThread]: End processing [funcx]: success
+[2023-05-30 20:52:19] INFO root fetch - main [MainThread]: End processing [funcx-endpoint]: success
+[2023-05-30 20:52:20] INFO root fetch - main [MainThread]: End processing [invoker-terminal]: success
+[2023-05-30 20:52:20] INFO root fetch - main [MainThread]: End processing [qemu-runner]: success
+[2023-05-30 20:52:21] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2023-05-30 20:53:10] INFO root fetch - main [MainThread]: End processing [ocs]: success
+[2023-05-30 20:53:10] INFO root fetch - main [MainThread]: Store serial: [18306345]
