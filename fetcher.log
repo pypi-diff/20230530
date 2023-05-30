@@ -8285,3 +8285,84 @@
 [2023-05-30 10:32:40] INFO root fetch - main [MainThread]: End processing [PyGRO]: success
 [2023-05-30 10:32:48] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
 [2023-05-30 10:32:48] INFO root fetch - main [MainThread]: Store serial: [18299470]
+[2023-05-30 10:37:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18299470]
+[2023-05-30 10:37:58] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-30 10:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: renumics-spotlight
+[2023-05-30 10:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-cloudwatch-metrics
+[2023-05-30 10:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sypht
+[2023-05-30 10:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text-selection
+[2023-05-30 10:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geotribu
+[2023-05-30 10:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-supports
+[2023-05-30 10:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sj-tool
+[2023-05-30 10:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spotON_sdk
+[2023-05-30 10:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-dlc-provider
+[2023-05-30 10:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly
+[2023-05-30 10:37:58] INFO root fetch - processPackages [django-cloudwatch-metrics]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-30 10:37:58] INFO root fetch - processPackages [text-selection]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-30 10:37:58] INFO root fetch - processPackages [tencentcloud-dlc-provider]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 10:37:58] WARNING root fetch - processPackages [aws-supports]: Skipping, unable to determine old version
+[2023-05-30 10:37:58] INFO root fetch - processPackages [aws-supports]: Start processing: repository-cli
+[2023-05-30 10:37:58] INFO root fetch - main [MainThread]: End processing [aws-supports] error
+[2023-05-30 10:37:58] INFO root fetch - processPackages [renumics-spotlight]: New version: [1.0.0rc9] Old Version: [1.0.0rc8]
+[2023-05-30 10:37:58] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-30 10:37:58] INFO root fetch - processPackages [geotribu]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-30 10:37:58] INFO root fetch - processPackages [sypht]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-30 10:37:58] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.5.17] Old Version: [0.0.5.16]
+[2023-05-30 10:37:58] INFO root fetch - processPackages [repository-cli]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-30 10:37:58] INFO root fetch - processPackages [geotribu]: executing diffoscope
+[2023-05-30 10:37:58] INFO root fetch - processPackages [geotribu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotribu-0.9.0.tar.gz tmp/geotribu-0.9.1.tar.gz --markdown 20230530/g/geotribu/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-30 10:37:58] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230530] Old Version: [2.14.0.dev20230529]
+[2023-05-30 10:37:58] INFO root fetch - processPackages [text-selection]: Downloading https://files.pythonhosted.org/packages/15/08/fb00aeb40bd57037f84838911ca10c35863769d90d99f3964319307da0fe/text-selection-0.0.2.tar.gz
+[2023-05-30 10:37:58] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/1a/36/feb7008e09abca12803f83295088b7a09b42bf65d1e4dbb8053da8c81ced/spotON_sdk-0.0.5.16.tar.gz
+[2023-05-30 10:37:58] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/0a/8b/e4e3a67871add14c57111084c6c2dc0c90bd36f6e6fbeef027d875fbd724/django_cloudwatch_metrics-0.0.6.tar.gz
+[2023-05-30 10:37:58] INFO root fetch - processPackages [tencentcloud-dlc-provider]: Downloading https://files.pythonhosted.org/packages/0c/26/06fad1c7c26b471311f55e27aec0689e88e85a5c466bf20a233950c3707d/tencentcloud-dlc-provider-0.0.1.tar.gz
+[2023-05-30 10:37:58] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/84/a2/dacf39f58ac29199ab9c18c4156a1b7eac36177ad2b91765ee63d26319a3/renumics_spotlight-1.0.0rc8-py3-none-any.whl
+[2023-05-30 10:37:58] INFO root fetch - processPackages [sypht]: Downloading https://files.pythonhosted.org/packages/28/fc/722ce69aaf8a672fea27918c9b61656ac826d20c5b5d1724d098803c88e1/sypht-0.5.8.tar.gz
+[2023-05-30 10:37:58] INFO root fetch - processPackages [repository-cli]: Downloading https://files.pythonhosted.org/packages/82/c1/d116ce009d8947a8cdd4c70f1a2037e5861989d011cbff2670b736bea166/repository-cli-0.6.0.tar.gz
+[2023-05-30 10:37:58] INFO root fetch - processPackages [django-cloudwatch-metrics]: executing diffoscope
+[2023-05-30 10:37:58] INFO root fetch - processPackages [django-cloudwatch-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloudwatch_metrics-0.0.5.tar.gz tmp/django_cloudwatch_metrics-0.0.6.tar.gz --markdown 20230530/d/django-cloudwatch-metrics/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-30 10:37:58] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/b1/92/29b7b99273ecc320ad064a1337f5e92b13985fd459bf62baa386447acc39/tf_nightly-2.14.0.dev20230529-cp39-cp39-win_amd64.whl
+[2023-05-30 10:37:59] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-05-30 10:37:59] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230530/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-30 10:37:59] INFO root fetch - processPackages [text-selection]: Downloading https://files.pythonhosted.org/packages/03/32/434bd8f13bfb547fe1b75b0047949ec3377715221290f395fd901815d370/text-selection-0.0.3.tar.gz
+[2023-05-30 10:37:59] INFO root fetch - processPackages [tencentcloud-dlc-provider]: Downloading https://files.pythonhosted.org/packages/45/15/8c3009a3bd4ba7e65a75a3d18a10a131107be9e4a446a1ed8a5de5acd8c0/tencentcloud-dlc-provider-0.0.2.tar.gz
+[2023-05-30 10:37:59] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/35/ff/d4f8947df7de499bc1fb09bf6f170aa4a516fa59d7f2b026eccf418200b8/spotON_sdk-0.0.5.17.tar.gz
+[2023-05-30 10:37:59] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/03/7e/7df36a6499fbd4460e13e88da629cb1fd50b89ca83832f43799e9c05f97f/tf_nightly-2.14.0.dev20230530-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-30 10:37:59] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/97/01/ab2a23348f7809e1576fac5dbf16c9eee4afe9e23b106b991af02039784f/renumics_spotlight-1.0.0rc9-py3-none-any.whl
+[2023-05-30 10:37:59] INFO root fetch - processPackages [repository-cli]: Downloading https://files.pythonhosted.org/packages/1e/a7/3fdaa5486a60348ef49600c9e43950fa9da8b738aa1b8408360eaf889c4b/repository-cli-0.7.0.tar.gz
+[2023-05-30 10:37:59] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 488247084>=10485760
+[2023-05-30 10:37:59] INFO root fetch - processPackages [tf-nightly]: Start processing: gwpoffpm
+[2023-05-30 10:37:59] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-05-30 10:37:59] WARNING root fetch - processPackages [gwpoffpm]: Skipping, unable to determine old version
+[2023-05-30 10:37:59] INFO root fetch - processPackages [gwpoffpm]: Start processing: makavafal-django-watchfiles
+[2023-05-30 10:37:59] INFO root fetch - main [MainThread]: End processing [gwpoffpm] error
+[2023-05-30 10:37:59] INFO root fetch - processPackages [sypht]: Downloading https://files.pythonhosted.org/packages/11/1d/60142af5a5ba87eb7cc6c584b1934360153faf458bc8c19e2abf7587aefd/sypht-0.5.9.tar.gz
+[2023-05-30 10:37:59] INFO root fetch - processPackages [text-selection]: executing diffoscope
+[2023-05-30 10:37:59] INFO root fetch - processPackages [text-selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-selection-0.0.2.tar.gz tmp/text-selection-0.0.3.tar.gz --markdown 20230530/t/text-selection/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-30 10:37:59] INFO root fetch - processPackages [tencentcloud-dlc-provider]: executing diffoscope
+[2023-05-30 10:37:59] INFO root fetch - processPackages [tencentcloud-dlc-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-dlc-provider-0.0.1.tar.gz tmp/tencentcloud-dlc-provider-0.0.2.tar.gz --markdown 20230530/t/tencentcloud-dlc-provider/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 10:37:59] WARNING root fetch - processPackages [makavafal-django-watchfiles]: Skipping, unable to determine old version
+[2023-05-30 10:37:59] INFO root fetch - processPackages [makavafal-django-watchfiles]: Start processing: piccolo-admin
+[2023-05-30 10:37:59] INFO root fetch - main [MainThread]: End processing [makavafal-django-watchfiles] error
+[2023-05-30 10:37:59] INFO root fetch - processPackages [piccolo-admin]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-30 10:37:59] INFO root fetch - processPackages [repository-cli]: executing diffoscope
+[2023-05-30 10:37:59] INFO root fetch - processPackages [repository-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repository-cli-0.6.0.tar.gz tmp/repository-cli-0.7.0.tar.gz --markdown 20230530/r/repository-cli/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-30 10:37:59] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-30 10:37:59] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.5.16.tar.gz tmp/spotON_sdk-0.0.5.17.tar.gz --markdown 20230530/s/spotON_sdk/0.0.5.16-0.0.5.17/diff.md --exclude *.pyd
+[2023-05-30 10:37:59] INFO root fetch - processPackages [renumics-spotlight]: executing diffoscope
+[2023-05-30 10:37:59] INFO root fetch - processPackages [renumics-spotlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renumics_spotlight-1.0.0rc8-py3-none-any.whl.zip tmp/renumics_spotlight-1.0.0rc9-py3-none-any.whl.zip --markdown 20230530/r/renumics-spotlight/1.0.0rc8-1.0.0rc9/diff.md --exclude *.pyd
+[2023-05-30 10:37:59] INFO root fetch - processPackages [sypht]: executing diffoscope
+[2023-05-30 10:37:59] INFO root fetch - processPackages [sypht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sypht-0.5.8.tar.gz tmp/sypht-0.5.9.tar.gz --markdown 20230530/s/sypht/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-30 10:37:59] INFO root fetch - processPackages [piccolo-admin]: executing diffoscope
+[2023-05-30 10:37:59] INFO root fetch - processPackages [piccolo-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piccolo_admin-0.9.1.tar.gz tmp/piccolo_admin-0.9.2.tar.gz --markdown 20230530/p/piccolo-admin/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-30 10:38:00] INFO root fetch - main [MainThread]: End processing [django-cloudwatch-metrics]: success
+[2023-05-30 10:38:00] INFO root fetch - main [MainThread]: End processing [geotribu]: success
+[2023-05-30 10:38:00] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-05-30 10:38:00] INFO root fetch - main [MainThread]: End processing [text-selection]: success
+[2023-05-30 10:38:01] INFO root fetch - main [MainThread]: End processing [tencentcloud-dlc-provider]: success
+[2023-05-30 10:38:01] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-30 10:38:01] INFO root fetch - main [MainThread]: End processing [repository-cli]: success
+[2023-05-30 10:38:01] INFO root fetch - main [MainThread]: End processing [sypht]: success
+[2023-05-30 10:38:15] INFO root fetch - main [MainThread]: End processing [piccolo-admin]: success
+[2023-05-30 10:38:27] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
+[2023-05-30 10:38:27] INFO root fetch - main [MainThread]: Store serial: [18299514]
