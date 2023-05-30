@@ -17824,3 +17824,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 18:43:54] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
 [2023-05-30 18:44:01] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2023-05-30 18:44:01] INFO root fetch - main [MainThread]: Store serial: [18305209]
+[2023-05-30 18:49:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18305209]
+[2023-05-30 18:49:11] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-30 18:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: predibase
+[2023-05-30 18:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-dali-nightly-cuda110
+[2023-05-30 18:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: serjx
+[2023-05-30 18:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viggonuvemfiscal
+[2023-05-30 18:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finalynx
+[2023-05-30 18:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-ro-stock-account-date-wizard
+[2023-05-30 18:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aisquared
+[2023-05-30 18:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dfcon
+[2023-05-30 18:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: peachdb
+[2023-05-30 18:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yangsuite-coverage
+[2023-05-30 18:49:11] INFO root fetch - processPackages [finalynx]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-30 18:49:11] INFO root fetch - processPackages [viggonuvemfiscal]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-30 18:49:11] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-date-wizard]: New version: [16.0.1.1.0] Old Version: [15.0.3.0.0]
+[2023-05-30 18:49:11] INFO root fetch - processPackages [dfcon]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 18:49:11] INFO root fetch - processPackages [peachdb]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-30 18:49:11] INFO root fetch - processPackages [yangsuite-coverage]: New version: [3.0.9.post0.dev2] Old Version: [3.0.9]
+[2023-05-30 18:49:11] WARNING root fetch - processPackages [predibase]: Skipping, unable to determine old version
+[2023-05-30 18:49:11] INFO root fetch - processPackages [predibase]: Start processing: geolibs
+[2023-05-30 18:49:11] INFO root fetch - main [MainThread]: End processing [predibase] error
+[2023-05-30 18:49:11] WARNING root fetch - processPackages [serjx]: Skipping, unable to determine old version
+[2023-05-30 18:49:11] INFO root fetch - processPackages [serjx]: Start processing: seeFretboard
+[2023-05-30 18:49:11] INFO root fetch - main [MainThread]: End processing [serjx] error
+[2023-05-30 18:49:11] INFO root fetch - processPackages [aisquared]: New version: [0.3.6.dev0] Old Version: [0.3.6]
+[2023-05-30 18:49:11] INFO root fetch - processPackages [geolibs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-30 18:49:11] INFO root fetch - processPackages [seeFretboard]: New version: [0.1.5.4] Old Version: [0.1.5.3]
+[2023-05-30 18:49:11] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.27.0.dev20230530] Old Version: [1.26.0.dev20230427]
+[2023-05-30 18:49:11] INFO root fetch - processPackages [dfcon]: executing diffoscope
+[2023-05-30 18:49:11] INFO root fetch - processPackages [dfcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfcon-0.0.8.tar.gz tmp/dfcon-0.0.9.tar.gz --markdown 20230530/d/dfcon/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 18:49:11] INFO root fetch - processPackages [geolibs]: executing diffoscope
+[2023-05-30 18:49:11] INFO root fetch - processPackages [geolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolibs-0.0.7.tar.gz tmp/geolibs-0.0.8.tar.gz --markdown 20230530/g/geolibs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 18:49:11] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-date-wizard]: Downloading https://files.pythonhosted.org/packages/1b/19/fd1b0dc497956745b42b798550236d22a17b74809b2c0c10d2ed31a7e7b0/odoo_addon_l10n_ro_stock_account_date_wizard-15.0.3.0.0-py3-none-any.whl
+[2023-05-30 18:49:11] INFO root fetch - processPackages [aisquared]: Downloading https://files.pythonhosted.org/packages/c8/47/34f1e8001e22bcf3da68ef9d427fb5118d97f945ff1453fa8cfd99347c24/aisquared-0.3.6.tar.gz
+[2023-05-30 18:49:11] INFO root fetch - processPackages [peachdb]: Downloading https://files.pythonhosted.org/packages/1e/a1/b2038ae1e408082c4aa1641cdca63b11d9156f9c6518826bcf992023b530/peachdb-0.0.6.tar.gz
+[2023-05-30 18:49:11] INFO root fetch - processPackages [peachdb]: executing diffoscope
+[2023-05-30 18:49:11] INFO root fetch - processPackages [peachdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peachdb-0.0.5.tar.gz tmp/peachdb-0.0.6.tar.gz --markdown 20230530/p/peachdb/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-30 18:49:11] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/73/d6/b801dce4e58c21ff0ef46246e7c84c41561c059a37cc73dd417d2bf4507c/nvidia-dali-nightly-cuda110-1.26.0.dev20230427.tar.gz
+[2023-05-30 18:49:11] INFO root fetch - processPackages [seeFretboard]: Downloading https://files.pythonhosted.org/packages/26/bc/6b24a6c92a9764f7684b5e7c925e901c00437280a69f5a37c06705470c5c/seeFretboard-0.1.5.4.tar.gz
+[2023-05-30 18:49:11] INFO root fetch - processPackages [aisquared]: Downloading https://files.pythonhosted.org/packages/98/26/b5d04a47b933f416404f47caad676eb2b2a7b3c5af2e3f10bdf5d8cf73c7/aisquared-0.3.6.dev0.tar.gz
+[2023-05-30 18:49:11] INFO root fetch - processPackages [finalynx]: executing diffoscope
+[2023-05-30 18:49:11] INFO root fetch - processPackages [finalynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalynx-1.8.3.tar.gz tmp/finalynx-1.9.0.tar.gz --markdown 20230530/f/finalynx/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-30 18:49:11] INFO root fetch - processPackages [yangsuite-coverage]: Downloading https://files.pythonhosted.org/packages/d0/9b/c0f963d3535b117eef30800b9dfdf490325376b28d8fb0957c9fffa4f969/yangsuite_coverage-3.0.9-py3-none-any.whl
+[2023-05-30 18:49:11] INFO root fetch - processPackages [viggonuvemfiscal]: Downloading https://files.pythonhosted.org/packages/ec/06/bec807483540a37bbc2d200ef6091516c7af612fe81c7b9603b15f3b5846/viggonuvemfiscal-1.1.2.tar.gz
+[2023-05-30 18:49:11] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-date-wizard]: Downloading https://files.pythonhosted.org/packages/43/7d/86ad93ad5e0595b5477139a323a73b5df2c32714882629b6549fa263f8f9/odoo_addon_l10n_ro_stock_account_date_wizard-16.0.1.1.0-py3-none-any.whl
+[2023-05-30 18:49:11] INFO root fetch - processPackages [viggonuvemfiscal]: executing diffoscope
+[2023-05-30 18:49:11] INFO root fetch - processPackages [viggonuvemfiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggonuvemfiscal-1.1.1.tar.gz tmp/viggonuvemfiscal-1.1.2.tar.gz --markdown 20230530/v/viggonuvemfiscal/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-30 18:49:11] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-date-wizard]: executing diffoscope
+[2023-05-30 18:49:11] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-date-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account_date_wizard-15.0.3.0.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account_date_wizard-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230530/o/odoo-addon-l10n-ro-stock-account-date-wizard/15.0.3.0.0-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-30 18:49:11] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/c9/6d/f72353f5bab3cc2b230cea0838a5b4919e35088517563170247539c75685/nvidia-dali-nightly-cuda110-1.27.0.dev20230530.tar.gz
+[2023-05-30 18:49:11] WARNING root fetch - processPackages [yangsuite-coverage]: Skipping package: exceeds size limit 14794051>=10485760
+[2023-05-30 18:49:11] INFO root fetch - processPackages [yangsuite-coverage]: Start processing: home-assistant-intents
+[2023-05-30 18:49:11] INFO root fetch - main [MainThread]: End processing [yangsuite-coverage] error
+[2023-05-30 18:49:11] INFO root fetch - processPackages [aisquared]: executing diffoscope
+[2023-05-30 18:49:11] INFO root fetch - processPackages [aisquared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aisquared-0.3.6.tar.gz tmp/aisquared-0.3.6.dev0.tar.gz --markdown 20230530/a/aisquared/0.3.6-0.3.6.dev0/diff.md --exclude *.pyd
+[2023-05-30 18:49:11] INFO root fetch - processPackages [home-assistant-intents]: New version: [2023.5.30] Old Version: [2023.4.26]
+[2023-05-30 18:49:11] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2023-05-30 18:49:11] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda110-1.26.0.dev20230427.tar.gz tmp/nvidia-dali-nightly-cuda110-1.27.0.dev20230530.tar.gz --markdown 20230530/n/nvidia-dali-nightly-cuda110/1.26.0.dev20230427-1.27.0.dev20230530/diff.md --exclude *.pyd
+[2023-05-30 18:49:11] INFO root fetch - processPackages [seeFretboard]: executing diffoscope
+[2023-05-30 18:49:11] INFO root fetch - processPackages [seeFretboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeFretboard-0.1.5.3.tar.gz tmp/seeFretboard-0.1.5.4.tar.gz --markdown 20230530/s/seeFretboard/0.1.5.3-0.1.5.4/diff.md --exclude *.pyd
+[2023-05-30 18:49:12] INFO root fetch - processPackages [home-assistant-intents]: Downloading https://files.pythonhosted.org/packages/39/c5/8af27b42c0340bf4eb469b6e1db3a7a1963309c3c83d7d7280fef67b383a/home-assistant-intents-2023.4.26.tar.gz
+[2023-05-30 18:49:12] INFO root fetch - processPackages [home-assistant-intents]: Downloading https://files.pythonhosted.org/packages/1a/d5/593a16d463774c54107a4caa942f2a0018f52fa5c462a4c7a0f35563bca7/home-assistant-intents-2023.5.30.tar.gz
+[2023-05-30 18:49:12] INFO root fetch - processPackages [home-assistant-intents]: executing diffoscope
+[2023-05-30 18:49:12] INFO root fetch - processPackages [home-assistant-intents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home-assistant-intents-2023.4.26.tar.gz tmp/home-assistant-intents-2023.5.30.tar.gz --markdown 20230530/h/home-assistant-intents/2023.4.26-2023.5.30/diff.md --exclude *.pyd
+[2023-05-30 18:49:12] INFO root fetch - processPackages [dfcon]: Start processing: asyncio-oss
+[2023-05-30 18:49:12] INFO root fetch - main [MainThread]: End processing [dfcon]: success
+[2023-05-30 18:49:12] WARNING root fetch - processPackages [asyncio-oss]: Skipping, unable to determine old version
+[2023-05-30 18:49:12] INFO root fetch - processPackages [asyncio-oss]: Start processing: databend
+[2023-05-30 18:49:12] INFO root fetch - main [MainThread]: End processing [asyncio-oss] error
+[2023-05-30 18:49:12] INFO root fetch - processPackages [databend]: New version: [1.1.52] Old Version: [1.1.51]
+[2023-05-30 18:49:13] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/ec/cd/e0e6c57d5153855ea52daa145d6bdd70ef447cce71c82e1d4fbdd0a85ad4/databend-1.1.51-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-30 18:49:13] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 28822868>=10485760
+[2023-05-30 18:49:13] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-05-30 18:49:13] INFO root fetch - main [MainThread]: End processing [geolibs]: success
+[2023-05-30 18:49:13] INFO root fetch - main [MainThread]: End processing [peachdb]: success
+[2023-05-30 18:49:13] INFO root fetch - main [MainThread]: End processing [viggonuvemfiscal]: success
+[2023-05-30 18:49:13] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2023-05-30 18:49:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account-date-wizard]: success
+[2023-05-30 18:49:13] INFO root fetch - main [MainThread]: End processing [finalynx]: success
+[2023-05-30 18:49:15] INFO root fetch - main [MainThread]: End processing [home-assistant-intents]: success
+[2023-05-30 18:49:15] INFO root fetch - main [MainThread]: End processing [aisquared]: success
+[2023-05-30 18:49:23] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
+[2023-05-30 18:49:23] INFO root fetch - main [MainThread]: Store serial: [18305268]
