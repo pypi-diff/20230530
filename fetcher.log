@@ -15696,3 +15696,93 @@
 [2023-05-30 17:07:10] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
 [2023-05-30 17:07:16] INFO root fetch - main [MainThread]: End processing [matrix-synapse]: success
 [2023-05-30 17:07:16] INFO root fetch - main [MainThread]: Store serial: [18304060]
+[2023-05-30 17:12:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18304060]
+[2023-05-30 17:12:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-30 17:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dl2050utils
+[2023-05-30 17:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: t4flib
+[2023-05-30 17:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: interval-sdk
+[2023-05-30 17:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: distance3d
+[2023-05-30 17:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vid2info
+[2023-05-30 17:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytamer
+[2023-05-30 17:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain
+[2023-05-30 17:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tree-of-thoughts
+[2023-05-30 17:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-security-group
+[2023-05-30 17:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Geode-Explicit
+[2023-05-30 17:12:28] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-30 17:12:28] INFO root fetch - processPackages [distance3d]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-30 17:12:28] INFO root fetch - processPackages [t4flib]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-30 17:12:28] INFO root fetch - processPackages [interval-sdk]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-30 17:12:28] INFO root fetch - processPackages [tree-of-thoughts]: New version: [0.3.1] Old Version: [0.2.9]
+[2023-05-30 17:12:28] INFO root fetch - processPackages [pytamer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 17:12:28] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.0.0rc3] Old Version: [4.0.0rc2]
+[2023-05-30 17:12:28] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 17:12:28] INFO root fetch - processPackages [vid2info]: New version: [1.99] Old Version: [1.98]
+[2023-05-30 17:12:28] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-05-30 17:12:28] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-05-30 17:12:28] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230530/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-30 17:12:28] INFO root fetch - processPackages [vid2info]: executing diffoscope
+[2023-05-30 17:12:28] INFO root fetch - processPackages [vid2info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vid2info-1.98.tar.gz tmp/vid2info-1.99.tar.gz --markdown 20230530/v/vid2info/1.98-1.99/diff.md --exclude *.pyd
+[2023-05-30 17:12:28] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/04/f5/87fe3a00057ac13fd81bd906dde58d1cc219ae227c8b61ff58eabe33f143/tree-of-thoughts-0.3.1.tar.gz
+[2023-05-30 17:12:28] INFO root fetch - processPackages [pytamer]: Downloading https://files.pythonhosted.org/packages/b8/5b/e874027aaecbfd99dd298c2233d835fc8c62ededc6d8380608360da146f4/pytamer-0.1.8-cp39-cp39-win_amd64.whl
+[2023-05-30 17:12:28] INFO root fetch - processPackages [distance3d]: Downloading https://files.pythonhosted.org/packages/34/31/06079634af780fffbb7df8c89493b7bb4356e6ca5843b2893e854ef3d85d/distance3d-0.7.1.tar.gz
+[2023-05-30 17:12:28] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/f0/16/68503f96a3394f1a964a4e382cc3fe6dcd0c3fcf5c0031cd0b734afb3d75/t4flib-0.3.1-py2.py3-none-any.whl
+[2023-05-30 17:12:28] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/8e/5f/9ae051f3df620df311074c1b9dffd9f371739d6d6c8d031671f751cba02c/Geode_Explicit-4.0.0rc3-cp39-cp39-win_amd64.whl
+[2023-05-30 17:12:28] INFO root fetch - processPackages [interval-sdk]: Downloading https://files.pythonhosted.org/packages/fd/6a/256b60ddb6ef68ba13202db00c93891166d5c240f30a01af3870a55cdde0/interval_sdk-1.3.2.tar.gz
+[2023-05-30 17:12:29] INFO root fetch - processPackages [tree-of-thoughts]: executing diffoscope
+[2023-05-30 17:12:29] INFO root fetch - processPackages [tree-of-thoughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-of-thoughts-0.2.9.tar.gz tmp/tree-of-thoughts-0.3.1.tar.gz --markdown 20230530/t/tree-of-thoughts/0.2.9-0.3.1/diff.md --exclude *.pyd
+[2023-05-30 17:12:29] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-05-30 17:12:29] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 17:12:29] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-05-30 17:12:29] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230530/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-05-30 17:12:29] INFO root fetch - processPackages [distance3d]: Downloading https://files.pythonhosted.org/packages/23/94/4f04adbea810782a8247250abc4d804846ab8a1dce88708652cddfb1b92e/distance3d-0.8.0.tar.gz
+[2023-05-30 17:12:29] INFO root fetch - processPackages [t4flib]: executing diffoscope
+[2023-05-30 17:12:29] INFO root fetch - processPackages [t4flib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4flib-0.3.0-py2.py3-none-any.whl.zip tmp/t4flib-0.3.1-py2.py3-none-any.whl.zip --markdown 20230530/t/t4flib/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-30 17:12:29] INFO root fetch - processPackages [interval-sdk]: executing diffoscope
+[2023-05-30 17:12:29] INFO root fetch - processPackages [interval-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interval_sdk-1.3.1.tar.gz tmp/interval_sdk-1.3.2.tar.gz --markdown 20230530/i/interval-sdk/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-30 17:12:29] INFO root fetch - processPackages [distance3d]: executing diffoscope
+[2023-05-30 17:12:29] INFO root fetch - processPackages [distance3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distance3d-0.7.1.tar.gz tmp/distance3d-0.8.0.tar.gz --markdown 20230530/d/distance3d/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-30 17:12:29] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2023-05-30 17:12:29] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.0.0rc2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.0.0rc3-cp39-cp39-win_amd64.whl.zip --markdown 20230530/G/Geode-Explicit/4.0.0rc2-4.0.0rc3/diff.md --exclude *.pyd
+[2023-05-30 17:12:30] INFO root fetch - processPackages [dl2050utils]: Start processing: kolibri-ml
+[2023-05-30 17:12:30] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-05-30 17:12:30] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.8] Old Version: [1.1.71]
+[2023-05-30 17:12:30] INFO root fetch - processPackages [pytamer]: Downloading https://files.pythonhosted.org/packages/bd/75/c64c1686792601a958eedba4a55d17cac6b9affff863b88cf013a2a0db2d/pytamer-0.1.9-cp39-cp39-win_amd64.whl
+[2023-05-30 17:12:30] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/e7/d9/5590bc9ce13678f4db101707c919e113e215395066d317b75f8cf8bb7711/kolibri_ml-1.1.71-py3-none-any.whl
+[2023-05-30 17:12:30] INFO root fetch - processPackages [tree-of-thoughts]: Start processing: pysmart365
+[2023-05-30 17:12:30] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts]: success
+[2023-05-30 17:12:30] INFO root fetch - processPackages [pysmart365]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 17:12:30] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-05-30 17:12:30] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.71-py3-none-any.whl.zip tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip --markdown 20230530/k/kolibri-ml/1.1.71-1.1.8/diff.md --exclude *.pyd
+[2023-05-30 17:12:30] INFO root fetch - processPackages [pepperize.cdk-security-group]: Start processing: responsibleai-text
+[2023-05-30 17:12:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-05-30 17:12:31] INFO root fetch - processPackages [responsibleai-text]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 17:12:31] INFO root fetch - processPackages [pysmart365]: Downloading https://files.pythonhosted.org/packages/16/ad/2c17ec07c9524b50873adb34ef4f4b9534d4b7e24704e02fe2948cc2f24a/pysmart365-0.0.4.tar.gz
+[2023-05-30 17:12:31] INFO root fetch - processPackages [t4flib]: Start processing: cdktf
+[2023-05-30 17:12:31] INFO root fetch - main [MainThread]: End processing [t4flib]: success
+[2023-05-30 17:12:31] INFO root fetch - processPackages [pysmart365]: executing diffoscope
+[2023-05-30 17:12:31] INFO root fetch - processPackages [pysmart365]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysmart365-0.0.3.tar.gz tmp/pysmart365-0.0.4.tar.gz --markdown 20230530/p/pysmart365/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 17:12:31] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-30 17:12:31] INFO root fetch - processPackages [responsibleai-text]: Downloading https://files.pythonhosted.org/packages/a8/23/f9a2bb882a88365dd5a44d507ccea29c6c7fd3715ec9cd7051519c1b3a37/responsibleai_text-0.1.2.tar.gz
+[2023-05-30 17:12:31] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-05-30 17:12:31] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230530/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-30 17:12:31] INFO root fetch - processPackages [responsibleai-text]: Downloading https://files.pythonhosted.org/packages/b2/7f/c3f407f4e17f7d18c3605b134faf7a0f82125c551d7c534b6b36ea73674c/responsibleai_text-0.1.3.tar.gz
+[2023-05-30 17:12:31] INFO root fetch - processPackages [distance3d]: Start processing: botocore-stubs
+[2023-05-30 17:12:31] INFO root fetch - main [MainThread]: End processing [distance3d]: success
+[2023-05-30 17:12:31] INFO root fetch - processPackages [responsibleai-text]: executing diffoscope
+[2023-05-30 17:12:31] INFO root fetch - processPackages [responsibleai-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/responsibleai_text-0.1.2.tar.gz tmp/responsibleai_text-0.1.3.tar.gz --markdown 20230530/r/responsibleai-text/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 17:12:31] INFO root fetch - processPackages [botocore-stubs]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-05-30 17:12:31] INFO root fetch - processPackages [pytamer]: executing diffoscope
+[2023-05-30 17:12:31] INFO root fetch - processPackages [pytamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytamer-0.1.8-cp39-cp39-win_amd64.whl.zip tmp/pytamer-0.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20230530/p/pytamer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 17:12:31] INFO root fetch - main [MainThread]: End processing [interval-sdk]: success
+[2023-05-30 17:12:32] INFO root fetch - processPackages [botocore-stubs]: executing diffoscope
+[2023-05-30 17:12:32] INFO root fetch - processPackages [botocore-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_stubs-1.29.98.tar.gz tmp/botocore_stubs-1.29.99.tar.gz --markdown 20230530/b/botocore-stubs/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-05-30 17:12:32] INFO root fetch - main [MainThread]: End processing [vid2info]: success
+[2023-05-30 17:12:32] INFO root fetch - main [MainThread]: End processing [pysmart365]: success
+[2023-05-30 17:12:33] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-05-30 17:12:33] INFO root fetch - main [MainThread]: End processing [responsibleai-text]: success
+[2023-05-30 17:12:33] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-05-30 17:12:34] INFO root fetch - main [MainThread]: End processing [botocore-stubs]: success
+[2023-05-30 17:12:35] INFO root fetch - main [MainThread]: End processing [pytamer]: success
+[2023-05-30 17:12:37] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-05-30 17:12:47] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2023-05-30 17:12:47] INFO root fetch - main [MainThread]: Store serial: [18304131]
