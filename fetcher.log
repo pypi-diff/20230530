@@ -22338,3 +22338,86 @@ EOFError: EOF read where object expected
 [2023-05-30 23:50:16] INFO root fetch - main [MainThread]: End processing [whylogs]: success
 [2023-05-30 23:50:22] INFO root fetch - main [MainThread]: End processing [cryptography]: success
 [2023-05-30 23:50:22] INFO root fetch - main [MainThread]: Store serial: [18308037]
+[2023-05-30 23:55:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308037]
+[2023-05-30 23:55:31] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-30 23:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdfgpt
+[2023-05-30 23:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: human-protocol-sdk
+[2023-05-30 23:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quransbuuniversity
+[2023-05-30 23:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PartSeg
+[2023-05-30 23:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulpcore
+[2023-05-30 23:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulpcore-client
+[2023-05-30 23:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stemtool
+[2023-05-30 23:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stemtool
+[2023-05-30 23:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: melexis-i2c-stick
+[2023-05-30 23:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Shchirov-serializer
+[2023-05-30 23:55:31] INFO root fetch - processPackages [pdfgpt]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-30 23:55:31] WARNING root fetch - processPackages [quransbuuniversity]: Skipping, unable to determine old version
+[2023-05-30 23:55:31] INFO root fetch - processPackages [quransbuuniversity]: Start processing: random-math-rmaiaaaa
+[2023-05-30 23:55:31] INFO root fetch - main [MainThread]: End processing [quransbuuniversity] error
+[2023-05-30 23:55:31] INFO root fetch - processPackages [stemtool]: New version: [2023.5.30] Old Version: [2023.5.26]
+[2023-05-30 23:55:31] INFO root fetch - processPackages [human-protocol-sdk]: New version: [1.1.4] Old Version: [1.1.2]
+[2023-05-30 23:55:31] INFO root fetch - processPackages [stemtool]: New version: [2023.5.30] Old Version: [2023.5.26]
+[2023-05-30 23:55:31] INFO root fetch - processPackages [Shchirov-serializer]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-30 23:55:31] INFO root fetch - processPackages [melexis-i2c-stick]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-30 23:55:31] INFO root fetch - processPackages [random-math-rmaiaaaa]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-30 23:55:32] INFO root fetch - processPackages [PartSeg]: New version: [0.9b2] Old Version: [0.9b1]
+[2023-05-30 23:55:32] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-30 23:55:32] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-05-30 23:55:32] INFO root fetch - processPackages [human-protocol-sdk]: executing diffoscope
+[2023-05-30 23:55:32] INFO root fetch - processPackages [human-protocol-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/human-protocol-sdk-1.1.2.tar.gz tmp/human-protocol-sdk-1.1.4.tar.gz --markdown 20230530/h/human-protocol-sdk/1.1.2-1.1.4/diff.md --exclude *.pyd
+[2023-05-30 23:55:32] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-05-30 23:55:32] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230530/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-30 23:55:32] INFO root fetch - processPackages [stemtool]: Downloading https://files.pythonhosted.org/packages/a3/fb/cdc47d4c2082f65a3603a738065f4ddb61e7124302ee16e4ce474d65a77f/stemtool-2023.5.26-py3.10.egg
+[2023-05-30 23:55:32] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-05-30 23:55:32] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230530/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-05-30 23:55:32] INFO root fetch - processPackages [stemtool]: Downloading https://files.pythonhosted.org/packages/a3/fb/cdc47d4c2082f65a3603a738065f4ddb61e7124302ee16e4ce474d65a77f/stemtool-2023.5.26-py3.10.egg
+[2023-05-30 23:55:32] INFO root fetch - processPackages [Shchirov-serializer]: Downloading https://files.pythonhosted.org/packages/ce/95/fb1e9fd553dc95bd2dae54306caa7c6b0891f343006d8f82c508ec701390/Shchirov_serializer-1.1.7.tar.gz
+[2023-05-30 23:55:32] INFO root fetch - processPackages [pdfgpt]: Downloading https://files.pythonhosted.org/packages/f4/4d/bad998522124ae09962a33752889b14fa556ccf047a8b3debf5f1083d354/pdfgpt-0.2.1.tar.gz
+[2023-05-30 23:55:32] INFO root fetch - processPackages [melexis-i2c-stick]: Downloading https://files.pythonhosted.org/packages/46/d2/893767a0a50826bfe8ac117d60e9c2b10a4d5409aca7cacef607176a5579/melexis-i2c-stick-0.3.0.tar.gz
+[2023-05-30 23:55:32] INFO root fetch - processPackages [PartSeg]: Downloading https://files.pythonhosted.org/packages/f8/dc/b44aabe6b685e5fa2c30a54c627357b1392f3c2bca2e00f08b38ad9967da/PartSeg-0.9b1.tar.gz
+[2023-05-30 23:55:32] INFO root fetch - processPackages [random-math-rmaiaaaa]: Downloading https://files.pythonhosted.org/packages/2f/21/829bb8432d82293b62a020494a9ea233a2f5dcd00d5dd15cddf382701aec/random_math_rmaiaaaa-1.1.0.tar.gz
+[2023-05-30 23:55:32] INFO root fetch - processPackages [pdfgpt]: executing diffoscope
+[2023-05-30 23:55:32] INFO root fetch - processPackages [pdfgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfgpt-0.2.0.tar.gz tmp/pdfgpt-0.2.1.tar.gz --markdown 20230530/p/pdfgpt/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-30 23:55:32] INFO root fetch - processPackages [random-math-rmaiaaaa]: executing diffoscope
+[2023-05-30 23:55:32] INFO root fetch - processPackages [random-math-rmaiaaaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/random_math_rmaiaaaa-1.0.0.tar.gz tmp/random_math_rmaiaaaa-1.1.0.tar.gz --markdown 20230530/r/random-math-rmaiaaaa/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 23:55:32] INFO root fetch - processPackages [stemtool]: Downloading https://files.pythonhosted.org/packages/d1/3e/d4493656fd47bf4f977a6c49ebbd060d2aa1008c3a18cf8f61545d8dbbbb/stemtool-2023.5.30-py3.10.egg
+[2023-05-30 23:55:32] INFO root fetch - processPackages [stemtool]: Downloading https://files.pythonhosted.org/packages/d1/3e/d4493656fd47bf4f977a6c49ebbd060d2aa1008c3a18cf8f61545d8dbbbb/stemtool-2023.5.30-py3.10.egg
+[2023-05-30 23:55:32] INFO root fetch - processPackages [Shchirov-serializer]: Downloading https://files.pythonhosted.org/packages/90/eb/c4cc6e689818d7e2fb97d8a458c3ed4e839b759a307559fc699afbefdbf6/Shchirov_serializer-1.1.8.tar.gz
+[2023-05-30 23:55:32] INFO root fetch - processPackages [melexis-i2c-stick]: Downloading https://files.pythonhosted.org/packages/9c/dc/099ba0cb86b8bfe80e879d6021ed6031a69f782c2d396ae932b21858812c/melexis-i2c-stick-0.3.1.tar.gz
+[2023-05-30 23:55:32] INFO root fetch - processPackages [Shchirov-serializer]: executing diffoscope
+[2023-05-30 23:55:32] INFO root fetch - processPackages [Shchirov-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shchirov_serializer-1.1.7.tar.gz tmp/Shchirov_serializer-1.1.8.tar.gz --markdown 20230530/S/Shchirov-serializer/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-30 23:55:32] INFO root fetch - processPackages [melexis-i2c-stick]: executing diffoscope
+[2023-05-30 23:55:32] INFO root fetch - processPackages [melexis-i2c-stick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melexis-i2c-stick-0.3.0.tar.gz tmp/melexis-i2c-stick-0.3.1.tar.gz --markdown 20230530/m/melexis-i2c-stick/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-30 23:55:32] INFO root fetch - processPackages [stemtool]: executing diffoscope
+[2023-05-30 23:55:32] INFO root fetch - processPackages [stemtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stemtool-2023.5.26-py3.10.egg tmp/stemtool-2023.5.30-py3.10.egg --markdown 20230530/s/stemtool/2023.5.26-2023.5.30/diff.md --exclude *.pyd
+[2023-05-30 23:55:32] INFO root fetch - processPackages [stemtool]: executing diffoscope
+[2023-05-30 23:55:32] INFO root fetch - processPackages [stemtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stemtool-2023.5.26-py3.10.egg tmp/stemtool-2023.5.30-py3.10.egg --markdown 20230530/s/stemtool/2023.5.26-2023.5.30/diff.md --exclude *.pyd
+[2023-05-30 23:55:33] INFO root fetch - processPackages [human-protocol-sdk]: Start processing: odoo14-addon-account-statement-import
+[2023-05-30 23:55:33] INFO root fetch - main [MainThread]: End processing [human-protocol-sdk]: success
+[2023-05-30 23:55:33] INFO root fetch - processPackages [odoo14-addon-account-statement-import]: New version: [14.0.3.3.1.dev1] Old Version: [14.0.3.3.1]
+[2023-05-30 23:55:33] INFO root fetch - processPackages [odoo14-addon-account-statement-import]: Downloading https://files.pythonhosted.org/packages/3b/d1/3599b4af15db1e57bc5692f0f85884a2405446c04515a4da280de0c47f08/odoo14_addon_account_statement_import-14.0.3.3.1-py3-none-any.whl
+[2023-05-30 23:55:34] INFO root fetch - processPackages [odoo14-addon-account-statement-import]: Downloading https://files.pythonhosted.org/packages/4d/57/6db17a4b570f07d7e4d66fb14a3f9d86273a9cd57aa220d6a8d520831b21/odoo14_addon_account_statement_import-14.0.3.3.1.dev1-py3-none-any.whl
+[2023-05-30 23:55:34] INFO root fetch - processPackages [odoo14-addon-account-statement-import]: executing diffoscope
+[2023-05-30 23:55:34] INFO root fetch - processPackages [odoo14-addon-account-statement-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_statement_import-14.0.3.3.1-py3-none-any.whl.zip tmp/odoo14_addon_account_statement_import-14.0.3.3.1.dev1-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-account-statement-import/14.0.3.3.1-14.0.3.3.1.dev1/diff.md --exclude *.pyd
+[2023-05-30 23:55:34] INFO root fetch - processPackages [melexis-i2c-stick]: Start processing: splight-cli
+[2023-05-30 23:55:34] INFO root fetch - main [MainThread]: End processing [melexis-i2c-stick]: success
+[2023-05-30 23:55:34] INFO root fetch - processPackages [splight-cli]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-30 23:55:34] INFO root fetch - processPackages [pdfgpt]: Start processing: quransbuforuni
+[2023-05-30 23:55:34] INFO root fetch - main [MainThread]: End processing [pdfgpt]: success
+[2023-05-30 23:55:34] WARNING root fetch - processPackages [quransbuforuni]: Skipping, unable to determine old version
+[2023-05-30 23:55:34] INFO root fetch - main [MainThread]: End processing [quransbuforuni] error
+[2023-05-30 23:55:34] INFO root fetch - main [MainThread]: End processing [random-math-rmaiaaaa]: success
+[2023-05-30 23:55:34] INFO root fetch - main [MainThread]: End processing [Shchirov-serializer]: success
+[2023-05-30 23:55:34] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-05-30 23:55:34] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-2.3.8.tar.gz tmp/splight-cli-2.3.9.tar.gz --markdown 20230530/s/splight-cli/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-30 23:55:34] INFO root fetch - processPackages [PartSeg]: Downloading https://files.pythonhosted.org/packages/2a/dd/169d2cf477f98bbfa1eaddae85efce5403fb8c710d2897a0b050329a0fbc/PartSeg-0.9b2.tar.gz
+[2023-05-30 23:55:35] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-05-30 23:55:35] INFO root fetch - main [MainThread]: End processing [stemtool]: success
+[2023-05-30 23:55:35] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-05-30 23:55:35] INFO root fetch - main [MainThread]: End processing [stemtool]: success
+[2023-05-30 23:55:36] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-05-30 23:55:37] INFO root fetch - processPackages [PartSeg]: executing diffoscope
+[2023-05-30 23:55:37] INFO root fetch - processPackages [PartSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PartSeg-0.9b1.tar.gz tmp/PartSeg-0.9b2.tar.gz --markdown 20230530/P/PartSeg/0.9b1-0.9b2/diff.md --exclude *.pyd
+[2023-05-30 23:55:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-statement-import]: success
+[2023-05-30 23:55:41] INFO root fetch - main [MainThread]: End processing [PartSeg]: success
+[2023-05-30 23:55:41] INFO root fetch - main [MainThread]: Store serial: [18308080]
