@@ -9135,3 +9135,137 @@
 [2023-05-30 11:21:13] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-05-30 11:24:01] INFO root fetch - main [MainThread]: End processing [vineyard]: success
 [2023-05-30 11:24:01] INFO root fetch - main [MainThread]: Store serial: [18299959]
+[2023-05-30 11:29:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18299959]
+[2023-05-30 11:29:10] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-30 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dls-bxflow
+[2023-05-30 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vineyard-bdist
+[2023-05-30 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airscript
+[2023-05-30 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: powerplantmatching
+[2023-05-30 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: centesimal-iot
+[2023-05-30 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycelium
+[2023-05-30 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bhad
+[2023-05-30 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vineyard-dask
+[2023-05-30 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vineyard-io
+[2023-05-30 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vineyard-ml
+[2023-05-30 11:29:10] INFO root fetch - processPackages [centesimal-iot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 11:29:10] INFO root fetch - processPackages [airscript]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-05-30 11:29:10] INFO root fetch - processPackages [vineyard-bdist]: New version: [0.14.8] Old Version: [0.14.7]
+[2023-05-30 11:29:10] INFO root fetch - processPackages [bhad]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-30 11:29:10] INFO root fetch - processPackages [pycelium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 11:29:10] INFO root fetch - processPackages [vineyard-ml]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-05-30 11:29:10] INFO root fetch - processPackages [dls-bxflow]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-05-30 11:29:10] INFO root fetch - processPackages [vineyard-dask]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-05-30 11:29:10] INFO root fetch - processPackages [vineyard-io]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-05-30 11:29:10] INFO root fetch - processPackages [powerplantmatching]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-05-30 11:29:11] INFO root fetch - processPackages [vineyard-bdist]: Downloading https://files.pythonhosted.org/packages/af/3f/adeaf9781500dc4c1b9ee9f2f448cecd928a39f7946196a0def9a5948263/vineyard_bdist-0.14.7-py3-none-manylinux2014_x86_64.whl
+[2023-05-30 11:29:11] INFO root fetch - processPackages [bhad]: Downloading https://files.pythonhosted.org/packages/9a/eb/a3e0502e011a3bad3275582836a48d40fcc8f9bd3e6b52bee081b3e99314/bhad-0.0.9.tar.gz
+[2023-05-30 11:29:11] INFO root fetch - processPackages [powerplantmatching]: Downloading https://files.pythonhosted.org/packages/3a/79/efd2a26064cff64c70c6768e76120a69df03986a7acad825d4f82373dfd2/powerplantmatching-0.5.6.tar.gz
+[2023-05-30 11:29:11] WARNING root fetch - processPackages [vineyard-bdist]: Skipping package: exceeds size limit 22964936>=10485760
+[2023-05-30 11:29:11] INFO root fetch - processPackages [vineyard-bdist]: Start processing: cashfree-pg-sdk-python
+[2023-05-30 11:29:11] INFO root fetch - main [MainThread]: End processing [vineyard-bdist] error
+[2023-05-30 11:29:11] INFO root fetch - processPackages [airscript]: Downloading https://files.pythonhosted.org/packages/89/66/f45c734344c3f72c7701b50e5989c6bc36d85babb4a67f0f93d81ea8eb09/airscript-0.0.5.tar.gz
+[2023-05-30 11:29:11] INFO root fetch - processPackages [dls-bxflow]: Downloading https://files.pythonhosted.org/packages/ef/b2/5a93dac371d2c4b5cf3ad43144f7a78533da4aa50673c1c37b99907cce9d/dls-bxflow-2.4.1.tar.gz
+[2023-05-30 11:29:11] INFO root fetch - processPackages [cashfree-pg-sdk-python]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-30 11:29:11] INFO root fetch - processPackages [dls-bxflow]: executing diffoscope
+[2023-05-30 11:29:11] INFO root fetch - processPackages [dls-bxflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-bxflow-2.4.0.tar.gz tmp/dls-bxflow-2.4.1.tar.gz --markdown 20230530/d/dls-bxflow/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-05-30 11:29:11] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-05-30 11:29:11] INFO root fetch - processPackages [vineyard-io]: executing diffoscope
+[2023-05-30 11:29:11] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.8.tar.gz tmp/pycelium-0.1.9.tar.gz --markdown 20230530/p/pycelium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 11:29:11] INFO root fetch - processPackages [vineyard-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard_io-0.8.6-py3-none-any.whl.zip tmp/vineyard_io-0.9.0-py3-none-any.whl.zip --markdown 20230530/v/vineyard-io/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 11:29:11] INFO root fetch - processPackages [airscript]: executing diffoscope
+[2023-05-30 11:29:11] INFO root fetch - processPackages [airscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airscript-0.0.3.tar.gz tmp/airscript-0.0.5.tar.gz --markdown 20230530/a/airscript/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-05-30 11:29:11] INFO root fetch - processPackages [vineyard-ml]: executing diffoscope
+[2023-05-30 11:29:11] INFO root fetch - processPackages [vineyard-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard_ml-0.8.6-py3-none-any.whl.zip tmp/vineyard_ml-0.9.0-py3-none-any.whl.zip --markdown 20230530/v/vineyard-ml/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 11:29:11] INFO root fetch - processPackages [vineyard-dask]: executing diffoscope
+[2023-05-30 11:29:11] INFO root fetch - processPackages [vineyard-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard_dask-0.8.6-py3-none-any.whl.zip tmp/vineyard_dask-0.9.0-py3-none-any.whl.zip --markdown 20230530/v/vineyard-dask/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 11:29:11] INFO root fetch - processPackages [bhad]: Downloading https://files.pythonhosted.org/packages/cd/79/f91da89721d5b2d7e7af36221d659869408cef7539fbee8cf1cc2a1a817a/bhad-0.1.0.tar.gz
+[2023-05-30 11:29:11] INFO root fetch - processPackages [cashfree-pg-sdk-python]: Downloading https://files.pythonhosted.org/packages/3c/89/2c22ff400a852ee27d99b1c3e5c5ac85d3350bdf53f0a344e4b582b781ed/cashfree_pg_sdk_python-2.0.0.tar.gz
+[2023-05-30 11:29:11] INFO root fetch - processPackages [powerplantmatching]: Downloading https://files.pythonhosted.org/packages/58/02/e90716094182ca897801819fa2a4c96e5379a077b454cbeee8799142f213/powerplantmatching-0.5.7.tar.gz
+[2023-05-30 11:29:11] INFO root fetch - processPackages [centesimal-iot]: executing diffoscope
+[2023-05-30 11:29:11] INFO root fetch - processPackages [centesimal-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centesimal_iot-0.1.8-py2.py3-none-any.whl.zip tmp/centesimal_iot-0.1.9-py2.py3-none-any.whl.zip --markdown 20230530/c/centesimal-iot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 11:29:11] INFO root fetch - processPackages [bhad]: executing diffoscope
+[2023-05-30 11:29:11] INFO root fetch - processPackages [bhad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhad-0.0.9.tar.gz tmp/bhad-0.1.0.tar.gz --markdown 20230530/b/bhad/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-30 11:29:11] INFO root fetch - processPackages [powerplantmatching]: executing diffoscope
+[2023-05-30 11:29:11] INFO root fetch - processPackages [powerplantmatching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerplantmatching-0.5.6.tar.gz tmp/powerplantmatching-0.5.7.tar.gz --markdown 20230530/p/powerplantmatching/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-05-30 11:29:11] INFO root fetch - processPackages [cashfree-pg-sdk-python]: Downloading https://files.pythonhosted.org/packages/58/3b/25a12e97bc3ea43bba7b791ddd7df4612473045787021915aca67a2ee558/cashfree_pg_sdk_python-2.0.1.tar.gz
+[2023-05-30 11:29:11] INFO root fetch - processPackages [cashfree-pg-sdk-python]: executing diffoscope
+[2023-05-30 11:29:11] INFO root fetch - processPackages [cashfree-pg-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashfree_pg_sdk_python-2.0.0.tar.gz tmp/cashfree_pg_sdk_python-2.0.1.tar.gz --markdown 20230530/c/cashfree-pg-sdk-python/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-30 11:29:12] INFO root fetch - processPackages [airscript]: Start processing: hiddifypanel
+[2023-05-30 11:29:12] INFO root fetch - main [MainThread]: End processing [airscript]: success
+[2023-05-30 11:29:13] INFO root fetch - processPackages [hiddifypanel]: New version: [7.0.5] Old Version: [7.0.4]
+[2023-05-30 11:29:13] INFO root fetch - processPackages [vineyard-ml]: Start processing: bioumlsim
+[2023-05-30 11:29:13] INFO root fetch - main [MainThread]: End processing [vineyard-ml]: success
+[2023-05-30 11:29:13] INFO root fetch - processPackages [bioumlsim]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-30 11:29:13] INFO root fetch - processPackages [vineyard-dask]: Start processing: tailraiders
+[2023-05-30 11:29:13] INFO root fetch - main [MainThread]: End processing [vineyard-dask]: success
+[2023-05-30 11:29:13] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/de/d7/c2c44cc193f6b5b7ba5a6788ca3e0a4489781bc5413a17370fe59d59c90a/hiddifypanel-7.0.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-30 11:29:13] INFO root fetch - processPackages [tailraiders]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 11:29:13] INFO root fetch - processPackages [bioumlsim]: Downloading https://files.pythonhosted.org/packages/40/25/a109d1ee2f994b1c4efc45ab131d2493fc2e5ff3885c3140228ca2fdd066/bioumlsim-0.4.1.tar.gz
+[2023-05-30 11:29:13] INFO root fetch - processPackages [tailraiders]: Downloading https://files.pythonhosted.org/packages/e2/e8/e777f83cf77b141fb459792bbc3309c7c62846e4ca6a7baf03d6f6712975/tailraiders-0.0.9.tar.gz
+[2023-05-30 11:29:13] INFO root fetch - processPackages [centesimal-iot]: Start processing: docarray
+[2023-05-30 11:29:13] INFO root fetch - main [MainThread]: End processing [centesimal-iot]: success
+[2023-05-30 11:29:13] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-30 11:29:13] INFO root fetch - processPackages [tailraiders]: executing diffoscope
+[2023-05-30 11:29:13] INFO root fetch - processPackages [tailraiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailraiders-0.0.8.tar.gz tmp/tailraiders-0.0.9.tar.gz --markdown 20230530/t/tailraiders/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 11:29:13] INFO root fetch - processPackages [vineyard-io]: Start processing: pipiyi-tools
+[2023-05-30 11:29:13] INFO root fetch - main [MainThread]: End processing [vineyard-io]: success
+[2023-05-30 11:29:13] INFO root fetch - processPackages [pipiyi-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 11:29:13] INFO root fetch - processPackages [pycelium]: Start processing: hello-asso-test-chapter-python
+[2023-05-30 11:29:13] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-05-30 11:29:13] WARNING root fetch - processPackages [hello-asso-test-chapter-python]: Skipping, unable to determine old version
+[2023-05-30 11:29:13] INFO root fetch - processPackages [hello-asso-test-chapter-python]: Start processing: invenio-app-rdm
+[2023-05-30 11:29:13] INFO root fetch - main [MainThread]: End processing [hello-asso-test-chapter-python] error
+[2023-05-30 11:29:13] INFO root fetch - processPackages [invenio-app-rdm]: New version: [9.1.6] Old Version: [9.1.5]
+[2023-05-30 11:29:14] INFO root fetch - processPackages [pipiyi-tools]: Downloading https://files.pythonhosted.org/packages/89/ee/ad5468f49c8255ddd631704fe9a14be7514b69b4ca438e1493e30bd22941/pipiyi_tools-0.0.1.tar.gz
+[2023-05-30 11:29:14] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-30 11:29:14] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230530/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-30 11:29:14] INFO root fetch - processPackages [powerplantmatching]: Start processing: duptextfinder
+[2023-05-30 11:29:14] INFO root fetch - main [MainThread]: End processing [powerplantmatching]: success
+[2023-05-30 11:29:14] INFO root fetch - processPackages [duptextfinder]: New version: [0.2] Old Version: [0.1]
+[2023-05-30 11:29:14] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/35/44/4cbbc79ecfcfeba25eaa588259dd78889d45f7ce5da9df51d90a886d7283/invenio-app-rdm-9.1.5.tar.gz
+[2023-05-30 11:29:14] INFO root fetch - processPackages [bhad]: Start processing: TheMathModule
+[2023-05-30 11:29:14] INFO root fetch - main [MainThread]: End processing [bhad]: success
+[2023-05-30 11:29:14] INFO root fetch - processPackages [pipiyi-tools]: Downloading https://files.pythonhosted.org/packages/92/a1/53119e9389d119a2600e8edfd5ff47a24817849aeb83b3064f17495c1928/pipiyi_tools-0.0.2.tar.gz
+[2023-05-30 11:29:14] INFO root fetch - processPackages [TheMathModule]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-30 11:29:14] INFO root fetch - processPackages [duptextfinder]: Downloading https://files.pythonhosted.org/packages/04/fd/bee8255ee3899510cd73299b2713d9c1241d1cc3aff1b7378d93d4052f1f/duptextfinder-0.1.tar.gz
+[2023-05-30 11:29:14] INFO root fetch - processPackages [pipiyi-tools]: executing diffoscope
+[2023-05-30 11:29:14] INFO root fetch - processPackages [pipiyi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipiyi_tools-0.0.1.tar.gz tmp/pipiyi_tools-0.0.2.tar.gz --markdown 20230530/p/pipiyi-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 11:29:14] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/6d/08/541356da553e52c32dfd88d87a98202db68711a201c4136b0acdd982572f/invenio-app-rdm-9.1.6.tar.gz
+[2023-05-30 11:29:14] INFO root fetch - processPackages [TheMathModule]: Downloading https://files.pythonhosted.org/packages/09/e3/f9e2d3e4b74d00ec20e19c76d9f4302662e7cbb70fb48cd2804ef1ecabc8/TheMathModule-0.1.0.tar.gz
+[2023-05-30 11:29:14] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-30 11:29:14] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.0.4-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-7.0.5-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230530/h/hiddifypanel/7.0.4-7.0.5/diff.md --exclude *.pyd
+[2023-05-30 11:29:14] INFO root fetch - processPackages [invenio-app-rdm]: executing diffoscope
+[2023-05-30 11:29:14] INFO root fetch - processPackages [invenio-app-rdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-rdm-9.1.5.tar.gz tmp/invenio-app-rdm-9.1.6.tar.gz --markdown 20230530/i/invenio-app-rdm/9.1.5-9.1.6/diff.md --exclude *.pyd
+[2023-05-30 11:29:14] INFO root fetch - processPackages [duptextfinder]: Downloading https://files.pythonhosted.org/packages/25/00/9b5e50be31cffeec21030c662008527dda2948acd5b823d39e733335d26d/duptextfinder-0.2.tar.gz
+[2023-05-30 11:29:14] INFO root fetch - processPackages [duptextfinder]: executing diffoscope
+[2023-05-30 11:29:14] INFO root fetch - processPackages [duptextfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duptextfinder-0.1.tar.gz tmp/duptextfinder-0.2.tar.gz --markdown 20230530/d/duptextfinder/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-30 11:29:14] INFO root fetch - processPackages [bioumlsim]: executing diffoscope
+[2023-05-30 11:29:14] INFO root fetch - processPackages [bioumlsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioumlsim-0.4.0.tar.gz tmp/bioumlsim-0.4.1.tar.gz --markdown 20230530/b/bioumlsim/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-30 11:29:14] INFO root fetch - processPackages [TheMathModule]: Downloading https://files.pythonhosted.org/packages/08/ed/c8dbeb94be9cd58ae19cc29b6c4853b0f1dfe5388af9f0df52afc3d8ad48/TheMathModule-0.2.0.tar.gz
+[2023-05-30 11:29:14] INFO root fetch - processPackages [TheMathModule]: executing diffoscope
+[2023-05-30 11:29:14] INFO root fetch - processPackages [TheMathModule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheMathModule-0.1.0.tar.gz tmp/TheMathModule-0.2.0.tar.gz --markdown 20230530/T/TheMathModule/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 11:29:15] INFO root fetch - processPackages [tailraiders]: Start processing: gshellx
+[2023-05-30 11:29:15] INFO root fetch - main [MainThread]: End processing [tailraiders]: success
+[2023-05-30 11:29:15] WARNING root fetch - processPackages [gshellx]: Skipping, unable to determine old version
+[2023-05-30 11:29:15] INFO root fetch - processPackages [gshellx]: Start processing: blockpipe-db
+[2023-05-30 11:29:15] INFO root fetch - main [MainThread]: End processing [gshellx] error
+[2023-05-30 11:29:15] INFO root fetch - processPackages [blockpipe-db]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-30 11:29:15] INFO root fetch - processPackages [blockpipe-db]: Downloading https://files.pythonhosted.org/packages/fa/fb/8b3215e3dd51263c04f45960f48393a513e101b7df9fe583d36456fb70d6/blockpipe_db-0.1.6.tar.gz
+[2023-05-30 11:29:15] INFO root fetch - processPackages [dls-bxflow]: Start processing: tailraiders
+[2023-05-30 11:29:15] INFO root fetch - main [MainThread]: End processing [dls-bxflow]: success
+[2023-05-30 11:29:15] INFO root fetch - processPackages [blockpipe-db]: executing diffoscope
+[2023-05-30 11:29:15] INFO root fetch - processPackages [blockpipe-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockpipe_db-0.1.5.tar.gz tmp/blockpipe_db-0.1.6.tar.gz --markdown 20230530/b/blockpipe-db/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-30 11:29:15] INFO root fetch - main [MainThread]: End processing [pipiyi-tools]: success
+[2023-05-30 11:29:15] INFO root fetch - processPackages [tailraiders]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 11:29:16] INFO root fetch - processPackages [tailraiders]: executing diffoscope
+[2023-05-30 11:29:16] INFO root fetch - processPackages [tailraiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailraiders-0.0.8.tar.gz tmp/tailraiders-0.0.9.tar.gz --markdown 20230530/t/tailraiders/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 11:29:16] INFO root fetch - main [MainThread]: End processing [duptextfinder]: success
+[2023-05-30 11:29:16] INFO root fetch - main [MainThread]: End processing [cashfree-pg-sdk-python]: success
+[2023-05-30 11:29:16] INFO root fetch - main [MainThread]: End processing [TheMathModule]: success
+[2023-05-30 11:29:17] INFO root fetch - main [MainThread]: End processing [bioumlsim]: success
+[2023-05-30 11:29:17] INFO root fetch - main [MainThread]: End processing [tailraiders]: success
+[2023-05-30 11:29:17] INFO root fetch - main [MainThread]: End processing [blockpipe-db]: success
+[2023-05-30 11:29:17] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
+[2023-05-30 11:29:18] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-30 11:29:36] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-30 11:29:36] INFO root fetch - main [MainThread]: Store serial: [18300042]

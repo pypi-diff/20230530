@@ -1,0 +1,148 @@
+# Comparing `tmp/pipiyi_tools-0.0.1.tar.gz` & `tmp/pipiyi_tools-0.0.2.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "dist/pipiyi_tools-0.0.1.tar", last modified: Tue May 30 09:03:45 2023, max compression
++gzip compressed data, was "dist/pipiyi_tools-0.0.2.tar", last modified: Tue May 30 09:25:30 2023, max compression
+```
+
+## Comparing `pipiyi_tools-0.0.1.tar` & `pipiyi_tools-0.0.2.tar`
+
+### file list
+
+```diff
+@@ -1,20 +1,20 @@
+-drwxr-xr-x   0 xiaopipi   (501) staff       (20)        0 2023-05-30 09:03:45.000000 pipiyi_tools-0.0.1/
+--rw-r--r--   0 xiaopipi   (501) staff       (20)      918 2023-05-30 09:03:45.000000 pipiyi_tools-0.0.1/PKG-INFO
+--rw-r--r--   0 xiaopipi   (501) staff       (20)      288 2023-05-30 08:07:51.000000 pipiyi_tools-0.0.1/README.md
+-drwxr-xr-x   0 xiaopipi   (501) staff       (20)        0 2023-05-30 09:03:45.000000 pipiyi_tools-0.0.1/pipiyi_tools.egg-info/
+--rw-r--r--   0 xiaopipi   (501) staff       (20)      918 2023-05-30 09:03:45.000000 pipiyi_tools-0.0.1/pipiyi_tools.egg-info/PKG-INFO
+--rw-r--r--   0 xiaopipi   (501) staff       (20)      331 2023-05-30 09:03:45.000000 pipiyi_tools-0.0.1/pipiyi_tools.egg-info/SOURCES.txt
+--rw-r--r--   0 xiaopipi   (501) staff       (20)        1 2023-05-30 09:03:45.000000 pipiyi_tools-0.0.1/pipiyi_tools.egg-info/dependency_links.txt
+--rw-r--r--   0 xiaopipi   (501) staff       (20)       43 2023-05-30 09:03:45.000000 pipiyi_tools-0.0.1/pipiyi_tools.egg-info/requires.txt
+--rw-r--r--   0 xiaopipi   (501) staff       (20)        4 2023-05-30 09:03:45.000000 pipiyi_tools-0.0.1/pipiyi_tools.egg-info/top_level.txt
+--rw-r--r--   0 xiaopipi   (501) staff       (20)       38 2023-05-30 09:03:45.000000 pipiyi_tools-0.0.1/setup.cfg
+--rw-r--r--   0 xiaopipi   (501) staff       (20)     1003 2023-05-30 09:03:35.000000 pipiyi_tools-0.0.1/setup.py
+-drwxr-xr-x   0 xiaopipi   (501) staff       (20)        0 2023-05-30 09:03:45.000000 pipiyi_tools-0.0.1/src/
+--rw-r--r--   0 xiaopipi   (501) staff       (20)     2589 2023-05-23 08:46:36.000000 pipiyi_tools-0.0.1/src/EpubSpliter.py
+--rw-r--r--   0 xiaopipi   (501) staff       (20)     1058 2023-05-25 05:43:31.000000 pipiyi_tools-0.0.1/src/FileOperation.py
+--rw-r--r--   0 xiaopipi   (501) staff       (20)     1134 2023-05-26 09:22:54.000000 pipiyi_tools-0.0.1/src/ListQueue.py
+--rw-r--r--   0 xiaopipi   (501) staff       (20)     1928 2023-05-26 09:49:22.000000 pipiyi_tools-0.0.1/src/Log.py
+--rw-r--r--   0 xiaopipi   (501) staff       (20)     2070 2023-05-23 06:29:36.000000 pipiyi_tools-0.0.1/src/MyRequest.py
+--rw-r--r--   0 xiaopipi   (501) staff       (20)     6711 2023-05-28 14:14:08.000000 pipiyi_tools-0.0.1/src/PooledBase.py
+--rw-r--r--   0 xiaopipi   (501) staff       (20)      972 2023-05-23 04:18:08.000000 pipiyi_tools-0.0.1/src/Storage.py
+--rw-r--r--   0 xiaopipi   (501) staff       (20)        0 2023-05-13 07:30:50.000000 pipiyi_tools-0.0.1/src/__init__.py
++drwxr-xr-x   0 xiaopipi   (501) staff       (20)        0 2023-05-30 09:25:30.000000 pipiyi_tools-0.0.2/
++-rw-r--r--   0 xiaopipi   (501) staff       (20)      918 2023-05-30 09:25:30.000000 pipiyi_tools-0.0.2/PKG-INFO
++-rw-r--r--   0 xiaopipi   (501) staff       (20)      288 2023-05-30 08:07:51.000000 pipiyi_tools-0.0.2/README.md
++drwxr-xr-x   0 xiaopipi   (501) staff       (20)        0 2023-05-30 09:25:30.000000 pipiyi_tools-0.0.2/pipiyi-tools/
++-rw-r--r--   0 xiaopipi   (501) staff       (20)     2589 2023-05-23 08:46:36.000000 pipiyi_tools-0.0.2/pipiyi-tools/EpubSpliter.py
++-rw-r--r--   0 xiaopipi   (501) staff       (20)     1058 2023-05-25 05:43:31.000000 pipiyi_tools-0.0.2/pipiyi-tools/FileOperation.py
++-rw-r--r--   0 xiaopipi   (501) staff       (20)     1134 2023-05-26 09:22:54.000000 pipiyi_tools-0.0.2/pipiyi-tools/ListQueue.py
++-rw-r--r--   0 xiaopipi   (501) staff       (20)     1928 2023-05-26 09:49:22.000000 pipiyi_tools-0.0.2/pipiyi-tools/Log.py
++-rw-r--r--   0 xiaopipi   (501) staff       (20)     2070 2023-05-23 06:29:36.000000 pipiyi_tools-0.0.2/pipiyi-tools/MyRequest.py
++-rw-r--r--   0 xiaopipi   (501) staff       (20)     6711 2023-05-28 14:14:08.000000 pipiyi_tools-0.0.2/pipiyi-tools/PooledBase.py
++-rw-r--r--   0 xiaopipi   (501) staff       (20)      972 2023-05-23 04:18:08.000000 pipiyi_tools-0.0.2/pipiyi-tools/Storage.py
++-rw-r--r--   0 xiaopipi   (501) staff       (20)        0 2023-05-13 07:30:50.000000 pipiyi_tools-0.0.2/pipiyi-tools/__init__.py
++drwxr-xr-x   0 xiaopipi   (501) staff       (20)        0 2023-05-30 09:25:30.000000 pipiyi_tools-0.0.2/pipiyi_tools.egg-info/
++-rw-r--r--   0 xiaopipi   (501) staff       (20)      918 2023-05-30 09:25:30.000000 pipiyi_tools-0.0.2/pipiyi_tools.egg-info/PKG-INFO
++-rw-r--r--   0 xiaopipi   (501) staff       (20)      403 2023-05-30 09:25:30.000000 pipiyi_tools-0.0.2/pipiyi_tools.egg-info/SOURCES.txt
++-rw-r--r--   0 xiaopipi   (501) staff       (20)        1 2023-05-30 09:25:30.000000 pipiyi_tools-0.0.2/pipiyi_tools.egg-info/dependency_links.txt
++-rw-r--r--   0 xiaopipi   (501) staff       (20)       43 2023-05-30 09:25:30.000000 pipiyi_tools-0.0.2/pipiyi_tools.egg-info/requires.txt
++-rw-r--r--   0 xiaopipi   (501) staff       (20)       13 2023-05-30 09:25:30.000000 pipiyi_tools-0.0.2/pipiyi_tools.egg-info/top_level.txt
++-rw-r--r--   0 xiaopipi   (501) staff       (20)       38 2023-05-30 09:25:30.000000 pipiyi_tools-0.0.2/setup.cfg
++-rw-r--r--   0 xiaopipi   (501) staff       (20)     1003 2023-05-30 09:24:57.000000 pipiyi_tools-0.0.2/setup.py
+```
+
+### Comparing `pipiyi_tools-0.0.1/PKG-INFO` & `pipiyi_tools-0.0.2/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: pipiyi_tools
+-Version: 0.0.1
++Version: 0.0.2
+ Summary: Personal tool library
+ Home-page: UNKNOWN
+ Author: pipiyi
+ Author-email: smallpoliao@gmail.com
+ License: UNKNOWN
+ Description: 
+         # 一个小工具合集
+```
+
+### Comparing `pipiyi_tools-0.0.1/pipiyi_tools.egg-info/PKG-INFO` & `pipiyi_tools-0.0.2/pipiyi_tools.egg-info/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: pipiyi-tools
+-Version: 0.0.1
++Version: 0.0.2
+ Summary: Personal tool library
+ Home-page: UNKNOWN
+ Author: pipiyi
+ Author-email: smallpoliao@gmail.com
+ License: UNKNOWN
+ Description: 
+         # 一个小工具合集
+```
+
+### Comparing `pipiyi_tools-0.0.1/setup.py` & `pipiyi_tools-0.0.2/setup.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -3,15 +3,15 @@
+ import os
+ 
+ here = os.path.abspath(os.path.dirname(__file__))
+ 
+ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
+     long_description = "\n" + fh.read()
+ 
+-VERSION = '0.0.1'
++VERSION = '0.0.2'
+ DESCRIPTION = 'Personal tool library'
+ 
+ # Setting up
+ setup(
+     name="pipiyi_tools",
+     version=VERSION,
+     author="pipiyi",
+```
+
+### Comparing `pipiyi_tools-0.0.1/src/EpubSpliter.py` & `pipiyi_tools-0.0.2/pipiyi-tools/EpubSpliter.py`
+
+ * *Files identical despite different names*
+
+### Comparing `pipiyi_tools-0.0.1/src/FileOperation.py` & `pipiyi_tools-0.0.2/pipiyi-tools/FileOperation.py`
+
+ * *Files identical despite different names*
+
+### Comparing `pipiyi_tools-0.0.1/src/ListQueue.py` & `pipiyi_tools-0.0.2/pipiyi-tools/ListQueue.py`
+
+ * *Files identical despite different names*
+
+### Comparing `pipiyi_tools-0.0.1/src/Log.py` & `pipiyi_tools-0.0.2/pipiyi-tools/Log.py`
+
+ * *Files identical despite different names*
+
+### Comparing `pipiyi_tools-0.0.1/src/MyRequest.py` & `pipiyi_tools-0.0.2/pipiyi-tools/MyRequest.py`
+
+ * *Files identical despite different names*
+
+### Comparing `pipiyi_tools-0.0.1/src/PooledBase.py` & `pipiyi_tools-0.0.2/pipiyi-tools/PooledBase.py`
+
+ * *Files identical despite different names*
+
+### Comparing `pipiyi_tools-0.0.1/src/Storage.py` & `pipiyi_tools-0.0.2/pipiyi-tools/Storage.py`
+
+ * *Files identical despite different names*
+
