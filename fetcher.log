@@ -9872,3 +9872,107 @@
 [2023-05-30 12:07:34] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
 [2023-05-30 12:07:34] INFO root fetch - main [MainThread]: End processing [league-shop-base]: success
 [2023-05-30 12:07:34] INFO root fetch - main [MainThread]: Store serial: [18300379]
+[2023-05-30 12:12:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18300379]
+[2023-05-30 12:12:43] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-30 12:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metasynth
+[2023-05-30 12:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meilisearchdsl
+[2023-05-30 12:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: su6
+[2023-05-30 12:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pfizer-components-new
+[2023-05-30 12:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydgraph
+[2023-05-30 12:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tdnpathviz
+[2023-05-30 12:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-user-notification
+[2023-05-30 12:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openi-beta
+[2023-05-30 12:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dm-reverb-nightly
+[2023-05-30 12:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: su6
+[2023-05-30 12:12:43] INFO root fetch - processPackages [metasynth]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-30 12:12:43] INFO root fetch - processPackages [su6]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-30 12:12:44] INFO root fetch - processPackages [pydgraph]: New version: [23.0.1rc1] Old Version: [23.0.0]
+[2023-05-30 12:12:44] WARNING root fetch - processPackages [pfizer-components-new]: Skipping, unable to determine old version
+[2023-05-30 12:12:44] WARNING root fetch - processPackages [openi-beta]: Skipping, unable to determine old version
+[2023-05-30 12:12:44] INFO root fetch - processPackages [pfizer-components-new]: Start processing: pipiyiTools
+[2023-05-30 12:12:44] INFO root fetch - processPackages [django-user-notification]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-30 12:12:44] INFO root fetch - processPackages [openi-beta]: Start processing: mathjson-solver
+[2023-05-30 12:12:44] INFO root fetch - main [MainThread]: End processing [pfizer-components-new] error
+[2023-05-30 12:12:44] INFO root fetch - main [MainThread]: End processing [openi-beta] error
+[2023-05-30 12:12:44] INFO root fetch - processPackages [tdnpathviz]: New version: [0.1.2.4] Old Version: [0.1.2.3]
+[2023-05-30 12:12:44] INFO root fetch - processPackages [su6]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-30 12:12:44] WARNING root fetch - processPackages [pipiyiTools]: Skipping, unable to determine old version
+[2023-05-30 12:12:44] INFO root fetch - processPackages [pipiyiTools]: Start processing: nwebclient
+[2023-05-30 12:12:44] INFO root fetch - main [MainThread]: End processing [pipiyiTools] error
+[2023-05-30 12:12:44] INFO root fetch - processPackages [meilisearchdsl]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-30 12:12:44] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-05-30 12:12:44] INFO root fetch - processPackages [mathjson-solver]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-30 12:12:44] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-05-30 12:12:44] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/39/ff/152109eae785f7cb5eabd7591eb8105d2a367119fdbcade9ddf385d42da8/su6-0.5.0.tar.gz
+[2023-05-30 12:12:44] INFO root fetch - processPackages [django-user-notification]: executing diffoscope
+[2023-05-30 12:12:44] INFO root fetch - processPackages [django-user-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_user_notification-0.9.1.tar.gz tmp/django_user_notification-0.9.2.tar.gz --markdown 20230530/d/django-user-notification/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-30 12:12:44] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/39/ff/152109eae785f7cb5eabd7591eb8105d2a367119fdbcade9ddf385d42da8/su6-0.5.0.tar.gz
+[2023-05-30 12:12:44] INFO root fetch - processPackages [metasynth]: Downloading https://files.pythonhosted.org/packages/1f/bf/5ef55215077fae106661ef8d432b75fe2948df742929b9fbe2f66e0f30a0/metasynth-0.2.2.tar.gz
+[2023-05-30 12:12:44] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-30 12:12:44] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230530/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-05-30 12:12:44] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-05-30 12:12:44] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230530/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-05-30 12:12:44] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/7c/23/ba577c358ed7ee8967a7a7175e3bf8dd2ba63c5cc7b79ef1b3402da55084/tdnpathviz-0.1.2.3-py3-none-any.whl
+[2023-05-30 12:12:44] INFO root fetch - processPackages [mathjson-solver]: Downloading https://files.pythonhosted.org/packages/ce/3c/b091864169ff25cc2d96cd2ea68f79d55526b461d8a8da0603d332ffbaac/mathjson-solver-1.5.0.tar.gz
+[2023-05-30 12:12:44] INFO root fetch - processPackages [pydgraph]: Downloading https://files.pythonhosted.org/packages/19/a9/f30eb416c20031364dd0e6321945561b7d19887413aed3b1b46ccd07c735/pydgraph-23.0.1rc1.tar.gz
+[2023-05-30 12:12:44] INFO root fetch - processPackages [meilisearchdsl]: Downloading https://files.pythonhosted.org/packages/b7/ef/2efbc6a911de9ba9274ac748f14a34cfef4feb81736a670a3f7b3c548cbc/meilisearchdsl-0.1.7.tar.gz
+[2023-05-30 12:12:44] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/b2/2f/b156b14a93caf7c4b01470e1a15c08a1a651afa4a65ba558f804911c9d09/su6-0.5.1.tar.gz
+[2023-05-30 12:12:44] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/b2/2f/b156b14a93caf7c4b01470e1a15c08a1a651afa4a65ba558f804911c9d09/su6-0.5.1.tar.gz
+[2023-05-30 12:12:44] INFO root fetch - processPackages [pydgraph]: executing diffoscope
+[2023-05-30 12:12:44] INFO root fetch - processPackages [pydgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydgraph-23.0.0.tar.gz tmp/pydgraph-23.0.1rc1.tar.gz --markdown 20230530/p/pydgraph/23.0.0-23.0.1rc1/diff.md --exclude *.pyd
+[2023-05-30 12:12:44] INFO root fetch - processPackages [metasynth]: Downloading https://files.pythonhosted.org/packages/c5/33/e2f18f8af63aed00026d042c4dc4d14ffe71e15e27d2fa0be067948d6552/metasynth-0.3.0.tar.gz
+[2023-05-30 12:12:44] INFO root fetch - processPackages [meilisearchdsl]: executing diffoscope
+[2023-05-30 12:12:44] INFO root fetch - processPackages [meilisearchdsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearchdsl-0.1.6.tar.gz tmp/meilisearchdsl-0.1.7.tar.gz --markdown 20230530/m/meilisearchdsl/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-30 12:12:44] INFO root fetch - processPackages [mathjson-solver]: Downloading https://files.pythonhosted.org/packages/ec/88/3a7211c134997b1424baaca44c2bca568750ba7c2301aed9ab45dafa1e44/mathjson-solver-1.6.0.tar.gz
+[2023-05-30 12:12:44] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/24/27/008538f2734778d975816668e4da5e1fb90a810d6cc793928b2b48ec5297/tdnpathviz-0.1.2.4-py3-none-any.whl
+[2023-05-30 12:12:44] INFO root fetch - processPackages [metasynth]: executing diffoscope
+[2023-05-30 12:12:44] INFO root fetch - processPackages [metasynth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metasynth-0.2.2.tar.gz tmp/metasynth-0.3.0.tar.gz --markdown 20230530/m/metasynth/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 12:12:44] INFO root fetch - processPackages [mathjson-solver]: executing diffoscope
+[2023-05-30 12:12:44] INFO root fetch - processPackages [mathjson-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathjson-solver-1.5.0.tar.gz tmp/mathjson-solver-1.6.0.tar.gz --markdown 20230530/m/mathjson-solver/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-30 12:12:44] INFO root fetch - processPackages [tdnpathviz]: executing diffoscope
+[2023-05-30 12:12:44] INFO root fetch - processPackages [tdnpathviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdnpathviz-0.1.2.3-py3-none-any.whl.zip tmp/tdnpathviz-0.1.2.4-py3-none-any.whl.zip --markdown 20230530/t/tdnpathviz/0.1.2.3-0.1.2.4/diff.md --exclude *.pyd
+[2023-05-30 12:12:44] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-05-30 12:12:44] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-0.5.0.tar.gz tmp/su6-0.5.1.tar.gz --markdown 20230530/s/su6/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-30 12:12:44] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-05-30 12:12:44] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-0.5.0.tar.gz tmp/su6-0.5.1.tar.gz --markdown 20230530/s/su6/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-30 12:12:45] INFO root fetch - processPackages [django-user-notification]: Start processing: PyraUtils
+[2023-05-30 12:12:45] INFO root fetch - main [MainThread]: End processing [django-user-notification]: success
+[2023-05-30 12:12:45] INFO root fetch - processPackages [PyraUtils]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-30 12:12:45] INFO root fetch - processPackages [nwebclient]: Start processing: bosch-alarm-mode2
+[2023-05-30 12:12:45] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-30 12:12:45] INFO root fetch - processPackages [bosch-alarm-mode2]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-30 12:12:45] INFO root fetch - processPackages [bosch-alarm-mode2]: executing diffoscope
+[2023-05-30 12:12:45] INFO root fetch - processPackages [bosch-alarm-mode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch_alarm_mode2-0.3.8.tar.gz tmp/bosch_alarm_mode2-0.3.9.tar.gz --markdown 20230530/b/bosch-alarm-mode2/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-30 12:12:46] INFO root fetch - processPackages [PyraUtils]: Downloading https://files.pythonhosted.org/packages/23/65/37d75ab3bfb5180dcd146cf4e7dc159442fb09d19423d8b4a6e045810e38/PyraUtils-0.9.4.tar.gz
+[2023-05-30 12:12:46] INFO root fetch - processPackages [PyraUtils]: executing diffoscope
+[2023-05-30 12:12:46] INFO root fetch - processPackages [PyraUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyraUtils-0.9.3.tar.gz tmp/PyraUtils-0.9.4.tar.gz --markdown 20230530/P/PyraUtils/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-30 12:12:46] INFO root fetch - processPackages [pydgraph]: Start processing: phayes
+[2023-05-30 12:12:46] INFO root fetch - main [MainThread]: End processing [pydgraph]: success
+[2023-05-30 12:12:46] INFO root fetch - processPackages [phayes]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-30 12:12:46] INFO root fetch - processPackages [phayes]: Downloading https://files.pythonhosted.org/packages/eb/40/b813cd2c31f24bcfd47db7c809a1926cf99c128f15df241698cfe5a93505/phayes-0.0.0-py3-none-any.whl
+[2023-05-30 12:12:46] INFO root fetch - processPackages [meilisearchdsl]: Start processing: phayes
+[2023-05-30 12:12:46] INFO root fetch - main [MainThread]: End processing [meilisearchdsl]: success
+[2023-05-30 12:12:46] INFO root fetch - processPackages [phayes]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-30 12:12:46] INFO root fetch - processPackages [phayes]: Downloading https://files.pythonhosted.org/packages/ba/71/971e3bf0f11b4b286d60e4dd48366acb2627dfdfd8734390db6ebadc95dc/phayes-0.0.1.tar.gz
+[2023-05-30 12:12:46] INFO root fetch - processPackages [phayes]: Downloading https://files.pythonhosted.org/packages/ba/71/971e3bf0f11b4b286d60e4dd48366acb2627dfdfd8734390db6ebadc95dc/phayes-0.0.1.tar.gz
+[2023-05-30 12:12:46] INFO root fetch - processPackages [phayes]: executing diffoscope
+[2023-05-30 12:12:46] INFO root fetch - processPackages [phayes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phayes-0.0.0-py3-none-any.whl.zip tmp/phayes-0.0.1.tar.gz --markdown 20230530/p/phayes/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-30 12:12:46] INFO root fetch - processPackages [phayes]: executing diffoscope
+[2023-05-30 12:12:46] INFO root fetch - processPackages [phayes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phayes-0.0.0-py3-none-any.whl.zip tmp/phayes-0.0.1.tar.gz --markdown 20230530/p/phayes/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-30 12:12:46] INFO root fetch - processPackages [mathjson-solver]: Start processing: nonebot-plugin-talk-with-chatgpt
+[2023-05-30 12:12:46] INFO root fetch - main [MainThread]: End processing [mathjson-solver]: success
+[2023-05-30 12:12:46] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-05-30 12:12:46] INFO root fetch - main [MainThread]: End processing [tdnpathviz]: success
+[2023-05-30 12:12:47] INFO root fetch - main [MainThread]: End processing [metasynth]: success
+[2023-05-30 12:12:47] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: Downloading https://files.pythonhosted.org/packages/23/61/3c134e0a54e748ce923e8e43660ffd83024f67303bf76c86fa9984134d9d/nonebot_plugin_talk_with_chatgpt-0.5.0.tar.gz
+[2023-05-30 12:12:47] INFO root fetch - main [MainThread]: End processing [bosch-alarm-mode2]: success
+[2023-05-30 12:12:47] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: executing diffoscope
+[2023-05-30 12:12:47] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_talk_with_chatgpt-0.4.3.tar.gz tmp/nonebot_plugin_talk_with_chatgpt-0.5.0.tar.gz --markdown 20230530/n/nonebot-plugin-talk-with-chatgpt/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-05-30 12:12:48] INFO root fetch - main [MainThread]: End processing [phayes]: success
+[2023-05-30 12:12:48] INFO root fetch - main [MainThread]: End processing [phayes]: success
+[2023-05-30 12:12:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-talk-with-chatgpt]: success
+[2023-05-30 12:12:48] INFO root fetch - main [MainThread]: End processing [PyraUtils]: success
+[2023-05-30 12:13:06] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-05-30 12:13:07] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-05-30 12:13:42] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-05-30 12:13:42] INFO root fetch - main [MainThread]: Store serial: [18300446]
