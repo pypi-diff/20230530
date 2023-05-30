@@ -7065,3 +7065,114 @@
 [2023-05-30 09:16:56] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-05-30 09:16:56] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2023-05-30 09:16:56] INFO root fetch - main [MainThread]: Store serial: [18298752]
+[2023-05-30 09:22:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298752]
+[2023-05-30 09:22:05] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-30 09:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-ro-stock-account
+[2023-05-30 09:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: methodism
+[2023-05-30 09:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quant23rg
+[2023-05-30 09:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: halborn-ctf
+[2023-05-30 09:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irails
+[2023-05-30 09:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: async-payok
+[2023-05-30 09:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-ro-stock-account
+[2023-05-30 09:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-30 09:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rekuest
+[2023-05-30 09:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mikro
+[2023-05-30 09:22:05] INFO root fetch - processPackages [quant23rg]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-30 09:22:05] INFO root fetch - processPackages [irails]: New version: [1.3.35] Old Version: [1.3.34]
+[2023-05-30 09:22:05] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-30 09:22:05] INFO root fetch - processPackages [methodism]: New version: [0.1.0] Old Version: [0.0.63]
+[2023-05-30 09:22:05] INFO root fetch - processPackages [async-payok]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-30 09:22:05] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [15.0.3.9.0] Old Version: [15.0.3.8.0]
+[2023-05-30 09:22:05] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: New version: [14.0.8.9.0] Old Version: [14.0.8.8.0]
+[2023-05-30 09:22:05] INFO root fetch - processPackages [rekuest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 09:22:05] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-30 09:22:05] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-30 09:22:05] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/a5/a7/28b4513d195e60aa9a082507a9fc704d321706bdbdfcd4072aaba48444f4/halborn_ctf-0.1.5.tar.gz
+[2023-05-30 09:22:06] INFO root fetch - processPackages [async-payok]: Downloading https://files.pythonhosted.org/packages/05/13/0a83234d07c58ef9921f6a062ad28ae84b7aec88d75f8f3be8bd76a7b77b/async-payok-0.1.4.tar.gz
+[2023-05-30 09:22:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-30 09:22:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230530/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-30 09:22:06] INFO root fetch - processPackages [methodism]: Downloading https://files.pythonhosted.org/packages/97/b4/7ca82077778cd1c9015cce73afc064087420b13c2493399bc7aec5b9e4a5/methodism-0.0.63.tar.gz
+[2023-05-30 09:22:06] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/50/1a/e1689fa2ec5576e94fe59be16272d36306568b1d1e23ebb64ed96561df7a/odoo_addon_l10n_ro_stock_account-15.0.3.8.0-py3-none-any.whl
+[2023-05-30 09:22:06] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/cc/93/c1aa4a03f191d8dc8a560f20ab0e0d78c00688160fd92fc5f2c2ab6eaf8f/irails-1.3.35.tar.gz
+[2023-05-30 09:22:06] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/0f/5d/d918bf77c81d780e04aaa723a0d6bab36ff9c1a8391c699159e60b57fed7/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl
+[2023-05-30 09:22:06] INFO root fetch - processPackages [quant23rg]: Downloading https://files.pythonhosted.org/packages/ef/61/2cbba28189795d99747ef57d7bbef5cc49e59077efd6155636960bfa06b7/quant23rg-0.0.3.tar.gz
+[2023-05-30 09:22:06] INFO root fetch - processPackages [quant23rg]: executing diffoscope
+[2023-05-30 09:22:06] INFO root fetch - processPackages [quant23rg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant23rg-0.0.2.tar.gz tmp/quant23rg-0.0.3.tar.gz --markdown 20230530/q/quant23rg/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-30 09:22:06] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/7c/7f/68226f67b80046bde94227ca6030ea0c79e89180f48b63c1a4651b94b860/halborn_ctf-0.1.6.tar.gz
+[2023-05-30 09:22:06] INFO root fetch - processPackages [async-payok]: Downloading https://files.pythonhosted.org/packages/1a/78/495cca247305f42f686d15daa9ddb6a3640a71626e42132b47bb04ec418d/async-payok-0.1.5.tar.gz
+[2023-05-30 09:22:06] INFO root fetch - processPackages [rekuest]: executing diffoscope
+[2023-05-30 09:22:06] INFO root fetch - processPackages [rekuest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekuest-0.1.8.tar.gz tmp/rekuest-0.1.9.tar.gz --markdown 20230530/r/rekuest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 09:22:06] INFO root fetch - processPackages [methodism]: Downloading https://files.pythonhosted.org/packages/89/45/365d791a73c56b0038f36cef98d41bdcd2353c546d5411a1791077cfc0f9/methodism-0.1.0.tar.gz
+[2023-05-30 09:22:06] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-05-30 09:22:06] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230530/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-30 09:22:06] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-05-30 09:22:06] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.3.34.tar.gz tmp/irails-1.3.35.tar.gz --markdown 20230530/i/irails/1.3.34-1.3.35/diff.md --exclude *.pyd
+[2023-05-30 09:22:06] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-05-30 09:22:06] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.5.tar.gz tmp/halborn_ctf-0.1.6.tar.gz --markdown 20230530/h/halborn-ctf/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-30 09:22:06] INFO root fetch - processPackages [methodism]: executing diffoscope
+[2023-05-30 09:22:06] INFO root fetch - processPackages [methodism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/methodism-0.0.63.tar.gz tmp/methodism-0.1.0.tar.gz --markdown 20230530/m/methodism/0.0.63-0.1.0/diff.md --exclude *.pyd
+[2023-05-30 09:22:06] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/52/81/9b06640d0b302bfe89a6dd01fbdfbad8abfa574a8eb992098394e4a89fb0/odoo_addon_l10n_ro_stock_account-15.0.3.9.0-py3-none-any.whl
+[2023-05-30 09:22:06] INFO root fetch - processPackages [async-payok]: executing diffoscope
+[2023-05-30 09:22:06] INFO root fetch - processPackages [async-payok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async-payok-0.1.4.tar.gz tmp/async-payok-0.1.5.tar.gz --markdown 20230530/a/async-payok/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-30 09:22:06] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/d9/f6/d390d7dd65ffcd4da3cac5c58908ec5c165437c5ec74857d9717dbb5b740/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl
+[2023-05-30 09:22:06] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-05-30 09:22:06] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-15.0.3.8.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-15.0.3.9.0-py3-none-any.whl.zip --markdown 20230530/o/odoo-addon-l10n-ro-stock-account/15.0.3.8.0-15.0.3.9.0/diff.md --exclude *.pyd
+[2023-05-30 09:22:06] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-05-30 09:22:06] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-l10n-ro-stock-account/14.0.8.8.0-14.0.8.9.0/diff.md --exclude *.pyd
+[2023-05-30 09:22:07] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: bohrium-sdk
+[2023-05-30 09:22:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-30 09:22:08] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 09:22:08] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/32/96/964cd6c68882538b42e5179dc66437daf381b2dcd6373817b62e22ba1055/bohrium-sdk-0.1.2.tar.gz
+[2023-05-30 09:22:08] INFO root fetch - processPackages [quant23rg]: Start processing: fluss
+[2023-05-30 09:22:08] INFO root fetch - main [MainThread]: End processing [quant23rg]: success
+[2023-05-30 09:22:08] INFO root fetch - processPackages [fluss]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 09:22:08] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-05-30 09:22:08] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.1.1.tar.gz tmp/bohrium-sdk-0.1.2.tar.gz --markdown 20230530/b/bohrium-sdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 09:22:08] INFO root fetch - processPackages [rekuest]: Start processing: avwx-engine
+[2023-05-30 09:22:08] INFO root fetch - main [MainThread]: End processing [rekuest]: success
+[2023-05-30 09:22:08] INFO root fetch - processPackages [avwx-engine]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-05-30 09:22:08] INFO root fetch - processPackages [mikro]: Start processing: TheMathModule
+[2023-05-30 09:22:08] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-05-30 09:22:08] INFO root fetch - processPackages [avwx-engine]: Downloading https://files.pythonhosted.org/packages/98/23/e0c4ffac5bbf77546fe213f9def26a8756392320c99510562fb0f41d2b9d/avwx_engine-1.8.8.tar.gz
+[2023-05-30 09:22:08] WARNING root fetch - processPackages [TheMathModule]: Skipping, unable to determine old version
+[2023-05-30 09:22:08] INFO root fetch - processPackages [TheMathModule]: Start processing: pg-activity
+[2023-05-30 09:22:08] INFO root fetch - main [MainThread]: End processing [TheMathModule] error
+[2023-05-30 09:22:08] INFO root fetch - processPackages [methodism]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-30 09:22:08] INFO root fetch - main [MainThread]: End processing [methodism]: success
+[2023-05-30 09:22:08] INFO root fetch - processPackages [pg-activity]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-05-30 09:22:08] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-30 09:22:08] INFO root fetch - processPackages [async-payok]: Start processing: hackle-sdk
+[2023-05-30 09:22:08] INFO root fetch - main [MainThread]: End processing [async-payok]: success
+[2023-05-30 09:22:08] INFO root fetch - processPackages [fluss]: executing diffoscope
+[2023-05-30 09:22:08] INFO root fetch - processPackages [fluss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluss-0.1.8.tar.gz tmp/fluss-0.1.9.tar.gz --markdown 20230530/f/fluss/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 09:22:08] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-30 09:22:08] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 09:22:08] INFO root fetch - processPackages [hackle-sdk]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-05-30 09:22:08] INFO root fetch - processPackages [pg-activity]: Downloading https://files.pythonhosted.org/packages/fc/9c/029bc6e43a7051d2bd0d36cc7aa9297c42c623ce2b2c9402bf6f17a6e80b/pg-activity-3.4.0.tar.gz
+[2023-05-30 09:22:08] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Start processing: async-payok
+[2023-05-30 09:22:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2023-05-30 09:22:08] INFO root fetch - processPackages [async-payok]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-30 09:22:08] INFO root fetch - processPackages [hackle-sdk]: Downloading https://files.pythonhosted.org/packages/c2/48/01e7bb8f12f54f2078ce61ca758e0d497892b03b06f2476c3a4d9340040a/hackle-sdk-3.4.0.tar.gz
+[2023-05-30 09:22:09] INFO root fetch - processPackages [pg-activity]: Downloading https://files.pythonhosted.org/packages/e3/d3/9ccf82a7f6d35c7ec5b5381289a9a0d4b551c09b186984a79a568bd1e2d0/pg-activity-3.4.1.tar.gz
+[2023-05-30 09:22:09] INFO root fetch - processPackages [async-payok]: Downloading https://files.pythonhosted.org/packages/a6/0b/a84d19e25f563fd70c2d107d6747a423be5dd566a6046094257367e8f4ab/async-payok-0.1.6.tar.gz
+[2023-05-30 09:22:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-stock-account]: success
+[2023-05-30 09:22:09] INFO root fetch - processPackages [pg-activity]: executing diffoscope
+[2023-05-30 09:22:09] INFO root fetch - processPackages [pg-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg-activity-3.4.0.tar.gz tmp/pg-activity-3.4.1.tar.gz --markdown 20230530/p/pg-activity/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-05-30 09:22:09] INFO root fetch - processPackages [hackle-sdk]: Downloading https://files.pythonhosted.org/packages/2f/ae/e149bc6e32d7b37797b505d05a63bd0671d05f4e589a05a756137ea8b069/hackle-sdk-3.5.0.tar.gz
+[2023-05-30 09:22:09] INFO root fetch - processPackages [async-payok]: executing diffoscope
+[2023-05-30 09:22:09] INFO root fetch - processPackages [async-payok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async-payok-0.1.5.tar.gz tmp/async-payok-0.1.6.tar.gz --markdown 20230530/a/async-payok/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-30 09:22:09] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-05-30 09:22:09] INFO root fetch - processPackages [avwx-engine]: Downloading https://files.pythonhosted.org/packages/8e/d6/c5f4f781c8bb9fc272a1192d9ec936ba95599b8f2699f89a629385fc9cff/avwx_engine-1.8.9.tar.gz
+[2023-05-30 09:22:09] INFO root fetch - processPackages [hackle-sdk]: executing diffoscope
+[2023-05-30 09:22:09] INFO root fetch - processPackages [hackle-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hackle-sdk-3.4.0.tar.gz tmp/hackle-sdk-3.5.0.tar.gz --markdown 20230530/h/hackle-sdk/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-05-30 09:22:09] INFO root fetch - processPackages [avwx-engine]: executing diffoscope
+[2023-05-30 09:22:09] INFO root fetch - processPackages [avwx-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avwx_engine-1.8.8.tar.gz tmp/avwx_engine-1.8.9.tar.gz --markdown 20230530/a/avwx-engine/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-05-30 09:22:09] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-05-30 09:22:10] INFO root fetch - main [MainThread]: End processing [fluss]: success
+[2023-05-30 09:22:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-30 09:22:10] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-05-30 09:22:10] INFO root fetch - main [MainThread]: End processing [async-payok]: success
+[2023-05-30 09:22:11] INFO root fetch - main [MainThread]: End processing [pg-activity]: success
+[2023-05-30 09:22:11] INFO root fetch - main [MainThread]: End processing [hackle-sdk]: success
+[2023-05-30 09:22:29] INFO root fetch - main [MainThread]: End processing [avwx-engine]: success
+[2023-05-30 09:22:29] INFO root fetch - main [MainThread]: Store serial: [18298802]
