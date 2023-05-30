@@ -16921,3 +16921,181 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 17:59:56] ERROR root fetch - processPackages [oci]: Timeout during execution of pkgdiff
 [2023-05-30 17:59:56] INFO root fetch - main [MainThread]: End processing [oci] error
 [2023-05-30 17:59:56] INFO root fetch - main [MainThread]: Store serial: [18304682]
+[2023-05-30 18:05:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18304682]
+[2023-05-30 18:05:05] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-05-30 18:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: birmind
+[2023-05-30 18:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: petl-retouched-version
+[2023-05-30 18:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msldap
+[2023-05-30 18:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SRC-IE-Endpoints
+[2023-05-30 18:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mainnet
+[2023-05-30 18:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lana
+[2023-05-30 18:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: musif
+[2023-05-30 18:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: joyrl
+[2023-05-30 18:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bfportal-grpc
+[2023-05-30 18:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rgb-lib
+[2023-05-30 18:05:05] ERROR root fetch - processPackages [SRC-IE-Endpoints]: Unable to get metadata: No such project 'SRC-IE-Endpoints'
+[2023-05-30 18:05:05] INFO root fetch - processPackages [SRC-IE-Endpoints]: Start processing: nonebot-plugin-multincm
+[2023-05-30 18:05:05] INFO root fetch - main [MainThread]: End processing [SRC-IE-Endpoints] error
+[2023-05-30 18:05:05] INFO root fetch - processPackages [lana]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 18:05:05] WARNING root fetch - processPackages [petl-retouched-version]: Skipping, unable to determine old version
+[2023-05-30 18:05:05] WARNING root fetch - processPackages [birmind]: Skipping, unable to determine old version
+[2023-05-30 18:05:05] INFO root fetch - processPackages [petl-retouched-version]: Start processing: ccdproc
+[2023-05-30 18:05:05] INFO root fetch - main [MainThread]: End processing [petl-retouched-version] error
+[2023-05-30 18:05:05] INFO root fetch - processPackages [birmind]: Start processing: libcnmc
+[2023-05-30 18:05:05] INFO root fetch - main [MainThread]: End processing [birmind] error
+[2023-05-30 18:05:05] INFO root fetch - processPackages [musif]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-30 18:05:05] INFO root fetch - processPackages [bfportal-grpc]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 18:05:05] INFO root fetch - processPackages [joyrl]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-30 18:05:05] INFO root fetch - processPackages [msldap]: New version: [0.5.5] Old Version: [0.4.7]
+[2023-05-30 18:05:05] INFO root fetch - processPackages [rgb-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 18:05:05] INFO root fetch - processPackages [nonebot-plugin-multincm]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-30 18:05:05] INFO root fetch - processPackages [mainnet]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-30 18:05:05] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-30 18:05:05] INFO root fetch - processPackages [ccdproc]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-05-30 18:05:05] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-30 18:05:05] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230530/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-30 18:05:05] INFO root fetch - processPackages [msldap]: Downloading https://files.pythonhosted.org/packages/60/45/b1bad34b32422fa5ddb6ab87863178151202f298fd1028b647efd47fb497/msldap-0.4.7.tar.gz
+[2023-05-30 18:05:05] INFO root fetch - processPackages [bfportal-grpc]: Downloading https://files.pythonhosted.org/packages/ef/22/04e5f3dbec15fac6922d208d91eebb54b1453b533a2c1b0952b7fa43ad83/bfportal_grpc-0.1.3.tar.gz
+[2023-05-30 18:05:05] INFO root fetch - processPackages [rgb-lib]: Downloading https://files.pythonhosted.org/packages/e7/c4/300fe7d82d762bb1f5e919a72530ee5aa4d5ffc3180f3b87dfcc1e146976/rgb_lib-0.1.8.tar.gz
+[2023-05-30 18:05:06] INFO root fetch - processPackages [ccdproc]: Downloading https://files.pythonhosted.org/packages/69/7b/47375e5f52dd6c837dc755772eab64d0d7829028924f2418c7baf9420be9/ccdproc-2.4.0.tar.gz
+[2023-05-30 18:05:06] INFO root fetch - processPackages [lana]: Downloading https://files.pythonhosted.org/packages/34/b0/e367100069051131e0dec23583347a0e8ce1a83889022a6cd9c2268e8e45/lana-0.1.4.tar.gz
+[2023-05-30 18:05:06] INFO root fetch - processPackages [joyrl]: Downloading https://files.pythonhosted.org/packages/49/f0/21dbc61f239290867d5372246085d6206856bfcaa8396d928731de0f251e/joyrl-0.3.0.tar.gz
+[2023-05-30 18:05:06] INFO root fetch - processPackages [nonebot-plugin-multincm]: Downloading https://files.pythonhosted.org/packages/9e/90/7f0cb2b7deabf773808471fd2dc8a57499af96b892d64c646571818d7143/nonebot_plugin_multincm-0.3.3.tar.gz
+[2023-05-30 18:05:06] INFO root fetch - processPackages [musif]: Downloading https://files.pythonhosted.org/packages/5a/e6/8852852b37dfeb4e5cf6d6fb2e85854c15aaef7ab0cfe1e70b7eb87a7d7c/musif-1.1.3.tar.gz
+[2023-05-30 18:05:06] INFO root fetch - processPackages [lana]: executing diffoscope
+[2023-05-30 18:05:06] INFO root fetch - processPackages [lana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lana-0.1.3.tar.gz tmp/lana-0.1.4.tar.gz --markdown 20230530/l/lana/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 18:05:06] INFO root fetch - processPackages [msldap]: Downloading https://files.pythonhosted.org/packages/ff/86/28005fe48d76f1248673e7ee5b7763f7df9c6c3e98b9ba85697da54c934c/msldap-0.5.5.tar.gz
+[2023-05-30 18:05:06] INFO root fetch - processPackages [joyrl]: executing diffoscope
+[2023-05-30 18:05:06] INFO root fetch - processPackages [joyrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joyrl-0.2.9.tar.gz tmp/joyrl-0.3.0.tar.gz --markdown 20230530/j/joyrl/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-30 18:05:06] INFO root fetch - processPackages [bfportal-grpc]: Downloading https://files.pythonhosted.org/packages/fa/0f/72262aa8efd50ad74ab79d7be800c93146c322956f7de88247266d29153e/bfportal_grpc-0.1.4.tar.gz
+[2023-05-30 18:05:06] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-05-30 18:05:06] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.8.tar.gz tmp/mainnet-1.1.9.tar.gz --markdown 20230530/m/mainnet/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-30 18:05:06] INFO root fetch - processPackages [musif]: executing diffoscope
+[2023-05-30 18:05:06] INFO root fetch - processPackages [musif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musif-1.1.2.tar.gz tmp/musif-1.1.3.tar.gz --markdown 20230530/m/musif/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-30 18:05:06] INFO root fetch - processPackages [nonebot-plugin-multincm]: executing diffoscope
+[2023-05-30 18:05:06] INFO root fetch - processPackages [nonebot-plugin-multincm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_multincm-0.3.2.tar.gz tmp/nonebot_plugin_multincm-0.3.3.tar.gz --markdown 20230530/n/nonebot-plugin-multincm/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-30 18:05:06] INFO root fetch - processPackages [bfportal-grpc]: executing diffoscope
+[2023-05-30 18:05:06] INFO root fetch - processPackages [bfportal-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfportal_grpc-0.1.3.tar.gz tmp/bfportal_grpc-0.1.4.tar.gz --markdown 20230530/b/bfportal-grpc/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 18:05:06] INFO root fetch - processPackages [ccdproc]: Downloading https://files.pythonhosted.org/packages/eb/f1/466905c05e48c56506222c1c846f6415d26242a22496d50fa078747d8634/ccdproc-2.4.1.tar.gz
+[2023-05-30 18:05:06] INFO root fetch - processPackages [msldap]: executing diffoscope
+[2023-05-30 18:05:06] INFO root fetch - processPackages [msldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msldap-0.4.7.tar.gz tmp/msldap-0.5.5.tar.gz --markdown 20230530/m/msldap/0.4.7-0.5.5/diff.md --exclude *.pyd
+[2023-05-30 18:05:06] INFO root fetch - processPackages [ccdproc]: executing diffoscope
+[2023-05-30 18:05:06] INFO root fetch - processPackages [ccdproc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdproc-2.4.0.tar.gz tmp/ccdproc-2.4.1.tar.gz --markdown 20230530/c/ccdproc/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-05-30 18:05:06] WARNING root fetch - processPackages [rgb-lib]: Skipping package: exceeds size limit 119606217>=10485760
+[2023-05-30 18:05:06] INFO root fetch - processPackages [rgb-lib]: Start processing: wipac-file-catalog-indexer
+[2023-05-30 18:05:06] INFO root fetch - main [MainThread]: End processing [rgb-lib] error
+[2023-05-30 18:05:06] INFO root fetch - processPackages [wipac-file-catalog-indexer]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-30 18:05:06] INFO root fetch - processPackages [wipac-file-catalog-indexer]: Downloading https://files.pythonhosted.org/packages/ea/22/9701550828a67eabb88774c9b708e9d1751291f37a7cf9889abb5c65ba2b/wipac-file-catalog-indexer-2.0.1.tar.gz
+[2023-05-30 18:05:07] INFO root fetch - processPackages [wipac-file-catalog-indexer]: Downloading https://files.pythonhosted.org/packages/80/d4/876713b4a5632cc0d1f9178122d36ffd6a9c14afb45b845ae6c2253b2026/wipac-file-catalog-indexer-2.0.2.tar.gz
+[2023-05-30 18:05:07] INFO root fetch - processPackages [wipac-file-catalog-indexer]: executing diffoscope
+[2023-05-30 18:05:07] INFO root fetch - processPackages [wipac-file-catalog-indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipac-file-catalog-indexer-2.0.1.tar.gz tmp/wipac-file-catalog-indexer-2.0.2.tar.gz --markdown 20230530/w/wipac-file-catalog-indexer/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-30 18:05:07] INFO root fetch - processPackages [lana]: Start processing: ms-identity-web
+[2023-05-30 18:05:07] INFO root fetch - main [MainThread]: End processing [lana]: success
+[2023-05-30 18:05:07] INFO root fetch - processPackages [ms-identity-web]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 18:05:08] INFO root fetch - processPackages [joyrl]: Start processing: galaxy-ng
+[2023-05-30 18:05:08] INFO root fetch - main [MainThread]: End processing [joyrl]: success
+[2023-05-30 18:05:08] INFO root fetch - processPackages [galaxy-ng]: New version: [4.7.1] Old Version: [4.7.0]
+[2023-05-30 18:05:08] INFO root fetch - processPackages [galaxy-ng]: Downloading https://files.pythonhosted.org/packages/33/7f/34b6afca2e05bec1af401b68186a8865b9408c75fb3812d67e4064038da0/galaxy-ng-4.7.0.tar.gz
+[2023-05-30 18:05:08] INFO root fetch - processPackages [ms-identity-web]: Downloading https://files.pythonhosted.org/packages/42/e7/60af3cfc1e9aadeae8152546a1fae1a796a0d60d0fee6acd421219bc55af/ms_identity_web-0.0.4.tar.gz
+[2023-05-30 18:05:08] WARNING root fetch - processPackages [galaxy-ng]: Skipping package: exceeds size limit 10875381>=10485760
+[2023-05-30 18:05:08] INFO root fetch - processPackages [galaxy-ng]: Start processing: seeFretboard
+[2023-05-30 18:05:08] INFO root fetch - main [MainThread]: End processing [galaxy-ng] error
+[2023-05-30 18:05:08] INFO root fetch - processPackages [seeFretboard]: New version: [0.1.5.3] Old Version: [0.1.5.2]
+[2023-05-30 18:05:08] INFO root fetch - processPackages [nonebot-plugin-multincm]: Start processing: discovery-transition-ds
+[2023-05-30 18:05:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-multincm]: success
+[2023-05-30 18:05:08] INFO root fetch - processPackages [ms-identity-web]: executing diffoscope
+[2023-05-30 18:05:08] INFO root fetch - processPackages [ms-identity-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_identity_web-0.0.3.tar.gz tmp/ms_identity_web-0.0.4.tar.gz --markdown 20230530/m/ms-identity-web/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 18:05:08] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-30 18:05:08] INFO root fetch - processPackages [seeFretboard]: Downloading https://files.pythonhosted.org/packages/52/ec/ec2a1e7d583d8d49ce3234ff3b94a910d2f8cc2dc128110f961cf11d5216/seeFretboard-0.1.5.2.tar.gz
+[2023-05-30 18:05:08] INFO root fetch - processPackages [libcnmc]: Start processing: kurve
+[2023-05-30 18:05:08] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-30 18:05:08] WARNING root fetch - processPackages [kurve]: Skipping, unable to determine old version
+[2023-05-30 18:05:08] INFO root fetch - processPackages [kurve]: Start processing: fdlogger
+[2023-05-30 18:05:08] INFO root fetch - main [MainThread]: End processing [kurve] error
+[2023-05-30 18:05:08] INFO root fetch - processPackages [fdlogger]: New version: [23.5.30] Old Version: [23.4.8]
+[2023-05-30 18:05:08] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-05-30 18:05:08] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230530/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-30 18:05:08] INFO root fetch - processPackages [bfportal-grpc]: Start processing: qworker
+[2023-05-30 18:05:08] INFO root fetch - main [MainThread]: End processing [bfportal-grpc]: success
+[2023-05-30 18:05:08] INFO root fetch - processPackages [qworker]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-05-30 18:05:08] ERROR root fetch - processPackages [discovery-transition-ds]: Diffoscope failed: Error: error creating container storage: the container name "festive_tharp" is already in use by "fad25de514e61f0eff9a211d596674fe6a4951c2cfa3014a683ae128324a95e5". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-30 18:05:08] INFO root fetch - processPackages [discovery-transition-ds]: Start processing: hello2
+[2023-05-30 18:05:08] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds] error
+[2023-05-30 18:05:08] INFO root fetch - processPackages [seeFretboard]: Downloading https://files.pythonhosted.org/packages/a7/c5/7ad82fb6f7163398d97e6704ac41f2b9c1fbb2854a1afdb57aa3ed7ab8e8/seeFretboard-0.1.5.3.tar.gz
+[2023-05-30 18:05:08] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/14/5d/41a83523e197dabe89257ca916bef57cc5ec562e21f96c23eb83b8f6e213/fdlogger-23.4.8.tar.gz
+[2023-05-30 18:05:08] INFO root fetch - processPackages [hello2]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-05-30 18:05:08] INFO root fetch - processPackages [seeFretboard]: executing diffoscope
+[2023-05-30 18:05:08] INFO root fetch - processPackages [seeFretboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeFretboard-0.1.5.2.tar.gz tmp/seeFretboard-0.1.5.3.tar.gz --markdown 20230530/s/seeFretboard/0.1.5.2-0.1.5.3/diff.md --exclude *.pyd
+[2023-05-30 18:05:09] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/d0/fe/b0a385f5a8ff87d9a1a958e432991457b81543852681699bb682c7e94a92/hello2-1.8.4.tar.gz
+[2023-05-30 18:05:09] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/36/37/bd1bcde61f79dc3ee3c6f4e55b2644039b0bb6bdd7b07287f6a8e70fbd87/fdlogger-23.5.30.tar.gz
+[2023-05-30 18:05:09] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/48/e1/e74387592c7a7d193fd8b6222c1320a197dbe39a20db8ead9d821aa60812/qworker-1.7.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-30 18:05:09] INFO root fetch - processPackages [fdlogger]: executing diffoscope
+[2023-05-30 18:05:09] INFO root fetch - processPackages [fdlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdlogger-23.4.8.tar.gz tmp/fdlogger-23.5.30.tar.gz --markdown 20230530/f/fdlogger/23.4.8-23.5.30/diff.md --exclude *.pyd
+[2023-05-30 18:05:09] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-05-30 18:05:09] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.8.3.tar.gz tmp/hello2-1.8.4.tar.gz --markdown 20230530/h/hello2/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-05-30 18:05:09] INFO root fetch - processPackages [wipac-file-catalog-indexer]: Start processing: servir
+[2023-05-30 18:05:09] INFO root fetch - main [MainThread]: End processing [wipac-file-catalog-indexer]: success
+[2023-05-30 18:05:09] INFO root fetch - processPackages [servir]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-05-30 18:05:09] INFO root fetch - processPackages [ccdproc]: Start processing: deebot-client
+[2023-05-30 18:05:09] INFO root fetch - main [MainThread]: End processing [ccdproc]: success
+[2023-05-30 18:05:09] INFO root fetch - processPackages [deebot-client]: New version: [2.0.0b3] Old Version: [2.0.0b2]
+[2023-05-30 18:05:09] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-05-30 18:05:09] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.7.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.7.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230530/q/qworker/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-05-30 18:05:09] INFO root fetch - processPackages [servir]: Downloading https://files.pythonhosted.org/packages/c5/80/e85a3b992f7d9383bf3663562c232a4639fab21082a9f0b24a0b7a3e0aa5/servir-0.0.6.tar.gz
+[2023-05-30 18:05:09] INFO root fetch - processPackages [deebot-client]: Downloading https://files.pythonhosted.org/packages/f7/da/5e04a8902da323476308e11605cf048e66a4ba5753a2160ab12023908f2b/deebot-client-2.0.0b3.tar.gz
+[2023-05-30 18:05:09] INFO root fetch - processPackages [deebot-client]: executing diffoscope
+[2023-05-30 18:05:09] INFO root fetch - processPackages [deebot-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deebot-client-2.0.0b2.tar.gz tmp/deebot-client-2.0.0b3.tar.gz --markdown 20230530/d/deebot-client/2.0.0b2-2.0.0b3/diff.md --exclude *.pyd
+[2023-05-30 18:05:09] INFO root fetch - processPackages [servir]: Downloading https://files.pythonhosted.org/packages/3d/22/13f6a49eccc78966455cfa30cea60a524d81e24517755a4baa53f21e0f00/servir-0.1.0.tar.gz
+[2023-05-30 18:05:09] INFO root fetch - processPackages [msldap]: Start processing: flowtask
+[2023-05-30 18:05:09] INFO root fetch - main [MainThread]: End processing [msldap]: success
+[2023-05-30 18:05:09] INFO root fetch - processPackages [flowtask]: New version: [4.3.9] Old Version: [4.3.8]
+[2023-05-30 18:05:09] INFO root fetch - processPackages [musif]: Start processing: readlog
+[2023-05-30 18:05:09] INFO root fetch - main [MainThread]: End processing [musif]: success
+[2023-05-30 18:05:09] INFO root fetch - processPackages [readlog]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-30 18:05:09] INFO root fetch - processPackages [servir]: executing diffoscope
+[2023-05-30 18:05:09] INFO root fetch - processPackages [servir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servir-0.0.6.tar.gz tmp/servir-0.1.0.tar.gz --markdown 20230530/s/servir/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-05-30 18:05:10] INFO root fetch - processPackages [readlog]: Downloading https://files.pythonhosted.org/packages/fe/7c/8c888cb0e8d9f3d6bb5ab533de87da96dc54df6ba1e1e44cdc04731d5768/readlog-1.1.0.tar.gz
+[2023-05-30 18:05:10] INFO root fetch - processPackages [ms-identity-web]: Start processing: plot-data
+[2023-05-30 18:05:10] INFO root fetch - main [MainThread]: End processing [ms-identity-web]: success
+[2023-05-30 18:05:10] INFO root fetch - processPackages [plot-data]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-05-30 18:05:10] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-05-30 18:05:10] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.3.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230530/f/flowtask/4.3.8-4.3.9/diff.md --exclude *.pyd
+[2023-05-30 18:05:10] INFO root fetch - processPackages [readlog]: Downloading https://files.pythonhosted.org/packages/eb/1c/9e596cb0287299127f865a82513a8cdd31dfda5287c1c12a777fc8a7544a/readlog-1.1.1.tar.gz
+[2023-05-30 18:05:10] INFO root fetch - processPackages [plot-data]: Downloading https://files.pythonhosted.org/packages/f5/97/88a721d0d6c1136ebbf372e962fb09f9351a66e3df60534183e048807066/plot_data-0.8.5.tar.gz
+[2023-05-30 18:05:10] INFO root fetch - processPackages [readlog]: executing diffoscope
+[2023-05-30 18:05:10] INFO root fetch - processPackages [readlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readlog-1.1.0.tar.gz tmp/readlog-1.1.1.tar.gz --markdown 20230530/r/readlog/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-30 18:05:10] INFO root fetch - processPackages [plot-data]: Downloading https://files.pythonhosted.org/packages/81/3d/cfa1a3804b97d4a1d5d69b1c148fc999d8e5b2ec19dc1d579f9d605f86d0/plot_data-0.9.0.tar.gz
+[2023-05-30 18:05:11] INFO root fetch - processPackages [fdlogger]: Start processing: localstack-plugin-persistence
+[2023-05-30 18:05:11] INFO root fetch - main [MainThread]: End processing [fdlogger]: success
+[2023-05-30 18:05:11] INFO root fetch - processPackages [plot-data]: executing diffoscope
+[2023-05-30 18:05:11] INFO root fetch - processPackages [plot-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plot_data-0.8.5.tar.gz tmp/plot_data-0.9.0.tar.gz --markdown 20230530/p/plot-data/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 18:05:11] INFO root fetch - processPackages [localstack-plugin-persistence]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-30 18:05:11] INFO root fetch - processPackages [localstack-plugin-persistence]: executing diffoscope
+[2023-05-30 18:05:11] INFO root fetch - processPackages [localstack-plugin-persistence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-plugin-persistence-1.0.3.tar.gz tmp/localstack-plugin-persistence-1.0.4.tar.gz --markdown 20230530/l/localstack-plugin-persistence/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-30 18:05:11] INFO root fetch - processPackages [qworker]: Start processing: jserx
+[2023-05-30 18:05:11] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-05-30 18:05:11] WARNING root fetch - processPackages [jserx]: Skipping, unable to determine old version
+[2023-05-30 18:05:11] INFO root fetch - processPackages [jserx]: Start processing: aiosmb
+[2023-05-30 18:05:11] INFO root fetch - main [MainThread]: End processing [jserx] error
+[2023-05-30 18:05:12] INFO root fetch - processPackages [aiosmb]: New version: [0.4.6] Old Version: [0.4.4]
+[2023-05-30 18:05:12] INFO root fetch - processPackages [aiosmb]: Downloading https://files.pythonhosted.org/packages/62/2c/13c7a2c8b50ff4b1d03c2329717e051013be45bfaa350c62710358217be2/aiosmb-0.4.4.tar.gz
+[2023-05-30 18:05:12] INFO root fetch - processPackages [readlog]: Start processing: certora-cli-alpha-master
+[2023-05-30 18:05:12] INFO root fetch - main [MainThread]: End processing [readlog]: success
+[2023-05-30 18:05:12] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230530.9.43.768438] Old Version: [20230530.9.0.837631]
+[2023-05-30 18:05:12] INFO root fetch - main [MainThread]: End processing [servir]: success
+[2023-05-30 18:05:12] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fd/b3/8fbf9a9bd2956ea700467ef90a7453c2f88ecbf61f3b73e709c656720643/certora-cli-alpha-master-20230530.9.0.837631.tar.gz
+[2023-05-30 18:05:12] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39091116>=10485760
+[2023-05-30 18:05:12] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-30 18:05:12] INFO root fetch - processPackages [aiosmb]: Downloading https://files.pythonhosted.org/packages/5e/f9/03169b9a105d530310c2d3376474eb9bde40d45c298e029eb93a31279334/aiosmb-0.4.6.tar.gz
+[2023-05-30 18:05:12] INFO root fetch - main [MainThread]: End processing [deebot-client]: success
+[2023-05-30 18:05:12] INFO root fetch - processPackages [aiosmb]: executing diffoscope
+[2023-05-30 18:05:12] INFO root fetch - processPackages [aiosmb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosmb-0.4.4.tar.gz tmp/aiosmb-0.4.6.tar.gz --markdown 20230530/a/aiosmb/0.4.4-0.4.6/diff.md --exclude *.pyd
+[2023-05-30 18:05:13] INFO root fetch - main [MainThread]: End processing [plot-data]: success
+[2023-05-30 18:05:13] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-05-30 18:05:13] INFO root fetch - main [MainThread]: End processing [localstack-plugin-persistence]: success
+[2023-05-30 18:05:13] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-05-30 18:05:14] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-05-30 18:05:15] INFO root fetch - main [MainThread]: End processing [aiosmb]: success
+[2023-05-30 18:05:19] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
+[2023-05-30 18:05:19] INFO root fetch - main [MainThread]: Store serial: [18304787]
