@@ -21083,3 +21083,119 @@ EOFError: EOF read where object expected
 [2023-05-30 22:18:59] ERROR root fetch - processPackages [bikeshed]: Timeout during execution of pkgdiff
 [2023-05-30 22:18:59] INFO root fetch - main [MainThread]: End processing [bikeshed] error
 [2023-05-30 22:18:59] INFO root fetch - main [MainThread]: Store serial: [18307222]
+[2023-05-30 22:24:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18307222]
+[2023-05-30 22:24:11] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anomalo
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proton-db
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Shchirov-serializer
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: googleapiutils2
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ga4-data-import
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anvil-ml
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocs-exporter
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tc-release
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: regis
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: designer2
+[2023-05-30 22:24:11] INFO root fetch - processPackages [googleapiutils2]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-05-30 22:24:11] INFO root fetch - processPackages [proton-db]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-30 22:24:11] WARNING root fetch - processPackages [ga4-data-import]: Skipping, unable to determine old version
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ga4-data-import]: Start processing: ezmail
+[2023-05-30 22:24:11] INFO root fetch - processPackages [anomalo]: New version: [0.9.1] Old Version: [0.16.0]
+[2023-05-30 22:24:11] INFO root fetch - main [MainThread]: End processing [ga4-data-import] error
+[2023-05-30 22:24:11] INFO root fetch - processPackages [anvil-ml]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 22:24:11] INFO root fetch - processPackages [Shchirov-serializer]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-30 22:24:11] INFO root fetch - processPackages [designer2]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 22:24:11] INFO root fetch - processPackages [mkdocs-exporter]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-30 22:24:11] INFO root fetch - processPackages [regis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 22:24:11] INFO root fetch - processPackages [tc-release]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ezmail]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-05-30 22:24:11] INFO root fetch - processPackages [designer2]: Downloading https://files.pythonhosted.org/packages/b6/ab/50b39c9b1222fe9496fd0edd02a13a1ef08a0bf95ce44f773ab42ced32fd/designer2-0.0.8.tar.gz
+[2023-05-30 22:24:11] WARNING root fetch - processPackages [designer2]: Skipping package: exceeds size limit 16708132>=10485760
+[2023-05-30 22:24:11] INFO root fetch - processPackages [designer2]: Start processing: spanishconjugator
+[2023-05-30 22:24:11] INFO root fetch - main [MainThread]: End processing [designer2] error
+[2023-05-30 22:24:11] INFO root fetch - processPackages [anomalo]: Downloading https://files.pythonhosted.org/packages/c0/b1/ba1c87b1ddb219368e27372f8a52a21d6d27daf16f8ddd47abf738e7c9ac/anomalo-0.16.0.tar.gz
+[2023-05-30 22:24:11] INFO root fetch - processPackages [anvil-ml]: Downloading https://files.pythonhosted.org/packages/fb/8d/0eb93002e92863f4c81958975cdfc4ecd8fd2812b6b653b5fadfcbee72a5/anvil_ml-0.0.1.tar.gz
+[2023-05-30 22:24:11] INFO root fetch - processPackages [Shchirov-serializer]: Downloading https://files.pythonhosted.org/packages/79/7d/622500ca69a8846d17f4c2263c9659e36157e7b10df8ea5dba842df3a08b/Shchirov_serializer-1.1.0.tar.gz
+[2023-05-30 22:24:11] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/a0/5d/532fa0f3859b2855c6e72f4f69b6c1443295ba1936141631ec0fcd76fbbe/mkdocs_exporter-3.0.2.tar.gz
+[2023-05-30 22:24:11] INFO root fetch - processPackages [regis]: executing diffoscope
+[2023-05-30 22:24:11] INFO root fetch - processPackages [regis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regis-0.1.8.tar.gz tmp/regis-0.1.9.tar.gz --markdown 20230530/r/regis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 22:24:11] INFO root fetch - processPackages [tc-release]: Downloading https://files.pythonhosted.org/packages/65/30/efea42cf344718e2e149fe3cd3f2019c828702c09e4161de1a2ca6a20235/tc_release-0.2.2.tar.gz
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ezmail]: Downloading https://files.pythonhosted.org/packages/d7/6f/68c8878ee4fdc0026bc2841d8f2867e1840d74fb59e47021e9b713db9887/ezmail-1.0.0.tar.gz
+[2023-05-30 22:24:11] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-30 22:24:11] INFO root fetch - processPackages [proton-db]: Downloading https://files.pythonhosted.org/packages/07/2a/91e92f5f0f69f9e34c353441426d9be4351c9501aaffbf0a881dea631c64/proton-db-0.1.5.tar.gz
+[2023-05-30 22:24:11] INFO root fetch - processPackages [mkdocs-exporter]: executing diffoscope
+[2023-05-30 22:24:11] INFO root fetch - processPackages [mkdocs-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_exporter-3.0.1.tar.gz tmp/mkdocs_exporter-3.0.2.tar.gz --markdown 20230530/m/mkdocs-exporter/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-30 22:24:11] INFO root fetch - processPackages [anvil-ml]: Downloading https://files.pythonhosted.org/packages/d8/44/ecf925463449bf7ea21bb2f6732666c9ce435b0ccd4c24a904e9bbd23b96/anvil_ml-0.0.2.tar.gz
+[2023-05-30 22:24:11] INFO root fetch - processPackages [Shchirov-serializer]: Downloading https://files.pythonhosted.org/packages/c4/dc/b83a1ba418eb5aef1152c1d8aa35be405cdba154170dbfc11f9b92f7606d/Shchirov_serializer-1.1.1.tar.gz
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ezmail]: executing diffoscope
+[2023-05-30 22:24:11] INFO root fetch - processPackages [ezmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezmail-0.2.0.tar.gz tmp/ezmail-1.0.0.tar.gz --markdown 20230530/e/ezmail/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-30 22:24:11] INFO root fetch - processPackages [anomalo]: Downloading https://files.pythonhosted.org/packages/06/12/a9adddb6b6a8f48c880b11455c332b98ce780fb64aed4ca4d2c86ddc922a/anomalo-0.9.1.tar.gz
+[2023-05-30 22:24:11] INFO root fetch - processPackages [anvil-ml]: executing diffoscope
+[2023-05-30 22:24:11] INFO root fetch - processPackages [anvil-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anvil_ml-0.0.1.tar.gz tmp/anvil_ml-0.0.2.tar.gz --markdown 20230530/a/anvil-ml/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 22:24:11] INFO root fetch - processPackages [Shchirov-serializer]: executing diffoscope
+[2023-05-30 22:24:11] INFO root fetch - processPackages [Shchirov-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shchirov_serializer-1.1.0.tar.gz tmp/Shchirov_serializer-1.1.1.tar.gz --markdown 20230530/S/Shchirov-serializer/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-30 22:24:11] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-30 22:24:11] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230530/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-30 22:24:11] INFO root fetch - processPackages [proton-db]: executing diffoscope
+[2023-05-30 22:24:11] INFO root fetch - processPackages [proton-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proton-db-0.1.4.tar.gz tmp/proton-db-0.1.5.tar.gz --markdown 20230530/p/proton-db/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-30 22:24:11] INFO root fetch - processPackages [anomalo]: executing diffoscope
+[2023-05-30 22:24:11] INFO root fetch - processPackages [anomalo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anomalo-0.16.0.tar.gz tmp/anomalo-0.9.1.tar.gz --markdown 20230530/a/anomalo/0.16.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-30 22:24:12] INFO root fetch - processPackages [googleapiutils2]: Downloading https://files.pythonhosted.org/packages/de/6d/bb31d8f20ecf8bb5a0e0cda63e07312837d88216a866c8b8c5ddcc819adf/googleapiutils2-0.6.0.tar.gz
+[2023-05-30 22:24:12] ERROR root fetch - processPackages [Shchirov-serializer]: Diffoscope failed: Error: error creating container storage: the container name "amazing_bell" is already in use by "6d653b16ed652b4ae48ac41f803c0c31f6fc0a101208cb5d831bb89935c98873". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-30 22:24:12] INFO root fetch - processPackages [Shchirov-serializer]: Start processing: tdw
+[2023-05-30 22:24:12] INFO root fetch - main [MainThread]: End processing [Shchirov-serializer] error
+[2023-05-30 22:24:12] INFO root fetch - processPackages [tc-release]: Downloading https://files.pythonhosted.org/packages/a0/b6/4f9807e111daee17ac15ff6a7d6c301bcf5f90c5812743b381952772ddb5/tc_release-0.2.3.tar.gz
+[2023-05-30 22:24:12] INFO root fetch - processPackages [tdw]: New version: [1.9.9.3] Old Version: [1.9.9.2]
+[2023-05-30 22:24:12] INFO root fetch - processPackages [googleapiutils2]: executing diffoscope
+[2023-05-30 22:24:12] INFO root fetch - processPackages [googleapiutils2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleapiutils2-0.5.9.tar.gz tmp/googleapiutils2-0.6.0.tar.gz --markdown 20230530/g/googleapiutils2/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-05-30 22:24:12] INFO root fetch - processPackages [tc-release]: executing diffoscope
+[2023-05-30 22:24:12] INFO root fetch - processPackages [tc-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tc_release-0.2.2.tar.gz tmp/tc_release-0.2.3.tar.gz --markdown 20230530/t/tc-release/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-30 22:24:12] INFO root fetch - processPackages [tdw]: Downloading https://files.pythonhosted.org/packages/c4/72/7e9dcffb20652a0fc7a75acb9c45c9c15e02911caff77569e88bda949a27/tdw-1.9.9.2.tar.gz
+[2023-05-30 22:24:12] INFO root fetch - processPackages [regis]: Start processing: spanishconjugator
+[2023-05-30 22:24:12] INFO root fetch - main [MainThread]: End processing [regis]: success
+[2023-05-30 22:24:13] WARNING root fetch - processPackages [tdw]: Skipping package: exceeds size limit 28395540>=10485760
+[2023-05-30 22:24:13] INFO root fetch - processPackages [tdw]: Start processing: klaviyo-api
+[2023-05-30 22:24:13] INFO root fetch - main [MainThread]: End processing [tdw] error
+[2023-05-30 22:24:13] INFO root fetch - processPackages [klaviyo-api]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-30 22:24:13] INFO root fetch - processPackages [klaviyo-api]: Downloading https://files.pythonhosted.org/packages/ab/41/809a593ce4583dd321e5b5d2945b7372978f1deaa59af462046f54672c7e/klaviyo-api-2.0.0.tar.gz
+[2023-05-30 22:24:13] INFO root fetch - processPackages [anvil-ml]: Start processing: noteable-origami
+[2023-05-30 22:24:13] INFO root fetch - main [MainThread]: End processing [anvil-ml]: success
+[2023-05-30 22:24:13] INFO root fetch - processPackages [ezmail]: Start processing: returnn
+[2023-05-30 22:24:13] INFO root fetch - main [MainThread]: End processing [ezmail]: success
+[2023-05-30 22:24:13] INFO root fetch - processPackages [returnn]: New version: [1.20230530.134944] Old Version: [1.20230526.180133]
+[2023-05-30 22:24:13] INFO root fetch - processPackages [noteable-origami]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 22:24:13] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-30 22:24:13] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230526.180133.tar.gz tmp/returnn-1.20230530.134944.tar.gz --markdown 20230530/r/returnn/1.20230526.180133-1.20230530.134944/diff.md --exclude *.pyd
+[2023-05-30 22:24:13] INFO root fetch - processPackages [klaviyo-api]: Downloading https://files.pythonhosted.org/packages/69/d9/90d12e19e9cbbbe46b8955e0a2c2294d90cfacc091a16d5d1b1feffdc1f8/klaviyo-api-2.0.1.tar.gz
+[2023-05-30 22:24:13] INFO root fetch - processPackages [proton-db]: Start processing: cloudaux-lite
+[2023-05-30 22:24:13] INFO root fetch - main [MainThread]: End processing [proton-db]: success
+[2023-05-30 22:24:13] INFO root fetch - processPackages [klaviyo-api]: executing diffoscope
+[2023-05-30 22:24:13] INFO root fetch - processPackages [klaviyo-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klaviyo-api-2.0.0.tar.gz tmp/klaviyo-api-2.0.1.tar.gz --markdown 20230530/k/klaviyo-api/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-30 22:24:13] WARNING root fetch - processPackages [cloudaux-lite]: Skipping, unable to determine old version
+[2023-05-30 22:24:13] INFO root fetch - processPackages [cloudaux-lite]: Start processing: gitautobackup
+[2023-05-30 22:24:13] INFO root fetch - main [MainThread]: End processing [cloudaux-lite] error
+[2023-05-30 22:24:13] INFO root fetch - processPackages [gitautobackup]: New version: [1.0.1.2] Old Version: [1.0.1.1]
+[2023-05-30 22:24:14] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-30 22:24:14] INFO root fetch - processPackages [noteable-origami]: executing diffoscope
+[2023-05-30 22:24:14] INFO root fetch - processPackages [noteable-origami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noteable_origami-0.0.8.tar.gz tmp/noteable_origami-0.0.9.tar.gz --markdown 20230530/n/noteable-origami/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 22:24:14] INFO root fetch - processPackages [spanishconjugator]: Start processing: servicex-code-gen-lib
+[2023-05-30 22:24:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-30 22:24:14] INFO root fetch - processPackages [gitautobackup]: executing diffoscope
+[2023-05-30 22:24:14] INFO root fetch - processPackages [gitautobackup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitautobackup-1.0.1.1.tar.gz tmp/gitautobackup-1.0.1.2.tar.gz --markdown 20230530/g/gitautobackup/1.0.1.1-1.0.1.2/diff.md --exclude *.pyd
+[2023-05-30 22:24:14] INFO root fetch - main [MainThread]: End processing [anomalo]: success
+[2023-05-30 22:24:14] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-30 22:24:14] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230530/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-30 22:24:14] INFO root fetch - main [MainThread]: End processing [googleapiutils2]: success
+[2023-05-30 22:24:14] INFO root fetch - processPackages [servicex-code-gen-lib]: New version: [1.1.5.post1] Old Version: [1.1.5]
+[2023-05-30 22:24:14] INFO root fetch - main [MainThread]: End processing [tc-release]: success
+[2023-05-30 22:24:14] INFO root fetch - processPackages [servicex-code-gen-lib]: Downloading https://files.pythonhosted.org/packages/92/89/a7be55aa5d16246732346f3a0b143b46be11e88eb633db02e92c8e4d86e4/servicex_code_gen_lib-1.1.5.post1.tar.gz
+[2023-05-30 22:24:14] INFO root fetch - main [MainThread]: End processing [mkdocs-exporter]: success
+[2023-05-30 22:24:14] INFO root fetch - processPackages [servicex-code-gen-lib]: executing diffoscope
+[2023-05-30 22:24:14] INFO root fetch - processPackages [servicex-code-gen-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicex_code_gen_lib-1.1.5.tar.gz tmp/servicex_code_gen_lib-1.1.5.post1.tar.gz --markdown 20230530/s/servicex-code-gen-lib/1.1.5-1.1.5.post1/diff.md --exclude *.pyd
+[2023-05-30 22:24:16] INFO root fetch - main [MainThread]: End processing [noteable-origami]: success
+[2023-05-30 22:24:16] INFO root fetch - main [MainThread]: End processing [servicex-code-gen-lib]: success
+[2023-05-30 22:24:16] INFO root fetch - main [MainThread]: End processing [gitautobackup]: success
+[2023-05-30 22:24:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-30 22:24:17] INFO root fetch - main [MainThread]: End processing [klaviyo-api]: success
+[2023-05-30 22:24:18] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-30 22:24:18] INFO root fetch - main [MainThread]: Store serial: [18307288]
