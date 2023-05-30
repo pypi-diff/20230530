@@ -18560,3 +18560,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 105: invali
 [2023-05-30 19:21:14] INFO root fetch - main [MainThread]: End processing [biblelib]: success
 [2023-05-30 19:21:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2023-05-30 19:21:14] INFO root fetch - main [MainThread]: Store serial: [18305670]
+[2023-05-30 19:26:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18305670]
+[2023-05-30 19:26:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-30 19:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-vss
+[2023-05-30 19:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-vss
+[2023-05-30 19:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: curveengine
+[2023-05-30 19:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aind-data-schema
+[2023-05-30 19:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-dragonfly
+[2023-05-30 19:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: constructor-io
+[2023-05-30 19:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mikan-card-downloader
+[2023-05-30 19:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataclasses-avroschema
+[2023-05-30 19:26:24] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-05-30 19:26:24] INFO root fetch - processPackages [mikan-card-downloader]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-30 19:26:24] INFO root fetch - processPackages [curveengine]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-30 19:26:24] INFO root fetch - processPackages [sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-05-30 19:26:24] INFO root fetch - processPackages [constructor-io]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-05-30 19:26:24] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-30 19:26:24] INFO root fetch - processPackages [dataclasses-avroschema]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-30 19:26:24] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-30 19:26:24] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-05-30 19:26:24] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl.zip --markdown 20230530/d/datasette-sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-05-30 19:26:24] INFO root fetch - processPackages [mikan-card-downloader]: Downloading https://files.pythonhosted.org/packages/e7/6a/d23bba868bd38706ec523ff7cb524dcf108ade6542b3f9b51ef0f2c4da45/mikan_card_downloader-1.1.0.tar.gz
+[2023-05-30 19:26:24] INFO root fetch - processPackages [constructor-io]: Downloading https://files.pythonhosted.org/packages/32/aa/f75b60e1e0e70056700265c50a071c76c8a24f1e4f47e8a6d95ab63c6419/constructor-io-1.7.4.tar.gz
+[2023-05-30 19:26:24] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-05-30 19:26:24] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230530/s/sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-05-30 19:26:24] INFO root fetch - processPackages [curveengine]: Downloading https://files.pythonhosted.org/packages/a7/64/e9a17af82ced7d8b2770ffaaad818bb97244555294c20148a752b87016f2/curveengine-1.1.2-py3-none-any.whl
+[2023-05-30 19:26:24] INFO root fetch - processPackages [curveengine]: executing diffoscope
+[2023-05-30 19:26:24] INFO root fetch - processPackages [curveengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curveengine-1.1.1-py3-none-any.whl.zip tmp/curveengine-1.1.2-py3-none-any.whl.zip --markdown 20230530/c/curveengine/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-30 19:26:24] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-30 19:26:24] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230530/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-30 19:26:24] INFO root fetch - processPackages [dataclasses-avroschema]: executing diffoscope
+[2023-05-30 19:26:24] INFO root fetch - processPackages [dataclasses-avroschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses-avroschema-0.8.0.tar.gz tmp/dataclasses-avroschema-0.9.0.tar.gz --markdown 20230530/d/dataclasses-avroschema/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 19:26:24] INFO root fetch - processPackages [constructor-io]: Downloading https://files.pythonhosted.org/packages/31/bb/d0e25a0eed8fb407ec1028be9cc6d3562c13b3d9478565dc2356d67f383a/constructor-io-1.7.5.tar.gz
+[2023-05-30 19:26:24] INFO root fetch - processPackages [mikan-card-downloader]: Downloading https://files.pythonhosted.org/packages/c0/99/fc50c07c186d577a9b8f42157e5e3fe51cc988c7fc42bdfde7ae3ba8998e/mikan_card_downloader-1.1.1.tar.gz
+[2023-05-30 19:26:24] INFO root fetch - processPackages [constructor-io]: executing diffoscope
+[2023-05-30 19:26:24] INFO root fetch - processPackages [constructor-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructor-io-1.7.4.tar.gz tmp/constructor-io-1.7.5.tar.gz --markdown 20230530/c/constructor-io/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-05-30 19:26:24] INFO root fetch - processPackages [mikan-card-downloader]: executing diffoscope
+[2023-05-30 19:26:24] INFO root fetch - processPackages [mikan-card-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikan_card_downloader-1.1.0.tar.gz tmp/mikan_card_downloader-1.1.1.tar.gz --markdown 20230530/m/mikan-card-downloader/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-30 19:26:24] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-30 19:26:24] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230530/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-30 19:26:25] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-05-30 19:26:26] INFO root fetch - main [MainThread]: End processing [curveengine]: success
+[2023-05-30 19:26:26] INFO root fetch - main [MainThread]: End processing [mikan-card-downloader]: success
+[2023-05-30 19:26:26] INFO root fetch - main [MainThread]: End processing [dataclasses-avroschema]: success
+[2023-05-30 19:26:26] INFO root fetch - main [MainThread]: End processing [constructor-io]: success
+[2023-05-30 19:26:26] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-30 19:26:26] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-30 19:27:03] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-05-30 19:27:03] INFO root fetch - main [MainThread]: Store serial: [18305693]
