@@ -4017,3 +4017,75 @@
 [2023-05-30 04:21:15] INFO root fetch - main [MainThread]: End processing [pdocr-rpc]: success
 [2023-05-30 04:21:15] INFO root fetch - main [MainThread]: End processing [mlc-tools]: success
 [2023-05-30 04:21:15] INFO root fetch - main [MainThread]: Store serial: [18297015]
+[2023-05-30 04:26:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297015]
+[2023-05-30 04:26:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-30 04:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spherediff
+[2023-05-30 04:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dtbase
+[2023-05-30 04:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: objverify
+[2023-05-30 04:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pautobot
+[2023-05-30 04:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycontext-lib
+[2023-05-30 04:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiextras
+[2023-05-30 04:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: curveengine
+[2023-05-30 04:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kube-copilot
+[2023-05-30 04:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: triessentials
+[2023-05-30 04:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prism-ds
+[2023-05-30 04:26:24] INFO root fetch - processPackages [dtbase]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 04:26:24] INFO root fetch - processPackages [objverify]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-30 04:26:24] INFO root fetch - processPackages [aiextras]: New version: [2.0] Old Version: [1.0]
+[2023-05-30 04:26:24] INFO root fetch - processPackages [spherediff]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-30 04:26:24] INFO root fetch - processPackages [pautobot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 04:26:24] INFO root fetch - processPackages [curveengine]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-30 04:26:24] INFO root fetch - processPackages [pycontext-lib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-30 04:26:24] INFO root fetch - processPackages [kube-copilot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 04:26:24] INFO root fetch - processPackages [prism-ds]: New version: [0.1.9rc2] Old Version: [0.1.9rc1]
+[2023-05-30 04:26:24] INFO root fetch - processPackages [triessentials]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-30 04:26:24] INFO root fetch - processPackages [kube-copilot]: executing diffoscope
+[2023-05-30 04:26:24] INFO root fetch - processPackages [kube-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_copilot-0.1.8.tar.gz tmp/kube_copilot-0.1.9.tar.gz --markdown 20230530/k/kube-copilot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 04:26:24] INFO root fetch - processPackages [pautobot]: executing diffoscope
+[2023-05-30 04:26:24] INFO root fetch - processPackages [pautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pautobot-0.0.8.tar.gz tmp/pautobot-0.0.9.tar.gz --markdown 20230530/p/pautobot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 04:26:24] INFO root fetch - processPackages [spherediff]: Downloading https://files.pythonhosted.org/packages/f2/ee/df7021fe45068ffed0330e76c069185a33d947b6e2cf28c0296e0677513d/spherediff-1.2.0.tar.gz
+[2023-05-30 04:26:24] INFO root fetch - processPackages [triessentials]: Downloading https://files.pythonhosted.org/packages/e2/85/6a351bab552cebebc6e9379fdb8a9a3af12adc4700c924f2d43ea3a98584/triessentials-0.1.4.tar.gz
+[2023-05-30 04:26:24] INFO root fetch - processPackages [objverify]: Downloading https://files.pythonhosted.org/packages/18/bf/3a0cc5de97cb954b8fa14379803455973e8e58f6f93b4d59d9b9e247b797/objverify-1.0.0.tar.gz
+[2023-05-30 04:26:24] INFO root fetch - processPackages [pycontext-lib]: Downloading https://files.pythonhosted.org/packages/f6/6e/62b8f8700a82f1a82e1eae66a42c62a769c9a88890fcac2b48a75f36ca29/pycontext-lib-1.0.0.tar.gz
+[2023-05-30 04:26:24] INFO root fetch - processPackages [prism-ds]: Downloading https://files.pythonhosted.org/packages/49/81/a771c133085c4886904e9f3f89508b4bc1a8a730485a33fa90435b8ef8b2/prism-ds-0.1.9rc1.tar.gz
+[2023-05-30 04:26:24] INFO root fetch - processPackages [dtbase]: Downloading https://files.pythonhosted.org/packages/0c/8b/39c9b2b8b21064cb9e358413fded090faa8cf229ce50c173a8c49de1d70c/dtbase-0.0.4.tar.gz
+[2023-05-30 04:26:24] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/37/74/3dbb41cb1b9996eefaf6b5eae07637b396d69b77ec4428da41c1a9a678fe/aiextras-2.0.tar.gz
+[2023-05-30 04:26:24] INFO root fetch - processPackages [curveengine]: Downloading https://files.pythonhosted.org/packages/43/67/03ef7fd5f967607e829fba968c1036c62a35f906ea7c39b493c8b08271b2/curveengine-1.1.1-py3-none-any.whl
+[2023-05-30 04:26:24] INFO root fetch - processPackages [dtbase]: executing diffoscope
+[2023-05-30 04:26:24] INFO root fetch - processPackages [dtbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtbase-0.0.3.tar.gz tmp/dtbase-0.0.4.tar.gz --markdown 20230530/d/dtbase/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 04:26:24] INFO root fetch - processPackages [spherediff]: executing diffoscope
+[2023-05-30 04:26:24] INFO root fetch - processPackages [spherediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spherediff-1.1.0.tar.gz tmp/spherediff-1.2.0.tar.gz --markdown 20230530/s/spherediff/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-30 04:26:24] INFO root fetch - processPackages [triessentials]: Downloading https://files.pythonhosted.org/packages/30/a6/f0f17fab3b8679faf2c616a864a779cc10266599aeff71ee12a13f4dd5d3/triessentials-0.1.5.tar.gz
+[2023-05-30 04:26:24] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-30 04:26:24] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-1.0.tar.gz tmp/aiextras-2.0.tar.gz --markdown 20230530/a/aiextras/1.0-2.0/diff.md --exclude *.pyd
+[2023-05-30 04:26:24] INFO root fetch - processPackages [objverify]: Downloading https://files.pythonhosted.org/packages/a8/e1/d748351330e8f1870cb2846f4eada4e6221fc5accddd412c0aed41fb22e6/objverify-1.0.1.tar.gz
+[2023-05-30 04:26:24] INFO root fetch - processPackages [curveengine]: executing diffoscope
+[2023-05-30 04:26:24] INFO root fetch - processPackages [curveengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curveengine-1.1.0-py3-none-any.whl.zip tmp/curveengine-1.1.1-py3-none-any.whl.zip --markdown 20230530/c/curveengine/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-30 04:26:24] INFO root fetch - processPackages [pycontext-lib]: Downloading https://files.pythonhosted.org/packages/31/6b/d543a4401ce7251b6cd0c047bdd8ab0c2c4502ec0ef5521a88f683815889/pycontext-lib-1.0.1.tar.gz
+[2023-05-30 04:26:24] INFO root fetch - processPackages [prism-ds]: Downloading https://files.pythonhosted.org/packages/f2/4c/9331ba1c8760fc297c5995211b8bddf9deece97df10ecfe13326c882da49/prism-ds-0.1.9rc2.tar.gz
+[2023-05-30 04:26:24] INFO root fetch - processPackages [triessentials]: executing diffoscope
+[2023-05-30 04:26:24] INFO root fetch - processPackages [triessentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triessentials-0.1.4.tar.gz tmp/triessentials-0.1.5.tar.gz --markdown 20230530/t/triessentials/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-30 04:26:24] INFO root fetch - processPackages [prism-ds]: executing diffoscope
+[2023-05-30 04:26:24] INFO root fetch - processPackages [prism-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prism-ds-0.1.9rc1.tar.gz tmp/prism-ds-0.1.9rc2.tar.gz --markdown 20230530/p/prism-ds/0.1.9rc1-0.1.9rc2/diff.md --exclude *.pyd
+[2023-05-30 04:26:24] INFO root fetch - processPackages [objverify]: executing diffoscope
+[2023-05-30 04:26:24] INFO root fetch - processPackages [objverify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objverify-1.0.0.tar.gz tmp/objverify-1.0.1.tar.gz --markdown 20230530/o/objverify/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 04:26:25] INFO root fetch - processPackages [pycontext-lib]: executing diffoscope
+[2023-05-30 04:26:25] INFO root fetch - processPackages [pycontext-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycontext-lib-1.0.0.tar.gz tmp/pycontext-lib-1.0.1.tar.gz --markdown 20230530/p/pycontext-lib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 04:26:25] INFO root fetch - processPackages [kube-copilot]: Start processing: ovos-stt-plugin-fasterwhisper
+[2023-05-30 04:26:25] INFO root fetch - main [MainThread]: End processing [kube-copilot]: success
+[2023-05-30 04:26:25] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: New version: [0.0.1a5] Old Version: [0.0.1a4]
+[2023-05-30 04:26:26] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: Downloading https://files.pythonhosted.org/packages/cb/44/ffb80c79bf1939e53da5f6fdf93593d80b638c71051788a8c9bda8e85957/ovos-stt-plugin-fasterwhisper-0.0.1a4.tar.gz
+[2023-05-30 04:26:26] INFO root fetch - main [MainThread]: End processing [pautobot]: success
+[2023-05-30 04:26:26] INFO root fetch - main [MainThread]: End processing [dtbase]: success
+[2023-05-30 04:26:26] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: Downloading https://files.pythonhosted.org/packages/88/ed/0b96ab4e2b0c6caee65ad7aa3d462602e4e66e440291f19d1647ab2bd9a3/ovos-stt-plugin-fasterwhisper-0.0.1a5.tar.gz
+[2023-05-30 04:26:26] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: executing diffoscope
+[2023-05-30 04:26:26] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-stt-plugin-fasterwhisper-0.0.1a4.tar.gz tmp/ovos-stt-plugin-fasterwhisper-0.0.1a5.tar.gz --markdown 20230530/o/ovos-stt-plugin-fasterwhisper/0.0.1a4-0.0.1a5/diff.md --exclude *.pyd
+[2023-05-30 04:26:26] INFO root fetch - main [MainThread]: End processing [spherediff]: success
+[2023-05-30 04:26:26] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-30 04:26:26] INFO root fetch - main [MainThread]: End processing [triessentials]: success
+[2023-05-30 04:26:26] INFO root fetch - main [MainThread]: End processing [curveengine]: success
+[2023-05-30 04:26:26] INFO root fetch - main [MainThread]: End processing [objverify]: success
+[2023-05-30 04:26:27] INFO root fetch - main [MainThread]: End processing [pycontext-lib]: success
+[2023-05-30 04:26:27] INFO root fetch - main [MainThread]: End processing [ovos-stt-plugin-fasterwhisper]: success
+[2023-05-30 04:26:30] INFO root fetch - main [MainThread]: End processing [prism-ds]: success
+[2023-05-30 04:26:30] INFO root fetch - main [MainThread]: Store serial: [18297049]
