@@ -22037,3 +22037,91 @@ EOFError: EOF read where object expected
 [2023-05-30 23:23:47] INFO root fetch - main [MainThread]: End processing [python-gvm]: success
 [2023-05-30 23:24:05] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
 [2023-05-30 23:24:05] INFO root fetch - main [MainThread]: Store serial: [18307749]
+[2023-05-30 23:29:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18307749]
+[2023-05-30 23:29:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-30 23:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Shchirov-serializer
+[2023-05-30 23:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quransbu
+[2023-05-30 23:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tiledbsoma
+[2023-05-30 23:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitbox02
+[2023-05-30 23:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dktoeasysqlite3
+[2023-05-30 23:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pref-voting
+[2023-05-30 23:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tera-toolbox
+[2023-05-30 23:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adafruit-circuitpython-dash-display
+[2023-05-30 23:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: returnn
+[2023-05-30 23:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bi1x
+[2023-05-30 23:29:14] INFO root fetch - processPackages [Shchirov-serializer]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-30 23:29:14] INFO root fetch - processPackages [adafruit-circuitpython-dash-display]: New version: [1.1.9] Old Version: [1.1.16]
+[2023-05-30 23:29:14] INFO root fetch - processPackages [bitbox02]: New version: [6.2.0] Old Version: [6.1.1]
+[2023-05-30 23:29:14] INFO root fetch - processPackages [dktoeasysqlite3]: New version: [1.0.0] Old Version: [0.0.1a0]
+[2023-05-30 23:29:14] INFO root fetch - processPackages [tiledbsoma]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-30 23:29:14] INFO root fetch - processPackages [bi1x]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 23:29:14] INFO root fetch - processPackages [pref-voting]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-30 23:29:14] INFO root fetch - processPackages [tera-toolbox]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-05-30 23:29:14] INFO root fetch - processPackages [returnn]: New version: [1.20230530.231117] Old Version: [1.20230530.215546]
+[2023-05-30 23:29:14] ERROR root fetch - processPackages [quransbu]: Unable to get metadata: No such project 'quransbu'
+[2023-05-30 23:29:14] INFO root fetch - processPackages [quransbu]: Start processing: clearml
+[2023-05-30 23:29:14] INFO root fetch - main [MainThread]: End processing [quransbu] error
+[2023-05-30 23:29:14] INFO root fetch - processPackages [tera-toolbox]: executing diffoscope
+[2023-05-30 23:29:14] INFO root fetch - processPackages [tera-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tera-toolbox-0.0.5.tar.gz tmp/tera-toolbox-0.0.8.tar.gz --markdown 20230530/t/tera-toolbox/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 23:29:14] INFO root fetch - processPackages [clearml]: New version: [1.9.3] Old Version: [1.9.2rc2]
+[2023-05-30 23:29:14] INFO root fetch - processPackages [adafruit-circuitpython-dash-display]: Downloading https://files.pythonhosted.org/packages/a6/2a/090bcb03f3be2c1a7f53771dc9513b1583826f36dfb863fcd9f12e901b04/adafruit-circuitpython-dash-display-1.1.16.tar.gz
+[2023-05-30 23:29:14] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/3d/66/770fb61e441bcd9f8e110908b5b9ef498ec888d2811c67b385b97303ae84/pref_voting-0.3.3.tar.gz
+[2023-05-30 23:29:14] INFO root fetch - processPackages [dktoeasysqlite3]: Downloading https://files.pythonhosted.org/packages/fc/8c/23b3f0a02c18fa9fd24c1316855d306b67ed58340e57067f890f76e4bc80/dktoeasysqlite3-0.0.1a0.tar.gz
+[2023-05-30 23:29:14] INFO root fetch - processPackages [bitbox02]: Downloading https://files.pythonhosted.org/packages/5e/2b/efabf9a1cb1f6fe9a9c0d56ebc3af78c02bbb3fcd8aa006fdca989b086c6/bitbox02-6.1.1.tar.gz
+[2023-05-30 23:29:14] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/96/45/95a95476515cceb8dca64bccbb049c53e2725d55385f91ed0e5a790d1eb7/returnn-1.20230530.215546.tar.gz
+[2023-05-30 23:29:14] INFO root fetch - processPackages [bi1x]: Downloading https://files.pythonhosted.org/packages/66/57/f6520b85d99b8871a2ba07e681dc94997481ece119e3e546267c909c6c73/bi1x-0.0.8.tar.gz
+[2023-05-30 23:29:15] INFO root fetch - processPackages [tiledbsoma]: Downloading https://files.pythonhosted.org/packages/9e/67/9be35aa1ed4d253af19ab5c0ac60b3123e2f6560e2caeabc77aa4cd252c7/tiledbsoma-1.2.5.tar.gz
+[2023-05-30 23:29:15] INFO root fetch - processPackages [Shchirov-serializer]: Downloading https://files.pythonhosted.org/packages/3e/c2/304481f2543082c7ade12f17b9b33741a3bb60aac1dd92a76f8a2a199250/Shchirov_serializer-1.1.5.tar.gz
+[2023-05-30 23:29:15] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/d1/7b/5432627a675bab5bcd1ed8eee5e2935c9323bbbe1fb76ab6d7b58b3ae074/pref_voting-0.3.4.tar.gz
+[2023-05-30 23:29:15] INFO root fetch - processPackages [adafruit-circuitpython-dash-display]: executing diffoscope
+[2023-05-30 23:29:15] INFO root fetch - processPackages [adafruit-circuitpython-dash-display]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-dash-display-1.1.16.tar.gz tmp/adafruit-circuitpython-dash-display-1.1.9.tar.gz --markdown 20230530/a/adafruit-circuitpython-dash-display/1.1.16-1.1.9/diff.md --exclude *.pyd
+[2023-05-30 23:29:15] INFO root fetch - processPackages [Shchirov-serializer]: executing diffoscope
+[2023-05-30 23:29:15] INFO root fetch - processPackages [Shchirov-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shchirov_serializer-1.1.4.tar.gz tmp/Shchirov_serializer-1.1.5.tar.gz --markdown 20230530/S/Shchirov-serializer/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-30 23:29:15] INFO root fetch - processPackages [bitbox02]: Downloading https://files.pythonhosted.org/packages/10/a1/fc77f13cddb5c3c0c4aec4674c69d3b2ec46fabb0c86ba7b82ce98539f9b/bitbox02-6.2.0.tar.gz
+[2023-05-30 23:29:15] INFO root fetch - processPackages [clearml]: executing diffoscope
+[2023-05-30 23:29:15] INFO root fetch - processPackages [clearml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml-1.9.2rc2-py2.py3-none-any.whl.zip tmp/clearml-1.9.3-py2.py3-none-any.whl.zip --markdown 20230530/c/clearml/1.9.2rc2-1.9.3/diff.md --exclude *.pyd
+[2023-05-30 23:29:15] INFO root fetch - processPackages [tiledbsoma]: executing diffoscope
+[2023-05-30 23:29:15] INFO root fetch - processPackages [tiledbsoma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledbsoma-1.2.4.tar.gz tmp/tiledbsoma-1.2.5.tar.gz --markdown 20230530/t/tiledbsoma/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-30 23:29:15] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-05-30 23:29:15] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.3.3.tar.gz tmp/pref_voting-0.3.4.tar.gz --markdown 20230530/p/pref-voting/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-30 23:29:15] INFO root fetch - processPackages [dktoeasysqlite3]: Downloading https://files.pythonhosted.org/packages/5b/2d/649f98b3691fe43569b8a05e40c1d8dd09b9a1c23c28928bc06336c51602/dktoeasysqlite3-1.0.0.tar.gz
+[2023-05-30 23:29:15] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/f6/8b/9b9b6b6a27e646fde352fd97ea8372020a3aef308a2f6c59b24d6baa3e12/returnn-1.20230530.231117.tar.gz
+[2023-05-30 23:29:15] INFO root fetch - processPackages [bitbox02]: executing diffoscope
+[2023-05-30 23:29:15] INFO root fetch - processPackages [bitbox02]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitbox02-6.1.1.tar.gz tmp/bitbox02-6.2.0.tar.gz --markdown 20230530/b/bitbox02/6.1.1-6.2.0/diff.md --exclude *.pyd
+[2023-05-30 23:29:15] INFO root fetch - processPackages [dktoeasysqlite3]: executing diffoscope
+[2023-05-30 23:29:15] INFO root fetch - processPackages [dktoeasysqlite3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dktoeasysqlite3-0.0.1a0.tar.gz tmp/dktoeasysqlite3-1.0.0.tar.gz --markdown 20230530/d/dktoeasysqlite3/0.0.1a0-1.0.0/diff.md --exclude *.pyd
+[2023-05-30 23:29:15] INFO root fetch - processPackages [bi1x]: Downloading https://files.pythonhosted.org/packages/ae/08/7b1d6b619846219b0933d64905bc685c080b27c4bd422827ac00f5a04dbf/bi1x-0.0.9.tar.gz
+[2023-05-30 23:29:15] INFO root fetch - processPackages [bi1x]: executing diffoscope
+[2023-05-30 23:29:15] INFO root fetch - processPackages [bi1x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bi1x-0.0.8.tar.gz tmp/bi1x-0.0.9.tar.gz --markdown 20230530/b/bi1x/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 23:29:15] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-30 23:29:15] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230530.215546.tar.gz tmp/returnn-1.20230530.231117.tar.gz --markdown 20230530/r/returnn/1.20230530.215546-1.20230530.231117/diff.md --exclude *.pyd
+[2023-05-30 23:29:16] INFO root fetch - processPackages [tera-toolbox]: Start processing: cgap-higlass-data
+[2023-05-30 23:29:16] INFO root fetch - main [MainThread]: End processing [tera-toolbox]: success
+[2023-05-30 23:29:16] INFO root fetch - processPackages [cgap-higlass-data]: New version: [0.3.0b2] Old Version: [0.3.0b1]
+[2023-05-30 23:29:16] INFO root fetch - processPackages [cgap-higlass-data]: executing diffoscope
+[2023-05-30 23:29:16] INFO root fetch - processPackages [cgap-higlass-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgap_higlass_data-0.3.0b1.tar.gz tmp/cgap_higlass_data-0.3.0b2.tar.gz --markdown 20230530/c/cgap-higlass-data/0.3.0b1-0.3.0b2/diff.md --exclude *.pyd
+[2023-05-30 23:29:16] INFO root fetch - processPackages [Shchirov-serializer]: Start processing: Shchirov-serializer
+[2023-05-30 23:29:16] INFO root fetch - main [MainThread]: End processing [Shchirov-serializer]: success
+[2023-05-30 23:29:16] INFO root fetch - processPackages [Shchirov-serializer]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-30 23:29:17] INFO root fetch - processPackages [Shchirov-serializer]: Downloading https://files.pythonhosted.org/packages/77/5e/594ea1552bd5fbe2568451f4004a1c360980580c6dcdd370d7afb860f420/Shchirov_serializer-1.1.6.tar.gz
+[2023-05-30 23:29:17] INFO root fetch - processPackages [Shchirov-serializer]: executing diffoscope
+[2023-05-30 23:29:17] INFO root fetch - processPackages [Shchirov-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shchirov_serializer-1.1.5.tar.gz tmp/Shchirov_serializer-1.1.6.tar.gz --markdown 20230530/S/Shchirov-serializer/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-30 23:29:17] INFO root fetch - processPackages [adafruit-circuitpython-dash-display]: Start processing: dataquality
+[2023-05-30 23:29:17] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-dash-display]: success
+[2023-05-30 23:29:17] INFO root fetch - processPackages [dataquality]: New version: [0.8.9] Old Version: [0.8.8a0]
+[2023-05-30 23:29:17] INFO root fetch - processPackages [pref-voting]: Start processing: kalpy-kaldi
+[2023-05-30 23:29:17] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-05-30 23:29:17] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-05-30 23:29:17] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.8.8a0.tar.gz tmp/dataquality-0.8.9.tar.gz --markdown 20230530/d/dataquality/0.8.8a0-0.8.9/diff.md --exclude *.pyd
+[2023-05-30 23:29:17] WARNING root fetch - processPackages [kalpy-kaldi]: Skipping, unable to determine old version
+[2023-05-30 23:29:17] INFO root fetch - main [MainThread]: End processing [kalpy-kaldi] error
+[2023-05-30 23:29:17] INFO root fetch - main [MainThread]: End processing [dktoeasysqlite3]: success
+[2023-05-30 23:29:18] INFO root fetch - main [MainThread]: End processing [tiledbsoma]: success
+[2023-05-30 23:29:18] INFO root fetch - main [MainThread]: End processing [bi1x]: success
+[2023-05-30 23:29:18] INFO root fetch - main [MainThread]: End processing [cgap-higlass-data]: success
+[2023-05-30 23:29:18] INFO root fetch - main [MainThread]: End processing [bitbox02]: success
+[2023-05-30 23:29:18] INFO root fetch - main [MainThread]: End processing [Shchirov-serializer]: success
+[2023-05-30 23:29:19] INFO root fetch - main [MainThread]: End processing [clearml]: success
+[2023-05-30 23:29:20] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-05-30 23:29:20] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-30 23:29:20] INFO root fetch - main [MainThread]: Store serial: [18307812]
