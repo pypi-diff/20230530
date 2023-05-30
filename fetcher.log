@@ -6712,3 +6712,61 @@
 [2023-05-30 08:49:14] INFO root fetch - main [MainThread]: End processing [alibabacloud-fc-open20210406]: success
 [2023-05-30 08:49:15] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
 [2023-05-30 08:49:15] INFO root fetch - main [MainThread]: Store serial: [18298523]
+[2023-05-30 08:54:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18298523]
+[2023-05-30 08:54:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tad-dftd3
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ytdl-server
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bdating-common
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quant23rg
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: h2o-helium
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfish
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastpdb
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Pdfcontool
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ytdl-server]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-30 08:54:24] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-30 08:54:24] WARNING root fetch - processPackages [quant23rg]: Skipping, unable to determine old version
+[2023-05-30 08:54:24] INFO root fetch - main [MainThread]: End processing [quant23rg] error
+[2023-05-30 08:54:24] INFO root fetch - processPackages [tad-dftd3]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 08:54:24] INFO root fetch - processPackages [h2o-helium]: New version: [0.2.0] Old Version: [0.0.1]
+[2023-05-30 08:54:24] INFO root fetch - processPackages [fastpdb]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-30 08:54:24] INFO root fetch - processPackages [kfish]: New version: [99.0.202305300652] Old Version: [99.0.202305282134]
+[2023-05-30 08:54:24] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230530065102] Old Version: [2.1.1.dev20230529184621]
+[2023-05-30 08:54:24] INFO root fetch - processPackages [kcli]: New version: [99.0.202305300649] Old Version: [99.0.202305282131]
+[2023-05-30 08:54:24] WARNING root fetch - processPackages [Pdfcontool]: Skipping, unable to determine old version
+[2023-05-30 08:54:24] INFO root fetch - main [MainThread]: End processing [Pdfcontool] error
+[2023-05-30 08:54:24] INFO root fetch - processPackages [h2o-helium]: Downloading https://files.pythonhosted.org/packages/94/55/7ea8a4fdee0726c7e8deed46f7fe7f04c8e2848c077f2e3936b7011540e4/h2o_helium-0.0.1-py3-none-any.whl
+[2023-05-30 08:54:24] INFO root fetch - processPackages [tad-dftd3]: executing diffoscope
+[2023-05-30 08:54:24] INFO root fetch - processPackages [tad-dftd3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tad_dftd3-0.1.1.tar.gz tmp/tad_dftd3-0.1.2.tar.gz --markdown 20230530/t/tad-dftd3/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ytdl-server]: Downloading https://files.pythonhosted.org/packages/3d/67/c54a1853833c5764c6f9652615edc509d3296b5d825c596841ca6870475d/ytdl-server-1.1.6.tar.gz
+[2023-05-30 08:54:24] INFO root fetch - processPackages [fastpdb]: Downloading https://files.pythonhosted.org/packages/02/7a/16e28327b66721801ce20babbc2956b2383474eb19117e0bbb53c1a4d479/fastpdb-1.1.0.tar.gz
+[2023-05-30 08:54:24] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/53/63/f80382c474935a657e21a27e8a57b0e7d82a107b0121e6005229392d604c/localstack-core-2.1.1.dev20230530065102.tar.gz
+[2023-05-30 08:54:24] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a5/86/47ea8df06df07db38f180db61c4feaf0c33eb38d9930f8c8ebd8db19ecb1/kfish-99.0.202305300652-py3-none-any.whl
+[2023-05-30 08:54:24] INFO root fetch - processPackages [h2o-helium]: Downloading https://files.pythonhosted.org/packages/bd/ae/c499f7748b7f9b0bba572c77e51cdb2eb1fcb3d960837d2024fbc8fc640a/h2o_helium-0.2.0-py3-none-any.whl
+[2023-05-30 08:54:24] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-05-30 08:54:24] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230530/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-30 08:54:24] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/dd/8b/c6311261e6f8633cd5b27dd4f6a7624a69dd90269703ba557ac11d2eb26e/kcli-99.0.202305300649-py3-none-any.whl
+[2023-05-30 08:54:24] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-30 08:54:24] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305282134-py3-none-any.whl.zip tmp/kfish-99.0.202305300652-py3-none-any.whl.zip --markdown 20230530/k/kfish/99.0.202305282134-99.0.202305300652/diff.md --exclude *.pyd
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ytdl-server]: Downloading https://files.pythonhosted.org/packages/76/7e/77dbda09e96e4766465de1951af39f519330be3fa0b57a32fd355fc34dff/ytdl-server-1.1.7.tar.gz
+[2023-05-30 08:54:24] INFO root fetch - processPackages [h2o-helium]: executing diffoscope
+[2023-05-30 08:54:24] INFO root fetch - processPackages [h2o-helium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_helium-0.0.1-py3-none-any.whl.zip tmp/h2o_helium-0.2.0-py3-none-any.whl.zip --markdown 20230530/h/h2o-helium/0.0.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 08:54:24] INFO root fetch - processPackages [fastpdb]: Downloading https://files.pythonhosted.org/packages/12/0b/1548e896b37fc59d2cf202f033d1bcd294dcb0c7da98a686b1fd90f7cec0/fastpdb-1.2.0.tar.gz
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ytdl-server]: executing diffoscope
+[2023-05-30 08:54:24] INFO root fetch - processPackages [ytdl-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-server-1.1.6.tar.gz tmp/ytdl-server-1.1.7.tar.gz --markdown 20230530/y/ytdl-server/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-30 08:54:24] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-30 08:54:24] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305282131-py3-none-any.whl.zip tmp/kcli-99.0.202305300649-py3-none-any.whl.zip --markdown 20230530/k/kcli/99.0.202305282131-99.0.202305300649/diff.md --exclude *.pyd
+[2023-05-30 08:54:24] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-30 08:54:24] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230529184621.tar.gz tmp/localstack-core-2.1.1.dev20230530065102.tar.gz --markdown 20230530/l/localstack-core/2.1.1.dev20230529184621-2.1.1.dev20230530065102/diff.md --exclude *.pyd
+[2023-05-30 08:54:24] INFO root fetch - processPackages [fastpdb]: executing diffoscope
+[2023-05-30 08:54:24] INFO root fetch - processPackages [fastpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastpdb-1.1.0.tar.gz tmp/fastpdb-1.2.0.tar.gz --markdown 20230530/f/fastpdb/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-30 08:54:25] INFO root fetch - main [MainThread]: End processing [tad-dftd3]: success
+[2023-05-30 08:54:26] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-05-30 08:54:26] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-30 08:54:26] INFO root fetch - main [MainThread]: End processing [h2o-helium]: success
+[2023-05-30 08:54:27] INFO root fetch - main [MainThread]: End processing [ytdl-server]: success
+[2023-05-30 08:54:28] INFO root fetch - main [MainThread]: End processing [fastpdb]: success
+[2023-05-30 08:54:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-30 08:54:33] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-30 08:54:33] INFO root fetch - main [MainThread]: Store serial: [18298571]
