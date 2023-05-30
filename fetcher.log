@@ -4089,3 +4089,65 @@
 [2023-05-30 04:26:27] INFO root fetch - main [MainThread]: End processing [ovos-stt-plugin-fasterwhisper]: success
 [2023-05-30 04:26:30] INFO root fetch - main [MainThread]: End processing [prism-ds]: success
 [2023-05-30 04:26:30] INFO root fetch - main [MainThread]: Store serial: [18297049]
+[2023-05-30 04:31:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297049]
+[2023-05-30 04:31:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-30 04:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: perfcount
+[2023-05-30 04:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aqimon
+[2023-05-30 04:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gamium
+[2023-05-30 04:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gravitas
+[2023-05-30 04:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-helper-mod
+[2023-05-30 04:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiextras
+[2023-05-30 04:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onvif-gui
+[2023-05-30 04:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiextras
+[2023-05-30 04:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiextras
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aqimon]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-30 04:31:39] INFO root fetch - processPackages [gravitas]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 04:31:39] INFO root fetch - processPackages [perfcount]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-30 04:31:39] INFO root fetch - processPackages [py-helper-mod]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-05-30 04:31:39] INFO root fetch - processPackages [onvif-gui]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: New version: [2.2] Old Version: [2.1]
+[2023-05-30 04:31:39] WARNING root fetch - processPackages [gamium]: Skipping, unable to determine old version
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: New version: [2.2] Old Version: [2.1]
+[2023-05-30 04:31:39] INFO root fetch - main [MainThread]: End processing [gamium] error
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: New version: [2.2] Old Version: [2.1]
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/d2/c0/121534246112c2d15e6f85803589fd3d728ab6245ab10fe863c04406cac9/aiextras-2.1.tar.gz
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/d2/c0/121534246112c2d15e6f85803589fd3d728ab6245ab10fe863c04406cac9/aiextras-2.1.tar.gz
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aqimon]: Downloading https://files.pythonhosted.org/packages/e7/d2/2a267fe70ce43ed5b03fc43b1da7945c295f615476f3fe627789723557ea/aqimon-0.5.1.tar.gz
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/d2/c0/121534246112c2d15e6f85803589fd3d728ab6245ab10fe863c04406cac9/aiextras-2.1.tar.gz
+[2023-05-30 04:31:39] INFO root fetch - processPackages [gravitas]: Downloading https://files.pythonhosted.org/packages/16/3e/f55d62c10ac850cffce15451fdbfe2716fb2b9bb6245f96967bedb4393d4/gravitas-0.1.1.tar.gz
+[2023-05-30 04:31:39] INFO root fetch - processPackages [perfcount]: Downloading https://files.pythonhosted.org/packages/0a/6c/54a18111907221c73c002460a8e5516b366a3fb7c47e330de4352e0b46b9/perfcount-1.0.0.tar.gz
+[2023-05-30 04:31:39] INFO root fetch - processPackages [onvif-gui]: Downloading https://files.pythonhosted.org/packages/98/26/3d822983f5a7555f9e152e19907cc86a62d87f14bb8c4ebf73646a6dbb91/onvif-gui-1.2.0.tar.gz
+[2023-05-30 04:31:39] INFO root fetch - processPackages [py-helper-mod]: Downloading https://files.pythonhosted.org/packages/b0/a3/3d524ed35b6e56cf62986e0526baca05e450fb76886f5c4801ba7b1b1eb5/py-helper-mod-0.0.33.tar.gz
+[2023-05-30 04:31:39] INFO root fetch - processPackages [onvif-gui]: executing diffoscope
+[2023-05-30 04:31:39] INFO root fetch - processPackages [onvif-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onvif-gui-1.1.9.tar.gz tmp/onvif-gui-1.2.0.tar.gz --markdown 20230530/o/onvif-gui/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-30 04:31:39] INFO root fetch - processPackages [py-helper-mod]: executing diffoscope
+[2023-05-30 04:31:39] INFO root fetch - processPackages [py-helper-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-helper-mod-0.0.32.tar.gz tmp/py-helper-mod-0.0.33.tar.gz --markdown 20230530/p/py-helper-mod/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-05-30 04:31:39] INFO root fetch - processPackages [perfcount]: Downloading https://files.pythonhosted.org/packages/d0/f8/7cd492bbb3a1d666dee2d55d304d71186b3f3297ff5b6d358a1f9d7b97b4/perfcount-1.0.1.tar.gz
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/6b/46/155e0159e0b27389d98d8cac3d8098e9c71722b034eef50ac9b95ecac060/aiextras-2.2.tar.gz
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/6b/46/155e0159e0b27389d98d8cac3d8098e9c71722b034eef50ac9b95ecac060/aiextras-2.2.tar.gz
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/6b/46/155e0159e0b27389d98d8cac3d8098e9c71722b034eef50ac9b95ecac060/aiextras-2.2.tar.gz
+[2023-05-30 04:31:39] INFO root fetch - processPackages [gravitas]: Downloading https://files.pythonhosted.org/packages/c1/47/179da20c7562d8e3dae1ad135692bf7d8a9c8a7761fa396a0f1204197932/gravitas-0.1.2.tar.gz
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aqimon]: Downloading https://files.pythonhosted.org/packages/87/98/c7fa3591bd9be848a897c81b4db0abce5a231d3cff6da8674f0208791282/aqimon-0.6.0.tar.gz
+[2023-05-30 04:31:39] INFO root fetch - processPackages [perfcount]: executing diffoscope
+[2023-05-30 04:31:39] INFO root fetch - processPackages [perfcount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perfcount-1.0.0.tar.gz tmp/perfcount-1.0.1.tar.gz --markdown 20230530/p/perfcount/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-30 04:31:39] ERROR root fetch - processPackages [py-helper-mod]: Diffoscope failed: Error: error creating container storage: the container name "boring_wing" is already in use by "2a390ed43e593be390cccdac8b9f58e70b4936d96f05fe5a8578b4939b8482a3". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-30 04:31:39] INFO root fetch - main [MainThread]: End processing [py-helper-mod] error
+[2023-05-30 04:31:39] INFO root fetch - processPackages [gravitas]: executing diffoscope
+[2023-05-30 04:31:39] INFO root fetch - processPackages [gravitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitas-0.1.1.tar.gz tmp/gravitas-0.1.2.tar.gz --markdown 20230530/g/gravitas/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aqimon]: executing diffoscope
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aqimon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqimon-0.5.1.tar.gz tmp/aqimon-0.6.0.tar.gz --markdown 20230530/a/aqimon/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-2.1.tar.gz tmp/aiextras-2.2.tar.gz --markdown 20230530/a/aiextras/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-2.1.tar.gz tmp/aiextras-2.2.tar.gz --markdown 20230530/a/aiextras/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-30 04:31:39] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-2.1.tar.gz tmp/aiextras-2.2.tar.gz --markdown 20230530/a/aiextras/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-30 04:31:41] INFO root fetch - main [MainThread]: End processing [perfcount]: success
+[2023-05-30 04:31:41] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-30 04:31:41] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-30 04:31:41] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-30 04:31:41] INFO root fetch - main [MainThread]: End processing [gravitas]: success
+[2023-05-30 04:31:42] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
+[2023-05-30 04:31:44] INFO root fetch - main [MainThread]: End processing [aqimon]: success
+[2023-05-30 04:31:44] INFO root fetch - main [MainThread]: Store serial: [18297075]
