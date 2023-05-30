@@ -12367,3 +12367,95 @@
 [2023-05-30 14:20:26] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-30 14:20:38] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2023-05-30 14:20:38] INFO root fetch - main [MainThread]: Store serial: [18302048]
+[2023-05-30 14:25:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18302048]
+[2023-05-30 14:25:48] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-30 14:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lib-rql
+[2023-05-30 14:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hoot-api
+[2023-05-30 14:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-flow-diagram
+[2023-05-30 14:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: comtypes
+[2023-05-30 14:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zh-langchain
+[2023-05-30 14:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: insightconnect-integrations-validators
+[2023-05-30 14:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shared-atomic-enterprise
+[2023-05-30 14:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybi-next
+[2023-05-30 14:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: typedb-protocol
+[2023-05-30 14:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simplegeomap
+[2023-05-30 14:25:48] INFO root fetch - processPackages [lib-rql]: New version: [2.0.0] Old Version: [1.1.8]
+[2023-05-30 14:25:48] INFO root fetch - processPackages [comtypes]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-30 14:25:48] WARNING root fetch - processPackages [hoot-api]: Skipping, unable to determine old version
+[2023-05-30 14:25:48] INFO root fetch - processPackages [data-flow-diagram]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-30 14:25:48] INFO root fetch - processPackages [hoot-api]: Start processing: bio-attention
+[2023-05-30 14:25:48] INFO root fetch - main [MainThread]: End processing [hoot-api] error
+[2023-05-30 14:25:48] INFO root fetch - processPackages [zh-langchain]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-30 14:25:48] INFO root fetch - processPackages [simplegeomap]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-05-30 14:25:48] INFO root fetch - processPackages [typedb-protocol]: New version: [2.9.0] Old Version: [2.6.1]
+[2023-05-30 14:25:48] INFO root fetch - processPackages [insightconnect-integrations-validators]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-30 14:25:48] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!2.3.5] Old Version: [5!2.3.4]
+[2023-05-30 14:25:48] INFO root fetch - processPackages [pybi-next]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-30 14:25:48] INFO root fetch - processPackages [bio-attention]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 14:25:48] INFO root fetch - processPackages [zh-langchain]: Downloading https://files.pythonhosted.org/packages/27/9e/26e39fe38bf3e004a5d41d29d7ba6f47465a638f9910d04070f1cc30bbcb/zh-langchain-0.1.5.tar.gz
+[2023-05-30 14:25:48] INFO root fetch - processPackages [data-flow-diagram]: Downloading https://files.pythonhosted.org/packages/82/b3/c34de4400e099eddcef3f7492d398f7a142d629e48363f1b81bebfa2ecaa/data-flow-diagram-1.9.0.tar.gz
+[2023-05-30 14:25:48] INFO root fetch - processPackages [lib-rql]: Downloading https://files.pythonhosted.org/packages/01/7b/aedafd805feb6e3ae37e4c33a4da74a77f68b67227722d1e32c90ea7cade/lib_rql-1.1.8.tar.gz
+[2023-05-30 14:25:48] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/9d/c1/8a8fca432e7e5883f6ef2e07f818d7ef13c344d2581211dba238a6fd4c77/simplegeomap-0.0.22.tar.gz
+[2023-05-30 14:25:48] INFO root fetch - processPackages [typedb-protocol]: Downloading https://files.pythonhosted.org/packages/1c/9f/bb5060ec834f6532d5e73549c923c3f43f383b9924e9b3b7db97716a5c71/typedb-protocol-2.6.1.tar.gz
+[2023-05-30 14:25:48] WARNING root fetch - processPackages [zh-langchain]: Skipping package: exceeds size limit 17374460>=10485760
+[2023-05-30 14:25:48] INFO root fetch - processPackages [zh-langchain]: Start processing: avro-byte-counter
+[2023-05-30 14:25:48] INFO root fetch - main [MainThread]: End processing [zh-langchain] error
+[2023-05-30 14:25:48] INFO root fetch - processPackages [comtypes]: Downloading https://files.pythonhosted.org/packages/ff/b0/56727c3df57c06661660e8a2a6dd2142a239af294222b9ab74be7cb48e71/comtypes-1.1.9.zip
+[2023-05-30 14:25:48] INFO root fetch - processPackages [bio-attention]: Downloading https://files.pythonhosted.org/packages/3a/a4/6bee18dbacf63084de05baed42ca930ac4c71306a3e811d5d9e4b0e88766/bio-attention-0.0.1.tar.gz
+[2023-05-30 14:25:48] INFO root fetch - processPackages [insightconnect-integrations-validators]: Downloading https://files.pythonhosted.org/packages/69/df/fa717367d2ca5ef007c30937ea95e64a26b39871c5c01a1a835ffdef8c19/insightconnect_integrations_validators-2.8.1.tar.gz
+[2023-05-30 14:25:48] WARNING root fetch - processPackages [avro-byte-counter]: Skipping, unable to determine old version
+[2023-05-30 14:25:48] INFO root fetch - processPackages [avro-byte-counter]: Start processing: embedbase
+[2023-05-30 14:25:48] INFO root fetch - main [MainThread]: End processing [avro-byte-counter] error
+[2023-05-30 14:25:48] INFO root fetch - processPackages [embedbase]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-30 14:25:48] INFO root fetch - processPackages [pybi-next]: Downloading https://files.pythonhosted.org/packages/e1/25/5603567c18ea82933931cbaae53c0ffa5e7221b8df4d5165910f3e4f76e8/pybi-next-0.4.9.tar.gz
+[2023-05-30 14:25:48] INFO root fetch - processPackages [lib-rql]: Downloading https://files.pythonhosted.org/packages/e1/04/d42cd16ace7f0d53f51c8e8b904cf27457dac6d42c5631d4ce1459e2d474/lib_rql-2.0.0.tar.gz
+[2023-05-30 14:25:48] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-05-30 14:25:48] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!2.3.4-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!2.3.5-py39-none-win_amd64.whl.zip --markdown 20230530/s/shared-atomic-enterprise/5!2.3.4-5!2.3.5/diff.md --exclude *.pyd
+[2023-05-30 14:25:48] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/7b/0b/12a121b8a6710498abbd8f587cb509dea1cf720889930d2845477e1c341a/simplegeomap-0.0.23.tar.gz
+[2023-05-30 14:25:48] INFO root fetch - processPackages [comtypes]: Downloading https://files.pythonhosted.org/packages/2d/1b/a7f1df8d5e5d5608b3b4a52935118660a18b497c78dab5047010e88a075f/comtypes-1.2.0.zip
+[2023-05-30 14:25:48] INFO root fetch - processPackages [data-flow-diagram]: Downloading https://files.pythonhosted.org/packages/9b/37/018900f5d3e7bc3cc2820070e9146666fc98ef5afd34ea7b0526dcfa905e/data-flow-diagram-1.9.1.tar.gz
+[2023-05-30 14:25:48] INFO root fetch - processPackages [lib-rql]: executing diffoscope
+[2023-05-30 14:25:48] INFO root fetch - processPackages [lib-rql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_rql-1.1.8.tar.gz tmp/lib_rql-2.0.0.tar.gz --markdown 20230530/l/lib-rql/1.1.8-2.0.0/diff.md --exclude *.pyd
+[2023-05-30 14:25:48] INFO root fetch - processPackages [pybi-next]: executing diffoscope
+[2023-05-30 14:25:48] INFO root fetch - processPackages [pybi-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybi-next-0.4.8.tar.gz tmp/pybi-next-0.4.9.tar.gz --markdown 20230530/p/pybi-next/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-30 14:25:48] INFO root fetch - processPackages [typedb-protocol]: Downloading https://files.pythonhosted.org/packages/fc/60/d96a0948d7cf86bfff529e7f1784f2ebfc43f6dc2ee1fee9802554511944/typedb-protocol-2.9.0.tar.gz
+[2023-05-30 14:25:49] INFO root fetch - processPackages [insightconnect-integrations-validators]: Downloading https://files.pythonhosted.org/packages/e0/31/ce762175e05a461cdddb39bd0551ef73fb7de0dfe397b5d71c1060abf5d5/insightconnect_integrations_validators-2.9.0.tar.gz
+[2023-05-30 14:25:49] INFO root fetch - processPackages [data-flow-diagram]: executing diffoscope
+[2023-05-30 14:25:49] INFO root fetch - processPackages [data-flow-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-flow-diagram-1.9.0.tar.gz tmp/data-flow-diagram-1.9.1.tar.gz --markdown 20230530/d/data-flow-diagram/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-30 14:25:49] INFO root fetch - processPackages [embedbase]: Downloading https://files.pythonhosted.org/packages/2e/f7/0a3aa7c5e94be45845990c4cd7b77f099a8323cda1c76db932b6cfb3e9e7/embedbase-1.2.3.tar.gz
+[2023-05-30 14:25:49] INFO root fetch - processPackages [comtypes]: executing diffoscope
+[2023-05-30 14:25:49] INFO root fetch - processPackages [comtypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comtypes-1.1.9.zip tmp/comtypes-1.2.0.zip --markdown 20230530/c/comtypes/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-30 14:25:49] INFO root fetch - processPackages [simplegeomap]: executing diffoscope
+[2023-05-30 14:25:49] INFO root fetch - processPackages [simplegeomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplegeomap-0.0.22.tar.gz tmp/simplegeomap-0.0.23.tar.gz --markdown 20230530/s/simplegeomap/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-05-30 14:25:49] INFO root fetch - processPackages [embedbase]: executing diffoscope
+[2023-05-30 14:25:49] INFO root fetch - processPackages [embedbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedbase-1.2.2.tar.gz tmp/embedbase-1.2.3.tar.gz --markdown 20230530/e/embedbase/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-30 14:25:49] INFO root fetch - processPackages [typedb-protocol]: executing diffoscope
+[2023-05-30 14:25:49] INFO root fetch - processPackages [typedb-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedb-protocol-2.6.1.tar.gz tmp/typedb-protocol-2.9.0.tar.gz --markdown 20230530/t/typedb-protocol/2.6.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-30 14:25:49] INFO root fetch - processPackages [insightconnect-integrations-validators]: executing diffoscope
+[2023-05-30 14:25:49] INFO root fetch - processPackages [insightconnect-integrations-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insightconnect_integrations_validators-2.8.1.tar.gz tmp/insightconnect_integrations_validators-2.9.0.tar.gz --markdown 20230530/i/insightconnect-integrations-validators/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-30 14:25:49] INFO root fetch - processPackages [bio-attention]: Downloading https://files.pythonhosted.org/packages/3f/78/416410e5d0c164e45e8ac024a5dfbfe237bf02263bad1e6467fe0f3608f5/bio-attention-0.0.2.tar.gz
+[2023-05-30 14:25:49] INFO root fetch - processPackages [bio-attention]: executing diffoscope
+[2023-05-30 14:25:49] INFO root fetch - processPackages [bio-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio-attention-0.0.1.tar.gz tmp/bio-attention-0.0.2.tar.gz --markdown 20230530/b/bio-attention/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 14:25:50] INFO root fetch - processPackages [lib-rql]: Start processing: rapids-singlecell
+[2023-05-30 14:25:50] INFO root fetch - main [MainThread]: End processing [lib-rql]: success
+[2023-05-30 14:25:50] INFO root fetch - processPackages [rapids-singlecell]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-05-30 14:25:50] INFO root fetch - processPackages [simplegeomap]: Start processing: shared-atomic-enterprise
+[2023-05-30 14:25:50] INFO root fetch - main [MainThread]: End processing [simplegeomap]: success
+[2023-05-30 14:25:50] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!2.3.6] Old Version: [5!2.3.5]
+[2023-05-30 14:25:50] INFO root fetch - processPackages [rapids-singlecell]: Downloading https://files.pythonhosted.org/packages/c4/94/600c5263fa63f5ffa490621f7640c5a7cf4a3c638d8d3be282199cebaee0/rapids_singlecell-0.7.0.tar.gz
+[2023-05-30 14:25:51] INFO root fetch - processPackages [rapids-singlecell]: executing diffoscope
+[2023-05-30 14:25:51] INFO root fetch - processPackages [rapids-singlecell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapids_singlecell-0.6.3.tar.gz tmp/rapids_singlecell-0.7.0.tar.gz --markdown 20230530/r/rapids-singlecell/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2023-05-30 14:25:51] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/47/41/3a05b3039eeefbe64d94f7ce316124ace2ba16f0b5aae62a3a8cfe7adf19/shared_atomic_enterprise-5!2.3.6-py38-none-win_amd64.whl
+[2023-05-30 14:25:51] INFO root fetch - main [MainThread]: End processing [data-flow-diagram]: success
+[2023-05-30 14:25:51] INFO root fetch - main [MainThread]: End processing [embedbase]: success
+[2023-05-30 14:25:51] INFO root fetch - main [MainThread]: End processing [bio-attention]: success
+[2023-05-30 14:25:51] INFO root fetch - main [MainThread]: End processing [insightconnect-integrations-validators]: success
+[2023-05-30 14:25:51] INFO root fetch - main [MainThread]: End processing [comtypes]: success
+[2023-05-30 14:25:52] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-05-30 14:25:52] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!2.3.5-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!2.3.6-py38-none-win_amd64.whl.zip --markdown 20230530/s/shared-atomic-enterprise/5!2.3.5-5!2.3.6/diff.md --exclude *.pyd
+[2023-05-30 14:25:52] INFO root fetch - main [MainThread]: End processing [typedb-protocol]: success
+[2023-05-30 14:25:52] INFO root fetch - main [MainThread]: End processing [rapids-singlecell]: success
+[2023-05-30 14:25:58] INFO root fetch - main [MainThread]: End processing [pybi-next]: success
+[2023-05-30 14:26:01] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-05-30 14:26:04] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-05-30 14:26:04] INFO root fetch - main [MainThread]: Store serial: [18302108]
