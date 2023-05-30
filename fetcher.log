@@ -15786,3 +15786,90 @@
 [2023-05-30 17:12:37] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
 [2023-05-30 17:12:47] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
 [2023-05-30 17:12:47] INFO root fetch - main [MainThread]: Store serial: [18304131]
+[2023-05-30 17:17:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18304131]
+[2023-05-30 17:17:56] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-30 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peewee-migrate
+[2023-05-30 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymg
+[2023-05-30 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dfcon
+[2023-05-30 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wildmatch
+[2023-05-30 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcicsnovault
+[2023-05-30 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aicli
+[2023-05-30 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: superfluid
+[2023-05-30 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asociita
+[2023-05-30 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-security-group
+[2023-05-30 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: slcl1butils
+[2023-05-30 17:17:56] INFO root fetch - processPackages [peewee-migrate]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-30 17:17:56] INFO root fetch - processPackages [dfcon]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-30 17:17:56] INFO root fetch - processPackages [asociita]: New version: [0.1.6.9] Old Version: [0.1.6.8]
+[2023-05-30 17:17:56] INFO root fetch - processPackages [superfluid]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-30 17:17:56] INFO root fetch - processPackages [wildmatch]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-30 17:17:56] INFO root fetch - processPackages [dcicsnovault]: New version: [8.0.2b0] Old Version: [8.0.1.5b17]
+[2023-05-30 17:17:56] INFO root fetch - processPackages [slcl1butils]: New version: [2023.5.9.2] Old Version: [2023.5.9]
+[2023-05-30 17:17:56] INFO root fetch - processPackages [aicli]: New version: [99.0.202305301516] Old Version: [99.0.202305180647]
+[2023-05-30 17:17:56] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-30 17:17:57] INFO root fetch - processPackages [pymg]: New version: [2.0.1] Old Version: [1.0.0]
+[2023-05-30 17:17:57] INFO root fetch - processPackages [asociita]: executing diffoscope
+[2023-05-30 17:17:57] INFO root fetch - processPackages [asociita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asociita-0.1.6.8.tar.gz tmp/asociita-0.1.6.9.tar.gz --markdown 20230530/a/asociita/0.1.6.8-0.1.6.9/diff.md --exclude *.pyd
+[2023-05-30 17:17:57] INFO root fetch - processPackages [slcl1butils]: executing diffoscope
+[2023-05-30 17:17:57] INFO root fetch - processPackages [slcl1butils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slcl1butils-2023.5.9.tar.gz tmp/slcl1butils-2023.5.9.2.tar.gz --markdown 20230530/s/slcl1butils/2023.5.9-2023.5.9.2/diff.md --exclude *.pyd
+[2023-05-30 17:17:57] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/af/14/3bc10c49a64a11edf211ab00d312f5283a3f3707a7b5d9c942149871b3f9/dcicsnovault-8.0.1.5b17.tar.gz
+[2023-05-30 17:17:57] INFO root fetch - processPackages [superfluid]: Downloading https://files.pythonhosted.org/packages/2a/96/364b339646afde2e4e8fd3159687e8d5849e7dce2379a9c52b92184c8636/superfluid-0.2.0.tar.gz
+[2023-05-30 17:17:57] INFO root fetch - processPackages [wildmatch]: Downloading https://files.pythonhosted.org/packages/c0/6e/89f528f37b90cd66f7af7e78e1f47bd96417bf0dbd9bac657153ac11761c/wildmatch-0.3.1.tar.gz
+[2023-05-30 17:17:57] INFO root fetch - processPackages [peewee-migrate]: Downloading https://files.pythonhosted.org/packages/72/74/523b92e0e84be6a141a30637b529496ccbbb39632a0ba08ab332b540b5ab/peewee_migrate-1.9.0.tar.gz
+[2023-05-30 17:17:57] INFO root fetch - processPackages [superfluid]: executing diffoscope
+[2023-05-30 17:17:57] INFO root fetch - processPackages [superfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superfluid-0.1.3.tar.gz tmp/superfluid-0.2.0.tar.gz --markdown 20230530/s/superfluid/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 17:17:57] INFO root fetch - processPackages [peewee-migrate]: executing diffoscope
+[2023-05-30 17:17:57] INFO root fetch - processPackages [peewee-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee_migrate-1.8.1.tar.gz tmp/peewee_migrate-1.9.0.tar.gz --markdown 20230530/p/peewee-migrate/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-30 17:17:57] INFO root fetch - processPackages [dfcon]: Downloading https://files.pythonhosted.org/packages/10/37/125dac134d0cdb58219ead066d41bac3eacfaa5fb7ea4417cdd8dac7370f/dfcon-0.0.8.tar.gz
+[2023-05-30 17:17:57] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/90/45/4dfb2714a356a81bd61ea24be064bf0f4ac11a82131eb931ea9e7361f287/aicli-99.0.202305301516-py3-none-any.whl
+[2023-05-30 17:17:57] INFO root fetch - processPackages [pymg]: Downloading https://files.pythonhosted.org/packages/6c/96/07473d4238cb9ebbda1e23d66a71b134ac927f8a74c6bc131129b78b6b84/pymg-1.0.0.tar.gz
+[2023-05-30 17:17:57] INFO root fetch - processPackages [dfcon]: executing diffoscope
+[2023-05-30 17:17:57] INFO root fetch - processPackages [dfcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfcon-0.0.7.tar.gz tmp/dfcon-0.0.8.tar.gz --markdown 20230530/d/dfcon/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-30 17:17:57] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2023-05-30 17:17:57] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202305180647-py3-none-any.whl.zip tmp/aicli-99.0.202305301516-py3-none-any.whl.zip --markdown 20230530/a/aicli/99.0.202305180647-99.0.202305301516/diff.md --exclude *.pyd
+[2023-05-30 17:17:57] INFO root fetch - processPackages [wildmatch]: Downloading https://files.pythonhosted.org/packages/d5/d1/a7fbc06ef920aad6b870749dd77a9db11e38e5a89c867d07cdc46edf59d8/wildmatch-0.3.2.tar.gz
+[2023-05-30 17:17:57] INFO root fetch - processPackages [wildmatch]: executing diffoscope
+[2023-05-30 17:17:57] INFO root fetch - processPackages [wildmatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wildmatch-0.3.1.tar.gz tmp/wildmatch-0.3.2.tar.gz --markdown 20230530/w/wildmatch/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-30 17:17:57] INFO root fetch - processPackages [pymg]: Downloading https://files.pythonhosted.org/packages/19/31/523e916927cd9da251397a18109e1dd3a7609a085082f88fa60a41be819f/pymg-2.0.1.tar.gz
+[2023-05-30 17:17:57] INFO root fetch - processPackages [pymg]: executing diffoscope
+[2023-05-30 17:17:57] INFO root fetch - processPackages [pymg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymg-1.0.0.tar.gz tmp/pymg-2.0.1.tar.gz --markdown 20230530/p/pymg/1.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-30 17:17:58] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2023-05-30 17:17:58] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-8.0.1.5b17.tar.gz tmp/dcicsnovault-8.0.2b0.tar.gz --markdown 20230530/d/dcicsnovault/8.0.1.5b17-8.0.2b0/diff.md --exclude *.pyd
+[2023-05-30 17:17:58] INFO root fetch - processPackages [slcl1butils]: Start processing: xarray-beam
+[2023-05-30 17:17:58] INFO root fetch - main [MainThread]: End processing [slcl1butils]: success
+[2023-05-30 17:17:58] INFO root fetch - processPackages [xarray-beam]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-30 17:17:59] INFO root fetch - processPackages [xarray-beam]: Downloading https://files.pythonhosted.org/packages/55/fb/53436dadf431c3d895a875c123a239ed984b9152464621ca4feb9916e906/xarray-beam-0.6.2.tar.gz
+[2023-05-30 17:17:59] INFO root fetch - processPackages [aicli]: Start processing: pymg
+[2023-05-30 17:17:59] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2023-05-30 17:17:59] INFO root fetch - processPackages [xarray-beam]: executing diffoscope
+[2023-05-30 17:17:59] INFO root fetch - processPackages [xarray-beam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray-beam-0.6.1.tar.gz tmp/xarray-beam-0.6.2.tar.gz --markdown 20230530/x/xarray-beam/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-30 17:17:59] INFO root fetch - processPackages [pymg]: New version: [2.0.1] Old Version: [1.0.0]
+[2023-05-30 17:17:59] INFO root fetch - processPackages [asociita]: Start processing: parseq
+[2023-05-30 17:17:59] INFO root fetch - main [MainThread]: End processing [asociita]: success
+[2023-05-30 17:17:59] INFO root fetch - processPackages [superfluid]: Start processing: siibra
+[2023-05-30 17:17:59] INFO root fetch - main [MainThread]: End processing [superfluid]: success
+[2023-05-30 17:17:59] INFO root fetch - main [MainThread]: End processing [peewee-migrate]: success
+[2023-05-30 17:17:59] INFO root fetch - processPackages [pymg]: executing diffoscope
+[2023-05-30 17:17:59] INFO root fetch - processPackages [pymg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymg-1.0.0.tar.gz tmp/pymg-2.0.1.tar.gz --markdown 20230530/p/pymg/1.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-30 17:17:59] INFO root fetch - main [MainThread]: End processing [dfcon]: success
+[2023-05-30 17:17:59] INFO root fetch - processPackages [parseq]: New version: [2023.5.0] Old Version: [1.0.0]
+[2023-05-30 17:17:59] INFO root fetch - processPackages [parseq]: Downloading https://files.pythonhosted.org/packages/14/14/acc19005114e32e56e8bbf7a484ae7e8e1628d87e96dc2cc26fd9c5ccbab/parseq-1.0.0.zip
+[2023-05-30 17:17:59] INFO root fetch - main [MainThread]: End processing [wildmatch]: success
+[2023-05-30 17:17:59] INFO root fetch - main [MainThread]: End processing [pymg]: success
+[2023-05-30 17:17:59] INFO root fetch - processPackages [siibra]: New version: [0.4a51] Old Version: [0.4a47]
+[2023-05-30 17:17:59] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-05-30 17:17:59] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230530/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-30 17:17:59] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/70/59/c08ab837823029e0cab39921c195c85913c3cc768171c318513d99ef7c11/siibra-0.4a47.tar.gz
+[2023-05-30 17:18:00] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/2b/81/3a5ee168d63b0efb8e065e2e6a1213a222e96c3416282a6d255155642037/siibra-0.4a51.tar.gz
+[2023-05-30 17:18:00] INFO root fetch - processPackages [siibra]: executing diffoscope
+[2023-05-30 17:18:00] INFO root fetch - processPackages [siibra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siibra-0.4a47.tar.gz tmp/siibra-0.4a51.tar.gz --markdown 20230530/s/siibra/0.4a47-0.4a51/diff.md --exclude *.pyd
+[2023-05-30 17:18:00] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2023-05-30 17:18:00] INFO root fetch - processPackages [parseq]: Downloading https://files.pythonhosted.org/packages/54/a0/4231abb08fa80f1d756811803f744764e47addb8126ef5dd9c758d82ab37/parseq-2023.5.0.zip
+[2023-05-30 17:18:00] INFO root fetch - main [MainThread]: End processing [pymg]: success
+[2023-05-30 17:18:01] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-05-30 17:18:01] INFO root fetch - processPackages [parseq]: executing diffoscope
+[2023-05-30 17:18:01] INFO root fetch - processPackages [parseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parseq-1.0.0.zip tmp/parseq-2023.5.0.zip --markdown 20230530/p/parseq/1.0.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-30 17:18:01] INFO root fetch - main [MainThread]: End processing [xarray-beam]: success
+[2023-05-30 17:18:02] INFO root fetch - main [MainThread]: End processing [siibra]: success
+[2023-05-30 17:18:03] INFO root fetch - main [MainThread]: End processing [parseq]: success
+[2023-05-30 17:18:03] INFO root fetch - main [MainThread]: Store serial: [18304175]
