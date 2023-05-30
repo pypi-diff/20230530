@@ -13598,3 +13598,98 @@
 [2023-05-30 15:25:02] INFO root fetch - main [MainThread]: End processing [overhave]: success
 [2023-05-30 15:25:03] INFO root fetch - main [MainThread]: End processing [zahner-analysis]: success
 [2023-05-30 15:25:03] INFO root fetch - main [MainThread]: Store serial: [18302782]
+[2023-05-30 15:30:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18302782]
+[2023-05-30 15:30:12] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-30 15:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mock-event-generator
+[2023-05-30 15:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpu-tracking
+[2023-05-30 15:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th2-data-services
+[2023-05-30 15:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nerualpha
+[2023-05-30 15:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plone.restapi
+[2023-05-30 15:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Pandora-Cloud
+[2023-05-30 15:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mltlk
+[2023-05-30 15:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datana
+[2023-05-30 15:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: adafruit-circuitpython-wiznet5k
+[2023-05-30 15:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: paddlesci
+[2023-05-30 15:30:12] INFO root fetch - processPackages [gpu-tracking]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-05-30 15:30:12] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5122037338] Old Version: [2.0.0.dev5088926286]
+[2023-05-30 15:30:12] INFO root fetch - processPackages [mock-event-generator]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-30 15:30:12] INFO root fetch - processPackages [datana]: New version: [0.3.1.3] Old Version: [0.3.1.2]
+[2023-05-30 15:30:12] INFO root fetch - processPackages [nerualpha]: New version: [5.0.0] Old Version: [4.1.0rc5]
+[2023-05-30 15:30:12] INFO root fetch - processPackages [mltlk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-30 15:30:12] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-05-30 15:30:12] INFO root fetch - processPackages [Pandora-Cloud]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-30 15:30:12] WARNING root fetch - processPackages [paddlesci]: Skipping, unable to determine old version
+[2023-05-30 15:30:12] INFO root fetch - processPackages [paddlesci]: Start processing: shipyard-shortcut
+[2023-05-30 15:30:12] INFO root fetch - main [MainThread]: End processing [paddlesci] error
+[2023-05-30 15:30:12] INFO root fetch - processPackages [plone.restapi]: New version: [8.9.1] Old Version: [8.9.0]
+[2023-05-30 15:30:12] INFO root fetch - processPackages [shipyard-shortcut]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 15:30:13] INFO root fetch - processPackages [gpu-tracking]: Downloading https://files.pythonhosted.org/packages/5b/20/c7f33cd4c31ccee259a84665fab38992a2239114a952e9933bf09b5e8370/gpu_tracking-1.1.3-cp37-abi3-win_amd64.whl
+[2023-05-30 15:30:13] INFO root fetch - processPackages [mock-event-generator]: Downloading https://files.pythonhosted.org/packages/df/34/f938ed1bea1b0bb659c3490ab2c7b847b8174a85024b76b7bd4a91a53e89/mock_event_generator-1.4.1.tar.gz
+[2023-05-30 15:30:13] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/6e/13/7f900a656c7dee000ea4678f77749947953e70748665efb762470193534d/Pandora-Cloud-0.4.2.tar.gz
+[2023-05-30 15:30:13] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-05-30 15:30:13] WARNING root fetch - processPackages [mock-event-generator]: Skipping package: exceeds size limit 66376708>=10485760
+[2023-05-30 15:30:13] INFO root fetch - processPackages [mock-event-generator]: Start processing: serialdatalog
+[2023-05-30 15:30:13] INFO root fetch - main [MainThread]: End processing [mock-event-generator] error
+[2023-05-30 15:30:13] INFO root fetch - processPackages [datana]: Downloading https://files.pythonhosted.org/packages/1a/4a/af3cc6f25c23939df88a1073ec4b8471fa71c1a940f9db8ad2c963b130bb/datana-0.3.1.2.tar.gz
+[2023-05-30 15:30:13] INFO root fetch - processPackages [serialdatalog]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-30 15:30:13] INFO root fetch - processPackages [shipyard-shortcut]: Downloading https://files.pythonhosted.org/packages/af/4e/86d4a5ab94b9d4e488700f53dad55dcc182215c125ea46805bf549fa62c0/shipyard_shortcut-0.1.1.tar.gz
+[2023-05-30 15:30:13] INFO root fetch - processPackages [nerualpha]: Downloading https://files.pythonhosted.org/packages/e9/86/9fb25477da9e2c9fc060adcf425a592f1dc97c50e7ea5d6a09246ceb11e0/nerualpha-5.0.0.tar.gz
+[2023-05-30 15:30:13] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-05-30 15:30:13] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.6.tar.gz tmp/mltlk-0.1.7.tar.gz --markdown 20230530/m/mltlk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-30 15:30:13] INFO root fetch - processPackages [Pandora-Cloud]: executing diffoscope
+[2023-05-30 15:30:13] INFO root fetch - processPackages [Pandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-Cloud-0.4.1.tar.gz tmp/Pandora-Cloud-0.4.2.tar.gz --markdown 20230530/P/Pandora-Cloud/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-30 15:30:13] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/ac/80/424aa783d4ef0c2bac49ecbe5050cd1d92d5122c60976dada00a7e96b5ab/adafruit-circuitpython-wiznet5k-2.5.3.tar.gz
+[2023-05-30 15:30:13] INFO root fetch - processPackages [nerualpha]: executing diffoscope
+[2023-05-30 15:30:13] INFO root fetch - processPackages [nerualpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerualpha-4.1.0rc5.tar.gz tmp/nerualpha-5.0.0.tar.gz --markdown 20230530/n/nerualpha/4.1.0rc5-5.0.0/diff.md --exclude *.pyd
+[2023-05-30 15:30:13] INFO root fetch - processPackages [serialdatalog]: Downloading https://files.pythonhosted.org/packages/a3/b5/a01d71ab389b694c23689f28b585474a5e322ee4ddc1b3b1fd296f710520/serialdatalog-0.1.0.tar.gz
+[2023-05-30 15:30:13] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: executing diffoscope
+[2023-05-30 15:30:13] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-wiznet5k-2.5.2.tar.gz tmp/adafruit-circuitpython-wiznet5k-2.5.3.tar.gz --markdown 20230530/a/adafruit-circuitpython-wiznet5k/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-05-30 15:30:13] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/2a/d7/bade8162804c2c9ea9a57e13848862814446a0e8eae30eae66d8494f03a5/th2_data_services-2.0.0.dev5122037338.tar.gz
+[2023-05-30 15:30:13] INFO root fetch - processPackages [shipyard-shortcut]: Downloading https://files.pythonhosted.org/packages/78/3e/5442c134fd4cca0c3720ff7962df9793311db854d02737feec41e293038a/shipyard_shortcut-0.1.2.tar.gz
+[2023-05-30 15:30:13] INFO root fetch - processPackages [plone.restapi]: executing diffoscope
+[2023-05-30 15:30:13] INFO root fetch - processPackages [datana]: Downloading https://files.pythonhosted.org/packages/6c/99/4d12d27dc46a00c5c639cb48a184d5f8b5998643f446640dd52f05b6cf66/datana-0.3.1.3.tar.gz
+[2023-05-30 15:30:13] INFO root fetch - processPackages [plone.restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.restapi-8.9.0.tar.gz tmp/plone.restapi-8.9.1.tar.gz --markdown 20230530/p/plone.restapi/8.9.0-8.9.1/diff.md --exclude *.pyd
+[2023-05-30 15:30:13] INFO root fetch - processPackages [datana]: executing diffoscope
+[2023-05-30 15:30:13] INFO root fetch - processPackages [shipyard-shortcut]: executing diffoscope
+[2023-05-30 15:30:13] INFO root fetch - processPackages [datana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datana-0.3.1.2.tar.gz tmp/datana-0.3.1.3.tar.gz --markdown 20230530/d/datana/0.3.1.2-0.3.1.3/diff.md --exclude *.pyd
+[2023-05-30 15:30:13] INFO root fetch - processPackages [shipyard-shortcut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_shortcut-0.1.1.tar.gz tmp/shipyard_shortcut-0.1.2.tar.gz --markdown 20230530/s/shipyard-shortcut/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 15:30:13] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-05-30 15:30:13] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5088926286.tar.gz tmp/th2_data_services-2.0.0.dev5122037338.tar.gz --markdown 20230530/t/th2-data-services/2.0.0.dev5088926286-2.0.0.dev5122037338/diff.md --exclude *.pyd
+[2023-05-30 15:30:13] INFO root fetch - processPackages [serialdatalog]: Downloading https://files.pythonhosted.org/packages/bb/af/90ae0a7c7a66f4be7c15c94217ca5a46cc3da88a7435018b05cf1342c106/serialdatalog-0.1.2.tar.gz
+[2023-05-30 15:30:13] INFO root fetch - processPackages [serialdatalog]: executing diffoscope
+[2023-05-30 15:30:13] INFO root fetch - processPackages [serialdatalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialdatalog-0.1.0.tar.gz tmp/serialdatalog-0.1.2.tar.gz --markdown 20230530/s/serialdatalog/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 15:30:14] INFO root fetch - processPackages [gpu-tracking]: Downloading https://files.pythonhosted.org/packages/73/a0/0dd20699c186b097837960b00690fb5a472871359e1bafb412544296d6db/gpu_tracking-1.2.0-cp37-abi3-macosx_11_0_arm64.whl
+[2023-05-30 15:30:14] WARNING root fetch - processPackages [gpu-tracking]: Skipping package: exceeds size limit 11777418>=10485760
+[2023-05-30 15:30:14] INFO root fetch - processPackages [gpu-tracking]: Start processing: ansq
+[2023-05-30 15:30:14] INFO root fetch - main [MainThread]: End processing [gpu-tracking] error
+[2023-05-30 15:30:14] INFO root fetch - processPackages [ansq]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-30 15:30:14] INFO root fetch - processPackages [ansq]: Downloading https://files.pythonhosted.org/packages/cd/8c/7fb5c615c4303e887f33408f4b6fba4622e899dd2c7844f8f16274ef90da/ansq-0.2.0.tar.gz
+[2023-05-30 15:30:14] INFO root fetch - processPackages [ansq]: Downloading https://files.pythonhosted.org/packages/b9/ff/e53629d479a22361b474b166577d3dc5b0770cd2380a974c57228adc4fe6/ansq-0.2.1.tar.gz
+[2023-05-30 15:30:14] INFO root fetch - processPackages [ansq]: executing diffoscope
+[2023-05-30 15:30:14] INFO root fetch - processPackages [ansq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansq-0.2.0.tar.gz tmp/ansq-0.2.1.tar.gz --markdown 20230530/a/ansq/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-30 15:30:15] INFO root fetch - processPackages [mltlk]: Start processing: ert
+[2023-05-30 15:30:15] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-05-30 15:30:15] INFO root fetch - processPackages [ert]: New version: [5.0.0rc3] Old Version: [5.0.0rc2]
+[2023-05-30 15:30:15] INFO root fetch - processPackages [datana]: Start processing: odoo14-addon-sale-commission-product-criteria-discount
+[2023-05-30 15:30:15] INFO root fetch - main [MainThread]: End processing [datana]: success
+[2023-05-30 15:30:15] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/50/cf/0230d753fb236ada6dcdeac1bba244aaef6277c3acbdc07e574616440ce5/ert-5.0.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-30 15:30:15] WARNING root fetch - processPackages [odoo14-addon-sale-commission-product-criteria-discount]: Skipping, unable to determine old version
+[2023-05-30 15:30:15] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria-discount]: Start processing: Products.CMFPlone
+[2023-05-30 15:30:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission-product-criteria-discount] error
+[2023-05-30 15:30:15] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-05-30 15:30:15] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.0.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.0.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230530/e/ert/5.0.0rc2-5.0.0rc3/diff.md --exclude *.pyd
+[2023-05-30 15:30:15] INFO root fetch - processPackages [Products.CMFPlone]: New version: [6.0.5rc1] Old Version: [6.0.5]
+[2023-05-30 15:30:15] INFO root fetch - main [MainThread]: End processing [serialdatalog]: success
+[2023-05-30 15:30:15] INFO root fetch - main [MainThread]: End processing [shipyard-shortcut]: success
+[2023-05-30 15:30:15] INFO root fetch - processPackages [Products.CMFPlone]: Downloading https://files.pythonhosted.org/packages/51/99/f6ec67006956f813f168189c5f0afabcda3fd1b6eac061400638b5b10478/Products.CMFPlone-6.0.5.tar.gz
+[2023-05-30 15:30:16] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
+[2023-05-30 15:30:16] INFO root fetch - processPackages [Products.CMFPlone]: executing diffoscope
+[2023-05-30 15:30:16] INFO root fetch - processPackages [Products.CMFPlone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.CMFPlone-6.0.5.tar.gz tmp/Products.CMFPlone-6.0.5rc1.tar.gz --markdown 20230530/P/Products.CMFPlone/6.0.5-6.0.5rc1/diff.md --exclude *.pyd
+[2023-05-30 15:30:16] INFO root fetch - main [MainThread]: End processing [ansq]: success
+[2023-05-30 15:30:17] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-wiznet5k]: success
+[2023-05-30 15:30:17] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-05-30 15:30:18] INFO root fetch - main [MainThread]: End processing [nerualpha]: success
+[2023-05-30 15:30:21] INFO root fetch - main [MainThread]: End processing [plone.restapi]: success
+[2023-05-30 15:30:22] INFO root fetch - main [MainThread]: End processing [Products.CMFPlone]: success
+[2023-05-30 15:30:29] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-05-30 15:30:29] INFO root fetch - main [MainThread]: Store serial: [18302837]
