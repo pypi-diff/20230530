@@ -8114,3 +8114,79 @@
 [2023-05-30 10:22:08] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-30 10:22:10] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-30 10:22:10] INFO root fetch - main [MainThread]: Store serial: [18299355]
+[2023-05-30 10:27:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18299355]
+[2023-05-30 10:27:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-30 10:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrew
+[2023-05-30 10:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: absl-extra
+[2023-05-30 10:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2023-05-30 10:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlrun
+[2023-05-30 10:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-ro-stock-account
+[2023-05-30 10:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: genv
+[2023-05-30 10:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: drf-jsonschema
+[2023-05-30 10:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xj-finance
+[2023-05-30 10:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dvclive
+[2023-05-30 10:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyrew
+[2023-05-30 10:27:20] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: New version: [14.0.8.9.0] Old Version: [14.0.8.8.0]
+[2023-05-30 10:27:20] INFO root fetch - processPackages [yeref]: New version: [0.1.68] Old Version: [0.1.67]
+[2023-05-30 10:27:20] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-30 10:27:20] INFO root fetch - processPackages [drf-jsonschema]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-30 10:27:20] INFO root fetch - processPackages [absl-extra]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 10:27:20] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc8] Old Version: [1.4.0rc7]
+[2023-05-30 10:27:20] INFO root fetch - processPackages [genv]: New version: [0.9.0] Old Version: [0.6.0]
+[2023-05-30 10:27:20] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-30 10:27:20] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-30 10:27:20] INFO root fetch - processPackages [dvclive]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-30 10:27:20] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-05-30 10:27:20] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl.zip --markdown 20230530/o/odoo14-addon-l10n-ro-stock-account/14.0.8.8.0-14.0.8.9.0/diff.md --exclude *.pyd
+[2023-05-30 10:27:20] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-05-30 10:27:20] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.8.tar.gz tmp/absl_extra-0.0.9.tar.gz --markdown 20230530/a/absl-extra/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 10:27:20] INFO root fetch - processPackages [drf-jsonschema]: Downloading https://files.pythonhosted.org/packages/a6/db/5f901b477af43fd41f49ec058c0a007df3e06ca081d050aa9de5c7405022/drf-jsonschema-0.2.2.tar.gz
+[2023-05-30 10:27:20] INFO root fetch - processPackages [genv]: Downloading https://files.pythonhosted.org/packages/26/9e/ac16ad963a6ccefc63de6898eb2cde74e0ad5c65bd791f4e1e45eb2e917c/genv-0.6.0.tar.gz
+[2023-05-30 10:27:20] INFO root fetch - processPackages [drf-jsonschema]: executing diffoscope
+[2023-05-30 10:27:20] INFO root fetch - processPackages [drf-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-jsonschema-0.2.1.tar.gz tmp/drf-jsonschema-0.2.2.tar.gz --markdown 20230530/d/drf-jsonschema/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-30 10:27:20] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/25/3c/9d4b4ddc778c05f4c07d862107c2013bcec9f0b62c3ccd3febf73459f533/yeref-0.1.68.tar.gz
+[2023-05-30 10:27:20] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/53/ab/c4b6cba1b681d59d469058b913e88a639eebd1952ee11b561f5fd2dc06f6/mlrun-1.4.0rc8-py3-none-any.whl
+[2023-05-30 10:27:20] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-30 10:27:20] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-30 10:27:20] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230530/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-30 10:27:20] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230530/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-30 10:27:20] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-05-30 10:27:20] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230530/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-30 10:27:20] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-05-30 10:27:20] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.67.tar.gz tmp/yeref-0.1.68.tar.gz --markdown 20230530/y/yeref/0.1.67-0.1.68/diff.md --exclude *.pyd
+[2023-05-30 10:27:20] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-05-30 10:27:20] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc7-py3-none-any.whl.zip tmp/mlrun-1.4.0rc8-py3-none-any.whl.zip --markdown 20230530/m/mlrun/1.4.0rc7-1.4.0rc8/diff.md --exclude *.pyd
+[2023-05-30 10:27:20] INFO root fetch - processPackages [dvclive]: executing diffoscope
+[2023-05-30 10:27:20] INFO root fetch - processPackages [dvclive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvclive-2.8.1.tar.gz tmp/dvclive-2.9.0.tar.gz --markdown 20230530/d/dvclive/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-30 10:27:20] INFO root fetch - processPackages [genv]: Downloading https://files.pythonhosted.org/packages/5e/16/7cf20f4dd39f61fe40b7a6afcf9dae6bc6d477f284d62eb1835e95bbd8ba/genv-0.9.0.tar.gz
+[2023-05-30 10:27:20] INFO root fetch - processPackages [genv]: executing diffoscope
+[2023-05-30 10:27:20] INFO root fetch - processPackages [genv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genv-0.6.0.tar.gz tmp/genv-0.9.0.tar.gz --markdown 20230530/g/genv/0.6.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-30 10:27:21] INFO root fetch - processPackages [absl-extra]: Start processing: odoo-addon-l10n-ro-stock-report
+[2023-05-30 10:27:21] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-05-30 10:27:21] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: New version: [15.0.6.7.0] Old Version: [15.0.6.6.1]
+[2023-05-30 10:27:21] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/e5/14/80e4f1bfdd8f1fe3a1286972b2794a05f865758629981e20d6df4ebaa87b/odoo_addon_l10n_ro_stock_report-15.0.6.6.1-py3-none-any.whl
+[2023-05-30 10:27:21] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Start processing: lazylearn
+[2023-05-30 10:27:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-stock-account]: success
+[2023-05-30 10:27:21] INFO root fetch - processPackages [lazylearn]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 10:27:22] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/76/0f/21e7b04df2628b0a1af7006957171b4710329ffb69d23f5a6078817cf283/odoo_addon_l10n_ro_stock_report-15.0.6.7.0-py3-none-any.whl
+[2023-05-30 10:27:22] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: executing diffoscope
+[2023-05-30 10:27:22] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_report-15.0.6.6.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_report-15.0.6.7.0-py3-none-any.whl.zip --markdown 20230530/o/odoo-addon-l10n-ro-stock-report/15.0.6.6.1-15.0.6.7.0/diff.md --exclude *.pyd
+[2023-05-30 10:27:22] INFO root fetch - processPackages [pyrew]: Start processing: Jlab
+[2023-05-30 10:27:22] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-30 10:27:22] INFO root fetch - processPackages [Jlab]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-30 10:27:22] INFO root fetch - processPackages [lazylearn]: Downloading https://files.pythonhosted.org/packages/ec/a5/12d1bcef817e0d37d37c2833a276f8efd0d753d67fa7438ab3884ed149cf/lazylearn-0.0.4.tar.gz
+[2023-05-30 10:27:22] INFO root fetch - main [MainThread]: End processing [drf-jsonschema]: success
+[2023-05-30 10:27:22] INFO root fetch - processPackages [lazylearn]: executing diffoscope
+[2023-05-30 10:27:22] INFO root fetch - processPackages [lazylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylearn-0.0.3.tar.gz tmp/lazylearn-0.0.4.tar.gz --markdown 20230530/l/lazylearn/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 10:27:22] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-30 10:27:22] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-05-30 10:27:22] INFO root fetch - processPackages [Jlab]: executing diffoscope
+[2023-05-30 10:27:22] INFO root fetch - processPackages [Jlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jlab-1.1.8.tar.gz tmp/Jlab-1.1.9.tar.gz --markdown 20230530/J/Jlab/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-30 10:27:23] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-05-30 10:27:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-report]: success
+[2023-05-30 10:27:23] INFO root fetch - main [MainThread]: End processing [genv]: success
+[2023-05-30 10:27:24] INFO root fetch - main [MainThread]: End processing [Jlab]: success
+[2023-05-30 10:27:24] INFO root fetch - main [MainThread]: End processing [lazylearn]: success
+[2023-05-30 10:27:25] INFO root fetch - main [MainThread]: End processing [dvclive]: success
+[2023-05-30 10:27:27] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-05-30 10:27:27] INFO root fetch - main [MainThread]: Store serial: [18299392]
