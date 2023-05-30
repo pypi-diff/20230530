@@ -10214,3 +10214,105 @@
 [2023-05-30 12:30:02] INFO root fetch - main [MainThread]: End processing [mercury-reels]: success
 [2023-05-30 12:30:08] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2023-05-30 12:30:08] INFO root fetch - main [MainThread]: Store serial: [18300589]
+[2023-05-30 12:35:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18300589]
+[2023-05-30 12:35:17] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-30 12:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strangeworks-qiskit-runtime
+[2023-05-30 12:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gene-ranking-shootout
+[2023-05-30 12:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybiolib
+[2023-05-30 12:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wwpdb.apps.releasemodule
+[2023-05-30 12:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tiny-proxy
+[2023-05-30 12:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blockpipe-db
+[2023-05-30 12:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openi-beta
+[2023-05-30 12:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Pandora-Cloud
+[2023-05-30 12:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mistapi
+[2023-05-30 12:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: strawberry-django-pubsub
+[2023-05-30 12:35:17] INFO root fetch - processPackages [tiny-proxy]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-30 12:35:17] INFO root fetch - processPackages [gene-ranking-shootout]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 12:35:17] INFO root fetch - processPackages [blockpipe-db]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-30 12:35:17] INFO root fetch - processPackages [strawberry-django-pubsub]: New version: [0.0.3a0] Old Version: [0.0.2a0]
+[2023-05-30 12:35:17] WARNING root fetch - processPackages [openi-beta]: Skipping, unable to determine old version
+[2023-05-30 12:35:17] INFO root fetch - processPackages [strangeworks-qiskit-runtime]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 12:35:17] INFO root fetch - processPackages [openi-beta]: Start processing: mech-client
+[2023-05-30 12:35:17] INFO root fetch - main [MainThread]: End processing [openi-beta] error
+[2023-05-30 12:35:17] INFO root fetch - processPackages [wwpdb.apps.releasemodule]: New version: [0.29.dev1] Old Version: [0.28]
+[2023-05-30 12:35:17] INFO root fetch - processPackages [Pandora-Cloud]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-30 12:35:17] INFO root fetch - processPackages [mistapi]: New version: [0.40.0] Old Version: [0.37.8]
+[2023-05-30 12:35:17] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.924]
+[2023-05-30 12:35:17] INFO root fetch - processPackages [mech-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 12:35:17] INFO root fetch - processPackages [gene-ranking-shootout]: Downloading https://files.pythonhosted.org/packages/50/5b/120cc7ecc4fd0b1886844b7c6451cb560a3654b160715623dccc8ba10c70/gene-ranking-shootout-0.1.2.tar.gz
+[2023-05-30 12:35:17] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/5c/54/c766f1ad7a72ffb272bd9055fabbed251f8d3564489348d59cbfe69b9fb7/pybiolib-1.1.924.tar.gz
+[2023-05-30 12:35:17] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/9d/7d/69b022cae88b38e32d5c688b387a06794b3fbd2b22fa1c7392065fc29be4/Pandora-Cloud-0.4.1.tar.gz
+[2023-05-30 12:35:17] INFO root fetch - processPackages [tiny-proxy]: Downloading https://files.pythonhosted.org/packages/9c/39/f6ab1661cc32207e71bee8939995e7980def7c956f90ce7c2e95dc748641/tiny_proxy-0.1.1.tar.gz
+[2023-05-30 12:35:17] INFO root fetch - processPackages [wwpdb.apps.releasemodule]: Downloading https://files.pythonhosted.org/packages/b5/ab/289b241e0e096f9ab38f1bbfe5837a67c9f12e89aaca56220fb5780401dc/wwpdb.apps.releasemodule-0.28.tar.gz
+[2023-05-30 12:35:17] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/4a/0f/d466fd4f20ac656ddf87bf0c22206ba2efd424111f031addbe59e24236c4/mistapi-0.37.8.tar.gz
+[2023-05-30 12:35:17] INFO root fetch - processPackages [mech-client]: Downloading https://files.pythonhosted.org/packages/e3/2b/dc30fdba65856daabd1ca32e174462593aa6687541fc7deed2f63187ccd7/mech_client-0.1.3.tar.gz
+[2023-05-30 12:35:18] INFO root fetch - processPackages [strangeworks-qiskit-runtime]: executing diffoscope
+[2023-05-30 12:35:18] INFO root fetch - processPackages [strangeworks-qiskit-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_qiskit_runtime-0.1.1.tar.gz tmp/strangeworks_qiskit_runtime-0.1.2.tar.gz --markdown 20230530/s/strangeworks-qiskit-runtime/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 12:35:18] INFO root fetch - processPackages [strawberry-django-pubsub]: Downloading https://files.pythonhosted.org/packages/95/c0/20c2d950b32ab4bbc14b50ed8703362071838482a4beb0b3fc771e20339c/strawberry_django_pubsub-0.0.3a0.tar.gz
+[2023-05-30 12:35:18] INFO root fetch - processPackages [gene-ranking-shootout]: Downloading https://files.pythonhosted.org/packages/c4/b8/a7700d4e76fa8101718c57dba7ab9043ca08705ab5949fa92966d761b084/gene-ranking-shootout-0.1.3.tar.gz
+[2023-05-30 12:35:18] INFO root fetch - processPackages [mech-client]: executing diffoscope
+[2023-05-30 12:35:18] INFO root fetch - processPackages [mech-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mech_client-0.1.2.tar.gz tmp/mech_client-0.1.3.tar.gz --markdown 20230530/m/mech-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 12:35:18] INFO root fetch - processPackages [wwpdb.apps.releasemodule]: Downloading https://files.pythonhosted.org/packages/25/7e/93a637920603659cad390ba9c0625b37d05df1de634da0dc732f912fadd9/wwpdb.apps.releasemodule-0.29.dev1.tar.gz
+[2023-05-30 12:35:18] INFO root fetch - processPackages [blockpipe-db]: Downloading https://files.pythonhosted.org/packages/ea/1b/aee3702170524b0ed9c341d9d1c3e38f0c279d5bf8149f1281ec745e39cc/blockpipe_db-0.1.7.tar.gz
+[2023-05-30 12:35:18] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/ee/4f/47106ced01c2148148f936a281f3ccbc3d212a2ad4248e39aa86171f1d14/mistapi-0.40.0.tar.gz
+[2023-05-30 12:35:18] INFO root fetch - processPackages [strawberry-django-pubsub]: executing diffoscope
+[2023-05-30 12:35:18] INFO root fetch - processPackages [strawberry-django-pubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_pubsub-0.0.2a0.tar.gz tmp/strawberry_django_pubsub-0.0.3a0.tar.gz --markdown 20230530/s/strawberry-django-pubsub/0.0.2a0-0.0.3a0/diff.md --exclude *.pyd
+[2023-05-30 12:35:18] INFO root fetch - processPackages [tiny-proxy]: Downloading https://files.pythonhosted.org/packages/29/eb/b6c3fd57c2b9443f1a2d17a428f6316b9665e8e1348c721cd013d7fc9b87/tiny_proxy-0.2.0.tar.gz
+[2023-05-30 12:35:18] INFO root fetch - processPackages [gene-ranking-shootout]: executing diffoscope
+[2023-05-30 12:35:18] INFO root fetch - processPackages [gene-ranking-shootout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gene-ranking-shootout-0.1.2.tar.gz tmp/gene-ranking-shootout-0.1.3.tar.gz --markdown 20230530/g/gene-ranking-shootout/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 12:35:18] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2023-05-30 12:35:18] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.37.8.tar.gz tmp/mistapi-0.40.0.tar.gz --markdown 20230530/m/mistapi/0.37.8-0.40.0/diff.md --exclude *.pyd
+[2023-05-30 12:35:18] INFO root fetch - processPackages [wwpdb.apps.releasemodule]: executing diffoscope
+[2023-05-30 12:35:18] INFO root fetch - processPackages [wwpdb.apps.releasemodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.apps.releasemodule-0.28.tar.gz tmp/wwpdb.apps.releasemodule-0.29.dev1.tar.gz --markdown 20230530/w/wwpdb.apps.releasemodule/0.28-0.29.dev1/diff.md --exclude *.pyd
+[2023-05-30 12:35:18] INFO root fetch - processPackages [Pandora-Cloud]: executing diffoscope
+[2023-05-30 12:35:18] INFO root fetch - processPackages [Pandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-Cloud-0.4.0.tar.gz tmp/Pandora-Cloud-0.4.1.tar.gz --markdown 20230530/P/Pandora-Cloud/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-30 12:35:18] INFO root fetch - processPackages [tiny-proxy]: executing diffoscope
+[2023-05-30 12:35:18] INFO root fetch - processPackages [tiny-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny_proxy-0.1.1.tar.gz tmp/tiny_proxy-0.2.0.tar.gz --markdown 20230530/t/tiny-proxy/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 12:35:18] INFO root fetch - processPackages [blockpipe-db]: Downloading https://files.pythonhosted.org/packages/4a/98/9c554d6e4a1dbb340da5b6c93593b926987a3b4f6c6a15af0552d3d57720/blockpipe_db-0.1.8.tar.gz
+[2023-05-30 12:35:18] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-30 12:35:18] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.924.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230530/p/pybiolib/1.1.924-1.1.94/diff.md --exclude *.pyd
+[2023-05-30 12:35:18] INFO root fetch - processPackages [blockpipe-db]: executing diffoscope
+[2023-05-30 12:35:18] INFO root fetch - processPackages [blockpipe-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockpipe_db-0.1.7.tar.gz tmp/blockpipe_db-0.1.8.tar.gz --markdown 20230530/b/blockpipe-db/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-30 12:35:19] INFO root fetch - processPackages [mech-client]: Start processing: mammoth
+[2023-05-30 12:35:19] INFO root fetch - main [MainThread]: End processing [mech-client]: success
+[2023-05-30 12:35:19] INFO root fetch - processPackages [mammoth]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-05-30 12:35:19] INFO root fetch - processPackages [strangeworks-qiskit-runtime]: Start processing: nashbanksync
+[2023-05-30 12:35:19] INFO root fetch - main [MainThread]: End processing [strangeworks-qiskit-runtime]: success
+[2023-05-30 12:35:19] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-30 12:35:19] INFO root fetch - processPackages [mammoth]: Downloading https://files.pythonhosted.org/packages/8a/f4/9a9013bdc7b5687e83cb4febb48f7e23f359c5632844c6cc2a25142fe44a/mammoth-1.5.1.tar.gz
+[2023-05-30 12:35:20] INFO root fetch - processPackages [mammoth]: Downloading https://files.pythonhosted.org/packages/3b/51/fea44406a0ff618a4769e472283b35da0ef62a165c96d9d7796e2bc68a93/mammoth-1.6.0.tar.gz
+[2023-05-30 12:35:20] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-05-30 12:35:20] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.8.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230530/n/nashbanksync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-30 12:35:20] INFO root fetch - processPackages [mammoth]: executing diffoscope
+[2023-05-30 12:35:20] INFO root fetch - processPackages [mammoth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mammoth-1.5.1.tar.gz tmp/mammoth-1.6.0.tar.gz --markdown 20230530/m/mammoth/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-05-30 12:35:20] INFO root fetch - processPackages [tiny-proxy]: Start processing: zar
+[2023-05-30 12:35:20] INFO root fetch - main [MainThread]: End processing [tiny-proxy]: success
+[2023-05-30 12:35:20] INFO root fetch - processPackages [zar]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-30 12:35:20] INFO root fetch - processPackages [strawberry-django-pubsub]: Start processing: cloud-governance
+[2023-05-30 12:35:20] INFO root fetch - main [MainThread]: End processing [strawberry-django-pubsub]: success
+[2023-05-30 12:35:20] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-30 12:35:20] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-05-30 12:35:20] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230530/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-30 12:35:20] INFO root fetch - processPackages [gene-ranking-shootout]: Start processing: rusty-wizard
+[2023-05-30 12:35:20] INFO root fetch - main [MainThread]: End processing [gene-ranking-shootout]: success
+[2023-05-30 12:35:20] INFO root fetch - processPackages [blockpipe-db]: Start processing: spotPython
+[2023-05-30 12:35:20] INFO root fetch - main [MainThread]: End processing [blockpipe-db]: success
+[2023-05-30 12:35:20] INFO root fetch - processPackages [spotPython]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-30 12:35:20] INFO root fetch - processPackages [zar]: Downloading https://files.pythonhosted.org/packages/08/12/1dae9d61f900ef91ed2d36b5c6974d9f10e857efe86646708770b46887c7/zar-2.0.3.tar.gz
+[2023-05-30 12:35:20] ERROR root fetch - processPackages [rusty-wizard]: Unable to get metadata: No such project 'rusty-wizard'
+[2023-05-30 12:35:20] INFO root fetch - main [MainThread]: End processing [rusty-wizard] error
+[2023-05-30 12:35:21] INFO root fetch - processPackages [zar]: executing diffoscope
+[2023-05-30 12:35:21] INFO root fetch - processPackages [zar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zar-2.0.2.tar.gz tmp/zar-2.0.3.tar.gz --markdown 20230530/z/zar/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-30 12:35:21] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.releasemodule]: success
+[2023-05-30 12:35:21] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/7b/3c/331bf1d6bc6100993300aeb583025f1a80c2a109e302e41b93656f749b31/spotPython-0.2.2.tar.gz
+[2023-05-30 12:35:21] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-05-30 12:35:21] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.1.tar.gz tmp/spotPython-0.2.2.tar.gz --markdown 20230530/s/spotPython/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-30 12:35:21] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-05-30 12:35:22] INFO root fetch - main [MainThread]: End processing [mammoth]: success
+[2023-05-30 12:35:22] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-30 12:35:22] INFO root fetch - main [MainThread]: End processing [zar]: success
+[2023-05-30 12:35:22] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2023-05-30 12:35:22] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-05-30 12:35:24] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
+[2023-05-30 12:35:24] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-05-30 12:35:24] INFO root fetch - main [MainThread]: Store serial: [18300648]
