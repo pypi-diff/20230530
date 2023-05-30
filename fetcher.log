@@ -3914,3 +3914,65 @@
 [2023-05-30 04:10:50] INFO root fetch - processPackages [metagene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metagene-0.0.0.dev4.tar.gz tmp/metagene-0.0.0.dev6.tar.gz --markdown 20230530/m/metagene/0.0.0.dev4-0.0.0.dev6/diff.md --exclude *.pyd
 [2023-05-30 04:10:52] INFO root fetch - main [MainThread]: End processing [metagene]: success
 [2023-05-30 04:10:52] INFO root fetch - main [MainThread]: Store serial: [18296954]
+[2023-05-30 04:15:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18296954]
+[2023-05-30 04:16:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-30 04:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elm-messenger
+[2023-05-30 04:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tlgateway
+[2023-05-30 04:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytlgateway
+[2023-05-30 04:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fieldedge-utilities
+[2023-05-30 04:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: variant
+[2023-05-30 04:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: json-np
+[2023-05-30 04:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: json-np
+[2023-05-30 04:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: json-np
+[2023-05-30 04:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: json-np
+[2023-05-30 04:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: toolbox-utils
+[2023-05-30 04:16:01] INFO root fetch - processPackages [pytlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 04:16:01] INFO root fetch - processPackages [tlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-30 04:16:01] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 04:16:01] INFO root fetch - processPackages [elm-messenger]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-30 04:16:01] INFO root fetch - processPackages [variant]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 04:16:01] INFO root fetch - processPackages [toolbox-utils]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-05-30 04:16:01] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-05-30 04:16:01] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230530/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: Downloading https://files.pythonhosted.org/packages/fe/77/65399c73b105c7d56353eddecc4675c3a74f8e5f9f41ab3b68388ea3e95e/json_np-0.0.3.tar.gz
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: Downloading https://files.pythonhosted.org/packages/fe/77/65399c73b105c7d56353eddecc4675c3a74f8e5f9f41ab3b68388ea3e95e/json_np-0.0.3.tar.gz
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: Downloading https://files.pythonhosted.org/packages/fe/77/65399c73b105c7d56353eddecc4675c3a74f8e5f9f41ab3b68388ea3e95e/json_np-0.0.3.tar.gz
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: Downloading https://files.pythonhosted.org/packages/fe/77/65399c73b105c7d56353eddecc4675c3a74f8e5f9f41ab3b68388ea3e95e/json_np-0.0.3.tar.gz
+[2023-05-30 04:16:01] INFO root fetch - processPackages [elm-messenger]: Downloading https://files.pythonhosted.org/packages/fe/83/30f6b6ffdb8dfaf7957fe028094910e9db936f66a03bfeff64d62bf15538/elm-messenger-0.2.4.tar.gz
+[2023-05-30 04:16:01] INFO root fetch - processPackages [toolbox-utils]: Downloading https://files.pythonhosted.org/packages/cd/cb/c8741a8a323360224fd9d0d6f358c5008b921eb43ee20d2b6ee9ef1584bc/toolbox_utils-3.0.5.tar.gz
+[2023-05-30 04:16:01] INFO root fetch - processPackages [pytlgateway]: executing diffoscope
+[2023-05-30 04:16:01] INFO root fetch - processPackages [pytlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytlgateway-0.2.8.tar.gz tmp/pytlgateway-0.2.9.tar.gz --markdown 20230530/p/pytlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 04:16:01] WARNING root fetch - processPackages [toolbox-utils]: Skipping package: exceeds size limit 17726803>=10485760
+[2023-05-30 04:16:01] INFO root fetch - main [MainThread]: End processing [toolbox-utils] error
+[2023-05-30 04:16:01] INFO root fetch - processPackages [tlgateway]: executing diffoscope
+[2023-05-30 04:16:01] INFO root fetch - processPackages [tlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlgateway-0.2.8.tar.gz tmp/tlgateway-0.2.9.tar.gz --markdown 20230530/t/tlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-30 04:16:01] INFO root fetch - processPackages [variant]: executing diffoscope
+[2023-05-30 04:16:01] INFO root fetch - processPackages [variant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variant-0.0.8.tar.gz tmp/variant-0.0.9.tar.gz --markdown 20230530/v/variant/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 04:16:01] INFO root fetch - processPackages [elm-messenger]: executing diffoscope
+[2023-05-30 04:16:01] INFO root fetch - processPackages [elm-messenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elm-messenger-0.2.3.tar.gz tmp/elm-messenger-0.2.4.tar.gz --markdown 20230530/e/elm-messenger/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: Downloading https://files.pythonhosted.org/packages/2f/3f/80bb67d8f6a336a11fc9b08091cc8b88e0cf61ae31c1c3a7d8106b48162e/json_np-0.0.4.tar.gz
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: Downloading https://files.pythonhosted.org/packages/2f/3f/80bb67d8f6a336a11fc9b08091cc8b88e0cf61ae31c1c3a7d8106b48162e/json_np-0.0.4.tar.gz
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: Downloading https://files.pythonhosted.org/packages/2f/3f/80bb67d8f6a336a11fc9b08091cc8b88e0cf61ae31c1c3a7d8106b48162e/json_np-0.0.4.tar.gz
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: Downloading https://files.pythonhosted.org/packages/2f/3f/80bb67d8f6a336a11fc9b08091cc8b88e0cf61ae31c1c3a7d8106b48162e/json_np-0.0.4.tar.gz
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: executing diffoscope
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_np-0.0.3.tar.gz tmp/json_np-0.0.4.tar.gz --markdown 20230530/j/json-np/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: executing diffoscope
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_np-0.0.3.tar.gz tmp/json_np-0.0.4.tar.gz --markdown 20230530/j/json-np/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: executing diffoscope
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: executing diffoscope
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_np-0.0.3.tar.gz tmp/json_np-0.0.4.tar.gz --markdown 20230530/j/json-np/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 04:16:01] INFO root fetch - processPackages [json-np]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_np-0.0.3.tar.gz tmp/json_np-0.0.4.tar.gz --markdown 20230530/j/json-np/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-30 04:16:02] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-05-30 04:16:03] INFO root fetch - main [MainThread]: End processing [pytlgateway]: success
+[2023-05-30 04:16:03] INFO root fetch - main [MainThread]: End processing [variant]: success
+[2023-05-30 04:16:03] INFO root fetch - main [MainThread]: End processing [tlgateway]: success
+[2023-05-30 04:16:03] INFO root fetch - main [MainThread]: End processing [elm-messenger]: success
+[2023-05-30 04:16:03] INFO root fetch - main [MainThread]: End processing [json-np]: success
+[2023-05-30 04:16:03] INFO root fetch - main [MainThread]: End processing [json-np]: success
+[2023-05-30 04:16:03] INFO root fetch - main [MainThread]: End processing [json-np]: success
+[2023-05-30 04:16:03] INFO root fetch - main [MainThread]: End processing [json-np]: success
+[2023-05-30 04:16:03] INFO root fetch - main [MainThread]: Store serial: [18296985]
