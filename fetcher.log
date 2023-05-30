@@ -20009,3 +20009,138 @@ EOFError: EOF read where object expected
 [2023-05-30 21:14:12] INFO root fetch - main [MainThread]: End processing [python-omnilogic-local]: success
 [2023-05-30 21:14:13] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-05-30 21:14:13] INFO root fetch - main [MainThread]: Store serial: [18306571]
+[2023-05-30 21:19:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18306571]
+[2023-05-30 21:19:22] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-30 21:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansible
+[2023-05-30 21:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TDSPy
+[2023-05-30 21:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spectacles
+[2023-05-30 21:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eodc-faas-force
+[2023-05-30 21:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xobjects
+[2023-05-30 21:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TDSLib
+[2023-05-30 21:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oci-cli
+[2023-05-30 21:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PikhtovSerLib
+[2023-05-30 21:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PikhtovSerLib
+[2023-05-30 21:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AIPrompts
+[2023-05-30 21:19:22] INFO root fetch - processPackages [TDSPy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 21:19:22] INFO root fetch - processPackages [PikhtovSerLib]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 21:19:22] INFO root fetch - processPackages [eodc-faas-force]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-05-30 21:19:22] INFO root fetch - processPackages [PikhtovSerLib]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-30 21:19:22] INFO root fetch - processPackages [TDSLib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 21:19:22] INFO root fetch - processPackages [AIPrompts]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-30 21:19:22] INFO root fetch - processPackages [spectacles]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-30 21:19:22] INFO root fetch - processPackages [xobjects]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-30 21:19:22] INFO root fetch - processPackages [ansible]: New version: [8.0.0rc1] Old Version: [8.0.0b1]
+[2023-05-30 21:19:22] INFO root fetch - processPackages [oci-cli]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-30 21:19:22] INFO root fetch - processPackages [PikhtovSerLib]: Downloading https://files.pythonhosted.org/packages/dd/47/b40fcf3fb7328424fea403e6a24694291de588120fdc49aa58151afb63a3/PikhtovSerLib-0.1.1.tar.gz
+[2023-05-30 21:19:23] INFO root fetch - processPackages [PikhtovSerLib]: Downloading https://files.pythonhosted.org/packages/dd/47/b40fcf3fb7328424fea403e6a24694291de588120fdc49aa58151afb63a3/PikhtovSerLib-0.1.1.tar.gz
+[2023-05-30 21:19:23] INFO root fetch - processPackages [TDSPy]: Downloading https://files.pythonhosted.org/packages/66/16/14ec226462f186f452649e7bc35f20995ee76fa393e0a9bfb0216f588142/tdspy-0.0.1.tar.gz
+[2023-05-30 21:19:23] INFO root fetch - processPackages [TDSLib]: Downloading https://files.pythonhosted.org/packages/be/6d/640a84e9cbfa9f5a1574b5f4d3198150e107898c10c7a6e8b3514aab8b09/tdslib-0.0.1.tar.gz
+[2023-05-30 21:19:23] INFO root fetch - processPackages [xobjects]: Downloading https://files.pythonhosted.org/packages/bc/a5/893b725750bb0a2bbae18f2ec2415d7c0771ed98fcb76cd8568068c86a5f/xobjects-0.2.4.tar.gz
+[2023-05-30 21:19:23] INFO root fetch - processPackages [ansible]: Downloading https://files.pythonhosted.org/packages/21/26/2b317a434ee561bf9495c7c7b461c2773ab6f7d0c427a19e2538592770af/ansible-8.0.0b1.tar.gz
+[2023-05-30 21:19:23] WARNING root fetch - processPackages [ansible]: Skipping package: exceeds size limit 36197053>=10485760
+[2023-05-30 21:19:23] INFO root fetch - processPackages [ansible]: Start processing: podsearchmp
+[2023-05-30 21:19:23] INFO root fetch - main [MainThread]: End processing [ansible] error
+[2023-05-30 21:19:23] INFO root fetch - processPackages [podsearchmp]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-30 21:19:23] INFO root fetch - processPackages [AIPrompts]: Downloading https://files.pythonhosted.org/packages/dd/dd/2f32ffa32c9960e51db4e3f4bf8e9c6d62a1e192162a0fffb718373459aa/AIPrompts-0.5.1.tar.gz
+[2023-05-30 21:19:23] INFO root fetch - processPackages [PikhtovSerLib]: Downloading https://files.pythonhosted.org/packages/aa/de/6aa6df11247818b1fdcc62752a3b0fefe8fe7e018577a8e0919680508075/PikhtovSerLib-0.1.2.tar.gz
+[2023-05-30 21:19:23] INFO root fetch - processPackages [PikhtovSerLib]: Downloading https://files.pythonhosted.org/packages/aa/de/6aa6df11247818b1fdcc62752a3b0fefe8fe7e018577a8e0919680508075/PikhtovSerLib-0.1.2.tar.gz
+[2023-05-30 21:19:23] INFO root fetch - processPackages [TDSLib]: Downloading https://files.pythonhosted.org/packages/75/cb/1659be1d12d0fc085325e134249fd60711feab37ac34ed64be50982e21ba/tdslib-0.0.2.tar.gz
+[2023-05-30 21:19:23] INFO root fetch - processPackages [eodc-faas-force]: Downloading https://files.pythonhosted.org/packages/43/9e/5a8a8e70be1576c34c77f72befeb88c2309fd4fedbebdffb650f7da19eab/eodc_faas_force-2023.5.3.tar.gz
+[2023-05-30 21:19:23] INFO root fetch - processPackages [oci-cli]: executing diffoscope
+[2023-05-30 21:19:23] INFO root fetch - processPackages [oci-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-cli-3.9.0.tar.gz tmp/oci-cli-3.9.1.tar.gz --markdown 20230530/o/oci-cli/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-30 21:19:23] INFO root fetch - processPackages [TDSPy]: Downloading https://files.pythonhosted.org/packages/13/68/0d6a6d2220c1c8c82276c856feb1ba88cbf11985a176e304f9a906708a4f/tdspy-0.0.2.tar.gz
+[2023-05-30 21:19:23] INFO root fetch - processPackages [spectacles]: executing diffoscope
+[2023-05-30 21:19:23] INFO root fetch - processPackages [spectacles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectacles-2.3.8.tar.gz tmp/spectacles-2.3.9.tar.gz --markdown 20230530/s/spectacles/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-30 21:19:23] INFO root fetch - processPackages [AIPrompts]: executing diffoscope
+[2023-05-30 21:19:23] INFO root fetch - processPackages [AIPrompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIPrompts-0.5.0.tar.gz tmp/AIPrompts-0.5.1.tar.gz --markdown 20230530/A/AIPrompts/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-30 21:19:23] INFO root fetch - processPackages [xobjects]: Downloading https://files.pythonhosted.org/packages/4d/75/49afa8087e61c657b02c3380fa996b77661e3742fe5996bbf12d98fbcdf9/xobjects-0.2.5.tar.gz
+[2023-05-30 21:19:23] INFO root fetch - processPackages [PikhtovSerLib]: executing diffoscope
+[2023-05-30 21:19:23] INFO root fetch - processPackages [PikhtovSerLib]: executing diffoscope
+[2023-05-30 21:19:23] INFO root fetch - processPackages [PikhtovSerLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PikhtovSerLib-0.1.1.tar.gz tmp/PikhtovSerLib-0.1.2.tar.gz --markdown 20230530/P/PikhtovSerLib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 21:19:23] INFO root fetch - processPackages [PikhtovSerLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PikhtovSerLib-0.1.1.tar.gz tmp/PikhtovSerLib-0.1.2.tar.gz --markdown 20230530/P/PikhtovSerLib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-30 21:19:23] INFO root fetch - processPackages [TDSLib]: executing diffoscope
+[2023-05-30 21:19:23] INFO root fetch - processPackages [TDSLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdslib-0.0.1.tar.gz tmp/tdslib-0.0.2.tar.gz --markdown 20230530/T/TDSLib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 21:19:23] INFO root fetch - processPackages [eodc-faas-force]: executing diffoscope
+[2023-05-30 21:19:23] INFO root fetch - processPackages [eodc-faas-force]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_force-2023.5.2.tar.gz tmp/eodc_faas_force-2023.5.3.tar.gz --markdown 20230530/e/eodc-faas-force/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-05-30 21:19:23] INFO root fetch - processPackages [TDSPy]: executing diffoscope
+[2023-05-30 21:19:23] INFO root fetch - processPackages [TDSPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdspy-0.0.1.tar.gz tmp/tdspy-0.0.2.tar.gz --markdown 20230530/T/TDSPy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 21:19:23] INFO root fetch - processPackages [xobjects]: executing diffoscope
+[2023-05-30 21:19:23] INFO root fetch - processPackages [xobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xobjects-0.2.4.tar.gz tmp/xobjects-0.2.5.tar.gz --markdown 20230530/x/xobjects/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-30 21:19:23] INFO root fetch - processPackages [podsearchmp]: Downloading https://files.pythonhosted.org/packages/f1/96/a770c1ab5c6b30ebd1535050dadf5ef73abf37b5ab2ac5da9b30671e76b3/podsearchmp-0.1.4.tar.gz
+[2023-05-30 21:19:23] INFO root fetch - processPackages [podsearchmp]: executing diffoscope
+[2023-05-30 21:19:23] INFO root fetch - processPackages [podsearchmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podsearchmp-0.1.3.tar.gz tmp/podsearchmp-0.1.4.tar.gz --markdown 20230530/p/podsearchmp/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-30 21:19:25] INFO root fetch - processPackages [AIPrompts]: Start processing: echostream-node
+[2023-05-30 21:19:25] INFO root fetch - main [MainThread]: End processing [AIPrompts]: success
+[2023-05-30 21:19:25] INFO root fetch - processPackages [echostream-node]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-30 21:19:25] INFO root fetch - processPackages [echostream-node]: executing diffoscope
+[2023-05-30 21:19:25] INFO root fetch - processPackages [echostream-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echostream-node-0.3.8.tar.gz tmp/echostream-node-0.3.9.tar.gz --markdown 20230530/e/echostream-node/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-30 21:19:25] INFO root fetch - processPackages [TDSLib]: Start processing: uh-custom-logger
+[2023-05-30 21:19:25] INFO root fetch - main [MainThread]: End processing [TDSLib]: success
+[2023-05-30 21:19:25] INFO root fetch - processPackages [uh-custom-logger]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 21:19:25] INFO root fetch - processPackages [spectacles]: Start processing: uh-custom-logger
+[2023-05-30 21:19:25] INFO root fetch - main [MainThread]: End processing [spectacles]: success
+[2023-05-30 21:19:25] INFO root fetch - processPackages [uh-custom-logger]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-30 21:19:25] INFO root fetch - processPackages [PikhtovSerLib]: Start processing: cyberdrop-dl
+[2023-05-30 21:19:25] INFO root fetch - main [MainThread]: End processing [PikhtovSerLib]: success
+[2023-05-30 21:19:25] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.56] Old Version: [4.2.55]
+[2023-05-30 21:19:25] INFO root fetch - processPackages [eodc-faas-force]: Start processing: spm12
+[2023-05-30 21:19:25] INFO root fetch - main [MainThread]: End processing [eodc-faas-force]: success
+[2023-05-30 21:19:25] INFO root fetch - processPackages [uh-custom-logger]: Downloading https://files.pythonhosted.org/packages/73/06/cd0bb325e58d52ab55d41ce63ad6a075199cb708ef050d942e55299963eb/uh_custom_logger-0.0.1.tar.gz
+[2023-05-30 21:19:25] INFO root fetch - processPackages [uh-custom-logger]: Downloading https://files.pythonhosted.org/packages/73/06/cd0bb325e58d52ab55d41ce63ad6a075199cb708ef050d942e55299963eb/uh_custom_logger-0.0.1.tar.gz
+[2023-05-30 21:19:25] INFO root fetch - processPackages [PikhtovSerLib]: Start processing: squad
+[2023-05-30 21:19:25] INFO root fetch - main [MainThread]: End processing [PikhtovSerLib]: success
+[2023-05-30 21:19:25] INFO root fetch - processPackages [spm12]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-30 21:19:26] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/57/86/ea25e2c3eff22b6eefb1acf13741c5e655cdd6d8a8b433b660b523af8a70/cyberdrop-dl-4.2.56.tar.gz
+[2023-05-30 21:19:26] INFO root fetch - processPackages [squad]: New version: [1.9.1] Old Version: [1.9]
+[2023-05-30 21:19:26] INFO root fetch - processPackages [spm12]: Downloading https://files.pythonhosted.org/packages/20/ca/af27214907cf7882d9bb732ee488123c16d0d00f849eb9a2b4414e0ff2e1/spm12-2.0.0-py2.py3-none-any.whl
+[2023-05-30 21:19:26] INFO root fetch - processPackages [uh-custom-logger]: Downloading https://files.pythonhosted.org/packages/c4/72/29a5e85084ff9d7d759dbfbad99241f17a56f19f5dd72b948d8addbef311/uh_custom_logger-0.0.2.tar.gz
+[2023-05-30 21:19:26] INFO root fetch - processPackages [uh-custom-logger]: Downloading https://files.pythonhosted.org/packages/c4/72/29a5e85084ff9d7d759dbfbad99241f17a56f19f5dd72b948d8addbef311/uh_custom_logger-0.0.2.tar.gz
+[2023-05-30 21:19:26] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-30 21:19:26] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.55.tar.gz tmp/cyberdrop-dl-4.2.56.tar.gz --markdown 20230530/c/cyberdrop-dl/4.2.55-4.2.56/diff.md --exclude *.pyd
+[2023-05-30 21:19:26] INFO root fetch - processPackages [squad]: Downloading https://files.pythonhosted.org/packages/e7/c5/4ebc012c8f9501e48239de63569fd702d8217ce910f3322dcbd477380846/squad-1.9.tar.gz
+[2023-05-30 21:19:26] INFO root fetch - processPackages [uh-custom-logger]: executing diffoscope
+[2023-05-30 21:19:26] INFO root fetch - processPackages [uh-custom-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uh_custom_logger-0.0.1.tar.gz tmp/uh_custom_logger-0.0.2.tar.gz --markdown 20230530/u/uh-custom-logger/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 21:19:26] INFO root fetch - processPackages [uh-custom-logger]: executing diffoscope
+[2023-05-30 21:19:26] INFO root fetch - processPackages [uh-custom-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uh_custom_logger-0.0.1.tar.gz tmp/uh_custom_logger-0.0.2.tar.gz --markdown 20230530/u/uh-custom-logger/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-30 21:19:26] INFO root fetch - processPackages [TDSPy]: Start processing: xpart
+[2023-05-30 21:19:26] INFO root fetch - main [MainThread]: End processing [TDSPy]: success
+[2023-05-30 21:19:26] INFO root fetch - processPackages [spm12]: Downloading https://files.pythonhosted.org/packages/1c/09/3049071625ac8e5717b68204c92250309ffcbddd515b5ff21030ab1c7cc7/spm12-2.1.0-py3-none-any.whl
+[2023-05-30 21:19:26] INFO root fetch - processPackages [podsearchmp]: Start processing: lifeguard-telegram
+[2023-05-30 21:19:26] INFO root fetch - main [MainThread]: End processing [podsearchmp]: success
+[2023-05-30 21:19:26] INFO root fetch - processPackages [xobjects]: Start processing: hata
+[2023-05-30 21:19:26] INFO root fetch - main [MainThread]: End processing [xobjects]: success
+[2023-05-30 21:19:26] INFO root fetch - processPackages [spm12]: executing diffoscope
+[2023-05-30 21:19:26] INFO root fetch - processPackages [spm12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spm12-2.0.0-py2.py3-none-any.whl.zip tmp/spm12-2.1.0-py3-none-any.whl.zip --markdown 20230530/s/spm12/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-30 21:19:26] INFO root fetch - processPackages [xpart]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-30 21:19:26] INFO root fetch - processPackages [lifeguard-telegram]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-30 21:19:26] INFO root fetch - processPackages [hata]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-30 21:19:26] INFO root fetch - processPackages [xpart]: Downloading https://files.pythonhosted.org/packages/45/9a/44a870df04c746957f83128255e7ec5a7809a178bbe6842295dbfa76475d/xpart-0.9.2.tar.gz
+[2023-05-30 21:19:26] INFO root fetch - processPackages [lifeguard-telegram]: Downloading https://files.pythonhosted.org/packages/4e/d4/0d280b63ce517887be7d94d5687f119ef20399b3b263df16cff900615cdd/lifeguard-telegram-1.1.0.tar.gz
+[2023-05-30 21:19:27] INFO root fetch - processPackages [hata]: executing diffoscope
+[2023-05-30 21:19:27] INFO root fetch - processPackages [hata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hata-1.3.8.tar.gz tmp/hata-1.3.9.tar.gz --markdown 20230530/h/hata/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-30 21:19:27] INFO root fetch - processPackages [lifeguard-telegram]: executing diffoscope
+[2023-05-30 21:19:27] INFO root fetch - processPackages [lifeguard-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifeguard-telegram-1.0.0.tar.gz tmp/lifeguard-telegram-1.1.0.tar.gz --markdown 20230530/l/lifeguard-telegram/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-30 21:19:27] INFO root fetch - processPackages [xpart]: Downloading https://files.pythonhosted.org/packages/f6/d0/566ee9ad0e3d6ac9b9558d25816734b3fce476c9907cc04cd501da1072a3/xpart-0.9.3.tar.gz
+[2023-05-30 21:19:27] INFO root fetch - processPackages [xpart]: executing diffoscope
+[2023-05-30 21:19:27] INFO root fetch - processPackages [xpart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpart-0.9.2.tar.gz tmp/xpart-0.9.3.tar.gz --markdown 20230530/x/xpart/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-30 21:19:27] INFO root fetch - processPackages [echostream-node]: Start processing: serializer-Konchik
+[2023-05-30 21:19:27] INFO root fetch - main [MainThread]: End processing [echostream-node]: success
+[2023-05-30 21:19:28] INFO root fetch - processPackages [serializer-Konchik]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-30 21:19:28] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-30 21:19:28] INFO root fetch - main [MainThread]: End processing [uh-custom-logger]: success
+[2023-05-30 21:19:28] INFO root fetch - processPackages [serializer-Konchik]: Downloading https://files.pythonhosted.org/packages/08/aa/d5784856bfd169655bb258f68429a64976ca72b0d7a96602437e49a859dd/serializer_Konchik-0.1.8.tar.gz
+[2023-05-30 21:19:28] INFO root fetch - main [MainThread]: End processing [uh-custom-logger]: success
+[2023-05-30 21:19:28] INFO root fetch - main [MainThread]: End processing [spm12]: success
+[2023-05-30 21:19:28] INFO root fetch - processPackages [serializer-Konchik]: executing diffoscope
+[2023-05-30 21:19:28] INFO root fetch - processPackages [serializer-Konchik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serializer_Konchik-0.1.7.tar.gz tmp/serializer_Konchik-0.1.8.tar.gz --markdown 20230530/s/serializer-Konchik/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-30 21:19:29] INFO root fetch - main [MainThread]: End processing [lifeguard-telegram]: success
+[2023-05-30 21:19:29] INFO root fetch - main [MainThread]: End processing [xpart]: success
+[2023-05-30 21:19:29] INFO root fetch - processPackages [squad]: Downloading https://files.pythonhosted.org/packages/a8/70/fe867bc2a05812b55449b7c1d1d096eca84a025a57fc6c8a6c82ee05d7ed/squad-1.9.1.tar.gz
+[2023-05-30 21:19:30] INFO root fetch - main [MainThread]: End processing [serializer-Konchik]: success
+[2023-05-30 21:19:31] INFO root fetch - processPackages [squad]: executing diffoscope
+[2023-05-30 21:19:31] INFO root fetch - processPackages [squad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squad-1.9.tar.gz tmp/squad-1.9.1.tar.gz --markdown 20230530/s/squad/1.9-1.9.1/diff.md --exclude *.pyd
+[2023-05-30 21:19:33] INFO root fetch - main [MainThread]: End processing [hata]: success
+[2023-05-30 21:21:07] INFO root fetch - main [MainThread]: End processing [squad]: success
+[2023-05-30 21:22:23] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
+[2023-05-30 21:22:23] INFO root fetch - main [MainThread]: End processing [oci-cli] error
+[2023-05-30 21:22:23] INFO root fetch - main [MainThread]: Store serial: [18306647]
