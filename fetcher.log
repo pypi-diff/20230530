@@ -5502,3 +5502,46 @@
 [2023-05-30 06:49:07] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
 [2023-05-30 06:49:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-promotion]: success
 [2023-05-30 06:49:07] INFO root fetch - main [MainThread]: Store serial: [18297866]
+[2023-05-30 06:54:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18297866]
+[2023-05-30 06:54:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-30 06:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mysql-oop
+[2023-05-30 06:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycafe24
+[2023-05-30 06:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rembg
+[2023-05-30 06:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: documentdataextraction
+[2023-05-30 06:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fgo-api-types
+[2023-05-30 06:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Accuinsight
+[2023-05-30 06:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rtvc
+[2023-05-30 06:54:16] INFO root fetch - processPackages [pycafe24]: New version: [1.9] Old Version: [1.8]
+[2023-05-30 06:54:16] INFO root fetch - processPackages [mysql-oop]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-30 06:54:16] INFO root fetch - processPackages [Accuinsight]: New version: [3.4.230530] Old Version: [3.4.230516rc1]
+[2023-05-30 06:54:16] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-30 06:54:16] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.5.30.4.51.47] Old Version: [2023.5.3.17.28.2]
+[2023-05-30 06:54:16] INFO root fetch - processPackages [rembg]: New version: [2.0.39] Old Version: [2.0.38]
+[2023-05-30 06:54:16] INFO root fetch - processPackages [rtvc]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-30 06:54:16] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-05-30 06:54:16] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230530/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-30 06:54:16] INFO root fetch - processPackages [Accuinsight]: executing diffoscope
+[2023-05-30 06:54:16] INFO root fetch - processPackages [Accuinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Accuinsight-3.4.230516rc1.tar.gz tmp/Accuinsight-3.4.230530.tar.gz --markdown 20230530/A/Accuinsight/3.4.230516rc1-3.4.230530/diff.md --exclude *.pyd
+[2023-05-30 06:54:16] INFO root fetch - processPackages [mysql-oop]: Downloading https://files.pythonhosted.org/packages/40/bf/53e53a475d5cac2d7bf653a6ef4c7854d2264516fd9163214824245c03ad/mysql-oop-0.1.2.tar.gz
+[2023-05-30 06:54:16] INFO root fetch - processPackages [pycafe24]: executing diffoscope
+[2023-05-30 06:54:16] INFO root fetch - processPackages [pycafe24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycafe24-1.8.tar.gz tmp/pycafe24-1.9.tar.gz --markdown 20230530/p/pycafe24/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-30 06:54:16] INFO root fetch - processPackages [rembg]: Downloading https://files.pythonhosted.org/packages/88/57/d861bb534113e92b7119c40ab817440fa1432547e89d52e79428929c71c4/rembg-2.0.39.tar.gz
+[2023-05-30 06:54:16] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/a9/81/59dde0f15ad1103a77916b6d5955e018303f876904dce2cf582b0043f0bc/fgo_api_types-2023.5.30.4.51.47.tar.gz
+[2023-05-30 06:54:16] INFO root fetch - processPackages [rtvc]: Downloading https://files.pythonhosted.org/packages/cc/f5/cfb45e4cfa522d5fe892b2472acea702a9108dcbb15351ba7d17190b472c/rtvc-0.2.0.tar.gz
+[2023-05-30 06:54:16] INFO root fetch - processPackages [mysql-oop]: Downloading https://files.pythonhosted.org/packages/36/b2/90d4c4d0076cb92fccfc00ede77a1b119066936bdb20251172d057074dba/mysql-oop-0.1.3.tar.gz
+[2023-05-30 06:54:16] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-05-30 06:54:16] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.5.3.17.28.2.tar.gz tmp/fgo_api_types-2023.5.30.4.51.47.tar.gz --markdown 20230530/f/fgo-api-types/2023.5.3.17.28.2-2023.5.30.4.51.47/diff.md --exclude *.pyd
+[2023-05-30 06:54:16] INFO root fetch - processPackages [rembg]: executing diffoscope
+[2023-05-30 06:54:16] INFO root fetch - processPackages [rembg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rembg-2.0.38.tar.gz tmp/rembg-2.0.39.tar.gz --markdown 20230530/r/rembg/2.0.38-2.0.39/diff.md --exclude *.pyd
+[2023-05-30 06:54:16] INFO root fetch - processPackages [rtvc]: executing diffoscope
+[2023-05-30 06:54:16] INFO root fetch - processPackages [rtvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtvc-0.1.1.tar.gz tmp/rtvc-0.2.0.tar.gz --markdown 20230530/r/rtvc/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-30 06:54:16] INFO root fetch - processPackages [mysql-oop]: executing diffoscope
+[2023-05-30 06:54:16] INFO root fetch - processPackages [mysql-oop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230530:/home/abi/fetcher/20230530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-oop-0.1.2.tar.gz tmp/mysql-oop-0.1.3.tar.gz --markdown 20230530/m/mysql-oop/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-30 06:54:17] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-05-30 06:54:18] INFO root fetch - main [MainThread]: End processing [pycafe24]: success
+[2023-05-30 06:54:18] INFO root fetch - main [MainThread]: End processing [rtvc]: success
+[2023-05-30 06:54:18] INFO root fetch - main [MainThread]: End processing [Accuinsight]: success
+[2023-05-30 06:54:18] INFO root fetch - main [MainThread]: End processing [mysql-oop]: success
+[2023-05-30 06:54:18] INFO root fetch - main [MainThread]: End processing [rembg]: success
+[2023-05-30 06:54:19] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-05-30 06:54:19] INFO root fetch - main [MainThread]: Store serial: [18297885]
